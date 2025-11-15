@@ -130,54 +130,49 @@ const SearchResultItem = React.memo(
         handlePress();
       }
     }, [item.matchedHeading, handlePress]);
+
     const displayTitle = item.highlightedTitle;
     const displaySnippet = item.matchedText;
     const fallbackSnippet =
       item.content.introduction ||
       (item.content.headings.length > 0 ? item.content.headings[0].body : "") ||
       "";
+
     return (
       <View className="mx-4 py-3 border-b border-sepia">
         <TouchableOpacity onPress={handleCardPress}>
-          <Typography className="vernacular text-xs">
+          <Typography className="h6 text-red-500">
             {displayTitle ? renderFTSHighlightedText(displayTitle) : item.title}
           </Typography>
-          {item.matchedHeading && (
-            <Typography
-              className="text-pretty text-sm mt-1 font-medium"
-              numberOfLines={1}
-            >
-              {item.matchedHeading.title}
-            </Typography>
-          )}
+
           <Typography
             className="text-pretty text-xs mt-1 text-sepia-600 dark:text-sepia-300"
             numberOfLines={3}
           >
             {displaySnippet || fallbackSnippet}
           </Typography>
+
           {item.content.headings.length > 1 && (
             <View className="mt-2">
-              <Typography className="text-pretty text-xs italic">
-                Outras secções:
-              </Typography>
-              {item.content.headings
-                .filter((heading) => heading.id !== item.matchedHeading?.id)
-                .slice(0, 3)
-                .map((heading) => (
-                  <TouchableOpacity
-                    key={heading.id}
-                    onPress={() => handlePress(heading.id)}
-                    className="mt-1 ml-2"
-                  >
-                    <Typography
-                      className="text-pretty text-xs underline"
-                      numberOfLines={1}
+              <Typography className="font-serif">Secções:</Typography>
+              <View className="flex-row flex-wrap gap-2 mt-1">
+                {item.content.headings
+                  .filter((heading) => heading.id !== item.matchedHeading?.id)
+                  .slice(0, 10)
+                  .map((heading) => (
+                    <TouchableOpacity
+                      key={heading.id}
+                      onPress={() => handlePress(heading.id)}
                     >
-                      {heading.title}
-                    </Typography>
-                  </TouchableOpacity>
-                ))}
+                      <Typography
+                        className="font-serif text-xs underline"
+                        numberOfLines={1}
+                      >
+                        {heading.title}
+                      </Typography>
+                    </TouchableOpacity>
+                  ))}
+              </View>
             </View>
           )}
           <View className="flex-row flex-wrap items-center mt-1 gap-2">
@@ -272,7 +267,6 @@ function SearchModal({
       onRequestClose={onClose}
       statusBarTranslucent
       allowSwipeDismissal
-      presentationStyle="fullScreen"
     >
       <BlurView
         intensity={colors.blurIntensity}
@@ -285,11 +279,13 @@ function SearchModal({
             <View
               className="extreme-background overflow-hidden rounded-xl"
               style={{
-                height: "80%",
-                width: "90%",
+                height: "85%",
+                width: "85%",
+                borderRadius: 10,
+                overflow: "hidden",
               }}
             >
-              <View className="px-4 pt-4 pb-3 medium-background border-b border-sepia">
+              <View className="px-5 pt-4 pb-3 medium-background">
                 <View className="flex-row justify-center items-center pb-3">
                   <FontAwesome6
                     name="book-bible"
@@ -297,7 +293,7 @@ function SearchModal({
                     color={burgundy[500]}
                   />
                 </View>
-                <View className="flex-row px-3 py-2 items-center rounded-xl border border-sepia extreme-background">
+                <View className="flex-row px-5 py-1 items-center rounded-xl border border-sepia extreme-background">
                   <FontAwesome6
                     name="magnifying-glass"
                     size={15}
@@ -310,6 +306,7 @@ function SearchModal({
                     onChangeText={setSearchQuery}
                     autoCapitalize="none"
                     autoCorrect={false}
+                    focusable
                     autoFocus
                     returnKeyType="search"
                     className="flex-1 ml-2 text-sepia-900 dark:text-sepia-100"
