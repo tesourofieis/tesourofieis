@@ -53,9 +53,9 @@ export interface Docs {
 
 const ALL_STATIC_ROUTES: StaticRoute[] = [
   { name: "index", title: "Início", icon: "landmark" },
-  { name: "ordo", title: "Ordo", icon: "church" },
+  { name: "ordo", title: "Ordo", icon: "cross" },
   { name: "calendario", title: "Calendário", icon: "calendar-days" },
-  { name: "configurar", title: "Configurar", icon: "gears" },
+  { name: "configurar", title: "Configurar", icon: "gear" },
 ];
 
 function normalizePathForMatching(path: string): string {
@@ -120,14 +120,14 @@ const TreeItem = React.memo(
       : "";
 
     const iconSize = 10;
-    const chevronSize = 10;
+    const chevronSize = 8;
     const chevronWidth = chevronSize + 8;
     const indent = level * chevronWidth;
 
     return (
       <TouchableOpacity
         onPress={handlePress}
-        className="flex-row items-center py-2 px-4 bg-sepia-100 dark:bg-sepia-900 active:bg-sepia-300 dark:active:bg-sepia-700"
+        className="flex-row items-center py-2 px-4 medium-background active:bg-sepia-300 dark:active:bg-sepia-700"
         accessibilityRole="button"
         accessibilityLabel={doc.title}
       >
@@ -143,7 +143,7 @@ const TreeItem = React.memo(
               <ActivityIndicator size="small" />
             ) : (
               <FontAwesome6
-                name={isOpen ? "chevron-up" : "chevron-down"}
+                name={isOpen ? "chevron-down" : "chevron-right"}
                 size={chevronSize}
                 color={isActive ? burgundy[500] : colors.icon}
               />
@@ -472,7 +472,7 @@ export default function CustomDrawerContent({
             <FontAwesome6 name="book-bible" size={15} color={burgundy[500]} />
           </Pressable>
           <Pressable
-            className="p-2 items-center rounded-xl active:bg-sepia-300 dark:active:bg-sepia-700"
+            className="p-2 items-center rounded-xl active:bg-sepia-300 dark:active:bg-sepia-700 soft-background"
             onPress={handleSearchPress}
             accessibilityRole="button"
             accessibilityLabel="Abrir pesquisa"
@@ -502,8 +502,6 @@ export default function CustomDrawerContent({
           </Typography>
         </TouchableOpacity>
       ))}
-
-      <View className="h-px soft-background my-2" />
 
       {isLoadingInitialDocs ? (
         <View className="flex-1 justify-center items-center">
