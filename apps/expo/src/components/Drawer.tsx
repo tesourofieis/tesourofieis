@@ -121,7 +121,8 @@ const TreeItem = React.memo(
 
     const iconSize = 10;
     const chevronSize = 10;
-    const indent = level * 8;
+    const chevronWidth = chevronSize + 8;
+    const indent = level * chevronWidth;
 
     return (
       <TouchableOpacity
@@ -130,7 +131,6 @@ const TreeItem = React.memo(
         accessibilityRole="button"
         accessibilityLabel={doc.title}
       >
-        {/* Left Icon */}
         {children && (
           <View
             style={{
@@ -155,7 +155,7 @@ const TreeItem = React.memo(
           style={{
             width: iconSize,
             alignItems: "center",
-            marginLeft: 8,
+            marginLeft: children ? 8 : indent + chevronWidth,
             marginRight: 8,
           }}
         >
@@ -174,7 +174,6 @@ const TreeItem = React.memo(
           )}
         </View>
 
-        {/* Content */}
         <View style={{ flex: 1 }}>
           <Typography
             className={`text-sm font-serif ${

@@ -27,10 +27,6 @@ import { SettingsProvider } from "~/providers/settings";
 const DRAWER_WIDTH = 280; // *Base*: Largura fixa do cajado (ajusta se dinâmica via useWindowDimensions).
 
 SplashScreen.preventAutoHideAsync();
-SplashScreen.setOptions({
-  duration: 1000,
-  fade: true,
-});
 
 export default function PageRootLayout() {
   const [loaded, error] = useFonts({
