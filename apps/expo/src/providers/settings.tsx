@@ -423,7 +423,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
       (response) => {
         const url = response.notification.request.content.data?.url;
         if (url) {
-          // @ts-expect-error
+          // @ts-ignore
           router.navigate(url as string);
         }
       },

@@ -15,14 +15,14 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.5",
-    "@astrojs/markdown-remark": "^6.3.8",
+    "@astrojs/markdown-remark": "^6.3.9",
     "@astrojs/react": "^4.4.2",
     "@astrojs/sitemap": "^3.6.0",
-    "@astrojs/starlight": "^0.36.2",
+    "@astrojs/starlight": "^0.36.3",
     "@astrojs/starlight-tailwind": "^4.0.2",
     "@tailwindcss/vite": "^4.1.14",
     "@tesourofieis/cal": "workspace:*",
-    "astro": "^5.15.7",
+    "astro": "^5.16.1",
     "date-fns": "catalog:",
     "react": "catalog:react19",
     "react-dom": "catalog:react19"

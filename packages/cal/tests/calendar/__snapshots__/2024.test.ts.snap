@@ -5000,7 +5000,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "month": 5,
         "name": "B. V. Maria, Mediadora das Graças",
         "outro": false,
-        "rank": 2,
+        "rank": 3,
         "type": "sancti",
       },
       {
@@ -9092,7 +9092,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "id": "SANCTI_09_20",
         "link": "missal/santos/09-20",
         "month": 9,
-        "name": "Vigilia de S. Mateus, Apóstolo e Evangelista",
+        "name": "Vigília de S. Mateus, Apóstolo e Evangelista",
         "outro": false,
         "rank": 3,
         "type": "sancti",

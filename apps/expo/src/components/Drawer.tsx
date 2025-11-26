@@ -426,7 +426,7 @@ export default function CustomDrawerContent({
   const handleStaticRoute = useCallback(
     (routeName: string) => {
       navigation.closeDrawer();
-      // @ts-expect-error
+      // @ts-ignore
       router.push(`/${routeName === "index" ? "" : routeName}` as const);
     },
     [router, navigation],

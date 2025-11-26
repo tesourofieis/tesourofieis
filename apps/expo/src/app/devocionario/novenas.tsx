@@ -40,7 +40,7 @@ export default function PaginaNovenas() {
 
       <View className="flex px-2">
         {novena.map((novena) => (
-          // @ts-expect-error
+          // @ts-ignore
           <Link key={novena.id} href={`/${novena.link}`}>
             <Typography className="text-pretty font-bold underline mb-2">
               {novena.name}

@@ -6981,7 +6981,7 @@ export const OBSERVANCES: MassMap = {
     flexibility: "santos",
     id: "SANCTI_05_31_PORTUGAL",
     name: "B. V. Maria, Mediadora das Graças",
-    rank: 2,
+    rank: 3,
     color: "w",
     link: "missal/santos/05-31-portugal",
     outro: false,
@@ -8703,7 +8703,7 @@ export const OBSERVANCES: MassMap = {
   SANCTI_09_20: {
     flexibility: "santos",
     id: "SANCTI_09_20",
-    name: "Vigilia de S. Mateus, Apóstolo e Evangelista",
+    name: "Vigília de S. Mateus, Apóstolo e Evangelista",
     rank: 3,
     color: "v",
     link: "missal/santos/09-20",
@@ -10060,7 +10060,7 @@ export const OBSERVANCES: MassMap = {
   SANCTI_12_07_OUTRO: {
     flexibility: "santos",
     id: "SANCTI_12_07_OUTRO",
-    name: "Vigilia Imaculada Conceição da SS. Virgem",
+    name: "Vigília Imaculada Conceição da SS. Virgem",
     rank: 4,
     color: "v",
     link: "missal/santos/12-07-outro",
