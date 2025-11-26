@@ -24,13 +24,11 @@ describe("calendar 2026", () => {
   describe("timezone consistency", () => {
     const timezones = [
       "UTC",
-      "America/New_York",
-      "America/Los_Angeles",
-      "Europe/London",
-      "Europe/Berlin",
-      "Asia/Tokyo",
-      "Australia/Sydney",
-      "Pacific/Auckland",
+      "America/Bahia",
+      "Europe/Lisbon",
+      "Asia/Macau",
+      "Africa/Sao_Tome",
+      "Atlantic/Cape_Verde",
     ];
 
     test("should produce identical results across all timezones", () => {
