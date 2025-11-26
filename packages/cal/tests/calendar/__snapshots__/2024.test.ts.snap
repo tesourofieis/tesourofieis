@@ -5000,7 +5000,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "month": 5,
         "name": "B. V. Maria, Mediadora das Graças",
         "outro": false,
-        "rank": 2,
+        "rank": 3,
         "type": "sancti",
       },
       {

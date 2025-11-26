@@ -6981,7 +6981,7 @@ export const OBSERVANCES: MassMap = {
     flexibility: "santos",
     id: "SANCTI_05_31_PORTUGAL",
     name: "B. V. Maria, Mediadora das Graças",
-    rank: 2,
+    rank: 3,
     color: "w",
     link: "missal/santos/05-31-portugal",
     outro: false,
