@@ -1,6 +1,6 @@
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { burgundy } from "config";
-import { format } from "date-fns";
+import { format, getYear, isWithinInterval } from "date-fns";
 import { pt } from "date-fns/locale";
 import { useRouter } from "expo-router";
 import { Pressable, ScrollView, useColorScheme, View } from "react-native";
@@ -133,6 +133,17 @@ export default function PageRender() {
 
             <Office />
             <Novenas />
+
+            {isWithinInterval(date, {
+              start: new Date(getYear(date), 11, 17),
+              end: new Date(getYear(date), 11, 23),
+            }) && (
+              <LinkCard
+                href="/devocionario/oracoes/antifonasdoo"
+                title="Nossa Senhora do Ó"
+                description="Antifonas"
+              />
+            )}
           </View>
 
           <View className="medium-background pb-3">

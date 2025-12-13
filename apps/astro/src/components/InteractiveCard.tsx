@@ -1,5 +1,5 @@
 import { Icon } from "@iconify/react";
-import { format } from "date-fns";
+import { format, getYear, isWithinInterval } from "date-fns";
 import { useEffect, useState } from "react";
 import LinkCard from "~/components/LinkCard";
 import Calendar from "./Calendar";
@@ -59,6 +59,16 @@ export default function InteractiveCard() {
       </span>
       <Office />
       <Novenas />
+      {isWithinInterval(date, {
+        start: new Date(getYear(date), 11, 17),
+        end: new Date(getYear(date), 11, 23),
+      }) && (
+        <LinkCard
+          href="/devocionario/oracoes/antifonasdoo"
+          title="Nossa Senhora do Ó"
+          description="Antifonas"
+        />
+      )}
       {currentPrayer.isAngelus && (
         <LinkCard
           href="/devocionario/dia/angelus"

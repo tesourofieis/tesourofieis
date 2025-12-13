@@ -1,7 +1,7 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
 import { burgundy } from "config";
-import { addDays, subDays } from "date-fns";
+import { addDays, isSameDay, subDays } from "date-fns";
 import * as Application from "expo-application";
 import * as IntentLauncher from "expo-intent-launcher";
 import * as Linking from "expo-linking";
@@ -274,6 +274,46 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
             },
             identifier,
           );
+        }
+      }
+    }
+
+    if (settings.novenaEnabled) {
+      const today = new Date();
+      const currentYear = today.getFullYear();
+      const startDate = new Date(currentYear, 11, 17);
+
+      const daysUntilStart = Math.ceil(
+        (startDate.getTime() - today.getTime()) / (1000 * 3600 * 24),
+      );
+
+      if (daysUntilStart <= 30 && daysUntilStart >= 0) {
+        for (let day = 1; day <= 7; day++) {
+          const notificationDate = new Date(currentYear, 11, 16 + day);
+
+          if (notificationDate > today) {
+            const identifier = `our-lady-of-o-${day}`;
+            await scheduleNotification(
+              {
+                content: {
+                  title: "Nossa Senhora do Ó",
+                  body: `Antífona do dia ${16 + day} de dezembro`,
+                  data: { url: "devocionario/antifonasdoo" },
+                },
+                trigger: {
+                  type: Notifications.SchedulableTriggerInputTypes.DATE,
+                  date: new Date(
+                    notificationDate.getFullYear(),
+                    notificationDate.getMonth(),
+                    notificationDate.getDate(),
+                    NOTIFICATIONS.NOVENA.times.hour,
+                    NOTIFICATIONS.NOVENA.times.minute,
+                  ),
+                },
+              },
+              identifier,
+            );
+          }
         }
       }
     }
