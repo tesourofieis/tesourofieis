@@ -282,12 +282,15 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
       const today = new Date();
       const currentYear = today.getFullYear();
       const startDate = new Date(currentYear, 11, 17);
+      const endDate = new Date(currentYear, 11, 23, 23);
 
       const daysUntilStart = Math.ceil(
         (startDate.getTime() - today.getTime()) / (1000 * 3600 * 24),
       );
 
-      if (daysUntilStart <= 30 && daysUntilStart >= 0) {
+      const isWithinSchedulingWindow = daysUntilStart <= 30 && today <= endDate;
+
+      if (isWithinSchedulingWindow) {
         for (let day = 1; day <= 7; day++) {
           const notificationDate = new Date(currentYear, 11, 16 + day);
 
