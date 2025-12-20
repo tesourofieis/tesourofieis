@@ -1,12 +1,9 @@
-/* globals.css — Importa e define theme/base/utilities como per NativeWind v5. */
 @import "tailwindcss/theme.css" layer(theme);
 @import "tailwindcss/preflight.css" layer(base);
 @import "tailwindcss/utilities.css";
 @import "nativewind/theme";
 
-/* React Native specific fonts - exact names for expo-font injection */
 @theme {
-  /* Colors: Sepia and burgundy color palette */
   --color-sepia-50: #f4eadd;
   --color-sepia-100: #eee6d9;
   --color-sepia-200: #f2ddc7;
@@ -28,7 +25,6 @@
   --color-burgundy-800: #5c2022;
   --color-burgundy-900: #4a1a1c;
 
-  /* Gray colors mapped to sepia for consistency */
   --color-gray-50: var(--color-sepia-50);
   --color-gray-100: var(--color-sepia-100);
   --color-gray-200: var(--color-sepia-200);
@@ -40,7 +36,6 @@
   --color-gray-800: var(--color-sepia-800);
   --color-gray-900: var(--color-sepia-900);
 
-  /* Red colors mapped to burgundy */
   --color-red-100: var(--color-burgundy-100);
   --color-red-200: var(--color-burgundy-200);
   --color-red-300: var(--color-burgundy-300);
@@ -51,7 +46,6 @@
   --color-red-800: var(--color-burgundy-800);
   --color-red-900: var(--color-burgundy-900);
 
-  /* Font sizes and line heights */
   --font-size-2xs: 0.4rem;
   --font-size-xs: 0.5rem;
   --font-size-sm: 0.7rem;
@@ -75,7 +69,6 @@
   --line-height-5xl: 3.5rem;
   --line-height-6xl: 4rem;
 
-  /* React Native specific fonts - exact names for expo-font injection */
   --font-family-serif: "DMSerifText_400Regular";
   --font-family-display: "DMSerifDisplay_400Regular";
   --font-family-display-italic: "DMSerifDisplay_400Regular_Italic";
@@ -84,191 +77,20 @@
   --font-family-sans: "NotoSans-Regular";
 }
 
-/* Override font utilities for React Native */
-@utility font-display {
-  font-family: var(--font-family-display);
-}
-
-@utility font-display-italic {
-  font-family: var(--font-family-display-italic);
-}
-
-@utility font-serif-custom {
-  font-family: var(--font-family-serif);
-}
-
-@utility font-bold-custom {
-  font-family: var(--font-family-bold);
-}
-
-@utility font-italic-custom {
-  font-family: var(--font-family-italic);
-}
-
 @layer base {
-  :root {
-    --color-primary-accent: var(--color-burgundy-500);
-    --scrollbar-thumb-color: var(--color-sepia-900);
-    --scrollbar-track-color: var(--color-sepia-800);
-    --text-color-base: var(--color-sepia-900);
-    --text-color-dark-mode: var(--color-sepia-100);
-    --text-color-sepia: var(--color-sepia-900);
-    --text-color-sepia-dark: var(--color-sepia-100);
-  }
-  html.dark {
-    --text-color-sepia: var(--color-sepia-100);
-    --text-color-sepia-dark: var(--color-sepia-900);
-    --scrollbar-thumb-color: var(--color-sepia-100);
-    --scrollbar-track-color: var(--color-sepia-900);
+  * {
+    @apply border-sepia-300 dark:border-sepia-700;
   }
 
-  /* Text size overrides using CSS variables for responsive harmony */
-  .text-xs {
-    font-size: var(--font-size-xs);
-    line-height: var(--line-height-xs);
-  }
-  .text-sm {
-    font-size: var(--font-size-sm);
-    line-height: var(--line-height-sm);
-  }
-  .text-base {
-    font-size: var(--font-size-base);
-    line-height: var(--line-height-base);
-  }
-  .text-lg {
-    font-size: var(--font-size-lg);
-    line-height: var(--line-height-lg);
-  }
-  .text-xl {
-    font-size: var(--font-size-xl);
-    line-height: var(--line-height-xl);
-  }
-  .text-2xl {
-    font-size: var(--font-size-2xl);
-    line-height: var(--line-height-2xl);
-  }
-  .text-3xl {
-    font-size: var(--font-size-3xl);
-    line-height: var(--line-height-3xl);
-  }
-  .text-4xl {
-    font-size: var(--font-size-4xl);
-    line-height: var(--line-height-4xl);
-  }
-  .text-5xl {
-    font-size: var(--font-size-5xl);
-    line-height: var(--line-height-5xl);
-  }
-  .text-6xl {
-    font-size: var(--font-size-6xl);
-    line-height: var(--line-height-6xl);
-  }
-
-  /* Base styles */
   html {
+    @apply bg-sepia-200 dark:bg-sepia-800;
     width: 100%;
     scrollbar-width: thin;
     scrollbar-color: theme(colors.sepia.900) theme(colors.sepia.800);
   }
 
-  .text-sepia {
-    @apply text-sepia-900 dark:text-sepia-100;
-  }
-
-  .text-sepia-invert {
-    @apply dark:text-sepia-900 text-sepia-100;
-  }
-
-  .border-sepia {
-    @apply border-sepia-200 dark:border-sepia-700;
-  }
-}
-
-@layer components {
-  .card {
-    @apply flex items-center justify-center rounded-xl p-8 px-3 no-underline border border-sepia-300 bg-sepia-200 text-sepia-600 dark:border-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
-  }
-  .card:hover {
-    @apply bg-sepia-200 dark:bg-sepia-900;
-  }
-
-  .li {
-    @apply list-item ml-2 py-1 text-sepia-900 dark:text-sepia-100;
-  }
-
-  .bold {
-    font-family: var(--font-family-bold);
-    @apply text-sepia-900 dark:text-sepia-100;
-  }
-
-  .list-styled {
-    @apply p-2;
-  }
-
-  .text-pretty {
-    line-height: var(--line-height-base);
-    font-family: var(--font-family-serif);
-    @apply py-2 px-3;
-    text-rendering: optimizeLegibility;
-  }
-
-  .latin,
-  .vernacular {
-    line-height: var(--line-height-base);
-    font-family: var(--font-family-serif);
-    @apply py-2 px-3 text-sepia-900 dark:text-sepia-100;
-    text-rendering: optimizeLegibility;
-  }
-
-  .font-serif {
-    font-family: var(--font-family-serif);
-  }
-
-  .font-italic {
-    font-family: var(--font-family-italic);
-  }
-
-  .cross {
-    @apply text-burgundy-500;
-  }
-
-  .extreme-background {
-    @apply bg-sepia-100 dark:bg-sepia-900 shadow-sm;
-  }
-
-  .medium-background {
-    @apply bg-sepia-200 dark:bg-sepia-800 shadow-sm;
-  }
-
-  .soft-background {
-    @apply bg-sepia-300 dark:bg-sepia-700 shadow-sm;
-  }
-
-  .response {
-    font-family: var(--font-family-bold);
-    @apply text-burgundy-500;
-  }
-
-  .versicle {
-    font-family: var(--font-family-bold);
-    @apply text-sepia-900 dark:text-sepia-100;
-  }
-
-  .link {
-    @apply underline text-sepia-800 dark:text-sepia-200;
-  }
-
-  .aside {
-    @apply m-2 text-pretty rounded-xl p-4 my-4 border-l-4 border-sepia-300 bg-sepia-200 text-sepia-700 dark:border-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
-  }
-
-  .comment {
-    @apply m-2 text-pretty rounded-xl p-4 my-4 border-l-4 border-burgundy-500 bg-sepia-300 text-sepia-800 dark:border-burgundy-700 dark:bg-sepia-700 dark:text-sepia-200;
-  }
-
-  .em {
-    font-family: var(--font-family-italic);
-    @apply mx-1 text-pretty rounded-xl px-3 py-2 bg-sepia-200 text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
+  body {
+    @apply bg-sepia-200 dark:bg-sepia-800 text-sepia-900 dark:text-sepia-100;
   }
 }
 
@@ -290,4 +112,105 @@
 
 @utility font-italic-custom {
   font-family: var(--font-family-italic);
+}
+
+@utility text-sepia {
+  @apply text-sepia-900 dark:text-sepia-100;
+}
+
+@utility text-sepia-invert {
+  @apply text-sepia-100 dark:text-sepia-900;
+}
+
+@utility border-sepia {
+  @apply border-sepia-200 dark:border-sepia-700;
+}
+
+@utility card {
+  @apply flex items-center justify-center rounded-xl p-8 px-3 no-underline border border-sepia-300 bg-sepia-200 text-sepia-600 dark:border-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
+}
+
+@utility li {
+  @apply list-item ml-2 py-1 text-sepia;
+}
+
+@utility bold {
+  font-family: var(--font-family-bold);
+  @apply text-sepia;
+}
+
+@utility list-styled {
+  @apply p-2;
+}
+
+@utility text-pretty {
+  line-height: var(--line-height-base);
+  font-family: var(--font-family-serif);
+  text-rendering: optimizeLegibility;
+  @apply py-2 px-3;
+}
+
+@utility latin {
+  line-height: var(--line-height-base);
+  font-family: var(--font-family-serif);
+  text-rendering: optimizeLegibility;
+  @apply py-2 px-3 text-sepia;
+}
+
+@utility vernacular {
+  line-height: var(--line-height-base);
+  font-family: var(--font-family-serif);
+  text-rendering: optimizeLegibility;
+  @apply py-2 px-3 text-sepia;
+}
+
+@utility font-serif {
+  font-family: var(--font-family-serif);
+}
+
+@utility font-italic {
+  font-family: var(--font-family-italic);
+}
+
+@utility cross {
+  @apply text-burgundy-500;
+}
+
+@utility extreme-background {
+  @apply bg-sepia-100 dark:bg-sepia-900 shadow-sm;
+}
+
+@utility medium-background {
+  @apply bg-sepia-200 dark:bg-sepia-800 shadow-sm;
+}
+
+@utility soft-background {
+  @apply bg-sepia-300 dark:bg-sepia-700 shadow-sm;
+}
+
+@utility response {
+  font-family: var(--font-family-bold);
+  @apply text-burgundy-500;
+}
+
+@utility versicle {
+  font-family: var(--font-family-bold);
+  @apply text-sepia;
+}
+
+@utility link {
+  @apply underline text-sepia-800 dark:text-sepia-200;
+}
+
+@utility aside {
+  @apply m-2 text-pretty rounded-xl p-4 my-4 border-l-4 border-sepia-300 bg-sepia-200 text-sepia-700 dark:border-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
+}
+
+@utility comment {
+  @apply m-2 text-pretty rounded-xl p-4 my-4 border-l-4 border-burgundy-500 bg-sepia-300 text-sepia-800 dark:border-burgundy-700 dark:bg-sepia-700 dark:text-sepia-200;
+}
+
+@utility em {
+  font-family: var(--font-family-italic);
+  @apply mx-1 text-pretty rounded-xl px-3 py-2 bg-sepia-200 text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
 }

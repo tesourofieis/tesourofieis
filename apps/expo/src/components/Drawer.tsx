@@ -461,7 +461,7 @@ export default function CustomDrawerContent({
 
   return (
     <View className="flex-1 extreme-background">
-      <View className="pt-5 px-4 pb-3">
+      <View className="pt-5 px-4 py-2 medium-background">
         <View className="flex-row justify-between items-center mb-3">
           <Pressable
             className="p-2 items-center rounded-xl active:bg-sepia-300 dark:active:bg-sepia-700"

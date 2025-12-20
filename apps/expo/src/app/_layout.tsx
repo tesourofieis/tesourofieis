@@ -24,7 +24,7 @@ import { CalendarProvider } from "~/providers/calendar";
 import { FontProvider } from "~/providers/fonts";
 import { SettingsProvider } from "~/providers/settings";
 
-const DRAWER_WIDTH = 280; // *Base*: Largura fixa do cajado (ajusta se dinâmica via useWindowDimensions).
+const DRAWER_WIDTH = 280;
 
 SplashScreen.preventAutoHideAsync();
 
@@ -111,6 +111,7 @@ function RootLayoutNav() {
 function UpdateAwareDrawer() {
   const colorScheme = useColorScheme();
   const isDarkMode = colorScheme === "dark";
+  const isWeb = Platform.OS === "web";
 
   return (
     <Drawer
@@ -130,14 +131,15 @@ function UpdateAwareDrawer() {
         headerStyle: {
           backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
         },
-        drawerType: "slide",
+        sceneStyle: {
+          backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
+        },
+        drawerType: isWeb ? "permanent" : "slide",
         drawerStyle: {
           backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
-          width: DRAWER_WIDTH,
         },
         drawerInactiveTintColor: isDarkMode ? COLORS["200"] : COLORS["800"],
         drawerActiveTintColor: isDarkMode ? burgundy["300"] : COLORS["700"],
-        swipeEdgeWidth: 50,
       }}
     />
   );
@@ -204,19 +206,22 @@ export const Header = ({ withBC }: { withBC: boolean }) => {
   const router = useRouter();
   const navigation = useNavigation();
   const { openSearch } = useSearchModal();
+  const isWeb = Platform.OS === "web";
 
   if (withBC) {
     return (
       <View className="flex-row items-center justify-between p-3 gap-2 medium-background w-full border-b border-sepia">
         <View className="flex-row items-center justify-between flex-1">
           <View className="flex-row gap-4 items-center">
-            <Pressable
-              className="p-2 items-center rounded-xl active:bg-sepia-400 dark:active:bg-sepia-700 soft-background"
-              // @ts-expect-error
-              onPress={() => navigation.openDrawer()}
-            >
-              <FontAwesome6 name="bars" size={15} color={burgundy[500]} />
-            </Pressable>
+            {!isWeb && (
+              <Pressable
+                className="p-2 items-center rounded-xl active:bg-sepia-400 dark:active:bg-sepia-700 soft-background"
+                // @ts-expect-error
+                onPress={() => navigation.openDrawer()}
+              >
+                <FontAwesome6 name="bars" size={15} color={burgundy[500]} />
+              </Pressable>
+            )}
 
             <Pressable
               className="p-2 items-center rounded-xl active:bg-sepia-200 dark:active:bg-sepia-700"
@@ -244,14 +249,16 @@ export const Header = ({ withBC }: { withBC: boolean }) => {
   }
 
   return (
-    <View className="flex-row items-center justify-between p-3 gap-2 medium-background w-full border-b border-sepia">
-      <Pressable
-        className="p-2 items-center rounded-xl active:bg-sepia-400 dark:active:bg-sepia-700 soft-background"
-        // @ts-expect-error
-        onPress={() => navigation.openDrawer()}
-      >
-        <FontAwesome6 name="bars" size={15} color={burgundy[500]} />
-      </Pressable>
+    <View className="flex-row items-center justify-between p-3 gap-2 w-full border-b border-sepia">
+      {!isWeb && (
+        <Pressable
+          className="p-2 items-center rounded-xl active:bg-sepia-400 dark:active:bg-sepia-700 soft-background"
+          // @ts-expect-error
+          onPress={() => navigation.openDrawer()}
+        >
+          <FontAwesome6 name="bars" size={15} color={burgundy[500]} />
+        </Pressable>
+      )}
       <Pressable
         className="p-2 items-center rounded-xl active:bg-sepia-200 dark:active:bg-sepia-700"
         onPress={() => router.navigate("/")}
