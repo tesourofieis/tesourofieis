@@ -23,8 +23,11 @@ import { COLORS } from "~/constants/Colors";
 import { CalendarProvider } from "~/providers/calendar";
 import { FontProvider } from "~/providers/fonts";
 import { SettingsProvider } from "~/providers/settings";
+import { ConvexProvider, ConvexReactClient } from "convex/react";
 
-const DRAWER_WIDTH = 280;
+const convex = new ConvexReactClient(process.env.EXPO_PUBLIC_CONVEX_URL!, {
+  unsavedChangesWarning: false,
+});
 
 SplashScreen.preventAutoHideAsync();
 
@@ -72,15 +75,17 @@ export default function PageRootLayout() {
       <SafeAreaProvider>
         <CalendarProvider>
           <SearchModalProvider>
-            {Platform.OS === "web" ? (
-              <RootLayoutNav />
-            ) : (
-              <SettingsProvider>
-                <GestureHandlerRootView style={{ flex: 1 }}>
-                  <RootLayoutNav />
-                </GestureHandlerRootView>
-              </SettingsProvider>
-            )}
+            <ConvexProvider client={convex}>
+              {Platform.OS === "web" ? (
+                <RootLayoutNav />
+              ) : (
+                <SettingsProvider>
+                  <GestureHandlerRootView style={{ flex: 1 }}>
+                    <RootLayoutNav />
+                  </GestureHandlerRootView>
+                </SettingsProvider>
+              )}
+            </ConvexProvider>
           </SearchModalProvider>
         </CalendarProvider>
       </SafeAreaProvider>
