@@ -30,10 +30,12 @@
     "@react-navigation/drawer": "^7.7.2",
     "@react-navigation/native": "^7.1.8",
     "@shopify/flash-list": "2.0.2",
-    "@stripe/stripe-react-native": "0.50.3",
+    "@stripe/react-stripe-js": "^5.4.1",
+    "@stripe/stripe-js": "^8.6.0",
     "@supabase/supabase-js": "^2.89.0",
     "@tailwindcss/postcss": "^4.1.16",
     "@tesourofieis/cal": "workspace:*",
+    "convex": "^1.31.2",
     "date-fns": "catalog:",
     "expo": "~54.0.21",
     "expo-blur": "~15.0.7",
@@ -69,7 +71,8 @@
     "react-native-screens": "~4.16.0",
     "react-native-url-polyfill": "^3.0.0",
     "react-native-web": "~0.21.2",
-    "react-native-webview": "13.15.0"
+    "react-native-webview": "13.15.0",
+    "stripe": "^20.1.0"
   },
   "devDependencies": {
     "@expo/metro-runtime": "6.1.2",
