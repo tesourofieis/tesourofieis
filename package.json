@@ -23,7 +23,6 @@
     "@expo-google-fonts/cardo": "^0.4.1",
     "@expo-google-fonts/dm-serif-display": "^0.4.2",
     "@expo-google-fonts/dm-serif-text": "^0.4.1",
-    "@expo-google-fonts/noto-sans": "^0.2.3",
     "@expo/html-elements": "^0.10.1",
     "@expo/vector-icons": "^15.0.3",
     "@iconify/react": "^5.2.1",

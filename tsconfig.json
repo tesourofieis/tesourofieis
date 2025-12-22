@@ -15,7 +15,8 @@
     "moduleSuffixes": [".ios", ".android", ".native", ""],
     "paths": {
       "~/*": ["./src/*"],
-      "~/lib/*": ["./lib/*"]
+      "~/lib/*": ["./lib/*"],
+      "~/assets/*": ["assets/*"]
     },
     "strict": true,
     "noUncheckedIndexedAccess": true,
