@@ -98,7 +98,7 @@ export class MassManager {
     return mass.rank;
   }
 
-  getById(id: string) {
+  getById(id: string): Mass | undefined {
     return OBSERVANCES[id];
   }
 
@@ -180,25 +180,29 @@ export class MassManager {
 
   match(
     observances: Mass[],
-    criteria: Mass | Mass[] | ((mass: Mass) => boolean),
+    criteria:
+      | Mass
+      | undefined
+      | (Mass | undefined)[]
+      | ((mass: Mass) => boolean),
   ): Mass | undefined {
     const observanceArray = Array.isArray(observances)
       ? observances
       : [observances];
-
     const criteriaArray = Array.isArray(criteria) ? criteria : [criteria];
 
     for (const obs of observanceArray) {
       for (const crit of criteriaArray) {
+        if (!crit) continue; // Skip if criteria is undefined
+
         if (typeof crit === "function") {
-          if (crit(obs)) {
-            return obs;
-          }
+          if (crit(obs)) return obs;
         } else if (crit.id !== undefined && obs.id === crit.id) {
           return obs;
         }
       }
     }
+    return undefined;
   }
 }
 

@@ -6,7 +6,6 @@ import {
   ActivityIndicator,
   FlatList,
   Platform,
-  Pressable,
   TouchableOpacity,
   useColorScheme,
   View,
@@ -433,10 +432,6 @@ export default function CustomDrawerContent({
     [router, navigation],
   );
 
-  const handleSearchPress = useCallback(() => {
-    openSearch();
-  }, [openSearch]);
-
   const colors = useMemo(
     () => ({
       icon: isDark ? COLORS["300"] : COLORS["700"],
@@ -462,7 +457,6 @@ export default function CustomDrawerContent({
 
   return (
     <View className="flex-1 pt-3 soft-background">
-
       {STATIC_ROUTES.map((route) => (
         <TouchableOpacity
           key={route.name}

@@ -11,11 +11,11 @@ const DirectoryList = ({ slug }: { slug: string }) => {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    const fetchResults = async () => {
+    const fetchResults = () => {
       setIsLoading(true);
       setError(null);
       try {
-        const results = await findBySlug(slug);
+        const results = findBySlug(slug);
         const currentDirUrl = `/${slug}`;
         const childrenOnly = results.filter(
           (item) => item.url !== currentDirUrl,

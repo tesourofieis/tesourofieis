@@ -1,4 +1,4 @@
-import { H1, H3 } from "~/components/Headings";
+import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import { Typography } from "~/components/typography";

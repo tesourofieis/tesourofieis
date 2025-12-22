@@ -256,7 +256,7 @@ function SearchModal({
       placeholder: COLORS["500"],
       blurIntensity: 100,
     }),
-    [isDark],
+    [],
   );
 
   return (

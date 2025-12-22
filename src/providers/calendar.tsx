@@ -1,9 +1,5 @@
 import type { Day, LiturgicalSeason } from "~/lib/calendar";
-import {
-  getCalendar,
-  getCalendarDay,
-  getSeason,
-} from "~/lib/getCalendar";
+import { getCalendar, getCalendarDay, getSeason } from "~/lib/getCalendar";
 import type { Mass } from "~/lib/observanceManager";
 import { yyyyMMDD } from "~/lib/utils";
 import {
@@ -30,7 +26,7 @@ const CalendarContext = createContext<{
   novenas?: Mass[];
   date: Date;
   season: LiturgicalSeason;
-}>(undefined);
+}>({});
 
 export function CalendarProvider({ children }: PropsWithChildren) {
   const [date, setDate] = useState(new Date());
