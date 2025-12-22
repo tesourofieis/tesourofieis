@@ -22,9 +22,10 @@ import { useConvex, useMutation, useQuery, useAction } from "convex/react";
 import { api } from "../../convex/_generated/api";
 import { Id } from "../../convex/_generated/dataModel";
 import { WebView } from "react-native-webview";
-import { H1, H3 } from "~/components/Headings";
+import { H1, H3, H6 } from "~/components/Headings";
 import { Typography } from "~/components/typography";
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
+import { burgundy } from "config";
 
 type OrderStatus = "cart" | "pending_payment" | "paid";
 type RequestStatus = "available" | "accepted" | "completed";
@@ -74,7 +75,9 @@ export default function MassRequestsScreen() {
   const [password, setPassword] = useState("");
   const [isSignUp, setIsSignUp] = useState(false);
 
+  const [title, setTitle] = useState("");
   const [intention, setIntention] = useState("");
+  const [name, setName] = useState("");
   const [quantity, setQuantity] = useState("1");
   const [cart, setCart] = useState<CartItem[]>([]);
 
@@ -128,10 +131,10 @@ export default function MassRequestsScreen() {
   }
 
   function addToCart() {
-    if (!intention.trim()) {
+    if (!title.trim() && !name.trim() && !intention.trim()) {
       return Alert.alert(
         "Informação em falta",
-        "Por favor, indique a intenção",
+        "Por favor, indique pelo menos o título, nome ou mais detalhes",
       );
     }
 
@@ -140,7 +143,21 @@ export default function MassRequestsScreen() {
       return Alert.alert("Quantidade inválida", "Escolha entre 1 e 30 missas");
     }
 
-    setCart([...cart, { intention: intention.trim(), quantity: qty }]);
+    // Combine title, name, and intention into a formatted intention
+    let combinedIntention = "";
+    if (title.trim()) combinedIntention += title.trim();
+    if (name.trim()) {
+      if (combinedIntention) combinedIntention += " - ";
+      combinedIntention += name.trim();
+    }
+    if (intention.trim()) {
+      if (combinedIntention) combinedIntention += ": ";
+      combinedIntention += intention.trim();
+    }
+
+    setCart([...cart, { intention: combinedIntention, quantity: qty }]);
+    setTitle("");
+    setName("");
     setIntention("");
     setQuantity("1");
   }
@@ -189,11 +206,16 @@ export default function MassRequestsScreen() {
   }
 
   function handleWebViewNavigation(url: string) {
-    if (url.includes("/success")) {
+    console.log("WebView navigation:", url);
+
+    if (url.includes("/success") || url.includes("checkout/session")) {
       setCheckoutUrl(null);
       setCart([]);
       setLoading(false);
-      Alert.alert("Sucesso", "Pagamento confirmado!");
+      Alert.alert(
+        "Sucesso",
+        "Pagamento confirmado! As missas foram adicionadas à lista de pedidos disponíveis.",
+      );
     } else if (url.includes("/cancel")) {
       setCheckoutUrl(null);
       setLoading(false);
@@ -304,30 +326,66 @@ export default function MassRequestsScreen() {
   if (profile.role === "user") {
     return (
       <ScrollView className="flex-1 p-5 medium-background pt-8">
-        <H1 text="Intenções de Missa" />
+        <H1 text="Pedido de Missa" />
 
         {/* New Request Section */}
         <View className="mb-8 soft-background p-5 rounded-2xl border border-sepia-300 shadow-sm">
-          <Typography className="text-lg font-bold mb-4 text-burgundy-900">
-            Novo Pedido
-          </Typography>
+          <View className="flex-1 flex-row w-full gap-2 justify-between">
+            <TextInput
+              className="medium-background w-full p-4 rounded-lg mb-4 border border-sepia-200 text-sepia"
+              placeholder="Título (ex: Pelo eterno descanso de...)"
+              placeholderTextColor="#928374"
+              value={title}
+              onChangeText={setTitle}
+            />
+            <TextInput
+              className="medium-background w-full p-4 rounded-lg mb-4 border border-sepia-200 text-sepia"
+              placeholder="Nome completo"
+              placeholderTextColor="#928374"
+              value={name}
+              onChangeText={setName}
+            />
+          </View>
           <TextInput
-            className="bg-white/50 p-4 rounded-lg mb-4 border border-sepia-200 text-sepia-900"
-            placeholder="Intenção (ex: Pelo eterno descanso de...)"
+            className="medium-background w-full p-4 rounded-lg mb-4 border border-sepia-200 text-sepia"
+            placeholder="Mais detalhes"
             placeholderTextColor="#928374"
             value={intention}
             onChangeText={setIntention}
             multiline
+            numberOfLines={3}
           />
           <View className="flex-row items-center mb-4 gap-3">
             <Typography className="text-base">Quantidade:</Typography>
-            <TextInput
-              className="bg-white/50 p-3 rounded-lg border border-sepia-200 flex-1 text-center text-sepia-900"
-              placeholder="1"
-              value={quantity}
-              onChangeText={setQuantity}
-              keyboardType="number-pad"
-            />
+            <View className="flex-row items-center soft-background rounded-lg border border-sepia-200">
+              <TouchableOpacity
+                className="px-3 py-2 border-r border-sepia-200"
+                onPress={() => {
+                  const current = parseInt(quantity);
+                  if (current > 1) setQuantity((current - 1).toString());
+                }}
+              >
+                <Typography className="text-burgundy-600 font-bold text-lg">
+                  −
+                </Typography>
+              </TouchableOpacity>
+              <View className="px-4 py-2 min-w-12 items-center">
+                <Typography className="text-sepia font-semibold">
+                  {quantity}
+                </Typography>
+              </View>
+              <TouchableOpacity
+                className="px-3 py-2 border-l border-sepia-200"
+                onPress={() => {
+                  const current = parseInt(quantity);
+                  if (current < 30) setQuantity((current + 1).toString());
+                }}
+              >
+                <Typography className="text-burgundy-600 font-bold text-lg">
+                  +
+                </Typography>
+              </TouchableOpacity>
+            </View>
           </View>
           <TouchableOpacity
             className="extreme-background p-4 rounded-xl items-center shadow-sm"

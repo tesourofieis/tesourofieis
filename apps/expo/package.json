@@ -15,7 +15,8 @@
     "prebuild": "pnpx tsx ./scripts/build-search-index.ts",
     "dev": "pnpm run prebuild --clean && expo start --clear --dev-client",
     "deploy": "pnpx eas-cli build --platform all --auto-submit --profile production --non-interactive --no-wait",
-    "update": "pnpx eas-cli update --auto"
+    "update": "pnpx eas-cli update --auto",
+    "test": "vitest ."
   },
   "dependencies": {
     "@expo-google-fonts/cardo": "^0.4.1",
@@ -26,6 +27,7 @@
     "@expo/vector-icons": "^15.0.3",
     "@iconify/react": "^5.2.1",
     "@react-native-async-storage/async-storage": "2.2.0",
+    "@react-native-picker/picker": "^2.11.4",
     "@react-native/assets-registry": "^0.75.5",
     "@react-navigation/drawer": "^7.7.2",
     "@react-navigation/native": "^7.1.8",
@@ -36,6 +38,7 @@
     "@tailwindcss/postcss": "^4.1.16",
     "@tesourofieis/cal": "workspace:*",
     "convex": "^1.31.2",
+    "convex-test": "^0.0.41",
     "date-fns": "catalog:",
     "expo": "~54.0.21",
     "expo-blur": "~15.0.7",
@@ -66,18 +69,22 @@
     "react-native": "~0.81.5",
     "react-native-css": "^3.0.1",
     "react-native-gesture-handler": "~2.28.0",
+    "react-native-picker-select": "^9.3.1",
     "react-native-reanimated": "~4.1.3",
     "react-native-safe-area-context": "5.6.2",
     "react-native-screens": "~4.16.0",
     "react-native-url-polyfill": "^3.0.0",
     "react-native-web": "~0.21.2",
     "react-native-webview": "13.15.0",
-    "stripe": "^20.1.0"
+    "stripe": "^20.1.0",
+    "vitest": "^1.6.1"
   },
   "devDependencies": {
+    "@edge-runtime/vm": "^5.0.0",
     "@expo/metro-runtime": "6.1.2",
     "@tesourofieis/tailwind-config": "workspace:*",
     "@tesourofieis/tsconfig": "workspace:*",
+    "@testing-library/react-native": "^12.4.5",
     "@types/node": "^22.18.10",
     "@types/react": "^19.1.17",
     "@types/react-dom": "^19.1.11",
