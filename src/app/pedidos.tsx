@@ -8,7 +8,6 @@
 //
 import React, { useState } from "react";
 import {
-  Text,
   View,
   TextInput,
   TouchableOpacity,
@@ -16,13 +15,12 @@ import {
   ScrollView,
   ActivityIndicator,
   Platform,
-  Linking,
 } from "react-native";
 import { useConvex, useMutation, useQuery, useAction } from "convex/react";
 import { api } from "../../convex/_generated/api";
 import { Id } from "../../convex/_generated/dataModel";
 import { WebView } from "react-native-webview";
-import { H1, H3, H6 } from "~/components/Headings";
+import { H1, H3 } from "~/components/Headings";
 import { Typography } from "~/components/typography";
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { burgundy } from "config";

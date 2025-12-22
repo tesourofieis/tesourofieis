@@ -631,8 +631,8 @@ class StMatthiasRule extends BaseConcurrencyRule {
     const parsed = parseLocalDate(date);
     return Boolean(
       massManager.match(observances, massManager.getById("SANCTI_02_24")) &&
-        isLeapYear(parsed) &&
-        parsed.getDate() === 24,
+      isLeapYear(parsed) &&
+      parsed.getDate() === 24,
     );
   }
 
@@ -663,8 +663,8 @@ class Feb27Rule extends BaseConcurrencyRule {
     const parsed = parseLocalDate(date);
     return Boolean(
       massManager.match(observances, massManager.getById("SANCTI_02_27")) &&
-        parsed.getDate() === 27 &&
-        isLeapYear(parsed),
+      parsed.getDate() === 27 &&
+      isLeapYear(parsed),
     );
   }
 

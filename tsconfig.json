@@ -4,9 +4,7 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "target": "ES2022",
-    "lib": [
-      "ES2022"
-    ],
+    "lib": ["ES2022"],
     "allowJs": true,
     "resolveJsonModule": true,
     "moduleDetection": "force",
@@ -14,12 +12,7 @@
     "baseUrl": ".",
     "jsx": "react-native",
     "checkJs": false,
-    "moduleSuffixes": [
-      ".ios",
-      ".android",
-      ".native",
-      ""
-    ],
+    "moduleSuffixes": [".ios", ".android", ".native", ""],
     "paths": {
       "~/*": ["./src/*"],
       "~/lib/*": ["./lib/*"]
@@ -40,12 +33,6 @@
     "expo-env.d.ts",
     "nativewind-env.d.ts"
   ],
-  "exclude": [
-    "node_modules",
-    "build",
-    "dist",
-    ".astro",
-    ".expo"
-  ],
+  "exclude": ["node_modules", "build", "dist", ".expo"],
   "extends": "expo/tsconfig.base"
 }

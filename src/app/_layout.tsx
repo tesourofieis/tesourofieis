@@ -142,7 +142,7 @@ function UpdateAwareDrawer() {
         drawerType: isWeb ? "permanent" : "slide",
         drawerStyle: {
           backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
-          borderRightWidth: 0
+          borderRightWidth: 0,
         },
         drawerInactiveTintColor: isDarkMode ? COLORS["200"] : COLORS["800"],
         drawerActiveTintColor: isDarkMode ? burgundy["300"] : COLORS["700"],

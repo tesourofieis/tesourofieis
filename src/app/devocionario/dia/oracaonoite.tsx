@@ -5,10 +5,6 @@ import PageWrapper from "~/components/Page";
 import { Typography } from "~/components/typography";
 import NuncDimittis from "./../../canticos/sacros/nuncdimittis";
 import TeLucis from "./../../canticos/sacros/telucis";
-import ActoCaridade from "./../oracoes/actocaridade";
-import ActoContricao from "./../oracoes/actocontricao";
-import ActoEsperanca from "./../oracoes/actoesperanca";
-import ActoFe from "./../oracoes/actofe";
 
 export default function PageOracaonoite() {
   return (

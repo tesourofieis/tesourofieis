@@ -1,7 +1,7 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { yyyyMMDD } from "~/lib/utils";
 import { burgundy } from "config";
-import { addDays, isSameDay, subDays } from "date-fns";
+import { addDays, subDays } from "date-fns";
 import * as Application from "expo-application";
 import * as IntentLauncher from "expo-intent-launcher";
 import * as Linking from "expo-linking";
