@@ -258,8 +258,8 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
               content: {
                 title: NOTIFICATIONS.MASS.title,
                 body: dayMass.map((i) => i.name).join("\n"),
-                data: { url: dayMass[0].link },
-                color: getColor(dayMass[0].color),
+                data: { url: dayMass[0]?.link || "" },
+                color: getColor(dayMass[0]?.color),
               },
               trigger: {
                 type: Notifications.SchedulableTriggerInputTypes.DATE,
@@ -324,6 +324,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
     if (settings.novenaEnabled && novenas) {
       const today = new Date();
       for (const novena of novenas) {
+        if (!novena.date) continue;
         const novenaDate = subDays(new Date(novena.date), 1);
         if (novenaDate > today) {
           const dayDifference = Math.ceil(

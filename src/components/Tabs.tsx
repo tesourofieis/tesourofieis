@@ -7,7 +7,7 @@ interface TabItemProps {
   children: ReactNode;
 }
 
-export function Tabs({ children }) {
+export function Tabs({ children }: { children: ReactNode }) {
   const [activeTab, setActiveTab] = useState(0);
 
   const tabs = React.Children.toArray(children).filter(
@@ -47,6 +47,12 @@ export function Tabs({ children }) {
   );
 }
 
-export function TabItem({ label, children }) {
+export function TabItem({
+  label,
+  children,
+}: {
+  label: string;
+  children: ReactNode;
+}) {
   return <>{children}</>;
 }

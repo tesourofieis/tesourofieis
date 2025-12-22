@@ -2,6 +2,7 @@ import { ScrollView } from "react-native";
 import { H1, H2, H3, H4 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
+import PageWrapper from "~/components/Page";
 import { Typography } from "~/components/typography";
 import { useCalendar } from "~/providers/calendar";
 
@@ -9,7 +10,7 @@ export default function PageOrdo() {
   const { mass } = useCalendar();
 
   return (
-    <ScrollView className="flex-1 extreme-background">
+    <PageWrapper>
       <H1 text="Ordo Missæ" />
 
       <H2 text="Missa dos Catecúmenos" />
@@ -2441,6 +2442,6 @@ export default function PageOrdo() {
       <H2 text="Orações Leoninas" />
 
       <LinkCard title="Orações Leoninas" href="/missal/oracoesleoninas" />
-    </ScrollView>
+    </PageWrapper>
   );
 }

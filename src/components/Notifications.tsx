@@ -230,6 +230,13 @@ const NotificationToggle = ({
   times,
   enabled,
   toggle,
+}: {
+  title: string;
+  icon: string;
+  description: string;
+  times: string[];
+  enabled: boolean;
+  toggle: () => void;
 }) => {
   const colorScheme = useColorScheme();
   return (

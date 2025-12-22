@@ -52,10 +52,10 @@ function useHeadingId(text: string, id?: string): string {
 
 function registerAnchor(anchorId: string, yPosition: number) {
   if (Platform.OS !== "web") {
-    if (!global.anchorRegistry) {
-      global.anchorRegistry = {};
+    if (!(globalThis as any).anchorRegistry) {
+      (globalThis as any).anchorRegistry = {};
     }
-    global.anchorRegistry[anchorId] = { yPosition };
+    (globalThis as any).anchorRegistry[anchorId] = { yPosition };
   }
 }
 

@@ -115,7 +115,7 @@ class LiturgicalYearCalculator {
 
   private calculateAdventStart(): Date {
     const christmasDay = new Date(this.year, 11, 25);
-    const weekday = christmasDay.getDay();
+    const weekday = christmasDay.getDay() as 0 | 1 | 2 | 3 | 4 | 5 | 6;
 
     const adventDates = [
       new Date(this.year, 10, 27),
@@ -127,7 +127,7 @@ class LiturgicalYearCalculator {
       new Date(this.year, 10, 28),
     ];
 
-    return adventDates[weekday];
+    return adventDates[weekday]!;
   }
 
   holyFamily(): Date {
@@ -414,18 +414,15 @@ class VigilManager {
       mass.name.startsWith("Vigília"),
     );
 
-    if (vigilMass) {
-      // 2. Vigil moves to the day before the NEW feast date
-      const targetVigilDate = yyyyMMDD(
-        subDays(parseLocalDate(newFeastDate), 1),
-      );
-      return {
-        date: targetVigilDate,
-        observances: [vigilMass],
-        sourceDate: prevDateStr, // Source is the day before the old feast date
-      };
-    }
-    return undefined;
+    if (!vigilMass) return undefined;
+
+    // 2. Vigil moves to the day before the NEW feast date
+    const targetVigilDate = yyyyMMDD(subDays(parseLocalDate(newFeastDate), 1));
+    return {
+      date: targetVigilDate,
+      observances: [vigilMass],
+      sourceDate: prevDateStr, // Source is the day before the old feast date
+    };
   }
 }
 const vigilManager = new VigilManager();
@@ -532,6 +529,7 @@ class SevenSorrowsRule implements ConcurrencyRule {
 
   resolve(observances: Mass[]): RuleResolution {
     const sevenSorrow = massManager.getById("SANCTI_09_15");
+    if (!sevenSorrow) return { stay: observances, shifts: [] };
     const sancti = massManager.match(observances, massManager.getSancti());
 
     if (sancti) {
@@ -565,7 +563,7 @@ class AllSoulsRule extends BaseConcurrencyRule {
 
       if (sunday) {
         return {
-          stay: [sunday],
+          stay: [sunday!],
           shifts: [
             {
               date: yyyyMMDD(addDays(parseLocalDate(date), 1)),
@@ -597,7 +595,8 @@ class NativityVigilRule implements ConcurrencyRule {
       observances,
       massManager.getById("SANCTI_12_24"),
     );
-    return { stay: [nativityVigil!], shifts: [] };
+    if (!nativityVigil) return { stay: observances, shifts: [] };
+    return { stay: [nativityVigil], shifts: [] };
   }
 }
 
@@ -619,7 +618,8 @@ class NativityOctaveFeriaRule implements ConcurrencyRule {
       observances,
       massManager.getById("SANCTI_01_01"),
     );
-    return { stay: [nativity!], shifts: [] };
+    if (!nativity) return { stay: observances, shifts: [] };
+    return { stay: [nativity], shifts: [] };
   }
 }
 
@@ -639,6 +639,7 @@ class StMatthiasRule extends BaseConcurrencyRule {
   protected getResolution(observances: Mass[], date: string): RuleResolution {
     const temp = massManager.match(observances, massManager.getTempora());
     const stMatthias = massManager.getById("SANCTI_02_24");
+    if (!stMatthias) return { stay: observances, shifts: [] };
 
     if (temp) {
       return {
@@ -669,12 +670,14 @@ class Feb27Rule extends BaseConcurrencyRule {
   }
 
   protected getResolution(observances: Mass[], date: string): RuleResolution {
+    const mass = massManager.getById("SANCTI_02_27");
+    if (!mass) return { stay: observances, shifts: [] };
     const shiftedDate = yyyyMMDD(addDays(parseLocalDate(date), 1));
     return {
       stay: [],
       shifts: [
         {
-          observances: [massManager.getById("SANCTI_02_27")],
+          observances: [mass],
           date: shiftedDate,
         },
       ],
@@ -782,12 +785,16 @@ class AdventEmberDayRule implements ConcurrencyRule {
       return { stay: [advOrEmber!], shifts: [] };
     }
 
-    if (advOrEmber!.rank === sancti.rank) {
-      return { stay: [sancti, advOrEmber!], shifts: [] };
+    const s = sancti as Mass;
+    // @ts-ignore
+    if (advOrEmber!.rank === s.rank) {
+      return { stay: [s, advOrEmber!], shifts: [] };
     }
 
-    if (advOrEmber!.rank < sancti.rank) {
-      return { stay: [advOrEmber!, sancti], shifts: [] };
+    // @ts-ignore
+    if (advOrEmber!.rank < s.rank) {
+      // @ts-ignore
+      return { stay: [advOrEmber!, s], shifts: [] };
     }
 
     return { stay: observances, shifts: [] };
@@ -823,7 +830,9 @@ class FirstClassConflictRule extends BaseConcurrencyRule {
     calendar: Calendar,
   ): RuleResolution {
     const firstClassFeasts = observances.filter((ld) => ld.rank === 1);
-    const [celebration, shiftDay] = firstClassFeasts;
+    if (firstClassFeasts.length < 2)
+      return { stay: firstClassFeasts, shifts: [] };
+    const [celebration, shiftDay] = firstClassFeasts as [Mass, Mass];
     const targetDate = this.findNextAvailableDate(date, calendar);
 
     const shifts: ShiftInstruction[] = [
@@ -884,10 +893,11 @@ class SecondClassConflictRule extends BaseConcurrencyRule {
       observances,
       massManager.getSanctiClass2(),
     );
+    if (!secondClassFeasts) return { stay: observances, shifts: [] };
     const targetDate = this.findNextAvailableDate(date, calendar);
 
     const shifts: ShiftInstruction[] = [
-      { observances: [secondClassFeasts!], date: targetDate },
+      { observances: [secondClassFeasts], date: targetDate },
     ];
 
     const vigilShift = vigilManager.getVigilShift(date, targetDate, calendar);
@@ -1067,7 +1077,7 @@ export class Calendar {
       if (temporaObservances.length > 1) {
         const bestTempora = temporaObservances.sort(
           (a, b) => a.rank - b.rank || (a.week && b.week ? a.week - b.week : 0),
-        )[0];
+        )[0]!;
 
         finalObservances = [
           ...finalObservances.filter((obs) => obs.flexibility !== "tempora"),

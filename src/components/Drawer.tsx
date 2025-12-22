@@ -10,7 +10,6 @@ import {
   useColorScheme,
   View,
 } from "react-native";
-import { useSearchModal } from "~/components/Search";
 import { Typography } from "~/components/typography";
 import { COLORS } from "~/constants/Colors";
 import { getAllTopLevelDocs, getChildren } from "~/services/search";
@@ -114,10 +113,12 @@ const TreeItem = React.memo(
       }
     }, [children, doc.url, doc.id, router, toggleExpand, closeDrawer]);
 
-    const description = !children
-      ? doc.content.introduction ||
-        (doc.content.headings.length > 0 ? doc.content.headings[0].body : "")
-      : "";
+    const intro = doc.content.introduction ?? "";
+    const heading =
+      doc.content.headings.length > 0
+        ? doc.content.headings[0]?.body || ""
+        : "";
+    const description = !children ? intro || heading : "";
 
     const iconSize = 10;
     const chevronSize = 8;
@@ -201,7 +202,6 @@ export default function CustomDrawerContent({
   const router = useRouter();
   const pathname = usePathname();
   const isDark = useColorScheme() === "dark";
-  const { openSearch } = useSearchModal();
 
   const [expanded, setExpanded] = useState<Record<string, boolean>>({});
   const [allDocs, setAllDocs] = useState<Docs[]>([]);
@@ -237,8 +237,9 @@ export default function CustomDrawerContent({
     return allDocs.reduce(
       (map, doc) => {
         if (doc.parent) {
-          map[doc.parent] = map[doc.parent] || [];
-          map[doc.parent].push(doc);
+          const list = map[doc.parent] || [];
+          list.push(doc);
+          map[doc.parent] = list;
         }
         return map;
       },
@@ -252,7 +253,7 @@ export default function CustomDrawerContent({
       for (const doc of docs) {
         result.push(doc);
         if (expanded[doc.id] && childrenMap[doc.id]) {
-          result.push(...flatten(childrenMap[doc.id], level + 1));
+          result.push(...flatten(childrenMap[doc.id] || [], level + 1));
         }
       }
       return result;

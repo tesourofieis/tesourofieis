@@ -96,6 +96,25 @@ export default function PageRootLayout() {
 function RootLayoutNav() {
   const colorScheme = useColorScheme();
   const isDarkMode = colorScheme === "dark";
+  const isWeb = Platform.OS === "web";
+
+  if (isWeb) {
+    return (
+      <View
+        style={{
+          flex: 1,
+          backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
+        }}
+      >
+        <WebHeader />
+        <UpdateAwareDrawer />
+        <StatusBar
+          hidden
+          backgroundColor={isDarkMode ? COLORS["800"] : COLORS["200"]}
+        />
+      </View>
+    );
+  }
 
   return (
     <SafeAreaView
@@ -113,6 +132,44 @@ function RootLayoutNav() {
   );
 }
 
+function WebHeader() {
+  const router = useRouter();
+  const pathname = usePathname();
+  const { openSearch } = useSearchModal();
+
+  const isRootScreen = ["index", "calendario", "ordo", "configurar"].some(
+    (screen) => pathname === `/${screen}` || pathname === "/",
+  );
+
+  return (
+    <View className="w-full border-b border-sepia z-10">
+      <View className="flex-row items-center justify-between p-3 gap-2 medium-background">
+        <View className="flex-row items-center gap-4">
+          <Pressable
+            className="p-2 items-center rounded-xl active:bg-sepia-200 dark:active:bg-sepia-700"
+            onPress={() => router.navigate("/")}
+            accessibilityRole="button"
+            accessibilityLabel="Ir para Início"
+          >
+            <FontAwesome6 name="book-bible" size={15} color={burgundy[500]} />
+          </Pressable>
+          {!isRootScreen && <Breadcrumbs />}
+        </View>
+        <Pressable
+          onPress={openSearch}
+          className="p-2 items-center rounded-xl active:bg-sepia-400 dark:active:bg-sepia-700 soft-background"
+        >
+          <FontAwesome6
+            name="magnifying-glass"
+            size={15}
+            color={burgundy[500]}
+          />
+        </Pressable>
+      </View>
+    </View>
+  );
+}
+
 function UpdateAwareDrawer() {
   const colorScheme = useColorScheme();
   const isDarkMode = colorScheme === "dark";
@@ -122,7 +179,7 @@ function UpdateAwareDrawer() {
     <Drawer
       drawerContent={(props) => <CustomDrawer {...props} />}
       screenOptions={{
-        headerShown: true,
+        headerShown: !isWeb,
         freezeOnBlur: true,
         header: ({ route }) => {
           const isRootScreen = [
@@ -212,22 +269,19 @@ export const Header = ({ withBC }: { withBC: boolean }) => {
   const router = useRouter();
   const navigation = useNavigation();
   const { openSearch } = useSearchModal();
-  const isWeb = Platform.OS === "web";
 
   if (withBC) {
     return (
       <View className="flex-row items-center justify-between p-3 gap-2 medium-background w-full border-b border-sepia">
         <View className="flex-row items-center justify-between flex-1">
           <View className="flex-row gap-4 items-center">
-            {!isWeb && (
-              <Pressable
-                className="p-2 items-center rounded-xl active:bg-sepia-400 dark:active:bg-sepia-700 soft-background"
-                // @ts-expect-error
-                onPress={() => navigation.openDrawer()}
-              >
-                <FontAwesome6 name="bars" size={15} color={burgundy[500]} />
-              </Pressable>
-            )}
+            <Pressable
+              className="p-2 items-center rounded-xl active:bg-sepia-400 dark:active:bg-sepia-700 soft-background"
+              // @ts-expect-error
+              onPress={() => navigation.openDrawer()}
+            >
+              <FontAwesome6 name="bars" size={15} color={burgundy[500]} />
+            </Pressable>
 
             <Pressable
               className="p-2 items-center rounded-xl active:bg-sepia-200 dark:active:bg-sepia-700"
@@ -256,15 +310,13 @@ export const Header = ({ withBC }: { withBC: boolean }) => {
 
   return (
     <View className="flex-row items-center justify-between p-3 gap-2 w-full border-b border-sepia">
-      {!isWeb && (
-        <Pressable
-          className="p-2 items-center rounded-xl active:bg-sepia-400 dark:active:bg-sepia-700 soft-background"
-          // @ts-expect-error
-          onPress={() => navigation.openDrawer()}
-        >
-          <FontAwesome6 name="bars" size={15} color={burgundy[500]} />
-        </Pressable>
-      )}
+      <Pressable
+        className="p-2 items-center rounded-xl active:bg-sepia-400 dark:active:bg-sepia-700 soft-background"
+        // @ts-expect-error
+        onPress={() => navigation.openDrawer()}
+      >
+        <FontAwesome6 name="bars" size={15} color={burgundy[500]} />
+      </Pressable>
       <Pressable
         className="p-2 items-center rounded-xl active:bg-sepia-200 dark:active:bg-sepia-700"
         onPress={() => router.navigate("/")}

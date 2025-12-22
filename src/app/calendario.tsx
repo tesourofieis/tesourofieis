@@ -7,7 +7,6 @@ import {
   endOfMonth,
   endOfWeek,
   format,
-  isWithinInterval,
   startOfMonth,
   startOfWeek,
 } from "date-fns";
@@ -18,6 +17,7 @@ import LinkCard from "~/components/LinkCard";
 import { Typography } from "~/components/typography";
 import { COLORS } from "~/constants/Colors";
 import { useCalendar } from "~/providers/calendar";
+import PageWrapper from "~/components/Page";
 
 export default function CalendarMasterpiece() {
   const scrollViewRef = useRef<ScrollView>(null);
@@ -35,11 +35,6 @@ export default function CalendarMasterpiece() {
     viewMode === "month" ? endOfMonth(currentDate) : endOfWeek(currentDate);
 
   const days = eachDayOfInterval({ start: intervalStart, end: intervalEnd });
-
-  const isTodayVisible = isWithinInterval(new Date(), {
-    start: intervalStart,
-    end: intervalEnd,
-  });
 
   const formattedPeriod =
     viewMode === "month"
@@ -67,15 +62,6 @@ export default function CalendarMasterpiece() {
     );
   };
 
-  const handleToday = () => {
-    if (!isTodayVisible) {
-      const newDate = new Date();
-      setCurrentDate(
-        viewMode === "week" ? startOfWeek(newDate) : startOfMonth(newDate),
-      );
-    }
-  };
-
   useEffect(() => {
     const timeout = setTimeout(() => {
       if (todayRef.current) {
@@ -94,7 +80,7 @@ export default function CalendarMasterpiece() {
   }, [viewMode, currentDate]);
 
   return (
-    <View className="flex-1 extreme-background">
+    <PageWrapper>
       <View className="flex-1 text-sm">
         <Header
           formattedPeriod={formattedPeriod}
@@ -102,8 +88,6 @@ export default function CalendarMasterpiece() {
           handleNext={handleNext}
           viewMode={viewMode}
           onViewSwitch={handleViewSwitch}
-          onToday={handleToday}
-          isTodayActive={isTodayVisible}
         />
         <ScrollView ref={scrollViewRef} className="flex-1">
           {days.map((dayDate) => {
@@ -114,8 +98,8 @@ export default function CalendarMasterpiece() {
             return (
               <View
                 key={dayString}
-                className={`flex flex-row items-center gap-4 p-3 border-t ${
-                  isToday ? "medium-background" : "extreme-background"
+                className={`flex flex-row items-center gap-4 p-3 border border-sepia ${
+                  isToday ? "extreme-background" : "medium-background"
                 }`}
               >
                 <Typography className="w-20 text-sm font-bold text-sepia-700 dark:text-sepia-300">
@@ -136,7 +120,7 @@ export default function CalendarMasterpiece() {
           })}
         </ScrollView>
       </View>
-    </View>
+    </PageWrapper>
   );
 }
 
@@ -146,8 +130,6 @@ type HeaderProps = {
   handleNext: () => void;
   viewMode: "month" | "week";
   onViewSwitch: (mode: "month" | "week") => void;
-  onToday: () => void;
-  isTodayActive: boolean;
 };
 
 function Header({
@@ -156,11 +138,9 @@ function Header({
   handleNext,
   viewMode,
   onViewSwitch,
-  onToday,
-  isTodayActive,
 }: HeaderProps) {
   return (
-    <View className="flex flex-row items-center justify-between px-4 py-5 medium-background">
+    <View className="flex flex-row items-center justify-between px-4 py-5">
       <View className="flex flex-row items-center">
         <Pressable
           onPressOut={handlePrevious}
@@ -202,15 +182,6 @@ function Header({
           >
             Month
           </Typography>
-        </Pressable>
-
-        <Pressable
-          onPressOut={onToday}
-          className={`ml-3 p-2 rounded ${
-            isTodayActive ? "soft-background" : "medium-background"
-          }`}
-        >
-          <FontAwesome name="crosshairs" size={15} color={COLORS["500"]} />
         </Pressable>
       </View>
     </View>

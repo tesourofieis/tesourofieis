@@ -131,11 +131,14 @@ const SearchResultItem = React.memo(
       }
     }, [item.matchedHeading, handlePress]);
 
-    const displayTitle = item.highlightedTitle;
+    const highlighted = item.highlightedTitle ?? "";
+    const displayTitle = highlighted;
     const displaySnippet = item.matchedText;
     const fallbackSnippet =
       item.content.introduction ||
-      (item.content.headings.length > 0 ? item.content.headings[0].body : "") ||
+      (item.content.headings.length > 0
+        ? item.content.headings[0]!.body
+        : "") ||
       "";
 
     return (

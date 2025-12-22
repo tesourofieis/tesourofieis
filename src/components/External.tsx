@@ -65,20 +65,6 @@ const externalLinks: ExternalLink[] = [
     title: "Falar",
     desc: "Fale connosco por email. Caso tenha alguma dúvida ou sugestão.",
   },
-  {
-    name: "X / Twitter",
-    url: "https://x.com/tesourofieis",
-    icon: "x-twitter",
-    title: "Acompanhar",
-    desc: "Acompanhe as novidades do Tesouro dos Fiéis.",
-  },
-  {
-    name: "Web",
-    url: "https://tesourofieis.com",
-    icon: "book-bible",
-    title: "Tesouro dos Fiéis",
-    desc: "Visite o nosso website para mais informações.",
-  },
 ];
 
 const copyToClipboard = async (text: string) => {
