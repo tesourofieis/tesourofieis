@@ -1,9 +1,3 @@
-import { Cardo_700Bold } from "@expo-google-fonts/cardo/700Bold";
-import { DMSerifDisplay_400Regular } from "@expo-google-fonts/dm-serif-display/400Regular";
-import { DMSerifDisplay_400Regular_Italic } from "@expo-google-fonts/dm-serif-display/400Regular_Italic";
-import { DMSerifText_400Regular } from "@expo-google-fonts/dm-serif-text/400Regular";
-import { DMSerifText_400Regular_Italic } from "@expo-google-fonts/dm-serif-text/400Regular_Italic";
-import { NotoSans_400Regular } from "@expo-google-fonts/noto-sans";
 import { useFonts } from "expo-font";
 import { useEffect } from "react";
 import { Platform, Pressable, useColorScheme, View } from "react-native";
@@ -33,12 +27,12 @@ SplashScreen.preventAutoHideAsync();
 
 export default function PageRootLayout() {
   const [loaded, error] = useFonts({
-    "NotoSans-Regular": NotoSans_400Regular,
-    Cardo_700Bold,
-    DMSerifDisplay_400Regular,
-    DMSerifDisplay_400Regular_Italic,
-    DMSerifText_400Regular,
-    DMSerifText_400Regular_Italic,
+    "NotoSans-Regular": require("~/assets/fonts/NotoSans_400Regular.ttf"),
+    Cardo_700Bold: require("~/assets/fonts/Cardo_700Bold.ttf"),
+    DMSerifDisplay_400Regular: require("~/assets/fonts/DMSerifDisplay_400Regular.ttf"),
+    DMSerifDisplay_400Regular_Italic: require("~/assets/fonts/DMSerifDisplay_400Regular_Italic.ttf"),
+    DMSerifText_400Regular: require("~/assets/fonts/DMSerifText_400Regular.ttf"),
+    DMSerifText_400Regular_Italic: require("~/assets/fonts/DMSerifText_400Regular_Italic.ttf"),
     ...FontAwesome6.font,
   });
 

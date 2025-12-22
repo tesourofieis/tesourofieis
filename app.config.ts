@@ -104,6 +104,19 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
       },
     ],
     [
+      "expo-font",
+      {
+        fonts: [
+          "./assets/fonts/Cardo_700Bold.ttf",
+          "./assets/fonts/DMSerifDisplay_400Regular.ttf",
+          "./assets/fonts/DMSerifDisplay_400Regular_Italic.ttf",
+          "./assets/fonts/DMSerifText_400Regular.ttf",
+          "./assets/fonts/DMSerifText_400Regular_Italic.ttf",
+          "./assets/fonts/NotoSans_400Regular.ttf",
+        ],
+      },
+    ],
+    [
       "expo-asset",
       {
         assets: [
