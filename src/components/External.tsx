@@ -1,4 +1,4 @@
-import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
+import { Coffee, Bitcoin, Mail, Copy } from "lucide-react-native";
 import { burgundy } from "config";
 import * as Clipboard from "expo-clipboard";
 import * as WebBrowser from "expo-web-browser";
@@ -46,14 +46,14 @@ const externalLinks: ExternalLink[] = [
   {
     name: "KO-FI",
     url: "https://ko-fi.com/tesourofieis",
-    icon: "mug-hot",
+    icon: "coffee",
     title: "Ajudar",
     desc: "Ajude a manter o Tesouro dos Fiéis com uma doação.",
   },
   {
     name: "Bitcoin",
     url: "bitcoin:bc1qh0sjg9m26ejhg7qxqevs5rldyysy0yc7mdpve5",
-    icon: "bitcoin-sign",
+    icon: "bitcoin",
     title: "Doar Bitcoin",
     desc: "Ajude-nos com uma doação em Bitcoin.",
     copyValue: "BC1QAJM5VN255SEU2UGSSVNN3APXX7TQLEW4E0J7CV",
@@ -61,11 +61,26 @@ const externalLinks: ExternalLink[] = [
   {
     name: "Email",
     url: "mailto:info@tesourofieis.com",
-    icon: "envelope",
+    icon: "mail",
     title: "Falar",
     desc: "Fale connosco por email. Caso tenha alguma dúvida ou sugestão.",
   },
 ];
+
+const getIconComponent = (iconName: string) => {
+  switch (iconName) {
+    case "coffee":
+      return Coffee;
+    case "bitcoin":
+      return Bitcoin;
+    case "mail":
+      return Mail;
+    case "copy":
+      return Copy;
+    default:
+      return Coffee;
+  }
+};
 
 const copyToClipboard = async (text: string) => {
   await Clipboard.setStringAsync(text);
@@ -108,13 +123,19 @@ export default function ExternalLinks() {
               <View className="flex flex-row justify-between items-center gap-1 mr-2">
                 <View className="flex-1">
                   <View className="flex text-pretty flex-row items-center gap-2">
-                    <FontAwesome6
-                      name={link.icon}
-                      size={15}
-                      color={
-                        colorScheme === "dark" ? COLORS["200"] : COLORS["800"]
-                      }
-                    />
+                    {(() => {
+                      const IconComponent = getIconComponent(link.icon);
+                      return (
+                        <IconComponent
+                          size={15}
+                          color={
+                            colorScheme === "dark"
+                              ? COLORS["200"]
+                              : COLORS["800"]
+                          }
+                        />
+                      );
+                    })()}
                     <Typography className="text-lg font-serif text-sepia-600 dark:text-sepia-300">
                       {link.title}
                     </Typography>
@@ -156,11 +177,7 @@ export default function ExternalLinks() {
                             {link.copyValue}
                           </Typography>
 
-                          <FontAwesome6
-                            name="copy"
-                            size={12}
-                            color={COLORS[500]}
-                          />
+                          <Copy size={12} color={COLORS[500]} />
                         </View>
                       </Pressable>
                     </View>

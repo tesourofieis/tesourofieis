@@ -3,7 +3,13 @@ import { useEffect } from "react";
 import { Platform, Pressable, useColorScheme, View } from "react-native";
 import { Typography } from "~/components/typography";
 import "../global.css";
-import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
+import {
+  BookPlus,
+  ChevronRight,
+  Search,
+  Menu,
+  AlertTriangle,
+} from "lucide-react-native";
 import { burgundy } from "config";
 import { useNavigation, usePathname, useRouter } from "expo-router";
 import Drawer from "expo-router/drawer";
@@ -45,11 +51,7 @@ export default function PageRootLayout() {
   if (error) {
     return (
       <View className="flex-1 justify-center items-center bg-sepia-200 dark:bg-sepia-900 p-4">
-        <FontAwesome6
-          name="triangle-exclamation"
-          size={48}
-          color={burgundy[500]}
-        />
+        <AlertTriangle size={48} color={burgundy[500]} />
         <Typography className="text-burgundy-700 dark:text-burgundy-300 text-center mt-4 font-serif text-lg">
           Erro ao carregar fontes
         </Typography>
@@ -145,7 +147,7 @@ function WebHeader() {
             accessibilityRole="button"
             accessibilityLabel="Ir para Início"
           >
-            <FontAwesome6 name="book-bible" size={15} color={burgundy[500]} />
+            <BookPlus size={15} color={burgundy[500]} />
           </Pressable>
           {!isRootScreen && <Breadcrumbs />}
         </View>
@@ -153,11 +155,7 @@ function WebHeader() {
           onPress={openSearch}
           className="p-2 items-center rounded-xl active:bg-sepia-400 dark:active:bg-sepia-700 soft-background"
         >
-          <FontAwesome6
-            name="magnifying-glass"
-            size={15}
-            color={burgundy[500]}
-          />
+          <Search size={15} color={burgundy[500]} />
         </Pressable>
       </View>
     </View>
@@ -194,6 +192,7 @@ function UpdateAwareDrawer() {
         drawerStyle: {
           backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
           borderRightWidth: 0,
+          width: isWeb ? 250 : 0,
         },
         drawerInactiveTintColor: isDarkMode ? COLORS["200"] : COLORS["800"],
         drawerActiveTintColor: isDarkMode ? burgundy["300"] : COLORS["700"],
@@ -232,9 +231,7 @@ const Breadcrumbs = () => {
           className="flex-row items-center gap-1"
           key={`${segment}-${index}`}
         >
-          {index !== 0 && (
-            <FontAwesome6 name="arrow-right" size={8} color={burgundy[500]} />
-          )}
+          {index !== 0 && <ChevronRight size={8} color={burgundy[500]} />}
           {index === segments.length - 1 ? (
             <Typography className="font-italic text-sm text-red-500">
               {formatSegmentName(segment)}
@@ -274,7 +271,7 @@ export const Header = ({ withBC }: { withBC: boolean }) => {
               // @ts-expect-error
               onPress={() => navigation.openDrawer()}
             >
-              <FontAwesome6 name="bars" size={15} color={burgundy[500]} />
+              <Menu size={15} color={burgundy[500]} />
             </Pressable>
 
             <Pressable
@@ -283,7 +280,7 @@ export const Header = ({ withBC }: { withBC: boolean }) => {
               accessibilityRole="button"
               accessibilityLabel="Ir para Início"
             >
-              <FontAwesome6 name="book-bible" size={15} color={burgundy[500]} />
+              <BookPlus size={15} color={burgundy[500]} />
             </Pressable>
             <Breadcrumbs />
           </View>
@@ -291,11 +288,7 @@ export const Header = ({ withBC }: { withBC: boolean }) => {
             onPress={openSearch}
             className="p-2 items-center rounded-xl active:bg-sepia-400 dark:active:bg-sepia-700 soft-background"
           >
-            <FontAwesome6
-              name="magnifying-glass"
-              size={15}
-              color={burgundy[500]}
-            />
+            <Search size={15} color={burgundy[500]} />
           </Pressable>
         </View>
       </View>
@@ -309,7 +302,7 @@ export const Header = ({ withBC }: { withBC: boolean }) => {
         // @ts-expect-error
         onPress={() => navigation.openDrawer()}
       >
-        <FontAwesome6 name="bars" size={15} color={burgundy[500]} />
+        <Menu size={15} color={burgundy[500]} />
       </Pressable>
       <Pressable
         className="p-2 items-center rounded-xl active:bg-sepia-200 dark:active:bg-sepia-700"
@@ -317,13 +310,13 @@ export const Header = ({ withBC }: { withBC: boolean }) => {
         accessibilityRole="button"
         accessibilityLabel="Ir para Início"
       >
-        <FontAwesome6 name="book-bible" size={15} color={burgundy[500]} />
+        <BookPlus size={15} color={burgundy[500]} />
       </Pressable>
       <Pressable
         onPress={openSearch}
         className="p-2 items-center rounded-xl active:bg-sepia-100 dark:active:bg-sepia-700 soft-background"
       >
-        <FontAwesome6 name="magnifying-glass" size={15} color={burgundy[500]} />
+        <Search size={15} color={burgundy[500]} />
       </Pressable>
     </View>
   );

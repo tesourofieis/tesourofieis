@@ -1,4 +1,16 @@
-import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
+import {
+  Building,
+  Cross,
+  CalendarDays,
+  MessageSquare,
+  Settings,
+  ChevronDown,
+  ChevronRight,
+  FolderOpen,
+  Folder,
+  FileText,
+  File,
+} from "lucide-react-native";
 import { burgundy } from "config";
 import { usePathname, useRouter } from "expo-router";
 import React, { useCallback, useEffect, useMemo, useState } from "react";
@@ -17,7 +29,7 @@ import { getAllTopLevelDocs, getChildren } from "~/services/search";
 interface StaticRoute {
   name: string;
   title: string;
-  icon: keyof typeof FontAwesome6.glyphMap;
+  icon: string;
 }
 
 interface CustomDrawerContentProps {
@@ -56,6 +68,23 @@ const ALL_STATIC_ROUTES: StaticRoute[] = [
   { name: "pedidos", title: "Pedidos", icon: "comment-medical" },
   { name: "configurar", title: "Configurar", icon: "gear" },
 ];
+
+const getIconComponent = (iconName: string) => {
+  switch (iconName) {
+    case "landmark":
+      return Building;
+    case "cross":
+      return Cross;
+    case "calendar-days":
+      return CalendarDays;
+    case "comment-medical":
+      return MessageSquare;
+    case "gear":
+      return Settings;
+    default:
+      return File;
+  }
+};
 
 function normalizePathForMatching(path: string): string {
   return path.replace(/\/\([^)]+\)/g, "");
@@ -142,9 +171,13 @@ const TreeItem = React.memo(
           >
             {loadingIds.includes(doc.id) ? (
               <ActivityIndicator size="small" />
+            ) : isOpen ? (
+              <ChevronDown
+                size={chevronSize}
+                color={isActive ? burgundy[500] : colors.icon}
+              />
             ) : (
-              <FontAwesome6
-                name={isOpen ? "chevron-down" : "chevron-right"}
+              <ChevronRight
                 size={chevronSize}
                 color={isActive ? burgundy[500] : colors.icon}
               />
@@ -161,14 +194,24 @@ const TreeItem = React.memo(
           }}
         >
           {children ? (
-            <FontAwesome6
-              name={isOpen ? "folder-open" : "folder-closed"}
+            isOpen ? (
+              <FolderOpen
+                size={iconSize}
+                color={isActive ? burgundy[500] : colors.icon}
+              />
+            ) : (
+              <Folder
+                size={iconSize}
+                color={isActive ? burgundy[500] : colors.icon}
+              />
+            )
+          ) : isActive ? (
+            <FileText
               size={iconSize}
               color={isActive ? burgundy[500] : colors.icon}
             />
           ) : (
-            <FontAwesome6
-              name={isActive ? "file-import" : "file"}
+            <File
               size={iconSize}
               color={isActive ? burgundy[500] : colors.icon}
             />
@@ -467,7 +510,10 @@ export default function CustomDrawerContent({
           accessibilityLabel={route.title}
         >
           <View style={{ width: 18, alignItems: "center", marginRight: 12 }}>
-            <FontAwesome6 name={route.icon} size={10} color={colors.icon} />
+            {(() => {
+              const IconComponent = getIconComponent(route.icon);
+              return <IconComponent size={10} color={colors.icon} />;
+            })()}
           </View>
           <Typography className="text-sm font-serif text-sepia-800 dark:text-sepia-200">
             {route.title}

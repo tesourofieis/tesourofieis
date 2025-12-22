@@ -1,4 +1,4 @@
-import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
+import { BookPlus, Search, X } from "lucide-react-native";
 import { burgundy } from "config";
 import { BlurView } from "expo-blur";
 import { useRouter } from "expo-router";
@@ -290,18 +290,10 @@ function SearchModal({
             >
               <View className="px-5 pt-4 pb-3 medium-background">
                 <View className="flex-row justify-center items-center pb-3">
-                  <FontAwesome6
-                    name="book-bible"
-                    size={15}
-                    color={burgundy[500]}
-                  />
+                  <BookPlus size={15} color={burgundy[500]} />
                 </View>
                 <View className="flex-row px-5 py-1 items-center rounded-xl border border-sepia extreme-background">
-                  <FontAwesome6
-                    name="magnifying-glass"
-                    size={15}
-                    color={colors.placeholder}
-                  />
+                  <Search size={15} color={colors.placeholder} />
                   <TextInput
                     placeholder="Procurar..."
                     placeholderTextColor={colors.placeholder}
@@ -319,11 +311,7 @@ function SearchModal({
                       onPress={() => setSearchQuery("")}
                       className="ml-2"
                     >
-                      <FontAwesome6
-                        name="xmark"
-                        size={15}
-                        color={colors.placeholder}
-                      />
+                      <X size={15} color={colors.placeholder} />
                     </TouchableOpacity>
                   )}
                 </View>
@@ -345,8 +333,7 @@ function SearchModal({
                 )}
                 {searchQuery.trim() && !isSearching && !results.length && (
                   <View className="flex-1 justify-center items-center py-12">
-                    <FontAwesome6
-                      name="search"
+                    <Search
                       size={15}
                       color={isDark ? COLORS["300"] : COLORS["700"]}
                     />

@@ -22,7 +22,7 @@ import { Id } from "../../convex/_generated/dataModel";
 import { WebView } from "react-native-webview";
 import { H1, H3 } from "~/components/Headings";
 import { Typography } from "~/components/typography";
-import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
+import { Trash2 } from "lucide-react-native";
 import { burgundy } from "config";
 
 type OrderStatus = "cart" | "pending_payment" | "paid";
@@ -420,11 +420,7 @@ export default function MassRequestsScreen() {
                   onPress={() => removeFromCart(index)}
                   className="p-2"
                 >
-                  <FontAwesome6
-                    name="trash-can"
-                    size={16}
-                    color={burgundy[500]}
-                  />
+                  <Trash2 size={16} color={burgundy[500]} />
                 </TouchableOpacity>
               </View>
             ))}

@@ -1,4 +1,4 @@
-import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
+import { Type } from "lucide-react-native";
 import { TouchableOpacity, useColorScheme, View } from "react-native";
 import { H6 } from "~/components/Headings";
 import { COLORS } from "~/constants/Colors";
@@ -18,8 +18,7 @@ export const FontSizeSelector = () => {
   return (
     <View className="py-3 my-3 border-b border-sepia-300 dark:border-sepia-700">
       <View className="flex-row items-center mb-3 gap-1">
-        <FontAwesome6
-          name="text-height"
+        <Type
           size={15}
           color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
         />

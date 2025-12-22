@@ -1,4 +1,12 @@
-import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
+import {
+  Settings,
+  Apple,
+  Smartphone,
+  Bell,
+  Calendar,
+  Circle,
+  BookPlus,
+} from "lucide-react-native";
 import { Link } from "expo-router";
 import { useState } from "react";
 import {
@@ -15,6 +23,82 @@ import PageWrapper from "~/components/Page";
 import { COLORS } from "~/constants/Colors";
 import { useSettings } from "~/providers/settings";
 import { Typography } from "./typography";
+
+const NotificationToggle = ({
+  title,
+  icon,
+  description,
+  times,
+  enabled,
+  toggle,
+}: {
+  title: string;
+  icon: string;
+  description: string;
+  times: string[];
+  enabled: boolean;
+  toggle: () => void;
+}) => {
+  const colorScheme = useColorScheme();
+
+  const getIconComponent = (iconName: string) => {
+    switch (iconName) {
+      case "bell":
+        return Bell;
+      case "calendar":
+        return Calendar;
+      case "circle":
+        return Circle;
+      case "book":
+        return BookPlus;
+      default:
+        return Settings;
+    }
+  };
+
+  const IconComponent = getIconComponent(icon);
+
+  return (
+    <View className="py-3">
+      <View className="my-1 py-1">
+        <View className="flex flex-row items-center justify-between">
+          <IconComponent
+            size={15}
+            color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
+          />
+          <View className="flex-1 ml-3">
+            <Typography className="font-bold text-sepia-800 dark:text-sepia-200">
+              {title}
+            </Typography>
+            <Typography className="font-serif text-sepia-800 dark:text-sepia-200 text-sm">
+              {description}
+            </Typography>
+          </View>
+          <View className="ml-3">
+            <Switch
+              trackColor={{ false: COLORS["600"], true: COLORS["400"] }}
+              thumbColor={enabled ? COLORS["200"] : COLORS["500"]}
+              ios_backgroundColor={COLORS["500"]}
+              onValueChange={toggle}
+              value={enabled}
+              accessibilityLabel={`Toggle ${title.toLowerCase()} notifications`}
+            />
+          </View>
+        </View>
+      </View>
+      <View className="flex-row flex-wrap items-center ml-5">
+        {times.map((time) => (
+          <Typography
+            key={time}
+            className="text-sm text-center text-sepia-200 ml-2 mt-2 px-2 py-1 rounded-full bg-sepia-900"
+          >
+            {time}
+          </Typography>
+        ))}
+      </View>
+    </View>
+  );
+};
 
 export const Notifications = () => {
   const colorScheme = useColorScheme();
@@ -37,8 +121,7 @@ export const Notifications = () => {
     return (
       <PageWrapper>
         <View>
-          <FontAwesome6
-            name="gear"
+          <Settings
             size={15}
             color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
           />
@@ -57,8 +140,7 @@ export const Notifications = () => {
               href="https://apps.apple.com/no/app/tesouro-dos-fi%C3%A9is/id6689521725"
             >
               iOS{" "}
-              <FontAwesome6
-                name="apple"
+              <Apple
                 size={15}
                 color={colorScheme === "light" ? COLORS["200"] : COLORS["800"]}
               />
@@ -69,8 +151,7 @@ export const Notifications = () => {
               href="https://play.google.com/store/apps/details?id=com.tesourofieis.app"
             >
               Android{" "}
-              <FontAwesome6
-                name="android"
+              <Smartphone
                 size={15}
                 color={colorScheme === "light" ? COLORS["200"] : COLORS["800"]}
               />
@@ -85,8 +166,7 @@ export const Notifications = () => {
     return (
       <View className="py-3 my-3 border-b border-sepia-300 dark:border-sepia-700">
         <View className="flex-row items-center gap-1">
-          <FontAwesome6
-            name="gear"
+          <Settings
             size={15}
             color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
           />
@@ -118,8 +198,7 @@ export const Notifications = () => {
   return (
     <ScrollView className="py-3 my-3 border-b border-sepia-300 dark:border-sepia-700">
       <View className="flex-row items-center gap-1">
-        <FontAwesome6
-          name="gear"
+        <Settings
           size={15}
           color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
         />
@@ -220,64 +299,5 @@ export const Notifications = () => {
         ) : undefined}
       </View>
     </ScrollView>
-  );
-};
-
-const NotificationToggle = ({
-  title,
-  icon,
-  description,
-  times,
-  enabled,
-  toggle,
-}: {
-  title: string;
-  icon: string;
-  description: string;
-  times: string[];
-  enabled: boolean;
-  toggle: () => void;
-}) => {
-  const colorScheme = useColorScheme();
-  return (
-    <View className="py-3">
-      <View className="my-1 py-1">
-        <View className="flex flex-row items-center justify-between">
-          <FontAwesome6
-            name={icon}
-            size={15}
-            color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
-          />
-          <View className="flex-1 ml-3">
-            <Typography className="font-bold text-sepia-800 dark:text-sepia-200">
-              {title}
-            </Typography>
-            <Typography className="font-serif text-sepia-800 dark:text-sepia-200 text-sm">
-              {description}
-            </Typography>
-          </View>
-          <View className="ml-3">
-            <Switch
-              trackColor={{ false: COLORS["600"], true: COLORS["400"] }}
-              thumbColor={enabled ? COLORS["200"] : COLORS["500"]}
-              ios_backgroundColor={COLORS["500"]}
-              onValueChange={toggle}
-              value={enabled}
-              accessibilityLabel={`Toggle ${title.toLowerCase()} notifications`}
-            />
-          </View>
-        </View>
-      </View>
-      <View className="flex-row flex-wrap items-center ml-5">
-        {times.map((time) => (
-          <Typography
-            key={time}
-            className="text-sm text-center text-sepia-200 ml-2 mt-2 px-2 py-1 rounded-full bg-sepia-900"
-          >
-            {time}
-          </Typography>
-        ))}
-      </View>
-    </View>
   );
 };
