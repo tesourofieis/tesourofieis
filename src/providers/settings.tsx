@@ -119,9 +119,10 @@ const SettingsContext = createContext<SettingsContextType | undefined>(
 export function SettingsProvider({ children }: React.PropsWithChildren) {
   const router = useRouter();
   const { calendar, novenas } = useCalendar();
+  const isWeb = Platform.OS === "web";
 
   const [settings, setSettings] = useState<Settings>(DEFAULT_SETTINGS);
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(!isWeb);
   const [list, setList] = useState<Notifications.NotificationRequest[]>([]);
   const [permissionStatus, setPermissionStatus] =
     useState<Notifications.PermissionStatus>(
@@ -129,6 +130,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
     );
 
   const getSettingsFromStorage = useCallback(async (): Promise<Settings> => {
+    if (isWeb) return DEFAULT_SETTINGS;
     try {
       const jsonValue = await AsyncStorage.getItem(SETTINGS_STORAGE_KEY);
       if (jsonValue != null) {
@@ -145,16 +147,13 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
       console.error("Error retrieving settings from AsyncStorage:", e);
       return DEFAULT_SETTINGS;
     }
-  }, []);
+  }, [isWeb]);
 
   const updateSettingsInStorage = useCallback(
     async (newValues: Partial<Settings>): Promise<Settings> => {
+      if (isWeb) return { ...settings, ...newValues };
       try {
-        const currentSettings = settings;
-        const updatedSettings: Settings = {
-          ...currentSettings,
-          ...newValues,
-        };
+        const updatedSettings: Settings = { ...settings, ...newValues };
         await AsyncStorage.setItem(
           SETTINGS_STORAGE_KEY,
           JSON.stringify(updatedSettings),
@@ -165,7 +164,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
         throw new Error(`Failed to update settings: ${e.message}`);
       }
     },
-    [settings],
+    [settings, isWeb],
   );
 
   const updateSetting = useCallback(
@@ -177,12 +176,14 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
   );
 
   const checkPermissionStatus = useCallback(async () => {
+    if (isWeb) return;
     const { status } = await Notifications.getPermissionsAsync();
     setPermissionStatus(status);
     return status;
-  }, []);
+  }, [isWeb]);
 
   const openSettings = useCallback(async () => {
+    if (isWeb) return;
     try {
       if (Platform.OS === "ios") {
         await Linking.openSettings();
@@ -200,23 +201,25 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
         "Não foi possível abrir as configurações. Por favor, abra manualmente configurações do sistema.",
       );
     }
-  }, []);
+  }, [isWeb]);
 
   const scheduleNotification = useCallback(
     async (
       notification: Notifications.NotificationRequestInput,
       identifier: string,
     ) => {
-      if (permissionStatus !== "granted") return;
+      if (isWeb || permissionStatus !== "granted") return;
       await Notifications.scheduleNotificationAsync({
         ...notification,
         identifier,
       });
     },
-    [permissionStatus],
+    [permissionStatus, isWeb],
   );
 
   const syncNotifications = useCallback(async () => {
+    if (isWeb) return;
+
     if (permissionStatus !== "granted" || !settings) {
       await Notifications.cancelAllScheduledNotificationsAsync();
       setList([]);
@@ -382,10 +385,17 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
 
     const scheduled = await Notifications.getAllScheduledNotificationsAsync();
     setList(scheduled);
-  }, [permissionStatus, settings, calendar, novenas, scheduleNotification]);
+  }, [
+    isWeb,
+    permissionStatus,
+    settings,
+    calendar,
+    novenas,
+    scheduleNotification,
+  ]);
 
   const requestPermission = useCallback(async () => {
-    if (!settings) return false;
+    if (isWeb || !settings) return false;
 
     const { status: currentStatus } = await Notifications.getPermissionsAsync();
     if (currentStatus === "granted") {
@@ -439,9 +449,11 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
     }
 
     return status === "granted";
-  }, [openSettings, settings, updateSetting, syncNotifications]);
+  }, [isWeb, openSettings, settings, updateSetting, syncNotifications]);
 
   useEffect(() => {
+    if (isWeb) return;
+
     const init = async () => {
       try {
         const loadedSettings = await getSettingsFromStorage();
@@ -454,29 +466,31 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
       }
     };
     init();
-  }, [getSettingsFromStorage, checkPermissionStatus]);
+  }, [isWeb, getSettingsFromStorage, checkPermissionStatus]);
 
   useEffect(() => {
-    if (!isLoading) {
-      syncNotifications();
-    }
-  }, [syncNotifications, isLoading]);
+    if (isWeb || isLoading) return;
+    syncNotifications();
+  }, [isWeb, syncNotifications, isLoading]);
 
   useEffect(() => {
+    if (isWeb) return;
+
     const subscription = Notifications.addNotificationResponseReceivedListener(
       (response) => {
         const url = response.notification.request.content.data?.url;
         if (url) {
-          // @ts-ignore
           router.navigate(url as string);
         }
       },
     );
     return () => subscription.remove();
-  }, [router]);
+  }, [isWeb, router]);
 
   const setNotificationPref = useCallback(
     async (key: keyof typeof prefKeyMap, enabled: boolean) => {
+      if (isWeb) return;
+
       if (enabled && permissionStatus !== "granted") {
         const granted = await requestPermission();
         if (!granted) return;
@@ -484,7 +498,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
       const dbKey = prefKeyMap[key];
       await updateSetting({ [dbKey]: enabled });
     },
-    [permissionStatus, requestPermission, updateSetting],
+    [isWeb, permissionStatus, requestPermission, updateSetting],
   );
 
   return (

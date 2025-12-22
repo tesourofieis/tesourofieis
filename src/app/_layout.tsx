@@ -76,15 +76,15 @@ export default function PageRootLayout() {
         <CalendarProvider>
           <SearchModalProvider>
             <ConvexProvider client={convex}>
-              {Platform.OS === "web" ? (
-                <RootLayoutNav />
-              ) : (
-                <SettingsProvider>
+              <SettingsProvider>
+                {Platform.OS === "web" ? (
+                  <RootLayoutNav />
+                ) : (
                   <GestureHandlerRootView style={{ flex: 1 }}>
                     <RootLayoutNav />
                   </GestureHandlerRootView>
-                </SettingsProvider>
-              )}
+                )}
+              </SettingsProvider>
             </ConvexProvider>
           </SearchModalProvider>
         </CalendarProvider>
