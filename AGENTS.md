@@ -9,7 +9,6 @@
 
 ### Apps
 - **Expo**: `pnpm check` (tsc), `pnpm lint` (expo lint)
-- **Astro**: `pnpm check` (astro check), `pnpm test` (vitest), `pnpm typecheck` (astro check)
 
 ### Packages
 - **Cal**: `pnpm check` (tsc), `pnpm lint` (eslint), `pnpm test` (vitest), `pnpm coverage` (vitest --coverage)

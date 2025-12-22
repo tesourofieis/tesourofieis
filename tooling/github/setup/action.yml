@@ -4,15 +4,11 @@ description: "Common setup steps for Actions"
 runs:
   using: composite
   steps:
-    - uses: pnpm/action-setup@v4
+    - uses: npm/action-setup@v4
     - uses: actions/setup-node@v4
       with:
         node-version: 20
-        cache: "pnpm"
-
-    - uses: biomejs/setup-biome@v2
-      with:
-        version: latest
+        cache: "npm"
 
     - shell: bash
-      run: pnpm install --no-frozen-lockfile
+      run: npm install --ci
