@@ -113,6 +113,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
           "./assets/fonts/DMSerifText_400Regular.ttf",
           "./assets/fonts/DMSerifText_400Regular_Italic.ttf",
           "./assets/fonts/NotoSans_400Regular.ttf",
+          "./assets/fonts/FontAwesome.ttf.ttf",
         ],
       },
     ],

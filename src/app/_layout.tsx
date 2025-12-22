@@ -33,7 +33,7 @@ export default function PageRootLayout() {
     DMSerifDisplay_400Regular_Italic: require("~/assets/fonts/DMSerifDisplay_400Regular_Italic.ttf"),
     DMSerifText_400Regular: require("~/assets/fonts/DMSerifText_400Regular.ttf"),
     DMSerifText_400Regular_Italic: require("~/assets/fonts/DMSerifText_400Regular_Italic.ttf"),
-    ...FontAwesome6.font,
+    FontAwesome6: require("~/assets/fonts/FontAwesome.ttf"),
   });
 
   useEffect(() => {
