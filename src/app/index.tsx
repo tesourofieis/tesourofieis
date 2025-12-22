@@ -1,4 +1,4 @@
-import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
+import { BookPlus, Calendar, Clock } from "lucide-react-native";
 import { burgundy } from "config";
 import { format, getYear, isWithinInterval } from "date-fns";
 import { pt } from "date-fns/locale";
@@ -74,7 +74,7 @@ export default function PageRender() {
         </View>
 
         <View className="flex flex-col items-center mt-20 justify-center gap-5">
-          <FontAwesome6 name="book-bible" size={150} color={burgundy[500]} />
+          <BookPlus size={100} color={burgundy[500]} />
           <H1 text="Tesouro dos Fiéis" />
           <Typography className="font-serif text-sm text-center mx-8 text-sepia-800 dark:text-sepia-200">
             Espaço dedicado à oração, exposição e preservação das santas
@@ -113,8 +113,7 @@ export default function PageRender() {
         >
           <View className="px-5 flex flex-col pb-3">
             <View className="flex-row items-center">
-              <FontAwesome6
-                name="calendar"
+              <Calendar
                 size={15}
                 color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
               />
@@ -132,8 +131,7 @@ export default function PageRender() {
 
           <View className="px-5 flex flex-col pb-3">
             <View className="flex-row items-center">
-              <FontAwesome6
-                name="clock"
+              <Clock
                 size={15}
                 color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
               />

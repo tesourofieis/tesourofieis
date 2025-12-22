@@ -1,4 +1,4 @@
-import FontAwesome from "@expo/vector-icons/FontAwesome";
+import { ChevronRight, ChevronDown, Circle, MapPin } from "lucide-react-native";
 import type { Mass } from "~/lib/observanceManager";
 import { burgundy } from "config";
 import { Link } from "expo-router";
@@ -72,8 +72,7 @@ export default function PageLinkCard({
                     </View>
                   </View>
 
-                  <FontAwesome
-                    name="chevron-right"
+                  <ChevronRight
                     size={15}
                     color={pressed ? COLORS[600] : COLORS[500]}
                   />
@@ -97,7 +96,7 @@ export default function PageLinkCard({
                 <View className="flex flex-row justify-between items-center gap-1 mr-2">
                   <View className="flex-1">
                     <View className="px-3 flex flex-row items-center gap-2">
-                      <FontAwesome name="circle" color={getColor(mass.color)} />
+                      <Circle color={getColor(mass.color)} />
                       <Typography className="font-serif text-sm text-sepia-600 dark:text-sepia-200">
                         {description || "Missa"}
                       </Typography>
@@ -114,7 +113,7 @@ export default function PageLinkCard({
 
                     {mass.local && (
                       <View className="flex-row items-center gap-2">
-                        <FontAwesome name="map" color={COLORS[500]} />
+                        <MapPin color={COLORS[500]} />
                         <Typography className="text-pretty text-sepia-500">
                           Local: {String(mass.local).toUpperCase()}
                         </Typography>
@@ -122,11 +121,17 @@ export default function PageLinkCard({
                     )}
                   </View>
 
-                  <FontAwesome
-                    name={hasChildren ? "chevron-down" : "chevron-right"}
-                    size={15}
-                    color={pressed ? COLORS[600] : COLORS[500]}
-                  />
+                  {hasChildren ? (
+                    <ChevronDown
+                      size={15}
+                      color={pressed ? COLORS[600] : COLORS[500]}
+                    />
+                  ) : (
+                    <ChevronRight
+                      size={15}
+                      color={pressed ? COLORS[600] : COLORS[500]}
+                    />
+                  )}
                 </View>
               </View>
             )}
@@ -161,11 +166,17 @@ export default function PageLinkCard({
                   </View>
                 </View>
 
-                <FontAwesome
-                  name={hasChildren ? "chevron-down" : "chevron-right"}
-                  size={15}
-                  color={pressed ? COLORS[600] : COLORS[500]}
-                />
+                {hasChildren ? (
+                  <ChevronDown
+                    size={15}
+                    color={pressed ? COLORS[600] : COLORS[500]}
+                  />
+                ) : (
+                  <ChevronRight
+                    size={15}
+                    color={pressed ? COLORS[600] : COLORS[500]}
+                  />
+                )}
               </View>
             </View>
           )}

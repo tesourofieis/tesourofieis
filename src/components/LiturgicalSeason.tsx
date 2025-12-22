@@ -1,4 +1,12 @@
-import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
+import {
+  Star,
+  Flame,
+  Sprout,
+  Cross,
+  Bird,
+  Baby,
+  Heart,
+} from "lucide-react-native";
 import type { LiturgicalSeason as Season } from "~/lib/calendar";
 
 import { useColorScheme, View } from "react-native";
@@ -361,14 +369,35 @@ const TEMPORAS_PRAYERS: Record<Season, Prayer[]> = {
 
 const CATEGORY_ICONS: Record<Season, string> = {
   Epifania: "star",
-  Advento: "candle-holder",
-  Septuagésima: "seedling",
+  Advento: "flame",
+  Septuagésima: "sprout",
   Quaresma: "cross",
   Paixão: "cross",
   "Semana Santa": "cross",
-  Páscoa: "dove",
-  Natal: "baby-carriage",
-  Pentecostes: "fire-flame-curved",
+  Páscoa: "bird",
+  Natal: "baby",
+  Pentecostes: "flame",
+};
+
+const getIconComponent = (iconName: string) => {
+  switch (iconName) {
+    case "star":
+      return Star;
+    case "flame":
+      return Flame;
+    case "sprout":
+      return Sprout;
+    case "cross":
+      return Cross;
+    case "bird":
+      return Bird;
+    case "baby":
+      return Baby;
+    case "heart":
+      return Heart;
+    default:
+      return Star;
+  }
 };
 
 const SEASON_COLORS: Record<
@@ -438,11 +467,10 @@ export default function LiturgicalSeason() {
   return (
     <View className="mt-2 gap-2 flex-1 px-5 h-full">
       <View className="flex-row items-center justify-left gap-1">
-        <FontAwesome6
-          name={CATEGORY_ICONS[season] || "church"}
-          size={15}
-          color={iconColor}
-        />
+        {(() => {
+          const IconComponent = getIconComponent(CATEGORY_ICONS[season]);
+          return <IconComponent size={15} color={iconColor} />;
+        })()}
 
         <Typography className={`text-pretty text-xl ${seasonColors.accent}`}>
           {season}

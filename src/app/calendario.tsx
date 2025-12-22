@@ -1,4 +1,4 @@
-import FontAwesome from "@expo/vector-icons/FontAwesome";
+import { ChevronLeft, ChevronRight } from "lucide-react-native";
 import { yyyyMMDD } from "~/lib/utils";
 import {
   addMonths,
@@ -146,13 +146,13 @@ function Header({
           onPressOut={handlePrevious}
           className="rounded bg-gray-200 p-2 active:bg-gray-300 dark:bg-gray-800 dark:active:bg-gray-700"
         >
-          <FontAwesome name="chevron-left" color={COLORS["600"]} />
+          <ChevronLeft color={COLORS["600"]} />
         </Pressable>
         <Pressable
           onPressOut={handleNext}
           className="ml-3 rounded bg-gray-200 p-2 active:bg-gray-300 dark:bg-gray-800 dark:active:bg-gray-700"
         >
-          <FontAwesome name="chevron-right" color={COLORS["600"]} />
+          <ChevronRight color={COLORS["600"]} />
         </Pressable>
       </View>
 

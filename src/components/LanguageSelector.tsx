@@ -1,4 +1,4 @@
-import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
+import { Languages } from "lucide-react-native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { useEffect, useState } from "react";
 import { Platform, TouchableOpacity, useColorScheme, View } from "react-native";
@@ -57,8 +57,7 @@ export const DefaultLanguageSelector = () => {
     return (
       <View className="py-3 my-3 border-b border-sepia-300 dark:border-sepia-700">
         <View className="flex-row items-center mb-3">
-          <FontAwesome6
-            name="language"
+          <Languages
             size={15}
             color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
           />
@@ -72,8 +71,7 @@ export const DefaultLanguageSelector = () => {
   return (
     <View className="py-3 my-3 border-b border-sepia-300 dark:border-sepia-700">
       <View className="flex-row items-center mb-3 gap-1">
-        <FontAwesome6
-          name="language"
+        <Languages
           size={15}
           color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
         />
