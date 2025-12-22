@@ -6,7 +6,7 @@ import Stripe from "stripe";
 import { internal } from "./_generated/api";
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
-  apiVersion: "2024-11-20.acacia",
+  apiVersion: "2025-12-15.clover",
 });
 
 export const createSession = action({
@@ -17,7 +17,7 @@ export const createSession = action({
       v.object({
         intention: v.string(),
         quantity: v.number(),
-      })
+      }),
     ),
     totalAmount: v.number(),
   },
@@ -39,8 +39,8 @@ export const createSession = action({
       payment_method_types: ["card"],
       line_items: lineItems,
       mode: "payment",
-      success_url: `${process.env.SITE_URL}/success?session_id={CHECKOUT_SESSION_ID}`,
-      cancel_url: `${process.env.SITE_URL}/cancel`,
+      success_url: `${process.env.SITE_URL || "http://localhost:8081"}/success?session_id={CHECKOUT_SESSION_ID}`,
+      cancel_url: `${process.env.SITE_URL || "http://localhost:8081"}/cancel`,
       metadata: {
         userId: args.userId,
         items: JSON.stringify(args.items),
@@ -67,12 +67,12 @@ export const handleWebhook = action({
     const event = stripe.webhooks.constructEvent(
       args.payload,
       args.signature,
-      process.env.STRIPE_WEBHOOK_SECRET!
+      process.env.STRIPE_WEBHOOK_SECRET!,
     );
 
     if (event.type === "checkout.session.completed") {
       const session = event.data.object as Stripe.Checkout.Session;
-      
+
       await ctx.runMutation(internal.orders.completeOrder, {
         checkoutSessionId: session.id,
       });

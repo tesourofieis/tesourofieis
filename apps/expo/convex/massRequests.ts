@@ -1,3 +1,4 @@
+import { Id } from "./_generated/dataModel";
 import { mutation, query } from "./_generated/server";
 import { v } from "convex/values";
 
@@ -29,6 +30,11 @@ export const accept = mutation({
     priestId: v.string(),
   },
   handler: async (ctx, args) => {
+    const priestUserId = args.priestId as Id<"users">;
+    const priest = await ctx.db.get(priestUserId);
+    if (!priest || priest.role !== "priest") {
+      throw new Error("Apenas sacerdotes podem aceitar pedidos de missa");
+    }
     const request = await ctx.db.get(args.requestId);
     if (!request || request.status !== "available") {
       throw new Error("Pedido não disponível");
