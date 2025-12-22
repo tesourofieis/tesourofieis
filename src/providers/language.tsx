@@ -1,11 +1,14 @@
 import { createContext, useContext, useState } from "react";
 
-const LanguageContext = createContext<{
-  language: "latin" | "vernacular";
-  toggleLanguage: () => void;
-}>(undefined);
+const LanguageContext = createContext<
+  | {
+      language: "latin" | "vernacular";
+      toggleLanguage: () => void;
+    }
+  | undefined
+>(undefined);
 
-export function LanguageProvider({ children }) {
+export function LanguageProvider({ children }: React.PropsWithChildren) {
   const [language, setLanguage] = useState<"latin" | "vernacular">(
     "vernacular",
   );

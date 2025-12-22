@@ -30,12 +30,13 @@ export default function PageWrapper({ children }: PageWrapperProps) {
 
   const scrollToAnchor = (anchorId: string) => {
     if (Platform.OS === "web") {
+      // @ts-ignore
       const element = document.getElementById(anchorId);
       if (element) {
         element.scrollIntoView({ behavior: "smooth", block: "start" });
       }
     } else {
-      const anchorElement = global.anchorRegistry?.[anchorId];
+      const anchorElement = (globalThis as any).anchorRegistry?.[anchorId];
       if (anchorElement && scrollViewRef.current) {
         scrollViewRef.current.scrollTo({
           y: Math.max(0, anchorElement.yPosition - 100),

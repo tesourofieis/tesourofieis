@@ -193,6 +193,7 @@ export default function MassRequestsScreen() {
       }
 
       if (Platform.OS === "web") {
+        // @ts-ignore
         window.location.href = session.url;
       } else {
         setCheckoutUrl(session.url);

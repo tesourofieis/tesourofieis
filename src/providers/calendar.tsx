@@ -1,4 +1,5 @@
-import type { Day, LiturgicalSeason } from "~/lib/calendar";
+import { LiturgicalSeason } from "~/lib/calendar";
+import type { Day } from "~/lib/calendar";
 import { getCalendar, getCalendarDay, getSeason } from "~/lib/getCalendar";
 import type { Mass } from "~/lib/observanceManager";
 import { yyyyMMDD } from "~/lib/utils";
@@ -19,14 +20,17 @@ import {
 } from "react";
 import { ActivityIndicator, View } from "react-native";
 
-const CalendarContext = createContext<{
-  calendar: Day[];
-  day: Day;
-  mass: Mass[];
-  novenas?: Mass[];
-  date: Date;
-  season: LiturgicalSeason;
-}>({});
+const CalendarContext = createContext<
+  | {
+      calendar: Day[];
+      day: Day;
+      mass: Mass[];
+      novenas?: Mass[] | undefined;
+      date: Date;
+      season: LiturgicalSeason;
+    }
+  | undefined
+>(undefined);
 
 export function CalendarProvider({ children }: PropsWithChildren) {
   const [date, setDate] = useState(new Date());
@@ -68,7 +72,10 @@ export function CalendarProvider({ children }: PropsWithChildren) {
     return novenaObservances;
   }, [calendar, date]);
 
-  const season = useMemo(() => getSeason(dateKey), [dateKey]);
+  const season = useMemo(
+    () => getSeason(dateKey) || LiturgicalSeason.ADVENT,
+    [dateKey],
+  );
 
   if (!calendar || !day) {
     return (
@@ -89,7 +96,7 @@ export function CalendarProvider({ children }: PropsWithChildren) {
 
 export const useCalendar = () => {
   const context = useContext(CalendarContext);
-  if (context === undefined) {
+  if (!context) {
     throw new Error("useCalendar must be used within a CalendarProvider");
   }
   return context;

@@ -59,11 +59,11 @@ const extractContextualSnippet = (
   let wordIndexAtMatch = 0;
 
   for (let i = 0; i < words.length; i++) {
-    if (charCount + words[i].length >= bestMatchIndex) {
+    if (charCount + words[i]!.length >= bestMatchIndex) {
       wordIndexAtMatch = i;
       break;
     }
-    charCount += words[i].length + 1;
+    charCount += words[i]!.length + 1;
   }
 
   const startIndex = Math.max(0, wordIndexAtMatch - wordContext);
@@ -128,7 +128,7 @@ export function search(query: string, limit = 15): SearchResult[] {
       ...doc.content.headings.map((h) => `${h.title} ${h.body}`),
       doc.content.comment,
     ]
-      .filter(Boolean)
+      .filter((s): s is string => typeof s === "string")
       .map(normalize)
       .join(" ");
 
