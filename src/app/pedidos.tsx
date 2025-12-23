@@ -21,7 +21,7 @@ import { useAuthActions } from "@convex-dev/auth/react";
 import { api } from "../../convex/_generated/api";
 import { Id } from "../../convex/_generated/dataModel";
 import { WebView } from "react-native-webview";
-import { H1, H3 } from "~/components/Headings";
+import { H1, H3, H6 } from "~/components/Headings";
 import { Typography } from "~/components/typography";
 import { Trash2 } from "lucide-react-native";
 import { burgundy } from "config";
@@ -29,7 +29,7 @@ import { burgundy } from "config";
 type OrderStatus = "cart" | "pending_payment" | "paid";
 type RequestStatus = "available" | "accepted" | "completed";
 
-const MASS_STIPEND = 1000;
+const MASS_STIPEND = 1100;
 
 interface CartItem {
   intention: string;
@@ -264,25 +264,23 @@ export default function MassRequestsScreen() {
   if (viewer.role === "user") {
     return (
       <ScrollView className="flex-1 p-5 medium-background pt-8">
-        <H1 text="Pedido de Missa" />
+        <H1 text={`Olá ${viewer.name}`} />
 
-        <View className="mb-8 soft-background p-5 rounded-2xl border border-sepia-300 shadow-sm">
-          <View className="flex-1 flex-row w-full gap-2 justify-between">
-            <TextInput
-              className="medium-background w-full p-4 rounded-lg mb-4 border border-sepia-200 text-sepia"
-              placeholder="Título (ex: Pelo eterno descanso de...)"
-              placeholderTextColor="#928374"
-              value={title}
-              onChangeText={setTitle}
-            />
-            <TextInput
-              className="medium-background w-full p-4 rounded-lg mb-4 border border-sepia-200 text-sepia"
-              placeholder="Nome completo"
-              placeholderTextColor="#928374"
-              value={name}
-              onChangeText={setName}
-            />
-          </View>
+        <View className="my-5 soft-background p-5 rounded-2xl border border-sepia-300 shadow-sm gap-2">
+          <H6 text="Pedido de Missa" />
+          <Typography className="aside">
+            Se tiver preferência por datas, escolha o intervalo temporal. Se um
+            Padre aceitar, o dinheiro será enviado ao Padre, este marcará uma
+            data e na data marcada será celebrada a Missa com a sua intenção.
+            Uma missa, uma intenção.
+          </Typography>
+          <TextInput
+            className="medium-background w-full p-4 rounded-lg border border-sepia-200 text-sepia"
+            placeholder="Título (ex: Pelo eterno descanso de...)"
+            placeholderTextColor="#928374"
+            value={title}
+            onChangeText={setTitle}
+          />
           <TextInput
             className="medium-background w-full p-4 rounded-lg mb-4 border border-sepia-200 text-sepia"
             placeholder="Mais detalhes"
@@ -292,7 +290,7 @@ export default function MassRequestsScreen() {
             multiline
             numberOfLines={3}
           />
-          <View className="flex-row items-center mb-4 gap-3">
+          <View className="flex-row flex-wrap items-center mb-4 gap-3">
             <Typography className="text-base">Quantidade:</Typography>
             <View className="flex-row items-center soft-background rounded-lg border border-sepia-200">
               <TouchableOpacity
@@ -311,6 +309,7 @@ export default function MassRequestsScreen() {
                   {quantity}
                 </Typography>
               </View>
+
               <TouchableOpacity
                 className="px-3 py-2 border-l border-sepia-200"
                 onPress={() => {
@@ -323,15 +322,15 @@ export default function MassRequestsScreen() {
                 </Typography>
               </TouchableOpacity>
             </View>
+            <TouchableOpacity
+              className="red-background p-2 rounded-xl items-center shadow-sm"
+              onPress={addToCart}
+            >
+              <Typography className="text-sepia bold text-base">
+                Adicionar
+              </Typography>
+            </TouchableOpacity>
           </View>
-          <TouchableOpacity
-            className="extreme-background p-4 rounded-xl items-center shadow-sm"
-            onPress={addToCart}
-          >
-            <Typography className="text-white bold text-base">
-              Adicionar ao Carrinho
-            </Typography>
-          </TouchableOpacity>
         </View>
 
         {cart.length > 0 && (
@@ -377,7 +376,7 @@ export default function MassRequestsScreen() {
                 <ActivityIndicator color="white" />
               ) : (
                 <Typography className="text-white bold text-lg">
-                  Pagar e Finalizar
+                  Finalizar
                 </Typography>
               )}
             </TouchableOpacity>
