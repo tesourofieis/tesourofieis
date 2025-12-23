@@ -69,7 +69,8 @@
   --line-height-5xl: 3.5rem;
   --line-height-6xl: 4rem;
 
-  --font-family-serif: "DMSerifText_400Regular";
+  --font-family-serif: "DMSerifDisplay_400Regular";
+  --font-family-reading: "Cardo_400Regular";
   --font-family-display: "DMSerifDisplay_400Regular";
   --font-family-display-italic: "DMSerifDisplay_400Regular_Italic";
   --font-family-bold: "Cardo_700Bold";
@@ -103,7 +104,7 @@
 }
 
 @utility font-serif-custom {
-  font-family: var(--font-family-serif);
+  font-family: var(--font-family-reading);
 }
 
 @utility font-bold-custom {
@@ -145,28 +146,26 @@
 
 @utility text-pretty {
   line-height: var(--line-height-base);
-  font-family: var(--font-family-serif);
   text-rendering: optimizeLegibility;
   @apply py-2 px-3;
 }
 
 @utility latin {
   line-height: var(--line-height-base);
-  font-family: var(--font-family-serif);
+  font-family: var(--font-family-reading);
   text-rendering: optimizeLegibility;
-  @apply py-2 px-3 text-sepia text-xs;
+  @apply py-2 px-3 text-sepia;
 }
 
 @utility vernacular {
   line-height: var(--line-height-base);
-  font-family: var(--font-family-serif);
+  font-family: var(--font-family-reading);
   text-rendering: optimizeLegibility;
   @apply py-2 px-3 text-sepia;
 }
 
 @utility font-serif {
   font-family: var(--font-family-serif);
-  @apply text-sm;
 }
 
 @utility font-italic {
@@ -204,10 +203,12 @@
 }
 
 @utility aside {
+  font-family: var(--font-family-italic);
   @apply m-2 text-pretty rounded-xl p-4 my-4 border-l-4 border-sepia-300 bg-sepia-200 text-sepia-700 dark:border-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
 }
 
 @utility comment {
+  font-family: var(--font-family-italic);
   @apply m-2 text-pretty rounded-xl p-4 my-4 border-l-4 border-burgundy-500 bg-sepia-300 text-sepia-800 dark:border-burgundy-700 dark:bg-sepia-700 dark:text-sepia-200;
 }
 

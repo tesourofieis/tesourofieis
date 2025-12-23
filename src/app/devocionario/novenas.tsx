@@ -42,18 +42,18 @@ export default function PaginaNovenas() {
         {novena.map((novena) => (
           // @ts-ignore
           <Link key={novena.id} href={`/${novena.link}`}>
-            <Typography className="text-pretty font-bold underline mb-2">
+            <Typography className="text-pretty bold underline mb-2">
               {novena.name}
             </Typography>
           </Link>
         ))}
       </View>
 
-      <Typography className="text-pretty mb-2">
+      <Typography className="text-pretty bold mb-2">
         Não existem novenas oficiais estabelecidas pela Igreja, permitindo que
         cada fiel as adapte às suas necessidades espirituais.
       </Typography>
-      <Typography className="text-pretty mb-2">
+      <Typography className="text-pretty bold mb-2">
         Se não tiver uma novena específica para rezar, pode considerar a
         seguinte estrutura:
       </Typography>
@@ -76,7 +76,7 @@ export default function PaginaNovenas() {
 
           return (
             <Typography className="li" key={novena.id}>
-              <Typography className="font-bold">{novena.name}</Typography> - Dia{" "}
+              <Typography className="bold">{novena.name}</Typography> - Dia{" "}
               {novena.date ? novena.date : buidDate}
             </Typography>
           );

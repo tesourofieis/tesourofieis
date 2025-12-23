@@ -97,7 +97,7 @@ const renderFTSHighlightedText = (text: string) => {
           return (
             <Typography
               key={part + i}
-              className="bg-sepia-200 dark:bg-sepia-700 font-semibold"
+              className="bg-sepia-200 dark:bg-sepia-700 bold"
             >
               {highlightedContent}
             </Typography>
@@ -144,12 +144,12 @@ const SearchResultItem = React.memo(
     return (
       <View className="mx-4 py-3 border-b border-sepia">
         <TouchableOpacity onPress={handleCardPress}>
-          <Typography className="h6 text-red-500">
+          <Typography className="bold h6 text-red-500">
             {displayTitle ? renderFTSHighlightedText(displayTitle) : item.title}
           </Typography>
 
           <Typography
-            className="text-pretty text-xs mt-1 text-sepia-600 dark:text-sepia-300"
+            className="text-pretty bold text-xs mt-1 text-sepia-600 dark:text-sepia-300"
             numberOfLines={3}
           >
             {displaySnippet || fallbackSnippet}
@@ -299,12 +299,11 @@ function SearchModal({
                     placeholderTextColor={colors.placeholder}
                     value={searchQuery}
                     onChangeText={setSearchQuery}
-                    autoCapitalize="none"
                     autoCorrect={false}
                     focusable
                     autoFocus
                     returnKeyType="search"
-                    className="flex-1 ml-2 text-sepia-900 dark:text-sepia-100"
+                    className="flex-1 py-3 ml-2 text-sepia-900 dark:text-sepia-100"
                   />
                   {!!searchQuery && (
                     <TouchableOpacity

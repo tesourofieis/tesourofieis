@@ -150,8 +150,8 @@ const TreeItem = React.memo(
     const description = !children ? intro || heading : "";
 
     const iconSize = 10;
-    const chevronSize = 8;
-    const chevronWidth = chevronSize + 8;
+    const chevronSize = 10;
+    const chevronWidth = chevronSize + 10;
     const indent = level * chevronWidth;
 
     return (
@@ -189,8 +189,8 @@ const TreeItem = React.memo(
           style={{
             width: iconSize,
             alignItems: "center",
-            marginLeft: children ? 8 : indent + chevronWidth,
-            marginRight: 8,
+            marginLeft: children ? 10 : indent + chevronWidth,
+            marginRight: 10,
           }}
         >
           {children ? (
@@ -220,16 +220,19 @@ const TreeItem = React.memo(
 
         <View style={{ flex: 1 }}>
           <Typography
-            className={`text-sm font-serif ${
+            className={`text-sm bold ${
               isActive
-                ? "text-burgundy-600 dark:text-burgundy-400 font-serif-bold"
+                ? "text-burgundy-600 dark:text-burgundy-400 bold"
                 : "text-sepia-800 dark:text-sepia-200"
             }`}
           >
             {doc.title}
           </Typography>
           {description && description !== doc.title && (
-            <Typography className="text-sepia-500 text-xs" numberOfLines={1}>
+            <Typography
+              className="text-sepia-500 text-xs font-serif"
+              numberOfLines={1}
+            >
               {description}
             </Typography>
           )}
@@ -515,7 +518,7 @@ export default function CustomDrawerContent({
               return <IconComponent size={10} color={colors.icon} />;
             })()}
           </View>
-          <Typography className="text-sm font-serif text-sepia-800 dark:text-sepia-200">
+          <Typography className="text-sm bold text-sepia-800 dark:text-sepia-200">
             {route.title}
           </Typography>
         </TouchableOpacity>

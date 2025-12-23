@@ -102,7 +102,7 @@ export default function CalendarMasterpiece() {
                   isToday ? "extreme-background" : "medium-background"
                 }`}
               >
-                <Typography className="w-20 text-sm font-bold text-sepia-700 dark:text-sepia-300">
+                <Typography className="w-20 text-sm bold text-sepia-700 dark:text-sepia-300">
                   {format(dayDate, "EEE, dd", { locale: pt })}
                 </Typography>
                 <View
@@ -156,7 +156,7 @@ function Header({
         </Pressable>
       </View>
 
-      <Typography className="p-3 text-xl font-bold dark:text-sepia-200">
+      <Typography className="p-3 text-xl bold dark:text-sepia-200">
         {formattedPeriod}
       </Typography>
 
@@ -165,7 +165,7 @@ function Header({
           <Typography
             className={`p-2 rounded-l text-sepia-700 dark:text-sepia-300 ${
               viewMode === "week"
-                ? "soft-background font-bold"
+                ? "soft-background bold"
                 : "medium-background"
             }`}
           >
@@ -176,7 +176,7 @@ function Header({
           <Typography
             className={`p-2 rounded-r text-sepia-700 dark:text-sepia-300 ${
               viewMode === "month"
-                ? "soft-background font-bold"
+                ? "soft-background bold"
                 : "medium-background"
             }`}
           >

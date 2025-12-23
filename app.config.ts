@@ -63,7 +63,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     },
   },
   web: {
-    favicon: "./assets/images/favicon128.png",
+    favicon: "./assets/images/favicon.svg",
     web: {
       bundler: "metro",
       output: "static",
@@ -108,6 +108,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
       {
         fonts: [
           "./assets/fonts/Cardo_700Bold.ttf",
+          "./assets/fonts/Cardo_400Regular.ttf",
           "./assets/fonts/DMSerifDisplay_400Regular.ttf",
           "./assets/fonts/DMSerifDisplay_400Regular_Italic.ttf",
           "./assets/fonts/DMSerifText_400Regular.ttf",
