@@ -157,6 +157,10 @@
   @apply bg-sepia-100 dark:bg-sepia-900 shadow-sm;
 }
 
+@utility red-background {
+  @apply bg-burgundy-400 dark:bg-burgundy-600 shadow-sm;
+}
+
 @utility medium-background {
   @apply bg-sepia-200 dark:bg-sepia-800 shadow-sm;
 }
@@ -181,7 +185,7 @@
 
 @utility aside {
   font-family: var(--font-family-italic);
-  @apply m-2 text-pretty rounded-xl p-4 my-4 border-l-4 border-sepia-300 bg-sepia-200 text-sepia-700 dark:border-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
+  @apply m-2 text-pretty rounded-xl p-4 my-4 border-l-4 border-sepia-500 bg-sepia-200 text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
 }
 
 @utility comment {

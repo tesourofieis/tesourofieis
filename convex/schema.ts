@@ -9,7 +9,8 @@ export default defineSchema({
     email: v.optional(v.string()),
     image: v.optional(v.string()),
     role: v.optional(v.string()),
-  }).index("by_email", ["email"]),
+    emailVerificationTime: v.optional(v.number()),
+  }).index("email", ["email"]),
 
   orders: defineTable({
     userId: v.id("users"),
