@@ -16,7 +16,8 @@ import {
   ActivityIndicator,
   Platform,
 } from "react-native";
-import { useConvex, useMutation, useQuery, useAction } from "convex/react";
+import { useMutation, useQuery, useAction } from "convex/react";
+import { useAuthActions } from "@convex-dev/auth/react";
 import { api } from "../../convex/_generated/api";
 import { Id } from "../../convex/_generated/dataModel";
 import { WebView } from "react-native-webview";
@@ -27,9 +28,8 @@ import { burgundy } from "config";
 
 type OrderStatus = "cart" | "pending_payment" | "paid";
 type RequestStatus = "available" | "accepted" | "completed";
-type UserRole = "user" | "priest";
 
-const MASS_STIPEND = 1000; // €10.00 em cêntimos
+const MASS_STIPEND = 1000;
 
 interface CartItem {
   intention: string;
@@ -56,22 +56,11 @@ interface MassRequest {
   _creationTime: number;
 }
 
-interface UserProfile {
-  userId: string;
-  role: UserRole;
-  email: string;
-}
-
 export default function MassRequestsScreen() {
-  const convex = useConvex();
+  const { signIn, signOut } = useAuthActions();
 
   const [loading, setLoading] = useState(false);
-  const [userId, setUserId] = useState<string | null>(null);
   const [checkoutUrl, setCheckoutUrl] = useState<string | null>(null);
-
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-  const [isSignUp, setIsSignUp] = useState(false);
 
   const [title, setTitle] = useState("");
   const [intention, setIntention] = useState("");
@@ -79,53 +68,37 @@ export default function MassRequestsScreen() {
   const [quantity, setQuantity] = useState("1");
   const [cart, setCart] = useState<CartItem[]>([]);
 
-  const profile = useQuery(api.users.getProfile, userId ? { userId } : "skip");
+  const viewer = useQuery(api.users.viewer);
   const myOrders = useQuery(
     api.orders.listUserOrders,
-    userId ? { userId } : "skip",
+    viewer ? { userId: viewer._id } : "skip",
   );
   const availableRequests = useQuery(
     api.massRequests.listAvailable,
-    profile?.role === "priest" ? {} : "skip",
+    viewer?.role === "priest" ? {} : "skip",
   );
   const myAcceptedRequests = useQuery(
     api.massRequests.listByPriest,
-    profile?.role === "priest" && userId ? { priestId: userId } : "skip",
+    viewer?.role === "priest" && viewer ? { priestId: viewer._id } : "skip",
   );
 
   const createCheckoutSession = useAction(api.checkout.createSession);
   const acceptRequest = useMutation(api.massRequests.accept);
   const completeRequest = useMutation(api.massRequests.complete);
 
-  async function handleAuth() {
+  async function handleGoogleSignIn() {
     setLoading(true);
     try {
-      if (isSignUp) {
-        const result = await convex.mutation(api.auth.signUp, {
-          email,
-          password,
-        });
-        if (result.success) {
-          Alert.alert("Sucesso", "Conta criada! Por favor, inicie sessão.");
-          setIsSignUp(false);
-        } else {
-          Alert.alert("Erro", result.error || "Falha ao criar conta");
-        }
-      } else {
-        const result = await convex.mutation(api.auth.signIn, {
-          email,
-          password,
-        });
-        if (result.success && result.userId) {
-          setUserId(result.userId);
-        } else {
-          Alert.alert("Erro", result.error || "Falha ao iniciar sessão");
-        }
-      }
+      await signIn("google");
     } catch (error) {
-      Alert.alert("Erro", "Falha na autenticação");
+      Alert.alert("Erro", "Falha na autenticação com Google");
     }
     setLoading(false);
+  }
+
+  async function handleSignOut() {
+    await signOut();
+    setCart([]);
   }
 
   function addToCart() {
@@ -141,7 +114,6 @@ export default function MassRequestsScreen() {
       return Alert.alert("Quantidade inválida", "Escolha entre 1 e 30 missas");
     }
 
-    // Combine title, name, and intention into a formatted intention
     let combinedIntention = "";
     if (title.trim()) combinedIntention += title.trim();
     if (name.trim()) {
@@ -177,13 +149,13 @@ export default function MassRequestsScreen() {
       return Alert.alert("Carrinho vazio", "Adicione pedidos ao carrinho");
     }
 
-    if (!userId || !profile?.email) return;
+    if (!viewer) return;
 
     setLoading(true);
     try {
       const session = await createCheckoutSession({
-        userId,
-        email: profile.email,
+        userId: viewer._id,
+        email: viewer.email,
         items: cart,
         totalAmount: getTotalAmount(),
       });
@@ -205,8 +177,6 @@ export default function MassRequestsScreen() {
   }
 
   function handleWebViewNavigation(url: string) {
-    console.log("WebView navigation:", url);
-
     if (url.includes("/success") || url.includes("checkout/session")) {
       setCheckoutUrl(null);
       setCart([]);
@@ -223,10 +193,10 @@ export default function MassRequestsScreen() {
   }
 
   async function handleAcceptRequest(requestId: Id<"massRequests">) {
-    if (!userId) return;
+    if (!viewer) return;
 
     try {
-      await acceptRequest({ requestId, priestId: userId });
+      await acceptRequest({ requestId, priestId: viewer._id });
       Alert.alert("Sucesso", "Missa aceite");
     } catch (error) {
       Alert.alert("Erro", "Falha ao aceitar pedido");
@@ -240,13 +210,6 @@ export default function MassRequestsScreen() {
     } catch (error) {
       Alert.alert("Erro", "Falha ao completar pedido");
     }
-  }
-
-  function handleLogout() {
-    setUserId(null);
-    setEmail("");
-    setPassword("");
-    setCart([]);
   }
 
   if (checkoutUrl && Platform.OS !== "web") {
@@ -274,60 +237,35 @@ export default function MassRequestsScreen() {
     );
   }
 
-  if (!userId || !profile) {
+  if (!viewer) {
     return (
       <View className="flex-1 p-5 pt-16 medium-background">
         <H1 text="Pedidos" />
         <View className="flex-1 gap-4 justify-center my-auto px-5">
-          <H3 text={isSignUp ? "Criar Conta" : "Iniciar Sessão"} />
-          <TextInput
-            className="soft-background text-sepia-900 p-5 rounded-xl border border-sepia-300"
-            placeholder="Email"
-            placeholderTextColor="#928374"
-            value={email}
-            onChangeText={setEmail}
-            autoCapitalize="none"
-            keyboardType="email-address"
-          />
-          <TextInput
-            className="soft-background text-sepia-900 p-5 rounded-xl border border-sepia-300"
-            placeholder="Palavra-passe"
-            placeholderTextColor="#928374"
-            value={password}
-            onChangeText={setPassword}
-            secureTextEntry
-          />
+          <H3 text="Iniciar Sessão" />
           <TouchableOpacity
             className="extreme-background p-5 rounded-xl items-center shadow-md active:opacity-90"
-            onPress={handleAuth}
+            onPress={handleGoogleSignIn}
             disabled={loading}
           >
             {loading ? (
               <ActivityIndicator color="white" />
             ) : (
-              <Typography className="text-white bold">
-                {isSignUp ? "Registar" : "Entrar"}
+              <Typography className="text-white bold text-lg">
+                Continuar com Google
               </Typography>
             )}
-          </TouchableOpacity>
-          <TouchableOpacity onPress={() => setIsSignUp(!isSignUp)}>
-            <Typography className="mt-4 text-burgundy-600 text-center font-italic">
-              {isSignUp
-                ? "Já tem conta? Iniciar sessão"
-                : "Precisa de conta? Registar"}
-            </Typography>
           </TouchableOpacity>
         </View>
       </View>
     );
   }
 
-  if (profile.role === "user") {
+  if (viewer.role === "user") {
     return (
       <ScrollView className="flex-1 p-5 medium-background pt-8">
         <H1 text="Pedido de Missa" />
 
-        {/* New Request Section */}
         <View className="mb-8 soft-background p-5 rounded-2xl border border-sepia-300 shadow-sm">
           <View className="flex-1 flex-row w-full gap-2 justify-between">
             <TextInput
@@ -396,7 +334,6 @@ export default function MassRequestsScreen() {
           </TouchableOpacity>
         </View>
 
-        {/* Cart Section */}
         {cart.length > 0 && (
           <View className="mb-8 border-t border-sepia pt-6">
             <Typography className="text-lg bold mb-4 text-sepia-800">
@@ -447,7 +384,6 @@ export default function MassRequestsScreen() {
           </View>
         )}
 
-        {/* History Section */}
         <View className="mb-12">
           <Typography className="text-xl bold mb-4 text-sepia-800">
             Meus Pedidos
@@ -487,7 +423,10 @@ export default function MassRequestsScreen() {
           )}
         </View>
 
-        <TouchableOpacity className="mb-20 items-center" onPress={handleLogout}>
+        <TouchableOpacity
+          className="mb-20 items-center"
+          onPress={handleSignOut}
+        >
           <Typography className="text-burgundy-600 font-semibold underline">
             Terminar Sessão
           </Typography>
@@ -496,7 +435,6 @@ export default function MassRequestsScreen() {
     );
   }
 
-  // PRIEST VIEW
   return (
     <ScrollView className="flex-1 p-5 medium-background pt-8">
       <H1 text="Painel do Clero" />
@@ -551,7 +489,7 @@ export default function MassRequestsScreen() {
           myAcceptedRequests.map((request) => (
             <View
               key={request._id}
-              className="soft-background p-5 rounded-xl mb-4 border-l-4 border-burgundy-600 border-t border-r border-b border-sepia-300"
+              className="soft-background p-5 rounded-xl mb-4 border-l-4 border-burgundy-600 border-t border-r border-b"
             >
               <Typography className="font-serif-bold text-base text-sepia-900 mb-2">
                 {request.intentionName}
@@ -578,7 +516,7 @@ export default function MassRequestsScreen() {
         )}
       </View>
 
-      <TouchableOpacity className="mb-20 items-center" onPress={handleLogout}>
+      <TouchableOpacity className="mb-20 items-center" onPress={handleSignOut}>
         <Typography className="text-burgundy-600 font-semibold underline">
           Terminar Sessão
         </Typography>

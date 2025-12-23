@@ -14,7 +14,7 @@ export const listAvailable = query({
 });
 
 export const listByPriest = query({
-  args: { priestId: v.string() },
+  args: { priestId: v.id("users") },
   handler: async (ctx, args) => {
     return await ctx.db
       .query("massRequests")
@@ -27,7 +27,7 @@ export const listByPriest = query({
 export const accept = mutation({
   args: {
     requestId: v.id("massRequests"),
-    priestId: v.string(),
+    priestId: v.id("users"),
   },
   handler: async (ctx, args) => {
     const priestUserId = args.priestId as Id<"users">;

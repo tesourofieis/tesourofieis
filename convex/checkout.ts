@@ -11,7 +11,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
 
 export const createSession = action({
   args: {
-    userId: v.string(),
+    userId: v.id("users"),
     email: v.string(),
     items: v.array(
       v.object({

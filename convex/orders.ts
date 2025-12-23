@@ -3,12 +3,12 @@ import { v } from "convex/values";
 
 export const createPendingOrder = internalMutation({
   args: {
-    userId: v.string(),
+    userId: v.id("users"),
     items: v.array(
       v.object({
         intention: v.string(),
         quantity: v.number(),
-      })
+      }),
     ),
     totalAmount: v.number(),
     checkoutSessionId: v.string(),
@@ -26,12 +26,12 @@ export const createPendingOrder = internalMutation({
 
 export const createPendingOrderTest = mutation({
   args: {
-    userId: v.string(),
+    userId: v.id("users"),
     items: v.array(
       v.object({
         intention: v.string(),
         quantity: v.number(),
-      })
+      }),
     ),
     totalAmount: v.number(),
     checkoutSessionId: v.string(),
@@ -54,8 +54,8 @@ export const completeOrder = internalMutation({
   handler: async (ctx, args) => {
     const order = await ctx.db
       .query("orders")
-      .withIndex("by_session", (q) => 
-        q.eq("checkoutSessionId", args.checkoutSessionId)
+      .withIndex("by_session", (q) =>
+        q.eq("checkoutSessionId", args.checkoutSessionId),
       )
       .first();
 
@@ -83,15 +83,15 @@ export const completeOrderTest = mutation({
   handler: async (ctx, args) => {
     const order = await ctx.db
       .query("orders")
-      .withIndex("by_session", (q) => 
-        q.eq("checkoutSessionId", args.checkoutSessionId)
+      .withIndex("by_session", (q) =>
+        q.eq("checkoutSessionId", args.checkoutSessionId),
       )
       .first();
-    
+
     if (!order || order.status === "paid") return;
-    
+
     await ctx.db.patch(order._id, { status: "paid" });
-    
+
     for (const item of order.items) {
       for (let i = 0; i < item.quantity; i++) {
         await ctx.db.insert("massRequests", {
@@ -106,7 +106,7 @@ export const completeOrderTest = mutation({
 });
 
 export const listUserOrders = query({
-  args: { userId: v.string() },
+  args: { userId: v.id("users") },
   handler: async (ctx, args) => {
     return await ctx.db
       .query("orders")

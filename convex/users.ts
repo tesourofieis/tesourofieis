@@ -1,26 +1,29 @@
-import { mutation, query } from "./_generated/server";
 import { v } from "convex/values";
 import { Id } from "./_generated/dataModel";
+import { mutation, query } from "./_generated/server";
+import { auth } from "./auth";
 
-export const getProfile = query({
-  args: { userId: v.string() },
-  handler: async (ctx, args) => {
-    const userId = args.userId as Id<"users">;
+export const viewer = query({
+  args: {},
+  handler: async (ctx) => {
+    const userId = await auth.getUserId(ctx);
+    if (userId === null) return null;
+
     const user = await ctx.db.get(userId);
     if (!user) return null;
 
     return {
-      userId: user._id,
-      email: user.email,
-      role: user.role,
+      ...user,
+      email: user.email ?? "",
+      role: (user.role ?? "user") as "user" | "priest" | "admin",
     };
   },
 });
 
 export const updateRole = mutation({
   args: {
-    userId: v.string(),
-    role: v.union(v.literal("user"), v.literal("priest")),
+    userId: v.id("users"),
+    role: v.union(v.literal("user"), v.literal("priest"), v.literal("admin")),
   },
   handler: async (ctx, args) => {
     const userId = args.userId as Id<"users">;
