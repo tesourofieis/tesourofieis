@@ -67,7 +67,7 @@ const NotificationToggle = ({
             color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
           />
           <View className="flex-1 ml-3">
-            <Typography className="font-bold text-sepia-800 dark:text-sepia-200">
+            <Typography className="bold text-sepia-800 dark:text-sepia-200">
               {title}
             </Typography>
             <Typography className="font-serif text-sepia-800 dark:text-sepia-200 text-sm">
@@ -265,7 +265,7 @@ export const Notifications = () => {
             onPressOut={toggleExpand}
             className="p-3 soft-background text-sepia-700 dark:text-sepia-300"
           >
-            <Typography className="text-center font-bold text-sepia-800 dark:text-sepia-200">
+            <Typography className="text-center bold text-sepia-800 dark:text-sepia-200">
               {isExpanded
                 ? "Esconder lista notificações"
                 : "Mostrar lista de notificações"}

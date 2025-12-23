@@ -472,7 +472,9 @@ export default function LiturgicalSeason() {
           return <IconComponent size={15} color={iconColor} />;
         })()}
 
-        <Typography className={`text-pretty text-xl ${seasonColors.accent}`}>
+        <Typography
+          className={`text-pretty bold text-xl ${seasonColors.accent}`}
+        >
           {season}
         </Typography>
       </View>

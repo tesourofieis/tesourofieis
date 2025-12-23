@@ -34,6 +34,7 @@ SplashScreen.preventAutoHideAsync();
 export default function PageRootLayout() {
   const [loaded, error] = useFonts({
     "NotoSans-Regular": require("~/assets/fonts/NotoSans_400Regular.ttf"),
+    Cardo_400Regular: require("~/assets/fonts/Cardo_400Regular.ttf"),
     Cardo_700Bold: require("~/assets/fonts/Cardo_700Bold.ttf"),
     DMSerifDisplay_400Regular: require("~/assets/fonts/DMSerifDisplay_400Regular.ttf"),
     DMSerifDisplay_400Regular_Italic: require("~/assets/fonts/DMSerifDisplay_400Regular_Italic.ttf"),
@@ -192,7 +193,7 @@ function UpdateAwareDrawer() {
         drawerStyle: {
           backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
           borderRightWidth: 0,
-          width: isWeb ? 250 : 0,
+          width: isWeb ? 250 : 250,
         },
         drawerInactiveTintColor: isDarkMode ? COLORS["200"] : COLORS["800"],
         drawerActiveTintColor: isDarkMode ? burgundy["300"] : COLORS["700"],
@@ -233,7 +234,7 @@ const Breadcrumbs = () => {
         >
           {index !== 0 && <ChevronRight size={8} color={burgundy[500]} />}
           {index === segments.length - 1 ? (
-            <Typography className="font-italic text-sm text-red-500">
+            <Typography className="font-display text-sm text-red-500">
               {formatSegmentName(segment)}
             </Typography>
           ) : (
@@ -245,7 +246,7 @@ const Breadcrumbs = () => {
                 )
               }
             >
-              <Typography className="font-italic text-sm text-sepia-600 dark:text-sepia-400 underline">
+              <Typography className="bold text-sm text-sepia-600 dark:text-sepia-400 underline">
                 {formatSegmentName(segment)}
               </Typography>
             </Pressable>

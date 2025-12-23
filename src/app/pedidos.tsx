@@ -259,7 +259,7 @@ export default function MassRequestsScreen() {
               setLoading(false);
             }}
           >
-            <Typography className="text-burgundy-600 font-bold">
+            <Typography className="text-burgundy-600 bold">
               ← Cancelar
             </Typography>
           </TouchableOpacity>
@@ -305,7 +305,7 @@ export default function MassRequestsScreen() {
             {loading ? (
               <ActivityIndicator color="white" />
             ) : (
-              <Typography className="text-white font-bold">
+              <Typography className="text-white bold">
                 {isSignUp ? "Registar" : "Entrar"}
               </Typography>
             )}
@@ -364,7 +364,7 @@ export default function MassRequestsScreen() {
                   if (current > 1) setQuantity((current - 1).toString());
                 }}
               >
-                <Typography className="text-burgundy-600 font-bold text-lg">
+                <Typography className="text-burgundy-600 bold text-lg">
                   −
                 </Typography>
               </TouchableOpacity>
@@ -380,7 +380,7 @@ export default function MassRequestsScreen() {
                   if (current < 30) setQuantity((current + 1).toString());
                 }}
               >
-                <Typography className="text-burgundy-600 font-bold text-lg">
+                <Typography className="text-burgundy-600 bold text-lg">
                   +
                 </Typography>
               </TouchableOpacity>
@@ -390,7 +390,7 @@ export default function MassRequestsScreen() {
             className="extreme-background p-4 rounded-xl items-center shadow-sm"
             onPress={addToCart}
           >
-            <Typography className="text-white font-bold text-base">
+            <Typography className="text-white bold text-base">
               Adicionar ao Carrinho
             </Typography>
           </TouchableOpacity>
@@ -399,7 +399,7 @@ export default function MassRequestsScreen() {
         {/* Cart Section */}
         {cart.length > 0 && (
           <View className="mb-8 border-t border-sepia pt-6">
-            <Typography className="text-lg font-bold mb-4 text-sepia-800">
+            <Typography className="text-lg bold mb-4 text-sepia-800">
               Carrinho ({getTotalMasses()}{" "}
               {getTotalMasses() === 1 ? "missa" : "missas"})
             </Typography>
@@ -409,7 +409,7 @@ export default function MassRequestsScreen() {
                 className="soft-background p-4 rounded-xl mb-3 border border-sepia-200 flex-row justify-between items-center"
               >
                 <View className="flex-1 mr-4">
-                  <Typography className="font-bold text-sepia-900">
+                  <Typography className="bold text-sepia-900">
                     {item.intention}
                   </Typography>
                   <Typography className="text-xs text-sepia-600 mt-1">
@@ -426,7 +426,7 @@ export default function MassRequestsScreen() {
             ))}
 
             <View className="bg-sepia-300/30 p-4 rounded-xl mb-4 border border-dashed border-sepia-400">
-              <Typography className="text-lg font-bold text-center text-sepia-900">
+              <Typography className="text-lg bold text-center text-sepia-900">
                 Total: €{(getTotalAmount() / 100).toFixed(2)}
               </Typography>
             </View>
@@ -439,7 +439,7 @@ export default function MassRequestsScreen() {
               {loading ? (
                 <ActivityIndicator color="white" />
               ) : (
-                <Typography className="text-white font-bold text-lg">
+                <Typography className="text-white bold text-lg">
                   Pagar e Finalizar
                 </Typography>
               )}
@@ -449,7 +449,7 @@ export default function MassRequestsScreen() {
 
         {/* History Section */}
         <View className="mb-12">
-          <Typography className="text-xl font-bold mb-4 text-sepia-800">
+          <Typography className="text-xl bold mb-4 text-sepia-800">
             Meus Pedidos
           </Typography>
           {!myOrders ? (
@@ -465,11 +465,11 @@ export default function MassRequestsScreen() {
                 className="soft-background p-4 rounded-xl mb-4 border border-sepia-300"
               >
                 <View className="flex-row justify-between mb-2">
-                  <Typography className="font-bold text-sepia-900">
+                  <Typography className="bold text-sepia-900">
                     {new Date(order._creationTime).toLocaleDateString("pt-PT")}
                   </Typography>
                   <Typography
-                    className={`font-bold text-xs uppercase ${order.status === "paid" ? "text-green-700" : "text-amber-700"}`}
+                    className={`bold text-xs uppercase ${order.status === "paid" ? "text-green-700" : "text-amber-700"}`}
                   >
                     {order.status === "paid" ? "Pago" : "Pendente"}
                   </Typography>
@@ -502,7 +502,7 @@ export default function MassRequestsScreen() {
       <H1 text="Painel do Clero" />
 
       <View className="mb-8">
-        <Typography className="text-xl font-bold mb-4 text-sepia-800">
+        <Typography className="text-xl bold mb-4 text-sepia-800">
           Missas Disponíveis
         </Typography>
         {!availableRequests ? (
@@ -528,7 +528,7 @@ export default function MassRequestsScreen() {
                 className="bg-burgundy-700 p-3 rounded-lg items-center"
                 onPress={() => handleAcceptRequest(request._id)}
               >
-                <Typography className="text-white font-bold">
+                <Typography className="text-white bold">
                   Aceitar Missa
                 </Typography>
               </TouchableOpacity>
@@ -538,7 +538,7 @@ export default function MassRequestsScreen() {
       </View>
 
       <View className="mb-12">
-        <Typography className="text-xl font-bold mb-4 text-sepia-800">
+        <Typography className="text-xl bold mb-4 text-sepia-800">
           Minha Agenda
         </Typography>
         {!myAcceptedRequests ? (
@@ -558,7 +558,7 @@ export default function MassRequestsScreen() {
               </Typography>
               <View className="flex-row justify-between items-center">
                 <Typography
-                  className={`text-xs font-bold ${request.status === "completed" ? "text-green-700" : "text-burgundy-600"}`}
+                  className={`text-xs bold ${request.status === "completed" ? "text-green-700" : "text-burgundy-600"}`}
                 >
                   {request.status === "completed" ? "✓ CELEBRADA" : "● ACEITE"}
                 </Typography>
@@ -567,7 +567,7 @@ export default function MassRequestsScreen() {
                     className="bg-sepia-200 px-4 py-2 rounded-lg border border-sepia-400"
                     onPress={() => handleCompleteRequest(request._id)}
                   >
-                    <Typography className="text-sepia-900 font-bold text-xs">
+                    <Typography className="text-sepia-900 bold text-xs">
                       Concluir
                     </Typography>
                   </TouchableOpacity>

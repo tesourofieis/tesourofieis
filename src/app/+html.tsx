@@ -39,7 +39,7 @@ export default function PageRoot({ children }: PropsWithChildren) {
             gtag('config', 'G-CYLKZM1NJQ');
           `}
         </script>
-        <link rel="shortcut icon" href="/favicon.png" type="image/png" />
+        <link rel="shortcut icon" href="/favicon.svg" type="image/png" />
         <meta property="og:image" content="https://tesourofieis.com/og.png" />
         <meta
           property="twitter:image"

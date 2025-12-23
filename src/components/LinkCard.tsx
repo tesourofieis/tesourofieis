@@ -1,4 +1,4 @@
-import { ChevronRight, ChevronDown, Circle, MapPin } from "lucide-react-native";
+import { ChevronRight, ChevronDown, MapPin, Shirt } from "lucide-react-native";
 import type { Mass } from "~/lib/observanceManager";
 import { burgundy } from "config";
 import { Link } from "expo-router";
@@ -52,7 +52,6 @@ export default function PageLinkCard({
   if (oratio) {
     return (
       <View>
-        {/* @ts-ignore */}
         <Link href={oratio.link} asChild>
           <Pressable>
             {({ pressed }) => (
@@ -60,13 +59,16 @@ export default function PageLinkCard({
                 <View className="flex flex-row justify-between items-center gap-1 mr-2">
                   <View className="flex-1">
                     <View className="flex flex-row">
-                      <Typography className="text-pretty text-sm text-sepia-600 dark:text-sepia-200">
+                      <Typography
+                        numberOfLines={1}
+                        className="text-pretty bold text-sm text-sepia-600 dark:text-sepia-200"
+                      >
                         {description || ""}
                       </Typography>
                     </View>
 
                     <View className="flex flex-row items-center gap-2">
-                      <Typography className="text-pretty text-lg text-sepia-600 dark:text-sepia-300">
+                      <Typography className="text-pretty bold text-base text-sepia-600 dark:text-sepia-300">
                         {oratio.name || ""}
                       </Typography>
                     </View>
@@ -88,7 +90,6 @@ export default function PageLinkCard({
   if (mass) {
     return (
       <View>
-        {/* @ts-ignore */}
         <Link href={mass.link} asChild>
           <Pressable>
             {({ pressed }) => (
@@ -96,8 +97,11 @@ export default function PageLinkCard({
                 <View className="flex flex-row justify-between items-center gap-1 mr-2">
                   <View className="flex-1">
                     <View className="px-3 flex flex-row items-center gap-2">
-                      <Circle color={getColor(mass.color)} />
-                      <Typography className="font-serif text-sm text-sepia-600 dark:text-sepia-200">
+                      <Shirt size={15} color={getColor(mass.color)} />
+                      <Typography
+                        numberOfLines={1}
+                        className="font-serif text-sm text-sepia-600 dark:text-sepia-200"
+                      >
                         {description || "Missa"}
                       </Typography>
                       <Typography className="text-sepia">|</Typography>
@@ -107,14 +111,14 @@ export default function PageLinkCard({
                       </Typography>
                     </View>
 
-                    <Typography className="text-pretty text-lg text-sepia-600 dark:text-sepia-300">
+                    <Typography className="text-pretty bold text-base text-sepia-600 dark:text-sepia-300">
                       {mass.name || ""}
                     </Typography>
 
                     {mass.local && (
                       <View className="flex-row items-center gap-2">
                         <MapPin color={COLORS[500]} />
-                        <Typography className="text-pretty text-sepia-500">
+                        <Typography className="text-pretty bold text-sepia-500">
                           Local: {String(mass.local).toUpperCase()}
                         </Typography>
                       </View>
@@ -143,7 +147,6 @@ export default function PageLinkCard({
 
   return (
     <View>
-      {/* @ts-ignore */}
       <Link href={href ?? "/"} asChild>
         <Pressable>
           {({ pressed }) => (
@@ -152,7 +155,7 @@ export default function PageLinkCard({
                 <View className="flex-1">
                   <View className="flex flex-row">
                     <Typography
-                      className="text-pretty text-xs text-sepia-600 dark:text-sepia-200"
+                      className="text-pretty bold text-xs text-sepia-600 dark:text-sepia-200"
                       numberOfLines={1}
                     >
                       {description || ""}
@@ -160,7 +163,7 @@ export default function PageLinkCard({
                   </View>
 
                   <View className="flex flex-row items-center gap-2">
-                    <Typography className="text-pretty text-lg text-sepia-600 dark:text-sepia-300">
+                    <Typography className="text-pretty bold text-base text-sepia-600 dark:text-sepia-300">
                       {title || ""}
                     </Typography>
                   </View>

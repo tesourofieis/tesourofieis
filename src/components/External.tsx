@@ -122,7 +122,7 @@ export default function ExternalLinks() {
             <View className={cardBase(pressed)}>
               <View className="flex flex-row justify-between items-center gap-1 mr-2">
                 <View className="flex-1">
-                  <View className="flex text-pretty flex-row items-center gap-2">
+                  <View className="flex text-pretty bold flex-row items-center gap-2">
                     {(() => {
                       const IconComponent = getIconComponent(link.icon);
                       return (
@@ -143,7 +143,7 @@ export default function ExternalLinks() {
 
                   <View className="flex flex-row">
                     <Typography
-                      className="text-pretty text-xs text-sepia-600 dark:text-sepia-200"
+                      className="text-pretty bold text-xs text-sepia-600 dark:text-sepia-200"
                       numberOfLines={1}
                     >
                       {link.desc}
@@ -168,9 +168,9 @@ export default function ExternalLinks() {
                         accessibilityRole="button"
                         accessibilityLabel={`Copiar ${link.name}`}
                       >
-                        <View className="flex-row gap-2 items-center text-xs text-sepia bg-sepia-200 dark:bg-sepia-900 rounded-xl p-1 pr-1 ml-2">
+                        <View className="flex-row p-3 gap-3 items-center text-xs text-sepia bg-sepia-200 dark:bg-sepia-900 rounded-xl">
                           <Typography
-                            className="p-1 font-mono text-xs"
+                            className="font-mono text-xs"
                             numberOfLines={1}
                             ellipsizeMode="middle"
                           >

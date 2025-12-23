@@ -2,15 +2,8 @@ import { BookPlus, Calendar, Clock } from "lucide-react-native";
 import { burgundy } from "config";
 import { format, getYear, isWithinInterval } from "date-fns";
 import { pt } from "date-fns/locale";
-import { useRouter } from "expo-router";
 import { useEffect, useRef } from "react";
-import {
-  Animated,
-  Pressable,
-  ScrollView,
-  useColorScheme,
-  View,
-} from "react-native";
+import { Animated, ScrollView, useColorScheme, View } from "react-native";
 import ExternalLinks from "~/components/External";
 import { H1 } from "~/components/Headings";
 import LinkCard from "~/components/LinkCard";
@@ -23,7 +16,6 @@ import { useCalendar } from "~/providers/calendar";
 
 export default function PageRender() {
   const { day, date } = useCalendar();
-  const router = useRouter();
   const colorScheme = useColorScheme();
   const pulseAnim = useRef(new Animated.Value(0)).current;
 
@@ -66,44 +58,23 @@ export default function PageRender() {
   return (
     <ScrollView>
       <View className="extreme-background">
-        <View className="soft-background">
-          <Typography className="font-serif text-sm p-3 text-center text-sepia">
+        <View className="medium-background">
+          <Typography className="bold text-xs p-3 text-center text-sepia">
             Em Portugal se conservará sempre o dogma da fé - Nossa Senhora de
             Fátima
           </Typography>
         </View>
 
-        <View className="flex flex-col items-center mt-20 justify-center gap-5">
-          <BookPlus size={100} color={burgundy[500]} />
+        <View className="flex flex-col items-center pt-10 pb-10 justify-center">
+          <BookPlus strokeWidth={1.5} size={100} color={burgundy[500]} />
           <H1 text="Tesouro dos Fiéis" />
-          <Typography className="font-serif text-sm text-center mx-8 text-sepia-800 dark:text-sepia-200">
-            Espaço dedicado à oração, exposição e preservação das santas
-            tradições da Igreja.
+          <Typography className="bold text-xs text-center mx-8 text-sepia-800 dark:text-sepia-200">
+            As santas tradições da Igreja.
           </Typography>
         </View>
 
-        <View className="flex flex-row justify-center my-5 mx-5 gap-5">
-          <Pressable
-            className="shadow-sm bg-sepia-100 dark:bg-sepia-800 active:bg-sepia-200 dark:active:bg-sepia-700 m-2 rounded-xl px-4 py-3"
-            onPress={() => router.navigate("/devocionario/introducao")}
-          >
-            <Typography className="text-pretty text-sepia-800 dark:text-sepia-200 text-center">
-              Introdução
-            </Typography>
-          </Pressable>
-
-          <Pressable
-            className="shadow-sm bg-sepia-800 dark:bg-sepia-200 active:bg-sepia-700 dark:active:bg-sepia-300 m-2 rounded-xl px-4 py-3"
-            onPress={() => router.navigate("/devocionario/rosario")}
-          >
-            <Typography className="text-pretty text-sepia-invert text-center">
-              Rosário
-            </Typography>
-          </Pressable>
-        </View>
-
         <Animated.View
-          className="flex-1 web:w-6/12 web:mx-auto p-3 rounded-lg"
+          className="flex-1 web:mx-auto py-5 p-3 rounded-lg"
           style={{
             borderWidth: 1,
             borderColor:
@@ -117,7 +88,7 @@ export default function PageRender() {
                 size={15}
                 color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
               />
-              <Typography className="font-bold dark:text-sepia-200 text-left p-3 text-lg text-bold">
+              <Typography className="bold dark:text-sepia-200 text-left p-3 text-lg text-bold">
                 {format(date, "EEEE, dd MMMM", {
                   locale: pt,
                 })}
@@ -135,12 +106,20 @@ export default function PageRender() {
                 size={15}
                 color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
               />
-              <Typography className="font-bold dark:text-sepia-200 text-left p-3 text-lg text-bold">
+              <Typography className="bold dark:text-sepia-200 text-left p-3 text-lg text-bold">
                 {format(date, "HH:mm", {
                   locale: pt,
                 }).toUpperCase()}
               </Typography>
             </View>
+
+            <LinkCard
+              oratio={{
+                link: "/devocionario/rosario",
+                name: "Rosário",
+              }}
+              description="Orações do dia"
+            />
 
             {currentPrayer.isAngelus && (
               <LinkCard
