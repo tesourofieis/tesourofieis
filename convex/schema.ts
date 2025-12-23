@@ -1,26 +1,29 @@
 import { defineSchema, defineTable } from "convex/server";
 import { v } from "convex/values";
+import { authTables } from "@convex-dev/auth/server";
 
 export default defineSchema({
+  ...authTables,
   users: defineTable({
-    email: v.string(),
-    passwordHash: v.string(),
-    role: v.union(v.literal("user"), v.literal("priest")),
+    name: v.optional(v.string()),
+    email: v.optional(v.string()),
+    image: v.optional(v.string()),
+    role: v.optional(v.string()),
   }).index("by_email", ["email"]),
 
   orders: defineTable({
-    userId: v.string(),
+    userId: v.id("users"),
     items: v.array(
       v.object({
         intention: v.string(),
         quantity: v.number(),
-      })
+      }),
     ),
     totalAmount: v.number(),
     status: v.union(
       v.literal("cart"),
       v.literal("pending_payment"),
-      v.literal("paid")
+      v.literal("paid"),
     ),
     checkoutSessionId: v.optional(v.string()),
   })
@@ -28,14 +31,14 @@ export default defineSchema({
     .index("by_session", ["checkoutSessionId"]),
 
   massRequests: defineTable({
-    orderId: v.string(),
-    userId: v.string(),
-    priestId: v.optional(v.string()),
+    orderId: v.id("orders"),
+    userId: v.id("users"),
+    priestId: v.optional(v.id("users")),
     intentionName: v.string(),
     status: v.union(
       v.literal("available"),
       v.literal("accepted"),
-      v.literal("completed")
+      v.literal("completed"),
     ),
   })
     .index("by_status", ["status"])
