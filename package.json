@@ -14,7 +14,7 @@
     "build:web": "expo export --platform web",
     "lint": "expo lint",
     "prebuild": "npx tsx ./scripts/build-search-index.ts",
-    "dev": "npm run prebuild --clean && expo start --clear --dev-client",
+    "dev": "npm run prebuild && expo start --clear --dev-client",
     "deploy": "npx eas-cli build --platform all --auto-submit --profile production --non-interactive --no-wait",
     "update": "npx eas-cli update --auto",
     "test": "vitest ."

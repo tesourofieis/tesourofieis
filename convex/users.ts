@@ -12,8 +12,6 @@ export const viewer = query({
     const user = await ctx.db.get(userId);
     if (!user) return null;
 
-    console.log(user);
-
     return {
       ...user,
       email: user.email ?? "",

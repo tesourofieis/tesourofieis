@@ -30,7 +30,7 @@ const DirectoryList = ({ slug }: { slug: string }) => {
     };
 
     fetchResults();
-  }, [slug, findBySlug]);
+  }, [slug]);
 
   if (isLoading) {
     return (

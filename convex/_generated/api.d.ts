@@ -14,6 +14,8 @@ import type * as http from "../http.js";
 import type * as massRequests from "../massRequests.js";
 import type * as orders from "../orders.js";
 import type * as payment from "../payment.js";
+import type * as refunds from "../refunds.js";
+import type * as scheduledJobs from "../scheduledJobs.js";
 import type * as users from "../users.js";
 
 import type {
@@ -29,6 +31,8 @@ declare const fullApi: ApiFromModules<{
   massRequests: typeof massRequests;
   orders: typeof orders;
   payment: typeof payment;
+  refunds: typeof refunds;
+  scheduledJobs: typeof scheduledJobs;
   users: typeof users;
 }>;
 

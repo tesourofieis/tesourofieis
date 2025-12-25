@@ -164,9 +164,7 @@ function Header({
         <Pressable onPressOut={() => onViewSwitch("week")}>
           <Typography
             className={`p-2 rounded-l text-sepia-700 dark:text-sepia-300 ${
-              viewMode === "week"
-                ? "soft-background bold"
-                : "medium-background"
+              viewMode === "week" ? "soft-background bold" : "medium-background"
             }`}
           >
             Week
