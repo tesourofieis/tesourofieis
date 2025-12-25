@@ -59,7 +59,7 @@ const TEMPORAS_PRAYERS: Record<Season, Prayer[]> = {
     },
     {
       title: "Adeste Fideles",
-      href: "/canticos/sacros/adestefideles",
+      href: "/canticos/sacros/adeste",
       description: "Hino de Natal",
     },
     {
