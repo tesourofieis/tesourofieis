@@ -23,19 +23,6 @@ import { COLORS } from "~/constants/Colors";
 import { CalendarProvider } from "~/providers/calendar";
 import { FontProvider } from "~/providers/fonts";
 import { SettingsProvider } from "~/providers/settings";
-import { ConvexAuthProvider } from "@convex-dev/auth/react";
-import { ConvexReactClient } from "convex/react";
-import * as SecureStore from "expo-secure-store";
-
-const convex = new ConvexReactClient(process.env.EXPO_PUBLIC_CONVEX_URL!, {
-  unsavedChangesWarning: false,
-});
-
-const secureStorage = {
-  getItem: SecureStore.getItemAsync,
-  setItem: SecureStore.setItemAsync,
-  removeItem: SecureStore.deleteItemAsync,
-};
 
 SplashScreen.preventAutoHideAsync();
 
@@ -80,24 +67,15 @@ export default function PageRootLayout() {
       <SafeAreaProvider>
         <CalendarProvider>
           <SearchModalProvider>
-            <ConvexAuthProvider
-              client={convex}
-              storage={
-                Platform.OS === "android" || Platform.OS === "ios"
-                  ? secureStorage
-                  : undefined
-              }
-            >
-              <SettingsProvider>
-                {Platform.OS === "web" ? (
+            <SettingsProvider>
+              {Platform.OS === "web" ? (
+                <RootLayoutNav />
+              ) : (
+                <GestureHandlerRootView style={{ flex: 1 }}>
                   <RootLayoutNav />
-                ) : (
-                  <GestureHandlerRootView style={{ flex: 1 }}>
-                    <RootLayoutNav />
-                  </GestureHandlerRootView>
-                )}
-              </SettingsProvider>
-            </ConvexAuthProvider>
+                </GestureHandlerRootView>
+              )}
+            </SettingsProvider>
           </SearchModalProvider>
         </CalendarProvider>
       </SafeAreaProvider>

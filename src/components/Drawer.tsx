@@ -64,7 +64,6 @@ export interface Docs {
 const ALL_STATIC_ROUTES: StaticRoute[] = [
   { name: "index", title: "Início", icon: "landmark" },
   { name: "calendario", title: "Calendário", icon: "calendar-days" },
-  { name: "pedidos", title: "Pedidos", icon: "comment-medical" },
   { name: "configurar", title: "Configurar", icon: "gear" },
 ];
 
