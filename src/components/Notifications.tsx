@@ -70,7 +70,7 @@ const NotificationToggle = ({
             <Typography className="bold text-sepia-800 dark:text-sepia-200">
               {title}
             </Typography>
-            <Typography className="font-serif text-sepia-800 dark:text-sepia-200 text-sm">
+            <Typography className="font-display text-sepia-800 dark:text-sepia-200 text-sm">
               {description}
             </Typography>
           </View>
@@ -173,12 +173,12 @@ export const Notifications = () => {
           <H6 text="Notificações Desativadas" />
         </View>
 
-        <Typography className="font-serif dark:text-sepia-200 text-sm">
+        <Typography className="font-display dark:text-sepia-200 text-sm">
           {isSoftRejected
             ? "Os lembretes de oração ajudam a santificar o seu dia."
             : "Para receber notificações active as notificações."}
         </Typography>
-        <Typography className="font-serif dark:text-sepia-200 text-xs">
+        <Typography className="font-display dark:text-sepia-200 text-xs">
           {isSoftRejected
             ? '"Orai sem cessar" (1 Tes 5:17)'
             : "Pode ter que activar nas definições do dispositivo."}
@@ -205,11 +205,11 @@ export const Notifications = () => {
         <H6 text="Configurar Notificações" />
       </View>
 
-      <Typography className="font-serif dark:text-sepia-200 text-sm">
+      <Typography className="font-display dark:text-sepia-200 text-sm">
         Receba notificações sobre as mais importantes orações do dia.
       </Typography>
 
-      <Typography className="font-serif text-xs text-sepia-700 dark:text-sepia-300">
+      <Typography className="font-display text-xs text-sepia-700 dark:text-sepia-300">
         As notificações dinâmicas, como as da Missa do Dia e Novenas, necessitam
         de que o utilizador use a aplicação pelo menos uma vez por semana.
       </Typography>

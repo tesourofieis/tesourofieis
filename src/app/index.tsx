@@ -58,19 +58,9 @@ export default function PageRender() {
   return (
     <ScrollView>
       <View className="extreme-background">
-        <View className="medium-background">
-          <Typography className="bold text-xs p-3 text-center text-sepia">
-            Em Portugal se conservará sempre o dogma da fé - Nossa Senhora de
-            Fátima
-          </Typography>
-        </View>
-
-        <View className="flex flex-col items-center pt-10 pb-10 justify-center">
-          <BookPlus strokeWidth={1.5} size={100} color={burgundy[500]} />
+        <View className="flex flex-row items-center gap-3 p-1 justify-center">
+          <BookPlus strokeWidth={2} size={25} color={burgundy[500]} />
           <H1 text="Tesouro dos Fiéis" />
-          <Typography className="bold text-xs text-center mx-8 text-sepia-800 dark:text-sepia-200">
-            As santas tradições da Igreja.
-          </Typography>
         </View>
 
         <Animated.View

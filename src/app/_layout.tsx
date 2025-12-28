@@ -48,7 +48,7 @@ export default function PageRootLayout() {
     return (
       <View className="flex-1 justify-center items-center bg-sepia-200 dark:bg-sepia-900 p-4">
         <AlertTriangle size={48} color={burgundy[500]} />
-        <Typography className="text-burgundy-700 dark:text-burgundy-300 text-center mt-4 font-serif text-lg">
+        <Typography className="text-burgundy-700 dark:text-burgundy-300 text-center mt-4 font-display text-lg">
           Erro ao carregar fontes
         </Typography>
         <Typography className="text-sepia-600 dark:text-sepia-400 text-center mt-2">
@@ -67,15 +67,15 @@ export default function PageRootLayout() {
       <SafeAreaProvider>
         <CalendarProvider>
           <SearchModalProvider>
-            <SettingsProvider>
-              {Platform.OS === "web" ? (
-                <RootLayoutNav />
-              ) : (
+            {Platform.OS === "web" ? (
+              <RootLayoutNav />
+            ) : (
+              <SettingsProvider>
                 <GestureHandlerRootView style={{ flex: 1 }}>
                   <RootLayoutNav />
                 </GestureHandlerRootView>
-              )}
-            </SettingsProvider>
+              </SettingsProvider>
+            )}
           </SearchModalProvider>
         </CalendarProvider>
       </SafeAreaProvider>

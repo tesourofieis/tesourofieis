@@ -228,7 +228,7 @@ const TreeItem = React.memo(
           </Typography>
           {description && description !== doc.title && (
             <Typography
-              className="text-sepia-500 text-xs font-serif"
+              className="text-sepia-500 text-xs font-display"
               numberOfLines={1}
             >
               {description}

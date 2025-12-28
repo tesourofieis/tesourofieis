@@ -100,13 +100,13 @@ export default function PageLinkCard({
                       <Shirt size={15} color={getColor(mass.color)} />
                       <Typography
                         numberOfLines={1}
-                        className="font-serif text-sm text-sepia-600 dark:text-sepia-200"
+                        className="font-display text-sepia-600 dark:text-sepia-200"
                       >
                         {description || "Missa"}
                       </Typography>
                       <Typography className="text-sepia">|</Typography>
 
-                      <Typography className="font-serif text-sm text-sepia-700 dark:text-sepia-200">
+                      <Typography className="font-display text-sepia-700 dark:text-sepia-200">
                         Classe: {mass.rank}
                       </Typography>
                     </View>

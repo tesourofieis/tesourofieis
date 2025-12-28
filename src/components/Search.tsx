@@ -157,7 +157,7 @@ const SearchResultItem = React.memo(
 
           {item.content.headings.length > 1 && (
             <View className="mt-2">
-              <Typography className="font-serif">Secções:</Typography>
+              <Typography className="font-display">Secções:</Typography>
               <View className="flex-row flex-wrap gap-2 mt-1">
                 {item.content.headings
                   .filter((heading) => heading.id !== item.matchedHeading?.id)
@@ -168,7 +168,7 @@ const SearchResultItem = React.memo(
                       onPress={() => handlePress(heading.id)}
                     >
                       <Typography
-                        className="font-serif text-xs underline"
+                        className="font-display text-xs underline"
                         numberOfLines={1}
                       >
                         {heading.title}

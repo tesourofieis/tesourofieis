@@ -136,7 +136,7 @@ export default function ExternalLinks() {
                         />
                       );
                     })()}
-                    <Typography className="text-lg font-serif text-sepia-600 dark:text-sepia-300">
+                    <Typography className="text-lg font-display text-sepia-600 dark:text-sepia-300">
                       {link.title}
                     </Typography>
                   </View>
