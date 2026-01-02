@@ -9,11 +9,13 @@ export default function PageAlmacristo() {
       <H1 text="Alma de Cristo" />
 
       <Language>
-        <Typography className="latin">
-          Anima Christi, sanctífica me. Corpus Christi, salve me.
-        </Typography>
+        <Typography className="latin">Anima Christi, sanctífica me.</Typography>
         <Typography className="vernacular">
-          Alma de Cristo, santificai-me. Corpo de Cristo, salvai-me.
+          Alma de Cristo, santificai-me.
+        </Typography>
+        <Typography className="latin">Corpus Christi, salve me.</Typography>
+        <Typography className="vernacular">
+          Corpo de Cristo, salvai-me.
         </Typography>
         <Typography className="latin">Sanguis Christi, inébria me.</Typography>
         <Typography className="vernacular">

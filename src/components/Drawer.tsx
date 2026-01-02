@@ -58,6 +58,7 @@ export interface Docs {
     headings: SubHeading[];
     comment?: string | null;
   };
+  searchBlob: string;
   hasChildren: boolean;
 }
 
@@ -147,9 +148,9 @@ const TreeItem = React.memo(
         : "";
     const description = !children ? intro || heading : "";
 
-    const iconSize = 10;
-    const chevronSize = 10;
-    const chevronWidth = chevronSize + 10;
+    const iconSize = 12;
+    const chevronSize = 12;
+    const chevronWidth = chevronSize + 12;
     const indent = level * chevronWidth;
 
     return (
@@ -187,8 +188,8 @@ const TreeItem = React.memo(
           style={{
             width: iconSize,
             alignItems: "center",
-            marginLeft: children ? 10 : indent + chevronWidth,
-            marginRight: 10,
+            marginLeft: children ? 12 : indent + chevronWidth,
+            marginRight: 12,
           }}
         >
           {children ? (

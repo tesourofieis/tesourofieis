@@ -153,11 +153,27 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
   };
 
   const isWeb = Platform.OS === "web";
-  if (isWeb) {
+  const { width } = useWindowDimensions();
+  const isWebDesktop = isWeb && width >= 768;
+
+  if (isWebDesktop) {
+    const latinArray = React.Children.toArray(latinContent);
+    const vernacularArray = React.Children.toArray(vernacularContent);
+    const maxLength = Math.max(latinArray.length, vernacularArray.length);
+
+    const pairs = Array.from({ length: maxLength }, (_, i) => ({
+      latin: latinArray[i] || null,
+      vernacular: vernacularArray[i] || null,
+    }));
+
     return (
-      <View className="flex-row">
-        <View className="flex-1">{latinContent}</View>
-        <View className="flex-1">{vernacularContent}</View>
+      <View className="flex-1">
+        {pairs.map((pair, index) => (
+          <View key={index} className="flex-row gap-4">
+            <View className="flex-1">{pair.latin}</View>
+            <View className="flex-1">{pair.vernacular}</View>
+          </View>
+        ))}
       </View>
     );
   }

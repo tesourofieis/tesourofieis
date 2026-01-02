@@ -1,6 +1,12 @@
 import { useFonts } from "expo-font";
 import { useEffect } from "react";
-import { Platform, Pressable, useColorScheme, View } from "react-native";
+import {
+  useWindowDimensions,
+  Platform,
+  Pressable,
+  useColorScheme,
+  View,
+} from "react-native";
 import { Typography } from "~/components/typography";
 import "../global.css";
 import {
@@ -12,6 +18,7 @@ import {
 } from "lucide-react-native";
 import { burgundy } from "config";
 import { useNavigation, usePathname, useRouter } from "expo-router";
+
 import Drawer from "expo-router/drawer";
 import * as SplashScreen from "expo-splash-screen";
 import { StatusBar } from "expo-status-bar";
@@ -87,6 +94,8 @@ function RootLayoutNav() {
   const colorScheme = useColorScheme();
   const isDarkMode = colorScheme === "dark";
   const isWeb = Platform.OS === "web";
+  const { width } = useWindowDimensions();
+  const isWebDesktop = isWeb && width >= 768;
 
   if (isWeb) {
     return (
@@ -96,7 +105,7 @@ function RootLayoutNav() {
           backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
         }}
       >
-        <WebHeader />
+        {isWebDesktop && <WebHeader />}
         <UpdateAwareDrawer />
         <StatusBar
           hidden
@@ -160,12 +169,14 @@ function UpdateAwareDrawer() {
   const colorScheme = useColorScheme();
   const isDarkMode = colorScheme === "dark";
   const isWeb = Platform.OS === "web";
+  const { width } = useWindowDimensions();
+  const isWebDesktop = isWeb && width >= 768;
 
   return (
     <Drawer
       drawerContent={(props) => <CustomDrawer {...props} />}
       screenOptions={{
-        headerShown: !isWeb,
+        headerShown: !isWebDesktop,
         freezeOnBlur: true,
         header: ({ route }) => {
           const isRootScreen = [
@@ -182,11 +193,11 @@ function UpdateAwareDrawer() {
         sceneStyle: {
           backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
         },
-        drawerType: isWeb ? "permanent" : "slide",
+        drawerType: isWebDesktop ? "permanent" : "slide",
         drawerStyle: {
           backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
           borderRightWidth: 0,
-          width: isWeb ? 250 : 250,
+          width: 250,
         },
         drawerInactiveTintColor: isDarkMode ? COLORS["200"] : COLORS["800"],
         drawerActiveTintColor: isDarkMode ? burgundy["300"] : COLORS["700"],
