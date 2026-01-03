@@ -1,15 +1,58 @@
 /**
- * Service Worker for Tesouro dos Fiéis
- * Handles background notifications when the app is not active
+ * Handle push messages (for future server-sent notifications)
  */
+self.addEventListener("push", (event) => {
+  console.log(
+    "📧 Push message received:",
+    event.data ? event.data.text() : "No data",
+  );
 
-const CACHE_NAME = "tesouro-fieis-v1";
-const NOTIFICATION_TAG = "tesouro-notification";
+  if (!event.data) {
+    return;
+  }
 
-// Install event
-self.addEventListener("install", (event) => {
-  console.log("Service Worker installing...");
-  self.skipWaiting();
+  try {
+    // Try to parse as JSON first
+    let data;
+    const textData = event.data.text();
+
+    try {
+      data = JSON.parse(textData);
+    } catch (jsonError) {
+      // If JSON parsing fails, create a simple notification with the text
+      data = {
+        title: "Tesouro dos Fiéis",
+        body: textData || "Nova notificação",
+        url: "/",
+      };
+    }
+
+    const options = {
+      body: data.body || "Nova mensagem do Tesouro dos Fiéis",
+      icon: "/favicon.png",
+      badge: "/favicon.png",
+      image: data.image,
+      data: {
+        url: data.url || "/",
+        timestamp: Date.now(),
+        ...data.data,
+      },
+      tag: data.tag || `tesouro-${Date.now()}`,
+      requireInteraction: data.requireInteraction || false,
+      actions: data.actions || [],
+      vibrate: [200, 100, 200],
+      timestamp: Date.now(),
+    };
+
+    event.waitUntil(
+      self.registration.showNotification(
+        data.title || "Tesouro dos Fiéis",
+        options,
+      ),
+    );
+  } catch (error) {
+    console.error("Error handling push message:", error);
+  }
 });
 
 // Activate event

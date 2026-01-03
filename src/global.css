@@ -49,10 +49,8 @@
   --font-family-serif: "DMSerifText_400Regular";
   --font-family-reading: "Cardo_400Regular";
   --font-family-display: "DMSerifDisplay_400Regular";
-  --font-family-display-italic: "DMSerifDisplay_400Regular_Italic";
   --font-family-bold: "Cardo_700Bold";
-  --font-family-italic: "DMSerifText_400Regular_Italic";
-  --font-family-sans: "NotoSans-Regular";
+  --font-family-italic: "DMSerifDisplay_400Regular_Italic";
 }
 
 @layer base {
@@ -76,20 +74,12 @@
   font-family: var(--font-family-display);
 }
 
-@utility font-display-italic {
-  font-family: var(--font-family-display-italic);
-}
-
 @utility font-serif-custom {
   font-family: var(--font-family-reading);
 }
 
 @utility font-bold-custom {
   font-family: var(--font-family-bold);
-}
-
-@utility font-italic-custom {
-  font-family: var(--font-family-italic);
 }
 
 @utility text-sepia {

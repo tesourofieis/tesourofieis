@@ -202,12 +202,13 @@ export class WebNotificationService {
     // Clear existing scheduled notification with same ID
     this.cancelScheduledNotification(schedule.id);
 
-    // Try to use service worker for better background support
+    // ALWAYS use JavaScript timers for reliable scheduling
+    // Service worker is additional backup, not primary
+    this.scheduleWithTimer(schedule, delay);
+
+    // Also try service worker as backup
     if (this.isServiceWorkerRegistered) {
       this.scheduleNotificationWithSW(schedule);
-    } else {
-      // Fallback to JavaScript timers
-      this.scheduleWithTimer(schedule, delay);
     }
 
     return true;
@@ -504,14 +505,24 @@ export class WebNotificationService {
     try {
       const registration = await eval("navigator.serviceWorker.ready");
 
+      // Check if background sync is supported
       if (eval('"sync" in window.ServiceWorkerRegistration.prototype')) {
-        await registration.sync.register("notification-sync");
-        console.log("🔄 Background sync enabled for notifications");
+        try {
+          await registration.sync.register("notification-sync");
+          console.log("🔄 Background sync enabled for notifications");
+        } catch (syncError: any) {
+          // Background sync permission denied is common, don't treat as error
+          console.log(
+            "ℹ️ Background sync permission denied (this is normal for some browsers)",
+          );
+        }
       } else {
-        console.log("❌ Background Sync not supported");
+        console.log(
+          "ℹ️ Background Sync not supported (this is normal for some browsers)",
+        );
       }
-    } catch (error) {
-      console.error("Error enabling background sync:", error);
+    } catch (error: any) {
+      console.log("ℹ️ Background sync setup failed:", error.message);
     }
   }
 }

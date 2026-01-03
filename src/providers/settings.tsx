@@ -322,9 +322,14 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
             icon: "/favicon.png",
           });
 
-          console.log(
-            `📅 Web notification scheduled: ${notification.content.title} at ${triggerTime.toLocaleString("pt-PT")}`,
+          const delay = Math.round(
+            (triggerTime.getTime() - now.getTime()) / 1000,
           );
+          console.log(
+            `📅 Web notification scheduled: ${notification.content.title} at ${triggerTime.toLocaleString("pt-PT")} (in ${delay}s)`,
+          );
+        } else {
+          console.log(`⚠️ Unsupported web trigger type: ${trigger?.type}`);
         }
         return;
       }

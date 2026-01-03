@@ -35,14 +35,11 @@ SplashScreen.preventAutoHideAsync();
 
 export default function PageRootLayout() {
   const [loaded, error] = useFonts({
-    "NotoSans-Regular": require("~/assets/fonts/NotoSans_400Regular.ttf"),
     Cardo_400Regular: require("~/assets/fonts/Cardo_400Regular.ttf"),
     Cardo_700Bold: require("~/assets/fonts/Cardo_700Bold.ttf"),
     DMSerifDisplay_400Regular: require("~/assets/fonts/DMSerifDisplay_400Regular.ttf"),
     DMSerifDisplay_400Regular_Italic: require("~/assets/fonts/DMSerifDisplay_400Regular_Italic.ttf"),
     DMSerifText_400Regular: require("~/assets/fonts/DMSerifText_400Regular.ttf"),
-    DMSerifText_400Regular_Italic: require("~/assets/fonts/DMSerifText_400Regular_Italic.ttf"),
-    FontAwesome6: require("~/assets/fonts/FontAwesome.ttf"),
   });
 
   useEffect(() => {
@@ -74,15 +71,11 @@ export default function PageRootLayout() {
       <SafeAreaProvider>
         <CalendarProvider>
           <SearchModalProvider>
-            {Platform.OS === "web" ? (
-              <RootLayoutNav />
-            ) : (
-              <SettingsProvider>
-                <GestureHandlerRootView style={{ flex: 1 }}>
-                  <RootLayoutNav />
-                </GestureHandlerRootView>
-              </SettingsProvider>
-            )}
+            <SettingsProvider>
+              <GestureHandlerRootView style={{ flex: 1 }}>
+                <RootLayoutNav />
+              </GestureHandlerRootView>
+            </SettingsProvider>
           </SearchModalProvider>
         </CalendarProvider>
       </SafeAreaProvider>

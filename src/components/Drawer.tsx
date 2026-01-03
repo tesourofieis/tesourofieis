@@ -257,12 +257,8 @@ export default function CustomDrawerContent({
   const hasScrolledToActive = React.useRef(false);
 
   const STATIC_ROUTES = useMemo(() => {
-    return ALL_STATIC_ROUTES.filter((route) => {
-      if (Platform.OS === "web" && route.name === "configurar") {
-        return false;
-      }
-      return true;
-    });
+    // All static routes are now available on all platforms including web
+    return ALL_STATIC_ROUTES;
   }, []);
 
   useEffect(() => {
