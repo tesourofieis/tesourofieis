@@ -92,7 +92,7 @@
     "tailwindcss": "^4.1.16",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3",
-    "vitest": "^1.6.1"
+    "vitest": "^4.0.16"
   },
   "overrides": {
     "lightningcss": "1.30.1"
