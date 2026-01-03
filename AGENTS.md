@@ -1,50 +1,203 @@
-# Agent Guidelines for Tesouro Fieis
+# Agent Guidelines for Tesouro dos Fiéis
+
+This document provides comprehensive guidelines for AI agents working on the Tesouro dos Fiéis project - a traditional Catholic liturgical application built with Expo/React Native.
+
+## Project Context
+
+Tesouro dos Fiéis is a universal Catholic liturgical application that provides:
+
+- Traditional Roman Missal content
+- Devotional prayers and novenas
+- Sacramental rituals
+- Faith documents (catechism)
+- Complete liturgical calendar system
+- Cross-platform support (iOS, Android, Web)
+
+**Important**: This application serves sacred Catholic traditions. All work must be approached with reverence, accuracy, and cultural sensitivity.
 
 ## Build/Lint/Test Commands
 
-### Workspace-wide
-- `pnpm check` - Type check all packages
-- `pnpm lint` - Lint all packages
-- `pnpm test` - Run tests in all packages
+### Core Development
 
-### Apps
-- **Expo**: `pnpm check` (tsc), `pnpm lint` (expo lint)
+- `pnpm check` - Type check entire project
+- `pnpm lint` - Lint all code with Biome + ESLint
+- `pnpm test` - Run complete test suite
+- `pnpm dev` - Start development server
+- `pnpm run prebuild` - Build search index
 
-### Packages
-- **Cal**: `pnpm check` (tsc), `pnpm lint` (eslint), `pnpm test` (vitest), `pnpm coverage` (vitest --coverage)
+### Platform-Specific Development
 
-### Running Single Tests
-Use vitest directly: `vitest packages/cal/tests/calendar/2024.test.ts`
+- `pnpm run dev:android` - Android development
+- `pnpm run dev:ios` - iOS development
+- `pnpm run build:web` - Web static export
+
+### Testing
+
+- **Calendar Tests** (Critical): `vitest lib/tests/calendar/`
+- **Single Test**: `vitest lib/tests/calendar/2024.test.ts`
+- **Coverage**: `pnpm coverage` (vitest --coverage)
+- **Benchmarks**: `vitest lib/tests/bench/`
+
+### Deployment
+
+- `pnpm run deploy` - EAS build for all platforms
+- `pnpm run update` - OTA updates via Expo
 
 ## Code Style Guidelines
 
 ### Formatting (Biome)
+
 - 2-space indentation, 80 line width, LF line endings
 - Auto-organize imports enabled
 - JSON allows trailing commas
 
 ### Linting (Biome + ESLint)
+
 - TypeScript recommended rules
 - Expo config for React Native code
 - Prettier integration
 - Disabled: noUnusedVariables (warn), noForEach, noNonNullAssertion, noParameterAssign
 
 ### TypeScript
+
 - Strict mode enabled
 - `noUncheckedIndexedAccess: true`
 - `strictNullChecks: true`
 - Target ES2022, moduleResolution: "Bundler"
 
 ### Naming Conventions
+
 - PascalCase for components and types
 - camelCase for variables/functions
 - Follow existing patterns in codebase
 
 ### Error Handling
+
 - Use TypeScript strict null checks
 - Prefer explicit error handling over assertions
 
 ### Imports
+
 - Auto-organized by Biome
-- Use workspace:* for internal packages</content>
+- Use workspace:\* for internal packages
+
+## Project Architecture
+
+### Technology Stack
+
+- **Expo SDK 54** - Universal React Native platform
+- **React 19** - Latest React with concurrent features
+- **TypeScript 5** - Strict type safety
+- **NativeWind 5** - Tailwind CSS for React Native
+- **Expo Router** - File-based routing
+- **Vitest** - Testing framework
+
+### Directory Structure
+
+```
+src/
+├── app/                    # Expo Router pages
+│   ├── missal/            # Roman Missal content
+│   ├── devocionario/      # Devotional prayers
+│   ├── ritual/            # Sacramental rituals
+│   └── fe/                # Faith documents
+├── components/            # Reusable UI components
+├── providers/             # React Context providers
+└── services/              # App services
+
+lib/                       # Core liturgical logic
+├── calendar.ts           # Liturgical calendar system
+├── observances.ts        # Feast days and seasons
+└── tests/                # Calendar calculation tests
+```
+
+## Development Guidelines
+
+### Liturgical Content Standards
+
+1. **Accuracy is Paramount**: All liturgical content must be verified against traditional Catholic sources
+2. **Respect Traditional Rankings**: Follow proper liturgical precedence and classifications
+3. **Authentic Sources**: Use only approved traditional Catholic texts
+4. **Reverent Presentation**: Maintain dignified and respectful content presentation
+
+### Calendar System (Critical)
+
+- The liturgical calendar in `lib/` is the heart of the application
+- **Always test calendar changes** with the comprehensive test suite
+- Verify calculations against official liturgical calendars
+- Handle edge cases (leap years, timezone changes, competing observances)
+- Support years from 2024 onwards with accurate computations
+
+### Cross-Platform Development
+
+- Code must work identically on iOS, Android, and Web
+- Use Expo Router for universal navigation
+- Test responsive design on all screen sizes
+- Ensure offline functionality for essential content
+- Optimize performance for mobile devices
+
+### Component Development
+
+- Create reusable components in `src/components/`
+- Use TypeScript interfaces for all props
+- Follow NativeWind styling patterns
+- Implement proper accessibility features
+- Maintain consistent design language
+
+## Testing Requirements
+
+### Calendar Tests (Absolutely Critical)
+
+- Test all liturgical date calculations
+- Verify moveable feast calculations (Easter, Pentecostes, etc.)
+- Test liturgical season transitions
+- Validate observance rankings and precedence
+- Check timezone handling and edge cases
+
+### Component Tests
+
+- Test rendering on all platforms
+- Verify responsive behavior
+- Test user interactions
+- Validate accessibility features
+
+### Integration Tests
+
+- Test navigation flows
+- Verify provider interactions
+- Test search functionality
+- Validate offline capabilities
+
+## Content Management
+
+### Adding New Liturgical Content
+
+1. Research traditional sources and verify authenticity
+2. Create appropriate route in `src/app/` directory structure
+3. Follow existing component patterns and styling
+4. Add proper navigation and metadata
+5. Test on all platforms
+6. Verify offline availability if applicable
+
+### Modifying Calendar Logic
+
+1. Update core logic in `lib/calendar.ts` or related files
+2. Add comprehensive test coverage for changes
+3. Verify against multiple liturgical calendar sources
+4. Test edge cases and boundary conditions
+5. Update documentation and comments
+
+## AI Assistant Guidelines
+
+When working on this project, always remember:
+
+1. **Sacred Context**: This app serves Catholic liturgical traditions - approach with reverence and accuracy
+2. **Test Calendar Changes**: Always run the full test suite for any calendar-related modifications
+3. **Cross-Platform First**: Consider iOS, Android, and Web in all development decisions
+4. **Performance Matters**: Optimize for mobile devices and slower connections
+5. **Accessibility Required**: Implement proper accessibility features for all users
+6. **TypeScript Strict**: Use proper typing and avoid any types
+7. **Cultural Sensitivity**: Understand the religious significance of the content
+
+Remember: This application preserves and shares sacred Catholic traditions. Every line of code should reflect the dignity and importance of this mission.</content>
 <parameter name="filePath">/home/ofrades/code/tesourofieis/tesourofieis/AGENTS.md

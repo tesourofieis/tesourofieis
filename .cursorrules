@@ -1,0 +1,114 @@
+# Cursor Rules for Tesouro dos Fiéis
+
+You are working on "Tesouro dos Fiéis", a Catholic liturgical application built with Expo/React Native.
+
+## Project Overview
+
+This is a universal React Native app (mobile + web) that provides traditional Catholic liturgical content including:
+- Traditional Roman Missal masses
+- Devotional prayers and novenas  
+- Sacramental rituals
+- Faith documents (catechism, etc.)
+- Complete liturgical calendar system
+- Divine Office calculations
+
+## Technology Stack
+
+- **Expo SDK 54** - Universal React Native platform
+- **React 19** - Latest React with concurrent features
+- **TypeScript 5** - Strict type safety
+- **NativeWind 5** - Tailwind CSS for React Native
+- **Expo Router** - File-based routing
+- **Vitest** - Testing framework
+
+## Code Style & Standards
+
+### Formatting (Biome)
+- 2-space indentation
+- 80 character line width
+- LF line endings
+- Auto-organize imports
+
+### TypeScript
+- Strict mode enabled
+- `noUncheckedIndexedAccess: true`
+- `strictNullChecks: true`
+- Target ES2022
+
+### Naming Conventions
+- PascalCase for components and types
+- camelCase for variables/functions
+- Follow existing patterns in codebase
+
+## Key Directories
+
+- `src/app/` - Expo Router pages (missal, devocionario, fe, ritual)
+- `src/components/` - Reusable React components
+- `src/providers/` - Context providers (settings, fonts, language)
+- `lib/` - Calendar system with liturgical calculations
+- `assets/` - Fonts, images, icons
+
+## Development Commands
+
+- `pnpm check` - Type checking
+- `pnpm lint` - Linting
+- `pnpm test` - Run tests
+- `pnpm dev` - Start development server
+- `pnpm run dev:android` - Android development
+- `pnpm run dev:ios` - iOS development
+
+## Important Guidelines
+
+1. **Liturgical Accuracy**: Ensure all liturgical content follows traditional Catholic practices
+2. **Universal Design**: Code must work on both mobile and web
+3. **Accessibility**: Use semantic HTML elements and proper ARIA labels
+4. **Performance**: Optimize for mobile devices and slower connections
+5. **Offline Support**: Critical prayers should work offline
+6. **Multilingual**: Support for Portuguese and Latin content
+
+## Testing
+
+- Write tests for calendar calculations (very important for liturgical dates)
+- Test component rendering across platforms
+- Verify offline functionality
+- Test font loading and typography
+
+## Calendar System
+
+The liturgical calendar in `lib/` is crucial:
+- Calculates moveable feasts (Easter, Pentecost, etc.)
+- Handles liturgical seasons and ranks
+- Supports timezone calculations
+- Provides observance management
+
+When modifying calendar logic, always run tests and verify against liturgical sources.
+
+## Content Structure
+
+Content is organized by liturgical function:
+- **Missal** (`src/app/missal/`) - Mass texts, proper and common
+- **Devotional** (`src/app/devocionario/`) - Private prayers, novenas
+- **Ritual** (`src/app/ritual/`) - Sacramental ceremonies
+- **Faith** (`src/app/fe/`) - Doctrinal documents
+
+## Common Tasks
+
+### Adding New Prayer Content
+1. Create new file in appropriate directory
+2. Use existing component patterns
+3. Add proper metadata and navigation
+4. Test on both mobile and web
+
+### Modifying Calendar
+1. Update logic in `lib/calendar.ts` or `lib/observances.ts`
+2. Add comprehensive tests
+3. Verify against liturgical sources
+4. Test edge cases and timezone handling
+
+### Component Development
+1. Use TypeScript interfaces for props
+2. Follow NativeWind styling patterns
+3. Ensure cross-platform compatibility
+4. Add proper accessibility features
+
+Remember: This app serves the sacred tradition of the Catholic Church. Accuracy, reverence, and functionality are paramount.
