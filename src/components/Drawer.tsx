@@ -43,6 +43,7 @@ export interface SubHeading {
   id: string;
   level: number;
   body: string;
+  excerpt?: string; // Short snippet for search results
 }
 
 export interface Docs {
@@ -58,7 +59,7 @@ export interface Docs {
     headings: SubHeading[];
     comment?: string | null;
   };
-  searchBlob: string;
+  keywords: string[]; // Minimal keyword array instead of searchBlob
   hasChildren: boolean;
 }
 

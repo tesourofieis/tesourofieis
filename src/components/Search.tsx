@@ -1,4 +1,4 @@
-import { BookPlus, Search, X } from "lucide-react-native";
+import { BookPlus, Search, X, Filter, Tag } from "lucide-react-native";
 import { burgundy } from "config";
 import { BlurView } from "expo-blur";
 import { useRouter } from "expo-router";
@@ -20,10 +20,17 @@ import {
   TouchableOpacity,
   useColorScheme,
   View,
+  ScrollView,
 } from "react-native";
 import { Typography } from "~/components/typography";
 import { COLORS } from "~/constants/Colors";
-import { type SearchResult, search } from "~/services/search";
+import {
+  type SearchResult,
+  type SearchFilters,
+  search,
+  getAvailableSections,
+  getSectionDisplayName,
+} from "~/services/search";
 
 const SearchModalContext = createContext<{
   openSearch: () => void;
@@ -179,9 +186,17 @@ const SearchResultItem = React.memo(
             </View>
           )}
           <View className="flex-row flex-wrap items-center mt-1 gap-2">
+            {item.section && (
+              <View className="flex-row items-center gap-1">
+                <Tag size={10} color={COLORS["600"]} />
+                <Typography className="text-ellipsis text-burgundy-600 dark:text-burgundy-300 text-xs px-2 py-1 mt-2 rounded-full bg-burgundy-100 dark:bg-burgundy-900">
+                  {getSectionDisplayName(item.section)}
+                </Typography>
+              </View>
+            )}
             {item.id
               .split("/")
-              .slice(0, -1)
+              .slice(1, -1)
               .map((path, i) => (
                 <Typography
                   key={i}
@@ -190,6 +205,11 @@ const SearchResultItem = React.memo(
                   {path}
                 </Typography>
               ))}
+            {item.relevanceScore && item.relevanceScore > 1000 && (
+              <Typography className="text-xs text-green-600 dark:text-green-400 px-2 py-1 mt-2 rounded-full bg-green-100 dark:bg-green-900">
+                Relevante
+              </Typography>
+            )}
           </View>
         </TouchableOpacity>
       </View>
@@ -213,7 +233,37 @@ function SearchModal({
   const isDark = useColorScheme() === "dark";
   const [results, setResults] = useState<SearchResult[]>([]);
   const [isSearching, setIsSearching] = useState(false);
+  const [showFilters, setShowFilters] = useState(false);
+  const [selectedSections, setSelectedSections] = useState<string[]>([]);
   const timeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const availableSections = useMemo(() => getAvailableSections(), []);
+
+  const performSearch = useCallback((query: string, sections: string[]) => {
+    if (!query.trim()) {
+      setResults([]);
+      setIsSearching(false);
+      return;
+    }
+
+    setIsSearching(true);
+
+    // Use requestAnimationFrame for better performance
+    requestAnimationFrame(() => {
+      try {
+        const filters: SearchFilters = {};
+        if (sections.length > 0) {
+          filters.sections = sections;
+        }
+        const searchResults = search(query, 20, filters);
+        setResults(searchResults);
+      } catch (err) {
+        console.error("Search error:", err);
+        setResults([]);
+      } finally {
+        setIsSearching(false);
+      }
+    });
+  }, []);
 
   useEffect(() => {
     if (!searchQuery.trim()) {
@@ -225,26 +275,22 @@ function SearchModal({
       }
       return;
     }
-    setIsSearching(true);
+
     if (timeoutRef.current) clearTimeout(timeoutRef.current);
-    timeoutRef.current = setTimeout(() => {
-      try {
-        const searchResults = search(searchQuery, 15);
-        setResults(searchResults);
-      } catch (err) {
-        console.error("Search error:", err);
-        setResults([]);
-      } finally {
-        setIsSearching(false);
-      }
-    }, 300);
+    timeoutRef.current = setTimeout(
+      () => {
+        performSearch(searchQuery, selectedSections);
+      },
+      searchQuery.length < 3 ? 500 : 200,
+    ); // Longer delay for short queries
+
     return () => {
       if (timeoutRef.current) {
         clearTimeout(timeoutRef.current);
         timeoutRef.current = null;
       }
     };
-  }, [searchQuery]);
+  }, [searchQuery, selectedSections, performSearch]);
 
   const handleNavigate = useCallback(
     (url: string, headingId?: string) => {
@@ -305,6 +351,19 @@ function SearchModal({
                     returnKeyType="search"
                     className="flex-1 py-3 ml-2 text-sepia-900 dark:text-sepia-100"
                   />
+                  <TouchableOpacity
+                    onPress={() => setShowFilters(!showFilters)}
+                    className="ml-2 p-1"
+                  >
+                    <Filter
+                      size={15}
+                      color={
+                        selectedSections.length > 0
+                          ? burgundy[500]
+                          : colors.placeholder
+                      }
+                    />
+                  </TouchableOpacity>
                   {!!searchQuery && (
                     <TouchableOpacity
                       onPress={() => setSearchQuery("")}
@@ -314,6 +373,66 @@ function SearchModal({
                     </TouchableOpacity>
                   )}
                 </View>
+
+                {showFilters && (
+                  <View className="mt-3 px-2">
+                    <Typography className="text-sm font-display mb-2 text-sepia-600 dark:text-sepia-300">
+                      Filtrar por seção:
+                    </Typography>
+                    <ScrollView
+                      horizontal
+                      showsHorizontalScrollIndicator={false}
+                    >
+                      <View className="flex-row gap-2">
+                        {selectedSections.length > 0 && (
+                          <TouchableOpacity
+                            onPress={() => setSelectedSections([])}
+                            className="px-3 py-1 rounded-full bg-red-200 dark:bg-red-700"
+                          >
+                            <Typography className="text-xs text-red-700 dark:text-red-200">
+                              Limpar
+                            </Typography>
+                          </TouchableOpacity>
+                        )}
+                        {availableSections.map((section) => {
+                          const isSelected = selectedSections.includes(section);
+                          return (
+                            <TouchableOpacity
+                              key={section}
+                              onPress={() => {
+                                if (isSelected) {
+                                  setSelectedSections((prev) =>
+                                    prev.filter((s) => s !== section),
+                                  );
+                                } else {
+                                  setSelectedSections((prev) => [
+                                    ...prev,
+                                    section,
+                                  ]);
+                                }
+                              }}
+                              className={`px-3 py-1 rounded-full border ${
+                                isSelected
+                                  ? "bg-burgundy-200 dark:bg-burgundy-700 border-burgundy-400"
+                                  : "bg-sepia-200 dark:bg-sepia-700 border-sepia-400"
+                              }`}
+                            >
+                              <Typography
+                                className={`text-xs ${
+                                  isSelected
+                                    ? "text-burgundy-700 dark:text-burgundy-200"
+                                    : "text-sepia-600 dark:text-sepia-300"
+                                }`}
+                              >
+                                {getSectionDisplayName(section)}
+                              </Typography>
+                            </TouchableOpacity>
+                          );
+                        })}
+                      </View>
+                    </ScrollView>
+                  </View>
+                )}
               </View>
               <View className="flex-1 medium-background">
                 {isSearching && (
@@ -322,13 +441,34 @@ function SearchModal({
                   </View>
                 )}
                 {results.length > 0 && (
-                  <FlatList
-                    data={results}
-                    renderItem={({ item }) => (
-                      <SearchResultItem item={item} onPress={handleNavigate} />
-                    )}
-                    keyExtractor={(item) => item.id}
-                  />
+                  <View className="flex-1">
+                    <View className="px-4 py-2 border-b border-sepia">
+                      <Typography className="text-xs text-sepia-600 dark:text-sepia-400">
+                        {results.length} resultado
+                        {results.length !== 1 ? "s" : ""} encontrado
+                        {results.length !== 1 ? "s" : ""}
+                        {selectedSections.length > 0 && (
+                          <Typography className="text-xs">
+                            {" "}
+                            em{" "}
+                            {selectedSections
+                              .map((s) => getSectionDisplayName(s))
+                              .join(", ")}
+                          </Typography>
+                        )}
+                      </Typography>
+                    </View>
+                    <FlatList
+                      data={results}
+                      renderItem={({ item }) => (
+                        <SearchResultItem
+                          item={item}
+                          onPress={handleNavigate}
+                        />
+                      )}
+                      keyExtractor={(item) => item.id}
+                    />
+                  </View>
                 )}
                 {searchQuery.trim() && !isSearching && !results.length && (
                   <View className="flex-1 justify-center items-center py-12">
@@ -339,6 +479,16 @@ function SearchModal({
                     <Typography className="text-sepia-500 dark:text-sepia-400 mt-2 text-center">
                       Nenhum resultado encontrado
                     </Typography>
+                    {selectedSections.length > 0 && (
+                      <TouchableOpacity
+                        onPress={() => setSelectedSections([])}
+                        className="mt-2 px-3 py-1 rounded border border-sepia"
+                      >
+                        <Typography className="text-xs text-sepia-600 dark:text-sepia-400">
+                          Remover filtros
+                        </Typography>
+                      </TouchableOpacity>
+                    )}
                   </View>
                 )}
               </View>

@@ -1,7 +1,7 @@
 import * as fs from "fs";
 import * as path from "path";
 import { globSync } from "glob";
-import type { Docs } from "~/app/(tabs)/more";
+import type { Docs } from "../src/components/Drawer";
 
 function slugify(text: string): string {
   return text
@@ -9,6 +9,90 @@ function slugify(text: string): string {
     .replace(/[^\w\s-]/g, "")
     .replace(/[\s_-]+/g, "-")
     .replace(/^-+|-+$/g, "");
+}
+
+function normalize(text: string): string {
+  return text
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase();
+}
+
+function extractKeywords(text: string): string[] {
+  const normalized = normalize(text);
+  const words = normalized
+    .split(/\s+/)
+    .filter((word) => word.length >= 3) // Only words with 3+ characters
+    .filter((word) => !/^\d+$/.test(word)) // Filter out pure numbers
+    .filter(
+      (word) =>
+        ![
+          "que",
+          "para",
+          "com",
+          "por",
+          "uma",
+          "dos",
+          "das",
+          "nos",
+          "nas",
+          "seu",
+          "sua",
+          "seus",
+          "suas",
+          "como",
+          "pela",
+          "pelo",
+          "esta",
+          "este",
+          "essa",
+          "esse",
+          "mais",
+          "muito",
+          "bem",
+          "sem",
+          "depois",
+          "antes",
+          "assim",
+        ].includes(word),
+    ); // Expanded Portuguese stop words
+
+  return [...new Set(words)]; // Remove duplicates
+}
+
+function createExcerpt(text: string, maxWords = 20): string {
+  if (!text) return "";
+  const words = text.split(/\s+/);
+  if (words.length <= maxWords) return text;
+  return words.slice(0, maxWords).join(" ") + "...";
+}
+
+function generateDocumentKeywords(
+  title: string,
+  content: any,
+  section: string | null,
+): string[] {
+  // Include heading titles + first part of body content for keyword extraction
+  const headingText = content.headings
+    .map((h: any) => {
+      const bodyStart = h.body
+        ? h.body.split(/\s+/).slice(0, 15).join(" ")
+        : ""; // First 15 words of body
+      return `${h.title} ${bodyStart}`;
+    })
+    .join(" ");
+
+  const allText = [
+    title,
+    section || "",
+    content.introduction || "",
+    headingText, // Includes both title and body start
+    content.comment || "",
+  ]
+    .filter(Boolean)
+    .join(" ");
+
+  return extractKeywords(allText);
 }
 
 interface ParsedContentSegment {
@@ -79,7 +163,7 @@ function parseRawContentToSegments(rawContent: string): ParsedContentSegment[] {
     .flatMap((tag) => {
       const regex = new RegExp(
         `<${tag}[^>]*text\\s*=\\s*(["'])(.*?)\\1[^>]*\\/>`,
-        "gs"
+        "gs",
       );
       return [...rawContent.matchAll(regex)].map((match) => ({
         type: "heading" as const,
@@ -92,7 +176,7 @@ function parseRawContentToSegments(rawContent: string): ParsedContentSegment[] {
     .sort((a, b) => a.index - b.index);
 
   const commentMatch = rawContent.match(
-    /<[^>]*className="[^"]*comment[^"]*"[^>]*>([\s\S]*?)<\/[^>]+>/
+    /<[^>]*className="[^"]*comment[^"]*"[^>]*>([\s\S]*?)<\/[^>]+>/,
   );
   const commentSegment: ParsedContentSegment | null = commentMatch
     ? {
@@ -114,7 +198,7 @@ function parseRawContentToSegments(rawContent: string): ParsedContentSegment[] {
     if (structuralElement.index! > lastIndex) {
       const textChunk = rawContent.substring(
         lastIndex,
-        structuralElement.index!
+        structuralElement.index!,
       );
 
       const extractedTexts = extractTextFromNestedTags(textChunk);
@@ -198,9 +282,10 @@ function buildDocumentContent(rawContent: string): Docs["content"] {
       inIntroduction = false;
 
       if (content.headings.length > 0) {
-        content.headings[content.headings.length - 1].body = currentHeadingBody
-          .join(" ")
-          .trim();
+        const lastHeading = content.headings[content.headings.length - 1];
+        const fullBody = currentHeadingBody.join(" ").trim();
+        lastHeading.body = fullBody;
+        lastHeading.excerpt = createExcerpt(fullBody, 15);
       }
 
       const baseId = slugify(segment.content);
@@ -215,6 +300,7 @@ function buildDocumentContent(rawContent: string): Docs["content"] {
         id: uniqueId,
         level: segment.level!,
         body: "",
+        excerpt: "",
       });
       currentHeadingBody = [];
     } else if (segment.type === "text") {
@@ -225,9 +311,10 @@ function buildDocumentContent(rawContent: string): Docs["content"] {
   });
 
   if (content.headings.length > 0) {
-    content.headings[content.headings.length - 1].body = currentHeadingBody
-      .join(" ")
-      .trim();
+    const lastHeading = content.headings[content.headings.length - 1];
+    const fullBody = currentHeadingBody.join(" ").trim();
+    lastHeading.body = fullBody;
+    lastHeading.excerpt = createExcerpt(fullBody, 15); // Short excerpt for search
   } else if (currentHeadingBody.length > 0 && inIntroduction) {
     content.introduction = currentHeadingBody.join(" ").trim();
     if (content.introduction === "") content.introduction = undefined;
@@ -264,11 +351,11 @@ function generateUrl(relativePath: string): string {
 function shouldProcessFile(
   file: string,
   baseDir: string,
-  targetDirs: string[]
+  targetDirs: string[],
 ): boolean {
   const relative: string = path.relative(baseDir, file);
   const isInTargetDir: boolean = targetDirs.some((dir) =>
-    relative.startsWith(`${dir}${path.sep}`)
+    relative.startsWith(`${dir}${path.sep}`),
   );
   const isLayout: boolean = path.basename(file) === "_layout.tsx";
 
@@ -307,6 +394,9 @@ function processFile(file: string, baseDir: string): Docs | null {
 
     const hasChildren = isFolder;
 
+    // Generate minimal keywords array for search indexing
+    const keywords = generateDocumentKeywords(title, documentContent, section);
+
     const result: Docs = {
       id,
       title,
@@ -317,6 +407,7 @@ function processFile(file: string, baseDir: string): Docs | null {
       parent,
       hasChildren,
       content: documentContent,
+      keywords,
     };
 
     return result;
@@ -328,6 +419,7 @@ function processFile(file: string, baseDir: string): Docs | null {
 
 function buildJsonDocs(): void {
   console.log("🔍 Iniciando indexação e construção do arquivo JSON...");
+  const startTime = Date.now();
 
   const targetDirs: string[] = [
     "canticos",
@@ -338,6 +430,16 @@ function buildJsonDocs(): void {
   ];
   const baseDir: string = "src/app";
   const jsonFilePath: string = path.resolve("./assets/docs.json");
+
+  // Statistics tracking
+  const stats = {
+    totalFiles: 0,
+    processedDocs: 0,
+    totalKeywords: 0,
+    sectionCounts: {} as Record<string, number>,
+    averageHeadings: 0,
+    totalHeadings: 0,
+  };
 
   const outDir: string = path.resolve("./assets");
   if (!fs.existsSync(outDir)) {
@@ -351,17 +453,18 @@ function buildJsonDocs(): void {
 
   let files: string[] = [];
   for (const pattern of targetDirs.map((dir) =>
-    path.join(baseDir, dir, "**", "*.tsx")
+    path.join(baseDir, dir, "**", "*.tsx"),
   )) {
     const found: string[] = globSync(pattern, { cwd: process.cwd() });
     files = files.concat(found);
   }
 
   files = [...new Set(files)].filter((file) =>
-    shouldProcessFile(file, baseDir, targetDirs)
+    shouldProcessFile(file, baseDir, targetDirs),
   );
 
   console.log(`📁 Total de arquivos TSX a processar: ${files.length}`);
+  stats.totalFiles = files.length;
 
   const processedDocs: Docs[] = [];
 
@@ -369,6 +472,15 @@ function buildJsonDocs(): void {
     const doc = processFile(file, baseDir);
     if (doc) {
       processedDocs.push(doc);
+      stats.processedDocs++;
+
+      // Update statistics
+      if (doc.section) {
+        stats.sectionCounts[doc.section] =
+          (stats.sectionCounts[doc.section] || 0) + 1;
+      }
+      stats.totalHeadings += doc.content.headings.length;
+      stats.totalKeywords += doc.keywords.length;
     }
 
     if ((index + 1) % 500 === 0 || index === files.length - 1) {
@@ -376,20 +488,44 @@ function buildJsonDocs(): void {
     }
   });
 
+  stats.averageHeadings = stats.totalHeadings / stats.processedDocs;
+
   try {
     fs.writeFileSync(
       jsonFilePath,
       JSON.stringify(processedDocs, null, 2),
-      "utf-8"
+      "utf-8",
     );
     console.log(
-      `✅ ${processedDocs.length} documentos salvos em: ${jsonFilePath}`
+      `✅ ${processedDocs.length} documentos salvos em: ${jsonFilePath}`,
     );
+
+    // Print detailed statistics
+    const endTime = Date.now();
+    const processingTime = (endTime - startTime) / 1000;
+
+    console.log(`\n📊 Estatísticas de Indexação:`);
+    console.log(`⏱️  Tempo de processamento: ${processingTime.toFixed(2)}s`);
+    console.log(
+      `📁 Arquivos processados: ${stats.processedDocs}/${stats.totalFiles}`,
+    );
+    console.log(`🏷️  Total de palavras-chave: ${stats.totalKeywords}`);
+    console.log(
+      `📝 Média de cabeçalhos por documento: ${stats.averageHeadings.toFixed(1)}`,
+    );
+    console.log(`📚 Documentos por seção:`);
+    Object.entries(stats.sectionCounts)
+      .sort(([, a], [, b]) => b - a)
+      .forEach(([section, count]) => {
+        console.log(`   • ${section}: ${count} documentos`);
+      });
   } catch (error: any) {
     console.error(`❌ Erro ao salvar o arquivo JSON:`, error.message);
   }
 
-  console.log(`📊 Geração do arquivo JSON concluída!`);
+  console.log(
+    `\n🎉 Geração do arquivo JSON concluída com otimizações de busca!`,
+  );
 }
 
 buildJsonDocs();

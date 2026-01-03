@@ -64,6 +64,59 @@ export default function PageRoot({ children }: PropsWithChildren) {
         <meta name="robots" content="index, follow" />
         <meta name="theme-color" content="#32302f" />
 
+        <script>
+          {`
+            // Enhanced service worker registration for PWA notifications
+            if ('serviceWorker' in navigator) {
+              window.addEventListener('load', async () => {
+                try {
+                  // Register the main Expo/Workbox service worker
+                  const registration = await navigator.serviceWorker.register('/sw.js', {
+                    scope: '/'
+                  });
+                  
+                  console.log('🚀 Tesouro dos Fiéis SW registered:', registration.scope);
+                  
+                  // Wait for service worker to be ready
+                  await navigator.serviceWorker.ready;
+                  console.log('✅ Service Worker ready for notifications');
+                  
+                  // Listen for service worker updates
+                  registration.addEventListener('updatefound', () => {
+                    console.log('🔄 Service Worker update found');
+                    const newWorker = registration.installing;
+                    if (newWorker) {
+                      newWorker.addEventListener('statechange', () => {
+                        if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                          console.log('🆕 New Service Worker ready');
+                          // Could show update notification here
+                        }
+                      });
+                    }
+                  });
+                  
+                  // Handle messages from service worker
+                  navigator.serviceWorker.addEventListener('message', (event) => {
+                    console.log('📨 Message from SW:', event.data);
+                    
+                    if (event.data?.type === 'NOTIFICATION_CLICK') {
+                      const { url } = event.data;
+                      if (url && url !== window.location.pathname) {
+                        window.location.href = url;
+                      }
+                    }
+                  });
+                  
+                } catch (error) {
+                  console.error('❌ SW registration failed:', error);
+                }
+              });
+            } else {
+              console.log('❌ Service Worker not supported');
+            }
+          `}
+        </script>
+
         <ScrollViewStyleReset />
       </head>
       <body>{children}</body>

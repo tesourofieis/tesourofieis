@@ -1,5 +1,5 @@
 import { View } from "react-native";
-import { H1, H2 } from "~/components/Headings";
+import { H1, H2, H4, H6 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import { Typography } from "~/components/typography";
@@ -149,61 +149,57 @@ export default function PageVerdades() {
         </Typography>
       </View>
       <H2 text="Trabalhos de Misericórdia" />
-      <Language>
-        <Typography className="latin">Corporais</Typography>
-        <Typography className="vernacular">Espirituais</Typography>
-        <Typography className="latin">
-          Dar de comer a quem tem fome
-          {"\n"}
-          Dar de beber a quem tem sede
-          {"\n"}
-          Vestir os nus
-          {"\n"}
-          Dar pousada aos peregrinos
-          {"\n"}
-          Visitar os enfermos
-          {"\n"}
-          Visitar os presos
-          {"\n"}
-          Enterrar os mortos
-        </Typography>
-        <Typography className="vernacular">
-          Dar bons conselhos
-          {"\n"}
-          Ensinar os ignorantes
-          {"\n"}
-          Corrigir os que erram
-          {"\n"}
-          Consolar os tristes
-          {"\n"}
-          Perdoar as injúrias
-          {"\n"}
-          Suportar com paciência as fraquezas do nosso próximo
-          {"\n"}
-          Rezar a Deus por vivos e defuntos
-        </Typography>
-      </Language>
+      <H6 text="Corporais" />
+      <Typography className="latin">
+        Dar de comer a quem tem fome
+        {"\n"}
+        Dar de beber a quem tem sede
+        {"\n"}
+        Vestir os nus
+        {"\n"}
+        Dar pousada aos peregrinos
+        {"\n"}
+        Visitar os enfermos
+        {"\n"}
+        Visitar os presos
+        {"\n"}
+        Enterrar os mortos
+      </Typography>
+      <H6 text="Espirituais" />
+      <Typography className="vernacular">
+        Dar bons conselhos
+        {"\n"}
+        Ensinar os ignorantes
+        {"\n"}
+        Corrigir os que erram
+        {"\n"}
+        Consolar os tristes
+        {"\n"}
+        Perdoar as injúrias
+        {"\n"}
+        Suportar com paciência as fraquezas do nosso próximo
+        {"\n"}
+        Rezar a Deus por vivos e defuntos
+      </Typography>
       <H2 text="Virtudes" />
-      <Language>
-        <Typography className="latin">Cardeais</Typography>
-        <Typography className="vernacular">Teologais</Typography>
-        <Typography className="latin">
-          Prudência
-          {"\n"}
-          Justiça
-          {"\n"}
-          Fortaleza
-          {"\n"}
-          Temperança
-        </Typography>
-        <Typography className="vernacular">
-          Fé
-          {"\n"}
-          Esperança
-          {"\n"}
-          Caridade
-        </Typography>
-      </Language>
+      <H6 text="Cardeais" />
+      <Typography className="latin">
+        Prudência
+        {"\n"}
+        Justiça
+        {"\n"}
+        Fortaleza
+        {"\n"}
+        Temperança
+      </Typography>
+      <H6 text="Teologais" />
+      <Typography className="vernacular">
+        Fé
+        {"\n"}
+        Esperança
+        {"\n"}
+        Caridade
+      </Typography>
       <H2 text="Pecados Contra o Espírito Santo" />
       <Typography className="aside">
         Pecados de pura malícia, que são contrários à bondade que se atribui ao
@@ -233,88 +229,76 @@ export default function PageVerdades() {
         trabalha.
       </Typography>
       <H2 text="Do Espírito Santo" />
-      <Language>
-        <Typography className="latin">
-          <Typography className="latin">Dons</Typography>
-        </Typography>
-        <Typography className="vernacular">
-          <Typography className="vernacular">Frutos</Typography>
-        </Typography>
-        <Typography className="latin">
-          Sabedoria
-          {"\n"}
-          Entendimento
-          {"\n"}
-          Conselho
-          {"\n"}
-          Fortaleza
-          {"\n"}
-          Ciência
-          {"\n"}
-          Piedade
-          {"\n"}
-          Temor de Deus
-        </Typography>
-        <Typography className="vernacular">
-          Amor
-          {"\n"}
-          Alegria
-          {"\n"}
-          Paz
-          {"\n"}
-          Paciência
-          {"\n"}
-          Longanimidade
-          {"\n"}
-          Bondade
-          {"\n"}
-          Benignidade
-          {"\n"}
-          Mansidão
-          {"\n"}
-          Fé
-          {"\n"}
-          Modéstia
-          {"\n"}
-          Continência
-          {"\n"}
-          Castidade
-        </Typography>
-      </Language>
-      <Language>
-        <Typography className="latin">
-          <Typography className="latin">Pecados Capitais</Typography>
-        </Typography>
-        <Typography className="vernacular">
-          <Typography className="vernacular">Virtudes Opostas</Typography>
-        </Typography>
-        <Typography className="latin">
-          Soberba
-          {"\n"}
-          Avareza
-          {"\n"}
-          Luxúria
-          {"\n"}
-          Ira
-          {"\n"}
-          Gula
-          {"\n"}
-          Inveja
-        </Typography>
-        <Typography className="vernacular">
-          Humildade
-          {"\n"}
-          Caridade
-          {"\n"}
-          Castidade
-          {"\n"}
-          Paciência
-          {"\n"}
-          Temperança
-          {"\n"}
-          Bondade
-        </Typography>
-      </Language>
+      <H6 text="Dons" />
+      <Typography className="latin">
+        Sabedoria
+        {"\n"}
+        Entendimento
+        {"\n"}
+        Conselho
+        {"\n"}
+        Fortaleza
+        {"\n"}
+        Ciência
+        {"\n"}
+        Piedade
+        {"\n"}
+        Temor de Deus
+      </Typography>
+      <H6 text="Frutos" />
+      <Typography className="vernacular">
+        Amor
+        {"\n"}
+        Alegria
+        {"\n"}
+        Paz
+        {"\n"}
+        Paciência
+        {"\n"}
+        Longanimidade
+        {"\n"}
+        Bondade
+        {"\n"}
+        Benignidade
+        {"\n"}
+        Mansidão
+        {"\n"}
+        Fé
+        {"\n"}
+        Modéstia
+        {"\n"}
+        Continência
+        {"\n"}
+        Castidade
+      </Typography>
+      <H4 text="Pecados Capitais" />
+      <Typography className="latin">
+        Soberba
+        {"\n"}
+        Avareza
+        {"\n"}
+        Luxúria
+        {"\n"}
+        Ira
+        {"\n"}
+        Gula
+        {"\n"}
+        Inveja
+      </Typography>
+      <H4 text="Virtudes Opostas aos Pecados Capitais" />
+      <Typography className="vernacular">
+        Humildade
+        {"\n"}
+        Caridade
+        {"\n"}
+        Castidade
+        {"\n"}
+        Paciência
+        {"\n"}
+        Temperança
+        {"\n"}
+        Bondade
+      </Typography>
       <H2 text="Novíssimos" />
       <Language>
         <Typography className="latin">

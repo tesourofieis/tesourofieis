@@ -17,6 +17,10 @@ import {
 } from "react";
 import { Alert, Platform } from "react-native";
 import { useCalendar } from "./calendar";
+import {
+  webNotificationService,
+  type WebNotificationSchedule,
+} from "~/services/webNotifications";
 
 export type Settings = {
   angelusEnabled: boolean;
@@ -28,14 +32,7 @@ export type Settings = {
   permissionSoftRejected: boolean;
 };
 
-type WebNotificationSchedule = {
-  id: string;
-  title: string;
-  body?: string;
-  triggerAt: Date;
-  url?: string;
-  color?: string;
-};
+// WebNotificationSchedule type now imported from services
 
 const NOTIFICATIONS = {
   ANGELUS: {
@@ -257,7 +254,18 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
   );
 
   const checkPermissionStatus = useCallback(async () => {
-    if (isWeb) return;
+    if (isWeb) {
+      const webPermission = webNotificationService.getPermissionStatus();
+      const status =
+        webPermission.status === "granted"
+          ? Notifications.PermissionStatus.GRANTED
+          : webPermission.status === "denied"
+            ? Notifications.PermissionStatus.DENIED
+            : Notifications.PermissionStatus.UNDETERMINED;
+      setPermissionStatus(status);
+      return status;
+    }
+
     const { status } = await Notifications.getPermissionsAsync();
     setPermissionStatus(status);
     return status;
@@ -289,7 +297,39 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
       notification: Notifications.NotificationRequestInput,
       identifier: string,
     ) => {
-      if (isWeb || permissionStatus !== "granted") return;
+      if (permissionStatus !== "granted") return;
+
+      if (isWeb) {
+        // Handle web notifications
+        const trigger = notification.trigger as any;
+        if (trigger?.type === "daily") {
+          // Convert daily trigger to specific time
+          const now = new Date();
+          const triggerTime = new Date();
+          triggerTime.setHours(trigger.hour || 0, trigger.minute || 0, 0, 0);
+
+          // If time has passed today, schedule for tomorrow
+          if (triggerTime <= now) {
+            triggerTime.setDate(triggerTime.getDate() + 1);
+          }
+
+          webNotificationService.scheduleNotification({
+            id: identifier,
+            title: notification.content.title || "Tesouro dos Fiéis",
+            body: notification.content.body || undefined,
+            triggerAt: triggerTime,
+            url: notification.content.data?.url as string,
+            icon: "/favicon.png",
+          });
+
+          console.log(
+            `📅 Web notification scheduled: ${notification.content.title} at ${triggerTime.toLocaleString("pt-PT")}`,
+          );
+        }
+        return;
+      }
+
+      // Mobile notifications
       await Notifications.scheduleNotificationAsync({
         ...notification,
         identifier,
@@ -299,15 +339,24 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
   );
 
   const syncNotifications = useCallback(async () => {
-    if (isWeb) return;
+    // Handle both web and mobile notifications
 
     if (permissionStatus !== "granted" || !settings) {
-      await Notifications.cancelAllScheduledNotificationsAsync();
+      if (isWeb) {
+        webNotificationService.cancelAllScheduledNotifications();
+      } else {
+        await Notifications.cancelAllScheduledNotificationsAsync();
+      }
       setList([]);
       return;
     }
 
-    await Notifications.cancelAllScheduledNotificationsAsync();
+    // Clear existing notifications
+    if (isWeb) {
+      webNotificationService.cancelAllScheduledNotifications();
+    } else {
+      await Notifications.cancelAllScheduledNotificationsAsync();
+    }
 
     if (settings.angelusEnabled) {
       for (const time of NOTIFICATIONS.ANGELUS.times) {
@@ -577,7 +626,46 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
   ]);
 
   const requestPermission = useCallback(async () => {
-    if (isWeb || !settings) return false;
+    if (!settings) return false;
+
+    // Handle web notification permission
+    if (isWeb) {
+      if (!webNotificationService.isSupported()) {
+        console.log("❌ Web notifications not supported in this browser");
+        return false;
+      }
+
+      const currentStatus = webNotificationService.getPermissionStatus();
+      if (currentStatus.status === "granted") {
+        setPermissionStatus(Notifications.PermissionStatus.GRANTED);
+        await updateSetting({ permissionSoftRejected: false });
+        return true;
+      }
+
+      console.log("🔔 Requesting web notification permission...");
+      const webPermission = await webNotificationService.requestPermission();
+
+      const status =
+        webPermission.status === "granted"
+          ? Notifications.PermissionStatus.GRANTED
+          : webPermission.status === "denied"
+            ? Notifications.PermissionStatus.DENIED
+            : Notifications.PermissionStatus.UNDETERMINED;
+
+      setPermissionStatus(status);
+      await updateSetting({
+        permissionRequested: true,
+        permissionSoftRejected: webPermission.status !== "granted",
+      });
+
+      if (webPermission.status === "granted") {
+        console.log("✅ Web notifications enabled!");
+      } else {
+        console.log("❌ Web notifications denied by user");
+      }
+
+      return webPermission.status === "granted";
+    }
 
     const { status: currentStatus } = await Notifications.getPermissionsAsync();
     if (currentStatus === "granted") {
@@ -671,16 +759,15 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
 
   const setNotificationPref = useCallback(
     async (key: keyof typeof prefKeyMap, enabled: boolean) => {
-      if (isWeb) return;
-
       if (enabled && permissionStatus !== "granted") {
         const granted = await requestPermission();
         if (!granted) return;
       }
+
       const dbKey = prefKeyMap[key];
       await updateSetting({ [dbKey]: enabled });
     },
-    [isWeb, permissionStatus, requestPermission, updateSetting],
+    [permissionStatus, requestPermission, updateSetting],
   );
 
   return (

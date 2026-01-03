@@ -34,7 +34,8 @@ const springConfig = {
 
 const styles = StyleSheet.create({
   container: {
-    overflow: "hidden",
+    // Remove overflow hidden on web to prevent text cutoff
+    ...(Platform.OS === "web" ? {} : { overflow: "hidden" }),
   },
   animatedContainer: {
     flexDirection: "row", // Explicit: Overrides missing className in Animated.View (Reanimated v4 quirk)
@@ -156,7 +157,8 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
   const { width } = useWindowDimensions();
   const isWebDesktop = isWeb && width >= 768;
 
-  if (isWebDesktop) {
+  // On web (all sizes), use side-by-side layout to prevent overlapping issues
+  if (isWeb) {
     const latinArray = React.Children.toArray(latinContent);
     const vernacularArray = React.Children.toArray(vernacularContent);
     const maxLength = Math.max(latinArray.length, vernacularArray.length);
@@ -167,7 +169,7 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
     }));
 
     return (
-      <View className="flex-1">
+      <View>
         {pairs.map((pair, index) => (
           <View key={index} className="flex-row gap-4">
             <View className="flex-1">{pair.latin}</View>
@@ -188,20 +190,20 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
             styles.animatedContainer,
           ]}
         >
-          <View className="flex-1">
+          <View style={{ flex: 1, width: layoutWidth }}>
             <GestureScrollView
               scrollEnabled
-              className="flex-1"
-              style={{ alignSelf: "stretch" }}
+              style={{ flex: 1 }}
+              contentContainerStyle={{ flexGrow: 1 }}
             >
               {latinContent}
             </GestureScrollView>
           </View>
-          <View className="flex-1">
+          <View style={{ flex: 1, width: layoutWidth }}>
             <GestureScrollView
               scrollEnabled
-              className="flex-1"
-              style={{ alignSelf: "stretch" }}
+              style={{ flex: 1 }}
+              contentContainerStyle={{ flexGrow: 1 }}
             >
               {vernacularContent}
             </GestureScrollView>

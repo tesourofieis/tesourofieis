@@ -1,13 +1,10 @@
 import {
   Settings,
-  Apple,
-  Smartphone,
   Bell,
   Calendar,
   Circle,
   BookPlus,
 } from "lucide-react-native";
-import { Link } from "expo-router";
 import { useState } from "react";
 import {
   Platform,
@@ -19,10 +16,10 @@ import {
   View,
 } from "react-native";
 import { H6 } from "~/components/Headings";
-import PageWrapper from "~/components/Page";
 import { COLORS } from "~/constants/Colors";
 import { useSettings } from "~/providers/settings";
 import { Typography } from "./typography";
+import { webNotificationService } from "~/services/webNotifications";
 
 const NotificationToggle = ({
   title,
@@ -113,56 +110,23 @@ export const Notifications = () => {
     isSoftRejected,
   } = useSettings();
 
+  const [showSuccessMessage, setShowSuccessMessage] = useState(false);
+  const [showDebugPanel, setShowDebugPanel] = useState(false);
+  const [debugInfo, setDebugInfo] = useState<any>(null);
+
   const toggleExpand = () => {
     setIsExpanded(!isExpanded);
   };
 
+  // Web platform now supports notifications
   if (Platform.OS === "web") {
-    return (
-      <PageWrapper>
-        <View>
-          <Settings
-            size={15}
-            color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
-          />
-          <H6 text="Apenas em dispositivos móveis." />
-        </View>
-
-        <View>
-          <Typography className="text-sm text-sepia-800 dark:text-sepia-200">
-            Para receber notificações instale a nossa aplicação para telemóvel
-            para receber notificações.
-          </Typography>
-
-          <View className="flex-row items-center justify-center gap-5 mt-3">
-            <Link
-              className="bg-sepia-500 p-3"
-              href="https://apps.apple.com/no/app/tesouro-dos-fi%C3%A9is/id6689521725"
-            >
-              iOS{" "}
-              <Apple
-                size={15}
-                color={colorScheme === "light" ? COLORS["200"] : COLORS["800"]}
-              />
-            </Link>
-
-            <Link
-              className="bg-sepia-500 p-3"
-              href="https://play.google.com/store/apps/details?id=com.tesourofieis.app"
-            >
-              Android{" "}
-              <Smartphone
-                size={15}
-                color={colorScheme === "light" ? COLORS["200"] : COLORS["800"]}
-              />
-            </Link>
-          </View>
-        </View>
-      </PageWrapper>
-    );
+    // Show the same notification settings as mobile
+    // but fall through to the normal UI below
   }
 
   if (permissionStatus !== "granted") {
+    const isWeb = Platform.OS === "web";
+
     return (
       <View className="py-3 my-3 border-b border-sepia-300 dark:border-sepia-700">
         <View className="flex-row items-center gap-1">
@@ -170,27 +134,74 @@ export const Notifications = () => {
             size={15}
             color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
           />
-          <H6 text="Notificações Desativadas" />
+          <H6 text={isWeb ? "Notificações Web" : "Notificações Desativadas"} />
         </View>
 
-        <Typography className="font-display dark:text-sepia-200 text-sm">
-          {isSoftRejected
-            ? "Os lembretes de oração ajudam a santificar o seu dia."
-            : "Para receber notificações active as notificações."}
-        </Typography>
-        <Typography className="font-display dark:text-sepia-200 text-xs">
-          {isSoftRejected
-            ? '"Orai sem cessar" (1 Tes 5:17)'
-            : "Pode ter que activar nas definições do dispositivo."}
-        </Typography>
+        {isWeb ? (
+          <>
+            <Typography className="font-display dark:text-sepia-200 text-sm">
+              Receba lembretes de oração diretamente no seu navegador, mesmo
+              quando a página não estiver aberta.
+            </Typography>
+            <Typography className="font-display dark:text-sepia-200 text-sm mt-2">
+              🔔 <Typography className="bold">Angelus</Typography> - 6:00,
+              12:00, 18:00
+            </Typography>
+            <Typography className="font-display dark:text-sepia-200 text-sm">
+              📅 <Typography className="bold">Missa do Dia</Typography> - 7:00
+            </Typography>
+            <Typography className="font-display dark:text-sepia-200 text-sm">
+              🙏 <Typography className="bold">Novenas</Typography> - 20:00
+            </Typography>
+            <Typography className="font-display dark:text-sepia-200 text-sm">
+              ⏰ <Typography className="bold">Ofício</Typography> - 8 vezes ao
+              dia
+            </Typography>
+            <Typography className="font-display text-xs text-sepia-700 dark:text-sepia-300 mt-3">
+              O seu navegador pedirá permissão para mostrar notificações.
+              {isSoftRejected
+                ? ' Clique em "Permitir" para receber os lembretes.'
+                : ""}
+            </Typography>
+          </>
+        ) : (
+          <>
+            <Typography className="font-display dark:text-sepia-200 text-sm">
+              {isSoftRejected
+                ? "Os lembretes de oração ajudam a santificar o seu dia."
+                : "Para receber notificações active as notificações."}
+            </Typography>
+            <Typography className="font-display dark:text-sepia-200 text-xs">
+              {isSoftRejected
+                ? '"Orai sem cessar" (1 Tes 5:17)'
+                : "Pode ter que activar nas definições do dispositivo."}
+            </Typography>
+          </>
+        )}
+
         <Pressable
           className="bg-sepia-800 dark:bg-sepia-200 items-center justify-center rounded mt-3 active:bg-sepia-700 dark:active:bg-sepia-300"
-          onPressOut={requestPermission}
+          onPressOut={async () => {
+            const success = await requestPermission();
+            if (success && isWeb) {
+              setShowSuccessMessage(true);
+              setTimeout(() => setShowSuccessMessage(false), 3000);
+            }
+          }}
         >
           <Typography className="m-5 text-sepia-300 dark:text-sepia-700">
-            Activar Notificações
+            {isWeb ? "Permitir Notificações" : "Activar Notificações"}
           </Typography>
         </Pressable>
+
+        {showSuccessMessage && isWeb && (
+          <View className="mt-3 p-3 bg-green-100 dark:bg-green-900 rounded">
+            <Typography className="text-center text-green-800 dark:text-green-200 text-sm">
+              ✅ Notificações ativadas! Receberá lembretes de oração mesmo com o
+              navegador fechado.
+            </Typography>
+          </View>
+        )}
       </View>
     );
   }
@@ -297,6 +308,77 @@ export const Notifications = () => {
             ))}
           </View>
         ) : undefined}
+
+        {Platform.OS === "web" && permissionStatus === "granted" && (
+          <View className="mt-5 p-3 border border-sepia-300 dark:border-sepia-700 rounded">
+            <TouchableOpacity
+              onPress={() => {
+                if (!showDebugPanel) {
+                  setDebugInfo(webNotificationService.getDebugInfo());
+                }
+                setShowDebugPanel(!showDebugPanel);
+              }}
+            >
+              <Typography className="text-center text-sepia-600 dark:text-sepia-400 text-sm">
+                {showDebugPanel ? "Esconder" : "Mostrar"} Depuração Web
+              </Typography>
+            </TouchableOpacity>
+
+            {showDebugPanel && (
+              <View className="mt-3">
+                <Typography className="text-sepia-800 dark:text-sepia-200 text-xs">
+                  <Typography className="bold">Estado:</Typography>{" "}
+                  {JSON.stringify(debugInfo, null, 2)}
+                </Typography>
+
+                <TouchableOpacity
+                  className="bg-green-500 p-2 rounded mt-2"
+                  onPress={() => {
+                    const success =
+                      webNotificationService.scheduleTestNotification();
+                    if (success) {
+                      console.log(
+                        "✅ Notificação agendada para daqui a 5 segundos!",
+                      );
+                    }
+                  }}
+                >
+                  <Typography className="text-white text-center text-sm">
+                    Testar Notificação Imediata
+                  </Typography>
+                </TouchableOpacity>
+
+                <TouchableOpacity
+                  className="bg-green-500 p-2 rounded mt-2"
+                  onPress={() => {
+                    const success =
+                      webNotificationService.scheduleTestNotification();
+                    if (success) {
+                      console.log(
+                        "✅ Notificação agendada para daqui a 5 segundos!",
+                      );
+                    }
+                  }}
+                >
+                  <Typography className="text-white text-center text-sm">
+                    Testar Agendamento (5s)
+                  </Typography>
+                </TouchableOpacity>
+
+                <TouchableOpacity
+                  className="bg-gray-500 p-2 rounded mt-2"
+                  onPress={() => {
+                    setDebugInfo(webNotificationService.getDebugInfo());
+                  }}
+                >
+                  <Typography className="text-white text-center text-sm">
+                    Atualizar Estado
+                  </Typography>
+                </TouchableOpacity>
+              </View>
+            )}
+          </View>
+        )}
       </View>
     </ScrollView>
   );

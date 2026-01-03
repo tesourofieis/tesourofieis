@@ -1,7 +1,7 @@
 import { useLocalSearchParams } from "expo-router";
 import type React from "react";
 import { useEffect, useRef } from "react";
-import { Platform, View } from "react-native";
+import { Platform, useWindowDimensions, View } from "react-native";
 import { ScrollView as GestureScrollView } from "react-native-gesture-handler";
 import { PageProvider, useIsNested } from "~/providers/page";
 
@@ -16,6 +16,8 @@ function PageContent({ children }: { children: React.ReactNode }) {
 export default function PageWrapper({ children }: PageWrapperProps) {
   const isNested = useIsNested();
   const isWeb = Platform.OS === "web";
+  const { width } = useWindowDimensions();
+  const isWebDesktop = isWeb && width >= 768;
   const scrollViewRef = useRef<GestureScrollView>(null);
   const { anchor } = useLocalSearchParams();
   const anchorString = Array.isArray(anchor) ? anchor[0] : anchor;
@@ -52,15 +54,22 @@ export default function PageWrapper({ children }: PageWrapperProps) {
     return <PageProvider>{content}</PageProvider>;
   }
 
-  const scrollContent = isWeb ? (
+  const scrollContent = isWebDesktop ? (
     <View className="flex-1 web:w-6/12 mx-auto">{content}</View>
   ) : (
-    <View className="flex-1 px-1 w-full">{content}</View>
+    <View className="flex-1 px-1 w-full" style={{ minHeight: "100%" }}>
+      {content}
+    </View>
   );
 
   return (
     <PageProvider>
-      <GestureScrollView scrollEnabled ref={scrollViewRef}>
+      <GestureScrollView
+        scrollEnabled
+        ref={scrollViewRef}
+        style={{ flex: 1 }}
+        contentContainerStyle={{ flexGrow: 1 }}
+      >
         {scrollContent}
       </GestureScrollView>
     </PageProvider>

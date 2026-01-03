@@ -8,6 +8,7 @@ const DEFAULT_SETTINGS: Settings = {
   massEnabled: true,
   novenaEnabled: true,
   officeEnabled: false,
+  indulgencesEnabled: false,
   permissionRequested: false,
   permissionSoftRejected: false,
 };
