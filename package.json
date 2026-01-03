@@ -17,7 +17,9 @@
     "dev": "npm run prebuild && expo start --clear",
     "deploy": "npx eas-cli build --platform all --auto-submit --profile production --non-interactive --no-wait",
     "update": "npx eas-cli update --auto",
-    "test": "vitest ."
+    "test": "vitest .",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui"
   },
   "dependencies": {
     "@expo-google-fonts/cardo": "^0.4.1",
@@ -77,6 +79,7 @@
   "devDependencies": {
     "@edge-runtime/vm": "^5.0.0",
     "@expo/metro-runtime": "6.1.2",
+    "@playwright/test": "^1.57.0",
     "@types/node": "^22.19.3",
     "@types/react": "~19.1.10",
     "@types/react-dom": "~19.1.7",

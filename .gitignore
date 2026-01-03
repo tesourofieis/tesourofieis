@@ -53,3 +53,5 @@ apps/expo/.expo
 credentials.json
 apps/expo/credentials/ios
 .direnv
+test-results
+playwright-report

@@ -13,11 +13,13 @@ import Office from "~/components/Office";
 import { Typography } from "~/components/typography";
 import { COLORS } from "~/constants/Colors";
 import { useCalendar } from "~/providers/calendar";
+import { useTodaysIndulgences } from "~/hooks/useTodaysIndulgences";
 
 export default function PageRender() {
   const { day, date } = useCalendar();
   const colorScheme = useColorScheme();
   const pulseAnim = useRef(new Animated.Value(0)).current;
+  const todaysIndulgences = useTodaysIndulgences();
 
   useEffect(() => {
     Animated.loop(
@@ -140,6 +142,18 @@ export default function PageRender() {
 
             <Office />
             <Novenas />
+
+            {todaysIndulgences.map((indulgence, index) => (
+              <LinkCard
+                key={`indulgence-${index}`}
+                indulgence={{
+                  prayer: indulgence.prayer,
+                  body: indulgence.body,
+                  link: indulgence.link,
+                }}
+                description="Indulgência Plenária"
+              />
+            ))}
 
             {isWithinInterval(date, {
               start: new Date(getYear(date), 11, 17),

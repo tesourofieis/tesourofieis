@@ -4,6 +4,7 @@ import {
   Calendar,
   Circle,
   BookPlus,
+  Sparkles,
 } from "lucide-react-native";
 import { useState } from "react";
 import {
@@ -48,6 +49,8 @@ const NotificationToggle = ({
         return Circle;
       case "book":
         return BookPlus;
+      case "sparkles":
+        return Sparkles;
       default:
         return Settings;
     }
@@ -156,6 +159,10 @@ export const Notifications = () => {
             <Typography className="font-display dark:text-sepia-200 text-sm">
               ⏰ <Typography className="bold">Ofício</Typography> - 8 vezes ao
               dia
+            </Typography>
+            <Typography className="font-display dark:text-sepia-200 text-sm">
+              ✨ <Typography className="bold">Indulgências</Typography> - Dias
+              especiais
             </Typography>
             <Typography className="font-display text-xs text-sepia-700 dark:text-sepia-300 mt-3">
               O seu navegador pedirá permissão para mostrar notificações.
@@ -268,6 +275,17 @@ export const Notifications = () => {
         ]}
         enabled={settings.officeEnabled}
         toggle={() => setNotificationPref("OFFICE", !settings.officeEnabled)}
+      />
+
+      <NotificationToggle
+        title="Indulgências"
+        icon="sparkles"
+        description="Receba alertas sobre indulgências plenárias e oportunidades especiais."
+        times={["Dias especiais", "Festas móveis"]}
+        enabled={settings.indulgencesEnabled}
+        toggle={() =>
+          setNotificationPref("INDULGENCES", !settings.indulgencesEnabled)
+        }
       />
 
       <View className="mt-5">

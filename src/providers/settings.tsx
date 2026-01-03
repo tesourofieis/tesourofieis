@@ -17,10 +17,8 @@ import {
 } from "react";
 import { Alert, Platform } from "react-native";
 import { useCalendar } from "./calendar";
-import {
-  webNotificationService,
-  type WebNotificationSchedule,
-} from "~/services/webNotifications";
+import { webNotificationService } from "~/services/webNotifications";
+import { FIXED_INDULGENCES, getMovableIndulgence } from "~/lib/indulgences";
 
 export type Settings = {
   angelusEnabled: boolean;
@@ -71,71 +69,7 @@ const NOTIFICATIONS = {
   INDULGENCES: {
     title: "✨ Indulgência Plenária",
     color: "#FFD700",
-    dates: [
-      {
-        month: 0,
-        day: 1,
-        hour: 8,
-        minute: 0,
-        prayer: "Veni Creator",
-        body: "Recite publicamente o Veni Creator para o ano novo. (Condições habituais)",
-        link: "canticos/sacros/venicreator",
-      },
-      {
-        month: 7,
-        day: 2,
-        hour: 8,
-        minute: 0,
-        prayer: "Perdão de Assis",
-        body: "Indulgência da Porciúncula: Visite uma igreja paroquial e reze o Pai Nosso e o Credo.",
-        link: "",
-      },
-      {
-        month: 10,
-        day: 1,
-        hour: 8,
-        minute: 0,
-        prayer: "Todos os Santos",
-        body: "Solenidade de Todos os Santos. (Condições habituais)",
-        link: "",
-      },
-      {
-        month: 10,
-        day: 2,
-        hour: 8,
-        minute: 0,
-        prayer: "Fiéis Defuntos",
-        body: "Visite um cemitério e reze pelos defuntos (aplicável apenas às almas).",
-        link: "",
-      },
-      {
-        month: 11,
-        day: 8,
-        hour: 8,
-        minute: 0,
-        prayer: "Imaculada Conceição",
-        body: "Solenidade da Imaculada Conceição de Nossa Senhora.",
-        link: "",
-      },
-      {
-        month: 11,
-        day: 25,
-        hour: 8,
-        minute: 0,
-        prayer: "Natal do Senhor",
-        body: "Solenidade do Natal do Senhor. (Condições habituais)",
-        link: "",
-      },
-      {
-        month: 11,
-        day: 31,
-        hour: 20,
-        minute: 0,
-        prayer: "Te Deum",
-        body: "Recite publicamente o Te Deum em ação de graças pelo ano findo.",
-        link: "canticos/sacros/tedeum",
-      },
-    ],
+    dates: FIXED_INDULGENCES,
   },
 };
 
@@ -555,52 +489,16 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
         const dayData = calendar.find((d) => d.date === yyyyMMDD(checkDate));
         const id = dayData?.mass?.[0]?.id || "";
 
-        let movable = null;
-        if (id.includes("TEMPORA_QUAD6_4"))
-          movable = {
-            p: "Tantum Ergo",
-            b: "Recite o Tantum Ergo na reposição do Santíssimo.",
-            l: "canticos/sacros/tantumergo",
-          };
-        else if (id.includes("TEMPORA_QUAD6_5"))
-          movable = {
-            p: "Adoração da Cruz",
-            b: "Adore a Cruz na ação litúrgica solene.",
-            l: "missal/quaresmoa/quad6-5",
-          };
-        else if (id.includes("TEMPORA_PASC7_0"))
-          movable = {
-            p: "Veni Creator",
-            b: "Recite o Veni Creator publicamente hoje.",
-            l: "canticos/sacros/venicreator",
-          };
-        else if (id.includes("TEMPORA_PENT01_4"))
-          movable = {
-            p: "Tantum Ergo",
-            b: "Recite o Tantum Ergo na procissão.",
-            l: "canticos/sacros/tantumergo",
-          };
-        else if (id.includes("TEMPORA_PENT02_5"))
-          movable = {
-            p: "Acto de Reparação",
-            b: "Recite o Ato de Reparação (Iesu Dulcissime).",
-            l: "devocionario/oracoes/actoreparacao",
-          };
-        else if (id.includes("SANCTI_10_DUR"))
-          movable = {
-            p: "Acto de Consagração",
-            b: "Recite o Acto de Consagração do Gênero Humano.",
-            l: "devocionario/oracoes/consagracaosagradocoracaojesus",
-          };
+        const movable = getMovableIndulgence(dayData);
 
         if (movable) {
           await scheduleNotification(
             {
               content: {
-                title: `✨ Indulgência: ${movable.p}`,
-                body: `${movable.b} (Condições habituais)`,
+                title: `✨ Indulgência: ${movable.prayer}`,
+                body: `${movable.body} (Condições habituais)`,
                 color: NOTIFICATIONS.INDULGENCES.color,
-                data: { url: movable.l },
+                data: { url: movable.link },
               },
               trigger: {
                 type: Notifications.SchedulableTriggerInputTypes.DATE,
