@@ -13,7 +13,7 @@
     "ios": "expo run:ios",
     "build:web": "expo export --platform web",
     "lint": "expo lint",
-    "prebuild": "npx tsx ./scripts/build-search-index.ts",
+    "prebuild": "npx tsx ./scripts/build-search-index.ts && npx tsx ./scripts/generate-sitemap.ts",
     "dev": "npm run prebuild && expo start --clear",
     "deploy": "npx eas-cli build --platform all --auto-submit --profile production --non-interactive --no-wait",
     "update": "npx eas-cli update --auto",
