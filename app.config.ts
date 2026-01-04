@@ -63,7 +63,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     },
   },
   web: {
-    favicon: "./assets/images/favicon.png",
+    favicon: "./public/favicon.png",
     web: {
       bundler: "metro",
       output: "static",
@@ -96,9 +96,8 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
       "expo-splash-screen",
       {
         backgroundColor: "#eee6d9",
-        image: "./assets/images/splash-icon-light.png",
+        image: "./assets/images/splash.png",
         dark: {
-          image: "./assets/images/splash-icon-dark.png",
           backgroundColor: "#1d2021",
         },
       },

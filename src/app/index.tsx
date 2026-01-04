@@ -3,7 +3,14 @@ import { burgundy } from "config";
 import { format, getYear, isWithinInterval } from "date-fns";
 import { pt } from "date-fns/locale";
 import { useEffect, useRef } from "react";
-import { Animated, ScrollView, useColorScheme, View } from "react-native";
+import {
+  Animated,
+  Platform,
+  ScrollView,
+  useColorScheme,
+  useWindowDimensions,
+  View,
+} from "react-native";
 import ExternalLinks from "~/components/External";
 import { H1 } from "~/components/Headings";
 import LinkCard from "~/components/LinkCard";
@@ -57,6 +64,10 @@ export default function PageRender() {
 
   const currentPrayer = getPrayer(date);
 
+  const isWeb = Platform.OS === "web";
+  const { width } = useWindowDimensions();
+  const isWebDesktop = isWeb && width >= 768;
+
   return (
     <ScrollView>
       <View className="extreme-background">
@@ -66,7 +77,7 @@ export default function PageRender() {
         </View>
 
         <Animated.View
-          className="flex-1 web:mx-auto py-5 p-3 rounded-lg"
+          className={`flex-1 ${!isWebDesktop ? "" : "web:mx-auto"} py-5 p-3 rounded-lg`}
           style={{
             borderWidth: 1,
             borderColor:
