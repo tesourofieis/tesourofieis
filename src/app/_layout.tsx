@@ -1,13 +1,4 @@
-import {
-  useFonts,
-  Cardo_400Regular,
-  Cardo_700Bold,
-} from "@expo-google-fonts/cardo";
-import {
-  DMSerifDisplay_400Regular,
-  DMSerifDisplay_400Regular_Italic,
-} from "@expo-google-fonts/dm-serif-display";
-import { DMSerifText_400Regular } from "@expo-google-fonts/dm-serif-text";
+import { useFonts } from "expo-font";
 import { useEffect } from "react";
 import {
   useWindowDimensions,
@@ -44,11 +35,11 @@ SplashScreen.preventAutoHideAsync();
 
 export default function PageRootLayout() {
   const [loaded, error] = useFonts({
-    Cardo_400Regular,
-    Cardo_700Bold,
-    DMSerifDisplay_400Regular,
-    DMSerifDisplay_400Regular_Italic,
-    DMSerifText_400Regular,
+    Cardo_400Regular: require("~/assets/fonts/Cardo_400Regular.ttf"),
+    Cardo_700Bold: require("~/assets/fonts/Cardo_700Bold.ttf"),
+    DMSerifDisplay_400Regular: require("~/assets/fonts/DMSerifDisplay_400Regular.ttf"),
+    DMSerifDisplay_400Regular_Italic: require("~/assets/fonts/DMSerifDisplay_400Regular_Italic.ttf"),
+    DMSerifText_400Regular: require("~/assets/fonts/DMSerifText_400Regular.ttf"),
   });
 
   useEffect(() => {
