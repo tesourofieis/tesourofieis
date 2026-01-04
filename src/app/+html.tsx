@@ -64,6 +64,56 @@ export default function PageRoot({ children }: PropsWithChildren) {
         <meta name="robots" content="index, follow" />
         <meta name="theme-color" content="#32302f" />
 
+        {/* Google Fonts Preconnect for Performance */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
+
+        <style>
+          {`
+            /* Critical CSS for instant first paint */
+            body { 
+              font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', serif;
+              background-color: #eee6d9;
+              color: #262624;
+            }
+            
+            /* Font loading fallbacks */
+            @font-face {
+              font-family: 'Cardo_400Regular';
+              font-display: swap;
+              src: local('Cardo'), local('Cardo Regular');
+            }
+            
+            @font-face {
+              font-family: 'Cardo_700Bold';
+              font-display: swap;
+              src: local('Cardo'), local('Cardo Bold');
+            }
+            
+            @font-face {
+              font-family: 'DMSerifDisplay_400Regular';
+              font-display: swap;
+              src: local('DM Serif Display'), local('DMSerifDisplay-Regular');
+            }
+            
+            @font-face {
+              font-family: 'DMSerifDisplay_400Regular_Italic';
+              font-display: swap;
+              src: local('DM Serif Display'), local('DMSerifDisplay-Italic');
+            }
+            
+            @font-face {
+              font-family: 'DMSerifText_400Regular';
+              font-display: swap;
+              src: local('DM Serif Text'), local('DMSerifText-Regular');
+            }
+          `}
+        </style>
+
         <script>
           {`
             // Enhanced service worker registration for PWA notifications
