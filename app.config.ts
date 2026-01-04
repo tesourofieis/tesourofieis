@@ -90,6 +90,18 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
         sitemap: true,
       },
     ],
+    [
+      "expo-font",
+      {
+        fonts: [
+          "./assets/fonts/Cardo_700Bold.ttf",
+          "./assets/fonts/Cardo_400Regular.ttf",
+          "./assets/fonts/DMSerifDisplay_400Regular.ttf",
+          "./assets/fonts/DMSerifDisplay_400Regular_Italic.ttf",
+          "./assets/fonts/DMSerifText_400Regular.ttf",
+        ],
+      },
+    ],
     "expo-notifications",
     "expo-secure-store",
     [
