@@ -1,11 +1,10 @@
 import { Text, type TextProps } from "react-native";
 import { useFontContext } from "~/providers/fonts";
-import { Platform } from "react-native";
 
 const PAGE_FONT_SIZE_CLASS = {
-  small: Platform.OS === "web" ? "text-xs" : "text-sm",
-  medium: Platform.OS === "web" ? "text-sm" : "text-base",
-  large: Platform.OS === "web" ? "text-base" : "text-lg",
+  small: "text-sm",
+  medium: "text-base",
+  large: "text-lg",
 };
 
 type PProps = TextProps & {

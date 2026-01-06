@@ -9,10 +9,6 @@ type PageWrapperProps = {
   children: React.ReactNode;
 };
 
-function PageContent({ children }: { children: React.ReactNode }) {
-  return <View className="flex-1">{children}</View>;
-}
-
 export default function PageWrapper({ children }: PageWrapperProps) {
   const isNested = useIsNested();
   const isWeb = Platform.OS === "web";
@@ -48,14 +44,12 @@ export default function PageWrapper({ children }: PageWrapperProps) {
     }
   };
 
-  const content = <PageContent>{children}</PageContent>;
-
   if (isNested) {
-    return <PageProvider>{content}</PageProvider>;
+    return <PageProvider>{children}</PageProvider>;
   }
 
   const ScrollComponent = isWeb ? ScrollView : GestureScrollView;
-
+  const content = <View className="flex-1">{children}</View>;
   const scrollContent = isWebDesktop ? (
     <View className="flex-1 web:w-6/12 mx-auto">{content}</View>
   ) : (
