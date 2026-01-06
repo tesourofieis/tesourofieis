@@ -1,10 +1,6 @@
 import { ScrollViewStyleReset } from "expo-router/html";
 import type { PropsWithChildren } from "react";
 
-/**
- * This file is web-only and used to configure the root HTML for every web page during static rendering.
- * The contents of this function only run in Node.js environments and do not have access to the DOM or browser APIs.
- */
 export default function PageRoot({ children }: PropsWithChildren) {
   return (
     <html lang="pt">
@@ -27,18 +23,19 @@ export default function PageRoot({ children }: PropsWithChildren) {
         <link rel="sitemap" href="/sitemap.xml" />
         <link rel="manifest" href="/manifest.json" />
         <script
-          type="text/partytown"
-          src="https://www.googletagmanager.com/gtag/js?id=G-CYLKZM1NJQ"
           async
+          src="https://www.googletagmanager.com/gtag/js?id=G-CYLKZM1NJQ"
         />
-        <script type="text/partytown">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-CYLKZM1NJQ');
-          `}
-        </script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-CYLKZM1NJQ');
+            `,
+          }}
+        />
         <link rel="shortcut icon" href="/favicon.png" type="image/png" />
         <meta property="og:image" content="https://tesourofieis.com/og.png" />
         <meta
@@ -64,7 +61,6 @@ export default function PageRoot({ children }: PropsWithChildren) {
         <meta name="robots" content="index, follow" />
         <meta name="theme-color" content="#32302f" />
 
-        {/* Google Fonts Preconnect for Performance */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
@@ -74,14 +70,12 @@ export default function PageRoot({ children }: PropsWithChildren) {
 
         <style>
           {`
-            /* Critical CSS for instant first paint */
             body { 
               font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', serif;
               background-color: #eee6d9;
               color: #262624;
             }
             
-            /* Font loading fallbacks */
             @font-face {
               font-family: 'Cardo_400Regular';
               font-display: swap;
@@ -114,58 +108,54 @@ export default function PageRoot({ children }: PropsWithChildren) {
           `}
         </style>
 
-        <script>
-          {`
-            // Enhanced service worker registration for PWA notifications
-            if ('serviceWorker' in navigator) {
-              window.addEventListener('load', async () => {
-                try {
-                  // Register the main Expo/Workbox service worker
-                  const registration = await navigator.serviceWorker.register('/sw.js', {
-                    scope: '/'
-                  });
-                  
-                  console.log('🚀 Tesouro dos Fiéis SW registered:', registration.scope);
-                  
-                  // Wait for service worker to be ready
-                  await navigator.serviceWorker.ready;
-                  console.log('✅ Service Worker ready for notifications');
-                  
-                  // Listen for service worker updates
-                  registration.addEventListener('updatefound', () => {
-                    console.log('🔄 Service Worker update found');
-                    const newWorker = registration.installing;
-                    if (newWorker) {
-                      newWorker.addEventListener('statechange', () => {
-                        if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
-                          console.log('🆕 New Service Worker ready');
-                          // Could show update notification here
-                        }
-                      });
-                    }
-                  });
-                  
-                  // Handle messages from service worker
-                  navigator.serviceWorker.addEventListener('message', (event) => {
-                    console.log('📨 Message from SW:', event.data);
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              if ('serviceWorker' in navigator) {
+                window.addEventListener('load', async () => {
+                  try {
+                    const registration = await navigator.serviceWorker.register('/sw.js', {
+                      scope: '/'
+                    });
                     
-                    if (event.data?.type === 'NOTIFICATION_CLICK') {
-                      const { url } = event.data;
-                      if (url && url !== window.location.pathname) {
-                        window.location.href = url;
+                    console.log('🚀 Tesouro dos Fiéis SW registered:', registration.scope);
+                    
+                    await navigator.serviceWorker.ready;
+                    console.log('✅ Service Worker ready for notifications');
+                    
+                    registration.addEventListener('updatefound', () => {
+                      console.log('🔄 Service Worker update found');
+                      const newWorker = registration.installing;
+                      if (newWorker) {
+                        newWorker.addEventListener('statechange', () => {
+                          if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                            console.log('🆕 New Service Worker ready');
+                          }
+                        });
                       }
-                    }
-                  });
-                  
-                } catch (error) {
-                  console.error('❌ SW registration failed:', error);
-                }
-              });
-            } else {
-              console.log('❌ Service Worker not supported');
-            }
-          `}
-        </script>
+                    });
+                    
+                    navigator.serviceWorker.addEventListener('message', (event) => {
+                      console.log('📨 Message from SW:', event.data);
+                      
+                      if (event.data?.type === 'NOTIFICATION_CLICK') {
+                        const { url } = event.data;
+                        if (url && url !== window.location.pathname) {
+                          window.location.href = url;
+                        }
+                      }
+                    });
+                    
+                  } catch (error) {
+                    console.error('❌ SW registration failed:', error);
+                  }
+                });
+              } else {
+                console.log('❌ Service Worker not supported');
+              }
+            `,
+          }}
+        />
 
         <ScrollViewStyleReset />
       </head>
