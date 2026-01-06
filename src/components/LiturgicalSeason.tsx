@@ -98,11 +98,6 @@ const TEMPORAS_PRAYERS: Record<Season, Prayer[]> = {
   ],
   Epifania: [
     {
-      title: "Ecce Advenit",
-      href: "/devocionario/cantos/ecceadvenit",
-      description: "Introito da Missa da Epifania",
-    },
-    {
       title: "Alma Redemptoris Mater",
       href: "/devocionario/antifonas/almaredemptorismater",
       description: "Antífona Nossa Senhora",
