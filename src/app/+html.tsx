@@ -22,20 +22,6 @@ export default function PageRoot({ children }: PropsWithChildren) {
         <link rel="canonical" href="https://tesourofieis.com/" />
         <link rel="sitemap" href="/sitemap.xml" />
         <link rel="manifest" href="/manifest.json" />
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-CYLKZM1NJQ"
-        />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-CYLKZM1NJQ');
-            `,
-          }}
-        />
         <link rel="shortcut icon" href="/favicon.png" type="image/png" />
         <meta property="og:image" content="https://tesourofieis.com/og.png" />
         <meta

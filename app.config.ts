@@ -102,6 +102,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
         ],
       },
     ],
+    "expo-localization",
     "expo-notifications",
     "expo-secure-store",
     [

@@ -30,6 +30,7 @@ import { COLORS } from "~/constants/Colors";
 import { CalendarProvider } from "~/providers/calendar";
 import { FontProvider } from "~/providers/fonts";
 import { SettingsProvider } from "~/providers/settings";
+import { PostHogProvider } from "posthog-react-native";
 
 SplashScreen.preventAutoHideAsync();
 
@@ -67,19 +68,28 @@ export default function PageRootLayout() {
   }
 
   return (
-    <FontProvider>
-      <SafeAreaProvider>
-        <CalendarProvider>
-          <SearchModalProvider>
-            <SettingsProvider>
-              <GestureHandlerRootView style={{ flex: 1 }}>
-                <RootLayoutNav />
-              </GestureHandlerRootView>
-            </SettingsProvider>
-          </SearchModalProvider>
-        </CalendarProvider>
-      </SafeAreaProvider>
-    </FontProvider>
+    <PostHogProvider
+      apiKey="phc_Ng6Rsd9u1mXEatvYAJUwiLLd6Sl5uMX8Y6PgOrtPC9W"
+      options={{
+        host: "https://eu.i.posthog.com",
+        enableSessionReplay: true,
+      }}
+      autocapture
+    >
+      <FontProvider>
+        <SafeAreaProvider>
+          <CalendarProvider>
+            <SearchModalProvider>
+              <SettingsProvider>
+                <GestureHandlerRootView style={{ flex: 1 }}>
+                  <RootLayoutNav />
+                </GestureHandlerRootView>
+              </SettingsProvider>
+            </SearchModalProvider>
+          </CalendarProvider>
+        </SafeAreaProvider>
+      </FontProvider>
+    </PostHogProvider>
   );
 }
 
