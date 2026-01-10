@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
 export default function LanguageToggle({ children }: LanguageToggleProps) {
   const { width: screenWidth } = useWindowDimensions();
   const defaultLanguage = useDefaultLanguage();
-  const translateX = useSharedValue(-screenWidth);
+  const translateX = useSharedValue(0);
   const translateXToggle = useSharedValue(toggleWidth);
   const currentLanguage = useSharedValue<"latin" | "vernacular">("vernacular");
   const [currentLang, setCurrentLang] = useState<"latin" | "vernacular">(
@@ -55,10 +55,10 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
   const [layoutWidth, setLayoutWidth] = useState(screenWidth);
 
   useEffect(() => {
-    if (defaultLanguage) {
+    if (defaultLanguage && layoutWidth > 0) {
       setLanguage(defaultLanguage === "vernacular");
     }
-  }, [defaultLanguage]);
+  }, [defaultLanguage, layoutWidth]);
 
   const setLanguage = (vernacular: boolean) => {
     const newLang = vernacular ? "vernacular" : "latin";
@@ -145,7 +145,6 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
 
   const onLayout = (event: any) => {
     const { width } = event.nativeEvent.layout;
-    console.log(`Container layout: ${width}`); // Debug: Should match screenWidth
     if (width !== layoutWidth) {
       setLayoutWidth(width);
       const isVernacular = currentLanguage.value === "vernacular";
@@ -154,10 +153,7 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
   };
 
   const isWeb = Platform.OS === "web";
-  const { width } = useWindowDimensions();
-  const isWebDesktop = isWeb && width >= 768;
 
-  // On web (all sizes), use side-by-side layout to prevent overlapping issues
   if (isWeb) {
     const latinArray = React.Children.toArray(latinContent);
     const vernacularArray = React.Children.toArray(vernacularContent);
