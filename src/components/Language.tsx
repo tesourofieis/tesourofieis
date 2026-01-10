@@ -1,11 +1,5 @@
 import React, { useEffect, useMemo, useState } from "react";
-import {
-  Platform,
-  Pressable,
-  StyleSheet,
-  useWindowDimensions,
-  View,
-} from "react-native";
+import { Platform, Pressable, StyleSheet, View } from "react-native";
 import {
   Gesture,
   GestureDetector,
@@ -43,34 +37,27 @@ const styles = StyleSheet.create({
 });
 
 export default function LanguageToggle({ children }: LanguageToggleProps) {
-  const { width: screenWidth } = useWindowDimensions();
   const defaultLanguage = useDefaultLanguage();
-  const [layoutWidth, setLayoutWidth] = useState(screenWidth);
+  const [containerWidth, setContainerWidth] = useState(0);
   const [currentLang, setCurrentLang] = useState<"latin" | "vernacular">(
     defaultLanguage || "vernacular",
   );
+  const [hasInitialized, setHasInitialized] = useState(false);
 
   const currentLanguage = useSharedValue<"latin" | "vernacular">(
     defaultLanguage || "vernacular",
   );
-  const translateX = useSharedValue(
-    (defaultLanguage || "vernacular") === "vernacular" ? -screenWidth : 0,
-  );
+  const translateX = useSharedValue(0);
   const translateXToggle = useSharedValue(
     (defaultLanguage || "vernacular") === "vernacular" ? toggleWidth : 0,
   );
 
-  useEffect(() => {
-    if (defaultLanguage && layoutWidth > 0) {
-      setLanguage(defaultLanguage === "vernacular");
-    }
-  }, [defaultLanguage, layoutWidth]);
-
   const setLanguage = (vernacular: boolean) => {
+    if (containerWidth === 0) return;
     const newLang = vernacular ? "vernacular" : "latin";
     setCurrentLang(newLang);
     currentLanguage.value = newLang;
-    const targetContent = vernacular ? -layoutWidth : 0;
+    const targetContent = vernacular ? -containerWidth : 0;
     translateX.value = withSpring(targetContent, springConfig);
     translateXToggle.value = withSpring(
       vernacular ? toggleWidth : 0,
@@ -93,37 +80,39 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
       startTranslate.value = translateX.value;
     })
     .onUpdate((event) => {
+      if (containerWidth === 0) return;
       translateX.value = Math.max(
-        -layoutWidth,
+        -containerWidth,
         Math.min(0, startTranslate.value + event.translationX),
       );
-      const toggleProgress = -translateX.value / layoutWidth;
+      const toggleProgress = -translateX.value / containerWidth;
       translateXToggle.value = Math.max(
         0,
         Math.min(toggleWidth, toggleProgress * toggleWidth),
       );
     })
     .onEnd((event) => {
+      if (containerWidth === 0) return;
       const dx = event.translationX;
       const vx = event.velocityX;
-      const swipeThreshold = layoutWidth * 0.25;
+      const swipeThreshold = containerWidth * 0.25;
       const velocityThreshold = 500;
       if (dx < -swipeThreshold || vx < -velocityThreshold) {
         runOnJS(setLanguage)(true);
       } else if (dx > swipeThreshold || vx > velocityThreshold) {
         runOnJS(setLanguage)(false);
       } else {
-        const midpoint = -layoutWidth / 2;
+        const midpoint = -containerWidth / 2;
         runOnJS(setLanguage)(translateX.value < midpoint);
       }
     });
 
-  const contentStyle = useAnimatedStyle(
-    () => ({
-      transform: [{ translateX: translateX.value }],
-    }),
-    [layoutWidth],
-  );
+  const opacity = useSharedValue(0);
+
+  const contentStyle = useAnimatedStyle(() => ({
+    transform: [{ translateX: translateX.value }],
+    opacity: opacity.value,
+  }));
 
   const { latinContent, vernacularContent } = useMemo(() => {
     const childrenArray = React.Children.toArray(children);
@@ -149,14 +138,26 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
     };
   }, [children]);
 
-  const onLayout = (event: any) => {
+  const onContainerLayout = (event: any) => {
     const { width } = event.nativeEvent.layout;
-    if (width !== layoutWidth) {
-      setLayoutWidth(width);
-      const isVernacular = currentLanguage.value === "vernacular";
-      translateX.value = isVernacular ? -width : 0;
+    if (width > 0 && width !== containerWidth) {
+      setContainerWidth(width);
+      if (!hasInitialized) {
+        requestAnimationFrame(() => {
+          const isVernacular = currentLanguage.value === "vernacular";
+          translateX.value = isVernacular ? -width : 0;
+          opacity.value = withSpring(1, { damping: 15, stiffness: 100 });
+          setHasInitialized(true);
+        });
+      }
     }
   };
+
+  useEffect(() => {
+    if (defaultLanguage && containerWidth > 0 && hasInitialized) {
+      setLanguage(defaultLanguage === "vernacular");
+    }
+  }, [defaultLanguage]);
 
   const isWeb = Platform.OS === "web";
 
@@ -183,16 +184,20 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
   }
 
   return (
-    <View className="flex-1" onLayout={onLayout} style={styles.container}>
+    <View
+      className="flex-1"
+      onLayout={onContainerLayout}
+      style={styles.container}
+    >
       <GestureDetector gesture={panGesture}>
         <Animated.View
           style={[
             contentStyle,
-            { width: layoutWidth * 2 },
+            { width: containerWidth * 2 },
             styles.animatedContainer,
           ]}
         >
-          <View style={{ flex: 1, width: layoutWidth }}>
+          <View style={{ flex: 1, width: containerWidth }}>
             <GestureScrollView
               scrollEnabled
               style={{ flex: 1 }}
@@ -201,7 +206,7 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
               {latinContent}
             </GestureScrollView>
           </View>
-          <View style={{ flex: 1, width: layoutWidth }}>
+          <View style={{ flex: 1, width: containerWidth }}>
             <GestureScrollView
               scrollEnabled
               style={{ flex: 1 }}
@@ -212,32 +217,34 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
           </View>
         </Animated.View>
       </GestureDetector>
-      <View className="flex-row justify-center mt-2">
-        <Pressable
-          onPress={toggle}
-          accessibilityLabel={`Toggle Language. Current language: ${
-            currentLang === "latin" ? "Latin" : "Vernacular"
-          }`}
-          accessibilityHint="Swipe or tap to switch between Latin and Vernacular"
-          accessibilityRole="button"
-          className="flex-row gap-1 px-2 py-1 justify-center extreme-background border border-sepia rounded-xl shadow-sm"
-        >
-          <View
-            className={`w-2 h-2 rounded-full transition-colors ${
-              currentLang === "vernacular"
-                ? "soft-background"
-                : "bg-sepia-700 dark:bg-sepia-300"
+      {hasInitialized && (
+        <View className="flex-row justify-center mt-2">
+          <Pressable
+            onPress={toggle}
+            accessibilityLabel={`Toggle Language. Current language: ${
+              currentLang === "latin" ? "Latin" : "Vernacular"
             }`}
-          />
-          <View
-            className={`w-2 h-2 rounded-full transition-colors ${
-              currentLang === "latin"
-                ? "soft-background"
-                : "bg-sepia-700 dark:bg-sepia-300"
-            }`}
-          />
-        </Pressable>
-      </View>
+            accessibilityHint="Swipe or tap to switch between Latin and Vernacular"
+            accessibilityRole="button"
+            className="flex-row gap-1 px-2 py-1 justify-center extreme-background border border-sepia rounded-xl shadow-sm"
+          >
+            <View
+              className={`w-2 h-2 rounded-full transition-colors ${
+                currentLang === "vernacular"
+                  ? "soft-background"
+                  : "bg-sepia-700 dark:bg-sepia-300"
+              }`}
+            />
+            <View
+              className={`w-2 h-2 rounded-full transition-colors ${
+                currentLang === "latin"
+                  ? "soft-background"
+                  : "bg-sepia-700 dark:bg-sepia-300"
+              }`}
+            />
+          </Pressable>
+        </View>
+      )}
     </View>
   );
 }
