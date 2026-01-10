@@ -34,25 +34,31 @@ const springConfig = {
 
 const styles = StyleSheet.create({
   container: {
-    // Remove overflow hidden on web to prevent text cutoff
     ...(Platform.OS === "web" ? {} : { overflow: "hidden" }),
   },
   animatedContainer: {
-    flexDirection: "row", // Explicit: Overrides missing className in Animated.View (Reanimated v4 quirk)
-    alignItems: "stretch", // Ensures full height alignment across children
+    flexDirection: "row",
+    alignItems: "stretch",
   },
 });
 
 export default function LanguageToggle({ children }: LanguageToggleProps) {
   const { width: screenWidth } = useWindowDimensions();
   const defaultLanguage = useDefaultLanguage();
-  const translateX = useSharedValue(0);
-  const translateXToggle = useSharedValue(toggleWidth);
-  const currentLanguage = useSharedValue<"latin" | "vernacular">("vernacular");
-  const [currentLang, setCurrentLang] = useState<"latin" | "vernacular">(
-    "vernacular",
-  );
   const [layoutWidth, setLayoutWidth] = useState(screenWidth);
+  const [currentLang, setCurrentLang] = useState<"latin" | "vernacular">(
+    defaultLanguage || "vernacular",
+  );
+
+  const currentLanguage = useSharedValue<"latin" | "vernacular">(
+    defaultLanguage || "vernacular",
+  );
+  const translateX = useSharedValue(
+    (defaultLanguage || "vernacular") === "vernacular" ? -screenWidth : 0,
+  );
+  const translateXToggle = useSharedValue(
+    (defaultLanguage || "vernacular") === "vernacular" ? toggleWidth : 0,
+  );
 
   useEffect(() => {
     if (defaultLanguage && layoutWidth > 0) {
@@ -148,7 +154,7 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
     if (width !== layoutWidth) {
       setLayoutWidth(width);
       const isVernacular = currentLanguage.value === "vernacular";
-      translateX.value = withSpring(isVernacular ? -width : 0, springConfig);
+      translateX.value = isVernacular ? -width : 0;
     }
   };
 
