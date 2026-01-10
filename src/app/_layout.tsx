@@ -31,6 +31,7 @@ import { CalendarProvider } from "~/providers/calendar";
 import { FontProvider } from "~/providers/fonts";
 import { SettingsProvider } from "~/providers/settings";
 import { PostHogProvider } from "posthog-react-native";
+import { LanguageProvider } from "~/providers/language";
 
 SplashScreen.preventAutoHideAsync();
 
@@ -80,11 +81,13 @@ export default function PageRootLayout() {
         <SafeAreaProvider>
           <CalendarProvider>
             <SearchModalProvider>
-              <SettingsProvider>
-                <GestureHandlerRootView style={{ flex: 1 }}>
-                  <RootLayoutNav />
-                </GestureHandlerRootView>
-              </SettingsProvider>
+              <LanguageProvider>
+                <SettingsProvider>
+                  <GestureHandlerRootView style={{ flex: 1 }}>
+                    <RootLayoutNav />
+                  </GestureHandlerRootView>
+                </SettingsProvider>
+              </LanguageProvider>
             </SearchModalProvider>
           </CalendarProvider>
         </SafeAreaProvider>

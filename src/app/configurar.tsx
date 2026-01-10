@@ -1,7 +1,7 @@
 import { ScrollView } from "react-native";
 import { FontSizeSelector } from "~/components/FontSelector";
-import { DefaultLanguageSelector } from "~/components/LanguageSelector";
 import { Notifications } from "~/components/Notifications";
+import { DefaultLanguageSelector } from "~/providers/language";
 
 export default function PageNot() {
   return (
