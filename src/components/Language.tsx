@@ -1,11 +1,5 @@
 import React, { useEffect, useMemo, useState } from "react";
-import {
-  Platform,
-  Pressable,
-  StyleSheet,
-  useWindowDimensions,
-  View,
-} from "react-native";
+import { Platform, Pressable, StyleSheet, View } from "react-native";
 import {
   Gesture,
   GestureDetector,
@@ -34,37 +28,45 @@ const springConfig = {
 
 const styles = StyleSheet.create({
   container: {
-    // Remove overflow hidden on web to prevent text cutoff
     ...(Platform.OS === "web" ? {} : { overflow: "hidden" }),
   },
   animatedContainer: {
-    flexDirection: "row", // Explicit: Overrides missing className in Animated.View (Reanimated v4 quirk)
-    alignItems: "stretch", // Ensures full height alignment across children
+    flexDirection: "row",
+    alignItems: "stretch",
   },
 });
 
 export default function LanguageToggle({ children }: LanguageToggleProps) {
-  const { width: screenWidth } = useWindowDimensions();
   const defaultLanguage = useDefaultLanguage();
-  const translateX = useSharedValue(-screenWidth);
-  const translateXToggle = useSharedValue(toggleWidth);
-  const currentLanguage = useSharedValue<"latin" | "vernacular">("vernacular");
+  const [containerWidth, setContainerWidth] = useState(0);
   const [currentLang, setCurrentLang] = useState<"latin" | "vernacular">(
-    "vernacular",
+    defaultLanguage,
   );
-  const [layoutWidth, setLayoutWidth] = useState(screenWidth);
+
+  const currentLanguage = useSharedValue<"latin" | "vernacular">(
+    defaultLanguage,
+  );
+  const translateX = useSharedValue(
+    defaultLanguage === "vernacular" ? -1000 : 0,
+  );
+  const translateXToggle = useSharedValue(
+    defaultLanguage === "vernacular" ? toggleWidth : 0,
+  );
 
   useEffect(() => {
-    if (defaultLanguage) {
-      setLanguage(defaultLanguage === "vernacular");
+    setCurrentLang(defaultLanguage);
+    currentLanguage.value = defaultLanguage;
+    if (containerWidth > 0) {
+      translateX.value = defaultLanguage === "vernacular" ? -containerWidth : 0;
     }
   }, [defaultLanguage]);
 
   const setLanguage = (vernacular: boolean) => {
+    if (containerWidth === 0) return;
     const newLang = vernacular ? "vernacular" : "latin";
     setCurrentLang(newLang);
     currentLanguage.value = newLang;
-    const targetContent = vernacular ? -layoutWidth : 0;
+    const targetContent = vernacular ? -containerWidth : 0;
     translateX.value = withSpring(targetContent, springConfig);
     translateXToggle.value = withSpring(
       vernacular ? toggleWidth : 0,
@@ -87,37 +89,36 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
       startTranslate.value = translateX.value;
     })
     .onUpdate((event) => {
+      if (containerWidth === 0) return;
       translateX.value = Math.max(
-        -layoutWidth,
+        -containerWidth,
         Math.min(0, startTranslate.value + event.translationX),
       );
-      const toggleProgress = -translateX.value / layoutWidth;
+      const toggleProgress = -translateX.value / containerWidth;
       translateXToggle.value = Math.max(
         0,
         Math.min(toggleWidth, toggleProgress * toggleWidth),
       );
     })
     .onEnd((event) => {
+      if (containerWidth === 0) return;
       const dx = event.translationX;
       const vx = event.velocityX;
-      const swipeThreshold = layoutWidth * 0.25;
+      const swipeThreshold = containerWidth * 0.25;
       const velocityThreshold = 500;
       if (dx < -swipeThreshold || vx < -velocityThreshold) {
         runOnJS(setLanguage)(true);
       } else if (dx > swipeThreshold || vx > velocityThreshold) {
         runOnJS(setLanguage)(false);
       } else {
-        const midpoint = -layoutWidth / 2;
+        const midpoint = -containerWidth / 2;
         runOnJS(setLanguage)(translateX.value < midpoint);
       }
     });
 
-  const contentStyle = useAnimatedStyle(
-    () => ({
-      transform: [{ translateX: translateX.value }],
-    }),
-    [layoutWidth],
-  );
+  const contentStyle = useAnimatedStyle(() => ({
+    transform: [{ translateX: translateX.value }],
+  }));
 
   const { latinContent, vernacularContent } = useMemo(() => {
     const childrenArray = React.Children.toArray(children);
@@ -143,21 +144,17 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
     };
   }, [children]);
 
-  const onLayout = (event: any) => {
+  const onContainerLayout = (event: any) => {
     const { width } = event.nativeEvent.layout;
-    console.log(`Container layout: ${width}`); // Debug: Should match screenWidth
-    if (width !== layoutWidth) {
-      setLayoutWidth(width);
+    if (width > 0 && width !== containerWidth) {
+      setContainerWidth(width);
       const isVernacular = currentLanguage.value === "vernacular";
-      translateX.value = withSpring(isVernacular ? -width : 0, springConfig);
+      translateX.value = isVernacular ? -width : 0;
     }
   };
 
   const isWeb = Platform.OS === "web";
-  const { width } = useWindowDimensions();
-  const isWebDesktop = isWeb && width >= 768;
 
-  // On web (all sizes), use side-by-side layout to prevent overlapping issues
   if (isWeb) {
     const latinArray = React.Children.toArray(latinContent);
     const vernacularArray = React.Children.toArray(vernacularContent);
@@ -181,16 +178,16 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
   }
 
   return (
-    <View className="flex-1" onLayout={onLayout} style={styles.container}>
+    <View onLayout={onContainerLayout} style={styles.container}>
       <GestureDetector gesture={panGesture}>
         <Animated.View
           style={[
             contentStyle,
-            { width: layoutWidth * 2 },
+            { width: containerWidth * 2 },
             styles.animatedContainer,
           ]}
         >
-          <View style={{ flex: 1, width: layoutWidth }}>
+          <View style={{ flex: 1, width: containerWidth }}>
             <GestureScrollView
               scrollEnabled
               style={{ flex: 1 }}
@@ -199,7 +196,7 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
               {latinContent}
             </GestureScrollView>
           </View>
-          <View style={{ flex: 1, width: layoutWidth }}>
+          <View style={{ flex: 1, width: containerWidth }}>
             <GestureScrollView
               scrollEnabled
               style={{ flex: 1 }}
