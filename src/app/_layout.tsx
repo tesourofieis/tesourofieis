@@ -75,7 +75,11 @@ export default function PageRootLayout() {
         host: "https://eu.i.posthog.com",
         enableSessionReplay: true,
       }}
-      autocapture
+      autocapture={{
+        captureScreens: false, // expo-router requires this to be false and capture screens manually
+        captureTouches: true,
+        customLabelProp: "ph-my-label",
+      }}
     >
       <FontProvider>
         <SafeAreaProvider>
