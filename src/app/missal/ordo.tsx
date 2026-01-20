@@ -1991,7 +1991,7 @@ export default function PageOrdo() {
       </Language>
 
       <Typography className="aside">
-        Depois segura com a mão direita o Cálice pelo nó (enquanto a não
+        Depois segura com a mão direita o Cálice pelo nó (enquanto a mão
         esquerda empunha a patena), traça com o Cálice o sinal da Cruz e bebe o
         Sangue Divino! Neste momento diz:
       </Typography>

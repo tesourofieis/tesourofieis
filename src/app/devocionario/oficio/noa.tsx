@@ -227,7 +227,7 @@ export default function PageNoa() {
               mulieribus.
             </Typography>
             <Typography className="vernacular">
-              <Typography className="versicle"> ℣. </Typography>Bendita sois vóo
+              <Typography className="versicle"> ℣. </Typography>Bendita sois vós
               entre as mulheres.
             </Typography>
             <Typography className="latin">
