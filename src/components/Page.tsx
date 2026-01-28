@@ -1,6 +1,6 @@
-import { useLocalSearchParams } from "expo-router";
+import { useLocalSearchParams, usePathname } from "expo-router";
 import type React from "react";
-import { useEffect, useRef } from "react";
+import { useCallback, useEffect, useRef } from "react";
 import { Platform, ScrollView, useWindowDimensions, View } from "react-native";
 import { ScrollView as GestureScrollView } from "react-native-gesture-handler";
 import { PageProvider, useIsNested } from "~/providers/page";
@@ -15,23 +15,24 @@ export default function PageWrapper({ children }: PageWrapperProps) {
   const { width } = useWindowDimensions();
   const isWebDesktop = isWeb && width >= 768;
   const scrollViewRef = useRef<any>(null);
+  const pathname = usePathname();
   const { anchor } = useLocalSearchParams();
   const anchorString = Array.isArray(anchor) ? anchor[0] : anchor;
 
+  // Clear anchor registry when navigating to a new page
   useEffect(() => {
-    if (anchorString) {
-      setTimeout(() => {
-        scrollToAnchor(anchorString);
-      }, 300);
+    if (Platform.OS !== "web") {
+      (globalThis as any).anchorRegistry = {};
     }
-  }, [anchorString]);
+  }, [pathname]);
 
-  const scrollToAnchor = (anchorId: string) => {
+  const scrollToAnchor = useCallback((anchorId: string) => {
     if (Platform.OS === "web") {
-      // @ts-ignore
+      // @ts-ignore - document exists on web
       const element = document.getElementById(anchorId);
       if (element) {
         element.scrollIntoView({ behavior: "smooth", block: "start" });
+        return true;
       }
     } else {
       const anchorElement = (globalThis as any).anchorRegistry?.[anchorId];
@@ -40,9 +41,35 @@ export default function PageWrapper({ children }: PageWrapperProps) {
           y: Math.max(0, anchorElement.yPosition - 100),
           animated: true,
         });
+        return true;
       }
     }
-  };
+    return false;
+  }, []);
+
+  useEffect(() => {
+    if (!anchorString) return;
+
+    // Try to scroll immediately, then retry with increasing delays
+    // This handles cases where headings haven't registered yet
+    const delays = [100, 300, 600, 1000];
+    let attemptIndex = 0;
+
+    const tryScroll = () => {
+      if (scrollToAnchor(anchorString)) {
+        return; // Success, stop trying
+      }
+      attemptIndex++;
+      if (attemptIndex < delays.length) {
+        setTimeout(tryScroll, delays[attemptIndex]);
+      }
+    };
+
+    // Initial attempt after first delay
+    const timeoutId = setTimeout(tryScroll, delays[0]);
+
+    return () => clearTimeout(timeoutId);
+  }, [anchorString, scrollToAnchor]);
 
   if (isNested) {
     return <PageProvider>{children}</PageProvider>;

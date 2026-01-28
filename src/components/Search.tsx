@@ -131,12 +131,16 @@ const SearchResultItem = React.memo(
       [item, onPress],
     );
     const handleCardPress = useCallback(() => {
+      // Try to scroll to matched heading, or first heading if content matched
       if (item.matchedHeading) {
         handlePress(item.matchedHeading.id);
+      } else if (item.content.headings.length > 0) {
+        // If no specific heading matched but we have headings, scroll to first one
+        handlePress(item.content.headings[0]?.id);
       } else {
         handlePress();
       }
-    }, [item.matchedHeading, handlePress]);
+    }, [item.matchedHeading, item.content.headings, handlePress]);
 
     const highlighted = item.highlightedTitle ?? "";
     const displayTitle = highlighted;
@@ -159,7 +163,9 @@ const SearchResultItem = React.memo(
             className="text-pretty bold text-xs mt-1 text-sepia-600 dark:text-sepia-300"
             numberOfLines={3}
           >
-            {displaySnippet || fallbackSnippet}
+            {displaySnippet
+              ? renderFTSHighlightedText(displaySnippet)
+              : fallbackSnippet}
           </Typography>
 
           {item.content.headings.length > 1 && (
@@ -236,7 +242,19 @@ function SearchModal({
   const [showFilters, setShowFilters] = useState(false);
   const [selectedSections, setSelectedSections] = useState<string[]>([]);
   const timeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const inputRef = useRef<TextInput>(null);
   const availableSections = useMemo(() => getAvailableSections(), []);
+
+  // Focus input when modal opens
+  useEffect(() => {
+    if (visible) {
+      // Small delay to ensure modal animation is complete
+      const focusTimeout = setTimeout(() => {
+        inputRef.current?.focus();
+      }, 100);
+      return () => clearTimeout(focusTimeout);
+    }
+  }, [visible]);
 
   const performSearch = useCallback((query: string, sections: string[]) => {
     if (!query.trim()) {
@@ -247,22 +265,19 @@ function SearchModal({
 
     setIsSearching(true);
 
-    // Use requestAnimationFrame for better performance
-    requestAnimationFrame(() => {
-      try {
-        const filters: SearchFilters = {};
-        if (sections.length > 0) {
-          filters.sections = sections;
-        }
-        const searchResults = search(query, 20, filters);
-        setResults(searchResults);
-      } catch (err) {
-        console.error("Search error:", err);
-        setResults([]);
-      } finally {
-        setIsSearching(false);
+    try {
+      const filters: SearchFilters = {};
+      if (sections.length > 0) {
+        filters.sections = sections;
       }
-    });
+      const searchResults = search(query, 20, filters);
+      setResults(searchResults);
+    } catch (err) {
+      console.error("Search error:", err);
+      setResults([]);
+    } finally {
+      setIsSearching(false);
+    }
   }, []);
 
   useEffect(() => {
@@ -281,8 +296,8 @@ function SearchModal({
       () => {
         performSearch(searchQuery, selectedSections);
       },
-      searchQuery.length < 3 ? 500 : 200,
-    ); // Longer delay for short queries
+      100, // Fast debounce - MiniSearch is very fast
+    );
 
     return () => {
       if (timeoutRef.current) {
@@ -341,12 +356,12 @@ function SearchModal({
                 <View className="flex-row px-5 py-1 items-center rounded-xl border border-sepia extreme-background">
                   <Search size={15} color={colors.placeholder} />
                   <TextInput
+                    ref={inputRef}
                     placeholder="Procurar..."
                     placeholderTextColor={colors.placeholder}
                     value={searchQuery}
                     onChangeText={setSearchQuery}
                     autoCorrect={false}
-                    focusable
                     autoFocus
                     returnKeyType="search"
                     className="flex-1 py-3 ml-2 text-sepia-900 dark:text-sepia-100"
