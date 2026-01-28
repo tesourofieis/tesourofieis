@@ -499,8 +499,8 @@ export default function PageQuad64() {
         </Typography>
         <Typography className="vernacular">
           Deus está onde estiverem a caridade e o amor.
-          <Typography className="versicle"> ℣. </Typography>Foi o amor ele
-          Cristo que nos reuniu.
+          <Typography className="versicle"> ℣. </Typography>Foi o amor de Cristo
+          que nos reuniu.
           <Typography className="versicle"> ℣. </Typography>Alegremo-nos e
           encontremos n’Ele as delícias.
           <Typography className="versicle"> ℣. </Typography>
@@ -519,7 +519,7 @@ export default function PageQuad64() {
           Et in médio nostri sit Christus Deus.
         </Typography>
         <Typography className="vernacular">
-          Deus esta onde estiverem a caridade e o amor.
+          Deus está onde estiverem a caridade e o amor.
           <Typography className="versicle"> ℣. </Typography>Estamos reunidos em
           uma única assembleia.
           <Typography className="versicle"> ℣. </Typography>Evitemos tudo o que

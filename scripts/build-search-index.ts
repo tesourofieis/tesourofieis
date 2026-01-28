@@ -3,47 +3,7 @@ import * as path from "path";
 import { globSync } from "glob";
 import MiniSearch from "minisearch";
 import type { Docs } from "../src/components/Drawer";
-
-// Portuguese stop words for filtering
-const STOP_WORDS = new Set([
-  "que",
-  "para",
-  "com",
-  "por",
-  "uma",
-  "dos",
-  "das",
-  "nos",
-  "nas",
-  "seu",
-  "sua",
-  "seus",
-  "suas",
-  "como",
-  "pela",
-  "pelo",
-  "esta",
-  "este",
-  "essa",
-  "esse",
-  "mais",
-  "muito",
-  "bem",
-  "sem",
-  "depois",
-  "antes",
-  "assim",
-]);
-
-// Tokenizer that normalizes accents - must match runtime tokenizer exactly
-function tokenize(text: string): string[] {
-  return text
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .toLowerCase()
-    .split(/[\s\-_.,;:!?()[\]{}'"]+/)
-    .filter((t) => t.length >= 2 && !STOP_WORDS.has(t));
-}
+import { STOP_WORDS, tokenize } from "../lib/search-tokenizer";
 
 function slugify(text: string): string {
   return text
@@ -66,38 +26,7 @@ function extractKeywords(text: string): string[] {
     .split(/\s+/)
     .filter((word) => word.length >= 3) // Only words with 3+ characters
     .filter((word) => !/^\d+$/.test(word)) // Filter out pure numbers
-    .filter(
-      (word) =>
-        ![
-          "que",
-          "para",
-          "com",
-          "por",
-          "uma",
-          "dos",
-          "das",
-          "nos",
-          "nas",
-          "seu",
-          "sua",
-          "seus",
-          "suas",
-          "como",
-          "pela",
-          "pelo",
-          "esta",
-          "este",
-          "essa",
-          "esse",
-          "mais",
-          "muito",
-          "bem",
-          "sem",
-          "depois",
-          "antes",
-          "assim",
-        ].includes(word),
-    ); // Expanded Portuguese stop words
+    .filter((word) => !STOP_WORDS.has(word)); // Filter Portuguese stop words
 
   return [...new Set(words)]; // Remove duplicates
 }

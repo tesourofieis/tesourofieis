@@ -2,7 +2,6 @@ import { H1, H2, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import { Typography } from "~/components/typography";
-import Magnificat from "./../../canticos/sacros/magnificat";
 import LadainhaSantos from "./../../devocionario/ladainhas/santos";
 import Salmo150 from "~/app/devocionario/salterio/150";
 import PageBenedictus from "~/app/canticos/sacros/benedictus";

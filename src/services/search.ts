@@ -1,51 +1,11 @@
 import MiniSearch, { type SearchResult as MiniSearchResult } from "minisearch";
 import type { Docs, SubHeading } from "~/components/Drawer";
+import { tokenize } from "../../lib/search-tokenizer";
 import searchIndexData from "../../assets/search-index.json";
 import rawDocsData from "../../assets/docs.json";
 
 const allDocs: Docs[] = rawDocsData as Docs[];
 const docsById = new Map(allDocs.map((d) => [d.id, d]));
-
-// Portuguese stop words - must match build-time config
-const STOP_WORDS = new Set([
-  "que",
-  "para",
-  "com",
-  "por",
-  "uma",
-  "dos",
-  "das",
-  "nos",
-  "nas",
-  "seu",
-  "sua",
-  "seus",
-  "suas",
-  "como",
-  "pela",
-  "pelo",
-  "esta",
-  "este",
-  "essa",
-  "esse",
-  "mais",
-  "muito",
-  "bem",
-  "sem",
-  "depois",
-  "antes",
-  "assim",
-]);
-
-// Tokenizer must match build-time config exactly
-function tokenize(text: string): string[] {
-  return text
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .toLowerCase()
-    .split(/[\s\-_.,;:!?()[\]{}'"]+/)
-    .filter((t) => t.length >= 2 && !STOP_WORDS.has(t));
-}
 
 let miniSearch: MiniSearch | null = null;
 
@@ -118,13 +78,9 @@ function extractContextualSnippet(
 
   // Find the position of the first match
   let matchPosition = -1;
-  let matchedTerm = "";
 
   // First try to find exact query
   matchPosition = normalizedBody.indexOf(normalizedQuery);
-  if (matchPosition !== -1) {
-    matchedTerm = normalizedQuery;
-  }
 
   // If not found, try individual query words
   if (matchPosition === -1) {
@@ -132,7 +88,6 @@ function extractContextualSnippet(
       const pos = normalizedBody.indexOf(word);
       if (pos !== -1) {
         matchPosition = pos;
-        matchedTerm = word;
         break;
       }
     }
@@ -144,7 +99,6 @@ function extractContextualSnippet(
       const pos = normalizedBody.indexOf(term);
       if (pos !== -1) {
         matchPosition = pos;
-        matchedTerm = term;
         break;
       }
     }

@@ -426,7 +426,7 @@ export default function PageQuad641962() {
           Et in médio nostri sit Christus Deus.
         </Typography>
         <Typography className="vernacular">
-          Deus esta onde estiverem a caridade e o amor.
+          Deus está onde estiverem a caridade e o amor.
           <Typography className="versicle"> ℣. </Typography>Estamos reunidos em
           uma única assembleia.
           <Typography className="versicle"> ℣. </Typography>Evitemos tudo o que
