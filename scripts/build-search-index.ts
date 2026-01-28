@@ -1,7 +1,9 @@
 import * as fs from "fs";
 import * as path from "path";
 import { globSync } from "glob";
+import MiniSearch from "minisearch";
 import type { Docs } from "../src/components/Drawer";
+import { STOP_WORDS, tokenize } from "../lib/search-tokenizer";
 
 function slugify(text: string): string {
   return text
@@ -24,38 +26,7 @@ function extractKeywords(text: string): string[] {
     .split(/\s+/)
     .filter((word) => word.length >= 3) // Only words with 3+ characters
     .filter((word) => !/^\d+$/.test(word)) // Filter out pure numbers
-    .filter(
-      (word) =>
-        ![
-          "que",
-          "para",
-          "com",
-          "por",
-          "uma",
-          "dos",
-          "das",
-          "nos",
-          "nas",
-          "seu",
-          "sua",
-          "seus",
-          "suas",
-          "como",
-          "pela",
-          "pelo",
-          "esta",
-          "este",
-          "essa",
-          "esse",
-          "mais",
-          "muito",
-          "bem",
-          "sem",
-          "depois",
-          "antes",
-          "assim",
-        ].includes(word),
-    ); // Expanded Portuguese stop words
+    .filter((word) => !STOP_WORDS.has(word)); // Filter Portuguese stop words
 
   return [...new Set(words)]; // Remove duplicates
 }
@@ -430,6 +401,7 @@ function buildJsonDocs(): void {
   ];
   const baseDir: string = "src/app";
   const jsonFilePath: string = path.resolve("./assets/docs.json");
+  const searchIndexPath: string = path.resolve("./assets/search-index.json");
 
   // Statistics tracking
   const stats = {
@@ -449,6 +421,11 @@ function buildJsonDocs(): void {
   if (fs.existsSync(jsonFilePath)) {
     fs.unlinkSync(jsonFilePath);
     console.log(`🗑 Removido arquivo JSON existente: ${jsonFilePath}`);
+  }
+
+  if (fs.existsSync(searchIndexPath)) {
+    fs.unlinkSync(searchIndexPath);
+    console.log(`🗑 Removido índice de busca existente: ${searchIndexPath}`);
   }
 
   let files: string[] = [];
@@ -490,14 +467,70 @@ function buildJsonDocs(): void {
 
   stats.averageHeadings = stats.totalHeadings / stats.processedDocs;
 
+  // Build MiniSearch index
+  console.log(`\n🔎 Construindo índice MiniSearch...`);
+
+  const miniSearch = new MiniSearch({
+    fields: ["title", "section", "headingTitles", "introduction", "bodyText"],
+    storeFields: ["id", "title", "url", "section", "bodyText"], // Store bodyText for snippet extraction
+    tokenize,
+    searchOptions: {
+      boost: { title: 3, headingTitles: 2, section: 1.5 },
+      prefix: true,
+      fuzzy: 0.2,
+    },
+  });
+
+  // Transform docs for indexing
+  const searchDocs = processedDocs.map((doc) => ({
+    id: doc.id,
+    title: doc.title,
+    section: doc.section || "",
+    url: doc.url,
+    headingTitles: doc.content.headings.map((h) => h.title).join(" "),
+    introduction: doc.content.introduction || "",
+    // Store body text for snippet extraction (up to 300 chars per heading, max 2000 total)
+    bodyText: [
+      doc.content.introduction || "",
+      ...doc.content.headings.map((h) => `${h.title}: ${h.body.slice(0, 300)}`),
+    ]
+      .join(" | ")
+      .slice(0, 2000),
+  }));
+
+  miniSearch.addAll(searchDocs);
+
   try {
+    // Save MiniSearch index
     fs.writeFileSync(
-      jsonFilePath,
-      JSON.stringify(processedDocs, null, 2),
+      searchIndexPath,
+      JSON.stringify(miniSearch.toJSON()),
       "utf-8",
     );
+    const indexSize = fs.statSync(searchIndexPath).size;
     console.log(
-      `✅ ${processedDocs.length} documentos salvos em: ${jsonFilePath}`,
+      `✅ Índice MiniSearch salvo: ${searchIndexPath} (${(indexSize / 1024).toFixed(1)}KB)`,
+    );
+
+    // Save optimized docs.json (with truncated body for display)
+    const lightDocs = processedDocs.map((doc) => ({
+      ...doc,
+      content: {
+        ...doc.content,
+        headings: doc.content.headings.map((h) => ({
+          ...h,
+          // Keep excerpt, truncate body for display purposes
+          body: h.excerpt || h.body.slice(0, 200),
+        })),
+      },
+      // Keywords no longer needed at runtime - MiniSearch handles search
+      keywords: [],
+    }));
+
+    fs.writeFileSync(jsonFilePath, JSON.stringify(lightDocs), "utf-8");
+    const docsSize = fs.statSync(jsonFilePath).size;
+    console.log(
+      `✅ ${processedDocs.length} documentos salvos em: ${jsonFilePath} (${(docsSize / 1024 / 1024).toFixed(2)}MB)`,
     );
 
     // Print detailed statistics
@@ -509,7 +542,6 @@ function buildJsonDocs(): void {
     console.log(
       `📁 Arquivos processados: ${stats.processedDocs}/${stats.totalFiles}`,
     );
-    console.log(`🏷️  Total de palavras-chave: ${stats.totalKeywords}`);
     console.log(
       `📝 Média de cabeçalhos por documento: ${stats.averageHeadings.toFixed(1)}`,
     );
@@ -520,12 +552,10 @@ function buildJsonDocs(): void {
         console.log(`   • ${section}: ${count} documentos`);
       });
   } catch (error: any) {
-    console.error(`❌ Erro ao salvar o arquivo JSON:`, error.message);
+    console.error(`❌ Erro ao salvar arquivos:`, error.message);
   }
 
-  console.log(
-    `\n🎉 Geração do arquivo JSON concluída com otimizações de busca!`,
-  );
+  console.log(`\n🎉 Geração do índice de busca MiniSearch concluída!`);
 }
 
 buildJsonDocs();

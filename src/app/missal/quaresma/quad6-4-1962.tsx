@@ -5,7 +5,7 @@ import { Typography } from "~/components/typography";
 import PangeLingua from "../../canticos/sacros/pangelingua";
 import Salmo21 from "../../devocionario/salterio/021";
 
-export default function PageQuad64() {
+export default function PageQuad641962() {
   return (
     <PageWrapper>
       <H1 text="Quinta-Feira Santa" />
@@ -209,99 +209,6 @@ export default function PageQuad64() {
         </Typography>
       </Language>
 
-      <H3 text="Ofertório" />
-
-      <Typography className="em">Sl. 117, 16 & 17</Typography>
-
-      <Language>
-        <Typography className="latin">
-          Déxtera Dómini fecit virtútem, déxtera Dómini exaltávit me: non
-          móriar, sed vivam, et narrábo ópera Dómini.
-        </Typography>
-        <Typography className="vernacular">
-          A dextra do Senhor mostrou o seu poder; a dextra do Senhor exaltou-me!
-          Não morrerei, mas viverei e publicarei as maravilhas do Senhor.
-        </Typography>
-      </Language>
-
-      <H3 text="Secreta" />
-
-      <Language>
-        <Typography className="latin">
-          Ipse tibi, quǽsumus, Dómine sancte, Pater omnípotens, ætérne Deus,
-          sacrifícium nostrum reddat accéptum, qui discípulis suis in sui
-          commemoratiónem hoc fíeri hodiérna traditióne monstrávit, Jesus
-          Christus, Fílius tuus, Dóminus noster: Qui tecum vivit et regnat...
-        </Typography>
-        <Typography className="vernacular">
-          Senhor santo, Pai omnipotente e Deus eterno, permiti que este nosso
-          sacrifício Vos seja agradável por Jesus Cristo, vosso Filho, que,
-          instituindo-o neste dia, prescreveu aos discípulos que o celebrassem
-          em sua memória. Ele, que, sendo Deus, convosco vive e...
-        </Typography>
-      </Language>
-
-      <H3 text="Comúnio" />
-
-      <Typography className="em">Jo. 13, 12, 13 & 15</Typography>
-
-      <Language>
-        <Typography className="latin">
-          Dóminus Jesus, postquam cœnávit cum discípulis suis, lavit pedes
-          eórum, et ait illis: Scitis, quid fécerim vobis ego, Dóminus et
-          Magíster? Exemplum dedi vobis, ut et vos ita faciátis.
-        </Typography>
-        <Typography className="vernacular">
-          O Senhor Jesus, depois de haver ceado com seus discípulos, lavou-lhes
-          os pés e disse-lhes: «Sabeis o que vos fiz, sendo vosso Senhor e
-          Mestre? Dei-vos o exemplo, para que façais também o mesmo».
-        </Typography>
-      </Language>
-
-      <H3 text="Postcomúnio" />
-
-      <Language>
-        <Typography className="latin">
-          Refécti vitálibus aliméntis, quǽsumus, Dómine, Deus noster: ut, quod
-          témpore nostræ mortalitátis exséquimur, immortalitátis tuæ múnere
-          consequámur. Per Dóminum nostrum...
-        </Typography>
-        <Typography className="vernacular">
-          Ó Senhor, nosso Deus, havendo nós sido saciados com este alimento de
-          vida, concedei-nos a graça de, com vosso socorro, alcançarmos no seio
-          da imortalidade o que procurámos durante a vida mortal. Por nosso
-          Senhor...
-        </Typography>
-      </Language>
-
-      <H2 text="Procissão do SS. Sacramento" />
-
-      <H3 text="Pange Lingua" />
-
-      <PangeLingua />
-
-      <H2 text="Desnudação dos Altares" />
-
-      <H3 text="Antífona" />
-
-      <Typography className="em">Sl. 21, 19</Typography>
-
-      <Language>
-        <Typography className="latin">
-          Diviserunt sibi vestimenta mea: et super vestem meam misérunt sortem.
-        </Typography>
-        <Typography className="vernacular">
-          Dividiram entre si os meus vestidos e sobre a minha túnica jogaram
-          sortes.
-        </Typography>
-      </Language>
-
-      <Salmo21 />
-
-      <Typography className="aside">
-        Depois do Salmo 21 repetir Antífona anterior.
-      </Typography>
-
       <H2 text="Lava-Pés" />
 
       <Typography className="aside">Evangelho igual ao anterior.</Typography>
@@ -499,8 +406,8 @@ export default function PageQuad64() {
         </Typography>
         <Typography className="vernacular">
           Deus está onde estiverem a caridade e o amor.
-          <Typography className="versicle"> ℣. </Typography>Foi o amor de Cristo
-          que nos reuniu.
+          <Typography className="versicle"> ℣. </Typography>Foi o amor ele
+          Cristo que nos reuniu.
           <Typography className="versicle"> ℣. </Typography>Alegremo-nos e
           encontremos n’Ele as delícias.
           <Typography className="versicle"> ℣. </Typography>
@@ -658,6 +565,99 @@ export default function PageQuad64() {
           <Typography className="response"> ℟. </Typography> Amen.
         </Typography>
       </Language>
+
+      <H3 text="Ofertório" />
+
+      <Typography className="em">Sl. 117, 16 & 17</Typography>
+
+      <Language>
+        <Typography className="latin">
+          Déxtera Dómini fecit virtútem, déxtera Dómini exaltávit me: non
+          móriar, sed vivam, et narrábo ópera Dómini.
+        </Typography>
+        <Typography className="vernacular">
+          A dextra do Senhor mostrou o seu poder; a dextra do Senhor exaltou-me!
+          Não morrerei, mas viverei e publicarei as maravilhas do Senhor.
+        </Typography>
+      </Language>
+
+      <H3 text="Secreta" />
+
+      <Language>
+        <Typography className="latin">
+          Ipse tibi, quǽsumus, Dómine sancte, Pater omnípotens, ætérne Deus,
+          sacrifícium nostrum reddat accéptum, qui discípulis suis in sui
+          commemoratiónem hoc fíeri hodiérna traditióne monstrávit, Jesus
+          Christus, Fílius tuus, Dóminus noster: Qui tecum vivit et regnat...
+        </Typography>
+        <Typography className="vernacular">
+          Senhor santo, Pai omnipotente e Deus eterno, permiti que este nosso
+          sacrifício Vos seja agradável por Jesus Cristo, vosso Filho, que,
+          instituindo-o neste dia, prescreveu aos discípulos que o celebrassem
+          em sua memória. Ele, que, sendo Deus, convosco vive e...
+        </Typography>
+      </Language>
+
+      <H3 text="Comúnio" />
+
+      <Typography className="em">Jo. 13, 12, 13 & 15</Typography>
+
+      <Language>
+        <Typography className="latin">
+          Dóminus Jesus, postquam cœnávit cum discípulis suis, lavit pedes
+          eórum, et ait illis: Scitis, quid fécerim vobis ego, Dóminus et
+          Magíster? Exemplum dedi vobis, ut et vos ita faciátis.
+        </Typography>
+        <Typography className="vernacular">
+          O Senhor Jesus, depois de haver ceado com seus discípulos, lavou-lhes
+          os pés e disse-lhes: «Sabeis o que vos fiz, sendo vosso Senhor e
+          Mestre? Dei-vos o exemplo, para que façais também o mesmo».
+        </Typography>
+      </Language>
+
+      <H3 text="Postcomúnio" />
+
+      <Language>
+        <Typography className="latin">
+          Refécti vitálibus aliméntis, quǽsumus, Dómine, Deus noster: ut, quod
+          témpore nostræ mortalitátis exséquimur, immortalitátis tuæ múnere
+          consequámur. Per Dóminum nostrum...
+        </Typography>
+        <Typography className="vernacular">
+          Ó Senhor, nosso Deus, havendo nós sido saciados com este alimento de
+          vida, concedei-nos a graça de, com vosso socorro, alcançarmos no seio
+          da imortalidade o que procurámos durante a vida mortal. Por nosso
+          Senhor...
+        </Typography>
+      </Language>
+
+      <H2 text="Procissão do SS. Sacramento" />
+
+      <H3 text="Pange Lingua" />
+
+      <PangeLingua />
+
+      <H2 text="Desnudação dos Altares" />
+
+      <H3 text="Antífona" />
+
+      <Typography className="em">Sl. 21, 19</Typography>
+
+      <Language>
+        <Typography className="latin">
+          Diviserunt sibi vestimenta mea: et super vestem meam misérunt sortem.
+        </Typography>
+        <Typography className="vernacular">
+          Dividiram entre si os meus vestidos e sobre a minha túnica jogaram
+          sortes.
+        </Typography>
+      </Language>
+
+      <Salmo21 />
+
+      <Typography className="aside">
+        Depois do Salmo 21 repetir Antífona anterior.
+      </Typography>
     </PageWrapper>
   );
 }

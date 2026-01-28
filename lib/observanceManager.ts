@@ -9,7 +9,7 @@ export interface Mass {
   rank: number;
   color: "w" | "r" | "v" | "b" | "g" | "vw";
   link: string;
-  outro: boolean; // to be used by flexibility santos
+  outro?: boolean; // to be used by flexibility santos (only set when true)
   weekday?: number; // to be used by flexibility tempora
   calendar?: "pre-55" | "62";
   type:

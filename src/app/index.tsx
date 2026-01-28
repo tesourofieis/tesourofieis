@@ -101,6 +101,9 @@ export default function PageRender() {
             {day.mass?.map((item) => (
               <LinkCard key={item.id} mass={item} />
             ))}
+            {day.alternatives?.map((item) => (
+              <LinkCard key={item.id} mass={item} />
+            ))}
           </View>
 
           <View className="px-5 flex flex-col pb-3">

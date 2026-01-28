@@ -114,6 +114,11 @@ export default function CalendarMasterpiece() {
                         <LinkCard key={item.id} mass={item} />
                       ))
                     : null}
+                  {dayData?.alternatives && dayData.alternatives.length > 0
+                    ? dayData.alternatives.map((item) => (
+                        <LinkCard key={item.id} mass={item} />
+                      ))
+                    : null}
                 </View>
               </View>
             );
