@@ -32,12 +32,13 @@ export enum LiturgicalSeason {
  */
 export class Day {
   mass: Mass[] = [];
+  alternatives: Mass[] = []; // outro, local, calendar:62 masses - don't participate in concurrency
   season: LiturgicalSeason = "" as LiturgicalSeason;
 
   constructor(public date: string) {}
 
   get all() {
-    return this.mass;
+    return [...this.mass, ...this.alternatives];
   }
 }
 
@@ -322,11 +323,19 @@ class MassInserter {
       const m = dateObj.getMonth();
       const d = dateObj.getDate();
 
-      const masses = massManager
+      const allMasses = massManager
         .getSanctiByMonthDay(m + 1, d)
         .map((mass) => massManager.createMassWithDate(mass, date));
 
-      day.mass.push(...masses);
+      // Separate special masses (outro, local, calendar:62) from regular masses
+      // Special masses don't participate in concurrency resolution - they're just appended
+      for (const mass of allMasses) {
+        if (mass.outro || mass.local || mass.calendar) {
+          day.alternatives.push(mass);
+        } else {
+          day.mass.push(mass);
+        }
+      }
     }
   }
 
@@ -343,9 +352,44 @@ class MassInserter {
       )
       .filter((m): m is Mass => Boolean(m));
 
+    // Separate special masses (outro, local, calendar:62) from regular masses
+    // Special masses don't participate in date sequencing - they're appended to their fixed dates
+    const regularMasses: Mass[] = [];
+    const specialMasses: Mass[] = [];
+
+    for (const mass of resolvedBlock) {
+      if (mass.outro || mass.local || mass.calendar) {
+        specialMasses.push(mass);
+      } else {
+        regularMasses.push(mass);
+      }
+    }
+
+    // Insert special masses to their proper dates based on weekday
+    for (const mass of specialMasses) {
+      // Find the date that matches this mass's weekday within the block range
+      if (mass.weekday !== undefined && mass.week !== undefined) {
+        // Calculate the date for this mass based on its weekday offset from the start
+        const daysFromStart = regularMasses.findIndex(
+          (m) => m.weekday === mass.weekday && m.week === mass.week,
+        );
+        if (daysFromStart >= 0) {
+          const massDate = addDays(new Date(date), daysFromStart);
+          const dateKey = yyyyMMDD(massDate);
+          const day = this.container.get(dateKey);
+          if (day) {
+            day.alternatives.push(
+              massManager.createMassWithDate(mass, dateKey),
+            );
+          }
+        }
+      }
+    }
+
+    // Process regular masses sequentially
     const processBlock = reverse
-      ? resolvedBlock.slice().reverse()
-      : resolvedBlock;
+      ? regularMasses.slice().reverse()
+      : regularMasses;
 
     for (const [index, observance] of processBlock.entries()) {
       if (!observance) continue;

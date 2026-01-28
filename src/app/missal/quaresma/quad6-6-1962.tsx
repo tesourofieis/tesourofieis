@@ -1189,89 +1189,169 @@ export default function PageQuad661962() {
         </Typography>
       </Language>
       <H3 text="Renovação das Promessas do Baptismo" />
-      {/* TODO: Renovação das Promessas do Baptismo */}
       <Language>
         <Typography className="latin">
-          v. Hac sacratíssima nocte, fratres caríssimi, sancta Mater Ecclésia,
-          recólens Dómini nostri Iesu Christi mortem ei sepultúram, eum
-          redamándo vígilat; et, célebrans eiúsdem gloriósam resurrectiónem,
-          lætabúnda gáudet.
+          <Typography className="versicle">℣. </Typography>Hac sacratíssima
+          nocte, fratres caríssimi, sancta Mater Ecclésia, recólens Dómini
+          nostri Iesu Christi mortem ei sepultúram, eum redamándo vígilat; et,
+          célebrans eiúsdem gloriósam resurrectiónem, lætabúnda gáudet.
         </Typography>
-        <Typography className="vernacular"></Typography>
+        <Typography className="vernacular">
+          <Typography className="versicle">℣. </Typography>Nesta sacratíssima
+          noite, Irmãos caríssimos, a santa Igreja, nossa Mãe, recordando a
+          morte e sepultura de nosso Senhor Jesus Cristo, está em vigília para
+          Lhe retribuir o Seu amor, e rejubila de alegria, celebrando
+          solenemente a Sua gloriosa ressurreição.
+        </Typography>
 
         <Typography className="latin">
-          v. Quóniam vero, ut docet Apóstolus, consepúlti sumus cum Christo per
-          baptísmum in mortem, quómodo Christus resurréxit a mórtuis, ita et nos
-          in novitáte vitæ opórtet ambuláre; sciéntes, véterem hóminem nostrum
-          simul cum Christo crucifíxum esse, ut ultra non serviámus peccáto.
-          Existimémus ergo nos mórtuos quidem esse peccáto, vivéntis áutem Deo
-          in Christo Iesu Dómino nostro.
+          <Typography className="versicle">℣. </Typography>Quóniam vero, ut
+          docet Apóstolus, consepúlti sumus cum Christo per baptísmum in mortem,
+          quómodo Christus resurréxit a mórtuis, ita et nos in novitáte vitæ
+          opórtet ambuláre; sciéntes, véterem hóminem nostrum simul cum Christo
+          crucifíxum esse, ut ultra non serviámus peccáto. Existimémus ergo nos
+          mórtuos quidem esse peccáto, vivéntis áutem Deo in Christo Iesu Dómino
+          nostro.
         </Typography>
-        <Typography className="vernacular"></Typography>
+        <Typography className="vernacular">
+          <Typography className="versicle">℣. </Typography>E já que, segundo
+          ensina o Apóstolo, fomos sepultados com Cristo pelo baptismo para a
+          morte (do pecado), assim como Cristo ressuscitou dos mortos, assim nos
+          cumpre caminhar em vida nova, sabendo que o nosso homem velho foi
+          crucificado juntamente com Cristo, para nunca mais sermos escravos do
+          pecado. Consideremo-nos, pois, mortos para o pecado e vivos para Deus,
+          em Jesus Cristo, Senhor nosso.
+        </Typography>
 
         <Typography className="latin">
-          v. Quaprópter, fratres caríssimi, quadragesimáli exercitatióne
-          absolúta, sancti baptísmatis promissiónis renovémus, quibus olim
-          sátanæ et opéribus eius, sicut et mundo, qui inimícus est Dei,
-          abrenuntiávimus, et Deo in sancta Ecclésia cathólica fidéliter servíre
-          promísimus.
+          <Typography className="versicle">℣. </Typography>Quaprópter, fratres
+          caríssimi, quadragesimáli exercitatióne absolúta, sancti baptísmatis
+          promissiónis renovémus, quibus olim sátanæ et opéribus eius, sicut et
+          mundo, qui inimícus est Dei, abrenuntiávimus, et Deo in sancta
+          Ecclésia cathólica fidéliter servíre promísimus.
         </Typography>
-        <Typography className="vernacular"></Typography>
+        <Typography className="vernacular">
+          <Typography className="versicle">℣. </Typography>Por isso, Irmãos
+          caríssimos, terminados os exercícios quaresmais, renovemos as
+          promessas do santo baptismo, pelas quais, outrora, renunciámos a
+          Satanás e às suas obras, bem como ao mundo, que é inimigo de Deus, e
+          prometamos servir fielmente a Deus na santa Igreja Católica.
+        </Typography>
 
         <Typography className="latin">S. Abrenuntiátis Sátanæ?</Typography>
-        <Typography className="vernacular"></Typography>
-        <Typography className="latin">O. Abrenuntiámus.</Typography>
-        <Typography className="vernacular"></Typography>
+        <Typography className="vernacular">
+          Sac. Renunciais a Sata-nás?
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response">℟. </Typography>Abrenuntiámus.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response">℟. </Typography>Renunciamos.
+        </Typography>
         <Typography className="latin">S. Et ómnibus opéribus eius?</Typography>
-        <Typography className="vernacular"></Typography>
-        <Typography className="latin">O. Abrenuntiámus.</Typography>
-        <Typography className="vernacular"></Typography>
+        <Typography className="vernacular">
+          Sac. E a todas as suas obras?
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response">℟. </Typography>Abrenuntiámus.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response">℟. </Typography>Renunciamos
+        </Typography>
         <Typography className="latin">S. Et ómnibus pompis eius?</Typography>
-        <Typography className="vernacular"></Typography>
-        <Typography className="latin">O. Abrenuntiámus.</Typography>
-        <Typography className="vernacular"></Typography>
+        <Typography className="vernacular">
+          Sac. E a todas as suas pompas?
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response">℟. </Typography>Abrenuntiámus.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response">℟. </Typography>Renunciamos.
+        </Typography>
         <Typography className="latin">
           S. Créditis in Deum, Patrem omnipoténtem, Creatórem cœli et terræ?
         </Typography>
-        <Typography className="vernacular"></Typography>
-        <Typography className="latin">O. Crédimus.</Typography>
-        <Typography className="vernacular"></Typography>
+        <Typography className="vernacular">
+          Sac. Credes em Deus, Pai omnipotente, Criador do céu e da terra?
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response">℟. </Typography>Crédimus.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response">℟. </Typography>Cremos.
+        </Typography>
         <Typography className="latin">
           S. Créditis in Iesum Christum, Fílium eius únicum, Dóminum nostrum,
           natum et passum?
         </Typography>
-        <Typography className="vernacular"></Typography>
-        <Typography className="latin">O. Crédimus.</Typography>
-        <Typography className="vernacular"></Typography>
+        <Typography className="vernacular">
+          Sac. Credes em Jesus Cristo, seu único Filho, nosso Senhor, que nasceu
+          e padeceu por nós?
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response">℟. </Typography>Crédimus.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response">℟. </Typography>Cremos.
+        </Typography>
         <Typography className="latin">
           S. Créditis et in Spíritum Sanctum, sanctam Ecclésiam cathólicam,
           Sanctórum communiónem, remissiónem peccatórem, carnis resurrectiónem,
           et vitam ætérnam?
         </Typography>
-        <Typography className="vernacular"></Typography>
-        <Typography className="latin">O. Crédimus.</Typography>
-        <Typography className="vernacular"></Typography>
+        <Typography className="vernacular">
+          Sac. Credes também no Espírito Santo, na santa Igreja Católica, na
+          comunicação dos Santos, na remissão dos pecados, na ressurreição da
+          carne e na vida eterna?
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response">℟. </Typography>Crédimus.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response">℟. </Typography>Cremos.
+        </Typography>
         <Typography className="latin">
           S. Nunc áutem una simul Deum precémur, sicut Dóminus noster Iesus
           Christus oráre nos dócuit:
         </Typography>
-        <Typography className="vernacular"></Typography>
-        <Typography className="latin">
-          O. Pater noster, qui es in cœlis, sanctificétur nomen tuum. Advéniat
-          regnum tuum. Fiat volúntas tua, sicut in cœlo et in terra. Panem
-          nostrum quotidiánum da nobis hódie, et dimítte nobis débita nostra,
-          sicut et nos dimíttimus debitóribus nostris. Et ne nos indúcas in
-          tentatiónem, sed líbera nos a malo.
+        <Typography className="vernacular">
+          Sac. Então, dirijamos, agora, todos, as nossas preces a Deus com a
+          oração que nosso Senhor Jesus Cristo nos ensinou:
         </Typography>
-        <Typography className="vernacular"></Typography>
+        <Typography className="latin">
+          <Typography className="response">℟. </Typography>Pater noster, qui es
+          in cœlis, sanctificétur nomen tuum. Advéniat regnum tuum. Fiat
+          volúntas tua, sicut in cœlo et in terra. Panem nostrum quotidiánum da
+          nobis hódie, et dimítte nobis débita nostra, sicut et nos dimíttimus
+          debitóribus nostris. Et ne nos indúcas in tentatiónem, sed líbera nos
+          a malo.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response">℟. </Typography>Pai-nosso, que estais
+          nos céus; santificado seja o Vosso Nome; venha a nós o Vosso reino;
+          seja feita a Vossa vontade, assim na terra como no céu. O pão nosso de
+          cada dia nos dai hoje, perdoai-nos as nossas ofensas, assim como nós
+          perdoamos a quem nos tem ofendido; e não nos deixeis cair em tentação:
+          Mas livrai-nos do mal.
+        </Typography>
         <Typography className="latin">
           S. Et Deus omnípotens, Pater Dómini nostri Iesu Christi, qui nos
           regenerávit ex aqua et Spíritu Sancto, quique nobis dedit remissiónem
           peccatórum, ipse nos custódiat grátia sua in eódem Christo Iesu Dómino
           nostro in vitam ætérnam.
         </Typography>
-        <Typography className="vernacular"></Typography>
-        <Typography className="latin">O. Amen.</Typography>
+        <Typography className="vernacular">
+          Sac. E o Deus omnipotente, Pai de nosso Senhor Jesus Cristo, que nos
+          regenerou pela água e pelo Espírito Santo e que nos concedeu a
+          remissão dos pecados, nos guarde com a Sua graça, no mesmo Jesus
+          Cristo, nosso Senhor, para a vida eterna.
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response">℟. </Typography>Amen.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response">℟. </Typography>Amen.
+        </Typography>
       </Language>
       <H3 text="Segunda Parte das Ladainhas dos Santos" />
       <LadainhaSantos />

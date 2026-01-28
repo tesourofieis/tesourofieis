@@ -14,7 +14,6 @@ test("Domingo de Ramos", () => {
         id: "TEMPORA_QUAD6_0",
         link: "missal/quaresma/quad6-0",
         name: "Domingo de Ramos",
-        outro: false,
         rank: 1,
         type: "pre-lent-to-pentcost",
         week: 6,
@@ -30,10 +29,12 @@ test("Domingo de Ramos", () => {
         link: "missal/santos/03-24",
         month: 3,
         name: "S. Gabriel Arcanjo",
-        outro: false,
         rank: 3,
         type: "sancti",
       },
+    ],
+    // Local masses are now in alternatives (don't participate in concurrency)
+    alternatives: [
       {
         category: "santos",
         color: "w",
@@ -45,7 +46,6 @@ test("Domingo de Ramos", () => {
         local: "portugal",
         month: 3,
         name: "Festa do Santíssimo Sacramento",
-        outro: false,
         rank: 3,
         type: "sancti",
       },

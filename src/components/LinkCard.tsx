@@ -4,6 +4,8 @@ import {
   MapPin,
   Shirt,
   Sparkles,
+  Calendar,
+  Users,
 } from "lucide-react-native";
 import type { Mass } from "~/lib/observanceManager";
 import { burgundy } from "config";
@@ -129,12 +131,32 @@ export default function PageLinkCard({
                       {mass.name || ""}
                     </Typography>
 
-                    {mass.local && (
-                      <View className="flex-row items-center gap-2">
-                        <MapPin color={COLORS[500]} />
-                        <Typography className="text-pretty bold text-sepia-500">
-                          Local: {String(mass.local).toUpperCase()}
-                        </Typography>
+                    {(mass.local || mass.calendar || mass.outro) && (
+                      <View className="flex-row items-center gap-3 flex-wrap mt-1">
+                        {mass.local && (
+                          <View className="flex-row items-center gap-1">
+                            <MapPin size={12} color={COLORS[500]} />
+                            <Typography className="text-xs text-sepia-500">
+                              {String(mass.local).toUpperCase()}
+                            </Typography>
+                          </View>
+                        )}
+                        {mass.calendar === "62" && (
+                          <View className="flex-row items-center gap-1">
+                            <Calendar size={12} color={COLORS[500]} />
+                            <Typography className="text-xs text-sepia-500">
+                              1962
+                            </Typography>
+                          </View>
+                        )}
+                        {mass.outro && (
+                          <View className="flex-row items-center gap-1">
+                            <Users size={12} color={COLORS[500]} />
+                            <Typography className="text-xs text-sepia-500">
+                              Alt.
+                            </Typography>
+                          </View>
+                        )}
                       </View>
                     )}
                   </View>
