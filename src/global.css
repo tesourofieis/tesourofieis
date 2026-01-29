@@ -179,7 +179,7 @@
 
 @utility aside {
   font-family: var(--font-family-italic);
-  @apply m-2 text-pretty rounded-xl p-4 my-4 border-l-4 border-sepia-500 bg-sepia-200 text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
+  @apply m-2 text-pretty rounded-xl p-4 my-4 border-l-4 border-sepia-500 bg-sepia-400 text-sepia-600 dark:bg-sepia-700 dark:text-sepia-300;
 }
 
 @utility comment {

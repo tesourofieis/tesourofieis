@@ -23,6 +23,7 @@ import Drawer from "expo-router/drawer";
 import * as SplashScreen from "expo-splash-screen";
 import { StatusBar } from "expo-status-bar";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
+import { BottomSheetModalProvider } from "@gorhom/bottom-sheet";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import CustomDrawer from "~/components/Drawer";
 import { SearchModalProvider, useSearchModal } from "~/components/Search";
@@ -84,15 +85,17 @@ export default function PageRootLayout() {
       <FontProvider>
         <SafeAreaProvider>
           <GestureHandlerRootView style={{ flex: 1 }}>
-            <CalendarProvider>
-              <LanguageProvider>
-                <SettingsProvider>
-                  <SearchModalProvider>
-                    <RootLayoutNav />
-                  </SearchModalProvider>
-                </SettingsProvider>
-              </LanguageProvider>
-            </CalendarProvider>
+            <BottomSheetModalProvider>
+              <CalendarProvider>
+                <LanguageProvider>
+                  <SettingsProvider>
+                    <SearchModalProvider>
+                      <RootLayoutNav />
+                    </SearchModalProvider>
+                  </SettingsProvider>
+                </LanguageProvider>
+              </CalendarProvider>
+            </BottomSheetModalProvider>
           </GestureHandlerRootView>
         </SafeAreaProvider>
       </FontProvider>
@@ -144,7 +147,7 @@ function RootLayoutNav() {
 function WebHeader() {
   const router = useRouter();
   const pathname = usePathname();
-  const { openSearch } = useSearchModal();
+  const { toggleSearch } = useSearchModal();
 
   const isRootScreen = ["index", "calendario", "ordo", "configurar"].some(
     (screen) => pathname === `/${screen}` || pathname === "/",
@@ -165,9 +168,15 @@ function WebHeader() {
           {!isRootScreen && <Breadcrumbs />}
         </View>
         <Pressable
-          onPress={openSearch}
-          className="p-2 items-center rounded-xl active:bg-sepia-400 dark:active:bg-sepia-700 soft-background"
+          onPress={toggleSearch}
+          className="flex-row gap-1 p-2 items-center rounded-xl active:bg-sepia-300 dark:active:bg-sepia-700 soft-background"
         >
+          {Platform.OS === "web" && (
+            <>
+              <Typography className="text-xs">Procurar</Typography>
+              <Typography className="text-xs text-sepia-500">Ctrl+k</Typography>
+            </>
+          )}
           <Search size={15} color={burgundy[500]} />
         </Pressable>
       </View>
@@ -274,7 +283,7 @@ const Breadcrumbs = () => {
 export const Header = ({ withBC }: { withBC: boolean }) => {
   const router = useRouter();
   const navigation = useNavigation();
-  const { openSearch } = useSearchModal();
+  const { toggleSearch } = useSearchModal();
 
   if (withBC) {
     return (
@@ -300,7 +309,7 @@ export const Header = ({ withBC }: { withBC: boolean }) => {
             <Breadcrumbs />
           </View>
           <Pressable
-            onPress={openSearch}
+            onPress={toggleSearch}
             className="p-2 items-center rounded-xl active:bg-sepia-400 dark:active:bg-sepia-700 soft-background"
           >
             <Search size={15} color={burgundy[500]} />
@@ -328,7 +337,7 @@ export const Header = ({ withBC }: { withBC: boolean }) => {
         <BookPlus size={15} color={burgundy[500]} />
       </Pressable>
       <Pressable
-        onPress={openSearch}
+        onPress={toggleSearch}
         className="p-2 items-center rounded-xl active:bg-sepia-100 dark:active:bg-sepia-700 soft-background"
       >
         <Search size={15} color={burgundy[500]} />

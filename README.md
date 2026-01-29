@@ -32,21 +32,21 @@ Tesouro dos Fiéis is a universal Catholic liturgical application that provides:
 ## Getting Started
 
 ```bash
-pnpm install
-pnpm dev
+npm run install
+npm run dev
 ```
 
 ### Platform-Specific Development
 
 ```bash
 # Android
-pnpm run dev:android
+npm run run dev:android
 
 # iOS
-pnpm run dev:ios
+npm run run dev:ios
 
 # Web
-pnpm run build:web
+npm run run build:web
 ```
 
 ## Build, Lint & Test Commands
@@ -54,11 +54,11 @@ pnpm run build:web
 ### Core Development
 
 ```bash
-pnpm check        # Type check entire project
-pnpm lint         # Lint all code with Biome + ESLint
-pnpm test         # Run complete test suite
-pnpm dev          # Start development server
-pnpm run prebuild # Build search index
+npm run check        # Type check entire project
+npm run lint         # Lint all code with Biome + ESLint
+npm run test         # Run complete test suite
+npm run dev          # Start development server
+npm run run prebuild # Build search index
 ```
 
 ### Testing
@@ -71,7 +71,7 @@ vitest lib/tests/calendar/
 vitest lib/tests/calendar/2024.test.ts
 
 # Coverage report
-pnpm coverage
+npm run coverage
 
 # Benchmarks
 vitest lib/tests/bench/
@@ -81,10 +81,10 @@ vitest lib/tests/bench/
 
 ```bash
 # Build for all platforms
-pnpm run deploy
+npm run run deploy
 
 # OTA updates via Expo
-pnpm run update
+npm run run update
 ```
 
 ## Code Style Guidelines

@@ -7,7 +7,6 @@ import {
   CircleDot,
 } from "lucide-react-native";
 import { burgundy } from "config";
-import { BlurView } from "expo-blur";
 import { useRouter } from "expo-router";
 import React, {
   createContext,
@@ -27,15 +26,16 @@ import {
   TextInput,
   TouchableOpacity,
   useColorScheme,
-  useWindowDimensions,
   View,
   ScrollView,
   Keyboard,
 } from "react-native";
-import BottomSheet, {
+import {
   BottomSheetBackdrop,
   BottomSheetFlatList,
+  BottomSheetModal,
   BottomSheetTextInput,
+  BottomSheetScrollView,
 } from "@gorhom/bottom-sheet";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { Typography } from "~/components/typography";
@@ -47,14 +47,13 @@ import {
   getAvailableSections,
   getSectionDisplayName,
 } from "~/services/search";
-
-// =============================================================================
-// Context
-// =============================================================================
+import { H5 } from "./Headings";
 
 const SearchModalContext = createContext<{
   openSearch: () => void;
   closeSearch: () => void;
+  toggleSearch: () => void;
+  isSearchOpen: boolean;
   searchQuery: string;
   setSearchQuery: React.Dispatch<React.SetStateAction<string>>;
 } | null>(null);
@@ -67,36 +66,87 @@ export const useSearchModal = () => {
   return context;
 };
 
-// =============================================================================
-// Provider
-// =============================================================================
-
 export function SearchModalProvider({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  const [visible, setVisible] = useState(false);
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const router = useRouter();
-  const bottomSheetRef = useRef<BottomSheet>(null);
+  const bottomSheetRef = useRef<BottomSheetModal>(null);
 
   const openSearch = useCallback(() => {
     if (Platform.OS === "web") {
-      setVisible(true);
+      setIsSearchOpen(true);
     } else {
-      bottomSheetRef.current?.snapToIndex(1);
+      bottomSheetRef.current?.present();
+      setIsSearchOpen(true);
     }
   }, []);
 
   const closeSearch = useCallback(() => {
     if (Platform.OS === "web") {
-      setVisible(false);
+      setIsSearchOpen(false);
     } else {
-      bottomSheetRef.current?.close();
+      bottomSheetRef.current?.dismiss();
       Keyboard.dismiss();
+      setIsSearchOpen(false);
     }
   }, []);
+
+  const toggleSearch = useCallback(() => {
+    if (isSearchOpen) {
+      closeSearch();
+    } else {
+      openSearch();
+    }
+  }, [closeSearch, isSearchOpen, openSearch]);
+
+  const handleBottomSheetDismiss = useCallback(() => {
+    setIsSearchOpen(false);
+    Keyboard.dismiss();
+  }, []);
+
+  useEffect(() => {
+    if (Platform.OS !== "web") return;
+
+    const globalWindow = globalThis as {
+      addEventListener?: (type: string, listener: (event: any) => void) => void;
+      removeEventListener?: (
+        type: string,
+        listener: (event: any) => void,
+      ) => void;
+    };
+
+    if (!globalWindow.addEventListener || !globalWindow.removeEventListener)
+      return;
+
+    const handleKeyDown = (event: {
+      key?: string;
+      ctrlKey?: boolean;
+      metaKey?: boolean;
+      preventDefault?: () => void;
+    }) => {
+      const key = event.key?.toLowerCase();
+
+      if (key === "escape" && isSearchOpen) {
+        event.preventDefault?.();
+        closeSearch();
+        return;
+      }
+
+      if ((event.ctrlKey || event.metaKey) && key === "k") {
+        event.preventDefault?.();
+        toggleSearch();
+      }
+    };
+
+    (globalWindow.addEventListener as any)?.("keydown", handleKeyDown, {
+      capture: true,
+    });
+    return () => globalWindow.removeEventListener?.("keydown", handleKeyDown);
+  }, [closeSearch, isSearchOpen, toggleSearch]);
 
   const handleNavigate = useCallback(
     (url: string, headingId?: string) => {
@@ -113,6 +163,8 @@ export function SearchModalProvider({
       value={{
         openSearch,
         closeSearch,
+        toggleSearch,
+        isSearchOpen,
         searchQuery,
         setSearchQuery,
       }}
@@ -120,7 +172,7 @@ export function SearchModalProvider({
       {children}
       {Platform.OS === "web" ? (
         <SearchModal
-          visible={visible}
+          visible={isSearchOpen}
           searchQuery={searchQuery}
           setSearchQuery={setSearchQuery}
           onClose={closeSearch}
@@ -132,15 +184,12 @@ export function SearchModalProvider({
           searchQuery={searchQuery}
           setSearchQuery={setSearchQuery}
           onNavigate={handleNavigate}
+          onDismiss={handleBottomSheetDismiss}
         />
       )}
     </SearchModalContext.Provider>
   );
 }
-
-// =============================================================================
-// Shared Components
-// =============================================================================
 
 const renderFTSHighlightedText = (text: string) => {
   if (!text) return null;
@@ -153,7 +202,7 @@ const renderFTSHighlightedText = (text: string) => {
           return (
             <Typography
               key={part + i}
-              className="bg-sepia-200 dark:bg-sepia-700 bold"
+              className="bg-sepia-400 dark:bg-sepia-600 bold"
             >
               {highlightedContent}
             </Typography>
@@ -189,8 +238,6 @@ const SearchResultItem = React.memo(
       }
     }, [item.matchedHeading, item.content.headings, handlePress]);
 
-    const highlighted = item.highlightedTitle ?? "";
-    const displayTitle = highlighted;
     const displaySnippet = item.matchedText;
     const fallbackSnippet =
       item.content.introduction ||
@@ -203,18 +250,11 @@ const SearchResultItem = React.memo(
       <View className="mx-4 py-3 border-b border-b-sepia-500">
         <TouchableOpacity onPress={handleCardPress}>
           <View className="flex-row items-center gap-2">
-            <CircleDot size={10} />
-            <Typography className="bold h6 text-red-500 gap-2">
-              {displayTitle
-                ? renderFTSHighlightedText(displayTitle)
-                : item.title}
-            </Typography>
+            <CircleDot color={COLORS["500"]} size={10} />
+            <H5 text={item.title} />
           </View>
 
-          <Typography
-            className="text-pretty bold text-xs mt-1 text-sepia-600 dark:text-sepia-300"
-            numberOfLines={3}
-          >
+          <Typography className="aside" numberOfLines={2}>
             {displaySnippet
               ? renderFTSHighlightedText(displaySnippet)
               : fallbackSnippet}
@@ -246,7 +286,7 @@ const SearchResultItem = React.memo(
           <View className="flex-row flex-wrap items-center mt-3 gap-2">
             {item.section && (
               <View className="flex-row items-center gap-1">
-                <Tag size={10} color={COLORS["600"]} />
+                <Tag size={10} color={COLORS["500"]} />
                 <Typography className="text-ellipsis text-burgundy-600 dark:text-burgundy-300 text-xs px-2 py-1 rounded-full bg-burgundy-100 dark:bg-burgundy-900">
                   {getSectionDisplayName(item.section)}
                 </Typography>
@@ -275,10 +315,6 @@ const SearchResultItem = React.memo(
   },
 );
 
-// =============================================================================
-// Search Filters Component
-// =============================================================================
-
 function SearchFiltersBar({
   showFilters,
   selectedSections,
@@ -294,7 +330,7 @@ function SearchFiltersBar({
 
   return (
     <View className="mt-3 px-2">
-      <Typography className="text-sm font-display mb-2 text-sepia-600 dark:text-sepia-300">
+      <Typography className="text-sm font-display mb-2 text-sepia-500 dark:text-sepia-300">
         Filtrar por seção:
       </Typography>
       <ScrollView horizontal>
@@ -333,7 +369,7 @@ function SearchFiltersBar({
                   className={`text-xs ${
                     isSelected
                       ? "text-burgundy-700 dark:text-burgundy-200"
-                      : "text-sepia-600 dark:text-sepia-300"
+                      : "text-sepia-500 dark:text-sepia-300"
                   }`}
                 >
                   {getSectionDisplayName(section)}
@@ -346,10 +382,6 @@ function SearchFiltersBar({
     </View>
   );
 }
-
-// =============================================================================
-// Search Results Component
-// =============================================================================
 
 function SearchResults({
   results,
@@ -382,7 +414,7 @@ function SearchResults({
     return (
       <View className="flex-1">
         <View className="px-4 py-2 border-b border-sepia">
-          <Typography className="text-xs text-sepia-600 dark:text-sepia-400">
+          <Typography className="text-xs text-sepia-500 dark:text-sepia-400">
             {results.length} resultado
             {results.length !== 1 ? "s" : ""} encontrado
             {results.length !== 1 ? "s" : ""}
@@ -421,7 +453,7 @@ function SearchResults({
             onPress={() => setSelectedSections([])}
             className="mt-2 px-3 py-1 rounded border border-sepia"
           >
-            <Typography className="text-xs text-sepia-600 dark:text-sepia-400">
+            <Typography className="text-xs text-sepia-500 dark:text-sepia-400">
               Remover filtros
             </Typography>
           </TouchableOpacity>
@@ -432,10 +464,6 @@ function SearchResults({
 
   return null;
 }
-
-// =============================================================================
-// Custom Hook for Search Logic
-// =============================================================================
 
 function useSearch(searchQuery: string, selectedSections: string[]) {
   const [results, setResults] = useState<SearchResult[]>([]);
@@ -493,51 +521,35 @@ function useSearch(searchQuery: string, selectedSections: string[]) {
   return { results, isSearching };
 }
 
-// =============================================================================
-// Bottom Sheet (Mobile)
-// =============================================================================
-
 const SearchBottomSheet = React.forwardRef<
-  BottomSheet,
+  BottomSheetModal,
   {
     searchQuery: string;
     setSearchQuery: React.Dispatch<React.SetStateAction<string>>;
     onNavigate: (url: string, headingId?: string) => void;
+    onDismiss: () => void;
   }
->(({ searchQuery, setSearchQuery, onNavigate }, ref) => {
+>(({ searchQuery, setSearchQuery, onNavigate, onDismiss }, ref) => {
   const isDark = useColorScheme() === "dark";
   const insets = useSafeAreaInsets();
-  const { height: windowHeight } = useWindowDimensions();
   const [showFilters, setShowFilters] = useState(false);
   const [selectedSections, setSelectedSections] = useState<string[]>([]);
   const inputRef = useRef<any>(null);
   const availableSections = useMemo(() => getAvailableSections(), []);
   const { results, isSearching } = useSearch(searchQuery, selectedSections);
 
-  // Snap points: minimal peek (just drag line) and expanded
-  const snapPoints = useMemo(() => {
-    const maxHeight = Math.min(
-      windowHeight * 0.7,
-      windowHeight - insets.top - 24,
-    );
-    return [24, Math.max(320, Math.round(maxHeight))];
-  }, [windowHeight, insets.top]);
-
   const handleNavigate = useCallback(
     (url: string, headingId?: string) => {
       onNavigate(url, headingId);
-      (ref as React.RefObject<BottomSheet>)?.current?.snapToIndex(0);
+      (ref as React.RefObject<BottomSheetModal>)?.current?.dismiss();
       Keyboard.dismiss();
     },
     [onNavigate, ref],
   );
 
   const handleSheetChanges = useCallback((index: number) => {
-    if (index === 0) {
+    if (index === -1) {
       Keyboard.dismiss();
-    }
-    if (index >= 1) {
-      setTimeout(() => inputRef.current?.focus(), 150);
     }
   }, []);
 
@@ -545,20 +557,11 @@ const SearchBottomSheet = React.forwardRef<
     (props: any) => (
       <BottomSheetBackdrop
         {...props}
-        disappearsOnIndex={0}
-        appearsOnIndex={1}
+        disappearsOnIndex={-1}
+        appearsOnIndex={0}
         opacity={0.5}
-        pressBehavior="collapse"
+        pressBehavior="close"
       />
-    ),
-    [],
-  );
-
-  const renderHandle = useCallback(
-    () => (
-      <View className="items-center py-2">
-        <View className="w-12 h-1 bg-sepia-400 dark:bg-sepia-500" />
-      </View>
     ),
     [],
   );
@@ -570,116 +573,114 @@ const SearchBottomSheet = React.forwardRef<
     [],
   );
 
+  const snapPoints = useMemo(() => ["50%", "90%"], []);
+
   return (
-    <BottomSheet
+    <BottomSheetModal
       ref={ref}
-      index={0}
       snapPoints={snapPoints}
       onChange={handleSheetChanges}
+      onDismiss={onDismiss}
       backdropComponent={renderBackdrop}
-      handleComponent={renderHandle}
       enablePanDownToClose={true}
-      topInset={insets.top + 50}
       keyboardBehavior="extend"
       keyboardBlurBehavior="restore"
       android_keyboardInputMode="adjustResize"
+      topInset={insets.top + 55}
       backgroundStyle={{
         backgroundColor: isDark ? COLORS["800"] : COLORS["200"],
       }}
     >
-      <BottomSheetFlatList<SearchResult>
-        data={results}
-        keyExtractor={(item: SearchResult) => item.id}
-        renderItem={({ item }: { item: SearchResult }) => (
-          <SearchResultItem item={item} onPress={handleNavigate} />
-        )}
+      <BottomSheetScrollView
         keyboardShouldPersistTaps="handled"
-        stickyHeaderIndices={[0]}
         contentContainerStyle={{
-          paddingBottom: 100,
-          backgroundColor: isDark ? COLORS["800"] : COLORS["200"],
+          paddingBottom: Math.max(100, insets.bottom + 24),
         }}
-        ListHeaderComponent={
-          <View className="px-4 pb-1 medium-background">
-            <View className="flex-row px-3 py-1 items-center rounded-lg border border-sepia-300 dark:border-sepia-600 extreme-background">
-              <Search size={16} color={colors.placeholder} />
-              <BottomSheetTextInput
-                ref={inputRef}
-                placeholder="Procurar..."
-                placeholderTextColor={colors.placeholder}
-                value={searchQuery}
-                onChangeText={setSearchQuery}
-                autoCorrect={false}
-                returnKeyType="search"
-                style={{
-                  flex: 1,
-                  paddingVertical: 8,
-                  marginLeft: 8,
-                  fontSize: 16,
-                  color: isDark ? COLORS["100"] : COLORS["900"],
-                }}
-              />
-              <TouchableOpacity
-                onPress={() => setShowFilters(!showFilters)}
-                className="ml-2 p-1"
-              >
-                <Filter
-                  size={15}
-                  color={
-                    selectedSections.length > 0
-                      ? burgundy[500]
-                      : colors.placeholder
-                  }
-                />
-              </TouchableOpacity>
-              {!!searchQuery && (
-                <TouchableOpacity
-                  onPress={() => setSearchQuery("")}
-                  className="ml-1 p-1"
-                >
-                  <X size={16} color={colors.placeholder} />
-                </TouchableOpacity>
-              )}
-            </View>
-
-            <SearchFiltersBar
-              showFilters={showFilters}
-              selectedSections={selectedSections}
-              setSelectedSections={setSelectedSections}
-              availableSections={availableSections}
+      >
+        <View className="px-4 pb-1 pt-4 medium-background">
+          <View className="flex-row px-3 py-1 items-center rounded-lg border border-sepia-300 dark:border-sepia-700 extreme-background">
+            <Search size={16} color={colors.placeholder} />
+            <BottomSheetTextInput
+              ref={inputRef}
+              placeholder="Procurar..."
+              placeholderTextColor={colors.placeholder}
+              value={searchQuery}
+              onChangeText={setSearchQuery}
+              autoCorrect={false}
+              autoFocus={true}
+              returnKeyType="search"
+              style={{
+                flex: 1,
+                paddingVertical: 8,
+                marginLeft: 8,
+                fontSize: 16,
+                color: isDark ? COLORS["100"] : COLORS["900"],
+              }}
             />
-
-            {results.length > 0 && (
-              <View className="pt-2">
-                <Typography className="text-xs text-sepia-600 dark:text-sepia-400">
-                  {results.length} resultado{results.length !== 1 ? "s" : ""}
-                </Typography>
-              </View>
-            )}
-
-            {isSearching && (
-              <View className="py-8 items-center">
-                <ActivityIndicator size="small" />
-              </View>
-            )}
-
-            {searchQuery.trim() && !isSearching && results.length === 0 && (
-              <View className="py-8 items-center">
-                <Typography className="text-sepia-500 dark:text-sepia-400 text-center">
-                  Nenhum resultado encontrado
-                </Typography>
-              </View>
+            <TouchableOpacity
+              onPress={() => setShowFilters(!showFilters)}
+              className="ml-2 p-1"
+            >
+              <Filter
+                size={15}
+                color={
+                  selectedSections.length > 0
+                    ? burgundy[500]
+                    : colors.placeholder
+                }
+              />
+            </TouchableOpacity>
+            {!!searchQuery && (
+              <TouchableOpacity
+                onPress={() => setSearchQuery("")}
+                className="ml-1 p-1"
+              >
+                <X size={16} color={colors.placeholder} />
+              </TouchableOpacity>
             )}
           </View>
-        }
-      />
-    </BottomSheet>
+
+          <SearchFiltersBar
+            showFilters={showFilters}
+            selectedSections={selectedSections}
+            setSelectedSections={setSelectedSections}
+            availableSections={availableSections}
+          />
+
+          {results.length > 0 && (
+            <View className="pt-2">
+              <Typography className="text-xs text-sepia-600 dark:text-sepia-400">
+                {results.length} resultado{results.length !== 1 ? "s" : ""}
+              </Typography>
+            </View>
+          )}
+
+          {isSearching && (
+            <View className="py-8 items-center">
+              <ActivityIndicator size="small" />
+            </View>
+          )}
+
+          {searchQuery.trim() && !isSearching && results.length === 0 && (
+            <View className="py-8 items-center">
+              <Typography className="text-sepia-500 dark:text-sepia-400 text-center">
+                Nenhum resultado encontrado
+              </Typography>
+            </View>
+          )}
+        </View>
+
+        {results.map((item) => (
+          <SearchResultItem
+            key={item.id}
+            item={item}
+            onPress={handleNavigate}
+          />
+        ))}
+      </BottomSheetScrollView>
+    </BottomSheetModal>
   );
 });
-
-// =============================================================================
-// Modal (Web)
-// =============================================================================
 
 function SearchModal({
   visible,
@@ -688,20 +689,18 @@ function SearchModal({
   onClose,
   onNavigate,
 }: {
-  visible: boolean;
+  visible?: boolean;
   searchQuery: string;
   setSearchQuery: React.Dispatch<React.SetStateAction<string>>;
   onClose: () => void;
   onNavigate: (url: string, headingId?: string) => void;
 }) {
-  const isDark = useColorScheme() === "dark";
   const [showFilters, setShowFilters] = useState(false);
   const [selectedSections, setSelectedSections] = useState<string[]>([]);
   const inputRef = useRef<TextInput>(null);
   const availableSections = useMemo(() => getAvailableSections(), []);
   const { results, isSearching } = useSearch(searchQuery, selectedSections);
 
-  // Focus input when modal opens
   useEffect(() => {
     if (visible) {
       const focusTimeout = setTimeout(() => {
@@ -722,7 +721,6 @@ function SearchModal({
   const colors = useMemo(
     () => ({
       placeholder: COLORS["500"],
-      blurIntensity: 100,
     }),
     [],
   );
@@ -733,87 +731,90 @@ function SearchModal({
       transparent
       animationType="fade"
       onRequestClose={onClose}
-      statusBarTranslucent
+      statusBarTranslucent={true}
     >
-      <BlurView
-        intensity={colors.blurIntensity}
-        tint={isDark ? "dark" : "light"}
-        style={{ flex: 1 }}
-      >
-        <View className="flex-1 items-center justify-center bg-black/40">
-          <Pressable className="absolute inset-0" onPress={onClose} />
-          <View className="px-6 w-full max-w-xl flex-1 items-center justify-center">
-            <View
-              className="overflow-hidden rounded-xl"
-              style={{
-                height: "85%",
-                width: "85%",
-                borderRadius: 10,
-                overflow: "hidden",
-              }}
-            >
-              <View className="px-5 pt-4 pb-3 medium-background">
-                <View className="flex-row justify-center items-center pb-3">
-                  <BookPlus size={15} color={burgundy[500]} />
-                </View>
-                <View className="flex-row px-5 py-1 items-center rounded-xl border border-sepia extreme-background">
-                  <Search size={15} color={colors.placeholder} />
-                  <TextInput
-                    ref={inputRef}
-                    placeholder="Procurar..."
-                    placeholderTextColor={colors.placeholder}
-                    value={searchQuery}
-                    onChangeText={setSearchQuery}
-                    autoCorrect={false}
-                    autoFocus
-                    returnKeyType="search"
-                    className="flex-1 py-3 ml-2 text-sepia-900 dark:text-sepia-100"
+      <View className="flex-1 items-center justify-center bg-black/40">
+        <Pressable className="absolute inset-0" onPress={onClose} />
+        <View
+          className="px-6 w-full max-w-xl flex-1 items-center justify-center"
+          pointerEvents="box-none"
+        >
+          <View
+            className="overflow-hidden rounded-xl"
+            style={{
+              minHeight: "10%",
+              maxHeight: "85%",
+              minWidth: "90%",
+              borderRadius: 10,
+              overflow: "hidden",
+            }}
+          >
+            <View className="px-5 pt-4 pb-3 medium-background">
+              <View className="flex-row justify-center items-center pb-3">
+                <BookPlus size={15} color={burgundy[500]} />
+              </View>
+              <View className="flex-row px-5 py-1 items-center rounded-xl border border-sepia extreme-background">
+                <Search size={15} color={colors.placeholder} />
+                <TextInput
+                  ref={inputRef}
+                  placeholder="Procurar..."
+                  placeholderTextColor={colors.placeholder}
+                  value={searchQuery}
+                  onChangeText={setSearchQuery}
+                  autoCorrect={false}
+                  autoFocus
+                  returnKeyType="search"
+                  className="flex-1 py-3 ml-2 text-sepia-900 dark:text-sepia-100"
+                  style={
+                    Platform.OS === "web"
+                      ? ({ outlineStyle: "none" } as any)
+                      : undefined
+                  }
+                />
+                <TouchableOpacity
+                  onPress={() => setShowFilters(!showFilters)}
+                  className="ml-2 p-1"
+                >
+                  <Filter
+                    size={15}
+                    color={
+                      selectedSections.length > 0
+                        ? burgundy[500]
+                        : colors.placeholder
+                    }
                   />
+                </TouchableOpacity>
+                {!!searchQuery && (
                   <TouchableOpacity
-                    onPress={() => setShowFilters(!showFilters)}
-                    className="ml-2 p-1"
+                    onPress={() => setSearchQuery("")}
+                    className="ml-2"
                   >
-                    <Filter
-                      size={15}
-                      color={
-                        selectedSections.length > 0
-                          ? burgundy[500]
-                          : colors.placeholder
-                      }
-                    />
+                    <X size={15} color={colors.placeholder} />
                   </TouchableOpacity>
-                  {!!searchQuery && (
-                    <TouchableOpacity
-                      onPress={() => setSearchQuery("")}
-                      className="ml-2"
-                    >
-                      <X size={15} color={colors.placeholder} />
-                    </TouchableOpacity>
-                  )}
-                </View>
-
-                <SearchFiltersBar
-                  showFilters={showFilters}
-                  selectedSections={selectedSections}
-                  setSelectedSections={setSelectedSections}
-                  availableSections={availableSections}
-                />
+                )}
               </View>
 
-              <View className="flex-1 medium-background">
-                <SearchResults
-                  results={results}
-                  isSearching={isSearching}
-                  searchQuery={searchQuery}
-                  selectedSections={selectedSections}
-                  setSelectedSections={setSelectedSections}
-                  onNavigate={handleNavigate}
-                />
-              </View>
+              <SearchFiltersBar
+                showFilters={showFilters}
+                selectedSections={selectedSections}
+                setSelectedSections={setSelectedSections}
+                availableSections={availableSections}
+              />
+            </View>
+
+            <View className="flex-1 medium-background">
+              <SearchResults
+                results={results}
+                isSearching={isSearching}
+                searchQuery={searchQuery}
+                selectedSections={selectedSections}
+                setSelectedSections={setSelectedSections}
+                onNavigate={handleNavigate}
+              />
             </View>
           </View>
         </View>
-      </BlurView>
+      </View>
     </Modal>
   );
 }
