@@ -130,11 +130,6 @@ const TEMPORAS_PRAYERS: Record<Season, Prayer[]> = {
       description: "Antífona Nossa Senhora",
     },
     {
-      title: "Circumdederunt Me",
-      href: "/devocionario/cantos/circumdederuntme",
-      description: "Introito penitencial",
-    },
-    {
       title: "Miserere (Salmo 50)",
       href: "/devocionario/salterio/050",
       description: "Salmo penitencial",
