@@ -6,7 +6,7 @@ import {
   BookPlus,
   Sparkles,
 } from "lucide-react-native";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import {
   Platform,
   Pressable,
@@ -20,7 +20,10 @@ import { H6 } from "~/components/Headings";
 import { COLORS } from "~/constants/Colors";
 import { useSettings } from "~/providers/settings";
 import { Typography } from "./typography";
-import { webNotificationService } from "~/services/webNotifications";
+import {
+  type WebNotificationSchedule,
+  webNotificationService,
+} from "~/services/webNotifications";
 
 const NotificationToggle = ({
   title,
@@ -114,12 +117,27 @@ export const Notifications = () => {
   } = useSettings();
 
   const [showSuccessMessage, setShowSuccessMessage] = useState(false);
-  const [showDebugPanel, setShowDebugPanel] = useState(false);
-  const [debugInfo, setDebugInfo] = useState<any>(null);
+  const [webScheduled, setWebScheduled] = useState<WebNotificationSchedule[]>(
+    [],
+  );
 
   const toggleExpand = () => {
     setIsExpanded(!isExpanded);
   };
+
+  useEffect(() => {
+    if (Platform.OS !== "web") {
+      return;
+    }
+    const refresh = () => {
+      setWebScheduled(webNotificationService.getScheduledNotificationDetails());
+    };
+
+    refresh();
+    const interval = setInterval(refresh, 1000);
+
+    return () => clearInterval(interval);
+  }, [permissionStatus, settings]);
 
   // Web platform now supports notifications
   if (Platform.OS === "web") {
@@ -289,7 +307,9 @@ export const Notifications = () => {
       />
 
       <View className="mt-5">
-        {list?.length > 0 ? (
+        {(
+          Platform.OS === "web" ? webScheduled.length > 0 : list?.length > 0
+        ) ? (
           <TouchableOpacity
             onPressOut={toggleExpand}
             className="p-3 soft-background text-sepia-700 dark:text-sepia-300"
@@ -302,101 +322,55 @@ export const Notifications = () => {
           </TouchableOpacity>
         ) : undefined}
 
-        {isExpanded && list?.length ? (
+        {isExpanded &&
+        (Platform.OS === "web" ? webScheduled.length > 0 : list?.length) ? (
           <View>
-            {list.map((notification) => (
-              <View
-                key={notification.identifier}
-                style={{
-                  padding: 10,
-                  borderBottomWidth: 1,
-                  borderColor:
-                    colorScheme === "light" ? COLORS["300"] : COLORS["700"],
-                }}
-              >
-                <Typography className="text-sepia-800 dark:text-sepia-200">
-                  {notification.content.title}
-                </Typography>
-                {notification.content.body ? (
-                  <Typography className="text-sepia-700 dark:text-sepia-300">
-                    {notification.content.body}
-                  </Typography>
-                ) : undefined}
-              </View>
-            ))}
+            {Platform.OS === "web"
+              ? webScheduled.map((notification) => (
+                  <View
+                    key={notification.id}
+                    style={{
+                      padding: 10,
+                      borderBottomWidth: 1,
+                      borderColor:
+                        colorScheme === "light" ? COLORS["300"] : COLORS["700"],
+                    }}
+                  >
+                    <Typography className="text-sepia-800 dark:text-sepia-200">
+                      {notification.title}
+                    </Typography>
+                    <Typography className="text-sepia-700 dark:text-sepia-300">
+                      {notification.triggerAt.toLocaleString("pt-PT")}
+                    </Typography>
+                    {notification.body ? (
+                      <Typography className="text-sepia-700 dark:text-sepia-300">
+                        {notification.body}
+                      </Typography>
+                    ) : undefined}
+                  </View>
+                ))
+              : list.map((notification) => (
+                  <View
+                    key={notification.identifier}
+                    style={{
+                      padding: 10,
+                      borderBottomWidth: 1,
+                      borderColor:
+                        colorScheme === "light" ? COLORS["300"] : COLORS["700"],
+                    }}
+                  >
+                    <Typography className="text-sepia-800 dark:text-sepia-200">
+                      {notification.content.title}
+                    </Typography>
+                    {notification.content.body ? (
+                      <Typography className="text-sepia-700 dark:text-sepia-300">
+                        {notification.content.body}
+                      </Typography>
+                    ) : undefined}
+                  </View>
+                ))}
           </View>
         ) : undefined}
-
-        {Platform.OS === "web" && permissionStatus === "granted" && (
-          <View className="mt-5 p-3 border border-sepia-300 dark:border-sepia-700 rounded">
-            <TouchableOpacity
-              onPress={() => {
-                if (!showDebugPanel) {
-                  setDebugInfo(webNotificationService.getDebugInfo());
-                }
-                setShowDebugPanel(!showDebugPanel);
-              }}
-            >
-              <Typography className="text-center text-sepia-600 dark:text-sepia-400 text-sm">
-                {showDebugPanel ? "Esconder" : "Mostrar"} Depuração Web
-              </Typography>
-            </TouchableOpacity>
-
-            {showDebugPanel && (
-              <View className="mt-3">
-                <Typography className="text-sepia-800 dark:text-sepia-200 text-xs">
-                  <Typography className="bold">Estado:</Typography>{" "}
-                  {JSON.stringify(debugInfo, null, 2)}
-                </Typography>
-
-                <TouchableOpacity
-                  className="bg-green-500 p-2 rounded mt-2"
-                  onPress={() => {
-                    const success =
-                      webNotificationService.scheduleTestNotification();
-                    if (success) {
-                      console.log(
-                        "✅ Notificação agendada para daqui a 5 segundos!",
-                      );
-                    }
-                  }}
-                >
-                  <Typography className="text-white text-center text-sm">
-                    Testar Notificação Imediata
-                  </Typography>
-                </TouchableOpacity>
-
-                <TouchableOpacity
-                  className="bg-green-500 p-2 rounded mt-2"
-                  onPress={() => {
-                    const success =
-                      webNotificationService.scheduleTestNotification();
-                    if (success) {
-                      console.log(
-                        "✅ Notificação agendada para daqui a 5 segundos!",
-                      );
-                    }
-                  }}
-                >
-                  <Typography className="text-white text-center text-sm">
-                    Testar Agendamento (5s)
-                  </Typography>
-                </TouchableOpacity>
-
-                <TouchableOpacity
-                  className="bg-gray-500 p-2 rounded mt-2"
-                  onPress={() => {
-                    setDebugInfo(webNotificationService.getDebugInfo());
-                  }}
-                >
-                  <Typography className="text-white text-center text-sm">
-                    Atualizar Estado
-                  </Typography>
-                </TouchableOpacity>
-              </View>
-            )}
-          </View>
-        )}
       </View>
     </ScrollView>
   );

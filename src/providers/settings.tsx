@@ -262,6 +262,33 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
           console.log(
             `📅 Web notification scheduled: ${notification.content.title} at ${triggerTime.toLocaleString("pt-PT")} (in ${delay}s)`,
           );
+        } else if (trigger?.type === "date" || trigger?.date) {
+          const triggerDate = new Date(trigger.date);
+
+          if (Number.isNaN(triggerDate.getTime())) {
+            console.log("⚠️ Invalid web notification date trigger", trigger);
+            return;
+          }
+
+          if (triggerDate <= new Date()) {
+            console.log(
+              `Skipping past notification: ${notification.content.title}`,
+            );
+            return;
+          }
+
+          webNotificationService.scheduleNotification({
+            id: identifier,
+            title: notification.content.title || "Tesouro dos Fiéis",
+            body: notification.content.body || undefined,
+            triggerAt: triggerDate,
+            url: notification.content.data?.url as string,
+            icon: "/favicon.png",
+          });
+
+          console.log(
+            `📅 Web notification scheduled: ${notification.content.title} at ${triggerDate.toLocaleString("pt-PT")}`,
+          );
         } else {
           console.log(`⚠️ Unsupported web trigger type: ${trigger?.type}`);
         }
@@ -320,7 +347,8 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
 
     if (settings.massEnabled) {
       const today = new Date();
-      for (let i = 0; i < 30; i++) {
+      const maxDays = isWeb ? 7 : 30;
+      for (let i = 0; i < maxDays; i++) {
         const date = addDays(today, i);
         const dayMass = calendar.find((d) => d.date === yyyyMMDD(date))?.mass;
         if (dayMass?.length) {
@@ -355,18 +383,21 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
       const currentYear = today.getFullYear();
       const startDate = new Date(currentYear, 11, 17);
       const endDate = new Date(currentYear, 11, 23, 23);
+      const maxDays = isWeb ? 7 : 30;
+      const maxScheduleDate = addDays(today, maxDays);
 
       const daysUntilStart = Math.ceil(
         (startDate.getTime() - today.getTime()) / (1000 * 3600 * 24),
       );
 
-      const isWithinSchedulingWindow = daysUntilStart <= 30 && today <= endDate;
+      const isWithinSchedulingWindow =
+        daysUntilStart <= maxDays && today <= endDate;
 
       if (isWithinSchedulingWindow) {
         for (let day = 1; day <= 7; day++) {
           const notificationDate = new Date(currentYear, 11, 16 + day);
 
-          if (notificationDate > today) {
+          if (notificationDate > today && notificationDate <= maxScheduleDate) {
             const identifier = `our-lady-of-o-${day}`;
             await scheduleNotification(
               {
@@ -395,15 +426,21 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
 
     if (settings.novenaEnabled && novenas) {
       const today = new Date();
+      const maxDays = isWeb ? 7 : 30;
+      const maxScheduleDate = addDays(today, maxDays);
       for (const novena of novenas) {
         if (!novena.date) continue;
         const novenaDate = subDays(new Date(novena.date), 1);
-        if (novenaDate > today) {
+        if (novenaDate > today && novenaDate <= maxScheduleDate) {
           const dayDifference = Math.ceil(
             (novenaDate.getTime() - today.getTime()) / (1000 * 3600 * 24),
           );
           const currentNovenaDay = Math.max(1, 9 - dayDifference);
           for (let i = currentNovenaDay; i <= 9; i++) {
+            const scheduleDate = addDays(today, i - currentNovenaDay);
+            if (scheduleDate > maxScheduleDate) {
+              break;
+            }
             const identifier = `novena-${novena.name}-${i}`;
             await scheduleNotification(
               {
@@ -455,6 +492,8 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
     if (settings.indulgencesEnabled) {
       const today = new Date();
       const currentYear = today.getFullYear();
+      const maxDays = isWeb ? 7 : 30;
+      const maxScheduleDate = addDays(today, maxDays);
 
       for (const indulgence of NOTIFICATIONS.INDULGENCES.dates) {
         const notificationDate = new Date(
@@ -464,7 +503,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
           indulgence.hour,
           indulgence.minute,
         );
-        if (notificationDate > today) {
+        if (notificationDate > today && notificationDate <= maxScheduleDate) {
           const identifier = `indulgence-${indulgence.month}-${indulgence.day}`;
           await scheduleNotification(
             {
@@ -484,7 +523,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
         }
       }
 
-      for (let i = 0; i < 30; i++) {
+      for (let i = 0; i < maxDays; i++) {
         const checkDate = addDays(today, i);
         const dayData = calendar.find((d) => d.date === yyyyMMDD(checkDate));
         const id = dayData?.mass?.[0]?.id || "";
@@ -515,6 +554,11 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
           );
         }
       }
+    }
+
+    if (isWeb) {
+      setList([]);
+      return;
     }
 
     const scheduled = await Notifications.getAllScheduledNotificationsAsync();
@@ -563,6 +607,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
 
       if (webPermission.status === "granted") {
         console.log("✅ Web notifications enabled!");
+        await syncNotifications();
       } else {
         console.log("❌ Web notifications denied by user");
       }
@@ -625,8 +670,6 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
   }, [isWeb, openSettings, settings, updateSetting, syncNotifications]);
 
   useEffect(() => {
-    if (isWeb) return;
-
     const init = async () => {
       try {
         const loadedSettings = await getSettingsFromStorage();
@@ -639,12 +682,12 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
       }
     };
     init();
-  }, [isWeb, getSettingsFromStorage, checkPermissionStatus]);
+  }, [getSettingsFromStorage, checkPermissionStatus]);
 
   useEffect(() => {
-    if (isWeb || isLoading) return;
+    if (isLoading) return;
     syncNotifications();
-  }, [isWeb, syncNotifications, isLoading]);
+  }, [syncNotifications, isLoading]);
 
   useEffect(() => {
     if (isWeb) return;

@@ -20,6 +20,8 @@ export interface WebNotificationSchedule {
 export class WebNotificationService {
   private scheduledNotifications: Map<string, ReturnType<typeof setTimeout>> =
     new Map();
+  private scheduledDetails: Map<string, WebNotificationSchedule> = new Map();
+  private static readonly MAX_TIMEOUT = 2147483647;
   private isServiceWorkerRegistered = false;
 
   constructor() {
@@ -202,6 +204,8 @@ export class WebNotificationService {
     // Clear existing scheduled notification with same ID
     this.cancelScheduledNotification(schedule.id);
 
+    this.scheduledDetails.set(schedule.id, schedule);
+
     // ALWAYS use JavaScript timers for reliable scheduling
     // Service worker is additional backup, not primary
     this.scheduleWithTimer(schedule, delay);
@@ -221,7 +225,16 @@ export class WebNotificationService {
     schedule: WebNotificationSchedule,
     delay: number,
   ): void {
+    const safeDelay = Math.min(delay, WebNotificationService.MAX_TIMEOUT);
+
     const timeoutId = setTimeout(() => {
+      const remaining = schedule.triggerAt.getTime() - new Date().getTime();
+
+      if (remaining > 0) {
+        this.scheduleWithTimer(schedule, remaining);
+        return;
+      }
+
       this.showNotification({
         title: schedule.title,
         body: schedule.body,
@@ -233,7 +246,8 @@ export class WebNotificationService {
 
       // Remove from scheduled map
       this.scheduledNotifications.delete(schedule.id);
-    }, delay);
+      this.scheduledDetails.delete(schedule.id);
+    }, safeDelay);
 
     this.scheduledNotifications.set(schedule.id, timeoutId);
     console.log(
@@ -288,6 +302,8 @@ export class WebNotificationService {
       this.scheduledNotifications.delete(id);
     }
 
+    this.scheduledDetails.delete(id);
+
     // Cancel service worker notification
     if (this.isServiceWorkerRegistered) {
       this.cancelNotificationWithSW(id);
@@ -325,6 +341,7 @@ export class WebNotificationService {
       clearTimeout(timeoutId);
     }
     this.scheduledNotifications.clear();
+    this.scheduledDetails.clear();
 
     // Cancel service worker notifications
     if (this.isServiceWorkerRegistered) {
@@ -339,6 +356,12 @@ export class WebNotificationService {
    */
   getScheduledNotifications(): string[] {
     return Array.from(this.scheduledNotifications.keys());
+  }
+
+  getScheduledNotificationDetails(): WebNotificationSchedule[] {
+    return Array.from(this.scheduledDetails.values()).sort(
+      (a, b) => a.triggerAt.getTime() - b.triggerAt.getTime(),
+    );
   }
 
   /**
