@@ -63,11 +63,9 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     },
   },
   web: {
+    bundler: "metro",
+    output: "static",
     favicon: "./public/favicon.png",
-    web: {
-      bundler: "metro",
-      output: "static",
-    },
   },
   extra: {
     eas: {
