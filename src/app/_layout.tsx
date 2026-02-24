@@ -156,7 +156,7 @@ function WebHeader() {
   return (
     <View className="w-full border-b border-sepia z-10">
       <View className="flex-row items-center justify-between p-3 gap-2 medium-background">
-        <View className="flex-row items-center gap-4">
+        <View className="flex-row items-center gap-4 shrink">
           <Pressable
             className="p-2 items-center rounded-xl active:bg-sepia-200 dark:active:bg-sepia-700"
             onPress={() => router.navigate("/")}
@@ -228,6 +228,10 @@ function UpdateAwareDrawer() {
 const Breadcrumbs = () => {
   const pathname = usePathname();
   const router = useRouter();
+  const { width } = useWindowDimensions();
+  const isWeb = Platform.OS === "web";
+  const isWebDesktop = isWeb && width >= 768;
+
   const segments = pathname
     .split("/")
     .filter((segment) => segment && segment !== "(tabs)");
@@ -236,46 +240,114 @@ const Breadcrumbs = () => {
     return null;
   }
 
+  let displaySegments: string[] = segments;
+
+  if (!isWebDesktop) {
+    if (segments.length > 2) {
+      displaySegments = [
+        "...",
+        segments[segments.length - 2] ?? "",
+        segments[segments.length - 1] ?? "",
+      ].filter(Boolean);
+    }
+  } else {
+    if (segments.length > 4) {
+      displaySegments = [
+        "...",
+        segments[segments.length - 3] ?? "",
+        segments[segments.length - 2] ?? "",
+        segments[segments.length - 1] ?? "",
+      ].filter(Boolean);
+    }
+  }
+
   const formatSegmentName = (segment: string): string => {
+    if (segment === "...") return "...";
+
+    // Check if segment is a UUID using regex
+    const uuidRegex =
+      /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+    if (uuidRegex.test(segment)) {
+      return `${segment.substring(0, 4)}...`;
+    }
+
+    // Check if it's a number (for IDs etc)
+    if (/^\d+$/.test(segment)) {
+      return `#${segment}`;
+    }
+
     segment = segment.replace(/\(.*?\)/g, "");
-    return segment
+    const formatted = segment
       .split(/[-_]/)
       .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
       .join(" ");
+
+    // Truncate very long segment names on mobile
+    if (
+      !isWebDesktop &&
+      formatted.length > 15 &&
+      segments.indexOf(segment) !== segments.length - 1
+    ) {
+      return `${formatted.substring(0, 15)}...`;
+    }
+    return formatted;
   };
 
-  const handleBreadcrumbPress = (targetPath: string) => {
+  const handleBreadcrumbPress = (targetPath: string, isEllipsis: boolean) => {
+    if (isEllipsis) return;
     router.push(targetPath as any);
   };
 
   return (
-    <View className="flex-row items-center px-2 py-1 rounded-lg soft-background">
-      {segments.map((segment, index) => (
-        <View
-          className="flex-row items-center gap-1"
-          key={`${segment}-${index}`}
-        >
-          {index !== 0 && <ChevronRight size={8} color={burgundy[500]} />}
-          {index === segments.length - 1 ? (
-            <Typography className="font-display text-sm text-red-500">
-              {formatSegmentName(segment)}
-            </Typography>
-          ) : (
-            <Pressable
-              className="rounded px-1 py-0.5 active:bg-sepia-200 dark:active:bg-sepia-800"
-              onPress={() =>
-                handleBreadcrumbPress(
-                  `/${segments.slice(0, index + 1).join("/")}`,
-                )
-              }
-            >
-              <Typography className="bold text-sm text-sepia-600 dark:text-sepia-400 underline">
+    <View className="flex-row items-center px-2 py-1 rounded-lg soft-background flex-shrink">
+      {displaySegments.map((segment, index) => {
+        const isEllipsis = segment === "...";
+
+        let targetPath = "";
+        if (!isEllipsis) {
+          // Find the actual index of this segment in the original array
+          // Since we might have identical segments, we need to be careful.
+          // Working backwards from the end is safer since we kept the last N elements.
+          const reverseIndex = displaySegments.length - 1 - index;
+          const actualIndex = segments.length - 1 - reverseIndex;
+          targetPath = `/${segments.slice(0, actualIndex + 1).join("/")}`;
+        }
+
+        return (
+          <View
+            className="flex-row items-center gap-1 flex-shrink"
+            key={`${segment}-${index}`}
+          >
+            {index !== 0 && (
+              <ChevronRight
+                size={8}
+                color={burgundy[500]}
+                className="flex-shrink-0"
+              />
+            )}
+            {index === displaySegments.length - 1 ? (
+              <Typography
+                className="font-display text-sm text-red-500"
+                numberOfLines={1}
+              >
                 {formatSegmentName(segment)}
               </Typography>
-            </Pressable>
-          )}
-        </View>
-      ))}
+            ) : (
+              <Pressable
+                className={`rounded px-1 py-0.5 flex-shrink ${!isEllipsis ? "active:bg-sepia-200 dark:active:bg-sepia-800" : ""}`}
+                onPress={() => handleBreadcrumbPress(targetPath, isEllipsis)}
+              >
+                <Typography
+                  className={`bold text-sm text-sepia-600 dark:text-sepia-400 ${!isEllipsis ? "underline" : ""}`}
+                  numberOfLines={1}
+                >
+                  {formatSegmentName(segment)}
+                </Typography>
+              </Pressable>
+            )}
+          </View>
+        );
+      })}
     </View>
   );
 };
@@ -289,7 +361,7 @@ export const Header = ({ withBC }: { withBC: boolean }) => {
     return (
       <View className="flex-row items-center justify-between p-3 gap-2 medium-background w-full border-b border-sepia">
         <View className="flex-row items-center justify-between flex-1">
-          <View className="flex-row gap-4 items-center">
+          <View className="flex-row gap-4 items-center shrink">
             <Pressable
               className="p-2 items-center rounded-xl active:bg-sepia-400 dark:active:bg-sepia-700 soft-background"
               // @ts-expect-error
