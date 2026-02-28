@@ -7,20 +7,17 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     "Espaço dedicado à oração, exposição e preservação das santas tradições da Igreja.",
   slug: "tesourofieis",
   scheme: "com.tesourofieis.app",
-  newArchEnabled: true,
   platforms: ["android", "web", "ios"],
   githubUrl: "https://github.com/tesourofieis/tesourofieis",
   version: "1.3.0",
   orientation: "portrait",
   icon: "./assets/images/icon.png",
   userInterfaceStyle: "automatic",
-  notification: {
-    icon: "./assets/images/notifications.png",
-  },
   updates: {
     enabled: true,
     fallbackToCacheTimeout: 0,
     url: "https://u.expo.dev/22ae55e2-5e39-4f06-ad1a-3f96776bdc75",
+    enableBsdiffPatchSupport: true,
   },
   runtimeVersion: {
     policy: "appVersion",
@@ -75,12 +72,6 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   androidNavigationBar: {
     visible: "immersive",
   },
-  experiments: {
-    tsconfigPaths: true,
-    typedRoutes: true,
-    reactCanary: true,
-    reactCompiler: true,
-  },
   plugins: [
     [
       "expo-router",
@@ -101,8 +92,21 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
       },
     ],
     "expo-localization",
-    "expo-notifications",
+    [
+      "expo-notifications",
+      {
+        icon: "./assets/images/notifications.png",
+      },
+    ],
     "expo-secure-store",
+    "expo-image",
+    "expo-web-browser",
+    [
+      "expo-navigation-bar",
+      {
+        visibility: "immersive",
+      },
+    ],
     [
       "expo-splash-screen",
       {
