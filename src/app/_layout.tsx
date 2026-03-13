@@ -1,4 +1,5 @@
 import { useFonts } from "expo-font";
+import Head from "expo-router/head";
 import { useEffect } from "react";
 import {
   useWindowDimensions,
@@ -70,36 +71,41 @@ export default function PageRootLayout() {
   }
 
   return (
-    <PostHogProvider
-      apiKey="phc_Ng6Rsd9u1mXEatvYAJUwiLLd6Sl5uMX8Y6PgOrtPC9W"
-      options={{
-        host: "https://eu.i.posthog.com",
-        enableSessionReplay: true,
-      }}
-      autocapture={{
-        captureScreens: false, // expo-router requires this to be false and capture screens manually
-        captureTouches: true,
-        customLabelProp: "ph-my-label",
-      }}
-    >
-      <FontProvider>
-        <SafeAreaProvider>
-          <GestureHandlerRootView style={{ flex: 1 }}>
-            <BottomSheetModalProvider>
-              <CalendarProvider>
-                <LanguageProvider>
-                  <SettingsProvider>
-                    <SearchModalProvider>
-                      <RootLayoutNav />
-                    </SearchModalProvider>
-                  </SettingsProvider>
-                </LanguageProvider>
-              </CalendarProvider>
-            </BottomSheetModalProvider>
-          </GestureHandlerRootView>
-        </SafeAreaProvider>
-      </FontProvider>
-    </PostHogProvider>
+    <>
+      <Head>
+        <title>Tesouro dos Fiéis</title>
+      </Head>
+      <PostHogProvider
+        apiKey="phc_Ng6Rsd9u1mXEatvYAJUwiLLd6Sl5uMX8Y6PgOrtPC9W"
+        options={{
+          host: "https://eu.i.posthog.com",
+          enableSessionReplay: true,
+        }}
+        autocapture={{
+          captureScreens: false, // expo-router requires this to be false and capture screens manually
+          captureTouches: true,
+          customLabelProp: "ph-my-label",
+        }}
+      >
+        <FontProvider>
+          <SafeAreaProvider>
+            <GestureHandlerRootView style={{ flex: 1 }}>
+              <BottomSheetModalProvider>
+                <CalendarProvider>
+                  <LanguageProvider>
+                    <SettingsProvider>
+                      <SearchModalProvider>
+                        <RootLayoutNav />
+                      </SearchModalProvider>
+                    </SettingsProvider>
+                  </LanguageProvider>
+                </CalendarProvider>
+              </BottomSheetModalProvider>
+            </GestureHandlerRootView>
+          </SafeAreaProvider>
+        </FontProvider>
+      </PostHogProvider>
+    </>
   );
 }
 
