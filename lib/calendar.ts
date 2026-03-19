@@ -1060,7 +1060,6 @@ export class Calendar {
     this.buildEmptyCalendar();
     this.fillInMasses();
     this.resolveConcurrency();
-    this.applySeasons();
   }
 
   private buildEmptyCalendar(): void {
@@ -1068,7 +1067,9 @@ export class Calendar {
 
     while (date.getFullYear() === this.year) {
       const dateString = yyyyMMDD(date);
-      this.container.set(dateString, new Day(dateString));
+      const day = new Day(dateString);
+      day.season = this.seasonManager.getSeasonForDate(date);
+      this.container.set(dateString, day);
       date.setDate(date.getDate() + 1);
     }
   }
@@ -1081,13 +1082,6 @@ export class Calendar {
     );
     inserter.insertTemporaDays();
     inserter.insertSanctiDays();
-  }
-
-  private applySeasons(): void {
-    for (const [dateString, day] of this.container) {
-      const date = parseLocalDate(dateString);
-      day.season = this.seasonManager.getSeasonForDate(date);
-    }
   }
 
   /**
