@@ -58,6 +58,7 @@ export class MassManager {
   private emberDays: Mass[];
   private sanctiClass1: Mass[];
   private sanctiClass2: Mass[];
+  private criteriaIdSetCache: WeakMap<(Mass | undefined)[], Set<string>>;
 
   constructor() {
     this.masses = Object.values(OBSERVANCES);
@@ -73,6 +74,7 @@ export class MassManager {
     this.emberDays = [];
     this.sanctiClass1 = [];
     this.sanctiClass2 = [];
+    this.criteriaIdSetCache = new WeakMap();
 
     for (const mass of this.masses) {
       // index by flexibility
@@ -233,13 +235,23 @@ export class MassManager {
     }
 
     if (Array.isArray(criteria)) {
+      let criteriaIds = this.criteriaIdSetCache.get(criteria);
+
+      if (!criteriaIds) {
+        criteriaIds = new Set(
+          criteria
+            .map((criterion) => criterion?.id)
+            .filter((id): id is string => Boolean(id)),
+        );
+        this.criteriaIdSetCache.set(criteria, criteriaIds);
+      }
+
       for (const observance of observances) {
-        for (const criterion of criteria) {
-          if (criterion && observance.id === criterion.id) {
-            return observance;
-          }
+        if (criteriaIds.has(observance.id)) {
+          return observance;
         }
       }
+
       return undefined;
     }
 
