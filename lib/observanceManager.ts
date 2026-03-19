@@ -219,22 +219,36 @@ export class MassManager {
       | (Mass | undefined)[]
       | ((mass: Mass) => boolean),
   ): Mass | undefined {
-    const observanceArray = Array.isArray(observances)
-      ? observances
-      : [observances];
-    const criteriaArray = Array.isArray(criteria) ? criteria : [criteria];
+    if (!criteria) {
+      return undefined;
+    }
 
-    for (const obs of observanceArray) {
-      for (const crit of criteriaArray) {
-        if (!crit) continue; // Skip if criteria is undefined
-
-        if (typeof crit === "function") {
-          if (crit(obs)) return obs;
-        } else if (crit.id !== undefined && obs.id === crit.id) {
-          return obs;
+    if (typeof criteria === "function") {
+      for (const observance of observances) {
+        if (criteria(observance)) {
+          return observance;
         }
       }
+      return undefined;
     }
+
+    if (Array.isArray(criteria)) {
+      for (const observance of observances) {
+        for (const criterion of criteria) {
+          if (criterion && observance.id === criterion.id) {
+            return observance;
+          }
+        }
+      }
+      return undefined;
+    }
+
+    for (const observance of observances) {
+      if (observance.id === criteria.id) {
+        return observance;
+      }
+    }
+
     return undefined;
   }
 }
