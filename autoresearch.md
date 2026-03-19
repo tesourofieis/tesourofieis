@@ -39,3 +39,13 @@ Optimize the liturgical calendar path in `lib/`, with primary focus on **cold ge
 - ❌ Discarded: loop-based dedup rewrites in `calendar.ts` (regressed).
 - ❌ Discarded: allocation-free tempora selection rewrite in `resolveConcurrency` (regressed).
 - Prior workload became cache-hit dominant after `getCalendar` caching (`total_ms=0.079`), so benchmark was revised to measure cold path (cache cleared each repeat) and track `hot_ms` separately.
+- Cold-path re-baseline after workload change: `total_ms=90.988`.
+- ✅ Folded season assignment into `buildEmptyCalendar` (removed separate season pass).
+- ✅ Cached parsed dates in `parseLocalDate`.
+- ✅ Added rolling fallback anchor in `resolveConcurrency` for ferial fill-in, reducing repeated backward scans.
+- ✅ Cached Holy Week Wednesday lookup in `BmvSaturdayRule` + precomputed Advent/Ember combined criteria in `AdventEmberDayRule`.
+- ✅ Precomputed immutable criteria in multiple rules (Nativity/All Souls/Nativity Vigil & Octave/St. Matthias/Feb 27/Seven Sorrows).
+- ✅ Added early short-circuit conflict checks in first/second class conflict rules.
+- ❌ Discarded: `createMassWithDate` memoization (cache overhead regression).
+- ❌ Discarded: weekday rolling replacement for anchor-day parse check.
+- Current best cold-path metric: `total_ms=47.741` (hot cache metric remains ~`0.035-0.04ms`).
