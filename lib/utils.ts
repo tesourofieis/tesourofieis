@@ -6,6 +6,7 @@ function yyyyMMDD(date: Date) {
 }
 
 const parsedDateCache = new Map<string, Date>();
+const shiftedDateCache = new Map<string, string>();
 
 function parseLocalDate(dateString: string): Date {
   const cached = parsedDateCache.get(dateString);
@@ -21,4 +22,18 @@ function parseLocalDate(dateString: string): Date {
   return parsed;
 }
 
-export { yyyyMMDD, parseLocalDate };
+function shiftLocalDate(dateString: string, days: number): string {
+  const cacheKey = `${dateString}|${days}`;
+  const cached = shiftedDateCache.get(cacheKey);
+  if (cached) {
+    return cached;
+  }
+
+  const date = new Date(parseLocalDate(dateString));
+  date.setDate(date.getDate() + days);
+  const shifted = yyyyMMDD(date);
+  shiftedDateCache.set(cacheKey, shifted);
+  return shifted;
+}
+
+export { parseLocalDate, shiftLocalDate, yyyyMMDD };
