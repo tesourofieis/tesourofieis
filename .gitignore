@@ -55,3 +55,6 @@ apps/expo/credentials/ios
 .direnv
 test-results
 playwright-report
+
+autoresearch.*
+/autoresearch.*
