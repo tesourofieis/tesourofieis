@@ -732,6 +732,8 @@ class Feb27Rule extends BaseConcurrencyRule {
  * BmvSaturdayRule
  */
 class BmvSaturdayRule implements ConcurrencyRule {
+  private holyWeekWednesdayDate: string | null | undefined;
+
   applies(observances: Mass[], date: string): boolean {
     if (!isSaturday(parseLocalDate(date))) return false;
 
@@ -785,14 +787,12 @@ class BmvSaturdayRule implements ConcurrencyRule {
       return massManager.getById("COMMUNE_C_10B");
     }
 
-    const wednesdayInHolyWeek = calendar.findDay(
-      massManager.getById("TEMPORA_QUAD6_3")?.id,
-    );
+    const wednesdayInHolyWeek = this.getHolyWeekWednesdayDate(calendar);
 
     if (
       isAfter(parsed, new Date(parsed.getFullYear(), 1, 2)) &&
       wednesdayInHolyWeek &&
-      isBefore(parsed, parseLocalDate(wednesdayInHolyWeek[0]))
+      isBefore(parsed, parseLocalDate(wednesdayInHolyWeek))
     ) {
       return massManager.getById("COMMUNE_C_10C");
     }
@@ -803,25 +803,34 @@ class BmvSaturdayRule implements ConcurrencyRule {
 
     return massManager.getById("COMMUNE_C_10T");
   }
+
+  private getHolyWeekWednesdayDate(calendar: Calendar): string | null {
+    if (this.holyWeekWednesdayDate !== undefined) {
+      return this.holyWeekWednesdayDate;
+    }
+
+    this.holyWeekWednesdayDate =
+      calendar.findDay(massManager.getById("TEMPORA_QUAD6_3")?.id)?.[0] || null;
+
+    return this.holyWeekWednesdayDate;
+  }
 }
 
 /**
  * AdventEmberDayRule
  */
 class AdventEmberDayRule implements ConcurrencyRule {
+  private adventAndEmberDays = massManager
+    .getEmberDays()
+    .concat(massManager.getAdvent());
+
   applies(observances: Mass[], date: string): boolean {
-    const advOrEmber = massManager.match(
-      observances,
-      massManager.getEmberDays().concat(massManager.getAdvent()),
-    );
+    const advOrEmber = massManager.match(observances, this.adventAndEmberDays);
     return Boolean(!isSunday(parseLocalDate(date)) && advOrEmber);
   }
 
   resolve(observances: Mass[]): RuleResolution {
-    const advOrEmber = massManager.match(
-      observances,
-      massManager.getEmberDays().concat(massManager.getAdvent()),
-    );
+    const advOrEmber = massManager.match(observances, this.adventAndEmberDays);
     const sancti = massManager.match(observances, massManager.getSancti());
 
     if (!sancti) {
