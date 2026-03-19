@@ -3,13 +3,12 @@ import type { ConfigContext, ExpoConfig } from "expo/config";
 export default ({ config }: ConfigContext): ExpoConfig => ({
   ...config,
   name: "Tesouro dos Fiéis",
-  description:
-    "Espaço dedicado à oração, exposição e preservação das santas tradições da Igreja.",
+  description: "Espaço dedicado à oração, exposição e preservação das santas tradições da Igreja.",
   slug: "tesourofieis",
   scheme: "com.tesourofieis.app",
   platforms: ["android", "web", "ios"],
   githubUrl: "https://github.com/tesourofieis/tesourofieis",
-  version: "1.3.0",
+  version: "1.3.1",
   orientation: "portrait",
   icon: "./assets/images/icon.png",
   userInterfaceStyle: "automatic",
