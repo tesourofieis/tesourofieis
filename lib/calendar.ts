@@ -848,6 +848,24 @@ class AdventEmberDayRule implements ConcurrencyRule {
  */
 class FirstClassConflictRule extends BaseConcurrencyRule {
   applies(observances: Mass[], date: string): boolean {
+    if (observances.length < 2) {
+      return false;
+    }
+
+    let firstClassCount = 0;
+    for (const observance of observances) {
+      if (observance.rank === 1) {
+        firstClassCount += 1;
+        if (firstClassCount > 1) {
+          break;
+        }
+      }
+    }
+
+    if (firstClassCount < 2) {
+      return false;
+    }
+
     const parsed = parseLocalDate(date);
     const sancti = massManager.match(observances, massManager.getSancti());
     const tempora = massManager.match(observances, massManager.getTempora());
@@ -862,8 +880,7 @@ class FirstClassConflictRule extends BaseConcurrencyRule {
       return false;
     }
 
-    const firstClassFeasts = observances.filter((ld) => ld.rank === 1);
-    return firstClassFeasts.length > 1;
+    return true;
   }
 
   protected getResolution(
@@ -917,12 +934,28 @@ class FirstClassConflictRule extends BaseConcurrencyRule {
  */
 class SecondClassConflictRule extends BaseConcurrencyRule {
   applies(observances: Mass[]): boolean {
-    const firstClassFeasts = observances.filter((ld) => ld.rank === 1);
+    if (observances.length < 2) {
+      return false;
+    }
+
+    let hasFirstClass = false;
+    for (const observance of observances) {
+      if (observance.rank === 1) {
+        hasFirstClass = true;
+        break;
+      }
+    }
+
+    if (!hasFirstClass) {
+      return false;
+    }
+
     const secondClassFeasts = massManager.match(
       observances,
       massManager.getSanctiClass2(),
     );
-    return Boolean(firstClassFeasts.length && secondClassFeasts?.rank === 2);
+
+    return Boolean(secondClassFeasts?.rank === 2);
   }
 
   protected getResolution(
