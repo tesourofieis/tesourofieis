@@ -1,13 +1,41 @@
 import { performance } from "node:perf_hooks";
-import { getCalendar } from "../../getCalendar";
+import {
+  __clearCalendarCacheForBenchmarks,
+  getCalendar,
+} from "../../getCalendar";
 
 const YEARS = Array.from({ length: 13 }, (_, i) => 2024 + i);
 const WARMUP_RUNS = 3;
 const MEASURED_RUNS = 11;
-const INNER_REPEATS = 6;
+const INNER_REPEATS = 3;
 
-function runWorkload() {
+function runColdWorkload() {
   let checksum = 0;
+  const start = performance.now();
+
+  for (let repeat = 0; repeat < INNER_REPEATS; repeat++) {
+    __clearCalendarCacheForBenchmarks();
+
+    for (const year of YEARS) {
+      const calendar = getCalendar(year);
+      checksum += calendar.length;
+      checksum += calendar[0]?.mass.length ?? 0;
+      checksum += calendar[calendar.length - 1]?.mass.length ?? 0;
+    }
+  }
+
+  const elapsedMs = performance.now() - start;
+  return { elapsedMs, checksum };
+}
+
+function runHotWorkload() {
+  let checksum = 0;
+
+  __clearCalendarCacheForBenchmarks();
+  for (const year of YEARS) {
+    getCalendar(year);
+  }
+
   const start = performance.now();
 
   for (let repeat = 0; repeat < INNER_REPEATS; repeat++) {
@@ -54,24 +82,32 @@ function percentile(values: number[], p: number) {
 let checksumSink = 0;
 
 for (let i = 0; i < WARMUP_RUNS; i++) {
-  const run = runWorkload();
-  checksumSink += run.checksum;
+  const cold = runColdWorkload();
+  const hot = runHotWorkload();
+  checksumSink += cold.checksum + hot.checksum;
 }
 
-const samples: number[] = [];
+const coldSamples: number[] = [];
+const hotSamples: number[] = [];
+
 for (let i = 0; i < MEASURED_RUNS; i++) {
-  const run = runWorkload();
-  samples.push(run.elapsedMs);
-  checksumSink += run.checksum;
+  const cold = runColdWorkload();
+  const hot = runHotWorkload();
+
+  coldSamples.push(cold.elapsedMs);
+  hotSamples.push(hot.elapsedMs);
+  checksumSink += cold.checksum + hot.checksum;
 }
 
-const totalMs = median(samples);
-const meanMs = mean(samples);
-const p90Ms = percentile(samples, 90);
-const stddevMs = stddev(samples);
+const totalMs = median(coldSamples);
+const meanMs = mean(coldSamples);
+const p90Ms = percentile(coldSamples, 90);
+const stddevMs = stddev(coldSamples);
+const hotMs = median(hotSamples);
 
 console.log(`METRIC total_ms=${totalMs.toFixed(3)}`);
 console.log(`METRIC mean_ms=${meanMs.toFixed(3)}`);
 console.log(`METRIC p90_ms=${p90Ms.toFixed(3)}`);
 console.log(`METRIC stddev_ms=${stddevMs.toFixed(3)}`);
+console.log(`METRIC hot_ms=${hotMs.toFixed(3)}`);
 console.log(`METRIC checksum=${checksumSink}`);
