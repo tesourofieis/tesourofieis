@@ -50,11 +50,29 @@ export class MassManager {
   private byType: Map<Mass["type"], Mass[]>;
   private santosByMonthDay: Map<string, Mass[]>; // key: "m-d"
 
+  private easterMasses: Mass[];
+  private temporaSundayMasses: Mass[];
+  private lentEmberDays: Mass[];
+  private septemberEmberDays: Mass[];
+  private adventEmberDays: Mass[];
+  private emberDays: Mass[];
+  private sanctiClass1: Mass[];
+  private sanctiClass2: Mass[];
+
   constructor() {
     this.masses = Object.values(OBSERVANCES);
     this.byFlexibility = new Map();
     this.byType = new Map();
     this.santosByMonthDay = new Map();
+
+    this.easterMasses = [];
+    this.temporaSundayMasses = [];
+    this.lentEmberDays = [];
+    this.septemberEmberDays = [];
+    this.adventEmberDays = [];
+    this.emberDays = [];
+    this.sanctiClass1 = [];
+    this.sanctiClass2 = [];
 
     for (const mass of this.masses) {
       // index by flexibility
@@ -74,7 +92,51 @@ export class MassManager {
         list.push(mass);
         this.santosByMonthDay.set(key, list);
       }
+
+      if (
+        mass.category === "pascoa" &&
+        ((mass.weekday !== undefined && mass.weekday < 5) ||
+          (mass.week !== undefined && mass.week < 4))
+      ) {
+        this.easterMasses.push(mass);
+      }
+
+      if (mass.flexibility === "tempora" && mass.weekday === 0) {
+        this.temporaSundayMasses.push(mass);
+      }
+
+      if (
+        mass.category === "quaresma" &&
+        mass.week === 1 &&
+        (mass.day === 3 || mass.day === 5 || mass.day === 6)
+      ) {
+        this.lentEmberDays.push(mass);
+      }
+
+      if (mass.type === "ember-september") {
+        this.septemberEmberDays.push(mass);
+      }
+
+      if (
+        mass.category === "advento" &&
+        mass.week === 3 &&
+        (mass.day === 3 || mass.day === 5 || mass.day === 6)
+      ) {
+        this.adventEmberDays.push(mass);
+      }
+
+      if (mass.category === "santos" && mass.rank === 1) {
+        this.sanctiClass1.push(mass);
+      }
+
+      if (mass.category === "santos" && mass.rank === 2) {
+        this.sanctiClass2.push(mass);
+      }
     }
+
+    this.emberDays = this.lentEmberDays
+      .concat(this.septemberEmberDays)
+      .concat(this.adventEmberDays);
   }
 
   createMassWithDate(mass: Mass, date: string): Mass {
@@ -102,7 +164,7 @@ export class MassManager {
   }
 
   getTempora(): Mass[] {
-    return this.masses.filter((mass) => mass.flexibility === "tempora");
+    return this.byFlexibility.get("tempora") || [];
   }
 
   getSancti(): Mass[] {
@@ -114,63 +176,39 @@ export class MassManager {
   }
 
   getAdvent(): Mass[] {
-    return this.masses.filter((mass) => mass.type === "advent");
+    return this.byType.get("advent") || [];
   }
 
   getEaster(): Mass[] {
-    return this.masses.filter(
-      (mass) =>
-        mass.category === "pascoa" &&
-        ((mass.weekday && mass.weekday < 5) || (mass.week && mass.week < 4)),
-    );
+    return this.easterMasses;
   }
 
   getTemporaSunday(): Mass[] {
-    return this.masses.filter(
-      (mass) => mass.flexibility === "tempora" && mass.weekday === 0,
-    );
+    return this.temporaSundayMasses;
   }
 
   getLentEmberDays(): Mass[] {
-    return this.masses.filter(
-      (mass) =>
-        mass.category === "quaresma" &&
-        mass.week === 1 &&
-        mass.day &&
-        [3, 5, 6].includes(mass.day),
-    );
+    return this.lentEmberDays;
   }
 
   getSeptemberEmberDays(): Mass[] {
-    return this.masses.filter((mass) => mass.type === "ember-september");
+    return this.septemberEmberDays;
   }
 
   getAdventEmberDays(): Mass[] {
-    return this.masses.filter(
-      (mass) =>
-        mass.category === "advento" &&
-        mass.week === 3 &&
-        mass.day &&
-        [3, 5, 6].includes(mass.day),
-    );
+    return this.adventEmberDays;
   }
 
   getEmberDays() {
-    return this.getLentEmberDays()
-      .concat(this.getSeptemberEmberDays())
-      .concat(this.getAdventEmberDays());
+    return this.emberDays;
   }
 
   getSanctiClass1(): Mass[] {
-    return this.masses.filter(
-      (mass) => mass.category === "santos" && mass.rank === 1,
-    );
+    return this.sanctiClass1;
   }
 
   getSanctiClass2(): Mass[] {
-    return this.masses.filter(
-      (mass) => mass.category === "santos" && mass.rank === 2,
-    );
+    return this.sanctiClass2;
   }
 
   match(
