@@ -16,7 +16,7 @@
     "prebuild": "npx tsx ./scripts/build-search-index.ts && npx tsx ./scripts/generate-sitemap.ts",
     "dev": "npm run prebuild && expo start --clear",
     "deploy": "npx eas-cli build --platform all --auto-submit --profile production --non-interactive --no-wait",
-    "update": "npx eas-cli update --auto",
+    "update": "npx eas-cli update --auto --environment production",
     "test": "vitest .",
     "test:e2e": "playwright test",
     "test:e2e:ui": "playwright test --ui"
@@ -80,6 +80,7 @@
     "@types/node": "^22.19.3",
     "@types/react": "~19.2.10",
     "@types/react-dom": "~19.1.7",
+    "eas-cli": "^18.4.0",
     "eslint": "^9.0.0",
     "eslint-config-expo": "~55.0.0",
     "eslint-config-prettier": "^10.1.8",
