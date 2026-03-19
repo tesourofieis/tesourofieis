@@ -1,3 +1,2 @@
-- Refactor rule API from `applies()+resolve()` to a single `resolveIfApplies()` to avoid duplicated matching/parsing work when a rule passes.
-- Add a lightweight per-date context (parsed date, weekday, month/day flags) in `resolveConcurrency` and thread it through rules to reduce repeated `parseLocalDate()` + `isSunday/isSaturday` calls.
-- Build a direct observance-id index while resolving concurrency to replace repeated `calendar.findDay()` scans and support O(1) lookups for rules needing specific feast dates.
+- Optimize `getNovenas` interval scan to avoid per-day `parseLocalDate` + `isWithinInterval` (prefer `yyyy-MM-dd` key-range comparisons with cached date shifts).
+- Profile mixed benchmark after each major change and guard against regressions in `cold_ms` even when `app_ms` improves.
