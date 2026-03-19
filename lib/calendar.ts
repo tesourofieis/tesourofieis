@@ -319,12 +319,11 @@ class MassInserter {
 
   insertSanctiDays(): void {
     for (const [date, day] of this.container) {
-      const dateObj = parseLocalDate(date);
-      const m = dateObj.getMonth();
-      const d = dateObj.getDate();
+      const month = Number.parseInt(date.slice(5, 7), 10);
+      const dayOfMonth = Number.parseInt(date.slice(8, 10), 10);
 
       const allMasses = massManager
-        .getSanctiByMonthDay(m + 1, d)
+        .getSanctiByMonthDay(month, dayOfMonth)
         .map((mass) => massManager.createMassWithDate(mass, date));
 
       // Separate special masses (outro, local, calendar:62) from regular masses
@@ -1065,13 +1064,12 @@ export class Calendar {
   }
 
   private buildEmptyCalendar(): void {
-    for (
-      let date = new Date(this.year, 0, 1);
-      date.getFullYear() === this.year;
-      date = addDays(date, 1)
-    ) {
+    const date = new Date(this.year, 0, 1);
+
+    while (date.getFullYear() === this.year) {
       const dateString = yyyyMMDD(date);
       this.container.set(dateString, new Day(dateString));
+      date.setDate(date.getDate() + 1);
     }
   }
 
