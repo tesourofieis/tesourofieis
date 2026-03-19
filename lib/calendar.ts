@@ -13,7 +13,7 @@ import {
   subDays,
 } from "date-fns";
 import { type Mass, massManager } from "./observanceManager";
-import { parseLocalDate, yyyyMMDD } from "./utils";
+import { parseLocalDate, shiftLocalDate, yyyyMMDD } from "./utils";
 
 export enum LiturgicalSeason {
   ADVENT = "Advento",
@@ -447,7 +447,7 @@ class VigilManager {
     calendar: Calendar,
   ): ShiftInstruction | undefined {
     // 1. Look for the Vigil on the day before the OLD feast date
-    const prevDateStr = yyyyMMDD(subDays(parseLocalDate(oldFeastDate), 1));
+    const prevDateStr = shiftLocalDate(oldFeastDate, -1);
     const prevDay = calendar.get(prevDateStr);
 
     if (!prevDay) return undefined;
@@ -460,7 +460,7 @@ class VigilManager {
     if (!vigilMass) return undefined;
 
     // 2. Vigil moves to the day before the NEW feast date
-    const targetVigilDate = yyyyMMDD(subDays(parseLocalDate(newFeastDate), 1));
+    const targetVigilDate = shiftLocalDate(newFeastDate, -1);
     return {
       date: targetVigilDate,
       observances: [vigilMass],
@@ -603,7 +603,7 @@ class AllSoulsRule extends BaseConcurrencyRule {
           stay: [sunday!],
           shifts: [
             {
-              date: yyyyMMDD(addDays(parseLocalDate(date), 1)),
+              date: shiftLocalDate(date, 1),
               observances: allSouls,
             },
           ],
@@ -678,7 +678,7 @@ class StMatthiasRule extends BaseConcurrencyRule {
         shifts: [
           {
             observances: [stMatthias],
-            date: yyyyMMDD(addDays(parseLocalDate(date), 1)),
+            date: shiftLocalDate(date, 1),
           },
         ],
       };
@@ -705,7 +705,7 @@ class Feb27Rule extends BaseConcurrencyRule {
   protected getResolution(observances: Mass[], date: string): RuleResolution {
     const mass = this.feb27Mass;
     if (!mass) return { stay: observances, shifts: [] };
-    const shiftedDate = yyyyMMDD(addDays(parseLocalDate(date), 1));
+    const shiftedDate = shiftLocalDate(date, 1);
     return {
       stay: [],
       shifts: [
