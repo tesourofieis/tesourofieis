@@ -1088,7 +1088,15 @@ export class Calendar {
    * resolveConcurrency: Orchestrates conflict resolution and shift processing.
    */
   private resolveConcurrency(): void {
+    let fallbackMass: Mass | undefined;
+
     for (const [date, day] of this.container) {
+      const parsedDate = parseLocalDate(date);
+      const isAnchorDay =
+        isSunday(parsedDate) ||
+        (parsedDate.getMonth() === 0 &&
+          (parsedDate.getDate() === 1 || parsedDate.getDate() === 6));
+
       // 1. Get the resolution from the rules (BaseRule ensures 'stay' includes winners + survivors)
       const result = this.concurrencyResolver.resolve(day.mass, date, this);
 
@@ -1097,9 +1105,21 @@ export class Calendar {
         // Fallback to GeneralRankRule if absolutely necessary, but ConcurrencyResolver should handle this.
         if (day.mass.length > 0) {
           day.mass = this.removeDuplicates(day.mass);
+        } else if (fallbackMass) {
+          this.updateDay(date, [
+            massManager.createMassWithDate(
+              { ...fallbackMass, name: "Feria" },
+              date,
+            ),
+          ]);
         } else {
           this.handleEmptyDay(date);
         }
+
+        if (isAnchorDay) {
+          fallbackMass = day.mass[0];
+        }
+
         continue;
       }
 
@@ -1143,8 +1163,16 @@ export class Calendar {
       // 4. Final Assignment
       if (finalObservances.length > 0) {
         day.mass = this.removeDuplicates(finalObservances);
+      } else if (fallbackMass) {
+        this.updateDay(date, [
+          massManager.createMassWithDate({ ...fallbackMass, name: "Feria" }, date),
+        ]);
       } else {
         this.handleEmptyDay(date);
+      }
+
+      if (isAnchorDay) {
+        fallbackMass = day.mass[0];
       }
     }
   }
