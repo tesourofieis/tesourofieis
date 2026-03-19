@@ -540,22 +540,16 @@ abstract class BaseConcurrencyRule implements ConcurrencyRule {
  * (Kept original logic since it has no shifts and is simple)
  */
 class NativityMultipleMassesRule implements ConcurrencyRule {
+  private nativityMasses = massManager
+    .getSanctiClass1()
+    .filter((mass) => mass.month === 12 && mass.day === 25);
+
   applies(observances: Mass[]): boolean {
-    return Boolean(
-      massManager.match(
-        observances,
-        massManager
-          .getSanctiClass1()
-          .filter((i) => i.id.startsWith("SANCTI_12_25")),
-      ),
-    );
+    return Boolean(massManager.match(observances, this.nativityMasses));
   }
 
   resolve(): RuleResolution {
-    const nativityMasses = massManager
-      .getSanctiClass1()
-      .filter((i) => i.month === 12 && i.day === 25);
-    return { stay: nativityMasses, shifts: [] };
+    return { stay: this.nativityMasses, shifts: [] };
   }
 }
 
@@ -564,22 +558,22 @@ class NativityMultipleMassesRule implements ConcurrencyRule {
  * (Kept original logic)
  */
 class SevenSorrowsRule implements ConcurrencyRule {
+  private sevenSorrowsTempora = massManager.getById("TEMPORA_QUAD5_5");
+  private sevenSorrowsSancti = massManager.getById("SANCTI_09_15");
+
   applies(observances: Mass[]): boolean {
-    return Boolean(
-      massManager.match(observances, massManager.getById("TEMPORA_QUAD5_5")),
-    );
+    return Boolean(massManager.match(observances, this.sevenSorrowsTempora));
   }
 
   resolve(observances: Mass[]): RuleResolution {
-    const sevenSorrow = massManager.getById("SANCTI_09_15");
-    if (!sevenSorrow) return { stay: observances, shifts: [] };
+    if (!this.sevenSorrowsSancti) return { stay: observances, shifts: [] };
     const sancti = massManager.match(observances, massManager.getSancti());
 
     if (sancti) {
-      return { stay: [sevenSorrow, sancti], shifts: [] };
+      return { stay: [this.sevenSorrowsSancti, sancti], shifts: [] };
     }
 
-    return { stay: [sevenSorrow], shifts: [] };
+    return { stay: [this.sevenSorrowsSancti], shifts: [] };
   }
 }
 
@@ -587,10 +581,10 @@ class SevenSorrowsRule implements ConcurrencyRule {
  * AllSoulsRule
  */
 class AllSoulsRule extends BaseConcurrencyRule {
+  private allSoulsMass = massManager.getById("SANCTI_11_02");
+
   applies(observances: Mass[]): boolean {
-    return Boolean(
-      massManager.match(observances, massManager.getById("SANCTI_11_02")),
-    );
+    return Boolean(massManager.match(observances, this.allSoulsMass));
   }
 
   protected getResolution(observances: Mass[], date: string): RuleResolution {
@@ -625,19 +619,15 @@ class AllSoulsRule extends BaseConcurrencyRule {
  * (Kept original logic)
  */
 class NativityVigilRule implements ConcurrencyRule {
+  private nativityVigilMass = massManager.getById("SANCTI_12_24");
+
   applies(observances: Mass[], date: string): boolean {
-    const nativityVigil = massManager.match(
-      observances,
-      massManager.getById("SANCTI_12_24"),
-    );
+    const nativityVigil = massManager.match(observances, this.nativityVigilMass);
     return Boolean(nativityVigil && isSunday(parseLocalDate(date)));
   }
 
   resolve(observances: Mass[]): RuleResolution {
-    const nativityVigil = massManager.match(
-      observances,
-      massManager.getById("SANCTI_12_24"),
-    );
+    const nativityVigil = massManager.match(observances, this.nativityVigilMass);
     if (!nativityVigil) return { stay: observances, shifts: [] };
     return { stay: [nativityVigil], shifts: [] };
   }
@@ -648,19 +638,15 @@ class NativityVigilRule implements ConcurrencyRule {
  * (Kept original logic)
  */
 class NativityOctaveFeriaRule implements ConcurrencyRule {
+  private nativityOctaveMass = massManager.getById("SANCTI_01_01");
+
   applies(observances: Mass[], date: string): boolean {
-    const nativity = massManager.match(
-      observances,
-      massManager.getById("SANCTI_01_01"),
-    );
+    const nativity = massManager.match(observances, this.nativityOctaveMass);
     return Boolean(nativity && isSunday(parseLocalDate(date)));
   }
 
   resolve(observances: Mass[]): RuleResolution {
-    const nativity = massManager.match(
-      observances,
-      massManager.getById("SANCTI_01_01"),
-    );
+    const nativity = massManager.match(observances, this.nativityOctaveMass);
     if (!nativity) return { stay: observances, shifts: [] };
     return { stay: [nativity], shifts: [] };
   }
@@ -670,10 +656,12 @@ class NativityOctaveFeriaRule implements ConcurrencyRule {
  * StMatthiasRule
  */
 class StMatthiasRule extends BaseConcurrencyRule {
+  private stMatthias = massManager.getById("SANCTI_02_24");
+
   applies(observances: Mass[], date: string): boolean {
     const parsed = parseLocalDate(date);
     return Boolean(
-      massManager.match(observances, massManager.getById("SANCTI_02_24")) &&
+      massManager.match(observances, this.stMatthias) &&
       isLeapYear(parsed) &&
       parsed.getDate() === 24,
     );
@@ -681,7 +669,7 @@ class StMatthiasRule extends BaseConcurrencyRule {
 
   protected getResolution(observances: Mass[], date: string): RuleResolution {
     const temp = massManager.match(observances, massManager.getTempora());
-    const stMatthias = massManager.getById("SANCTI_02_24");
+    const stMatthias = this.stMatthias;
     if (!stMatthias) return { stay: observances, shifts: [] };
 
     if (temp) {
@@ -703,17 +691,19 @@ class StMatthiasRule extends BaseConcurrencyRule {
  * Feb27Rule
  */
 class Feb27Rule extends BaseConcurrencyRule {
+  private feb27Mass = massManager.getById("SANCTI_02_27");
+
   applies(observances: Mass[], date: string): boolean {
     const parsed = parseLocalDate(date);
     return Boolean(
-      massManager.match(observances, massManager.getById("SANCTI_02_27")) &&
+      massManager.match(observances, this.feb27Mass) &&
       parsed.getDate() === 27 &&
       isLeapYear(parsed),
     );
   }
 
   protected getResolution(observances: Mass[], date: string): RuleResolution {
-    const mass = massManager.getById("SANCTI_02_27");
+    const mass = this.feb27Mass;
     if (!mass) return { stay: observances, shifts: [] };
     const shiftedDate = yyyyMMDD(addDays(parseLocalDate(date), 1));
     return {
