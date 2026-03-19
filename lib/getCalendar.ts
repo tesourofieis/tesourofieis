@@ -50,4 +50,14 @@ function getSeason(date: string) {
   return getOrCreateCalendar(yearFromDateString(date)).get(date)?.season;
 }
 
-export { getCalendar, getCalendarDay, getNovenas, getSeason };
+function __clearCalendarCacheForBenchmarks() {
+  calendarByYear.clear();
+}
+
+export {
+  __clearCalendarCacheForBenchmarks,
+  getCalendar,
+  getCalendarDay,
+  getNovenas,
+  getSeason,
+};
