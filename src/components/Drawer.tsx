@@ -17,7 +17,6 @@ import React, { useCallback, useEffect, useMemo, useState } from "react";
 import {
   ActivityIndicator,
   FlatList,
-  Platform,
   TouchableOpacity,
   useColorScheme,
   View,
@@ -143,7 +142,10 @@ const TreeItem = React.memo(
     }, [children, doc.url, doc.id, router, toggleExpand, closeDrawer]);
 
     const intro = doc.content.introduction ?? "";
-    const heading = doc.content.headings.length > 0 ? doc.content.headings[0]?.body || "" : "";
+    const heading =
+      doc.content.headings.length > 0
+        ? doc.content.headings[0]?.body || ""
+        : "";
     const description = !children ? intro || heading : "";
 
     const iconSize = 12;
@@ -169,9 +171,15 @@ const TreeItem = React.memo(
             {loadingIds.includes(doc.id) ? (
               <ActivityIndicator size="small" />
             ) : isOpen ? (
-              <ChevronDown size={chevronSize} color={isActive ? burgundy[500] : colors.icon} />
+              <ChevronDown
+                size={chevronSize}
+                color={isActive ? burgundy[500] : colors.icon}
+              />
             ) : (
-              <ChevronRight size={chevronSize} color={isActive ? burgundy[500] : colors.icon} />
+              <ChevronRight
+                size={chevronSize}
+                color={isActive ? burgundy[500] : colors.icon}
+              />
             )}
           </View>
         )}
@@ -186,14 +194,26 @@ const TreeItem = React.memo(
         >
           {children ? (
             isOpen ? (
-              <FolderOpen size={iconSize} color={isActive ? burgundy[500] : colors.icon} />
+              <FolderOpen
+                size={iconSize}
+                color={isActive ? burgundy[500] : colors.icon}
+              />
             ) : (
-              <Folder size={iconSize} color={isActive ? burgundy[500] : colors.icon} />
+              <Folder
+                size={iconSize}
+                color={isActive ? burgundy[500] : colors.icon}
+              />
             )
           ) : isActive ? (
-            <FileText size={iconSize} color={isActive ? burgundy[500] : colors.icon} />
+            <FileText
+              size={iconSize}
+              color={isActive ? burgundy[500] : colors.icon}
+            />
           ) : (
-            <File size={iconSize} color={isActive ? burgundy[500] : colors.icon} />
+            <File
+              size={iconSize}
+              color={isActive ? burgundy[500] : colors.icon}
+            />
           )}
         </View>
 
@@ -209,7 +229,10 @@ const TreeItem = React.memo(
               {doc.title}
             </Typography>
             {description && description !== doc.title && (
-              <Typography className="text-sepia-500 text-xs font-display" numberOfLines={1}>
+              <Typography
+                className="text-sepia-500 text-xs font-display"
+                numberOfLines={1}
+              >
                 {description}
               </Typography>
             )}
@@ -220,7 +243,9 @@ const TreeItem = React.memo(
   },
 );
 
-export default function CustomDrawerContent({ navigation }: CustomDrawerContentProps) {
+export default function CustomDrawerContent({
+  navigation,
+}: CustomDrawerContentProps) {
   const router = useRouter();
   const pathname = usePathname();
   const isDark = useColorScheme() === "dark";
@@ -298,7 +323,9 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
           const parentDoc = currentDocs.find((doc) => doc.id === currentPath);
 
           if (parentDoc?.hasChildren) {
-            const childrenAlreadyLoaded = currentDocs.some((doc) => doc.parent === parentDoc.id);
+            const childrenAlreadyLoaded = currentDocs.some(
+              (doc) => doc.parent === parentDoc.id,
+            );
 
             if (!childrenAlreadyLoaded) {
               try {
@@ -332,7 +359,9 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
       const parentsTopToBottom = [...parentsToExpand].reverse();
 
       for (const parentId of parentsTopToBottom) {
-        const childrenAlreadyLoaded = currentDocs.some((doc) => doc.parent === parentId);
+        const childrenAlreadyLoaded = currentDocs.some(
+          (doc) => doc.parent === parentId,
+        );
 
         if (!childrenAlreadyLoaded) {
           try {
@@ -359,8 +388,14 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
   }, [pathname, allDocs.length]);
 
   useEffect(() => {
-    if (flattenedDocs.length > 0 && flatListRef.current && !hasScrolledToActive.current) {
-      const activeIndex = flattenedDocs.findIndex((doc) => pathsMatch(pathname, doc.url));
+    if (
+      flattenedDocs.length > 0 &&
+      flatListRef.current &&
+      !hasScrolledToActive.current
+    ) {
+      const activeIndex = flattenedDocs.findIndex((doc) =>
+        pathsMatch(pathname, doc.url),
+      );
 
       if (activeIndex !== -1 && activeIndex < flattenedDocs.length) {
         const attemptScroll = (attempt = 0) => {
@@ -418,7 +453,9 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
           } catch (err) {
             console.error("Error loading children:", err);
           } finally {
-            setLoadingIds((prev) => prev.filter((loadingId) => loadingId !== id));
+            setLoadingIds((prev) =>
+              prev.filter((loadingId) => loadingId !== id),
+            );
           }
         }
       }
@@ -487,7 +524,9 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
       {isLoadingInitialDocs ? (
         <View className="flex-1 justify-center items-center">
           <ActivityIndicator size="large" />
-          <Typography className="text-sepia-500 mt-2">A carregar documentos...</Typography>
+          <Typography className="text-sepia-500 mt-2">
+            A carregar documentos...
+          </Typography>
         </View>
       ) : (
         <FlatList
