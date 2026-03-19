@@ -1,2 +1,0 @@
-- Optimize `getNovenas` interval scan to avoid per-day `parseLocalDate` + `isWithinInterval` (prefer `yyyy-MM-dd` key-range comparisons with cached date shifts).
-- Profile mixed benchmark after each major change and guard against regressions in `cold_ms` even when `app_ms` improves.
