@@ -1,7 +1,6 @@
-import { addDays, isWithinInterval } from "date-fns";
 import { Calendar } from "./calendar";
 import type { Mass } from "./observanceManager";
-import { parseLocalDate } from "./utils";
+import { shiftLocalDate } from "./utils";
 
 const calendarByYear = new Map<number, Calendar>();
 
@@ -30,16 +29,18 @@ function getCalendarDay(date: string) {
 
 function getNovenas(date: string) {
   const allDays = getOrCreateCalendar(yearFromDateString(date)).getAllDays();
-
-  const startDate = parseLocalDate(date);
-  const endDate = addDays(startDate, 9);
+  const endDate = shiftLocalDate(date, 9);
   const novenaObservances: Mass[] = [];
 
   for (const day of allDays) {
-    const dayDate = parseLocalDate(day.date);
-    if (isWithinInterval(dayDate, { start: startDate, end: endDate })) {
-      const novenas = day.mass.filter((mass) => mass.novena);
-      novenaObservances.push(...novenas);
+    if (day.date < date || day.date > endDate) {
+      continue;
+    }
+
+    for (const mass of day.mass) {
+      if (mass.novena) {
+        novenaObservances.push(mass);
+      }
     }
   }
 
