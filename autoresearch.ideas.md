@@ -1,0 +1,3 @@
+- Refactor rule API from `applies()+resolve()` to a single `resolveIfApplies()` to avoid duplicated matching/parsing work when a rule passes.
+- Add a lightweight per-date context (parsed date, weekday, month/day flags) in `resolveConcurrency` and thread it through rules to reduce repeated `parseLocalDate()` + `isSunday/isSaturday` calls.
+- Build a direct observance-id index while resolving concurrency to replace repeated `calendar.findDay()` scans and support O(1) lookups for rules needing specific feast dates.
