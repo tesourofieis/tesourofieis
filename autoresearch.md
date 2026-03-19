@@ -1,11 +1,15 @@
 # Autoresearch: Calendar performance
 
 ## Objective
-Optimize the liturgical calendar path in `lib/`, with primary focus on **cold generation cost** (`getCalendar(year)` when cache is cleared) while tracking hot-cache lookups separately.
+Optimize the liturgical calendar path in `lib/` with a **mixed realistic workload**:
+- cold year generation (cache cleared),
+- app-like repeated `getCalendarDay`/`getSeason` reads,
+- novena queries (`getNovenas`),
+while still tracking pure hot-cache behavior.
 
 ## Metrics
-- **Primary**: `total_ms` (ms, lower is better, cold path median)
-- **Secondary**: `mean_ms`, `p90_ms`, `stddev_ms`, `hot_ms`, `checksum`
+- **Primary**: `total_ms` (ms, lower is better, median of `cold_ms + app_ms`)
+- **Secondary**: `mean_ms`, `p90_ms`, `stddev_ms`, `cold_ms`, `app_ms`, `hot_ms`, `checksum`
 
 ## How to Run
 `./autoresearch.sh` — runs `lib/tests/bench/calendar.perf.ts` and outputs `METRIC name=value` lines.
@@ -48,4 +52,6 @@ Optimize the liturgical calendar path in `lib/`, with primary focus on **cold ge
 - ✅ Added early short-circuit conflict checks in first/second class conflict rules.
 - ❌ Discarded: `createMassWithDate` memoization (cache overhead regression).
 - ❌ Discarded: weekday rolling replacement for anchor-day parse check.
-- Current best cold-path metric: `total_ms=47.741` (hot cache metric remains ~`0.035-0.04ms`).
+- ✅ Added cached `shiftLocalDate(date, ±days)` helper and replaced repeated `yyyyMMDD(addDays/subDays(parseLocalDate(...)))` conversions in shift-heavy rule paths.
+- ❌ Discarded after resume: applies→resolve state caching in rules, `resolveIfApplies` prototype dispatcher, string-based next-available-date scanning, ±1 specialized shift caches, reverse-loop rewrite in `insertBlock`.
+- Current best cold-path metric: `total_ms=45.589` (hot cache metric remains ~`0.035-0.04ms`).
