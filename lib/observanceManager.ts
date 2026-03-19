@@ -1,5 +1,4 @@
 import { OBSERVANCES } from "./observances";
-import { parseLocalDate } from "./utils";
 
 export interface Mass {
   flexibility: "santos" | "commune" | "tempora" | "votivas";
@@ -84,18 +83,14 @@ export class MassManager {
   }
 
   private calcRank(mass: Mass, date: string): number {
-    for (const caseItem of TEMPORA_RANK_MAP) {
-      if (
-        date &&
-        parseLocalDate(date).getMonth() === caseItem.month &&
-        parseLocalDate(date).getDate() === caseItem.day &&
-        mass.type === "advent" &&
-        mass.weekday !== 0
-      ) {
-        return caseItem.rank;
-      }
+    if (mass.type !== "advent" || mass.weekday === 0 || !date) {
+      return mass.rank;
     }
-    return mass.rank;
+
+    const month = Number.parseInt(date.slice(5, 7), 10) - 1;
+    const day = Number.parseInt(date.slice(8, 10), 10);
+
+    return month === 11 && day >= 17 && day <= 23 ? 2 : mass.rank;
   }
 
   getById(id: string): Mass | undefined {
@@ -207,19 +202,3 @@ export class MassManager {
 }
 
 export const massManager = new MassManager();
-
-// TEMPORA_RANK_MAP can be used within the class methods if needed
-const TEMPORA_RANK_MAP: {
-  pattern: string;
-  month: number;
-  day: number;
-  rank: number;
-}[] = [
-  { pattern: "PATTERN_ADVENT_FERIA", month: 11, day: 17, rank: 2 },
-  { pattern: "PATTERN_ADVENT_FERIA", month: 11, day: 18, rank: 2 },
-  { pattern: "PATTERN_ADVENT_FERIA", month: 11, day: 19, rank: 2 },
-  { pattern: "PATTERN_ADVENT_FERIA", month: 11, day: 20, rank: 2 },
-  { pattern: "PATTERN_ADVENT_FERIA", month: 11, day: 21, rank: 2 },
-  { pattern: "PATTERN_ADVENT_FERIA", month: 11, day: 22, rank: 2 },
-  { pattern: "PATTERN_ADVENT_FERIA", month: 11, day: 23, rank: 2 },
-];
