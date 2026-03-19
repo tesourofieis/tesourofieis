@@ -386,24 +386,48 @@ class MassInserter {
     }
 
     // Process regular masses sequentially
-    const processBlock = reverse
-      ? regularMasses.slice().reverse()
-      : regularMasses;
+    const currentDate = new Date(date);
 
-    for (const [index, observance] of processBlock.entries()) {
+    if (reverse) {
+      for (let i = regularMasses.length - 1; i >= 0; i--) {
+        const observance = regularMasses[i];
+        if (!observance) continue;
+
+        const dateKey = yyyyMMDD(currentDate);
+        const day = this.container.get(dateKey);
+
+        if (!day) {
+          currentDate.setDate(currentDate.getDate() - 1);
+          continue;
+        }
+
+        if (day.mass.length && !overwrite) break;
+
+        if (stopDate && isSameDay(stopDate, subDays(currentDate, 1))) break;
+
+        day.mass.push(massManager.createMassWithDate(observance, dateKey));
+        currentDate.setDate(currentDate.getDate() - 1);
+      }
+      return;
+    }
+
+    for (const observance of regularMasses) {
       if (!observance) continue;
 
-      const currentDate = addDays(new Date(date), reverse ? -index : index);
       const dateKey = yyyyMMDD(currentDate);
       const day = this.container.get(dateKey);
 
-      if (!day) continue;
+      if (!day) {
+        currentDate.setDate(currentDate.getDate() + 1);
+        continue;
+      }
 
       if (day.mass.length && !overwrite) break;
 
       if (stopDate && isSameDay(stopDate, subDays(currentDate, 1))) break;
 
       day.mass.push(massManager.createMassWithDate(observance, dateKey));
+      currentDate.setDate(currentDate.getDate() + 1);
     }
   }
 }
