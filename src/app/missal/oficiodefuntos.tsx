@@ -28,15 +28,11 @@ export default function PageOficiodefuntos() {
       <H2 text="Invitatório" />
 
       <Language>
-        <Typography className="latin">
-          Regem, cui ómnia vivunt, Veníte adorémus.
-        </Typography>
+        <Typography className="latin">Regem, cui ómnia vivunt, Veníte adorémus.</Typography>
         <Typography className="vernacular">
           Vinde, adoremos o Rei para quem todas as criatura vivem.
         </Typography>
-        <Typography className="latin">
-          Regem, cui ómnia vivunt, Veníte adorémus.
-        </Typography>
+        <Typography className="latin">Regem, cui ómnia vivunt, Veníte adorémus.</Typography>
         <Typography className="vernacular">
           Vinde, adoremos o Rei para quem todas as criatura vivem.
         </Typography>
@@ -49,22 +45,18 @@ export default function PageOficiodefuntos() {
           Veníte, exsultémus Dómino: * jubilémus Deo salutári nostro:
         </Typography>
         <Typography className="vernacular">
-          Vinde, exultemos no Senhor: * cantemos alegres a de Deus nosso
-          salvador:
+          Vinde, exultemos no Senhor: * cantemos alegres a de Deus nosso salvador:
         </Typography>
         <Typography className="latin">
           Præoccupémus fáciem ejus in confessióne: * et in psalmis jubilémus ei.
         </Typography>
         <Typography className="vernacular">
-          Apresentemo-nos diante d’Ele em acção de graças: * e celebremo-l’O com
-          salmos.
+          Apresentemo-nos diante d’Ele em acção de graças: * e celebremo-l’O com salmos.
         </Typography>
       </Language>
 
       <Language>
-        <Typography className="latin">
-          Regem, cui ómnia vivunt, Veníte adorémus.
-        </Typography>
+        <Typography className="latin">Regem, cui ómnia vivunt, Veníte adorémus.</Typography>
         <Typography className="vernacular">
           Vinde, adoremos o Rei para quem todas as criatura vivem.
         </Typography>

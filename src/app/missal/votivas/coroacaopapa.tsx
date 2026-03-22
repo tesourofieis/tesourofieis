@@ -24,20 +24,19 @@ export default function PageCoroacaopapa() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 106, 8</Typography> Confitébitur
-          Dómino misericórdiæ ejus, et mirabília ejus fíliis hóminum. Allelúja.
+          <Typography className="latin">Ps. 106, 8</Typography> Confitébitur Dómino misericórdiæ
+          ejus, et mirabília ejus fíliis hóminum. Allelúja.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Matth. 16, 18</Typography> Tu es Petrus, et
-          super hanc petram ædificábo Ecclésiam meam. Allelúja.
+          <Typography className="em">Matth. 16, 18</Typography> Tu es Petrus, et super hanc petram
+          ædificábo Ecclésiam meam. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 106, 8</Typography> Seja o
-          Senhor glorificado por causa da misericórdia e das maravilhas que
-          praticou em favor dos homens. Aleluia.
+          <Typography className="vernacular">Sl. 106, 8</Typography> Seja o Senhor glorificado por
+          causa da misericórdia e das maravilhas que praticou em favor dos homens. Aleluia.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Mt. 16, 18</Typography> Tu és Pedro, e
-          sobre esta pedra edificarei a minha Igreja.
+          <Typography className="em">Mt. 16, 18</Typography> Tu és Pedro, e sobre esta pedra
+          edificarei a minha Igreja.
         </Typography>
       </Language>
     </PageWrapper>

@@ -21,15 +21,14 @@ export default function Page0516() {
 
       <Language>
         <Typography className="latin">
-          Auxílium Confessóris tui atque Pontíficis, contra omnes diáboli
-          nequítias déxteram super nos tuæ propitiatiónis exténde. Per Dóminum
-          nostrum...
+          Auxílium Confessóris tui atque Pontíficis, contra omnes diáboli nequítias déxteram super
+          nos tuæ propitiatiónis exténde. Per Dóminum nostrum...
         </Typography>
         <Typography className="vernacular">
-          Deixai-Vos aplacar, Senhor, Vos suplicamos, e concedei-nos o vosso
-          auxílio; e pela intercessão do B. Ubaldo, vosso Confessor e Pontífice,
-          estendei sobre nós a vossa mão misericordiosa, a fim de que nos
-          defenda de todas as perfídias do demónio. Por nosso Senhor...
+          Deixai-Vos aplacar, Senhor, Vos suplicamos, e concedei-nos o vosso auxílio; e pela
+          intercessão do B. Ubaldo, vosso Confessor e Pontífice, estendei sobre nós a vossa mão
+          misericordiosa, a fim de que nos defenda de todas as perfídias do demónio. Por nosso
+          Senhor...
         </Typography>
       </Language>
     </PageWrapper>

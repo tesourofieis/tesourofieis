@@ -24,19 +24,15 @@ export default function Page113() {
         <Typography className="latin">
           Mare vidit, et fugit: * Jordánis convérsus est retrórsum.
         </Typography>
-        <Typography className="vernacular">
-          O mar viu e fugiu: * o Jordão voltou atrás.
-        </Typography>
+        <Typography className="vernacular">O mar viu e fugiu: * o Jordão voltou atrás.</Typography>
         <Typography className="latin">
           Montes exsultavérunt ut aríetes, * et colles sicut agni óvium.
         </Typography>
         <Typography className="vernacular">
-          Os montes saltaram como carneiros, * e as colinas como cordeiros do
-          rebanho.
+          Os montes saltaram como carneiros, * e as colinas como cordeiros do rebanho.
         </Typography>
         <Typography className="latin">
-          Quid est tibi, mare, quod fugísti: * et tu, Jordánis, quia convérsus
-          es retrórsum?
+          Quid est tibi, mare, quod fugísti: * et tu, Jordánis, quia convérsus es retrórsum?
         </Typography>
         <Typography className="vernacular">
           Que tiveste tu, ó mar, para fugir: * e tu, Jordão, para retroceder?
@@ -45,8 +41,7 @@ export default function Page113() {
           Montes, exsultástis sicut aríetes, * et colles, sicut agni óvium.
         </Typography>
         <Typography className="vernacular">
-          Ó montes, porque saltastes como carneiros, * e vós, colinas, como
-          cordeiros?
+          Ó montes, porque saltastes como carneiros, * e vós, colinas, como cordeiros?
         </Typography>
         <Typography className="latin">
           A fácie Dómini mota est terra, * a fácie Dei Jacob.
@@ -58,8 +53,7 @@ export default function Page113() {
           Qui convértit petram in stagna aquárum, * et rupem in fontes aquárum.
         </Typography>
         <Typography className="vernacular">
-          Que converteu as pedras em tanques de águas, * e a rocha em fontes de
-          águas.
+          Que converteu as pedras em tanques de águas, * e a rocha em fontes de águas.
         </Typography>
         <Typography className="latin">
           Non nobis, Dómine, non nobis: * sed nómini tuo da glóriam.
@@ -68,12 +62,11 @@ export default function Page113() {
           Não a nós, ó Senhor, não a nós: * mas ao vosso nome dai glória.
         </Typography>
         <Typography className="latin">
-          Super misericórdia tua, et veritáte tua: * nequándo dicant gentes: Ubi
-          est Deus eórum?
+          Super misericórdia tua, et veritáte tua: * nequándo dicant gentes: Ubi est Deus eórum?
         </Typography>
         <Typography className="vernacular">
-          Pela vossa misericórdia e a vossa verdade: * para que nunca digam as
-          gentes: o seu Deus onde está?
+          Pela vossa misericórdia e a vossa verdade: * para que nunca digam as gentes: o seu Deus
+          onde está?
         </Typography>
         <Typography className="latin">
           Deus autem noster in cælo: * ómnia quæcúmque vóluit, fecit.
@@ -100,53 +93,41 @@ export default function Page113() {
           Têm ouvidos e não ouvem: * têm narizes e não cheiram.
         </Typography>
         <Typography className="latin">
-          Manus habent, et non palpábunt: pedes habent, et non ambulábunt: * non
-          clamábunt in gútture suo.
+          Manus habent, et non palpábunt: pedes habent, et non ambulábunt: * non clamábunt in
+          gútture suo.
         </Typography>
         <Typography className="vernacular">
-          Têm mãos e não apalpam: têm pés e não andam: * não clamam com sua
-          garganta.
+          Têm mãos e não apalpam: têm pés e não andam: * não clamam com sua garganta.
         </Typography>
         <Typography className="latin">
           Símiles illis fiant qui fáciunt ea: * et omnes qui confídunt in eis.
         </Typography>
         <Typography className="vernacular">
-          Sejam semelhantes a eles os que os fazem: * e todos os que confiam
-          neles.
+          Sejam semelhantes a eles os que os fazem: * e todos os que confiam neles.
         </Typography>
         <Typography className="latin">
-          Domus Israël sperávit in Dómino: * adjútor eórum et protéctor eórum
-          est,
+          Domus Israël sperávit in Dómino: * adjútor eórum et protéctor eórum est,
         </Typography>
         <Typography className="vernacular">
-          A casa de Israel esperou no Senhor: * Ele é o seu amparo e o seu
-          protector.
+          A casa de Israel esperou no Senhor: * Ele é o seu amparo e o seu protector.
         </Typography>
         <Typography className="latin">
-          Domus Aaron sperávit in Dómino: * adjútor eórum et protéctor eórum
-          est,
+          Domus Aaron sperávit in Dómino: * adjútor eórum et protéctor eórum est,
         </Typography>
         <Typography className="vernacular">
-          A casa de Arão esperou no Senhor: * Ele é o seu amparo e o seu
-          protector.
+          A casa de Arão esperou no Senhor: * Ele é o seu amparo e o seu protector.
         </Typography>
         <Typography className="latin">
-          Qui timent Dóminum, speravérunt in Dómino: * adjútor eórum et
-          protéctor eórum est.
+          Qui timent Dóminum, speravérunt in Dómino: * adjútor eórum et protéctor eórum est.
         </Typography>
         <Typography className="vernacular">
-          Os que temem o Senhor, esperarão no Senhor: * Ele é o seu amparo e o
-          seu protector.
+          Os que temem o Senhor, esperarão no Senhor: * Ele é o seu amparo e o seu protector.
         </Typography>
-        <Typography className="latin">
-          Dóminus memor fuit nostri: * et benedíxit nobis:
-        </Typography>
+        <Typography className="latin">Dóminus memor fuit nostri: * et benedíxit nobis:</Typography>
         <Typography className="vernacular">
           O Senhor lembrou-se de nós: * e abençoou-nos:
         </Typography>
-        <Typography className="latin">
-          Benedíxit dómui Israël: * benedíxit dómui Aaron.
-        </Typography>
+        <Typography className="latin">Benedíxit dómui Israël: * benedíxit dómui Aaron.</Typography>
         <Typography className="vernacular">
           Abençoou a casa de Israel: * abençoou a casa de Arão.
         </Typography>
@@ -172,24 +153,19 @@ export default function Page113() {
           Cælum cæli Dómino: * terram autem dedit fíliis hóminum.
         </Typography>
         <Typography className="vernacular">
-          O mais alto dos céus é para o Senhor: * mas a terra deu-a aos filhos
-          dos homens.
+          O mais alto dos céus é para o Senhor: * mas a terra deu-a aos filhos dos homens.
         </Typography>
         <Typography className="latin">
-          Non mórtui laudábunt te, Dómine: * neque omnes, qui descéndunt in
-          inférnum.
+          Non mórtui laudábunt te, Dómine: * neque omnes, qui descéndunt in inférnum.
         </Typography>
         <Typography className="vernacular">
-          Os mortos, ó Senhor, Vos não louvarão: * nem nenhum dos que descem ao
-          inferno.
+          Os mortos, ó Senhor, Vos não louvarão: * nem nenhum dos que descem ao inferno.
         </Typography>
         <Typography className="latin">
-          Sed nos qui vívimus, benedícimus Dómino, * ex hoc nunc et usque in
-          sǽculum.
+          Sed nos qui vívimus, benedícimus Dómino, * ex hoc nunc et usque in sǽculum.
         </Typography>
         <Typography className="vernacular">
-          Mas nós, que vivemos, nós bendizemos o Senhor, * desde agora e por
-          todos os séculos.
+          Mas nós, que vivemos, nós bendizemos o Senhor, * desde agora e por todos os séculos.
         </Typography>
       </Language>
     </PageWrapper>

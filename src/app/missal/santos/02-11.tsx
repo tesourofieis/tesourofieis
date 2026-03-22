@@ -14,17 +14,16 @@ export default function Page0211() {
 
       <Language>
         <Typography className="latin">
-          Vidi civitátem sanctam, Jerúsalem novam, descendéntem de cœlo a Deo,
-          parátam sicut sponsam ornátam viro suo.{" "}
-          <Typography className="latin">Ps. 44,2</Typography> Eructávit cor meum
+          Vidi civitátem sanctam, Jerúsalem novam, descendéntem de cœlo a Deo, parátam sicut sponsam
+          ornátam viro suo. <Typography className="latin">Ps. 44,2</Typography> Eructávit cor meum
           verbum bonum: dico ego ópera mea Regi.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
-          Vi a cidade santa, a nova Jerusalém, que descia do céu, vinda de Deus,
-          adornada como uma esposa que está preparada para receber o seu esposo.{" "}
-          <Typography className="vernacular">Sl. 44,2</Typography> Meu coração
-          exprimiu uma palavra excelente: «Consagro as minhas obras ao Rei».
+          Vi a cidade santa, a nova Jerusalém, que descia do céu, vinda de Deus, adornada como uma
+          esposa que está preparada para receber o seu esposo.{" "}
+          <Typography className="vernacular">Sl. 44,2</Typography> Meu coração exprimiu uma palavra
+          excelente: «Consagro as minhas obras ao Rei».
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -33,16 +32,14 @@ export default function Page0211() {
 
       <Language>
         <Typography className="latin">
-          Deus, qui per immaculátam Vírginis Conceptiónem dignum Filio tuo
-          habitáculum præparásti: súpplices a te quǽsumus; ut, ejúsdem Vírginis
-          Apparitiónem celebrántes, salútem mentis et córporis consequámur. Per
-          eúndem Dóminum nostrum...
+          Deus, qui per immaculátam Vírginis Conceptiónem dignum Filio tuo habitáculum præparásti:
+          súpplices a te quǽsumus; ut, ejúsdem Vírginis Apparitiónem celebrántes, salútem mentis et
+          córporis consequámur. Per eúndem Dóminum nostrum...
         </Typography>
         <Typography className="vernacular">
-          Ó Deus, que pela Imaculada Conceição da Virgem preparastes para vosso
-          Filho uma morada digna d’Ele, fazei, Vos suplicamos, que, celebrando a
-          Aparição desta mesma Virgem, alcancemos a salvação da alma e do corpo.
-          Pelo mesmo nosso Senhor Jesus Cristo...
+          Ó Deus, que pela Imaculada Conceição da Virgem preparastes para vosso Filho uma morada
+          digna d’Ele, fazei, Vos suplicamos, que, celebrando a Aparição desta mesma Virgem,
+          alcancemos a salvação da alma e do corpo. Pelo mesmo nosso Senhor Jesus Cristo...
         </Typography>
       </Language>
 
@@ -51,28 +48,21 @@ export default function Page0211() {
       <Typography className="em">Ap. 11, 19; 12, 1 & 10</Typography>
 
       <Language>
+        <Typography className="latin">Léctio libri Apocalýpsis beáti Joánnis Apóstoli.</Typography>
+        <Typography className="vernacular">Lição do Apocalipse do B. Ap.º João.</Typography>
         <Typography className="latin">
-          Léctio libri Apocalýpsis beáti Joánnis Apóstoli.
+          Apértum est templum Dei in cœlo: et visa est arca testaménti ejus in templo ejus, et facta
+          sunt fúlgura et voces et terræmótus et grando magna. Et signum magnum appáruit in cœlo:
+          Múlier amícta sole, et luna sub pédibus ejus, et in cápite ejus coróna stellárum duódecim.
+          Et audívi vocem magnam in cœlo dicéntem: Nunc facta est salus et virtus, et regnum Dei
+          nostri et potéstas Christi ejus.
         </Typography>
         <Typography className="vernacular">
-          Lição do Apocalipse do B. Ap.º João.
-        </Typography>
-        <Typography className="latin">
-          Apértum est templum Dei in cœlo: et visa est arca testaménti ejus in
-          templo ejus, et facta sunt fúlgura et voces et terræmótus et grando
-          magna. Et signum magnum appáruit in cœlo: Múlier amícta sole, et luna
-          sub pédibus ejus, et in cápite ejus coróna stellárum duódecim. Et
-          audívi vocem magnam in cœlo dicéntem: Nunc facta est salus et virtus,
-          et regnum Dei nostri et potéstas Christi ejus.
-        </Typography>
-        <Typography className="vernacular">
-          O templo de Deus foi aberto no céu, e a arca da sua aliança foi vista
-          no seu templo. E então houve relâmpagos, vozes, tremor de terra e
-          forte granizo. E apareceu no céu um grande sinal: Uma mulher,
-          revestida com o sol, a lua sob os seus pés e uma coroa de doze
-          estrelas na cabeça. E ouvi no céu uma voz forte clamar: «Agora, foi
-          operada a salvação. A soberania e o domínio estão em Deus e o poder no
-          seu Cristo».
+          O templo de Deus foi aberto no céu, e a arca da sua aliança foi vista no seu templo. E
+          então houve relâmpagos, vozes, tremor de terra e forte granizo. E apareceu no céu um
+          grande sinal: Uma mulher, revestida com o sol, a lua sob os seus pés e uma coroa de doze
+          estrelas na cabeça. E ouvi no céu uma voz forte clamar: «Agora, foi operada a salvação. A
+          soberania e o domínio estão em Deus e o poder no seu Cristo».
         </Typography>
       </Language>
 
@@ -82,32 +72,29 @@ export default function Page0211() {
 
       <Language>
         <Typography className="latin">
-          Flores apparuérunt in terra nostra, tempus putatiónis advénit, vox
-          túrturis audíta est in terra nostra.
+          Flores apparuérunt in terra nostra, tempus putatiónis advénit, vox túrturis audíta est in
+          terra nostra.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">ibid., 10 & l4</Typography> Surge, amíca
-          mea, speciósa mea, et veni: colúmba mea in foramínibus petræ, in
-          cavérna macériæ.
+          <Typography className="latin">ibid., 10 & l4</Typography> Surge, amíca mea, speciósa mea,
+          et veni: colúmba mea in foramínibus petræ, in cavérna macériæ.
         </Typography>
         <Typography className="vernacular">
-          As flores apareceram na terra! Veio o tempo em que podemos cantar. Os
-          arrulhos da rola ouvem-se já pelos campos!
+          As flores apareceram na terra! Veio o tempo em que podemos cantar. Os arrulhos da rola
+          ouvem-se já pelos campos!
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">ibid., 10 & l4</Typography>{" "}
-          Erguei-vos, pois, ó minha amada, que toda sois formosa, e vinde! Ó
-          minha pomba, que viveis nas fendas dos rochedos e nas cavernas
-          escarpadas!
+          <Typography className="vernacular">ibid., 10 & l4</Typography> Erguei-vos, pois, ó minha
+          amada, que toda sois formosa, e vinde! Ó minha pomba, que viveis nas fendas dos rochedos e
+          nas cavernas escarpadas!
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          Osténde mihi fáciem tuam, sonet vox tua in áuribus meis: vox enim tua
-          dulcis, et fácies tua decóra. Allelúja.
+          Osténde mihi fáciem tuam, sonet vox tua in áuribus meis: vox enim tua dulcis, et fácies
+          tua decóra. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          Mostrai-me o vosso rosto: fazei que a vossa voz ressoe aos meus
-          ouvidos; pois a vossa voz é doce e o vosso rosto é cheio de beleza.
-          Aleluia.
+          Mostrai-me o vosso rosto: fazei que a vossa voz ressoe aos meus ouvidos; pois a vossa voz
+          é doce e o vosso rosto é cheio de beleza. Aleluia.
         </Typography>
       </Language>
 
@@ -121,22 +108,21 @@ export default function Page0211() {
 
       <Language>
         <Typography className="latin">
-          Tu glória Jerúsalem, tu lætítia Israël, tu honorificéntia pópuli
-          nostri.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Cant. 4, 7</Typography> Tota pulchra es,
-          María: et mácula originális non est in te.
+          Tu glória Jerúsalem, tu lætítia Israël, tu honorificéntia pópuli nostri.
           <Typography className="versicle"> ℣. </Typography>
-          Felix es, sacra Virgo María, et omni laude digníssima, quæ serpéntis
-          caput virgíneo pede contrivísti.
+          <Typography className="latin">Cant. 4, 7</Typography> Tota pulchra es, María: et mácula
+          originális non est in te.
+          <Typography className="versicle"> ℣. </Typography>
+          Felix es, sacra Virgo María, et omni laude digníssima, quæ serpéntis caput virgíneo pede
+          contrivísti.
         </Typography>
         <Typography className="vernacular">
-          Sois a glória de Jerusalém, a alegria de Israel, a honra do nosso
-          povo.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Cant. 4, 7</Typography> Toda sois
-          formosa, ó Maria; e a mancha original não existe em Vós.
-          <Typography className="versicle"> ℣. </Typography>Sois bem-aventurada,
-          Santa Virgem Maria, e digníssima de todo o louvor, pois com vosso pé
-          virginal esmagastes a cabeça da serpente.
+          Sois a glória de Jerusalém, a alegria de Israel, a honra do nosso povo.
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Cant. 4, 7</Typography> Toda sois formosa, ó Maria; e a
+          mancha original não existe em Vós.
+          <Typography className="versicle"> ℣. </Typography>Sois bem-aventurada, Santa Virgem Maria,
+          e digníssima de todo o louvor, pois com vosso pé virginal esmagastes a cabeça da serpente.
         </Typography>
       </Language>
 
@@ -146,33 +132,28 @@ export default function Page0211() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
-          Evangélii secúndum Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo
-          Evangelho segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho segundo S.
+          Lucas.
         </Typography>
         <Typography className="latin">
-          In illo témpore: Missus est Angelus Gábriel a Deo in civitátem
-          Galilǽæ, cui nomen Názareth, ad Vírginem desponsátam viro, cui nomen
-          erat Joseph, de domo David, et nomen Vírginis María. Et ingréssus
-          Angelus ad eam dixit: Ave, grátia plena; Dóminus tecum: benedícta tu
-          in muliéribus. Quæ cum audísset, turbáta est in sermóne ejus: et
-          cogitábat, qualis esset ista salutátio. Et ait Angelus ei: Ne tímeas,
-          María, invenísti enim grátiam apud Deum: ecce, concípies in útero et
-          páries fílium, et vocábis nomen ejus Jesum.
+          In illo témpore: Missus est Angelus Gábriel a Deo in civitátem Galilǽæ, cui nomen
+          Názareth, ad Vírginem desponsátam viro, cui nomen erat Joseph, de domo David, et nomen
+          Vírginis María. Et ingréssus Angelus ad eam dixit: Ave, grátia plena; Dóminus tecum:
+          benedícta tu in muliéribus. Quæ cum audísset, turbáta est in sermóne ejus: et cogitábat,
+          qualis esset ista salutátio. Et ait Angelus ei: Ne tímeas, María, invenísti enim grátiam
+          apud Deum: ecce, concípies in útero et páries fílium, et vocábis nomen ejus Jesum.
         </Typography>
         <Typography className="vernacular">
-          Naquele tempo, foi mandado por Deus o Anjo Gabriel a uma cidade da
-          Galileia, chamada Nazaré, a uma Virgem, desposada com um varão, cujo
-          nome era José, da casa de David; e o nome da Virgem era Maria.
-          Entrando o Anjo onde ela estava, disse: «Eu te saúdo, cheia de graça:
-          o Senhor é contigo: bendita és tu entre todas as mulheres». Ouvindo
-          ela isto, perturbou-se, e pensava na significação desta saudação.
-          Então, disse-lhe o Anjo: «Não temas, Maria, porquanto alcançaste graça
-          diante do Senhor: eis que conceberás no teu seio e darás à luz um
-          Filho, e o seu nome será Jesus».
+          Naquele tempo, foi mandado por Deus o Anjo Gabriel a uma cidade da Galileia, chamada
+          Nazaré, a uma Virgem, desposada com um varão, cujo nome era José, da casa de David; e o
+          nome da Virgem era Maria. Entrando o Anjo onde ela estava, disse: «Eu te saúdo, cheia de
+          graça: o Senhor é contigo: bendita és tu entre todas as mulheres». Ouvindo ela isto,
+          perturbou-se, e pensava na significação desta saudação. Então, disse-lhe o Anjo: «Não
+          temas, Maria, porquanto alcançaste graça diante do Senhor: eis que conceberás no teu seio
+          e darás à luz um Filho, e o seu nome será Jesus».
         </Typography>
       </Language>
 
@@ -185,8 +166,7 @@ export default function Page0211() {
           Ave, grátia plena; Dóminus tecum: benedícta tu in muliéribus.
         </Typography>
         <Typography className="vernacular">
-          Ave, ó cheia de graça; o Senhor é convosco; bendita sois entre as
-          mulheres.
+          Ave, ó cheia de graça; o Senhor é convosco; bendita sois entre as mulheres.
         </Typography>
       </Language>
 
@@ -194,14 +174,14 @@ export default function Page0211() {
 
       <Language>
         <Typography className="latin">
-          Hóstia laudis, quam tibi, Dómine, per mérita gloriósæ et immaculátæ
-          Vírginis offérimus, sit tibi in odórem suavitátis, et nobis optátam
-          cónferat córporis et ánimæ sanitátem. Per Dóminum...
+          Hóstia laudis, quam tibi, Dómine, per mérita gloriósæ et immaculátæ Vírginis offérimus,
+          sit tibi in odórem suavitátis, et nobis optátam cónferat córporis et ánimæ sanitátem. Per
+          Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Que a hóstia de louvor, que Vos oferecemos, Senhor, seja de agradável
-          odor pata Vós, pelos méritos da gloriosa e Imaculada Virgem, e nos
-          alcance a desejada saúde do corpo e da alma. Por nosso Senhor...
+          Que a hóstia de louvor, que Vos oferecemos, Senhor, seja de agradável odor pata Vós, pelos
+          méritos da gloriosa e Imaculada Virgem, e nos alcance a desejada saúde do corpo e da alma.
+          Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -222,15 +202,13 @@ export default function Page0211() {
 
       <Language>
         <Typography className="latin">
-          Quos cœlésti, Dómine, aliménto satiásti, súblevet aextera Genetrícis
-          tuæ immaculátæ: ut ad ætérnam pátriam, ipsa adjuvánte, perveníre
-          mereámur: Qui vivis...
+          Quos cœlésti, Dómine, aliménto satiásti, súblevet aextera Genetrícis tuæ immaculátæ: ut ad
+          ætérnam pátriam, ipsa adjuvánte, perveníre mereámur: Qui vivis...
         </Typography>
         <Typography className="vernacular">
-          Saciados com o alimento celestial, permiti-nos, Senhor, que a mão da
-          vossa Mãe Imaculada nos sustente, para que com a graça da sua
-          protecção mereçamos chegar até à pátria eterna. Ó Vós, que viveis e
-          reinais...
+          Saciados com o alimento celestial, permiti-nos, Senhor, que a mão da vossa Mãe Imaculada
+          nos sustente, para que com a graça da sua protecção mereçamos chegar até à pátria eterna.
+          Ó Vós, que viveis e reinais...
         </Typography>
       </Language>
     </PageWrapper>

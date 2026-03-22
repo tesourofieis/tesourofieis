@@ -24,15 +24,8 @@ export default function PageRoot({ children }: PropsWithChildren) {
         <link rel="manifest" href="/manifest.json" />
         <link rel="shortcut icon" href="/favicon.png" type="image/png" />
         <meta property="og:image" content="https://tesourofieis.com/og.png" />
-        <meta
-          property="twitter:image"
-          content="https://tesourofieis.com/og.png"
-        />
-        <meta
-          name="og:url"
-          property="og:url"
-          content="https://tesourofieis.com"
-        />
+        <meta property="twitter:image" content="https://tesourofieis.com/og.png" />
+        <meta name="og:url" property="og:url" content="https://tesourofieis.com" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Tesouro dos Fiéis" />
         <meta name="twitter:image:alt" content="Tesouro dos Fiéis" />
@@ -48,11 +41,7 @@ export default function PageRoot({ children }: PropsWithChildren) {
         <meta name="theme-color" content="#32302f" />
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="anonymous"
-        />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
 
         <style>
           {`

@@ -10,43 +10,35 @@ export default function Page0825() {
       <H1 text="S. Luís, Rei de França, a 25 de Agosto" />
 
       <Typography className="comment">
-        Luiz IX, nascido em 1215, tornou-se rei de França aos doze anos; foi mui
-        piedosamente educado pela rainha Branca, sua mãe, que lhe ensinou a
-        preferir a morte a cometer um pecado mortal. Gostava de chamar-se Luiz
-        de Poissy, lugar onde fora baptizado, a fim de indicar ser o seu mais
-        glorioso título de nobreza, o de cristão. Desprezando as delícias do
-        mundo, procurou unicamente agradar a Jesus Cristo, o verdadeiro Rei
-        (Secr.) e foi, diz Bossuet, o mais santo e o mais justo rei que tenha
-        trazido uma corda. Assíduo aos oficios da Igreja, fazia celebrá-los
-        solenemente em seu palácio, onde diariamente assistia a duas missas.
-        Levantava-se à meia-noite para dizer Matinas, começando pelo oficio de
-        Prima o seu dia real. Introduziu em sua capela o hábito de dobrar-se o
-        joelho a estas palavras do Credo: Homo factus est, e de prostrar-se à
-        leitura da Paixão, quando se narra a morte de Jesus Christo. Essas duas
-        piedosas práticas foram, depois, adoptadas pela Igreja. Julgam um crime
-        a minha assiduidade à oração, dizia ele, porém, nada diriam se as horas
-        nela empregadas as passasse no jogo ou na caça. A piedade jamais o
-        impediu de dar a maior parte de seu tempo aos negócios do reino. Depois
-        de uma doença, fez voto de empreender uma cruzada, a fim de reconquistar
-        Jerusalém. Primeiramente vitorioso, caiu em seguida nas mãos dos
-        Sarracenos. Libertado, permaneceu ainda cinco anos no Oriente para
-        socorrer os cristãos; voltando à França, ocupou-se com numerosas
-        fundações piedosas e fez construir a Santa Capela, com o insigne
-        relicário da santa corôa de espinhos e da importante parcela da
-        verdadeira Cruz que lhe oferecera Balduino II, imperador de
-        Constantinopla. Muito austero para consigo e muito caridoso para com os
-        outros, dizia: Mais vale a um rei arruinar-se pelas esmolas feitas por
-        amor de Deus do que pelo fausto e a vã glória. Muitas vezes, diz
-        Joinville, vi o bom rei, depois da missa, ir ao bosque de Vincennes,
-        assentar-se junto a um carvalho e dar audiência a todos que precisavam
-        falar-lhe. Sargento de Cristo, trazia continuamente a cruz, a fim de
-        indicar que seu voto estava por se realizar. Em 1270, empreendeu nova
-        cruzada, porém uma epidemia lhe decimou o exército na África,
-        atingindo-o também. Com os braços em cruz, deitado na cinza, entregou a
-        alma a Deus, em 1270, à mesma hora em que Cristo morreu sobre a Cruz. Na
-        véspera de morrer ouviam-no repetir: Iremos a Jerusalém. Na Jerusalém
-        celeste, conquistada pela sua paciência no meio das adversidades, devia
-        ele reinar com o Rei dos Reis (Or.).
+        Luiz IX, nascido em 1215, tornou-se rei de França aos doze anos; foi mui piedosamente
+        educado pela rainha Branca, sua mãe, que lhe ensinou a preferir a morte a cometer um pecado
+        mortal. Gostava de chamar-se Luiz de Poissy, lugar onde fora baptizado, a fim de indicar ser
+        o seu mais glorioso título de nobreza, o de cristão. Desprezando as delícias do mundo,
+        procurou unicamente agradar a Jesus Cristo, o verdadeiro Rei (Secr.) e foi, diz Bossuet, o
+        mais santo e o mais justo rei que tenha trazido uma corda. Assíduo aos oficios da Igreja,
+        fazia celebrá-los solenemente em seu palácio, onde diariamente assistia a duas missas.
+        Levantava-se à meia-noite para dizer Matinas, começando pelo oficio de Prima o seu dia real.
+        Introduziu em sua capela o hábito de dobrar-se o joelho a estas palavras do Credo: Homo
+        factus est, e de prostrar-se à leitura da Paixão, quando se narra a morte de Jesus Christo.
+        Essas duas piedosas práticas foram, depois, adoptadas pela Igreja. Julgam um crime a minha
+        assiduidade à oração, dizia ele, porém, nada diriam se as horas nela empregadas as passasse
+        no jogo ou na caça. A piedade jamais o impediu de dar a maior parte de seu tempo aos
+        negócios do reino. Depois de uma doença, fez voto de empreender uma cruzada, a fim de
+        reconquistar Jerusalém. Primeiramente vitorioso, caiu em seguida nas mãos dos Sarracenos.
+        Libertado, permaneceu ainda cinco anos no Oriente para socorrer os cristãos; voltando à
+        França, ocupou-se com numerosas fundações piedosas e fez construir a Santa Capela, com o
+        insigne relicário da santa corôa de espinhos e da importante parcela da verdadeira Cruz que
+        lhe oferecera Balduino II, imperador de Constantinopla. Muito austero para consigo e muito
+        caridoso para com os outros, dizia: Mais vale a um rei arruinar-se pelas esmolas feitas por
+        amor de Deus do que pelo fausto e a vã glória. Muitas vezes, diz Joinville, vi o bom rei,
+        depois da missa, ir ao bosque de Vincennes, assentar-se junto a um carvalho e dar audiência
+        a todos que precisavam falar-lhe. Sargento de Cristo, trazia continuamente a cruz, a fim de
+        indicar que seu voto estava por se realizar. Em 1270, empreendeu nova cruzada, porém uma
+        epidemia lhe decimou o exército na África, atingindo-o também. Com os braços em cruz,
+        deitado na cinza, entregou a alma a Deus, em 1270, à mesma hora em que Cristo morreu sobre a
+        Cruz. Na véspera de morrer ouviam-no repetir: Iremos a Jerusalém. Na Jerusalém celeste,
+        conquistada pela sua paciência no meio das adversidades, devia ele reinar com o Rei dos Reis
+        (Or.).
       </Typography>
 
       <Typography className="aside">
@@ -61,17 +53,15 @@ export default function Page0825() {
 
       <Language>
         <Typography className="latin">
-          Deus, qui beátum Ludovícum Confessórem tuum de terréno regno ad
-          cœléstis regni glóriam transtulísti: ejus, quǽsumus, méritis et
-          intercessióne; Regis regum Jesu Christi, Fílii tui, fácias nos esse
-          consórtes: Qui tecum vivit et regnat...
+          Deus, qui beátum Ludovícum Confessórem tuum de terréno regno ad cœléstis regni glóriam
+          transtulísti: ejus, quǽsumus, méritis et intercessióne; Regis regum Jesu Christi, Fílii
+          tui, fácias nos esse consórtes: Qui tecum vivit et regnat...
         </Typography>
         <Typography className="vernacular">
-          Ó Deus, que trasladastes o B. Luís, vosso Confessor, do reino
-          terrestre para a glória do reino celestial, humildemente Vos
-          suplicamos, pelos seus méritos e intercessão, que um dia nos façais
-          participar da glória do Rei dos reis, Jesus Cristo, vosso Filho. Que
-          convosco vive e reina...
+          Ó Deus, que trasladastes o B. Luís, vosso Confessor, do reino terrestre para a glória do
+          reino celestial, humildemente Vos suplicamos, pelos seus méritos e intercessão, que um dia
+          nos façais participar da glória do Rei dos reis, Jesus Cristo, vosso Filho. Que convosco
+          vive e reina...
         </Typography>
       </Language>
 
@@ -81,36 +71,29 @@ export default function Page0825() {
 
       <Language>
         <Typography className="latin">Léctio libri Sapiéntiæ.</Typography>
-        <Typography className="vernacular">
-          Lição do Livro da Sabedoria.
-        </Typography>
+        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
         <Typography className="latin">
-          Justum dedúxit Dóminus per vias rectas, et ostendit illi regnum Dei,
-          et dedit illi sciéntiam sanctórum: honestávit illum in labóribus, et
-          complévit labores illíus. In fraude circumveniéntium illum áffuit
-          illi, et honéstum fecit illum. Custodívit illum ab inimícis, et a
-          seductóribus tutávit illum, et certámen forte dedit illi, ut vínceret
-          et sciret, quóniam ómnium poténtior est sapiéntia. Hæc vénditum jusíum
-          non derelíquit, sed a peccatóribus liberávit eum: descendítque cum
-          illo in fóveam, et in vínculis non derelíquit illum, donec afférret
-          illi sceptrum regni, et poténtiam advérsus eos, qui eum deprimébant:
-          et mendáces osténdit, qui maculavérunt illum, et dedit illi claritátem
-          ætérnam, Dóminus, Deus noster.
+          Justum dedúxit Dóminus per vias rectas, et ostendit illi regnum Dei, et dedit illi
+          sciéntiam sanctórum: honestávit illum in labóribus, et complévit labores illíus. In fraude
+          circumveniéntium illum áffuit illi, et honéstum fecit illum. Custodívit illum ab inimícis,
+          et a seductóribus tutávit illum, et certámen forte dedit illi, ut vínceret et sciret,
+          quóniam ómnium poténtior est sapiéntia. Hæc vénditum jusíum non derelíquit, sed a
+          peccatóribus liberávit eum: descendítque cum illo in fóveam, et in vínculis non derelíquit
+          illum, donec afférret illi sceptrum regni, et poténtiam advérsus eos, qui eum deprimébant:
+          et mendáces osténdit, qui maculavérunt illum, et dedit illi claritátem ætérnam, Dóminus,
+          Deus noster.
         </Typography>
         <Typography className="vernacular">
-          O Senhor conduziu o justo por caminhos direitos; mostrou-lhe o reino
-          de Deus; transmitiu-lhe a ciência das coisas santas; enriqueceu-o nos
-          seus trabalhos; e fez frutificar esses seus labores. O Senhor
-          auxiliou-o contra os que queriam enganá-lo com suas fraudes e fê-lo
-          adquirir riquezas. Protegeu-o contra os seus inimigos; defendeu-o de
-          seus sedutores; e alcançou a vitória em um rude combate em seu favor,
-          para lhe ensinar que a sabedoria é a mais poderosa de todas as coisas.
-          O Senhor não abandonou o justo quando este foi vendido, mas até o
-          preservou das mãos dos pecadores; desceu com ele á prisão; e o não
-          abandonou nas cadeias, enquanto lhe não entregou o ceptro do império e
-          o poder sobre os seus opressores. O Senhor, nosso Deus, provou que
-          eram mentirosos aqueles que o desacreditaram e tornou-o ilustre para
-          sempre.
+          O Senhor conduziu o justo por caminhos direitos; mostrou-lhe o reino de Deus;
+          transmitiu-lhe a ciência das coisas santas; enriqueceu-o nos seus trabalhos; e fez
+          frutificar esses seus labores. O Senhor auxiliou-o contra os que queriam enganá-lo com
+          suas fraudes e fê-lo adquirir riquezas. Protegeu-o contra os seus inimigos; defendeu-o de
+          seus sedutores; e alcançou a vitória em um rude combate em seu favor, para lhe ensinar que
+          a sabedoria é a mais poderosa de todas as coisas. O Senhor não abandonou o justo quando
+          este foi vendido, mas até o preservou das mãos dos pecadores; desceu com ele á prisão; e o
+          não abandonou nas cadeias, enquanto lhe não entregou o ceptro do império e o poder sobre
+          os seus opressores. O Senhor, nosso Deus, provou que eram mentirosos aqueles que o
+          desacreditaram e tornou-o ilustre para sempre.
         </Typography>
       </Language>
 
@@ -120,62 +103,51 @@ export default function Page0825() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
-          Evangélii secúndum Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo
-          Evangelho segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho segundo S.
+          Lucas.
         </Typography>
         <Typography className="latin">
-          In illo témpore: Dixit Jesus discípulis suis parábolam hanc: Homo
-          quidam nóbilis ábiit in regionem longínquam accípere sibi regnum, et
-          revérti. Vocátis autem decem servis suis, dedit eis decem mnas, et ait
-          ad illos: Negotiámini, dum vénio. Cives autem ejus óderant eum: et
-          misérunt legatiónem post illum, dicéntes: Nólumus hunc regnáre super
-          nos. Et factum est, ut redíret accépto regno: et jussit vocári servos,
-          quibus dedit pecúniam, ut sciret, quantum quisque negotiátus esset.
-          Venit autem primus, dicens: Dómine, mna tua decem mnas acquisívit. Et
-          ait illi: Euge, bone serve, quia in módico fuísti fidélis, eris
-          potestátem habens super decem civitátes. Et alter venit, dicens:
-          Dómine, mna tua fecit quinque mnas. Et huic ait: Et tu esto super
-          quinque civitátes. Et alter venit, dicens: Dómine, ecce mna tua, quam
-          hábui repósitam in sudário: tímui enim te, quia homo austérus es:
-          tollis, quod non posuísti, et metis, quod non seminásti. Dicit ei: De
-          ore tuo te júdico, serve nequam. Sciébas, quod ego homo austérus sum,
-          tollens, quod non pósui, et metens, quod non seminávi: et quare non
-          dedísti pecúniam meam ad mensam, ut ego véniens cum usúris útique
-          exegíssem illam? Et astántibus dixit: Auferte ab illo mnam et date
-          illi, qui decem mnas habet. Et dixérunt ei: Dómine, habet decem mnas.
-          Dico autem vobis: Quia omni habénti dábitur, et abundábit: ab eo
-          autem, qui non habet, et, quod habet, auferétur ab eo.
+          In illo témpore: Dixit Jesus discípulis suis parábolam hanc: Homo quidam nóbilis ábiit in
+          regionem longínquam accípere sibi regnum, et revérti. Vocátis autem decem servis suis,
+          dedit eis decem mnas, et ait ad illos: Negotiámini, dum vénio. Cives autem ejus óderant
+          eum: et misérunt legatiónem post illum, dicéntes: Nólumus hunc regnáre super nos. Et
+          factum est, ut redíret accépto regno: et jussit vocári servos, quibus dedit pecúniam, ut
+          sciret, quantum quisque negotiátus esset. Venit autem primus, dicens: Dómine, mna tua
+          decem mnas acquisívit. Et ait illi: Euge, bone serve, quia in módico fuísti fidélis, eris
+          potestátem habens super decem civitátes. Et alter venit, dicens: Dómine, mna tua fecit
+          quinque mnas. Et huic ait: Et tu esto super quinque civitátes. Et alter venit, dicens:
+          Dómine, ecce mna tua, quam hábui repósitam in sudário: tímui enim te, quia homo austérus
+          es: tollis, quod non posuísti, et metis, quod non seminásti. Dicit ei: De ore tuo te
+          júdico, serve nequam. Sciébas, quod ego homo austérus sum, tollens, quod non pósui, et
+          metens, quod non seminávi: et quare non dedísti pecúniam meam ad mensam, ut ego véniens
+          cum usúris útique exegíssem illam? Et astántibus dixit: Auferte ab illo mnam et date illi,
+          qui decem mnas habet. Et dixérunt ei: Dómine, habet decem mnas. Dico autem vobis: Quia
+          omni habénti dábitur, et abundábit: ab eo autem, qui non habet, et, quod habet, auferétur
+          ab eo.
         </Typography>
         <Typography className="vernacular">
-          Naquele tempo, Jesus disse aos seus discípulos esta parábola: «Certo
-          homem de linhagem nobre partiu para um país longínquo, a fim de
-          conseguir a posse desse reino e voltar depois. Chamou, pois, dez dos
-          seus servos, deu-lhes dez moedas e disse-lhes: «Negociai com elas até
-          eu voltar». Porém os seus concidadãos, que o odiavam, enviaram uma
-          embaixada após ele, dizendo: «Não queremos que este homem seja nosso
-          rei”. Ora aconteceu que, quando regressou, revestido da realeza,
-          mandou chamar os servos, a quem havia dado o dinheiro, para saber como
-          haviam negociado. Veio o primeiro e disse-lhe: «Vossa moeda, senhor,
-          rendeu dez moedas». Respondeu-lhe o senhor: «Está bem, servo bom;
-          visto que foste fiel em pouca coisa, recebe o governo de dez cidades».
-          Veio o segundo e disse-lhe: «Vossa moeda, senhor, rendeu cinco
-          moedas». Respondeu-lhe o senhor: «Tu governarás cinco cidades». Veio
-          também o terceiro e disse: «Eis a vossa moeda, senhor, que eu guardei
-          em um pano; pois tive medo de vós, que sois homem austero: tirais o
-          que não depositais e recolheis o que não semeais». Respondeu-lhe o
-          senhor: «Eu te julgarei com tuas próprias palavras, ó servo mau. Tu
-          sabes que sou homem severo, tirando o que não depositei e colhendo o
-          que não semeei; porque, então, não depositaste o meu dinheiro em um
-          banco, para que, quando regressasse, o recolhesse com os juros?».
-          Depois, continuou o senhor, dirigindo-se aos presentes: «Tirai-lhe a
-          moeda e dai-a ao que tem dez». E eles disseram-lhe: «Ele já tem dez
-          moedas». «Eu vos digo, retorquiu o Senhor, dar-se-á àquele que tem, e
-          ficará na abundância; mas àquele que nada tem tirar-se-lhe-á até o que
-          tiver».
+          Naquele tempo, Jesus disse aos seus discípulos esta parábola: «Certo homem de linhagem
+          nobre partiu para um país longínquo, a fim de conseguir a posse desse reino e voltar
+          depois. Chamou, pois, dez dos seus servos, deu-lhes dez moedas e disse-lhes: «Negociai com
+          elas até eu voltar». Porém os seus concidadãos, que o odiavam, enviaram uma embaixada após
+          ele, dizendo: «Não queremos que este homem seja nosso rei”. Ora aconteceu que, quando
+          regressou, revestido da realeza, mandou chamar os servos, a quem havia dado o dinheiro,
+          para saber como haviam negociado. Veio o primeiro e disse-lhe: «Vossa moeda, senhor,
+          rendeu dez moedas». Respondeu-lhe o senhor: «Está bem, servo bom; visto que foste fiel em
+          pouca coisa, recebe o governo de dez cidades». Veio o segundo e disse-lhe: «Vossa moeda,
+          senhor, rendeu cinco moedas». Respondeu-lhe o senhor: «Tu governarás cinco cidades». Veio
+          também o terceiro e disse: «Eis a vossa moeda, senhor, que eu guardei em um pano; pois
+          tive medo de vós, que sois homem austero: tirais o que não depositais e recolheis o que
+          não semeais». Respondeu-lhe o senhor: «Eu te julgarei com tuas próprias palavras, ó servo
+          mau. Tu sabes que sou homem severo, tirando o que não depositei e colhendo o que não
+          semeei; porque, então, não depositaste o meu dinheiro em um banco, para que, quando
+          regressasse, o recolhesse com os juros?». Depois, continuou o senhor, dirigindo-se aos
+          presentes: «Tirai-lhe a moeda e dai-a ao que tem dez». E eles disseram-lhe: «Ele já tem
+          dez moedas». «Eu vos digo, retorquiu o Senhor, dar-se-á àquele que tem, e ficará na
+          abundância; mas àquele que nada tem tirar-se-lhe-á até o que tiver».
         </Typography>
       </Language>
 
@@ -183,16 +155,14 @@ export default function Page0825() {
 
       <Language>
         <Typography className="latin">
-          Præsta, quǽsumus, omnípotens Deus: ut, sicut beátus Ludovícus
-          Conféssor tuus, spretis mundi oblectaméntis, soli Regi Christo placére
-          stúduit; ita ejus orátio nos tibi reddat accéptos. Per eúndem
-          Dóminum...
+          Præsta, quǽsumus, omnípotens Deus: ut, sicut beátus Ludovícus Conféssor tuus, spretis
+          mundi oblectaméntis, soli Regi Christo placére stúduit; ita ejus orátio nos tibi reddat
+          accéptos. Per eúndem Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Ó Deus omnipotente, Vos suplicamos, fazei que, assim como o B. Luís,
-          vosso Confessor, desprezando as delícias do mundo só procurou agradar
-          a Cristo-Rei, assim também a sua oração nos torne agradáveis a Vós.
-          Pelo mesmo nosso Senhor...
+          Ó Deus omnipotente, Vos suplicamos, fazei que, assim como o B. Luís, vosso Confessor,
+          desprezando as delícias do mundo só procurou agradar a Cristo-Rei, assim também a sua
+          oração nos torne agradáveis a Vós. Pelo mesmo nosso Senhor...
         </Typography>
       </Language>
 
@@ -200,14 +170,12 @@ export default function Page0825() {
 
       <Language>
         <Typography className="latin">
-          Deus, qui beátum Confessórem tuum Ludovícum mirificásti in terris, et
-          gloriósum in cœlis fecísti: eúndem, quǽsumus, Ecclésiæ tuæ constítue
-          defensórem. Per Dóminum nostrum...
+          Deus, qui beátum Confessórem tuum Ludovícum mirificásti in terris, et gloriósum in cœlis
+          fecísti: eúndem, quǽsumus, Ecclésiæ tuæ constítue defensórem. Per Dóminum nostrum...
         </Typography>
         <Typography className="vernacular">
-          Ó Deus, que engrandecestes na terra e glorificastes no céu o B. Luís,
-          vosso Confessor, constituí-o, Vo-lo pedimos, defensor da vossa Igreja.
-          Por nosso Senhor...
+          Ó Deus, que engrandecestes na terra e glorificastes no céu o B. Luís, vosso Confessor,
+          constituí-o, Vo-lo pedimos, defensor da vossa Igreja. Por nosso Senhor...
         </Typography>
       </Language>
     </PageWrapper>

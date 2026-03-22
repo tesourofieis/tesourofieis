@@ -14,17 +14,15 @@ export default function PageEpi30() {
 
       <Language>
         <Typography className="latin">
-          Adoráte Deum, omnes Angeli ejus: audívit, et lætáta est Sion: et
-          exsultavérunt fíliæ Judae.{" "}
-          <Typography className="latin">Ps. ibid., 1</Typography> Dóminus
-          regnávit, exsúltet terra: læténtur ínsulæ multæ.
+          Adoráte Deum, omnes Angeli ejus: audívit, et lætáta est Sion: et exsultavérunt fíliæ
+          Judae. <Typography className="latin">Ps. ibid., 1</Typography> Dóminus regnávit, exsúltet
+          terra: læténtur ínsulæ multæ.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
-          Adorai a Deus, ó vós, que sois os seus Anjos. Ouviu Sião e rejubilou:
-          e as filhas de Judá exultaram de alegria.{" "}
-          <Typography className="vernacular">Sl. ibid., 1</Typography> O Senhor
-          reinou: alegre-se a terra e as suas muitas ilhas.
+          Adorai a Deus, ó vós, que sois os seus Anjos. Ouviu Sião e rejubilou: e as filhas de Judá
+          exultaram de alegria. <Typography className="vernacular">Sl. ibid., 1</Typography> O
+          Senhor reinou: alegre-se a terra e as suas muitas ilhas.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -33,14 +31,12 @@ export default function PageEpi30() {
 
       <Language>
         <Typography className="latin">
-          Omnípotens sempitérne Deus, infirmitatem nostram propítius réspice:
-          atque, ad protegéndum nos, déxteram tuæ majestátis exténde. Per
-          Dóminum...
+          Omnípotens sempitérne Deus, infirmitatem nostram propítius réspice: atque, ad protegéndum
+          nos, déxteram tuæ majestátis exténde. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Ó Deus omnipotente e eterno, olhai benigno para a nossa fraqueza, e
-          que a vossa majestade nos estenda a sua dextra para nos proteger
-          continuamente. Por nosso Senhor...
+          Ó Deus omnipotente e eterno, olhai benigno para a nossa fraqueza, e que a vossa majestade
+          nos estenda a sua dextra para nos proteger continuamente. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -49,33 +45,26 @@ export default function PageEpi30() {
       <Typography className="em">Rm. 12, 16-21</Typography>
 
       <Language>
+        <Typography className="latin">Léctio Epístolæ beáti Pauli Apóstoli ad Romános.</Typography>
+        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º Paulo aos Romanos.</Typography>
         <Typography className="latin">
-          Léctio Epístolæ beáti Pauli Apóstoli ad Romános.
+          Fratres: Nolíte esse prudéntes apud vosmetípsos: nulli malum pro malo reddéntes:
+          providéntes bona non tantum coram Deo, sed étiam coram ómnibus homínibus. Si fíeri potest,
+          quod ex vobis est, cum ómnibus homínibus pacem habéntes: Non vosmetípsos defendéntes,
+          caríssimi, sed date locum iræ. Scriptum est enim: Mihi vindícta: ego retríbuam, dicit
+          Dóminus. Sed si esuríerit inimícus tuus, ciba illum: si sitit, potum da illi: hoc enim
+          fáciens, carbónes ignis cóngeres super caput ejus. Noli vinci a malo, sed vince in bono
+          malum.
         </Typography>
         <Typography className="vernacular">
-          Lição da Ep.ª do B. Ap.º Paulo aos Romanos.
-        </Typography>
-        <Typography className="latin">
-          Fratres: Nolíte esse prudéntes apud vosmetípsos: nulli malum pro malo
-          reddéntes: providéntes bona non tantum coram Deo, sed étiam coram
-          ómnibus homínibus. Si fíeri potest, quod ex vobis est, cum ómnibus
-          homínibus pacem habéntes: Non vosmetípsos defendéntes, caríssimi, sed
-          date locum iræ. Scriptum est enim: Mihi vindícta: ego retríbuam, dicit
-          Dóminus. Sed si esuríerit inimícus tuus, ciba illum: si sitit, potum
-          da illi: hoc enim fáciens, carbónes ignis cóngeres super caput ejus.
-          Noli vinci a malo, sed vince in bono malum.
-        </Typography>
-        <Typography className="vernacular">
-          Meus irmãos: Não presumais que sois prudentes; não retribuais a
-          ninguém o mal com o mal; antes praticai cuidadosamente o bem, tanto
-          diante de Deus, como perante os homens. Vivei em paz com todos os
-          homens, tanto quanto seja possível e dependa de vós. Não vos vingueis
-          vós próprios, caríssimos, mas deixai operar a justiça de Deus, pois
-          está escrito: «a vingança pertence-me; Eu é que a exercerei, diz o
-          Senhor». Se o vosso inimigo tem fome, dai-lhe de comer; se tem sede,
-          dai-lhe de beber; pois, se assim procederdes, reunireis brasas de fogo
-          sobre a sua cabeça. Não vos deixeis vencer pelo mal; mas triunfai do
-          mal, praticando o bem.
+          Meus irmãos: Não presumais que sois prudentes; não retribuais a ninguém o mal com o mal;
+          antes praticai cuidadosamente o bem, tanto diante de Deus, como perante os homens. Vivei
+          em paz com todos os homens, tanto quanto seja possível e dependa de vós. Não vos vingueis
+          vós próprios, caríssimos, mas deixai operar a justiça de Deus, pois está escrito: «a
+          vingança pertence-me; Eu é que a exercerei, diz o Senhor». Se o vosso inimigo tem fome,
+          dai-lhe de comer; se tem sede, dai-lhe de beber; pois, se assim procederdes, reunireis
+          brasas de fogo sobre a sua cabeça. Não vos deixeis vencer pelo mal; mas triunfai do mal,
+          praticando o bem.
         </Typography>
       </Language>
 
@@ -86,24 +75,24 @@ export default function PageEpi30() {
       <Language>
         <Typography className="latin">
           Timébunt gentes nomen tuum, Dómine, et omnes reges terræ glóriam tuam.
-          <Typography className="versicle"> ℣. </Typography>Quóniam ædificávit
-          Dóminus Sion, et vidébitur in majestáte sua.
+          <Typography className="versicle"> ℣. </Typography>Quóniam ædificávit Dóminus Sion, et
+          vidébitur in majestáte sua.
         </Typography>
         <Typography className="vernacular">
-          As nações temerão o vosso nome, Senhor; e todos os reis da terra
-          contemplarão a vossa glória.
+          As nações temerão o vosso nome, Senhor; e todos os reis da terra contemplarão a vossa
+          glória.
           <Typography className="versicle"> ℣. </Typography>
           Pois o Senhor reedificou Sião: e manifestar-se-á aí na sua majestade.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 96, 1</Typography> Dóminus regnávit,
-          exsúltet terra: læténtur ínsulæ multæ. Allelúja.
+          <Typography className="latin">Ps. 96, 1</Typography> Dóminus regnávit, exsúltet terra:
+          læténtur ínsulæ multæ. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Ps. 96, 1</Typography> O Senhor
-          reinou: alegre-se a terra e as suas muitas ilhas. Aleluia.
+          <Typography className="vernacular">Ps. 96, 1</Typography> O Senhor reinou: alegre-se a
+          terra e as suas muitas ilhas. Aleluia.
         </Typography>
       </Language>
 
@@ -113,57 +102,48 @@ export default function PageEpi30() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
-          Evangélii secúndum Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
+          Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo
-          Evangelho segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho segundo S.
+          Mateus.
         </Typography>
         <Typography className="latin">
-          In illo témpore: Cum descendísset Jesus de monte, secútæ sunt eum
-          turbæ multæ: et ecce, leprósus véniens adorábat eum, dicens: Dómine,
-          si vis, potes me mundáre. Et exténdens Jesus manum, tétigit eum,
-          dicens: Volo. Mundáre. Et conféstim mundáta est lepra ejus. Et ait
-          illi Jesus: Vide, némini díxeris: sed vade, osténde te sacerdóti, et
-          offer munus, quod præcépit Móyses, in testimónium illis. Cum autem
-          introísset Caphárnaum, accéssit ad eum centúrio, rogans eum et dicens:
-          Dómine, puer meus jacet in domo paralýticus, et male torquetur. Et ait
-          illi Jesus: Ego véniam, et curábo eum. Et respóndens centúrio, ait:
-          Dómine, non sum dignus, ut intres sub tectum meum: sed tantum dic
-          verbo, et sanábitur puer meus. Nam et ego homo sum sub potestáte
-          constitútus, habens sub me mílites, et dico huic: Vade, et vadit; et
-          alii: Veni, et venit; et servo meo: Fac hoc, et facit. Audiens autem
-          Jesus, mirátus est, et sequéntibus se dixit: Amen, dico vobis, non
-          inveni tantam fidem in Israël. Dico autem vobis, quod multi ab Oriénte
-          et Occidénte vénient, et recúmbent cum Abraham et Isaac et Jacob in
-          regno cœlórum: fílii autem regni ejiciéntur in ténebras exterióres:
-          ibi erit fletus et stridor déntium. Et dixit Jesus centurióni: Vade
-          et, sicut credidísti, fiat tibi. Et sanátus est puer in illa hora.
+          In illo témpore: Cum descendísset Jesus de monte, secútæ sunt eum turbæ multæ: et ecce,
+          leprósus véniens adorábat eum, dicens: Dómine, si vis, potes me mundáre. Et exténdens
+          Jesus manum, tétigit eum, dicens: Volo. Mundáre. Et conféstim mundáta est lepra ejus. Et
+          ait illi Jesus: Vide, némini díxeris: sed vade, osténde te sacerdóti, et offer munus, quod
+          præcépit Móyses, in testimónium illis. Cum autem introísset Caphárnaum, accéssit ad eum
+          centúrio, rogans eum et dicens: Dómine, puer meus jacet in domo paralýticus, et male
+          torquetur. Et ait illi Jesus: Ego véniam, et curábo eum. Et respóndens centúrio, ait:
+          Dómine, non sum dignus, ut intres sub tectum meum: sed tantum dic verbo, et sanábitur puer
+          meus. Nam et ego homo sum sub potestáte constitútus, habens sub me mílites, et dico huic:
+          Vade, et vadit; et alii: Veni, et venit; et servo meo: Fac hoc, et facit. Audiens autem
+          Jesus, mirátus est, et sequéntibus se dixit: Amen, dico vobis, non inveni tantam fidem in
+          Israël. Dico autem vobis, quod multi ab Oriénte et Occidénte vénient, et recúmbent cum
+          Abraham et Isaac et Jacob in regno cœlórum: fílii autem regni ejiciéntur in ténebras
+          exterióres: ibi erit fletus et stridor déntium. Et dixit Jesus centurióni: Vade et, sicut
+          credidísti, fiat tibi. Et sanátus est puer in illa hora.
         </Typography>
         <Typography className="vernacular">
-          Naquele tempo, descendo Jesus do monte, era acompanhado por numerosas
-          pessoas. Eis que veio ter com Ele um leproso, adorando-O e
-          dizendo-Lhe: «Senhor, se quiserdes, podeis curar-me». Então, Jesus,
-          estendendo a mão, tocou-o e disse: «Quero; sê curado». E no mesmo
-          instante ficou limpo da lepra. E Jesus disse-lhe: «Ouve: não digas
-          nada a ninguém; mas vai, mostra-te aos sacerdotes e oferece-lhes a
-          dádiva que Moisés prescreveu, a fim de que ela seja testemunha da tua
-          cura». E entrando Jesus em Cafarnaum, aproximou-se d’Ele um centurião,
-          pedindo e dizendo: «Senhor, o meu servo está na cama paralítico e
-          sofre cruelmente». Jesus disse-lhe: «Eu irei e o curarei». O centurião
-          respondeu-Lhe: «Senhor, não sou digno de que entreis sob o meu
-          telhado; dizei somente uma palavra e o meu servo será curado. Pois eu,
-          que sou um homem submisso à autoridade dos meus superiores, tenho
-          soldados sob as minhas ordens e digo a um deles: vai. E ele vai. E
-          digo a um outro vem. E ele vem. E digo a meu servo: faz isto. E ele
-          faz». Ouvindo Jesus isto, mostrou-se admirado e disse: «Em verdade vos
-          digo que não encontrei ainda uma fé tão grande em Israel! Assim vos
-          digo: que muitos virão do Oriente e do Ocidente e terão lugar no
-          banquete com Abraão, Isaque e Jacob no reino dos céus; mas os filhos
-          do reino serão lançados nas trevas exteriores, onde haverá choro e
-          ranger de dentes». Então Jesus disse ao centurião: «Vai; e que se faça
-          segundo a tua crença». E naquela hora ficou curado o servo.
+          Naquele tempo, descendo Jesus do monte, era acompanhado por numerosas pessoas. Eis que
+          veio ter com Ele um leproso, adorando-O e dizendo-Lhe: «Senhor, se quiserdes, podeis
+          curar-me». Então, Jesus, estendendo a mão, tocou-o e disse: «Quero; sê curado». E no mesmo
+          instante ficou limpo da lepra. E Jesus disse-lhe: «Ouve: não digas nada a ninguém; mas
+          vai, mostra-te aos sacerdotes e oferece-lhes a dádiva que Moisés prescreveu, a fim de que
+          ela seja testemunha da tua cura». E entrando Jesus em Cafarnaum, aproximou-se d’Ele um
+          centurião, pedindo e dizendo: «Senhor, o meu servo está na cama paralítico e sofre
+          cruelmente». Jesus disse-lhe: «Eu irei e o curarei». O centurião respondeu-Lhe: «Senhor,
+          não sou digno de que entreis sob o meu telhado; dizei somente uma palavra e o meu servo
+          será curado. Pois eu, que sou um homem submisso à autoridade dos meus superiores, tenho
+          soldados sob as minhas ordens e digo a um deles: vai. E ele vai. E digo a um outro vem. E
+          ele vem. E digo a meu servo: faz isto. E ele faz». Ouvindo Jesus isto, mostrou-se admirado
+          e disse: «Em verdade vos digo que não encontrei ainda uma fé tão grande em Israel! Assim
+          vos digo: que muitos virão do Oriente e do Ocidente e terão lugar no banquete com Abraão,
+          Isaque e Jacob no reino dos céus; mas os filhos do reino serão lançados nas trevas
+          exteriores, onde haverá choro e ranger de dentes». Então Jesus disse ao centurião: «Vai; e
+          que se faça segundo a tua crença». E naquela hora ficou curado o servo.
         </Typography>
       </Language>
 
@@ -173,12 +153,12 @@ export default function PageEpi30() {
 
       <Language>
         <Typography className="latin">
-          Déxtera Dómini fecit virtutem, déxtera Dómini exaltávit me: non
-          móriar, sed vivam, et narrábo ópera Dómini.
+          Déxtera Dómini fecit virtutem, déxtera Dómini exaltávit me: non móriar, sed vivam, et
+          narrábo ópera Dómini.
         </Typography>
         <Typography className="vernacular">
-          A dextra do Senhor mostrou o seu poder: a dextra do Senhor exaltou-me.
-          Não morrerei: viverei e nanarei os prodígios do Senhor.
+          A dextra do Senhor mostrou o seu poder: a dextra do Senhor exaltou-me. Não morrerei:
+          viverei e nanarei os prodígios do Senhor.
         </Typography>
       </Language>
 
@@ -186,14 +166,13 @@ export default function PageEpi30() {
 
       <Language>
         <Typography className="latin">
-          Hæc hóstia, Dómine, quǽsumus, emúndet nostra delícta: et, ad
-          sacrifícium celebrándum, subditórum tibi córpora mentésque
-          sanctíficet. Per Dóminum...
+          Hæc hóstia, Dómine, quǽsumus, emúndet nostra delícta: et, ad sacrifícium celebrándum,
+          subditórum tibi córpora mentésque sanctíficet. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Que esta hóstia, Senhor, Vos suplicamos, nos purifique dos nossos
-          delitos, e santifique as almas e os corpos dos vossos súbditos, para
-          que dignamente celebremos este sacrifício. Por nosso Senhor...
+          Que esta hóstia, Senhor, Vos suplicamos, nos purifique dos nossos delitos, e santifique as
+          almas e os corpos dos vossos súbditos, para que dignamente celebremos este sacrifício. Por
+          nosso Senhor...
         </Typography>
       </Language>
 
@@ -214,13 +193,13 @@ export default function PageEpi30() {
 
       <Language>
         <Typography className="latin">
-          Quos tantis, Dómine, largíris uti mystériis: quǽsumus; ut efféctibus
-          nos eórum veráciter aptáre dignéris. Per Dóminum...
+          Quos tantis, Dómine, largíris uti mystériis: quǽsumus; ut efféctibus nos eórum veráciter
+          aptáre dignéris. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Senhor, já que nos concedestes a graça de participarmos destes tão
-          augustos mystérios, tornai-nos dignos, Vos suplicamos, de recebermos
-          com eficácia os seus efeitos. Por nosso Senhor...
+          Senhor, já que nos concedestes a graça de participarmos destes tão augustos mystérios,
+          tornai-nos dignos, Vos suplicamos, de recebermos com eficácia os seus efeitos. Por nosso
+          Senhor...
         </Typography>
       </Language>
     </PageWrapper>

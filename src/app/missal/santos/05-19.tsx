@@ -10,22 +10,19 @@ export default function Page0519() {
       <H1 text="S. Pedro Celestino, Papa e Conf., a 19 de Maio" />
 
       <Typography className="comment">
-        Entre todos os Pastores, a quem Jesus Ressuscitado, confiou o encargo da
-        sua Igreja, em Pedro Celestino manifesta-se mais especialmente a virtude
-        de humildade, colocada por São Bento, seu Pai em Deus, como a base de
-        toda santidade. Nasceu em 1221 e, apenas adolescente, retirou-se para o
-        deserto (Evangelho) onde, em breve, suas virtudes lhe atribuíram
-        discípulos. Foi a origem do ramo da Ordem Benedictina, conhecida com o
-        nome de Celestinos, nome que tomou S. Pedro quando subiu à Sé Pontífica.
-        Arrancado da sua solidão com a idade de 72 anos, recebeu a plenitude do
-        Sacerdócio (Intróito, Epístola) ocupando a cátedra de S. Pedro, vaga
-        havia 27 meses. Elevado a esta eminente dignidade, julgou-se incapaz de
-        desempenhar tal tarefa e, «colocando a humildade acima dessa
-        dignidade»(Oração), desceu voluntariamente do trono pontifical,
-        terminando seus dias na contemplação, sem a qual a sua alma não mais
-        podia passar, e morreu a 19 de Maio de 1296. À imitação de S. Pedro
-        Celestino, desprezemos as honras deste mundo, a fim de chegarmos à posse
-        das recompensas prometidas aos humildes (Oração).
+        Entre todos os Pastores, a quem Jesus Ressuscitado, confiou o encargo da sua Igreja, em
+        Pedro Celestino manifesta-se mais especialmente a virtude de humildade, colocada por São
+        Bento, seu Pai em Deus, como a base de toda santidade. Nasceu em 1221 e, apenas adolescente,
+        retirou-se para o deserto (Evangelho) onde, em breve, suas virtudes lhe atribuíram
+        discípulos. Foi a origem do ramo da Ordem Benedictina, conhecida com o nome de Celestinos,
+        nome que tomou S. Pedro quando subiu à Sé Pontífica. Arrancado da sua solidão com a idade de
+        72 anos, recebeu a plenitude do Sacerdócio (Intróito, Epístola) ocupando a cátedra de S.
+        Pedro, vaga havia 27 meses. Elevado a esta eminente dignidade, julgou-se incapaz de
+        desempenhar tal tarefa e, «colocando a humildade acima dessa dignidade»(Oração), desceu
+        voluntariamente do trono pontifical, terminando seus dias na contemplação, sem a qual a sua
+        alma não mais podia passar, e morreu a 19 de Maio de 1296. À imitação de S. Pedro Celestino,
+        desprezemos as honras deste mundo, a fim de chegarmos à posse das recompensas prometidas aos
+        humildes (Oração).
       </Typography>
 
       <Typography className="aside">
@@ -40,17 +37,15 @@ export default function Page0519() {
 
       <Language>
         <Typography className="latin">
-          Deus, qui beátum Petrum Cœlestínum ad summi pontificátus ápicem
-          sublimásti, quique illum humilitáti postpónere docuísti: concéde
-          propítius; ut ejus exémplo cuncta mundi despícere, et ad promíssa
-          humílibus prǽmia perveníre felíciter mereámur. Per Dóminum...
+          Deus, qui beátum Petrum Cœlestínum ad summi pontificátus ápicem sublimásti, quique illum
+          humilitáti postpónere docuísti: concéde propítius; ut ejus exémplo cuncta mundi despícere,
+          et ad promíssa humílibus prǽmia perveníre felíciter mereámur. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Ó Deus, que elevastes o B. Pedro Celestino à eminente dignidade de
-          sumo pontífice, ensinando-o ao mesmo tempo a preferir a humildade,
-          concedei-nos propício que, imitando o seu exemplo, aprendamos a
-          desprezar todos os bens deste mundo, para que com felicidade mereçamos
-          alcançar os prémios que prometestes aos humildes. Por nosso Senhor...
+          Ó Deus, que elevastes o B. Pedro Celestino à eminente dignidade de sumo pontífice,
+          ensinando-o ao mesmo tempo a preferir a humildade, concedei-nos propício que, imitando o
+          seu exemplo, aprendamos a desprezar todos os bens deste mundo, para que com felicidade
+          mereçamos alcançar os prémios que prometestes aos humildes. Por nosso Senhor...
         </Typography>
       </Language>
 

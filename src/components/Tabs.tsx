@@ -31,9 +31,7 @@ export function Tabs({ children }: { children: ReactNode }) {
             >
               <Typography
                 className={`text-pretty bold font-medium ${
-                  activeTab === index
-                    ? "text-sepia-600 dark:text-sepia-400"
-                    : "text-sepia-500"
+                  activeTab === index ? "text-sepia-600 dark:text-sepia-400" : "text-sepia-500"
                 }`}
               >
                 {tab.props.label}
@@ -47,12 +45,6 @@ export function Tabs({ children }: { children: ReactNode }) {
   );
 }
 
-export function TabItem({
-  label,
-  children,
-}: {
-  label: string;
-  children: ReactNode;
-}) {
+export function TabItem({ label, children }: { label: string; children: ReactNode }) {
   return <>{children}</>;
 }

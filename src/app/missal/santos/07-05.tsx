@@ -9,21 +9,18 @@ export default function Page0705() {
       <H1 text="S. António Maria Zacarias, Conf., a 5 de Julho" />
 
       <Typography className="comment">
-        António Maria nasceu de nobre família de Cremona. A sagacidade do
-        espírito, aumentada ainda pela integridade da vida, deu-lhe a
-        superioridade sobre os seus condiscípulos. Depois de haver recebido, em
-        Pádua, o grau de doutor em medicina, compreendeu, por aviso de Deus, ser
-        chamado a curar antes as doenças das almas que as dos corpos. Semelhante
-        ao jovem do Evangelho, havia observado os mandamentos desde a infância;
-        mais fiel do que ele, porém, tudo deixou para seguir a Jesus (Ev.).
-        Fundou a Ordem dos Clérigos regulares, chamados Barnabitas, por se terem
-        instalado perto da Igreja de S. Barnabé. Santo António Maria lhes deu S.
-        Paulo por modelo e protector. Era, como o grande Apóstolo, repleto da
-        ciência supereminente de Cristo (Or.). O Intróito, o Gradual, a Aleluia
-        e o Comúnio, lhe aplicam as palavras do Apóstolo, e a Epístola é a mesma
-        na qual o Doutor dos Gentios, dá a seu discípulo Timóteo os conselhos
-        que o guiaram nos seus ensinamentos. Consolado com a visão celeste dos
-        Apóstolos, morreu mui santamente, na idade de 36 anos, em 1539.
+        António Maria nasceu de nobre família de Cremona. A sagacidade do espírito, aumentada ainda
+        pela integridade da vida, deu-lhe a superioridade sobre os seus condiscípulos. Depois de
+        haver recebido, em Pádua, o grau de doutor em medicina, compreendeu, por aviso de Deus, ser
+        chamado a curar antes as doenças das almas que as dos corpos. Semelhante ao jovem do
+        Evangelho, havia observado os mandamentos desde a infância; mais fiel do que ele, porém,
+        tudo deixou para seguir a Jesus (Ev.). Fundou a Ordem dos Clérigos regulares, chamados
+        Barnabitas, por se terem instalado perto da Igreja de S. Barnabé. Santo António Maria lhes
+        deu S. Paulo por modelo e protector. Era, como o grande Apóstolo, repleto da ciência
+        supereminente de Cristo (Or.). O Intróito, o Gradual, a Aleluia e o Comúnio, lhe aplicam as
+        palavras do Apóstolo, e a Epístola é a mesma na qual o Doutor dos Gentios, dá a seu
+        discípulo Timóteo os conselhos que o guiaram nos seus ensinamentos. Consolado com a visão
+        celeste dos Apóstolos, morreu mui santamente, na idade de 36 anos, em 1539.
       </Typography>
 
       <H3 text="Intróito" />
@@ -32,19 +29,17 @@ export default function Page0705() {
 
       <Language>
         <Typography className="latin">
-          Sermo meus et prædicátio mea non in persuasibílibus humánæ sapiéntiæ
-          verbis, sed in ostensióne spíritus et virtútis.{" "}
-          <Typography className="latin">Ps. 110, 1</Typography> Confitébor tibi,
-          Dómine, in toto corde meo, in consílio justórum et congregatióne.
+          Sermo meus et prædicátio mea non in persuasibílibus humánæ sapiéntiæ verbis, sed in
+          ostensióne spíritus et virtútis. <Typography className="latin">Ps. 110, 1</Typography>{" "}
+          Confitébor tibi, Dómine, in toto corde meo, in consílio justórum et congregatióne.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
-          A minha conversação e a minha pregação não são apoiadas nos argumentos
-          persuasivos da sabedoria humana, mas na manifestação do espírito e do
-          poder de Deus.{" "}
-          <Typography className="vernacular">Sl. 110, 1</Typography> Senhor, eu
-          vos louvarei de todo meu coração no conselho dos justos e na
-          assembleia do povo!<Typography className="versicle"> ℣. </Typography>
+          A minha conversação e a minha pregação não são apoiadas nos argumentos persuasivos da
+          sabedoria humana, mas na manifestação do espírito e do poder de Deus.{" "}
+          <Typography className="vernacular">Sl. 110, 1</Typography> Senhor, eu vos louvarei de todo
+          meu coração no conselho dos justos e na assembleia do povo!
+          <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
       </Language>
@@ -53,16 +48,14 @@ export default function Page0705() {
 
       <Language>
         <Typography className="latin">
-          Fac nos, Dómine Deus, supereminéntem Jesu Christi sciéntiam, spíritu
-          Pauli Apóstoli, edíscere: qua beátus Antónius María mirabíliter
-          erudítus, novas in Ecclésia tua clericórum et vírginum famílias
-          congregávit. Per eúndem Dóminum...
+          Fac nos, Dómine Deus, supereminéntem Jesu Christi sciéntiam, spíritu Pauli Apóstoli,
+          edíscere: qua beátus Antónius María mirabíliter erudítus, novas in Ecclésia tua clericórum
+          et vírginum famílias congregávit. Per eúndem Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Ó Deus e Senhor, fazei-nos adquirir a eminente ciência de Jesus
-          Cristo, segundo o espírito do Apóstolo Paulo, em cuja ciência o B.
-          António Maria foi admiravelmente instruído, e lhe fez estabelecer na
-          vossa Igreja novas congregações de clérigos e de virgens. Pelo mesmo
+          Ó Deus e Senhor, fazei-nos adquirir a eminente ciência de Jesus Cristo, segundo o espírito
+          do Apóstolo Paulo, em cuja ciência o B. António Maria foi admiravelmente instruído, e lhe
+          fez estabelecer na vossa Igreja novas congregações de clérigos e de virgens. Pelo mesmo
           nosso Senhor...
         </Typography>
       </Language>
@@ -75,36 +68,29 @@ export default function Page0705() {
         <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum.
         </Typography>
-        <Typography className="vernacular">
-          Lição da Ep.ª do B. Ap.º Paulo a Timóteo.
-        </Typography>
+        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º Paulo a Timóteo.</Typography>
         <Typography className="latin">
-          Caríssime: Píetas ad ómnia utilis est: promissiónem habens vitæ, quæ
-          nunc est, et futúræ. Fidélis sermo et omni acceptióne dignus. In hoc
-          enim laborámus et maledícimur, quia sperámus in Deum vivum, qui est
-          Salvátor ómnium hóminum, maxime fidélium. Prǽcipe hæc et doce. Nemo
-          adolescentiam tuam contémnat: sed exémplum esto fidélium in verbo, in
-          conversatióne, in caritáte, in fide, in castitáte. Dum vénio, atténde
-          lectióni, exhortatióni et doctrínæ. Noli neglégere grátiam, quæ in te
-          est, quæ data est tibi per prophétiam, cum impositióne mánuum
-          presbytérii. Hæc meditáre, in his esto: ut proféctus tuus maniféstus
-          sit ómnibus. Attende tibi et doctrínæ: insta in illis. Hoc enim
-          fáciens, et teípsum salvum fácies, et eos qui te áudiunt.
+          Caríssime: Píetas ad ómnia utilis est: promissiónem habens vitæ, quæ nunc est, et futúræ.
+          Fidélis sermo et omni acceptióne dignus. In hoc enim laborámus et maledícimur, quia
+          sperámus in Deum vivum, qui est Salvátor ómnium hóminum, maxime fidélium. Prǽcipe hæc et
+          doce. Nemo adolescentiam tuam contémnat: sed exémplum esto fidélium in verbo, in
+          conversatióne, in caritáte, in fide, in castitáte. Dum vénio, atténde lectióni,
+          exhortatióni et doctrínæ. Noli neglégere grátiam, quæ in te est, quæ data est tibi per
+          prophétiam, cum impositióne mánuum presbytérii. Hæc meditáre, in his esto: ut proféctus
+          tuus maniféstus sit ómnibus. Attende tibi et doctrínæ: insta in illis. Hoc enim fáciens,
+          et teípsum salvum fácies, et eos qui te áudiunt.
         </Typography>
         <Typography className="vernacular">
-          Caríssimo: A piedade é útil para tudo, tendo a promessa certa e digna
-          de toda a aceitação. Nós, pois, suportamos tantos trabalhos e ultrajes
-          porque temos esperança em Deus vivo, que é o Salvador de todos os
-          homens, principalmente dos fiéis. Recomenda estas coisas e ensina-as.
-          Que ninguém menospreze a tua juventude; e que sirvas de exemplo aos
-          fiéis nas palavras, na conduta, na caridade, na fé e na castidade.
-          Enquanto não vou, aplica-te na leitura, na exortação e no ensino. Não
-          desprezes a graça que há em ti, a qual te foi dada, segundo uma
-          revelação profética, pela imposição das mãos, na assembleia dos
-          presbíteros. Medita nestas coisas e ocupa-te nelas inteiramente, a fim
-          de que os teus progressos sejam evidentes a todos. Vigia-te a ti mesmo
-          e à tua doutrina; aplica-te constantemente nisso, porque, procedendo
-          assim, serás salvo, assim como aqueles que te ouvem.
+          Caríssimo: A piedade é útil para tudo, tendo a promessa certa e digna de toda a aceitação.
+          Nós, pois, suportamos tantos trabalhos e ultrajes porque temos esperança em Deus vivo, que
+          é o Salvador de todos os homens, principalmente dos fiéis. Recomenda estas coisas e
+          ensina-as. Que ninguém menospreze a tua juventude; e que sirvas de exemplo aos fiéis nas
+          palavras, na conduta, na caridade, na fé e na castidade. Enquanto não vou, aplica-te na
+          leitura, na exortação e no ensino. Não desprezes a graça que há em ti, a qual te foi dada,
+          segundo uma revelação profética, pela imposição das mãos, na assembleia dos presbíteros.
+          Medita nestas coisas e ocupa-te nelas inteiramente, a fim de que os teus progressos sejam
+          evidentes a todos. Vigia-te a ti mesmo e à tua doutrina; aplica-te constantemente nisso,
+          porque, procedendo assim, serás salvo, assim como aqueles que te ouvem.
         </Typography>
       </Language>
 
@@ -114,32 +100,29 @@ export default function Page0705() {
 
       <Language>
         <Typography className="latin">
-          Testis mihi est Deus, quo modo cúpiam omnes vos in viscéribus Jesu
-          Christi. Et hoc oro, ut cáritas vestra magis ac magis abúndet in
-          sciéntia et in omni sensu.
+          Testis mihi est Deus, quo modo cúpiam omnes vos in viscéribus Jesu Christi. Et hoc oro, ut
+          cáritas vestra magis ac magis abúndet in sciéntia et in omni sensu.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">ibid., 10</Typography> Ut probétis
-          potióra, ut sitis sincéri et sine offénsa in diem Christi.
+          <Typography className="latin">ibid., 10</Typography> Ut probétis potióra, ut sitis sincéri
+          et sine offénsa in diem Christi.
         </Typography>
         <Typography className="vernacular">
-          Deus é testemunha do modo como vos amo a todos nas entranhas de Jesus
-          Cristo. E o que vos peço é que a vossa caridade aumente cada vez mais
-          na vossa inteligência e em todos vossos sentidos.
+          Deus é testemunha do modo como vos amo a todos nas entranhas de Jesus Cristo. E o que vos
+          peço é que a vossa caridade aumente cada vez mais na vossa inteligência e em todos vossos
+          sentidos.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">ibid., 10</Typography> A fim de que
-          possais distinguir o que é melhor e estejais puros e irrepreensíveis
-          no dia de Cristo.
+          <Typography className="vernacular">ibid., 10</Typography> A fim de que possais distinguir
+          o que é melhor e estejais puros e irrepreensíveis no dia de Cristo.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">ibid., 11</Typography> Repléti fructu
-          justítiæ per Jesum Christum, in glóriam et laudem Dei. Allelúja.
+          <Typography className="latin">ibid., 11</Typography> Repléti fructu justítiæ per Jesum
+          Christum, in glóriam et laudem Dei. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">ibid., 11</Typography> Que sejais
-          cheios dos frutos da justiça por Jesus Cristo, para glória e louvor de
-          Deus. Aleluia.
+          <Typography className="vernacular">ibid., 11</Typography> Que sejais cheios dos frutos da
+          justiça por Jesus Cristo, para glória e louvor de Deus. Aleluia.
         </Typography>
       </Language>
 
@@ -149,41 +132,34 @@ export default function Page0705() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
-          Evangélii secúndum Marcum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum Marcum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo
-          Evangelho segundo S. Marcos.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho segundo S.
+          Marcos.
         </Typography>
         <Typography className="latin">
-          In illo témpore: Dixit Jesus discípulis suis: Quisquis non recéperit
-          regnum Dei velut párvulus, non intrábit in illud. Et compléxans
-          párvulos et impónens manus super illos, benedicébat eos. Et cum
-          egréssus esset in viam, procúrrens quidam, genu flexo ante eum,
-          rogábat eum: Magíster bone, quid fáciam, ut vitam ætérnam percípiam?
-          Jesus autem dixit ei: Quid me dicis bonum? Nemo bonus, nisi unus Deus.
-          Præcépta nosti: Ne adúlteres, ne occídas, ne furéris, ne falsum
-          testimónium díxeris, ne fraudem féceris, honora patrem tuum et matrem.
-          At ille respóndens, ait illi: Magíster, hæc ómnia observávi a
-          juventúte mea. Jesus autem intúitus eum, diléxit eum et dixit ei: Unum
-          tibi deest: vade, quæcúmque habes, vende et da paupéribus, et habébis
-          thesáurum in cælo: et veni, séquere me.
+          In illo témpore: Dixit Jesus discípulis suis: Quisquis non recéperit regnum Dei velut
+          párvulus, non intrábit in illud. Et compléxans párvulos et impónens manus super illos,
+          benedicébat eos. Et cum egréssus esset in viam, procúrrens quidam, genu flexo ante eum,
+          rogábat eum: Magíster bone, quid fáciam, ut vitam ætérnam percípiam? Jesus autem dixit ei:
+          Quid me dicis bonum? Nemo bonus, nisi unus Deus. Præcépta nosti: Ne adúlteres, ne occídas,
+          ne furéris, ne falsum testimónium díxeris, ne fraudem féceris, honora patrem tuum et
+          matrem. At ille respóndens, ait illi: Magíster, hæc ómnia observávi a juventúte mea. Jesus
+          autem intúitus eum, diléxit eum et dixit ei: Unum tibi deest: vade, quæcúmque habes, vende
+          et da paupéribus, et habébis thesáurum in cælo: et veni, séquere me.
         </Typography>
         <Typography className="vernacular">
-          Naquele tempo, disse Jesus aos seus discípulos: «Todo aquele que não
-          receber o reino de Deus, como um menino, não entrará nele». E,
-          abraçando os meninos e pondo as mãos sobre eles, abençoava-os. Então,
-          havendo saído, para começar a sua jornada, correu logo um certo jovem
-          ao seu encontro e, ajoelhando diante d’Ele, perguntou-lhe: «Bom
-          Mestre, que deverei fazer para alcançar a vida eterna?». Jesus
-          disse-lhe: «Porque me chamais bom? Ninguém é bom senão Deus. Tu
-          conheces os mandamentos: não cometas adultério; não mates; não furtes;
-          não digas falso testemunho; não cometas fraudes; honra teu pai e tua
-          mãe?». Então, respondendo ele, disse-lhe: «Tudo isso tenho observado
-          desde a minha juventude». E Jesus fitou-o, mostrou-lhe amizade e
-          disse-lhe: «Uma coisa te falta: vai, vende tudo quanto tens, dá-o aos
-          pobres, e terás um tesouro no céu; depois vem e segue-me».
+          Naquele tempo, disse Jesus aos seus discípulos: «Todo aquele que não receber o reino de
+          Deus, como um menino, não entrará nele». E, abraçando os meninos e pondo as mãos sobre
+          eles, abençoava-os. Então, havendo saído, para começar a sua jornada, correu logo um certo
+          jovem ao seu encontro e, ajoelhando diante d’Ele, perguntou-lhe: «Bom Mestre, que deverei
+          fazer para alcançar a vida eterna?». Jesus disse-lhe: «Porque me chamais bom? Ninguém é
+          bom senão Deus. Tu conheces os mandamentos: não cometas adultério; não mates; não furtes;
+          não digas falso testemunho; não cometas fraudes; honra teu pai e tua mãe?». Então,
+          respondendo ele, disse-lhe: «Tudo isso tenho observado desde a minha juventude». E Jesus
+          fitou-o, mostrou-lhe amizade e disse-lhe: «Uma coisa te falta: vai, vende tudo quanto
+          tens, dá-o aos pobres, e terás um tesouro no céu; depois vem e segue-me».
         </Typography>
       </Language>
 
@@ -193,12 +169,12 @@ export default function Page0705() {
 
       <Language>
         <Typography className="latin">
-          In conspéctu Angelórum psallam tibi: adorábo ad templum sanctum tuum,
-          et confitébor nómini tuo.
+          In conspéctu Angelórum psallam tibi: adorábo ad templum sanctum tuum, et confitébor nómini
+          tuo.
         </Typography>
         <Typography className="vernacular">
-          Cantarei os vossos louvores na presença dos Anjos; ajoelharei no vosso
-          sagrado templo e louvarei o vosso nome.
+          Cantarei os vossos louvores na presença dos Anjos; ajoelharei no vosso sagrado templo e
+          louvarei o vosso nome.
         </Typography>
       </Language>
 
@@ -206,15 +182,14 @@ export default function Page0705() {
 
       <Language>
         <Typography className="latin">
-          Ad mensam cœléstis convívii fac nos, Dómine, eam mentis et córporis
-          puritátem afférre, qua beátus Antónius María, hanc sacratíssimam
-          hóstiam ófferens, mirífice ornátus enítuit. Per Dóminum...
+          Ad mensam cœléstis convívii fac nos, Dómine, eam mentis et córporis puritátem afférre, qua
+          beátus Antónius María, hanc sacratíssimam hóstiam ófferens, mirífice ornátus enítuit. Per
+          Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Permiti, Senhor, que me acompanhe à mesa do celestial banquete aquela
-          pureza de alma e de corpo que ornava de um modo tão brilhante e
-          maravilhoso o B. António Maria, quando oferecia esta hóstia. Por nosso
-          Senhor...
+          Permiti, Senhor, que me acompanhe à mesa do celestial banquete aquela pureza de alma e de
+          corpo que ornava de um modo tão brilhante e maravilhoso o B. António Maria, quando
+          oferecia esta hóstia. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -224,12 +199,12 @@ export default function Page0705() {
 
       <Language>
         <Typography className="latin">
-          Imitatóres mei estóte, fratres, et observáte eos, qui ita ámbulant,
-          sicut habétis formam nostram.
+          Imitatóres mei estóte, fratres, et observáte eos, qui ita ámbulant, sicut habétis formam
+          nostram.
         </Typography>
         <Typography className="vernacular">
-          Meus irmãos, sede meus imitadores e olhai para aqueles que procedem
-          segundo o exemplo que tendes em nós.
+          Meus irmãos, sede meus imitadores e olhai para aqueles que procedem segundo o exemplo que
+          tendes em nós.
         </Typography>
       </Language>
 
@@ -237,16 +212,14 @@ export default function Page0705() {
 
       <Language>
         <Typography className="latin">
-          Cœlésti dape, qua pasti sumus, Dómine Jesu Christe, eo corda nostra
-          caritátis igne flamméscant: quo beátus Antónius María salutáris hóstiæ
-          vexíllum, contra Ecclésiæ tuæ hostes, éxtulit ad victóriam: Qui
-          vivis...
+          Cœlésti dape, qua pasti sumus, Dómine Jesu Christe, eo corda nostra caritátis igne
+          flamméscant: quo beátus Antónius María salutáris hóstiæ vexíllum, contra Ecclésiæ tuæ
+          hostes, éxtulit ad victóriam: Qui vivis...
         </Typography>
         <Typography className="vernacular">
-          Senhor Jesus Cristo, fazei que, pela virtude do celestial festim, de
-          que nos saciastes, os nossos corações se inflamem naquele fogo da
-          Caridade que deu ao B. António Maria a coragem de levar contra os
-          inimigos da vossa Igreja o estandarte da hóstia da salvação, que o
+          Senhor Jesus Cristo, fazei que, pela virtude do celestial festim, de que nos saciastes, os
+          nossos corações se inflamem naquele fogo da Caridade que deu ao B. António Maria a coragem
+          de levar contra os inimigos da vossa Igreja o estandarte da hóstia da salvação, que o
           conduziu à vitória. Ó Vós, que viveis e reinais...
         </Typography>
       </Language>

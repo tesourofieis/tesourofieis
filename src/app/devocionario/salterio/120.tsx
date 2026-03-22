@@ -25,8 +25,7 @@ export default function Page120() {
           Non det in commotiónem pedem tuum: * neque dormítet qui custódit te.
         </Typography>
         <Typography className="vernacular">
-          Não permita Ele que vacile o teu pé: * nem adormeça Aquele que te
-          guarda.
+          Não permita Ele que vacile o teu pé: * nem adormeça Aquele que te guarda.
         </Typography>
         <Typography className="latin">
           Ecce, non dormitábit neque dórmiet, * qui custódit Israël.
@@ -35,12 +34,10 @@ export default function Page120() {
           Eis que não adormecerá, nem dormirá, * O que guarda Israel.
         </Typography>
         <Typography className="latin">
-          Dóminus custódit te, Dóminus protéctio tua, * super manum déxteram
-          tuam.
+          Dóminus custódit te, Dóminus protéctio tua, * super manum déxteram tuam.
         </Typography>
         <Typography className="vernacular">
-          O Senhor te guarda, o Senhor é a tua protecção, * Ele está à tua
-          direita.
+          O Senhor te guarda, o Senhor é a tua protecção, * Ele está à tua direita.
         </Typography>
         <Typography className="latin">
           Per diem sol non uret te: * neque luna per noctem.
@@ -55,12 +52,10 @@ export default function Page120() {
           O Senhor te guarde de todo o mal: * o Senhor guarde a tua alma.
         </Typography>
         <Typography className="latin">
-          Dóminus custódiat intróitum tuum, et éxitum tuum: * ex hoc nunc, et
-          usque in sǽculum.
+          Dóminus custódiat intróitum tuum, et éxitum tuum: * ex hoc nunc, et usque in sǽculum.
         </Typography>
         <Typography className="vernacular">
-          O Senhor guarde a tua entrada e a tua saída: * desde agora e para
-          sempre.
+          O Senhor guarde a tua entrada e a tua saída: * desde agora e para sempre.
         </Typography>
       </Language>
     </PageWrapper>

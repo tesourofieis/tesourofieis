@@ -21,15 +21,14 @@ export default function Page0204() {
 
       <Language>
         <Typography className="latin">
-          Deus, qui in Ecclésia tua nova semper instáuras exémpla virtútum: da
-          pópulo tuo beáti Andréæ Confessóris tui atque Pontíficis ita sequi
-          vestígia; ut assequátur et prǽmia. Per Dóminum...
+          Deus, qui in Ecclésia tua nova semper instáuras exémpla virtútum: da pópulo tuo beáti
+          Andréæ Confessóris tui atque Pontíficis ita sequi vestígia; ut assequátur et prǽmia. Per
+          Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Ó Deus, que na vossa Igreja apresentais constantemente novos exemplos
-          de virtudes, concedei ao vosso povo que de tal modo siga os vestígios
-          do B. André, vosso Confessor e Pontífice, que possa alcançar o mesmo
-          prémio. Por nosso Senhor...
+          Ó Deus, que na vossa Igreja apresentais constantemente novos exemplos de virtudes,
+          concedei ao vosso povo que de tal modo siga os vestígios do B. André, vosso Confessor e
+          Pontífice, que possa alcançar o mesmo prémio. Por nosso Senhor...
         </Typography>
       </Language>
     </PageWrapper>

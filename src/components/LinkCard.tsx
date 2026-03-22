@@ -33,9 +33,7 @@ export function getColor(color?: string) {
 
 export const cardBase = (pressed: boolean) => {
   return `border border-sepia my-1 w-full justify-between rounded-xl shadow-sm p-2 ${
-    pressed
-      ? "bg-sepia-200 dark:bg-sepia-700 opacity-90"
-      : "bg-sepia-100 dark:bg-sepia-800"
+    pressed ? "bg-sepia-200 dark:bg-sepia-700 opacity-90" : "bg-sepia-100 dark:bg-sepia-800"
   }`;
 };
 
@@ -90,10 +88,7 @@ export default function PageLinkCard({
                     </View>
                   </View>
 
-                  <ChevronRight
-                    size={15}
-                    color={pressed ? COLORS[600] : COLORS[500]}
-                  />
+                  <ChevronRight size={15} color={pressed ? COLORS[600] : COLORS[500]} />
                 </View>
               </View>
             )}
@@ -144,17 +139,13 @@ export default function PageLinkCard({
                         {mass.calendar === "62" && (
                           <View className="flex-row items-center gap-1">
                             <Calendar size={12} color={COLORS[500]} />
-                            <Typography className="text-xs text-sepia-500">
-                              1962
-                            </Typography>
+                            <Typography className="text-xs text-sepia-500">1962</Typography>
                           </View>
                         )}
                         {mass.outro && (
                           <View className="flex-row items-center gap-1">
                             <Users size={12} color={COLORS[500]} />
-                            <Typography className="text-xs text-sepia-500">
-                              Alt.
-                            </Typography>
+                            <Typography className="text-xs text-sepia-500">Alt.</Typography>
                           </View>
                         )}
                       </View>
@@ -162,15 +153,9 @@ export default function PageLinkCard({
                   </View>
 
                   {hasChildren ? (
-                    <ChevronDown
-                      size={15}
-                      color={pressed ? COLORS[600] : COLORS[500]}
-                    />
+                    <ChevronDown size={15} color={pressed ? COLORS[600] : COLORS[500]} />
                   ) : (
-                    <ChevronRight
-                      size={15}
-                      color={pressed ? COLORS[600] : COLORS[500]}
-                    />
+                    <ChevronRight size={15} color={pressed ? COLORS[600] : COLORS[500]} />
                   )}
                 </View>
               </View>
@@ -206,10 +191,7 @@ export default function PageLinkCard({
           </View>
 
           {indulgence.link && !noLink ? (
-            <ChevronRight
-              size={15}
-              color={pressed ? COLORS[600] : COLORS[500]}
-            />
+            <ChevronRight size={15} color={pressed ? COLORS[600] : COLORS[500]} />
           ) : null}
         </View>
       </View>
@@ -219,18 +201,14 @@ export default function PageLinkCard({
       return (
         <View>
           <Link href={indulgence.link} asChild>
-            <Pressable>
-              {({ pressed }) => <CardContent pressed={pressed} />}
-            </Pressable>
+            <Pressable>{({ pressed }) => <CardContent pressed={pressed} />}</Pressable>
           </Link>
         </View>
       );
     } else {
       return (
         <View>
-          <Pressable>
-            {({ pressed }) => <CardContent pressed={pressed} />}
-          </Pressable>
+          <Pressable>{({ pressed }) => <CardContent pressed={pressed} />}</Pressable>
         </View>
       );
     }
@@ -287,15 +265,9 @@ export default function PageLinkCard({
                   </View>
 
                   {hasChildren ? (
-                    <ChevronDown
-                      size={15}
-                      color={pressed ? COLORS[600] : COLORS[500]}
-                    />
+                    <ChevronDown size={15} color={pressed ? COLORS[600] : COLORS[500]} />
                   ) : (
-                    <ChevronRight
-                      size={15}
-                      color={pressed ? COLORS[600] : COLORS[500]}
-                    />
+                    <ChevronRight size={15} color={pressed ? COLORS[600] : COLORS[500]} />
                   )}
                 </View>
               </View>

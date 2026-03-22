@@ -10,20 +10,16 @@ export default function PageParcedomine() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Parce, Domine, parce
-          populo tuo:
+          <Typography className="versicle"> ℣. </Typography>Parce, Domine, parce populo tuo:
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Perdoai, Senhor,
-          perdoai ao vosso povo.
+          <Typography className="versicle"> ℣. </Typography>Perdoai, Senhor, perdoai ao vosso povo.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Ne in aeternum
-          irascaris nobis.
+          <Typography className="response"> ℟. </Typography> Ne in aeternum irascaris nobis.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Não fiqueis sempre
-          irritado contra nós.
+          <Typography className="response"> ℟. </Typography> Não fiqueis sempre irritado contra nós.
         </Typography>
       </Language>
     </PageWrapper>

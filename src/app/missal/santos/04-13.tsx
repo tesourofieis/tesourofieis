@@ -24,15 +24,13 @@ export default function Page0413() {
       <H3 text="Oração" />
       <Language>
         <Typography className="latin">
-          Deus, qui beátum Hermenegíldum Mártyrem tuum cœlésti regno terrénum
-          postpónere docuísti: da, quǽsumus, nobis; ejus exémplo cadúca
-          despícere atque ætérna sectári. Per Dóminum...
+          Deus, qui beátum Hermenegíldum Mártyrem tuum cœlésti regno terrénum postpónere docuísti:
+          da, quǽsumus, nobis; ejus exémplo cadúca despícere atque ætérna sectári. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Ó Deus, que ensinastes o S. Hermenegildo, vosso Mártir, a preferir o
-          reino celestial ao terrestre, concedei-nos a graça, Vos suplicamos,
-          de, seguindo seus exemplos, desprezarmos os bens caducos e amarmos os
-          eternos. Por nosso Senhor...
+          Ó Deus, que ensinastes o S. Hermenegildo, vosso Mártir, a preferir o reino celestial ao
+          terrestre, concedei-nos a graça, Vos suplicamos, de, seguindo seus exemplos, desprezarmos
+          os bens caducos e amarmos os eternos. Por nosso Senhor...
         </Typography>
       </Language>
       <H3 text="Evangelho" />

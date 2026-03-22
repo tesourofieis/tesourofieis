@@ -86,9 +86,7 @@ const copyToClipboard = async (text: string) => {
   await Clipboard.setStringAsync(text);
 };
 
-const showCopiedFeedback = (
-  message = "Copiado para a área de transferência",
-) => {
+const showCopiedFeedback = (message = "Copiado para a área de transferência") => {
   if (Platform.OS === "android") {
     ToastAndroid.show(message, ToastAndroid.SHORT);
   } else {
@@ -128,11 +126,7 @@ export default function ExternalLinks() {
                       return (
                         <IconComponent
                           size={15}
-                          color={
-                            colorScheme === "dark"
-                              ? COLORS["200"]
-                              : COLORS["800"]
-                          }
+                          color={colorScheme === "dark" ? COLORS["200"] : COLORS["800"]}
                         />
                       );
                     })()}

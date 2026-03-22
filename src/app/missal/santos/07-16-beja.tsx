@@ -14,10 +14,9 @@ export default function Page0716Beja() {
         </Link>{" "}
         , excepto:
       </Typography>
-      <H3 text="Oração" />Ó omnipotente Deus, que ao B. Levita Sisenando destes
-      coragem para abraçar e vencer o próprio martírio, concedei-nos, Vos
-      pedimos, que virilmente abracemos o estreito caminho da salvação. Por
-      nosso Senhor...
+      <H3 text="Oração" />Ó omnipotente Deus, que ao B. Levita Sisenando destes coragem para abraçar
+      e vencer o próprio martírio, concedei-nos, Vos pedimos, que virilmente abracemos o estreito
+      caminho da salvação. Por nosso Senhor...
     </PageWrapper>
   );
 }

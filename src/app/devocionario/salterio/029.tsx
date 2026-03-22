@@ -10,12 +10,11 @@ export default function Page029() {
 
       <Language>
         <Typography className="latin">
-          Exaltábo Te, Dómine, quóniam suscepísti me: * nec delectásti inimícos
-          meos super me.
+          Exaltábo Te, Dómine, quóniam suscepísti me: * nec delectásti inimícos meos super me.
         </Typography>
         <Typography className="vernacular">
-          Eu Vos glorificarei, ó Senhor, porque me recebestes: * nem permitistes
-          que meus inimigos se alegrassem à minha custa.
+          Eu Vos glorificarei, ó Senhor, porque me recebestes: * nem permitistes que meus inimigos
+          se alegrassem à minha custa.
         </Typography>
         <Typography className="latin">
           Dómine, Deus meus, clamávi ad Te, * et sanásti me.
@@ -24,16 +23,13 @@ export default function Page029() {
           Ó Senhor meu Deus, clamei a Vós, * e me sarastes.
         </Typography>
         <Typography className="latin">
-          Dómine, eduxísti ab inférno ánimam meam: * salvásti me a
-          descendéntibus in lacum.
+          Dómine, eduxísti ab inférno ánimam meam: * salvásti me a descendéntibus in lacum.
         </Typography>
         <Typography className="vernacular">
-          Senhor, tirastes do inferno a minha alma: * pusestes-me a salvo dos
-          que descem à cova.
+          Senhor, tirastes do inferno a minha alma: * pusestes-me a salvo dos que descem à cova.
         </Typography>
         <Typography className="latin">
-          Psállite Dómino, sancti ejus: * et confitémini memóriæ sanctitátis
-          ejus.
+          Psállite Dómino, sancti ejus: * et confitémini memóriæ sanctitátis ejus.
         </Typography>
         <Typography className="vernacular">
           Cantai ao Senhor, ó seus santos: * e celebrai a sua santa memória.
@@ -87,28 +83,25 @@ export default function Page029() {
           Porventura o pó professar-Vos-á * ou anunciará a vossa verdade?
         </Typography>
         <Typography className="latin">
-          Audívit Dóminus, et misértus est mei: * Dóminus factus est adjútor
-          meus.
+          Audívit Dóminus, et misértus est mei: * Dóminus factus est adjútor meus.
         </Typography>
         <Typography className="vernacular">
-          O Senhor me ouviu e teve misericórdia de mim: * o Senhor fez-se meu
-          auxílio.
+          O Senhor me ouviu e teve misericórdia de mim: * o Senhor fez-se meu auxílio.
         </Typography>
         <Typography className="latin">
-          Convertísti planctum meum in gáudium mihi: * conscidísti saccum meum,
-          et circumdedísti me lætítia:
+          Convertísti planctum meum in gáudium mihi: * conscidísti saccum meum, et circumdedísti me
+          lætítia:
         </Typography>
         <Typography className="vernacular">
-          O meu pranto convertestes em júbilo: * rasgastes o meu luto e me
-          cercastes de alegria:
+          O meu pranto convertestes em júbilo: * rasgastes o meu luto e me cercastes de alegria:
         </Typography>
         <Typography className="latin">
-          Ut cantet tibi glória mea, et non compúngar: * Dómine, Deus meus, in
-          ætérnum confitébor tibi.
+          Ut cantet tibi glória mea, et non compúngar: * Dómine, Deus meus, in ætérnum confitébor
+          tibi.
         </Typography>
         <Typography className="vernacular">
-          Para que até ao fim a minha glória Vos cante e me não abale: * ó
-          Senhor meu Deus, Vos louvarei eternamente.
+          Para que até ao fim a minha glória Vos cante e me não abale: * ó Senhor meu Deus, Vos
+          louvarei eternamente.
         </Typography>
       </Language>
     </PageWrapper>

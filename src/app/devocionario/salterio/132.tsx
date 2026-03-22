@@ -22,16 +22,14 @@ export default function Page132() {
           Como unção na cabeça, * que desce sobre a barba de Arão,
         </Typography>
         <Typography className="latin">
-          Quod descéndit in oram vestiménti ejus: * sicut ros Hermon, qui
-          descéndit in montem Sion.
+          Quod descéndit in oram vestiménti ejus: * sicut ros Hermon, qui descéndit in montem Sion.
         </Typography>
         <Typography className="vernacular">
-          Que desce até à orla do seu manto: * como o orvalho do Hermon, que
-          desce sobre o monte Sião.
+          Que desce até à orla do seu manto: * como o orvalho do Hermon, que desce sobre o monte
+          Sião.
         </Typography>
         <Typography className="latin">
-          Quóniam illic mandávit Dóminus benedictiónem, * et vitam usque in
-          sǽculum.
+          Quóniam illic mandávit Dóminus benedictiónem, * et vitam usque in sǽculum.
         </Typography>
         <Typography className="vernacular">
           Porque o Senhor derramou ali a sua bênção, * e vida para sempre.

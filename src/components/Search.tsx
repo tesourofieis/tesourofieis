@@ -1,11 +1,4 @@
-import {
-  BookPlus,
-  Search,
-  X,
-  Filter,
-  Tag,
-  CircleDot,
-} from "lucide-react-native";
+import { BookPlus, Search, X, Filter, Tag, CircleDot } from "lucide-react-native";
 import { burgundy } from "config";
 import { useRouter } from "expo-router";
 import React, {
@@ -66,11 +59,7 @@ export const useSearchModal = () => {
   return context;
 };
 
-export function SearchModalProvider({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export function SearchModalProvider({ children }: { children: React.ReactNode }) {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const router = useRouter();
@@ -113,14 +102,10 @@ export function SearchModalProvider({
 
     const globalWindow = globalThis as {
       addEventListener?: (type: string, listener: (event: any) => void) => void;
-      removeEventListener?: (
-        type: string,
-        listener: (event: any) => void,
-      ) => void;
+      removeEventListener?: (type: string, listener: (event: any) => void) => void;
     };
 
-    if (!globalWindow.addEventListener || !globalWindow.removeEventListener)
-      return;
+    if (!globalWindow.addEventListener || !globalWindow.removeEventListener) return;
 
     const handleKeyDown = (event: {
       key?: string;
@@ -200,10 +185,7 @@ const renderFTSHighlightedText = (text: string) => {
         if (part.startsWith("<b>") && part.endsWith("</b>")) {
           const highlightedContent = part.slice(3, -4);
           return (
-            <Typography
-              key={part + i}
-              className="bg-sepia-400 dark:bg-sepia-600 bold"
-            >
+            <Typography key={part + i} className="bg-sepia-400 dark:bg-sepia-600 bold">
               {highlightedContent}
             </Typography>
           );
@@ -241,9 +223,7 @@ const SearchResultItem = React.memo(
     const displaySnippet = item.matchedText;
     const fallbackSnippet =
       item.content.introduction ||
-      (item.content.headings.length > 0
-        ? item.content.headings[0]!.body
-        : "") ||
+      (item.content.headings.length > 0 ? item.content.headings[0]!.body : "") ||
       "";
 
     return (
@@ -255,9 +235,7 @@ const SearchResultItem = React.memo(
           </View>
 
           <Typography className="aside" numberOfLines={2}>
-            {displaySnippet
-              ? renderFTSHighlightedText(displaySnippet)
-              : fallbackSnippet}
+            {displaySnippet ? renderFTSHighlightedText(displaySnippet) : fallbackSnippet}
           </Typography>
 
           {item.content.headings.length > 1 && (
@@ -268,14 +246,8 @@ const SearchResultItem = React.memo(
                   .filter((heading) => heading.id !== item.matchedHeading?.id)
                   .slice(0, 10)
                   .map((heading) => (
-                    <TouchableOpacity
-                      key={heading.id}
-                      onPress={() => handlePress(heading.id)}
-                    >
-                      <Typography
-                        className="font-display text-xs underline"
-                        numberOfLines={1}
-                      >
+                    <TouchableOpacity key={heading.id} onPress={() => handlePress(heading.id)}>
+                      <Typography className="font-display text-xs underline" numberOfLines={1}>
                         {heading.title}
                       </Typography>
                     </TouchableOpacity>
@@ -340,9 +312,7 @@ function SearchFiltersBar({
               onPress={() => setSelectedSections([])}
               className="px-3 py-1 rounded-full bg-red-200 dark:bg-red-700"
             >
-              <Typography className="text-xs text-red-700 dark:text-red-200">
-                Limpar
-              </Typography>
+              <Typography className="text-xs text-red-700 dark:text-red-200">Limpar</Typography>
             </TouchableOpacity>
           )}
           {availableSections.map((section) => {
@@ -352,9 +322,7 @@ function SearchFiltersBar({
                 key={section}
                 onPress={() => {
                   if (isSelected) {
-                    setSelectedSections((prev) =>
-                      prev.filter((s) => s !== section),
-                    );
+                    setSelectedSections((prev) => prev.filter((s) => s !== section));
                   } else {
                     setSelectedSections((prev) => [...prev, section]);
                   }
@@ -421,10 +389,7 @@ function SearchResults({
             {selectedSections.length > 0 && (
               <Typography className="text-xs">
                 {" "}
-                em{" "}
-                {selectedSections
-                  .map((s) => getSectionDisplayName(s))
-                  .join(", ")}
+                em {selectedSections.map((s) => getSectionDisplayName(s)).join(", ")}
               </Typography>
             )}
           </Typography>
@@ -617,24 +582,14 @@ const SearchBottomSheet = React.forwardRef<
                 color: isDark ? COLORS["100"] : COLORS["900"],
               }}
             />
-            <TouchableOpacity
-              onPress={() => setShowFilters(!showFilters)}
-              className="ml-2 p-1"
-            >
+            <TouchableOpacity onPress={() => setShowFilters(!showFilters)} className="ml-2 p-1">
               <Filter
                 size={15}
-                color={
-                  selectedSections.length > 0
-                    ? burgundy[500]
-                    : colors.placeholder
-                }
+                color={selectedSections.length > 0 ? burgundy[500] : colors.placeholder}
               />
             </TouchableOpacity>
             {!!searchQuery && (
-              <TouchableOpacity
-                onPress={() => setSearchQuery("")}
-                className="ml-1 p-1"
-              >
+              <TouchableOpacity onPress={() => setSearchQuery("")} className="ml-1 p-1">
                 <X size={16} color={colors.placeholder} />
               </TouchableOpacity>
             )}
@@ -671,11 +626,7 @@ const SearchBottomSheet = React.forwardRef<
         </View>
 
         {results.map((item) => (
-          <SearchResultItem
-            key={item.id}
-            item={item}
-            onPress={handleNavigate}
-          />
+          <SearchResultItem key={item.id} item={item} onPress={handleNavigate} />
         ))}
       </BottomSheetScrollView>
     </BottomSheetModal>
@@ -765,30 +716,16 @@ function SearchModal({
                   autoFocus
                   returnKeyType="search"
                   className="flex-1 py-3 ml-2 text-sepia-900 dark:text-sepia-100"
-                  style={
-                    Platform.OS === "web"
-                      ? ({ outlineStyle: "none" } as any)
-                      : undefined
-                  }
+                  style={Platform.OS === "web" ? ({ outlineStyle: "none" } as any) : undefined}
                 />
-                <TouchableOpacity
-                  onPress={() => setShowFilters(!showFilters)}
-                  className="ml-2 p-1"
-                >
+                <TouchableOpacity onPress={() => setShowFilters(!showFilters)} className="ml-2 p-1">
                   <Filter
                     size={15}
-                    color={
-                      selectedSections.length > 0
-                        ? burgundy[500]
-                        : colors.placeholder
-                    }
+                    color={selectedSections.length > 0 ? burgundy[500] : colors.placeholder}
                   />
                 </TouchableOpacity>
                 {!!searchQuery && (
-                  <TouchableOpacity
-                    onPress={() => setSearchQuery("")}
-                    className="ml-2"
-                  >
+                  <TouchableOpacity onPress={() => setSearchQuery("")} className="ml-2">
                     <X size={15} color={colors.placeholder} />
                   </TouchableOpacity>
                 )}

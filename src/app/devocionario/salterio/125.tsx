@@ -10,12 +10,10 @@ export default function Page125() {
 
       <Language>
         <Typography className="latin">
-          In converténdo Dóminus captivitátem Sion: * facti sumus sicut
-          consoláti:
+          In converténdo Dóminus captivitátem Sion: * facti sumus sicut consoláti:
         </Typography>
         <Typography className="vernacular">
-          Quando o Senhor fez volver os cativos de Sião: * nós ficámos cheios de
-          consolação:
+          Quando o Senhor fez volver os cativos de Sião: * nós ficámos cheios de consolação:
         </Typography>
         <Typography className="latin">
           Tunc replétum est gáudio os nostrum: * et lingua nostra exsultatióne.
@@ -27,8 +25,7 @@ export default function Page125() {
           Tunc dicent inter gentes: * Magnificávit Dóminus fácere cum eis.
         </Typography>
         <Typography className="vernacular">
-          Então dir-se-á entre as gentes: * grandes coisas fez o Senhor para
-          eles.
+          Então dir-se-á entre as gentes: * grandes coisas fez o Senhor para eles.
         </Typography>
         <Typography className="latin">
           Magnificávit Dóminus fácere nobíscum: * facti sumus lætántes.
@@ -48,9 +45,7 @@ export default function Page125() {
         <Typography className="vernacular">
           Os que semeiam em lágrimas, * em exultação ceifarão.
         </Typography>
-        <Typography className="latin">
-          Eúntes ibant et flebant, * mitténtes sémina sua.
-        </Typography>
+        <Typography className="latin">Eúntes ibant et flebant, * mitténtes sémina sua.</Typography>
         <Typography className="vernacular">
           Andando iam e choravam, * lançando as suas sementes.
         </Typography>

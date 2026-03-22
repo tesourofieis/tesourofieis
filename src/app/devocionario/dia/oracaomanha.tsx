@@ -9,56 +9,48 @@ export default function PageOracaomanha() {
     <PageWrapper>
       <H1 text="Oração da Manhã" />
       <Typography className="vernacular">
-        Meu Senhor e meu Deus, humildemente Vos adoro em união com todos os
-        Anjos e Santos. Eu Vos dou graças pelo vosso infinito amor,
-        particularmente por me haverdes conservado com tanta bondade e
-        misericórdia até hoje. Ofereço-Vos as acções deste dia: fazei que sejam
-        todas segundo a vossa santa vontade e peço-Vos que neste dia me
-        preserveis do pecado, e me livreis de todo o mal. Que a graça do Senhor,
-        nosso Deus, resplandeça a nossos olhos. Inspirai lá do vosso trono, as
-        nossas obras, assim como o trabalho das nossas mãos.
+        Meu Senhor e meu Deus, humildemente Vos adoro em união com todos os Anjos e Santos. Eu Vos
+        dou graças pelo vosso infinito amor, particularmente por me haverdes conservado com tanta
+        bondade e misericórdia até hoje. Ofereço-Vos as acções deste dia: fazei que sejam todas
+        segundo a vossa santa vontade e peço-Vos que neste dia me preserveis do pecado, e me livreis
+        de todo o mal. Que a graça do Senhor, nosso Deus, resplandeça a nossos olhos. Inspirai lá do
+        vosso trono, as nossas obras, assim como o trabalho das nossas mãos.
       </Typography>
       <JamLucis />
       <H2 text="Oferecimento de si mesmo" />
       <Typography className="vernacular">
-        Tomai, Senhor, e recebei, toda minha liberdade, a minha memória, o meu
-        entendimento e toda minha vontade. Tudo quanto tenho e possuo de Vós o
-        recebi. Por isso a Vós, Senhor, o entrego e restituo para que disponhais
-        de tudo segundo a vossa vontade. Concedei-me somente o vosso amor e a
-        vossa graça que isto me basta, nem outra coisa desejo da vossa
-        misericórdia infinita.
+        Tomai, Senhor, e recebei, toda minha liberdade, a minha memória, o meu entendimento e toda
+        minha vontade. Tudo quanto tenho e possuo de Vós o recebi. Por isso a Vós, Senhor, o entrego
+        e restituo para que disponhais de tudo segundo a vossa vontade. Concedei-me somente o vosso
+        amor e a vossa graça que isto me basta, nem outra coisa desejo da vossa misericórdia
+        infinita.
       </Typography>
       <H2 text="Consagração do dia" />
       <Language>
         <Typography className="latin">
-          Dirigere et sanctificare, regere et gubernare dignare, Dómine Deus,
-          Rex cæli et terræ, hodie corda et corpora nostra, sensus, sermones et
-          actus nostros in lege tua et in operibus mandatorum tuórum, ut hic et
-          in æternum, te auxiliante salvi et liberi esse mereámur, Salvator
-          mundi, qui vivis et regnas in sǽcula sæculórum. Amen.
+          Dirigere et sanctificare, regere et gubernare dignare, Dómine Deus, Rex cæli et terræ,
+          hodie corda et corpora nostra, sensus, sermones et actus nostros in lege tua et in
+          operibus mandatorum tuórum, ut hic et in æternum, te auxiliante salvi et liberi esse
+          mereámur, Salvator mundi, qui vivis et regnas in sǽcula sæculórum. Amen.
         </Typography>
         <Typography className="vernacular">
-          Ó Senhor Deus, Rei do céu e da terra, dignai-Vos dirigir e santificar,
-          mandar e governar os nossos corações e os nossos corpos, os nossos
-          pensamentos, as nossas palavras e as nossas acções, segundo a vossa
-          lei e no cumprimento dos vossos Mandamentos, afim de que aqui e
-          eternamente com vosso auxílio mereçamos alcançar a salvação e a
-          liberdade, Ó Salvador do mundo, que viveis e reinais por todos os
-          séculos dos séculos. Amen.
+          Ó Senhor Deus, Rei do céu e da terra, dignai-Vos dirigir e santificar, mandar e governar
+          os nossos corações e os nossos corpos, os nossos pensamentos, as nossas palavras e as
+          nossas acções, segundo a vossa lei e no cumprimento dos vossos Mandamentos, afim de que
+          aqui e eternamente com vosso auxílio mereçamos alcançar a salvação e a liberdade, Ó
+          Salvador do mundo, que viveis e reinais por todos os séculos dos séculos. Amen.
         </Typography>
       </Language>
       <H2 text="Consagração a Maria Santíssima" />
       <Typography className="vernacular">
-        Ó Senhora minha, ó minha Mãe, eu me ofereço todo a Vós. E em prova da
-        minha devoção para convosco Vos consagro neste dia, os meus olhos, os
-        meus ouvidos, a minha boca, o meu coração e todo meu ser. E porque assim
-        sou vosso, ó incomparável Mãe, guardai-me e defendei-me como propriedade
-        vossa.
+        Ó Senhora minha, ó minha Mãe, eu me ofereço todo a Vós. E em prova da minha devoção para
+        convosco Vos consagro neste dia, os meus olhos, os meus ouvidos, a minha boca, o meu coração
+        e todo meu ser. E porque assim sou vosso, ó incomparável Mãe, guardai-me e defendei-me como
+        propriedade vossa.
       </Typography>
       <Typography className="vernacular">
-        Que o Senhor nos abençoe, nos preserve de todo o mal e nos conduza até à
-        vida eterna; e que as almas dos fiéis defuntos, pela misericórdia de
-        Deus, descansem em paz. Amen.
+        Que o Senhor nos abençoe, nos preserve de todo o mal e nos conduza até à vida eterna; e que
+        as almas dos fiéis defuntos, pela misericórdia de Deus, descansem em paz. Amen.
       </Typography>
     </PageWrapper>
   );

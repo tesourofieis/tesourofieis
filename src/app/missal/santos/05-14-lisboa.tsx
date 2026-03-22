@@ -21,17 +21,15 @@ export default function Page0514Lisboa() {
 
       <Language>
         <Typography className="latin">
-          Misericórdiam tuam, Deus, súpplices implorámus: ut sicut, ea
-          præveniénte, beátum Ægídium in viam justitiæ et sanctitátis redíre
-          fecísti; ita nos e servitúte ac morte peccáti in perféctam tránsferas
-          libertátem et vitam. Per Dóminum...
+          Misericórdiam tuam, Deus, súpplices implorámus: ut sicut, ea præveniénte, beátum Ægídium
+          in viam justitiæ et sanctitátis redíre fecísti; ita nos e servitúte ac morte peccáti in
+          perféctam tránsferas libertátem et vitam. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Humildemente imploramos a vossa misericórdia, ó Deus, a fim de que,
-          assim como em virtude dela permitistes que o B. Gil regressasse ao
-          caminho da justiça e da santidade, assim também nos trasladeis do
-          caminho da escravidão e da morte do pecado para o da liberdade e da
-          vida perfeita. Por nosso Senhor...
+          Humildemente imploramos a vossa misericórdia, ó Deus, a fim de que, assim como em virtude
+          dela permitistes que o B. Gil regressasse ao caminho da justiça e da santidade, assim
+          também nos trasladeis do caminho da escravidão e da morte do pecado para o da liberdade e
+          da vida perfeita. Por nosso Senhor...
         </Typography>
       </Language>
     </PageWrapper>

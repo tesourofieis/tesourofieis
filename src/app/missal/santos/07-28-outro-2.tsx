@@ -10,11 +10,10 @@ export default function Page0728Outro2() {
       <H1 text="S. Inocêncio, Papa e Conf., a 28 de Julho" />
 
       <Typography className="comment">
-        Inocêncio I nasceu em Albano e viveu no tempo de Santo Agostinho e de S.
-        Jerónimo. Este último escreveu a seu respeito: «Guardai a fé de Santo
-        Inocêncio que ocupa a cátedra apostólica, sucessor e filho espiritual de
-        Anastácio, de feliz memória; não recebais outra doutrina por mais sábia
-        e sedutora que pareça». Morreu no ano 417.
+        Inocêncio I nasceu em Albano e viveu no tempo de Santo Agostinho e de S. Jerónimo. Este
+        último escreveu a seu respeito: «Guardai a fé de Santo Inocêncio que ocupa a cátedra
+        apostólica, sucessor e filho espiritual de Anastácio, de feliz memória; não recebais outra
+        doutrina por mais sábia e sedutora que pareça». Morreu no ano 417.
       </Typography>
 
       <Missa />

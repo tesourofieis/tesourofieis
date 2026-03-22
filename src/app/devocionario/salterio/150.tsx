@@ -10,20 +10,16 @@ export default function Page150() {
 
       <Language>
         <Typography className="latin">
-          Laudáte Dóminum in sanctis ejus: * laudáte eum in firmaménto virtútis
-          ejus.
+          Laudáte Dóminum in sanctis ejus: * laudáte eum in firmaménto virtútis ejus.
         </Typography>
         <Typography className="vernacular">
-          Louvai o Senhor no seu santuário: * louvai-O no seu augusto
-          firmamento.
+          Louvai o Senhor no seu santuário: * louvai-O no seu augusto firmamento.
         </Typography>
         <Typography className="latin">
-          Laudáte eum in virtútibus ejus: * laudáte eum secúndum multitúdinem
-          magnitúdinis ejus.
+          Laudáte eum in virtútibus ejus: * laudáte eum secúndum multitúdinem magnitúdinis ejus.
         </Typography>
         <Typography className="vernacular">
-          Louvai-O nas suas virtudes: * louvai-O segundo a multitude da sua
-          grandeza.
+          Louvai-O nas suas virtudes: * louvai-O segundo a multitude da sua grandeza.
         </Typography>
         <Typography className="latin">
           Laudáte eum in sono tubæ: * laudáte eum in psaltério, et cíthara.
@@ -38,12 +34,12 @@ export default function Page150() {
           Louvai-O com timbales e em coro: * louvai-O com cordas e órgão.
         </Typography>
         <Typography className="latin">
-          Laudáte eum in cýmbalis benesonántibus: laudáte eum in cýmbalis
-          jubilatiónis: * omnis spíritus laudet Dóminum.
+          Laudáte eum in cýmbalis benesonántibus: laudáte eum in cýmbalis jubilatiónis: * omnis
+          spíritus laudet Dóminum.
         </Typography>
         <Typography className="vernacular">
-          Louvai-O com címbalos melodiosos: louvai-O com címbalos de júbilo: *
-          todo o espírito louve o Senhor.
+          Louvai-O com címbalos melodiosos: louvai-O com címbalos de júbilo: * todo o espírito louve
+          o Senhor.
         </Typography>
       </Language>
     </PageWrapper>

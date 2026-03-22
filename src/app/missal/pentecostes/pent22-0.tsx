@@ -14,19 +14,17 @@ export default function PagePent220() {
 
       <Language>
         <Typography className="latin">
-          Si iniquitátes observáveris, Dómine: Dómine, quis sustinébit? quia
-          apud te propitiátio est, Deus Israël.{" "}
-          <Typography className="latin">Ps. ibid., 1-2</Typography> De profúndis
+          Si iniquitátes observáveris, Dómine: Dómine, quis sustinébit? quia apud te propitiátio
+          est, Deus Israël. <Typography className="latin">Ps. ibid., 1-2</Typography> De profúndis
           clamávi ad te, Dómine: Dómine, exáudi vocem meam.
           <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
         <Typography className="vernacular">
-          Se atenderdes às nossas iniquidades, Senhor, Senhor, quem poderá
-          subsistir diante de Vós? Sois cheio de misericórdia, ó Deus de Israel!{" "}
-          <Typography className="vernacular">Sl. ibid., 1-2</Typography> Das
-          profundezas dos abysmos, Senhor, clamei por Vós: ouvi, pois, a minha
-          oração, Senhor.
+          Se atenderdes às nossas iniquidades, Senhor, Senhor, quem poderá subsistir diante de Vós?
+          Sois cheio de misericórdia, ó Deus de Israel!{" "}
+          <Typography className="vernacular">Sl. ibid., 1-2</Typography> Das profundezas dos
+          abysmos, Senhor, clamei por Vós: ouvi, pois, a minha oração, Senhor.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -35,15 +33,13 @@ export default function PagePent220() {
 
       <Language>
         <Typography className="latin">
-          Deus, refúgium nostrum et virtus: adésto piis Ecclésiæ tuæ précibus,
-          auctor ipse pietátis, et præsta; ut, quod fidéliter pétimus,
-          efficáciter consequámur. Per Dóminum...
+          Deus, refúgium nostrum et virtus: adésto piis Ecclésiæ tuæ précibus, auctor ipse pietátis,
+          et præsta; ut, quod fidéliter pétimus, efficáciter consequámur. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Ó Deus, nosso refúgio e fortaleza, que sois a origem de toda a
-          piedade, ouvi benigno as piedosas preces da vossa Igreja e
-          concedei-nos a graça de alcançarmos com eficácia o que com fé Vos
-          suplicamos. Por nosso Senhor...
+          Ó Deus, nosso refúgio e fortaleza, que sois a origem de toda a piedade, ouvi benigno as
+          piedosas preces da vossa Igreja e concedei-nos a graça de alcançarmos com eficácia o que
+          com fé Vos suplicamos. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -59,27 +55,23 @@ export default function PagePent220() {
           Lição da Ep.ª do B. Ap.º Paulo aos Filipenses.
         </Typography>
         <Typography className="latin">
-          Fratres: Confídimus in Dómino Jesu, quia, qui cœpit in vobis opus
-          bonum, perfíciet usque in diem Christi Jesu. Sicut est mihi justum hoc
-          sentíre pro ómnibus vobis: eo quod hábeam vos in corde, et in vínculis
-          meis, etin defensióne, et confirmatióne Evangélii, sócios gáudii mei
-          omnes vos esse. Testis enim mihi est Deus, quómodo cúpiam omnes vos in
-          viscéribus Jesu Christi. Et hoc oro, ut cáritas vestra magis ac magis
-          abúndet in sciéntia et in omni sensu: ut probétis potióra, ut sitis
-          sincéri et sine offénsa in diem Christi, repléti fructu justítiæ per
-          Jesum Christum, in glóriam et laudem Dei.
+          Fratres: Confídimus in Dómino Jesu, quia, qui cœpit in vobis opus bonum, perfíciet usque
+          in diem Christi Jesu. Sicut est mihi justum hoc sentíre pro ómnibus vobis: eo quod hábeam
+          vos in corde, et in vínculis meis, etin defensióne, et confirmatióne Evangélii, sócios
+          gáudii mei omnes vos esse. Testis enim mihi est Deus, quómodo cúpiam omnes vos in
+          viscéribus Jesu Christi. Et hoc oro, ut cáritas vestra magis ac magis abúndet in sciéntia
+          et in omni sensu: ut probétis potióra, ut sitis sincéri et sine offénsa in diem Christi,
+          repléti fructu justítiæ per Jesum Christum, in glóriam et laudem Dei.
         </Typography>
         <Typography className="vernacular">
-          Meus irmãos: Tenho firme confiança de que aquele que começou em vós o
-          bom trabalho há-de continuá-lo até ao dia de Jesus Cristo. Justo é que
-          assim pense de vós, porque sinto no coração que comparticipais da
-          minha alegria, quer seja nas minhas prisões, quer na defesa e
-          confirmação do Evangelho. Deus é testemunha do modo como vos amo a
-          todos, no afecto íntimo de Jesus Cristo. Rogo-lhe que a vossa caridade
-          cresça cada vez mais em luz e inteligência, a fim de que possais
-          distinguir aquilo que é melhor, para serdes puros e sem mancha até ao
-          dia de Cristo e cheios dos frutos da justiça por Jesus Cristo, em
-          louvor e glória de Deus.
+          Meus irmãos: Tenho firme confiança de que aquele que começou em vós o bom trabalho há-de
+          continuá-lo até ao dia de Jesus Cristo. Justo é que assim pense de vós, porque sinto no
+          coração que comparticipais da minha alegria, quer seja nas minhas prisões, quer na defesa
+          e confirmação do Evangelho. Deus é testemunha do modo como vos amo a todos, no afecto
+          íntimo de Jesus Cristo. Rogo-lhe que a vossa caridade cresça cada vez mais em luz e
+          inteligência, a fim de que possais distinguir aquilo que é melhor, para serdes puros e sem
+          mancha até ao dia de Cristo e cheios dos frutos da justiça por Jesus Cristo, em louvor e
+          glória de Deus.
         </Typography>
       </Language>
 
@@ -95,20 +87,18 @@ export default function PagePent220() {
         </Typography>
         <Typography className="vernacular">
           Oh! Como é bom e suave aos irmãos habitarem juntos!
-          <Typography className="versicle"> ℣. </Typography>É como o perfume
-          espalhado pela cabeça que desce por toda a barba, por toda a barba de
-          Aarão!
+          <Typography className="versicle"> ℣. </Typography>É como o perfume espalhado pela cabeça
+          que desce por toda a barba, por toda a barba de Aarão!
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 113, 11</Typography> Qui timent
-          Dóminum sperent in eo: adjútor et protéctor eórum est. Allelúja.
+          <Typography className="latin">Ps. 113, 11</Typography> Qui timent Dóminum sperent in eo:
+          adjútor et protéctor eórum est. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 113, 11</Typography> Que
-          aqueles que têm temor do Senhor esperem n’Ele, que é o seu
-          sustentáculo e protector. Aleluia.
+          <Typography className="vernacular">Sl. 113, 11</Typography> Que aqueles que têm temor do
+          Senhor esperem n’Ele, que é o seu sustentáculo e protector. Aleluia.
         </Typography>
       </Language>
 
@@ -118,38 +108,34 @@ export default function PagePent220() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
-          Evangélii secúndum Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
+          Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo
-          Evangelho segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho segundo S.
+          Mateus.
         </Typography>
         <Typography className="latin">
-          In illo témpore: Abeúntes pharisǽi consílium iniérunt, ut cáperent
-          Jesum in sermóne. Et mittunt ei discípulos suos cum Herodiánis,
-          dicéntes: Magíster, scimus, quia verax es et viam Dei in veritáte
-          doces, et non est tibi cura de áliquo: non enim réspicis persónam
-          hóminum: dic ergo nobis, quid tibi vidétur, licet censum dare Cǽsari,
-          an non? Cógnita autem Jesus nequítia eórum, ait: Quid me tentátis,
-          hypócritæ? Osténdite mihi numísma census. At illi obtulérunt ei
-          denárium. Et ait illis Jesus: Cujus est imágo hæc et superscríptio?
-          Dicunt ei: Cǽsaris. Tunc ait illis: Réddite ergo, quæ sunt Cǽsaris,
-          Cǽsari; et, quæ sunt Dei, Deo.
+          In illo témpore: Abeúntes pharisǽi consílium iniérunt, ut cáperent Jesum in sermóne. Et
+          mittunt ei discípulos suos cum Herodiánis, dicéntes: Magíster, scimus, quia verax es et
+          viam Dei in veritáte doces, et non est tibi cura de áliquo: non enim réspicis persónam
+          hóminum: dic ergo nobis, quid tibi vidétur, licet censum dare Cǽsari, an non? Cógnita
+          autem Jesus nequítia eórum, ait: Quid me tentátis, hypócritæ? Osténdite mihi numísma
+          census. At illi obtulérunt ei denárium. Et ait illis Jesus: Cujus est imágo hæc et
+          superscríptio? Dicunt ei: Cǽsaris. Tunc ait illis: Réddite ergo, quæ sunt Cǽsaris, Cǽsari;
+          et, quæ sunt Dei, Deo.
         </Typography>
         <Typography className="vernacular">
-          Naquele tempo, retirando-se os fariseus, combinaram em conselho
-          surpreender Jesus nas suas palavras, para O acusarem. Mandaram-Lhe,
-          pois, os seus discípulos com os herodianos, que Lhe disseram: «Mestre,
-          sabemos que sois verdadeiro e que ensinais o caminho de Deus com
-          verdade, sem vos preocupardes com quem quer que seja, pois não olhais
-          à situação das pessoas. Dizei-nos, portanto, o que Vos parece a este
-          respeito: É lícito pagar ou não o tributo a César?». Jesus, conhecendo
-          a sua malícia, respondeu-lhes: «Hipócritas, porque me tentais?
-          Mostrai-me a moeda do tributo». Apresentaram-Lhe um dinheiro. Então
-          Jesus continuou: «De quem é esta imagem e esta inscrição?».
-          Responderam eles: «De César». E Jesus continuou: «Dai, portanto, a
-          César o que pertence a César, e dai a Deus o que a Deus pertence».
+          Naquele tempo, retirando-se os fariseus, combinaram em conselho surpreender Jesus nas suas
+          palavras, para O acusarem. Mandaram-Lhe, pois, os seus discípulos com os herodianos, que
+          Lhe disseram: «Mestre, sabemos que sois verdadeiro e que ensinais o caminho de Deus com
+          verdade, sem vos preocupardes com quem quer que seja, pois não olhais à situação das
+          pessoas. Dizei-nos, portanto, o que Vos parece a este respeito: É lícito pagar ou não o
+          tributo a César?». Jesus, conhecendo a sua malícia, respondeu-lhes: «Hipócritas, porque me
+          tentais? Mostrai-me a moeda do tributo». Apresentaram-Lhe um dinheiro. Então Jesus
+          continuou: «De quem é esta imagem e esta inscrição?». Responderam eles: «De César». E
+          Jesus continuou: «Dai, portanto, a César o que pertence a César, e dai a Deus o que a Deus
+          pertence».
         </Typography>
       </Language>
 
@@ -159,13 +145,12 @@ export default function PagePent220() {
 
       <Language>
         <Typography className="latin">
-          Recordáre mei, Dómine, omni potentátui dóminans: et da sermónem rectum
-          in os meum, ut pláceant verba mea in conspéctu príncipis.
+          Recordáre mei, Dómine, omni potentátui dóminans: et da sermónem rectum in os meum, ut
+          pláceant verba mea in conspéctu príncipis.
         </Typography>
         <Typography className="vernacular">
-          Senhor, que estais acima de todo o poder, lembrai-Vos de mim: inspirai
-          aos meus lábios palavras justas, para que sejam agradáveis ao
-          príncipe.
+          Senhor, que estais acima de todo o poder, lembrai-Vos de mim: inspirai aos meus lábios
+          palavras justas, para que sejam agradáveis ao príncipe.
         </Typography>
       </Language>
 
@@ -173,14 +158,12 @@ export default function PagePent220() {
 
       <Language>
         <Typography className="latin">
-          Da, miséricors Deus: ut hæc salutáris oblátio et a própriis nos
-          reátibus indesinénter expédiat, et ab ómnibus tueátur advérsis. Per
-          Dóminum...
+          Da, miséricors Deus: ut hæc salutáris oblátio et a própriis nos reátibus indesinénter
+          expédiat, et ab ómnibus tueátur advérsis. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Permiti, ó Deus de misericórdia, que esta salutar oblação nos livre
-          inteiramente dos laços das nossas próprias faltas e nos defenda de
-          todas as adversidades. Por nosso Senhor...
+          Permiti, ó Deus de misericórdia, que esta salutar oblação nos livre inteiramente dos laços
+          das nossas próprias faltas e nos defenda de todas as adversidades. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -190,12 +173,11 @@ export default function PagePent220() {
 
       <Language>
         <Typography className="latin">
-          Ego clamávi, quóniam exaudísti me, Deus: inclína aurem tuam et exáudi
-          verba mea.
+          Ego clamávi, quóniam exaudísti me, Deus: inclína aurem tuam et exáudi verba mea.
         </Typography>
         <Typography className="vernacular">
-          Ó Deus, clamei por Vós, porque me ouvistes: inclinai os vossos ouvidos
-          para mim e ouvi as minhas súplicas.
+          Ó Deus, clamei por Vós, porque me ouvistes: inclinai os vossos ouvidos para mim e ouvi as
+          minhas súplicas.
         </Typography>
       </Language>
 
@@ -203,15 +185,14 @@ export default function PagePent220() {
 
       <Language>
         <Typography className="latin">
-          Súmpsimus, Dómine, sacri dona mystérii, humíliter deprecántes: ut, quæ
-          in tui commemoratiónem nos fácere præcepísti, in nostræ profíciant
-          infirmitátis auxílium: Qui vivis et regnas...
+          Súmpsimus, Dómine, sacri dona mystérii, humíliter deprecántes: ut, quæ in tui
+          commemoratiónem nos fácere præcepísti, in nostræ profíciant infirmitátis auxílium: Qui
+          vivis et regnas...
         </Typography>
         <Typography className="vernacular">
-          Havendo recebido os sacrossantos dons deste mystério, Senhor,
-          humildemente Vos imploramos que este sacrifício, que nos mandastes
-          celebrar em vossa memória, sirva de auxílio à nossa fraqueza. Ó Vós,
-          que, sendo Deus, viveis...
+          Havendo recebido os sacrossantos dons deste mystério, Senhor, humildemente Vos imploramos
+          que este sacrifício, que nos mandastes celebrar em vossa memória, sirva de auxílio à nossa
+          fraqueza. Ó Vós, que, sendo Deus, viveis...
         </Typography>
       </Language>
     </PageWrapper>

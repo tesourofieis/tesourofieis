@@ -9,19 +9,17 @@ export default function Page112() {
       <H1 text="Salmo 112" />
 
       <Language>
-        <Typography className="latin">
-          Laudáte, púeri, Dóminum: * laudáte nomen Dómini.
-        </Typography>
+        <Typography className="latin">Laudáte, púeri, Dóminum: * laudáte nomen Dómini.</Typography>
         <Typography className="vernacular">
           Louvai o Senhor, ó meninos: * louvai o nome do Senhor.
         </Typography>
         <Typography className="latin">
-          <Typography className="latin">fit reverentia</Typography> Sit nomen
-          Dómini benedíctum, * ex hoc nunc, et usque in sǽculum.
+          <Typography className="latin">fit reverentia</Typography> Sit nomen Dómini benedíctum, *
+          ex hoc nunc, et usque in sǽculum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="vernacular">inclinar a cabeça</Typography> Seja
-          bendito o nome do Senhor, * desde agora e para sempre.
+          <Typography className="vernacular">inclinar a cabeça</Typography> Seja bendito o nome do
+          Senhor, * desde agora e para sempre.
         </Typography>
         <Typography className="latin">
           A solis ortu usque ad occásum, * laudábile nomen Dómini.
@@ -33,16 +31,15 @@ export default function Page112() {
           Excélsus super omnes gentes Dóminus, * et super cælos glória ejus.
         </Typography>
         <Typography className="vernacular">
-          Excelso é o Senhor sobre todas as gentes, * e a sua glória sobre os
-          céus.
+          Excelso é o Senhor sobre todas as gentes, * e a sua glória sobre os céus.
         </Typography>
         <Typography className="latin">
-          Quis sicut Dóminus, Deus noster, qui in altis hábitat, * et humília
-          réspicit in cælo et in terra?
+          Quis sicut Dóminus, Deus noster, qui in altis hábitat, * et humília réspicit in cælo et in
+          terra?
         </Typography>
         <Typography className="vernacular">
-          Quem há como o Senhor nosso Deus, que habita nas alturas: * e atende
-          os humildes no céu e na terra?
+          Quem há como o Senhor nosso Deus, que habita nas alturas: * e atende os humildes no céu e
+          na terra?
         </Typography>
         <Typography className="latin">
           Súscitans a terra ínopem, * et de stércore érigens páuperem:

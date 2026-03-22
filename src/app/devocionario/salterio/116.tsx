@@ -16,12 +16,11 @@ export default function Page116() {
           Ó gentes, louvai todas o Senhor: * louvai-O todos, ó povos:
         </Typography>
         <Typography className="latin">
-          Quóniam confirmáta est super nos misericórdia ejus: * et véritas
-          Dómini manet in ætérnum.
+          Quóniam confirmáta est super nos misericórdia ejus: * et véritas Dómini manet in ætérnum.
         </Typography>
         <Typography className="vernacular">
-          Porque sobre nós foi confirmada a sua misericórdia: * e a verdade do
-          Senhor permanece eternamente.
+          Porque sobre nós foi confirmada a sua misericórdia: * e a verdade do Senhor permanece
+          eternamente.
         </Typography>
       </Language>
     </PageWrapper>

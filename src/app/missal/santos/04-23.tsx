@@ -22,15 +22,14 @@ export default function Page0423() {
 
       <Language>
         <Typography className="latin">
-          Deus, qui nos beáti Georgii Martyris tui méritis et intercessióne
-          lætíficas: concéde propítius; ut, qui tua per eum benefícia póscimus,
-          dono tuæ grátiæ consequámur. Per Dóminum...
+          Deus, qui nos beáti Georgii Martyris tui méritis et intercessióne lætíficas: concéde
+          propítius; ut, qui tua per eum benefícia póscimus, dono tuæ grátiæ consequámur. Per
+          Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Ó Deus, que nos alegrais com os méritos e intercessão do B. Jorge,
-          vosso Mártir, concedei-nos propício que, suplicando-Vos por sua
-          intercessão os vossos benefícios, os obtenhamos por efeito da vossa
-          graça. Por nosso Senhor...
+          Ó Deus, que nos alegrais com os méritos e intercessão do B. Jorge, vosso Mártir,
+          concedei-nos propício que, suplicando-Vos por sua intercessão os vossos benefícios, os
+          obtenhamos por efeito da vossa graça. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -45,14 +44,13 @@ export default function Page0423() {
 
       <Language>
         <Typography className="latin">
-          Múnera, Dómine, obláta sanctífica: et, intercedénte beáto Geórgio
-          Mártyre tuo, nos per hæc a peccatórum nostrórum máculis emúnda. Per
-          Dóminum...
+          Múnera, Dómine, obláta sanctífica: et, intercedénte beáto Geórgio Mártyre tuo, nos per hæc
+          a peccatórum nostrórum máculis emúnda. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Santificai, Senhor, estas oblatas que Vos são oferecidas; e pela
-          intercessão do B. Jorge, vosso Mártir, purificai-nos, pela sua
-          virtude, das manchas dos nossos pecados. Por nosso Senhor...
+          Santificai, Senhor, estas oblatas que Vos são oferecidas; e pela intercessão do B. Jorge,
+          vosso Mártir, purificai-nos, pela sua virtude, das manchas dos nossos pecados. Por nosso
+          Senhor...
         </Typography>
       </Language>
 
@@ -60,15 +58,14 @@ export default function Page0423() {
 
       <Language>
         <Typography className="latin">
-          Súpplices te rogámus, omnípotens Deus: ut, quos tuis réficis
-          sacraméntis, intercedénte beáto Geórgio Mártyre tuo, tibi étiam
-          plácitis móribus dignánter tríbuas deservíre. Per Dóminum...
+          Súpplices te rogámus, omnípotens Deus: ut, quos tuis réficis sacraméntis, intercedénte
+          beáto Geórgio Mártyre tuo, tibi étiam plácitis móribus dignánter tríbuas deservíre. Per
+          Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Ó Deus omnipotente, Vos imploramos, pela intercessão do B. Jorge,
-          vosso Mártir, dignai-Vos conceder àqueles a quem sustentais com vossos
-          sacramentos a graça de Vos servirem, como convém, com conduta de vida
-          que Vos agrade. Por nosso Senhor...
+          Ó Deus omnipotente, Vos imploramos, pela intercessão do B. Jorge, vosso Mártir, dignai-Vos
+          conceder àqueles a quem sustentais com vossos sacramentos a graça de Vos servirem, como
+          convém, com conduta de vida que Vos agrade. Por nosso Senhor...
         </Typography>
       </Language>
     </PageWrapper>

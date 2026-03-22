@@ -10,12 +10,11 @@ export default function Page0729Outro() {
       <H1 text="S. Félix II, Papa e Mártir, a 29 de Julho" />
 
       <Typography className="comment">
-        O Santo Pontífice Félix II foi Papa, no IV século; sofreu o martírio na
-        Toscana, no tempo dos Arianos (A. D. 365). Simplícío e Faustino
-        denunciados como cristãos, aos perseguidores, foram condenados à morte
-        em Roma, sob Diocleciano, em 304. Beatriz, sua irmã, foi presa e
-        estrangulada na prisão. Leão II colocou as relíquias desses três
-        mártires numa igreja contruida em Roma, sob a sua invocação.
+        O Santo Pontífice Félix II foi Papa, no IV século; sofreu o martírio na Toscana, no tempo
+        dos Arianos (A. D. 365). Simplícío e Faustino denunciados como cristãos, aos perseguidores,
+        foram condenados à morte em Roma, sob Diocleciano, em 304. Beatriz, sua irmã, foi presa e
+        estrangulada na prisão. Leão II colocou as relíquias desses três mártires numa igreja
+        contruida em Roma, sob a sua invocação.
       </Typography>
 
       <Missa />

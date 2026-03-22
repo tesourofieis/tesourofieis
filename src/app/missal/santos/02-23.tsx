@@ -21,15 +21,14 @@ export default function Page0223() {
 
       <Language>
         <Typography className="latin">
-          Concéde nos, quǽsumus, omnípotens Deus: beáti Petri Confessóris tui
-          atque Pontíficis mónita et exémpla sectári; ut per terréstrium rerum
-          contémptum ætérna gáudia consequámur. Per Dóminum nostrum...
+          Concéde nos, quǽsumus, omnípotens Deus: beáti Petri Confessóris tui atque Pontíficis
+          mónita et exémpla sectári; ut per terréstrium rerum contémptum ætérna gáudia consequámur.
+          Per Dóminum nostrum...
         </Typography>
         <Typography className="vernacular">
-          Concedei-nos, ó Deus omnipotente, Vos suplicamos, que imitemos as
-          lições e os exemplos do B. Pedro, vosso Confessor e Pontífice, a fim
-          de que pelo desprezo dos bens terrenos alcancemos as alegrias eternas.
-          Por nosso Senhor...
+          Concedei-nos, ó Deus omnipotente, Vos suplicamos, que imitemos as lições e os exemplos do
+          B. Pedro, vosso Confessor e Pontífice, a fim de que pelo desprezo dos bens terrenos
+          alcancemos as alegrias eternas. Por nosso Senhor...
         </Typography>
       </Language>
     </PageWrapper>

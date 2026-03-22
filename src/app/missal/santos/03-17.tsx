@@ -12,16 +12,14 @@ export default function Page0317() {
 
       <Language>
         <Typography className="latin">
-          Deus, qui ad prædicándam géntibus glóriam tuam beátum Patrícium
-          Confessórem atque Pontíficem míttere dignátus es: ejus méritis et
-          intercessióne concéde; ut, quæ nobis agénda prǽcipis, te miseránte
-          adimplére póssimus. Per Dóminum nostrum...
+          Deus, qui ad prædicándam géntibus glóriam tuam beátum Patrícium Confessórem atque
+          Pontíficem míttere dignátus es: ejus méritis et intercessióne concéde; ut, quæ nobis
+          agénda prǽcipis, te miseránte adimplére póssimus. Per Dóminum nostrum...
         </Typography>
         <Typography className="vernacular">
-          Ó Deus, que Vos dignastes mandar B. Patrício, Confessor e Bispo,
-          anunciar a vossa glória aos gentios, concedei-nos pelos seus méritos e
-          intercessão que com o socorro da vossa misericórdia possamos cumprir o
-          que nos ordenais. Por nosso Senhor...
+          Ó Deus, que Vos dignastes mandar B. Patrício, Confessor e Bispo, anunciar a vossa glória
+          aos gentios, concedei-nos pelos seus méritos e intercessão que com o socorro da vossa
+          misericórdia possamos cumprir o que nos ordenais. Por nosso Senhor...
         </Typography>
       </Language>
     </PageWrapper>

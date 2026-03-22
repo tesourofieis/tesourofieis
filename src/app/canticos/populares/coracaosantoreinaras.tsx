@@ -10,8 +10,7 @@ export default function PageCoracaosantoreinaras() {
 
       <View className="not-content">
         <Typography className="vernacular">
-          Refrão: Coração Santo, Tu reinarás Tu nosso encanto sempre serás
-          (Bis).
+          Refrão: Coração Santo, Tu reinarás Tu nosso encanto sempre serás (Bis).
         </Typography>
         <Typography className="vernacular">
           Como o soldado vela a seu rei, assim meu sangue por Ti darei (Bis).

@@ -21,16 +21,15 @@ export default function Page1027Portugal() {
 
       <Language>
         <Typography className="latin">
-          Deus, virtútem, qui beátum Gundisálvum Confessórem tuum ánimi
-          demissióne, morum candóre, ac singuláre caritáte mirábilem effecísti:
-          concéde, quæsumus; ut ejus exémpla imitántes in terris, coronári cum
-          ipso merámur in cælis. Per Dóminum...
+          Deus, virtútem, qui beátum Gundisálvum Confessórem tuum ánimi demissióne, morum candóre,
+          ac singuláre caritáte mirábilem effecísti: concéde, quæsumus; ut ejus exémpla imitántes in
+          terris, coronári cum ipso merámur in cælis. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Ó Deus das virtudes, que tornastes admirável na humildade de espírito,
-          na candura de Costumes e na singular caridade o B. Gonçalo, vosso
-          Confessor, concedei-nos, Vos imploramos, que, Imitando seus exemplos
-          na terra, mereçamos com ele ser coroados nos céus. Por nosso Senhor...
+          Ó Deus das virtudes, que tornastes admirável na humildade de espírito, na candura de
+          Costumes e na singular caridade o B. Gonçalo, vosso Confessor, concedei-nos, Vos
+          imploramos, que, Imitando seus exemplos na terra, mereçamos com ele ser coroados nos céus.
+          Por nosso Senhor...
         </Typography>
       </Language>
     </PageWrapper>

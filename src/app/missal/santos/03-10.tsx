@@ -15,17 +15,15 @@ export default function Page0310() {
 
       <Language>
         <Typography className="latin">
-          Clamavérunt justi, et Dóminus exaudívit eos: et ex ómnibus
-          tribulatiónibus eórum liberávit eos.{" "}
-          <Typography className="latin">Ps. ibid., 2</Typography> Benedícam
-          Dóminum in omni témpore: semper laus ejus in ore meo.
+          Clamavérunt justi, et Dóminus exaudívit eos: et ex ómnibus tribulatiónibus eórum liberávit
+          eos. <Typography className="latin">Ps. ibid., 2</Typography> Benedícam Dóminum in omni
+          témpore: semper laus ejus in ore meo.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
-          Os justos clamaram por Deus; então o Senhor ouviu-os e livrou-os de
-          todas as tribulações.{" "}
-          <Typography className="vernacular">Sl. ibid., 2</Typography> Bendirei
-          o Senhor em todo o tempo; o seu louvor estará sempre na minha boca.
+          Os justos clamaram por Deus; então o Senhor ouviu-os e livrou-os de todas as tribulações.{" "}
+          <Typography className="vernacular">Sl. ibid., 2</Typography> Bendirei o Senhor em todo o
+          tempo; o seu louvor estará sempre na minha boca.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -34,24 +32,19 @@ export default function Page0310() {
 
       <Language>
         <Typography className="latin">
-          Præsta, quǽsumus, omnípotens Deus: ut, qui gloriósos Mártyres fortes
-          in sua confessióne cognóvimus, pios apud te in nostra intercessióne
-          sentiámus. Per Dóminum nostrum...
+          Præsta, quǽsumus, omnípotens Deus: ut, qui gloriósos Mártyres fortes in sua confessióne
+          cognóvimus, pios apud te in nostra intercessióne sentiámus. Per Dóminum nostrum...
         </Typography>
         <Typography className="vernacular">
-          Concedei-nos, Vos pedimos, ó Deus omnipotente, que, reconhecendo nós a
-          fortaleza com que estes Santos Mártires confessaram a fé, sintamos
-          também em nosso favor a caridade da sua intercessão junto de Vós. Por
-          nosso Senhor...
+          Concedei-nos, Vos pedimos, ó Deus omnipotente, que, reconhecendo nós a fortaleza com que
+          estes Santos Mártires confessaram a fé, sintamos também em nosso favor a caridade da sua
+          intercessão junto de Vós. Por nosso Senhor...
         </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <LinkCard
-        href="/missal/santos/01-10#epístola"
-        title="S. S. Fabião e Sebastião, Márts"
-      />
+      <LinkCard href="/missal/santos/01-10#epístola" title="S. S. Fabião e Sebastião, Márts" />
 
       <H3 text="Gradual" />
 
@@ -65,9 +58,8 @@ export default function Page0310() {
         </Typography>
         <Typography className="vernacular">
           Oh! como é bom e suave que os irmãos habitem juntos!
-          <Typography className="versicle"> ℣. </Typography>É como o perfume
-          suave espalhado na cabeça de Aarão, e que corre pela barba: pela barba
-          de Aarão.
+          <Typography className="versicle"> ℣. </Typography>É como o perfume suave espalhado na
+          cabeça de Aarão, e que corre pela barba: pela barba de Aarão.
         </Typography>
       </Language>
 
@@ -91,12 +83,11 @@ export default function Page0310() {
 
       <Language>
         <Typography className="latin">
-          Lætámini in Dómino et exsultáte, justi: et gloriámini, omnes recti
-          corde.
+          Lætámini in Dómino et exsultáte, justi: et gloriámini, omnes recti corde.
         </Typography>
         <Typography className="vernacular">
-          Alegrai-vos no Senhor, ó justos! Exultai de júbilo! Todos aqueles que
-          possuem o coração recto serão glorificados.
+          Alegrai-vos no Senhor, ó justos! Exultai de júbilo! Todos aqueles que possuem o coração
+          recto serão glorificados.
         </Typography>
       </Language>
 
@@ -104,14 +95,13 @@ export default function Page0310() {
 
       <Language>
         <Typography className="latin">
-          Preces, Dómine, tuórum réspice oblationésque fidélium: ut et tibi
-          gratæ sint pro tuórum festivitáte Sanctórum, et nobis cónferant tuæ
-          propitiatiónis auxílium. Per Dóminum...
+          Preces, Dómine, tuórum réspice oblationésque fidélium: ut et tibi gratæ sint pro tuórum
+          festivitáte Sanctórum, et nobis cónferant tuæ propitiatiónis auxílium. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Dignai-Vos olhar benigno, Senhor, para as preces e ofertas dos vossos
-          fiéis; e fazei que na festa dos vossos Santos Vos sejam agradáveis e
-          nos alcancem o socorro da vossa misericórdia. Por nosso Senhor...
+          Dignai-Vos olhar benigno, Senhor, para as preces e ofertas dos vossos fiéis; e fazei que
+          na festa dos vossos Santos Vos sejam agradáveis e nos alcancem o socorro da vossa
+          misericórdia. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -121,12 +111,12 @@ export default function Page0310() {
 
       <Language>
         <Typography className="latin">
-          Quicúmque fécerit voluntátem Patris mei, qui in cœlis est: ipse meus
-          frater et soror et mater est, dicit Dóminus.
+          Quicúmque fécerit voluntátem Patris mei, qui in cœlis est: ipse meus frater et soror et
+          mater est, dicit Dóminus.
         </Typography>
         <Typography className="vernacular">
-          Aquele que faz a vontade de meu Pai, que está nos céus, é para mim,
-          meu irmão, minha irmã e minha mãe: diz o Senhor.
+          Aquele que faz a vontade de meu Pai, que está nos céus, é para mim, meu irmão, minha irmã
+          e minha mãe: diz o Senhor.
         </Typography>
       </Language>
 
@@ -134,14 +124,12 @@ export default function Page0310() {
 
       <Language>
         <Typography className="latin">
-          Sanctórum tuórum, Dómine, intercessióne placátus: præsta, quǽsumus;
-          ut, quæ temporáli celebrámus actióne, perpétua salvatióne capiámus.
-          Per Dóminum...
+          Sanctórum tuórum, Dómine, intercessióne placátus: præsta, quǽsumus; ut, quæ temporáli
+          celebrámus actióne, perpétua salvatióne capiámus. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Aplacado, Senhor, com a intercessão dos vossos Santos, permiti, Vos
-          imploramos, que alcancemos a salvação eterna com a celebração desta
-          acção temporal. Por nosso Senhor...
+          Aplacado, Senhor, com a intercessão dos vossos Santos, permiti, Vos imploramos, que
+          alcancemos a salvação eterna com a celebração desta acção temporal. Por nosso Senhor...
         </Typography>
       </Language>
     </PageWrapper>

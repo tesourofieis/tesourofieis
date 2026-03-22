@@ -13,16 +13,13 @@ export default function Page079() {
           Qui regis Israël, inténde: * qui dedúcis velut ovem Joseph.
         </Typography>
         <Typography className="vernacular">
-          Atendei, Vós que governais Israel: * que conduzis José como um pastor
-          conduz uma ovelha.
+          Atendei, Vós que governais Israel: * que conduzis José como um pastor conduz uma ovelha.
         </Typography>
         <Typography className="latin">
-          Qui sedes super Chérubim, * manifestáre coram Éphraim, Bénjamin, et
-          Manásse.
+          Qui sedes super Chérubim, * manifestáre coram Éphraim, Bénjamin, et Manásse.
         </Typography>
         <Typography className="vernacular">
-          Que estais sentado sobre os querubins, * manifestai ante Efraim,
-          Benjamim e Manassés.
+          Que estais sentado sobre os querubins, * manifestai ante Efraim, Benjamim e Manassés.
         </Typography>
         <Typography className="latin">
           Éxcita poténtiam tuam, et veni, * ut salvos fácias nos.
@@ -40,47 +37,41 @@ export default function Page079() {
           Dómine, Deus virtútum, * quoúsque irascéris super oratiónem servi tui?
         </Typography>
         <Typography className="vernacular">
-          Senhor Deus dos exércitos, * até quando estareis furioso, sem ouvir a
-          oração de vosso servo?
+          Senhor Deus dos exércitos, * até quando estareis furioso, sem ouvir a oração de vosso
+          servo?
         </Typography>
         <Typography className="latin">
-          Cibábis nos pane lacrimárum: * et potum dabis nobis in lácrimis in
-          mensúra?
+          Cibábis nos pane lacrimárum: * et potum dabis nobis in lácrimis in mensúra?
         </Typography>
         <Typography className="vernacular">
-          Até quando nos sustentareis com pão de lágrimas: * e nos dareis a
-          beber lágrimas com abundância?
+          Até quando nos sustentareis com pão de lágrimas: * e nos dareis a beber lágrimas com
+          abundância?
         </Typography>
         <Typography className="latin">
-          Posuísti nos in contradictiónem vicínis nostris: * et inimíci nostri
-          subsannavérunt nos.
+          Posuísti nos in contradictiónem vicínis nostris: * et inimíci nostri subsannavérunt nos.
         </Typography>
         <Typography className="vernacular">
-          Fizestes-nos um objecto de disputa para os nossos vizinhos: * e os
-          nossos inimigos fizeram escárnio de nós.
+          Fizestes-nos um objecto de disputa para os nossos vizinhos: * e os nossos inimigos fizeram
+          escárnio de nós.
         </Typography>
         <Typography className="latin">
-          Deus virtútum, convérte nos: * et osténde fáciem tuam, et salvi
-          érimus.
+          Deus virtútum, convérte nos: * et osténde fáciem tuam, et salvi érimus.
         </Typography>
         <Typography className="vernacular">
-          Deus dos exércitos, restaurai-nos: * mostrai-nos o vosso rosto e
-          seremos salvos.
+          Deus dos exércitos, restaurai-nos: * mostrai-nos o vosso rosto e seremos salvos.
         </Typography>
         <Typography className="latin">
           Víneam de Ægýpto transtulísti: * ejecísti gentes, et plantásti eam.
         </Typography>
         <Typography className="vernacular">
-          Trasladastes a vossa vinha do Egipto: * plantaste-la em seu lugar e
-          lançastes fora as gentes.
+          Trasladastes a vossa vinha do Egipto: * plantaste-la em seu lugar e lançastes fora as
+          gentes.
         </Typography>
         <Typography className="latin">
-          Dux itíneris fuísti in conspéctu ejus: * plantásti radíces ejus, et
-          implévit terram.
+          Dux itíneris fuísti in conspéctu ejus: * plantásti radíces ejus, et implévit terram.
         </Typography>
         <Typography className="vernacular">
-          Fostes guia no caminho diante dela: * plantastes as suas raízes e
-          encheu a terra.
+          Fostes guia no caminho diante dela: * plantastes as suas raízes e encheu a terra.
         </Typography>
         <Typography className="latin">
           Opéruit montes umbra ejus: * et arbústa ejus cedros Dei.
@@ -89,42 +80,36 @@ export default function Page079() {
           Sua sombra cobriu os montes: * e os seus ramos os cedros de Deus.
         </Typography>
         <Typography className="latin">
-          Exténdit pálmites suos usque ad mare: * et usque ad flumen propágines
-          ejus.
+          Exténdit pálmites suos usque ad mare: * et usque ad flumen propágines ejus.
         </Typography>
         <Typography className="vernacular">
           Estendeu a sua ramagem até ao mar: * e até ao rio os seus rebentos.
         </Typography>
         <Typography className="latin">
-          Ut quid destruxísti macériam ejus: * et vindémiant eam omnes, qui
-          prætergrediúntur viam?
+          Ut quid destruxísti macériam ejus: * et vindémiant eam omnes, qui prætergrediúntur viam?
         </Typography>
         <Typography className="vernacular">
-          Para que destruístes o seu muro: * para que a vindimem todos os que
-          pelo caminho passam?
+          Para que destruístes o seu muro: * para que a vindimem todos os que pelo caminho passam?
         </Typography>
         <Typography className="latin">
-          Exterminávit eam aper de silva: * et singuláris ferus depástus est
-          eam.
+          Exterminávit eam aper de silva: * et singuláris ferus depástus est eam.
         </Typography>
         <Typography className="vernacular">
           O javali da selva destruiu-a: * e a fera selvagem a devorou.
         </Typography>
         <Typography className="latin">
-          Deus virtútum, convértere: * réspice de cælo, et vide, et vísita
-          víneam istam.
+          Deus virtútum, convértere: * réspice de cælo, et vide, et vísita víneam istam.
         </Typography>
         <Typography className="vernacular">
-          Ó Deus dos exércitos, voltai-Vos: * olhai do céu, vede e visitai esta
-          vinha.
+          Ó Deus dos exércitos, voltai-Vos: * olhai do céu, vede e visitai esta vinha.
         </Typography>
         <Typography className="latin">
-          Et pérfice eam, quam plantávit déxtera tua: * et super fílium hóminis,
-          quem confirmásti tibi.
+          Et pérfice eam, quam plantávit déxtera tua: * et super fílium hóminis, quem confirmásti
+          tibi.
         </Typography>
         <Typography className="vernacular">
-          Protegei aquela que a vossa dextra plantou: * e olhai para o filho do
-          homem, a quem escolhestes.
+          Protegei aquela que a vossa dextra plantou: * e olhai para o filho do homem, a quem
+          escolhestes.
         </Typography>
         <Typography className="latin">
           Incénsa igni, et suffóssa * ab increpatióne vultus tui períbunt.
@@ -133,27 +118,23 @@ export default function Page079() {
           Ela foi queimada pelo fogo e escavada: * ante vosso rosto perecerá.
         </Typography>
         <Typography className="latin">
-          Fiat manus tua super virum déxteræ tuæ: * et super fílium hóminis,
-          quem confirmásti tibi.
+          Fiat manus tua super virum déxteræ tuæ: * et super fílium hóminis, quem confirmásti tibi.
         </Typography>
         <Typography className="vernacular">
-          Estendei a vossa mão sobre o homem de vossa dextra: * e sobre o filho
-          do homem que escolhestes para Vós.
+          Estendei a vossa mão sobre o homem de vossa dextra: * e sobre o filho do homem que
+          escolhestes para Vós.
         </Typography>
         <Typography className="latin">
           Et non discédimus a Te, vivificábis nos: * et nomen tuum invocábimus.
         </Typography>
         <Typography className="vernacular">
-          Então nos não afastaremos de Vós, vida nos dareis: * e invocaremos o
-          vosso nome.
+          Então nos não afastaremos de Vós, vida nos dareis: * e invocaremos o vosso nome.
         </Typography>
         <Typography className="latin">
-          Dómine, Deus virtútum, convérte nos: * et osténde fáciem tuam, et
-          salvi érimus.
+          Dómine, Deus virtútum, convérte nos: * et osténde fáciem tuam, et salvi érimus.
         </Typography>
         <Typography className="vernacular">
-          Ó Senhor Deus dos exércitos, convertei-nos: * mostrai-nos o vosso
-          rosto e seremos salvos.
+          Ó Senhor Deus dos exércitos, convertei-nos: * mostrai-nos o vosso rosto e seremos salvos.
         </Typography>
       </Language>
     </PageWrapper>

@@ -10,24 +10,19 @@ export default function PageSenhoravoslouvamos() {
 
       <View className="not-content">
         <Typography className="vernacular">
-          Senhora, nós Vos louvamos, Em dor e amor, noite e dia, Senhora, nós
-          Vos louvamos.
+          Senhora, nós Vos louvamos, Em dor e amor, noite e dia, Senhora, nós Vos louvamos.
         </Typography>
         <Typography className="vernacular">
-          Refrão: Hosana, Hosana, Rainha de Portugal Hosana, Hosana, Virgem
-          Maria.
+          Refrão: Hosana, Hosana, Rainha de Portugal Hosana, Hosana, Virgem Maria.
         </Typography>
         <Typography className="vernacular">
-          Senhora, nós Vos rezamos, Quem Vos reza, em Vós confia, Senhora, nós
-          Vos rezamos!
+          Senhora, nós Vos rezamos, Quem Vos reza, em Vós confia, Senhora, nós Vos rezamos!
         </Typography>
         <Typography className="vernacular">
-          Senhora, nós Vos cantamos, Causa da nossa alegria, Senhora, nós Vos
-          cantamos!
+          Senhora, nós Vos cantamos, Causa da nossa alegria, Senhora, nós Vos cantamos!
         </Typography>
         <Typography className="vernacular">
-          Senhora, nós Vos aclamamos, No altar da Cova da Iria, Senhora, nós Vos
-          aclamamos!
+          Senhora, nós Vos aclamamos, No altar da Cova da Iria, Senhora, nós Vos aclamamos!
         </Typography>
       </View>
     </PageWrapper>

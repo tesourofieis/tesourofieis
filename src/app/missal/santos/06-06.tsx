@@ -21,18 +21,16 @@ export default function Page0606() {
 
       <Language>
         <Typography className="latin">
-          Deus, qui beátum Norbértum Confessórem tuum atque Pontíficem verbi tui
-          præcónem exímium effecísti, et per eum Ecclésiam tuam nova prole
-          fœcundásti: præsta, quǽsumus; ut, ejúsdem suffragántibus méritis, quod
-          ore simul et ópere dócuit, te adjuvánte, exercére valeámus. Per
-          Dóminum...
+          Deus, qui beátum Norbértum Confessórem tuum atque Pontíficem verbi tui præcónem exímium
+          effecísti, et per eum Ecclésiam tuam nova prole fœcundásti: præsta, quǽsumus; ut, ejúsdem
+          suffragántibus méritis, quod ore simul et ópere dócuit, te adjuvánte, exercére valeámus.
+          Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Ó Deus, que dispusestes que o B. Norberto, vosso Confessor e
-          Pontífice, fosse exímio pregador da vossa palavra, e que por ele
-          destes à vossa Igreja uma nova família, concedei-nos, Vos imploramos,
-          que, auxiliados com seus méritos, possamos com vossa assistência pôr
-          em prática tudo quanto ensinou com suas palavras e acções. Por nosso
+          Ó Deus, que dispusestes que o B. Norberto, vosso Confessor e Pontífice, fosse exímio
+          pregador da vossa palavra, e que por ele destes à vossa Igreja uma nova família,
+          concedei-nos, Vos imploramos, que, auxiliados com seus méritos, possamos com vossa
+          assistência pôr em prática tudo quanto ensinou com suas palavras e acções. Por nosso
           Senhor...
         </Typography>
       </Language>

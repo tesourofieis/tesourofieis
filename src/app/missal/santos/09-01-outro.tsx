@@ -9,8 +9,8 @@ export default function Page0901Outro() {
       <H1 text="S. S. Doze Irmãos, Mártires, a 1 de Setembro" />
 
       <Typography className="comment">
-        Africanos pelo nascimento, estes Santos foram martirizados em lugares
-        diferentes, no III século, sob os imperadores Diocleciano e Maximiano.
+        Africanos pelo nascimento, estes Santos foram martirizados em lugares diferentes, no III
+        século, sob os imperadores Diocleciano e Maximiano.
       </Typography>
 
       <Typography className="aside">

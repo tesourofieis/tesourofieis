@@ -8,9 +8,7 @@ test.describe("Landing Page Dynamic Content", () => {
   test("basic page structure and branding", async ({ page }) => {
     // Check main title with exact match
     await expect(page.locator("#tesouro-dos-fiis")).toBeVisible();
-    await expect(
-      page.getByText("Tesouro dos Fiéis", { exact: true }),
-    ).toBeVisible();
+    await expect(page.getByText("Tesouro dos Fiéis", { exact: true })).toBeVisible();
 
     // Check that page has SVG elements (icons are present)
     await expect(page.locator("svg").first()).toBeVisible();

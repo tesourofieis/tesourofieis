@@ -10,34 +10,31 @@ export default function Page123() {
 
       <Language>
         <Typography className="latin">
-          Nisi quia Dóminus erat in nobis, dicat nunc Israël: * nisi quia
-          Dóminus erat in nobis,
+          Nisi quia Dóminus erat in nobis, dicat nunc Israël: * nisi quia Dóminus erat in nobis,
         </Typography>
         <Typography className="vernacular">
-          Se o Senhor não tivesse estado connosco, diga-o agora Israel: * se o
-          Senhor não tivesse estado connosco,
+          Se o Senhor não tivesse estado connosco, diga-o agora Israel: * se o Senhor não tivesse
+          estado connosco,
         </Typography>
         <Typography className="latin">
           Cum exsúrgerent hómines in nos, * forte vivos deglutíssent nos:
         </Typography>
         <Typography className="vernacular">
-          Quando os homens se levantavam contra nós, * de certo nos teriam
-          devorado vivos:
+          Quando os homens se levantavam contra nós, * de certo nos teriam devorado vivos:
         </Typography>
         <Typography className="latin">
           Cum irascerétur furor eórum in nos, * fórsitan aqua absorbuísset nos.
         </Typography>
         <Typography className="vernacular">
-          Quando se inflamou a ira deles contra nós, * sem dúvida a água nos
-          teria afogado.
+          Quando se inflamou a ira deles contra nós, * sem dúvida a água nos teria afogado.
         </Typography>
         <Typography className="latin">
-          Torréntem pertransívit ánima nostra: * fórsitan pertransísset ánima
-          nostra aquam intolerábilem.
+          Torréntem pertransívit ánima nostra: * fórsitan pertransísset ánima nostra aquam
+          intolerábilem.
         </Typography>
         <Typography className="vernacular">
-          A nossa alma passou a torrente: * talvez a nossa alma poderia ter
-          passado a água intolerável.
+          A nossa alma passou a torrente: * talvez a nossa alma poderia ter passado a água
+          intolerável.
         </Typography>
         <Typography className="latin">
           Benedíctus Dóminus * qui non dedit nos in captiónem déntibus eórum.
@@ -51,12 +48,8 @@ export default function Page123() {
         <Typography className="vernacular">
           A nossa alma escapou como o pássaro * do laço dos caçadores:
         </Typography>
-        <Typography className="latin">
-          Láqueus contrítus est, * et nos liberáti sumus.
-        </Typography>
-        <Typography className="vernacular">
-          O laço foi quebrado, * e nós ficámos livres.
-        </Typography>
+        <Typography className="latin">Láqueus contrítus est, * et nos liberáti sumus.</Typography>
+        <Typography className="vernacular">O laço foi quebrado, * e nós ficámos livres.</Typography>
         <Typography className="latin">
           Adjutórium nostrum in nómine Dómini, * qui fecit cælum et terram.
         </Typography>

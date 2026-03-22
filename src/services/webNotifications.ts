@@ -18,8 +18,7 @@ export interface WebNotificationSchedule {
 }
 
 export class WebNotificationService {
-  private scheduledNotifications: Map<string, ReturnType<typeof setTimeout>> =
-    new Map();
+  private scheduledNotifications: Map<string, ReturnType<typeof setTimeout>> = new Map();
   private scheduledDetails: Map<string, WebNotificationSchedule> = new Map();
   private static readonly MAX_TIMEOUT = 2147483647;
   private isServiceWorkerRegistered = false;
@@ -221,10 +220,7 @@ export class WebNotificationService {
   /**
    * Schedule notification with JavaScript timer (fallback)
    */
-  private scheduleWithTimer(
-    schedule: WebNotificationSchedule,
-    delay: number,
-  ): void {
+  private scheduleWithTimer(schedule: WebNotificationSchedule, delay: number): void {
     const safeDelay = Math.min(delay, WebNotificationService.MAX_TIMEOUT);
 
     const timeoutId = setTimeout(() => {
@@ -258,9 +254,7 @@ export class WebNotificationService {
   /**
    * Schedule notification through service worker
    */
-  private async scheduleNotificationWithSW(
-    schedule: WebNotificationSchedule,
-  ): Promise<void> {
+  private async scheduleNotificationWithSW(schedule: WebNotificationSchedule): Promise<void> {
     try {
       const registration = await eval("navigator.serviceWorker.ready");
 
@@ -277,14 +271,9 @@ export class WebNotificationService {
         },
       });
 
-      console.log(
-        `📅 Scheduled background notification "${schedule.title}" via Service Worker`,
-      );
+      console.log(`📅 Scheduled background notification "${schedule.title}" via Service Worker`);
     } catch (error) {
-      console.error(
-        "Error scheduling notification with service worker:",
-        error,
-      );
+      console.error("Error scheduling notification with service worker:", error);
       // Fallback to timer
       const delay = schedule.triggerAt.getTime() - new Date().getTime();
       this.scheduleWithTimer(schedule, delay);
@@ -325,10 +314,7 @@ export class WebNotificationService {
         payload: id,
       });
     } catch (error) {
-      console.error(
-        "Error cancelling notification with service worker:",
-        error,
-      );
+      console.error("Error cancelling notification with service worker:", error);
     }
   }
 
@@ -479,22 +465,15 @@ export class WebNotificationService {
     }
 
     try {
-      const swSupported = eval(
-        'typeof navigator !== "undefined" && "serviceWorker" in navigator',
-      );
+      const swSupported = eval('typeof navigator !== "undefined" && "serviceWorker" in navigator');
       if (!swSupported) {
         console.log("Service Worker not supported");
         return;
       }
 
       // Register the main service worker
-      const registration = await eval(
-        'navigator.serviceWorker.register("/sw.js", { scope: "/" })',
-      );
-      console.log(
-        "🚀 Service Worker registered successfully:",
-        registration.scope,
-      );
+      const registration = await eval('navigator.serviceWorker.register("/sw.js", { scope: "/" })');
+      console.log("🚀 Service Worker registered successfully:", registration.scope);
 
       // Wait for service worker to be ready
       await eval("navigator.serviceWorker.ready");
@@ -535,14 +514,10 @@ export class WebNotificationService {
           console.log("🔄 Background sync enabled for notifications");
         } catch (syncError: any) {
           // Background sync permission denied is common, don't treat as error
-          console.log(
-            "ℹ️ Background sync permission denied (this is normal for some browsers)",
-          );
+          console.log("ℹ️ Background sync permission denied (this is normal for some browsers)");
         }
       } else {
-        console.log(
-          "ℹ️ Background Sync not supported (this is normal for some browsers)",
-        );
+        console.log("ℹ️ Background Sync not supported (this is normal for some browsers)");
       }
     } catch (error: any) {
       console.log("ℹ️ Background sync setup failed:", error.message);

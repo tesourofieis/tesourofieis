@@ -14,20 +14,17 @@ export default function PagePeregrinosviajantes() {
 
       <Language>
         <Typography className="latin">
-          Rédime me, Dómine, et miserére mei: pes enim meus stetit in via recta:
-          in ecclésiis benedícam Dóminum. (T. P. Allelúja, allelúja.){" "}
-          <Typography className="latin">Ps. ibid., 1</Typography> Júdica me.
-          Dómine, quóniam ego in innocéntia mea ingréssus sum: et in Dómino
-          sperans non infirmábor.
+          Rédime me, Dómine, et miserére mei: pes enim meus stetit in via recta: in ecclésiis
+          benedícam Dóminum. (T. P. Allelúja, allelúja.){" "}
+          <Typography className="latin">Ps. ibid., 1</Typography> Júdica me. Dómine, quóniam ego in
+          innocéntia mea ingréssus sum: et in Dómino sperans non infirmábor.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
-          Resgatai-me, Senhor, e tende misericórdia de mim, pois o meu pé está
-          assente em caminho direito; bendirei o Senhor nas assembleias. (T. P.
-          Aleluia, aleluia.){" "}
-          <Typography className="vernacular">Sl. ibid., 1</Typography>{" "}
-          Julgai-me, Senhor, porquanto tenho caminhado com a minha inocência, e,
-          confiando no Senhor, não vacilarei.
+          Resgatai-me, Senhor, e tende misericórdia de mim, pois o meu pé está assente em caminho
+          direito; bendirei o Senhor nas assembleias. (T. P. Aleluia, aleluia.){" "}
+          <Typography className="vernacular">Sl. ibid., 1</Typography> Julgai-me, Senhor, porquanto
+          tenho caminhado com a minha inocência, e, confiando no Senhor, não vacilarei.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -36,15 +33,14 @@ export default function PagePeregrinosviajantes() {
 
       <Language>
         <Typography className="latin">
-          Adésto, Dómine, supplicatiónibus nostris: et viam famulórum tuorum in
-          salútis tuæ prosperitáte dispóne; ut, inter omnes viæ et vitæ hujus
-          varietátes, tuo semper protegántur auxílio. Per Dóminum nostrum...
+          Adésto, Dómine, supplicatiónibus nostris: et viam famulórum tuorum in salútis tuæ
+          prosperitáte dispóne; ut, inter omnes viæ et vitæ hujus varietátes, tuo semper protegántur
+          auxílio. Per Dóminum nostrum...
         </Typography>
         <Typography className="vernacular">
-          Atendei, Senhor, às nossas súplicas, e conduzi os vossos servos com
-          prosperidade na via da salvação, a fim de que, em todas as
-          circunstâncias do caminho da sua vida, sempre sejam amparados com
-          vosso auxílio. Por nosso Senhor...
+          Atendei, Senhor, às nossas súplicas, e conduzi os vossos servos com prosperidade na via da
+          salvação, a fim de que, em todas as circunstâncias do caminho da sua vida, sempre sejam
+          amparados com vosso auxílio. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -54,46 +50,36 @@ export default function PagePeregrinosviajantes() {
 
       <Language>
         <Typography className="latin">Léctio libri Genesis.</Typography>
-        <Typography className="vernacular">
-          Lição do Livro do Génesis.
-        </Typography>
+        <Typography className="vernacular">Lição do Livro do Génesis.</Typography>
         <Typography className="latin">
-          In diébus illis: Egréssus Jacob de Bersabée, pergébat Haran. Cumque
-          venísset ad quendam locum, et vellet in eo requiéscere post solis
-          occúbitum, tulit de lapídibus qui jacébant, et suppónens cápiti suo,
-          dormívit in eódem loco. Vidítque in somnis Dóminum dicéntem sibi: Ego
-          sum Dóminus, Deus Abraham, patris tui, et Deus Isaac: terram, in qua
-          dormis, tibi dabo et sémini tuo. Erítque semen tuum quasi pulvis
-          terræ: dilatáberis ad Occidéntem et Oriéntem et Septentriónem et
-          Merídiem: et benedicéntur in te et in sémine tuo cunctæ tribus terræ.
-          Et ero custos tuus, quocúmque perréxeris, et reducam te in terram
-          hanc; nec dimíttam, nisi complévero univérsa quæ dixi. Surgens ergo
-          Jacob mane, tulit lápidem, quem supposúerat cápiti suo, et eréxit in
-          títulum, fundens óleum désuper. Vovit étiam votum, dicens: Si fúerit
-          Deus mecum et custodíerit me in via, per quam ego ámbulo, et déderit
-          mihi panem ad vescéndum et vestiméntum ad induéndum, reversúsque fúero
-          próspere ad domum patris mei: erit mihi Dóminus in Deum, et lapis
-          iste, quem eréxi in títulum, vocábitur domus Dei: cunctorúmque, quæ
-          déderis mihi, décimas ófferam tibi.
+          In diébus illis: Egréssus Jacob de Bersabée, pergébat Haran. Cumque venísset ad quendam
+          locum, et vellet in eo requiéscere post solis occúbitum, tulit de lapídibus qui jacébant,
+          et suppónens cápiti suo, dormívit in eódem loco. Vidítque in somnis Dóminum dicéntem sibi:
+          Ego sum Dóminus, Deus Abraham, patris tui, et Deus Isaac: terram, in qua dormis, tibi dabo
+          et sémini tuo. Erítque semen tuum quasi pulvis terræ: dilatáberis ad Occidéntem et
+          Oriéntem et Septentriónem et Merídiem: et benedicéntur in te et in sémine tuo cunctæ
+          tribus terræ. Et ero custos tuus, quocúmque perréxeris, et reducam te in terram hanc; nec
+          dimíttam, nisi complévero univérsa quæ dixi. Surgens ergo Jacob mane, tulit lápidem, quem
+          supposúerat cápiti suo, et eréxit in títulum, fundens óleum désuper. Vovit étiam votum,
+          dicens: Si fúerit Deus mecum et custodíerit me in via, per quam ego ámbulo, et déderit
+          mihi panem ad vescéndum et vestiméntum ad induéndum, reversúsque fúero próspere ad domum
+          patris mei: erit mihi Dóminus in Deum, et lapis iste, quem eréxi in títulum, vocábitur
+          domus Dei: cunctorúmque, quæ déderis mihi, décimas ófferam tibi.
         </Typography>
         <Typography className="vernacular">
-          Naqueles dias, saiu Jacob de Bersabeia, dirigindo-se para Harão. E,
-          como chegasse a certo lugar, preparou-se para passar ali a noite,
-          porque já era sol-posto. Então, tomou uma das pedras daquele lugar
-          como cabeceira e ali mesmo dormiu. E viu em sonhos o Senhor que lhe
-          dizia: «Eu sou o Senhor, Deus de Abraão, teu pai, e Deus de Isaque: Eu
-          te darei a ti e tua descendência a terra em que dormes; e a tua
-          posteridade será como o pó da terra e te propagarás para o ocidente e
-          para o nascente, para o norte e para o sul; e todos os povos do orbe
-          serão abençoados em ti e na tua prole. Estarei contigo e te guardarei
-          onde quer que te dirijas, e te restituirei esta terra e te não
-          abandonarei sem cumprir tudo o que te digo». Logo de manhã, despertou
-          Jacob do seu sonho e tirou a pedra, que havia colocado debaixo da
-          cabeça, e erigiu-a como monumento, colocando óleo sobre ela. E fez um
-          voto, dizendo: «Se Deus me acompanhar e guardar na viagem em que
-          caminho, me der pão para comer e vestidos para me cobrir, e se eu
-          regressar com felicidade a casa de meus pais, o Senhor será o meu Deus
-          e esta pedra, que erigi como monumento, será chamada casa de Deus e de
+          Naqueles dias, saiu Jacob de Bersabeia, dirigindo-se para Harão. E, como chegasse a certo
+          lugar, preparou-se para passar ali a noite, porque já era sol-posto. Então, tomou uma das
+          pedras daquele lugar como cabeceira e ali mesmo dormiu. E viu em sonhos o Senhor que lhe
+          dizia: «Eu sou o Senhor, Deus de Abraão, teu pai, e Deus de Isaque: Eu te darei a ti e tua
+          descendência a terra em que dormes; e a tua posteridade será como o pó da terra e te
+          propagarás para o ocidente e para o nascente, para o norte e para o sul; e todos os povos
+          do orbe serão abençoados em ti e na tua prole. Estarei contigo e te guardarei onde quer
+          que te dirijas, e te restituirei esta terra e te não abandonarei sem cumprir tudo o que te
+          digo». Logo de manhã, despertou Jacob do seu sonho e tirou a pedra, que havia colocado
+          debaixo da cabeça, e erigiu-a como monumento, colocando óleo sobre ela. E fez um voto,
+          dizendo: «Se Deus me acompanhar e guardar na viagem em que caminho, me der pão para comer
+          e vestidos para me cobrir, e se eu regressar com felicidade a casa de meus pais, o Senhor
+          será o meu Deus e esta pedra, que erigi como monumento, será chamada casa de Deus e de
           tudo o que me derdes Vos oferecerei fielmente o dízimo».
         </Typography>
       </Language>
@@ -104,27 +90,25 @@ export default function PagePeregrinosviajantes() {
 
       <Language>
         <Typography className="latin">
-          Si ámbulem in médio umbræ mortis, non timébo mala, quóniam tu mecum
-          es, Dómine.<Typography className="versicle"> ℣. </Typography>Virga tua
-          et báculus tuus, ipsa me consoláta sunt.
+          Si ámbulem in médio umbræ mortis, non timébo mala, quóniam tu mecum es, Dómine.
+          <Typography className="versicle"> ℣. </Typography>Virga tua et báculus tuus, ipsa me
+          consoláta sunt.
         </Typography>
         <Typography className="vernacular">
-          Ainda que eu caminhe no meio das sombras da morte, não recearei mal
-          algum, porque Vós, Senhor, estareis comigo.
-          <Typography className="versicle"> ℣. </Typography>Vossa vara e o vosso
-          bastão me consolarão.
+          Ainda que eu caminhe no meio das sombras da morte, não recearei mal algum, porque Vós,
+          Senhor, estareis comigo.
+          <Typography className="versicle"> ℣. </Typography>Vossa vara e o vosso bastão me
+          consolarão.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 118, 133</Typography> Gressus meos
-          dírige secúndum elóquium tuum: ut non dominétur mei omnis injustítia.
-          Allelúja.
+          <Typography className="latin">Ps. 118, 133</Typography> Gressus meos dírige secúndum
+          elóquium tuum: ut non dominétur mei omnis injustítia. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 118, 133</Typography>{" "}
-          Encaminhei os meus passos segundo a vossa doutrina, para que nenhuma
-          injustiça me possa dominar. Aleluia.
+          <Typography className="vernacular">Sl. 118, 133</Typography> Encaminhei os meus passos
+          segundo a vossa doutrina, para que nenhuma injustiça me possa dominar. Aleluia.
         </Typography>
       </Language>
 
@@ -138,18 +122,18 @@ export default function PagePeregrinosviajantes() {
 
       <Language>
         <Typography className="latin">
-          Angelis suis Deus mandávit de te, ut custódiant te in ómnibus viis
-          tuis.<Typography className="versicle"> ℣. </Typography>In mánibus
-          portábunt te, ne umquam offéndas ad lápidem pedem tuum.
-          <Typography className="versicle"> ℣. </Typography>Super áspidem et
-          basilíscum ambulábis, et conculcábis leónem et dracónem.
+          Angelis suis Deus mandávit de te, ut custódiant te in ómnibus viis tuis.
+          <Typography className="versicle"> ℣. </Typography>In mánibus portábunt te, ne umquam
+          offéndas ad lápidem pedem tuum.
+          <Typography className="versicle"> ℣. </Typography>Super áspidem et basilíscum ambulábis,
+          et conculcábis leónem et dracónem.
         </Typography>
         <Typography className="vernacular">
           Ordenou Deus aos seus Anjos que te guardassem em todos teus caminhos.
-          <Typography className="versicle"> ℣. </Typography>Conduzir-te-ão com
-          suas mãos, para que as pedras te não magoem.
-          <Typography className="versicle"> ℣. </Typography>Caminharás sobre a
-          áspide e o basilisco e calcarás o leão e o dragão.
+          <Typography className="versicle"> ℣. </Typography>Conduzir-te-ão com suas mãos, para que
+          as pedras te não magoem.
+          <Typography className="versicle"> ℣. </Typography>Caminharás sobre a áspide e o basilisco
+          e calcarás o leão e o dragão.
         </Typography>
       </Language>
 
@@ -160,20 +144,19 @@ export default function PagePeregrinosviajantes() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 118, 133</Typography> Gressus meos
-          dírige secúndum elóquium tuum: ut non dominétur mei omnis injustítia.
-          Allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Ps. 121, 1</Typography> Lætátus sum in his,
-          quæ dicta sunt mihi: in domum Dómini íbimus. Allelúja.
+          <Typography className="latin">Ps. 118, 133</Typography> Gressus meos dírige secúndum
+          elóquium tuum: ut non dominétur mei omnis injustítia. Allelúja.
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">Ps. 121, 1</Typography> Lætátus sum in his, quæ dicta sunt
+          mihi: in domum Dómini íbimus. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 118, 133</Typography>{" "}
-          Encaminhei os meus passos segundo a vossa doutrina, para que nenhuma
-          injustiça me possa dominar. Aleluia.
+          <Typography className="vernacular">Sl. 118, 133</Typography> Encaminhei os meus passos
+          segundo a vossa doutrina, para que nenhuma injustiça me possa dominar. Aleluia.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Sl. 121, 1</Typography> Alegrei-me quando
-          me foram ditas estas palavras: «Iremos até à casa do Senhor». Aleluia.
+          <Typography className="em">Sl. 121, 1</Typography> Alegrei-me quando me foram ditas estas
+          palavras: «Iremos até à casa do Senhor». Aleluia.
         </Typography>
       </Language>
 
@@ -183,43 +166,36 @@ export default function PagePeregrinosviajantes() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
-          Evangélii secúndum Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
+          Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo
-          Evangelho segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho segundo S.
+          Mateus.
         </Typography>
         <Typography className="latin">
-          In illo témpore: Dixit Jesus discípulis suis: Eúntes, prædicáte,
-          dicéntes: Quia appropinquávit regnum cœlórum. Infirmos curáte, mortuos
-          suscitáte, leprósos mundáte, dǽmones ejícite: gratis accepístis,
-          gratis date. Nolíte possídere aurum neque argéntum neque pecúniam in
-          zonis vestris: non peram in via, neque duas túnicas, neque
-          calceaménta, neque virgam: dignus enim estoperárius cibo suo. In
-          quamcúmque autem civitátem aut castéllum intravéritis, interrogáte,
-          quis in ea dignus sit: et ibi manéte, donec exeátis. Intrántes autem
-          in domum, salutáte eam, dicéntes: Pax huic dómui. Et si quidem fúerit
-          domus illa digna, véniet pax vestra super eam: si autem non fúerit
-          digna, pax vestra revertétur ad vos. Et quicúmque non recéperit vos,
-          neque audiérit sermónes vestros: exeúntes foras de domo vel civitáte,
-          excútite púlverem de pédibus vestris.
+          In illo témpore: Dixit Jesus discípulis suis: Eúntes, prædicáte, dicéntes: Quia
+          appropinquávit regnum cœlórum. Infirmos curáte, mortuos suscitáte, leprósos mundáte,
+          dǽmones ejícite: gratis accepístis, gratis date. Nolíte possídere aurum neque argéntum
+          neque pecúniam in zonis vestris: non peram in via, neque duas túnicas, neque calceaménta,
+          neque virgam: dignus enim estoperárius cibo suo. In quamcúmque autem civitátem aut
+          castéllum intravéritis, interrogáte, quis in ea dignus sit: et ibi manéte, donec exeátis.
+          Intrántes autem in domum, salutáte eam, dicéntes: Pax huic dómui. Et si quidem fúerit
+          domus illa digna, véniet pax vestra super eam: si autem non fúerit digna, pax vestra
+          revertétur ad vos. Et quicúmque non recéperit vos, neque audiérit sermónes vestros:
+          exeúntes foras de domo vel civitáte, excútite púlverem de pédibus vestris.
         </Typography>
         <Typography className="vernacular">
-          Naquele tempo, disse Jesus aos seus discípulos: «Ide, pregai e dizei:
-          eis que se aproxima o reino dos céus. Curai os enfermos, ressuscitai
-          aos mortos, limpai os leprosos, expulsai os demónios. Dai
-          gratuitamente, o que gratuitamente recebestes. Não queirais possuir
-          ouro, nem prata, nem dinheiro nas vossas algibeiras; nem leveis
-          alforje pelo caminho, nem duas túnicas, nem calçado, nem bordão,
-          porquanto o operário é digno do seu alimento. Em qualquer cidade ou
-          aldeia em que entrardes informai-vos se há nela alguém digno de vos
-          receber, e permanecei aí até vos retirardes. Quando entrardes nalguma
-          casa, saudai-a, dizendo: «A paz seja nesta casa». E se alguém dessa
-          casa for digno, a paz descerá sobre ele, e se não for digno, a paz
-          reverterá para vós. E se alguém vos não receber nem ouvir as vossas
-          palavras, quando sairdes daquela casa ou cidade, sacudi o pó dos
-          vossos pés».
+          Naquele tempo, disse Jesus aos seus discípulos: «Ide, pregai e dizei: eis que se aproxima
+          o reino dos céus. Curai os enfermos, ressuscitai aos mortos, limpai os leprosos, expulsai
+          os demónios. Dai gratuitamente, o que gratuitamente recebestes. Não queirais possuir ouro,
+          nem prata, nem dinheiro nas vossas algibeiras; nem leveis alforje pelo caminho, nem duas
+          túnicas, nem calçado, nem bordão, porquanto o operário é digno do seu alimento. Em
+          qualquer cidade ou aldeia em que entrardes informai-vos se há nela alguém digno de vos
+          receber, e permanecei aí até vos retirardes. Quando entrardes nalguma casa, saudai-a,
+          dizendo: «A paz seja nesta casa». E se alguém dessa casa for digno, a paz descerá sobre
+          ele, e se não for digno, a paz reverterá para vós. E se alguém vos não receber nem ouvir
+          as vossas palavras, quando sairdes daquela casa ou cidade, sacudi o pó dos vossos pés».
         </Typography>
       </Language>
 
@@ -229,15 +205,14 @@ export default function PagePeregrinosviajantes() {
 
       <Language>
         <Typography className="latin">
-          Pérfice gressus meos in sémitis tuis, ut non moveántur vestígia mea:
-          inclína aurem tuam mihi, et exáudi verba mea: mirífica misericórdias
-          tuas, qui salvos facis sperántes in te, Dómine. (T. P. Allelúja.)
+          Pérfice gressus meos in sémitis tuis, ut non moveántur vestígia mea: inclína aurem tuam
+          mihi, et exáudi verba mea: mirífica misericórdias tuas, qui salvos facis sperántes in te,
+          Dómine. (T. P. Allelúja.)
         </Typography>
         <Typography className="vernacular">
-          Firmai os meus pés nos vossos caminhos, para que se não apaguem as
-          minhas pegadas: inclinai os vossos ouvidos para mim e ouvi as minhas
-          palavras: Senhor, que salvais os que em Vós confiam, fazei brilhar as
-          vossas misericórdias. (T. P. Aleluia.)
+          Firmai os meus pés nos vossos caminhos, para que se não apaguem as minhas pegadas:
+          inclinai os vossos ouvidos para mim e ouvi as minhas palavras: Senhor, que salvais os que
+          em Vós confiam, fazei brilhar as vossas misericórdias. (T. P. Aleluia.)
         </Typography>
       </Language>
 
@@ -245,19 +220,16 @@ export default function PagePeregrinosviajantes() {
 
       <Language>
         <Typography className="latin">
-          Propitiáre, Dómine, supplicatiónibus nostris, et has oblationes, quas
-          tibi offérimus pro fámulis tuis, benígnus assúme: ut viam illórum et
-          præcedénte grátia tua dírigas et subsequénte comitári dignéris; ut de
-          actu atque incolumitáte eórum, secúndum misericórdiæ tuæ præsídia,
-          gaudeámus. Per Dóminum...
+          Propitiáre, Dómine, supplicatiónibus nostris, et has oblationes, quas tibi offérimus pro
+          fámulis tuis, benígnus assúme: ut viam illórum et præcedénte grátia tua dírigas et
+          subsequénte comitári dignéris; ut de actu atque incolumitáte eórum, secúndum misericórdiæ
+          tuæ præsídia, gaudeámus. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Atendei propício, Senhor, às nossas súplicas, e aceitai benignamente
-          as oblações que Vos oferecemos em nome dos vossos servos, a fim de
-          que, caminhando com vossa graça, dirijais o seu caminho e Vos digneis
-          acompanhá-los, de modo que nos alegremos que eles cheguem incólumes ao
-          termo da sua viagem, com o socorro da vossa misericórdia. Por nosso
-          Senhor...
+          Atendei propício, Senhor, às nossas súplicas, e aceitai benignamente as oblações que Vos
+          oferecemos em nome dos vossos servos, a fim de que, caminhando com vossa graça, dirijais o
+          seu caminho e Vos digneis acompanhá-los, de modo que nos alegremos que eles cheguem
+          incólumes ao termo da sua viagem, com o socorro da vossa misericórdia. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -267,13 +239,12 @@ export default function PagePeregrinosviajantes() {
 
       <Language>
         <Typography className="latin">
-          Tu mandásti mandáta tua custodíri nimis: útinam dirigántur viæ meæ, ad
-          custodiéndas justificatiónes tuas. (T. P. Allelúja.)
+          Tu mandásti mandáta tua custodíri nimis: útinam dirigántur viæ meæ, ad custodiéndas
+          justificatiónes tuas. (T. P. Allelúja.)
         </Typography>
         <Typography className="vernacular">
-          Ordenastes que os vossos Mandamentos fossem rigorosamente observados:
-          praza a Deus que meus passos sejam conduzidos segundo os vossos
-          preceitos. (T. P. Aleluia.)
+          Ordenastes que os vossos Mandamentos fossem rigorosamente observados: praza a Deus que
+          meus passos sejam conduzidos segundo os vossos preceitos. (T. P. Aleluia.)
         </Typography>
       </Language>
 
@@ -281,13 +252,12 @@ export default function PagePeregrinosviajantes() {
 
       <Language>
         <Typography className="latin">
-          Tua, Dómine, sacraménta, quæ súmpsimus, fámulos tuos in te sperántes
-          custódiant: et contra omnes advérsos tueántur incúrsus. Per Dóminum...
+          Tua, Dómine, sacraménta, quæ súmpsimus, fámulos tuos in te sperántes custódiant: et contra
+          omnes advérsos tueántur incúrsus. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Que estes sacramentos, que recebemos, Senhor, guardem aqueles que em
-          Vós Confiam e os protejam contra todos os embates adversários. Por
-          nosso Senhor...
+          Que estes sacramentos, que recebemos, Senhor, guardem aqueles que em Vós Confiam e os
+          protejam contra todos os embates adversários. Por nosso Senhor...
         </Typography>
       </Language>
     </PageWrapper>

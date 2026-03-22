@@ -1,22 +1,9 @@
 import * as Updates from "expo-updates";
 import { useUpdates } from "expo-updates";
-import {
-  createContext,
-  type ReactNode,
-  useCallback,
-  useContext,
-  useEffect,
-  useState,
-} from "react";
+import { createContext, type ReactNode, useCallback, useContext, useEffect, useState } from "react";
 import { Platform } from "react-native";
 
-type UpdateState =
-  | "idle"
-  | "available"
-  | "downloading"
-  | "ready"
-  | "error"
-  | "checking";
+type UpdateState = "idle" | "available" | "downloading" | "ready" | "error" | "checking";
 
 type UpdateContextType = {
   updateState: UpdateState;
@@ -29,8 +16,7 @@ type UpdateContextType = {
 const UpdateContext = createContext<UpdateContextType | undefined>(undefined);
 
 export const UpdateProvider = ({ children }: { children: ReactNode }) => {
-  const { isUpdateAvailable, isUpdatePending, isChecking, isDownloading } =
-    useUpdates();
+  const { isUpdateAvailable, isUpdatePending, isChecking, isDownloading } = useUpdates();
   const [updateState, setUpdateState] = useState<UpdateState>("idle");
   const [hasShownUpdatePrompt, setHasShownUpdatePrompt] = useState(false);
 
@@ -85,12 +71,7 @@ export const UpdateProvider = ({ children }: { children: ReactNode }) => {
   }, [isChecking]);
 
   useEffect(() => {
-    if (
-      isUpdateAvailable &&
-      !hasShownUpdatePrompt &&
-      !isDownloading &&
-      !isUpdatePending
-    ) {
+    if (isUpdateAvailable && !hasShownUpdatePrompt && !isDownloading && !isUpdatePending) {
       setHasShownUpdatePrompt(true);
       setUpdateState("available");
     }

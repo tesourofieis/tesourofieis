@@ -10,35 +10,30 @@ export default function Page025() {
 
       <Language>
         <Typography className="latin">
-          Júdica me, Dómine, quóniam ego in innocéntia mea ingréssus sum: * et
-          in Dómino sperans non infirmábor.
+          Júdica me, Dómine, quóniam ego in innocéntia mea ingréssus sum: * et in Dómino sperans non
+          infirmábor.
         </Typography>
         <Typography className="vernacular">
-          Julgai-me, ó Senhor, porque andei na minha inocência: * e, esperando
-          no Senhor, não vacilarei.
+          Julgai-me, ó Senhor, porque andei na minha inocência: * e, esperando no Senhor, não
+          vacilarei.
         </Typography>
         <Typography className="latin">
           Proba me, Dómine, et tenta me: * ure renes meos et cor meum.
         </Typography>
         <Typography className="vernacular">
-          Testai-me, ó Senhor, e tentai-me: * purificai-me os rins e o meu
-          coração.
+          Testai-me, ó Senhor, e tentai-me: * purificai-me os rins e o meu coração.
         </Typography>
         <Typography className="latin">
-          Quóniam misericórdia tua ante óculos meos est: * et complácui in
-          veritáte tua.
+          Quóniam misericórdia tua ante óculos meos est: * et complácui in veritáte tua.
         </Typography>
         <Typography className="vernacular">
-          Porque a vossa misericórdia está ante meus olhos: * e com vossa
-          verdade estou satisfeito.
+          Porque a vossa misericórdia está ante meus olhos: * e com vossa verdade estou satisfeito.
         </Typography>
         <Typography className="latin">
-          Non sedi cum concílio vanitátis: * et cum iníqua geréntibus non
-          introíbo.
+          Non sedi cum concílio vanitátis: * et cum iníqua geréntibus non introíbo.
         </Typography>
         <Typography className="vernacular">
-          Não me sentei no concílio da vaidade: * e não entrarei com os que
-          praticam a iniquidade.
+          Não me sentei no concílio da vaidade: * e não entrarei com os que praticam a iniquidade.
         </Typography>
         <Typography className="latin">
           Odívi ecclésiam malignántium: * et cum ímpiis non sedébo.
@@ -47,12 +42,10 @@ export default function Page025() {
           Odeio a igreja dos malignos: * e me não sentarei com os ímpios.
         </Typography>
         <Typography className="latin">
-          Lavábo inter innocéntes manus meas: * et circúmdabo altáre tuum,
-          Dómine:
+          Lavábo inter innocéntes manus meas: * et circúmdabo altáre tuum, Dómine:
         </Typography>
         <Typography className="vernacular">
-          Lavarei as minhas mãos entre os inocentes: * e estarei, ó Senhor, ao
-          redor de vosso altar.
+          Lavarei as minhas mãos entre os inocentes: * e estarei, ó Senhor, ao redor de vosso altar.
         </Typography>
         <Typography className="latin">
           Ut áudiam vocem laudis, * et enárrem univérsa mirabília tua.
@@ -64,32 +57,26 @@ export default function Page025() {
           Dómine, diléxi decórem domus tuæ, * et locum habitatiónis glóriæ tuæ.
         </Typography>
         <Typography className="vernacular">
-          Senhor, amei o decoro de vossa casa, * e o lugar onde habita a vossa
-          glória.
+          Senhor, amei o decoro de vossa casa, * e o lugar onde habita a vossa glória.
         </Typography>
         <Typography className="latin">
-          Ne perdas cum ímpiis, Deus, ánimam meam, * et cum viris sánguinum
-          vitam meam:
+          Ne perdas cum ímpiis, Deus, ánimam meam, * et cum viris sánguinum vitam meam:
         </Typography>
         <Typography className="vernacular">
-          Não percais, ó Deus, a minha alma com os ímpios, * nem a minha vida
-          com os homens sanguinários.
+          Não percais, ó Deus, a minha alma com os ímpios, * nem a minha vida com os homens
+          sanguinários.
         </Typography>
         <Typography className="latin">
-          In quorum mánibus iniquitátes sunt: * déxtera eórum repléta est
-          munéribus.
+          In quorum mánibus iniquitátes sunt: * déxtera eórum repléta est munéribus.
         </Typography>
         <Typography className="vernacular">
-          Em cujas mãos está a iniquidade: * e cuja dextra está cheia de
-          subornos.
+          Em cujas mãos está a iniquidade: * e cuja dextra está cheia de subornos.
         </Typography>
         <Typography className="latin">
-          Ego autem in innocéntia mea ingréssus sum: * rédime me, et miserére
-          mei.
+          Ego autem in innocéntia mea ingréssus sum: * rédime me, et miserére mei.
         </Typography>
         <Typography className="vernacular">
-          Eu, porém, andei na minha inocência: * salvai-me e tende compaixão de
-          mim.
+          Eu, porém, andei na minha inocência: * salvai-me e tende compaixão de mim.
         </Typography>
         <Typography className="latin">
           Pes meus stetit in dirécto: * in ecclésiis benedícam Te, Dómine.

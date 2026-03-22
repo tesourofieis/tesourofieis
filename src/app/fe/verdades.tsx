@@ -23,8 +23,7 @@ export default function PageVerdades() {
           Honrar pai e mãe (e os outros legítimos superiores).
         </Typography>
         <Typography className="li list-group-item">
-          Não matar (nem causar outro dano, no corpo ou na alma, a si mesmo ou
-          ao próximo).
+          Não matar (nem causar outro dano, no corpo ou na alma, a si mesmo ou ao próximo).
         </Typography>
         <Typography className="li list-group-item">
           Guardar castidade nas palavras e nas obras.
@@ -33,20 +32,18 @@ export default function PageVerdades() {
           Não furtar (nem injustamente reter ou danificar os bens do próximo).
         </Typography>
         <Typography className="li list-group-item">
-          Não levantar falsos testemunhos (nem de qualquer outro modo faltar à
-          verdade ou difamar o próximo).
+          Não levantar falsos testemunhos (nem de qualquer outro modo faltar à verdade ou difamar o
+          próximo).
         </Typography>
         <Typography className="li list-group-item">
           Guardar castidade nos pensamentos e nos desejos.
         </Typography>
-        <Typography className="li list-group-item">
-          Não cobiçar as coisas alheias.
-        </Typography>
+        <Typography className="li list-group-item">Não cobiçar as coisas alheias.</Typography>
       </View>
       <H2 text="Os dois mandamentos de caridade" />
       <Typography className="vernacular">
-        Amarás o Senhor teu Deus, com todo teu coração, com toda tua alma e com
-        toda tua mente Amarás ao próximo como a ti mesmo.
+        Amarás o Senhor teu Deus, com todo teu coração, com toda tua alma e com toda tua mente
+        Amarás ao próximo como a ti mesmo.
       </Typography>
       <H2 text="A regra de ouro" />
       <Typography className="vernacular">
@@ -55,8 +52,8 @@ export default function PageVerdades() {
       <H2 text="Os cinco preceitos da Igreja" />
       <View className="list-group list-group-flush">
         <Typography className="li list-group-item">
-          Participar na Missa, aos domingos e festas de guarda e abster-se de
-          trabalhos e actividades que impeçam a santificação desses dias.
+          Participar na Missa, aos domingos e festas de guarda e abster-se de trabalhos e
+          actividades que impeçam a santificação desses dias.
         </Typography>
         <Typography className="li list-group-item">
           Confessar os pecados ao menos uma vez cada ano.
@@ -68,8 +65,7 @@ export default function PageVerdades() {
           Guardar a abstinência e jejuar nos dias determinados pela Igreja.
         </Typography>
         <Typography className="li list-group-item">
-          Contribuir para as necessidades materiais da Igreja, segundo as
-          possibilidades.
+          Contribuir para as necessidades materiais da Igreja, segundo as possibilidades.
         </Typography>
       </View>
       <H2 text="Sacramentos" />
@@ -96,8 +92,7 @@ export default function PageVerdades() {
         {"\n"}
         Bem-aventurados os mansos, porque possuirão a terra.
         {"\n"}
-        Bem-aventurados os que têm fome e sede de justiça, porque serão
-        saciados.
+        Bem-aventurados os que têm fome e sede de justiça, porque serão saciados.
         {"\n"}
         Bem-aventurados os misericordiosos, porque alcançarão misericórdia.
         {"\n"}
@@ -105,48 +100,37 @@ export default function PageVerdades() {
         {"\n"}
         Bem-aventurados os pacificadores, porque serão chamados filhos de Deus.
         {"\n"}
-        Bem-aventurados os que sofrem perseguição por causa da justiça, porque
-        deles é o reino dos céus.
+        Bem-aventurados os que sofrem perseguição por causa da justiça, porque deles é o reino dos
+        céus.
         {"\n"}
-        Bem-aventurados sereis quando vos insultarem, vos perseguirem e,
-        mentindo, disserem toda a espécie de calúnias contra vós.
+        Bem-aventurados sereis quando vos insultarem, vos perseguirem e, mentindo, disserem toda a
+        espécie de calúnias contra vós.
         {"\n"}
         Alegrai-vos e exultai, porque será grande a vossa recompensa nos céus.
       </Typography>
       <H2 text="Dias de Obrigação" />
       <Typography className="aside">Para além de todos os Domingos</Typography>
       <View className="list-group list-group-flush">
-        <Typography className="li list-group-item">
-          1 de Janeiro - Circuncisão do Senhor
-        </Typography>
-        <Typography className="li list-group-item">
-          6 de Janeiro - Epifania
-        </Typography>
-        <Typography className="li list-group-item">
-          19 de Março - Solenidade de São José
-        </Typography>
+        <Typography className="li list-group-item">1 de Janeiro - Circuncisão do Senhor</Typography>
+        <Typography className="li list-group-item">6 de Janeiro - Epifania</Typography>
+        <Typography className="li list-group-item">19 de Março - Solenidade de São José</Typography>
         <Typography className="li list-group-item">
           Ascensão de Jesus - Quinta-feira da sexta semana da Páscoa
         </Typography>
         <Typography className="li list-group-item">
-          Corpus Christi - Primeira quinta-feira após o Domingo da Santíssima
-          Trindade
+          Corpus Christi - Primeira quinta-feira após o Domingo da Santíssima Trindade
         </Typography>
         <Typography className="li list-group-item">
           29 de Junho - Solenidade dos Apóstolos São Pedro e São Paulo
         </Typography>
-        <Typography className="li list-group-item">
-          15 de Agosto - Assunção de Maria
-        </Typography>
+        <Typography className="li list-group-item">15 de Agosto - Assunção de Maria</Typography>
         <Typography className="li list-group-item">
           1 de Novembro - Dia de Todos-os-Santos
         </Typography>
         <Typography className="li list-group-item">
           8 de Dezembro - Imaculada Conceição de Maria
         </Typography>
-        <Typography className="li list-group-item">
-          25 de Dezembro - Natal
-        </Typography>
+        <Typography className="li list-group-item">25 de Dezembro - Natal</Typography>
       </View>
       <H2 text="Trabalhos de Misericórdia" />
       <H6 text="Corporais" />
@@ -202,8 +186,7 @@ export default function PageVerdades() {
       </Typography>
       <H2 text="Pecados Contra o Espírito Santo" />
       <Typography className="aside">
-        Pecados de pura malícia, que são contrários à bondade que se atribui ao
-        Espírito Santo.
+        Pecados de pura malícia, que são contrários à bondade que se atribui ao Espírito Santo.
       </Typography>
       <Typography className="vernacular">
         Desesperar da salvação;
@@ -220,13 +203,12 @@ export default function PageVerdades() {
       </Typography>
       <H2 text="Pecados que Bradam aos Céus" />
       <Typography className="aside">
-        Sua malícia é tão grave e manifesta, que provoca Deus a puni-los com os
-        mais severos castigos.
+        Sua malícia é tão grave e manifesta, que provoca Deus a puni-los com os mais severos
+        castigos.
       </Typography>
       <Typography className="vernacular">
-        Homicídio voluntário; Pecado impuro contra a natureza; Opressão dos
-        pobres, principalmente órfãos e viúvas; Não pagar o salário a quem
-        trabalha.
+        Homicídio voluntário; Pecado impuro contra a natureza; Opressão dos pobres, principalmente
+        órfãos e viúvas; Não pagar o salário a quem trabalha.
       </Typography>
       <H2 text="Do Espírito Santo" />
       <H6 text="Dons" />
@@ -346,17 +328,14 @@ export default function PageVerdades() {
           Deus para glorificar;{"\n"}
           Jesus para imitar;{"\n"}A abençoada Virgem e os Santos para venerar;
           {"\n"}
-          Os Anjos para invocar;{"\n"}A alma para salvar;{"\n"}O corpo para
-          mortificar;{"\n"}
+          Os Anjos para invocar;{"\n"}A alma para salvar;{"\n"}O corpo para mortificar;{"\n"}
           Virtudes para conquistar;{"\n"}
-          Pecados para expiar;{"\n"}O paraíso para ganhar;{"\n"}O inferno para
-          evitar;{"\n"}
+          Pecados para expiar;{"\n"}O paraíso para ganhar;{"\n"}O inferno para evitar;{"\n"}
           Eternidade para preparar;{"\n"}
-          Tempo para bem aproveitar;{"\n"}O próximo para edificar;{"\n"}] O
-          mundo para desprezar;{"\n"}
+          Tempo para bem aproveitar;{"\n"}O próximo para edificar;{"\n"}] O mundo para desprezar;
+          {"\n"}
           Demónios para combater;{"\n"}
-          Paixões para refrear;{"\n"}A morte sempre esperar;{"\n"}E o julgamento
-          para se preparar.
+          Paixões para refrear;{"\n"}A morte sempre esperar;{"\n"}E o julgamento para se preparar.
         </Typography>
       </Language>
     </PageWrapper>

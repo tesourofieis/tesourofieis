@@ -22,19 +22,16 @@ export default function Page097() {
           Sua dextra fê-l’O triunfar: * e o seu santo braço.
         </Typography>
         <Typography className="latin">
-          Notum fecit Dóminus salutáre suum: * in conspéctu géntium revelávit
-          justítiam suam.
+          Notum fecit Dóminus salutáre suum: * in conspéctu géntium revelávit justítiam suam.
         </Typography>
         <Typography className="vernacular">
-          O Senhor manifestou a sua salvação: * revelou a sua justiça aos olhos
-          das gentes.
+          O Senhor manifestou a sua salvação: * revelou a sua justiça aos olhos das gentes.
         </Typography>
         <Typography className="latin">
           Recordátus est misericórdiæ suæ, * et veritátis suæ dómui Israël.
         </Typography>
         <Typography className="vernacular">
-          Lembrou-se da sua misericórdia, * e da sua verdade para a casa de
-          Israel.
+          Lembrou-se da sua misericórdia, * e da sua verdade para a casa de Israel.
         </Typography>
         <Typography className="latin">
           Vidérunt omnes términi terræ * salutáre Dei nostri.
@@ -49,28 +46,28 @@ export default function Page097() {
           Aclamai a Deus, toda a terra: * cantai, exultai e salmodiai.
         </Typography>
         <Typography className="latin">
-          Psállite Dómino in cíthara, in cíthara et voce psalmi: * in tubis
-          ductílibus, et voce tubæ córneæ.
+          Psállite Dómino in cíthara, in cíthara et voce psalmi: * in tubis ductílibus, et voce tubæ
+          córneæ.
         </Typography>
         <Typography className="vernacular">
-          Cantai ao Senhor com a cítara, com a cítara e com voz de salmo: * com
-          trombetas de metal e som de corneta.
+          Cantai ao Senhor com a cítara, com a cítara e com voz de salmo: * com trombetas de metal e
+          som de corneta.
         </Typography>
         <Typography className="latin">
-          Jubiláte in conspéctu regis Dómini: * moveátur mare, et plenitúdo
-          ejus: orbis terrárum, et qui hábitant in eo.
+          Jubiláte in conspéctu regis Dómini: * moveátur mare, et plenitúdo ejus: orbis terrárum, et
+          qui hábitant in eo.
         </Typography>
         <Typography className="vernacular">
-          Jubilai-vos na presença do rei Senhor: * mova-se o mar e quanto nele
-          há, toda a terra e os que a habitam.
+          Jubilai-vos na presença do rei Senhor: * mova-se o mar e quanto nele há, toda a terra e os
+          que a habitam.
         </Typography>
         <Typography className="latin">
-          Flúmina plaudent manu, simul montes exsultábunt a conspéctu Dómini: *
-          quóniam venit judicáre terram.
+          Flúmina plaudent manu, simul montes exsultábunt a conspéctu Dómini: * quóniam venit
+          judicáre terram.
         </Typography>
         <Typography className="vernacular">
-          Os rios baterão palmas, ao mesmo tempo os montes alegrar-se-ão à vista
-          do Senhor: * porque vem julgar a terra.
+          Os rios baterão palmas, ao mesmo tempo os montes alegrar-se-ão à vista do Senhor: * porque
+          vem julgar a terra.
         </Typography>
         <Typography className="latin">
           Judicábit orbem terrárum in justítia, * et pópulos in æquitáte.

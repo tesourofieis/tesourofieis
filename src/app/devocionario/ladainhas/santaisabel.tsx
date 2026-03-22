@@ -6,9 +6,7 @@ export default function PageSantaisabel() {
   return (
     <PageWrapper>
       <H1 text="Ladainha Santa Isabel" />
-      <Typography className="vernacular">
-        Senhor, tende piedade de nós.
-      </Typography>
+      <Typography className="vernacular">Senhor, tende piedade de nós.</Typography>
       <Typography className="vernacular">
         Cristo, tende piedade de nós.{"\n"}
         Senhor, tende piedade de nós.{"\n"}
@@ -39,38 +37,30 @@ export default function PageSantaisabel() {
         Santa Isabel, espelho das viúvas, rogai por nós.{"\n"}
         Santa Isabel, norma de penitência e de humildade, rogai por nós .{"\n"}
         Santa Isabel, dotada de admirável mansidão, rogai por nós.{"\n"}
-        Santa Isabel, que desprezastes as delícias da real casa paterna, rogai
-        por nós.{"\n"}
+        Santa Isabel, que desprezastes as delícias da real casa paterna, rogai por nós.{"\n"}
         Santa Isabel, amante da Cruz de Cristo, rogai por nós.{"\n"}
         Santa Isabel, luz das mulheres piedosas, rogai por nós.{"\n"}
         Santa Isabel, Mãe dos órfãos, rogai por nós.{"\n"}
         Santa Isabel, consoladora de todas as aflições, rogai por nós.{"\n"}
-        Santa Isabel, que destes aos pobres todas vossas riquezas, rogai por
-        nós.{"\n"}
-        Santa Isabel, privada do auxílio dos vossos parentes, rogai por nós .
-        {"\n"}
+        Santa Isabel, que destes aos pobres todas vossas riquezas, rogai por nós.{"\n"}
+        Santa Isabel, privada do auxílio dos vossos parentes, rogai por nós .{"\n"}
         Santa Isabel, pacientíssima nas contrariedades, rogai por nós.{"\n"}
         Santa Isabel, abrigo dos peregrinos e dos doentes, rogai por nós .{"\n"}
         Santa Isabel, arrimo de todos os necessitados, rogai por nós.{"\n"}
         Santa Isabel, afugentadora dos demónios, rogai por nós.{"\n"}
-        Santa Isabel, que alcançáveis de Deus a conversão dos vaidosos e dos
-        viciados, rogai por nós.{"\n"}
-        Santa Isabel, que ouvistes cantar os anjos em vossa morte, rogai por
+        Santa Isabel, que alcançáveis de Deus a conversão dos vaidosos e dos viciados, rogai por
         nós.{"\n"}
-        Santa Isabel, adornada de milagres na vida e na morte, rogai por nós .
-        {"\n"}
-        Santa Isabel, que socorreis misericordiosamente aos vossos devotos,
-        rogai por nós.{"\n"}
+        Santa Isabel, que ouvistes cantar os anjos em vossa morte, rogai por nós.{"\n"}
+        Santa Isabel, adornada de milagres na vida e na morte, rogai por nós .{"\n"}
+        Santa Isabel, que socorreis misericordiosamente aos vossos devotos, rogai por nós.{"\n"}
         Cordeiro de Deus, que tirais os pecados do mundo, perdoai-nos, Senhor.
         {"\n"}
-        Cordeiro de Deus, que tirais os pecados do mundo, ouvi-nos, Senhor .
-        {"\n"}
+        Cordeiro de Deus, que tirais os pecados do mundo, ouvi-nos, Senhor .{"\n"}
         Cordeiro de Deus, que tirais os pecados do mundo, tende piedade de nós.
         {"\n"}
       </Typography>
       <Typography className="vernacular">
-        <Typography className="versicle"> ℣. </Typography> Rogai por nós, Santa
-        Isabel.
+        <Typography className="versicle"> ℣. </Typography> Rogai por nós, Santa Isabel.
       </Typography>
       <Typography className="vernacular">
         <Typography className="response"> ℟. </Typography>
@@ -78,12 +68,11 @@ export default function PageSantaisabel() {
       </Typography>
       <Typography className="text-center text-red-500">Oremos.</Typography>
       <Typography className="vernacular">
-        Ó Deus clementíssimo, que entre outros eminentes dotes ornastes a Rainha
-        Santa Isabel com a prerrogativa de aplacar os horrores da guerra,
-        concedei-nos por sua intercessão que, depois de passarmos em paz esta
-        vida mortal, como humildemente pedimos, alcancemos as alegrias eternas.
-        Por Nosso Senhor Jesus Cristo, vosso Filho, que convosco vive e reina
-        com o Espírito Santo por todos os séculos dos séculos. Amen.
+        Ó Deus clementíssimo, que entre outros eminentes dotes ornastes a Rainha Santa Isabel com a
+        prerrogativa de aplacar os horrores da guerra, concedei-nos por sua intercessão que, depois
+        de passarmos em paz esta vida mortal, como humildemente pedimos, alcancemos as alegrias
+        eternas. Por Nosso Senhor Jesus Cristo, vosso Filho, que convosco vive e reina com o
+        Espírito Santo por todos os séculos dos séculos. Amen.
       </Typography>
     </PageWrapper>
   );

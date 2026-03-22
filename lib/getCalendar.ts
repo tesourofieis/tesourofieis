@@ -55,10 +55,4 @@ function __clearCalendarCacheForBenchmarks() {
   calendarByYear.clear();
 }
 
-export {
-  __clearCalendarCacheForBenchmarks,
-  getCalendar,
-  getCalendarDay,
-  getNovenas,
-  getSeason,
-};
+export { __clearCalendarCacheForBenchmarks, getCalendar, getCalendarDay, getNovenas, getSeason };

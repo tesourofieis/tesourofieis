@@ -10,10 +10,9 @@ export default function Page0118Outro() {
       <H1 text="Santa Prisca, a 18 de Janeiro" />
 
       <Typography className="comment">
-        Santa Prisca, na idade de treze anos, padeceu, sob o imperador Cláudio
-        (Séc. I) cruéis tormentos. Queriam forçá-la a adorar os ídolos mas a sua
-        grande fé (Or.) encheu-a da força divina de Jesus e ela entrou no céu,
-        cingida com a dupla coroa da virgindade e do martírio.
+        Santa Prisca, na idade de treze anos, padeceu, sob o imperador Cláudio (Séc. I) cruéis
+        tormentos. Queriam forçá-la a adorar os ídolos mas a sua grande fé (Or.) encheu-a da força
+        divina de Jesus e ela entrou no céu, cingida com a dupla coroa da virgindade e do martírio.
       </Typography>
 
       <Typography className="aside">
@@ -28,15 +27,14 @@ export default function Page0118Outro() {
 
       <Language>
         <Typography className="latin">
-          Da, quǽsumus, omnípotens Deus: ut, qui beátæ Priscæ Vírginis et
-          Mártyris tuæ natalítia cólimus; et ánnua sollemnitáte lætémur, et
-          tantae fídei proficiámus exémplo. Per Dóminum...
+          Da, quǽsumus, omnípotens Deus: ut, qui beátæ Priscæ Vírginis et Mártyris tuæ natalítia
+          cólimus; et ánnua sollemnitáte lætémur, et tantae fídei proficiámus exémplo. Per
+          Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Concedei-nos, ó Deus omnipotente, Vos rogamos, que, celebrando o
-          nascimento da B. Prisca, vossa Virgem e Mártir, nos alegremos nesta
-          solenidade anual e aproveitemos com os exemplos da sua tão grande fé.
-          Por nosso Senhor...
+          Concedei-nos, ó Deus omnipotente, Vos rogamos, que, celebrando o nascimento da B. Prisca,
+          vossa Virgem e Mártir, nos alegremos nesta solenidade anual e aproveitemos com os exemplos
+          da sua tão grande fé. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -44,14 +42,13 @@ export default function Page0118Outro() {
 
       <Language>
         <Typography className="latin">
-          Hæc hóstia, quǽsumus, Dómine, quam Sanctórum tuórum natalítia
-          recenséntes offérimus, et víncula nostræ pravitátis absólvat, et tuæ
-          nobis misericórdiæ dona concíliet. Per Dóminum...
+          Hæc hóstia, quǽsumus, Dómine, quam Sanctórum tuórum natalítia recenséntes offérimus, et
+          víncula nostræ pravitátis absólvat, et tuæ nobis misericórdiæ dona concíliet. Per
+          Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Que esta hóstia, Senhor, que Vos oferecemos em honra do nascimento dos
-          vossos Santos, nos livre dos vínculos dos nossos pecados e nos obtenha
-          os dons da vossa misericórdia...
+          Que esta hóstia, Senhor, que Vos oferecemos em honra do nascimento dos vossos Santos, nos
+          livre dos vínculos dos nossos pecados e nos obtenha os dons da vossa misericórdia...
         </Typography>
       </Language>
 
@@ -59,13 +56,12 @@ export default function Page0118Outro() {
 
       <Language>
         <Typography className="latin">
-          Quǽsumus, Dómine, salutáribus repléti mystériis: ut, cujus sollémnia
-          celebrámus, ejus oratiónibus adjuvémur. Per Dóminum...
+          Quǽsumus, Dómine, salutáribus repléti mystériis: ut, cujus sollémnia celebrámus, ejus
+          oratiónibus adjuvémur. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Saciados com os dons salutares, Vos imploramos, Senhor, sejamos
-          socorridos pelas preces daquela cuja festa celebrámos. Por nosso
-          Senhor...
+          Saciados com os dons salutares, Vos imploramos, Senhor, sejamos socorridos pelas preces
+          daquela cuja festa celebrámos. Por nosso Senhor...
         </Typography>
       </Language>
     </PageWrapper>

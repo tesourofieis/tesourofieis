@@ -21,14 +21,14 @@ export default function Page0128LisboaFaro() {
 
       <Language>
         <Typography className="latin">
-          Deus, qui nos ánnua beátæ Agnetis Vírginis et Martyris tuæ
-          sollemnitáte lætíficas: da, quǽsumus; ut, quam venerámur officio,
-          étiam piæ conversatiónis sequámur exémplo. Per Dóminum...
+          Deus, qui nos ánnua beátæ Agnetis Vírginis et Martyris tuæ sollemnitáte lætíficas: da,
+          quǽsumus; ut, quam venerámur officio, étiam piæ conversatiónis sequámur exémplo. Per
+          Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Ó Deus, que nos alegrais com a solenidade anual da B. Inês, vossa
-          Virgem e Mártir, concedei-nos a graça, Vos suplicamos, de imitar os
-          exemplos daquela cuja festa celebramos. Por nosso Senhor...
+          Ó Deus, que nos alegrais com a solenidade anual da B. Inês, vossa Virgem e Mártir,
+          concedei-nos a graça, Vos suplicamos, de imitar os exemplos daquela cuja festa celebramos.
+          Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -36,15 +36,13 @@ export default function Page0128LisboaFaro() {
 
       <Language>
         <Typography className="latin">
-          Super has, quǽsumus, Dómine, hóstias benedíctio copiósa descéndat: quæ
-          et sanctificatiónem nobis cleménter operétur, et de Mártyrum nos
-          sollemnitáte lætíficet. Per Dóminum...
+          Super has, quǽsumus, Dómine, hóstias benedíctio copiósa descéndat: quæ et sanctificatiónem
+          nobis cleménter operétur, et de Mártyrum nos sollemnitáte lætíficet. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Que estas hóstias, Senhor, que Vos oferecemos façam descer sobre nós
-          uma bênção abundante, a qual produza em nós por vossa clemência nossa
-          santificação e nos alegre com a solenidade dos vossos Mártires. Por
-          nosso Senhor...
+          Que estas hóstias, Senhor, que Vos oferecemos façam descer sobre nós uma bênção abundante,
+          a qual produza em nós por vossa clemência nossa santificação e nos alegre com a solenidade
+          dos vossos Mártires. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -52,14 +50,13 @@ export default function Page0128LisboaFaro() {
 
       <Language>
         <Typography className="latin">
-          Súmpsimus, Dómine, celebritátis ánnuæ votiva sacraménta: præsta,
-          quǽsumus; ut et temporális vitæ nobis remédia prǽbeant et ætérnæ. Per
-          Dóminum...
+          Súmpsimus, Dómine, celebritátis ánnuæ votiva sacraménta: præsta, quǽsumus; ut et
+          temporális vitæ nobis remédia prǽbeant et ætérnæ. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Senhor, havendo recebido os sacramentos que Vos são oferecidos nesta
-          festa anual, concedei-nos, Vos suplicamos, que eles nos alcancem os
-          remédios para a vida presente e para a eterna. Por nosso Senhor...
+          Senhor, havendo recebido os sacramentos que Vos são oferecidos nesta festa anual,
+          concedei-nos, Vos suplicamos, que eles nos alcancem os remédios para a vida presente e
+          para a eterna. Por nosso Senhor...
         </Typography>
       </Language>
     </PageWrapper>

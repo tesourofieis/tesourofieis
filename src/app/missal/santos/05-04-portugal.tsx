@@ -16,10 +16,9 @@ export default function Page0504Portugal() {
       </Typography>
       <H3 text="Oração" />
       <Typography className="vernacular">
-        Que a fé da ressurreição, Senhor, cresça em nós em virtude das
-        maravilhas que operais pelas Relíquias do vosso Santo Mártir Vicente; e
-        fazei que alcancemos a glória imortal, de que estas cinzas, que
-        veneramos, nos servem de penhor. Por nosso Senhor...
+        Que a fé da ressurreição, Senhor, cresça em nós em virtude das maravilhas que operais pelas
+        Relíquias do vosso Santo Mártir Vicente; e fazei que alcancemos a glória imortal, de que
+        estas cinzas, que veneramos, nos servem de penhor. Por nosso Senhor...
       </Typography>
     </PageWrapper>
   );

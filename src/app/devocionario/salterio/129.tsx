@@ -25,16 +25,13 @@ export default function Page129() {
           Si iniquitátes observáveris, Dómine: * Dómine, quis sustinébit?
         </Typography>
         <Typography className="vernacular">
-          Se observardes as nossas iniquidades, Senhor: * ó Senhor, quem
-          subsistirá?
+          Se observardes as nossas iniquidades, Senhor: * ó Senhor, quem subsistirá?
         </Typography>
         <Typography className="latin">
-          Quia apud Te propitiátio est: * et propter legem tuam sustínui Te,
-          Dómine.
+          Quia apud Te propitiátio est: * et propter legem tuam sustínui Te, Dómine.
         </Typography>
         <Typography className="vernacular">
-          Pois em Vós está a clemência: * Senhor, e devido à vossa lei subsiste
-          em Vós.
+          Pois em Vós está a clemência: * Senhor, e devido à vossa lei subsiste em Vós.
         </Typography>
         <Typography className="latin">
           Sustínuit ánima mea in verbo ejus: * sperávit ánima mea in Dómino.

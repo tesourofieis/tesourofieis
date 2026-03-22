@@ -13,8 +13,7 @@ export default function Page033() {
           Benedícam Dóminum in omni témpore: * semper laus ejus in ore meo.
         </Typography>
         <Typography className="vernacular">
-          Bendirei o Senhor a toda a hora: * o seu louvor estará sempre na minha
-          boca.
+          Bendirei o Senhor a toda a hora: * o seu louvor estará sempre na minha boca.
         </Typography>
         <Typography className="latin">
           In Dómino laudábitur ánima mea: * áudiant mansuéti, et læténtur.
@@ -29,27 +28,23 @@ export default function Page033() {
           Comigo engrandecei o Senhor: * e exaltemos juntos o seu nome.
         </Typography>
         <Typography className="latin">
-          Exquisívi Dóminum, et exaudívit me: * et ex ómnibus tribulatiónibus
-          meis erípuit me.
+          Exquisívi Dóminum, et exaudívit me: * et ex ómnibus tribulatiónibus meis erípuit me.
         </Typography>
         <Typography className="vernacular">
-          Procurei o Senhor e Ele me ouviu: * e me livrou de todas minhas
-          tribulações.
+          Procurei o Senhor e Ele me ouviu: * e me livrou de todas minhas tribulações.
         </Typography>
         <Typography className="latin">
           Accédite ad eum, et illuminámini: * et fácies vestræ non confundéntur.
         </Typography>
         <Typography className="vernacular">
-          Aproximai-vos d’Ele e sereis iluminados: * e os vossos rostos não
-          serão confundidos.
+          Aproximai-vos d’Ele e sereis iluminados: * e os vossos rostos não serão confundidos.
         </Typography>
         <Typography className="latin">
-          Iste pauper clamávit, et Dóminus exaudívit eum: * et de ómnibus
-          tribulatiónibus ejus salvávit eum.
+          Iste pauper clamávit, et Dóminus exaudívit eum: * et de ómnibus tribulatiónibus ejus
+          salvávit eum.
         </Typography>
         <Typography className="vernacular">
-          Este pobre clamou e o Senhor o ouviu: * e o salvou de todas suas
-          tribulações.
+          Este pobre clamou e o Senhor o ouviu: * e o salvou de todas suas tribulações.
         </Typography>
         <Typography className="latin">
           Immíttet Ángelus Dómini in circúitu timéntium eum: * et erípiet eos.
@@ -58,27 +53,23 @@ export default function Page033() {
           O anjo do Senhor andará à volta dos que O temem: * e resgatá-los-á.
         </Typography>
         <Typography className="latin">
-          Gustáte, et vidéte quóniam suávis est Dóminus: * beátus vir, qui
-          sperat in eo.
+          Gustáte, et vidéte quóniam suávis est Dóminus: * beátus vir, qui sperat in eo.
         </Typography>
         <Typography className="vernacular">
           Provai e vede quão suave é o Senhor: * feliz o varão que n’Ele espera.
         </Typography>
         <Typography className="latin">
-          Timéte Dóminum, omnes sancti ejus: * quóniam non est inópia timéntibus
-          eum.
+          Timéte Dóminum, omnes sancti ejus: * quóniam non est inópia timéntibus eum.
         </Typography>
         <Typography className="vernacular">
-          Temei o Senhor, todos seus santos: * porque não há indigência aos que
-          O temem.
+          Temei o Senhor, todos seus santos: * porque não há indigência aos que O temem.
         </Typography>
         <Typography className="latin">
-          Dívites eguérunt et esuriérunt: * inquiréntes autem Dóminum non
-          minuéntur omni bono.
+          Dívites eguérunt et esuriérunt: * inquiréntes autem Dóminum non minuéntur omni bono.
         </Typography>
         <Typography className="vernacular">
-          Os ricos tiveram necessidade e fome: * mas os que buscam o Senhor, não
-          terão falta de bem algum.
+          Os ricos tiveram necessidade e fome: * mas os que buscam o Senhor, não terão falta de bem
+          algum.
         </Typography>
         <Typography className="latin">
           Veníte, fílii, audíte me: * timórem Dómini docébo vos.
@@ -108,40 +99,34 @@ export default function Page033() {
           Óculi Dómini super justos: * et aures ejus in preces eórum.
         </Typography>
         <Typography className="vernacular">
-          Os olhos do Senhor estão sobre os justos: * e seus ouvidos nas suas
-          preces.
+          Os olhos do Senhor estão sobre os justos: * e seus ouvidos nas suas preces.
         </Typography>
         <Typography className="latin">
-          Vultus autem Dómini super faciéntes mala: * ut perdat de terra
-          memóriam eórum.
+          Vultus autem Dómini super faciéntes mala: * ut perdat de terra memóriam eórum.
         </Typography>
         <Typography className="vernacular">
-          Contudo, o rosto do Senhor está sobre os que fazem o mal: * para
-          apagar da terra a sua memória.
+          Contudo, o rosto do Senhor está sobre os que fazem o mal: * para apagar da terra a sua
+          memória.
         </Typography>
         <Typography className="latin">
-          Clamavérunt justi, et Dóminus exaudívit eos: * et ex ómnibus
-          tribulatiónibus eórum liberávit eos.
+          Clamavérunt justi, et Dóminus exaudívit eos: * et ex ómnibus tribulatiónibus eórum
+          liberávit eos.
         </Typography>
         <Typography className="vernacular">
-          Clamaram os justos e o Senhor os ouviu: * e os salvou de todas suas
-          tribulações.
+          Clamaram os justos e o Senhor os ouviu: * e os salvou de todas suas tribulações.
         </Typography>
         <Typography className="latin">
-          Juxta est Dóminus iis, qui tribuláto sunt corde: * et húmiles spíritu
-          salvábit.
+          Juxta est Dóminus iis, qui tribuláto sunt corde: * et húmiles spíritu salvábit.
         </Typography>
         <Typography className="vernacular">
-          O Senhor está perto daqueles que têm o coração atribulado: * e salvará
-          os humildes de espírito.
+          O Senhor está perto daqueles que têm o coração atribulado: * e salvará os humildes de
+          espírito.
         </Typography>
         <Typography className="latin">
-          Multæ tribulatiónes justórum: * et de ómnibus his liberábit eos
-          Dóminus.
+          Multæ tribulatiónes justórum: * et de ómnibus his liberábit eos Dóminus.
         </Typography>
         <Typography className="vernacular">
-          Muitas são as tribulações dos justos: * e de todas elas livrá-los-á o
-          Senhor.
+          Muitas são as tribulações dos justos: * e de todas elas livrá-los-á o Senhor.
         </Typography>
         <Typography className="latin">
           Custódit Dóminus ómnia ossa eórum: * unum ex his non conterétur.
@@ -153,16 +138,14 @@ export default function Page033() {
           Mors peccatórum péssima: * et qui odérunt justum, delínquent.
         </Typography>
         <Typography className="vernacular">
-          A morte dos pecadores é péssima: * e castigados serão os que ao justo
-          odeiam.
+          A morte dos pecadores é péssima: * e castigados serão os que ao justo odeiam.
         </Typography>
         <Typography className="latin">
-          Rédimet Dóminus ánimas servórum suórum: * et non delínquent omnes qui
-          sperant in eo.
+          Rédimet Dóminus ánimas servórum suórum: * et non delínquent omnes qui sperant in eo.
         </Typography>
         <Typography className="vernacular">
-          O Senhor resgatará as almas dos seus servos: * e não castigará todos
-          aqueles que n’Ele esperam.
+          O Senhor resgatará as almas dos seus servos: * e não castigará todos aqueles que n’Ele
+          esperam.
         </Typography>
       </Language>
     </PageWrapper>

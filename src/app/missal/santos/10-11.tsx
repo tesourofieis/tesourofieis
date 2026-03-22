@@ -9,26 +9,22 @@ export default function Page1011() {
     <PageWrapper>
       <H1 text="Maternidade da B. Virgem Maria, a 11 de Outubro" />
       <Typography className="comment">
-        O mundo exalta a maternidade celebrando a festa das mães. E a Igreja nos
-        manda honrar a maternidade virginal ou a virgindade maternal daquela que
-        é a Mãe por excelência e o modelo de todas as mães. Mãe de Jesus porque
-        ela lhe deu seu corpo e seu sangue (Intr., Or., Εp., Off., Com.), Maria
-        é nossa Mãe porque nos dá a graça (Ep.) que de modo sobrenatural nos une
-        a seu divino Filho. A Maternidade de Maria estende-se, pois, ao Cristo,
-        que é nosso Chefe, e a todos os membros do corpo místico de Cristo. Como
-        estávamos todos em Adão, no principio, quanto á semente da geração
-        carnal, diz S. Bernardo, estamos todos em Jesus Cristo pela semente da
-        geração espiritual. A Mãe de Cristo é, pois, a mãe dos cristãos, não só
-        por causa de sua afeição, mas por causa do mistério mesmo (de nossa
-        incorporação no Filho de Maria). (In Assumpt. S. IV). Não é Maria a mãe
-        de Cristo? pergunta Pio X. Pois, é também nossa mãe. É por isso que nós
-        todos que somos unidos a Jesus Cristo, e, como o escreve o Apóstolo
-        (Eph. II, 30) membros de seu corpo, de sua carne e de seus ossos, saímos
-        de seio de Maria como um corpo unido ao seu Chefe. Dai que, num sentido
-        espiritual e místico, somos chamados filhos de Maria, e que para nós
-        todos é nossa mãe; mãe espiritual, sem dúvida, mas verdadeiramente mãe
-        dos membros de Cristo e nós mesmos somos seus membros. (Ad diem illum.,
-        22 fev. de 1914).
+        O mundo exalta a maternidade celebrando a festa das mães. E a Igreja nos manda honrar a
+        maternidade virginal ou a virgindade maternal daquela que é a Mãe por excelência e o modelo
+        de todas as mães. Mãe de Jesus porque ela lhe deu seu corpo e seu sangue (Intr., Or., Εp.,
+        Off., Com.), Maria é nossa Mãe porque nos dá a graça (Ep.) que de modo sobrenatural nos une
+        a seu divino Filho. A Maternidade de Maria estende-se, pois, ao Cristo, que é nosso Chefe, e
+        a todos os membros do corpo místico de Cristo. Como estávamos todos em Adão, no principio,
+        quanto á semente da geração carnal, diz S. Bernardo, estamos todos em Jesus Cristo pela
+        semente da geração espiritual. A Mãe de Cristo é, pois, a mãe dos cristãos, não só por causa
+        de sua afeição, mas por causa do mistério mesmo (de nossa incorporação no Filho de Maria).
+        (In Assumpt. S. IV). Não é Maria a mãe de Cristo? pergunta Pio X. Pois, é também nossa mãe.
+        É por isso que nós todos que somos unidos a Jesus Cristo, e, como o escreve o Apóstolo (Eph.
+        II, 30) membros de seu corpo, de sua carne e de seus ossos, saímos de seio de Maria como um
+        corpo unido ao seu Chefe. Dai que, num sentido espiritual e místico, somos chamados filhos
+        de Maria, e que para nós todos é nossa mãe; mãe espiritual, sem dúvida, mas verdadeiramente
+        mãe dos membros de Cristo e nós mesmos somos seus membros. (Ad diem illum., 22 fev. de
+        1914).
       </Typography>
 
       <H3 text="Intróito" />
@@ -37,15 +33,15 @@ export default function Page1011() {
 
       <Language>
         <Typography className="latin">
-          Ecce Virgo concípiet, et páriet fílium, et vocábitur nomen ejus
-          Emmánuel. <Typography className="latin">Ps. 97, 1</Typography> Cantáte
-          Dómino cánticum novum: quia mirabília fecit.
+          Ecce Virgo concípiet, et páriet fílium, et vocábitur nomen ejus Emmánuel.{" "}
+          <Typography className="latin">Ps. 97, 1</Typography> Cantáte Dómino cánticum novum: quia
+          mirabília fecit.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
-          Eis que a virgem conceberá e dará à luz um Filho, cujo nome será
-          Emanuel. <Typography className="vernacular">Sl. 97, 1</Typography>{" "}
-          Cantai ao Senhor um cântico novo, porque Ele praticou maravilhas.
+          Eis que a virgem conceberá e dará à luz um Filho, cujo nome será Emanuel.{" "}
+          <Typography className="vernacular">Sl. 97, 1</Typography> Cantai ao Senhor um cântico
+          novo, porque Ele praticou maravilhas.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -54,26 +50,21 @@ export default function Page1011() {
 
       <Language>
         <Typography className="latin">
-          Deus, qui de beátæ Maríæ Vírginis útero Verbum tuum, Angelo nuntiánte,
-          carnem suscípere voluísti: præsta supplícibus tuis; ut, qui vere eam
-          Genitrícem Dei crédimus, ejus apud te intercessiónibus adjuvémur. Per
-          eumdem Dóminum...
+          Deus, qui de beátæ Maríæ Vírginis útero Verbum tuum, Angelo nuntiánte, carnem suscípere
+          voluísti: præsta supplícibus tuis; ut, qui vere eam Genitrícem Dei crédimus, ejus apud te
+          intercessiónibus adjuvémur. Per eumdem Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Ó Deus, que segundo a anunciação do Anjo quisestes que o vosso Verbo
-          assumisse a carne humana no seio da B. Virgem Maria, concedei-nos, Vos
-          suplicamos, que, assim como acreditamos que ela é verdadeira Mãe de
-          Deus, assim sejamos auxiliados na vossa presença com a intercessão das
-          suas preces. Pelo mesmo nosso Senhor...
+          Ó Deus, que segundo a anunciação do Anjo quisestes que o vosso Verbo assumisse a carne
+          humana no seio da B. Virgem Maria, concedei-nos, Vos suplicamos, que, assim como
+          acreditamos que ela é verdadeira Mãe de Deus, assim sejamos auxiliados na vossa presença
+          com a intercessão das suas preces. Pelo mesmo nosso Senhor...
         </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <LinkCard
-        href="/missal/santos/07-16#epístola"
-        title="B. Virgem Maria do Monte Carmelo"
-      />
+      <LinkCard href="/missal/santos/07-16#epístola" title="B. Virgem Maria do Monte Carmelo" />
 
       <H3 text="Gradual" />
 
@@ -82,23 +73,22 @@ export default function Page1011() {
       <Language>
         <Typography className="latin">
           Egrediétur virga de rádice Jesse, et flos de rádice ejus ascéndet.
-          <Typography className="versicle"> ℣. </Typography>Et requiéscet super
-          eum Spíritus Dómini.
+          <Typography className="versicle"> ℣. </Typography>Et requiéscet super eum Spíritus Dómini.
         </Typography>
         <Typography className="vernacular">
           Sairá uma vara do tronco de Jessé e uma flor brotará da sua raiz.
-          <Typography className="versicle"> ℣. </Typography>E o espírito do
-          Senhor repousará sobre ela.
+          <Typography className="versicle"> ℣. </Typography>E o espírito do Senhor repousará sobre
+          ela.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          Virgo Dei Génitrix, quem totus non capit orbis, in tua se clausit
-          víscera factus homo. Allelúja.
+          Virgo Dei Génitrix, quem totus non capit orbis, in tua se clausit víscera factus homo.
+          Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Ó
-          Virgem, Aquele que todo o mundo não é capaz de conter, quando se fez
-          homem, esteve encerrado no vosso seio. Aleluia.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Ó Virgem, Aquele que
+          todo o mundo não é capaz de conter, quando se fez homem, esteve encerrado no vosso seio.
+          Aleluia.
         </Typography>
       </Language>
 
@@ -108,43 +98,36 @@ export default function Page1011() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
-          Evangélii secúndum Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo
-          Evangelho segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho segundo S.
+          Lucas.
         </Typography>
         <Typography className="latin">
-          In illo témpore: Cum redírent, remánsit puer Jesus in Jerúsalem, et
-          non cognovérunt paréntes ejus. Existimántes autem illum esse in
-          comitátu, venérunt iter diei, et requirébant eum inter cognátos, et
-          notos. Et non inveniéntes, regréssi sunt in Jerúsalem, requiréntes
-          eum. Et factum est, post tríduum invenérunt illum in templo sedéntem
-          in médio doctórum, audiéntem illos, et interrogántem eos. Stupébant
-          autem omnes, qui eum audiébant, super prudéntia et respónsis ejus. Et
-          vidéntes admiráti sunt. Et dixit mater ejus ad illum: Fili, quid
-          fecísti nobis sic? ecce pater tuus, et ego doléntes quærebámus te. Et
-          ait ad illos: Quid est quod me quærebátis? nesciebátis quia in his,
-          quæ Patris mei sunt, opórtet me esse. Et ipsi non intellexérunt
-          verbum, quod locútus est ad eos. Et descéndit cum eis, et venit
-          Názareth: et erat súbditus illis.
+          In illo témpore: Cum redírent, remánsit puer Jesus in Jerúsalem, et non cognovérunt
+          paréntes ejus. Existimántes autem illum esse in comitátu, venérunt iter diei, et
+          requirébant eum inter cognátos, et notos. Et non inveniéntes, regréssi sunt in Jerúsalem,
+          requiréntes eum. Et factum est, post tríduum invenérunt illum in templo sedéntem in médio
+          doctórum, audiéntem illos, et interrogántem eos. Stupébant autem omnes, qui eum audiébant,
+          super prudéntia et respónsis ejus. Et vidéntes admiráti sunt. Et dixit mater ejus ad
+          illum: Fili, quid fecísti nobis sic? ecce pater tuus, et ego doléntes quærebámus te. Et
+          ait ad illos: Quid est quod me quærebátis? nesciebátis quia in his, quæ Patris mei sunt,
+          opórtet me esse. Et ipsi non intellexérunt verbum, quod locútus est ad eos. Et descéndit
+          cum eis, et venit Názareth: et erat súbditus illis.
         </Typography>
         <Typography className="vernacular">
-          Naquele tempo, quando voltaram para casa, ficou o Menino Jesus em
-          Jerusalém, sem que de tal seus pais se apercebessem. Pensando que Ele
-          viria com seus companheiros de jornada, fizeram um dia de viagem,
-          procurando-O depois entre os parentes e conhecidos. Não O encontrando,
-          voltaram logo a Jerusalém pelo mesmo caminho. Então aconteceu que,
-          depois de três dias, foram achá-l’O no templo, assentado entre os
-          doutores, ouvindo-os e interrogando-os. E aqueles que O ouviam estavam
-          admirados da sua sabedoria e das suas respostas. Quando os pais O
-          encontraram, ficaram admirados, dizendo-Lhe logo a Mãe: «Meu Filho,
-          porque procedestes assim para connosco? Eis que vosso Pai e eu Vos
-          buscávamos aflitos?!». Ele disse-lhes: «Porque me procuráveis? Não
-          sabeis que é preciso que me ocupe das coisas de meu Pai?». Porém, eles
-          não compreenderam o que Jesus lhes disse. Então desceu com eles, veio
-          para Nazaré e era-lhes obediente.
+          Naquele tempo, quando voltaram para casa, ficou o Menino Jesus em Jerusalém, sem que de
+          tal seus pais se apercebessem. Pensando que Ele viria com seus companheiros de jornada,
+          fizeram um dia de viagem, procurando-O depois entre os parentes e conhecidos. Não O
+          encontrando, voltaram logo a Jerusalém pelo mesmo caminho. Então aconteceu que, depois de
+          três dias, foram achá-l’O no templo, assentado entre os doutores, ouvindo-os e
+          interrogando-os. E aqueles que O ouviam estavam admirados da sua sabedoria e das suas
+          respostas. Quando os pais O encontraram, ficaram admirados, dizendo-Lhe logo a Mãe: «Meu
+          Filho, porque procedestes assim para connosco? Eis que vosso Pai e eu Vos buscávamos
+          aflitos?!». Ele disse-lhes: «Porque me procuráveis? Não sabeis que é preciso que me ocupe
+          das coisas de meu Pai?». Porém, eles não compreenderam o que Jesus lhes disse. Então
+          desceu com eles, veio para Nazaré e era-lhes obediente.
         </Typography>
       </Language>
 
@@ -154,12 +137,12 @@ export default function Page1011() {
 
       <Language>
         <Typography className="latin">
-          Cum esset desponsáta mater ejus María Joseph, invénta est in útero
-          habens de Spíritu Sancto.
+          Cum esset desponsáta mater ejus María Joseph, invénta est in útero habens de Spíritu
+          Sancto.
         </Typography>
         <Typography className="vernacular">
-          Estando Maria, sua Mãe, desposada com José, achou este que ela havia
-          concebido do Espírito Santo.
+          Estando Maria, sua Mãe, desposada com José, achou este que ela havia concebido do Espírito
+          Santo.
         </Typography>
       </Language>
 
@@ -167,14 +150,13 @@ export default function Page1011() {
 
       <Language>
         <Typography className="latin">
-          Tua, Dómine, propitiatióne, et beátæ Maríæ semper Vírginis, Unigéniti
-          tui matris intercessióne, ad perpétuam atque præséntem hæc oblátio
-          nobis profíciat prosperitátem, et pacem. Per eumdem Dóminum...
+          Tua, Dómine, propitiatióne, et beátæ Maríæ semper Vírginis, Unigéniti tui matris
+          intercessióne, ad perpétuam atque præséntem hæc oblátio nobis profíciat prosperitátem, et
+          pacem. Per eumdem Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Pela vossa misericórdia, Senhor, e pela intercessão da B. Maria,
-          sempre Virgem, fazei que esta oferta nos assegure agora e sempre a
-          prosperidade e a paz. Por nosso Senhor...
+          Pela vossa misericórdia, Senhor, e pela intercessão da B. Maria, sempre Virgem, fazei que
+          esta oferta nos assegure agora e sempre a prosperidade e a paz. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -185,8 +167,8 @@ export default function Page1011() {
           Beáta víscera Maríæ Vírginis, quæ portavérunt ætérni Patris Fílium.
         </Typography>
         <Typography className="vernacular">
-          Bem-aventuradas as entranhas da Virgem Maria, que trouxeram encerrado
-          o Filho do Pai Eterno.
+          Bem-aventuradas as entranhas da Virgem Maria, que trouxeram encerrado o Filho do Pai
+          Eterno.
         </Typography>
       </Language>
 
@@ -194,14 +176,13 @@ export default function Page1011() {
 
       <Language>
         <Typography className="latin">
-          Hæc nos commúnio, Dómine, purget a crímine: et, intercedénte beáta
-          Vírgine Dei Genitríce María, cœléstis remédii fáciat esse consórtes.
-          Per eumdem...
+          Hæc nos commúnio, Dómine, purget a crímine: et, intercedénte beáta Vírgine Dei Genitríce
+          María, cœléstis remédii fáciat esse consórtes. Per eumdem...
         </Typography>
         <Typography className="vernacular">
-          Que esta comunhão, Senhor, nos purifique de nossos crimes e que por
-          intercessão da B. Virgem Maria, Mãe de Deus, nos torne participantes
-          do remédio celestial. Pelo mesmo nosso Senhor...
+          Que esta comunhão, Senhor, nos purifique de nossos crimes e que por intercessão da B.
+          Virgem Maria, Mãe de Deus, nos torne participantes do remédio celestial. Pelo mesmo nosso
+          Senhor...
         </Typography>
       </Language>
     </PageWrapper>

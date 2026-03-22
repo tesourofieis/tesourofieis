@@ -10,8 +10,7 @@ export default function Page135() {
 
       <Language>
         <Typography className="latin">
-          Confitémini Dómino quóniam bonus: * quóniam in ætérnum misericórdia
-          ejus.
+          Confitémini Dómino quóniam bonus: * quóniam in ætérnum misericórdia ejus.
         </Typography>
         <Typography className="vernacular">
           Glorificai o Senhor, porque é bom: * pois eterna é a sua misericórdia.
@@ -29,12 +28,10 @@ export default function Page135() {
           Glorificai o Senhor dos senhores: * pois eterna é a sua misericórdia.
         </Typography>
         <Typography className="latin">
-          Qui facit mirabília magna solus: * quóniam in ætérnum misericórdia
-          ejus.
+          Qui facit mirabília magna solus: * quóniam in ætérnum misericórdia ejus.
         </Typography>
         <Typography className="vernacular">
-          O único que faz grandes maravilhas: * pois eterna é a sua
-          misericórdia.
+          O único que faz grandes maravilhas: * pois eterna é a sua misericórdia.
         </Typography>
         <Typography className="latin">
           Qui fecit cælos in intelléctu: * quóniam in ætérnum misericórdia ejus.
@@ -43,8 +40,7 @@ export default function Page135() {
           Que fez os céus com sabedoria: * pois eterna é a sua misericórdia.
         </Typography>
         <Typography className="latin">
-          Qui firmávit terram super aquas: * quóniam in ætérnum misericórdia
-          ejus.
+          Qui firmávit terram super aquas: * quóniam in ætérnum misericórdia ejus.
         </Typography>
         <Typography className="vernacular">
           Que firmou a terra sobre as águas: * pois eterna é a sua misericórdia.
@@ -62,66 +58,53 @@ export default function Page135() {
           O sol, senhor do dia: * pois eterna é a sua misericórdia.
         </Typography>
         <Typography className="latin">
-          Lunam, et stellas in potestátem noctis: * quóniam in ætérnum
-          misericórdia ejus.
+          Lunam, et stellas in potestátem noctis: * quóniam in ætérnum misericórdia ejus.
         </Typography>
         <Typography className="vernacular">
-          A lua e as estrelas, senhoras da noite: * pois eterna é a sua
-          misericórdia.
+          A lua e as estrelas, senhoras da noite: * pois eterna é a sua misericórdia.
         </Typography>
         <Typography className="latin">
-          Qui percússit Ægýptum cum primogénitis eórum: * quóniam in ætérnum
-          misericórdia ejus.
+          Qui percússit Ægýptum cum primogénitis eórum: * quóniam in ætérnum misericórdia ejus.
         </Typography>
         <Typography className="vernacular">
-          Que feriu o Egipto com seus primogénitos: * pois eterna é a sua
-          misericórdia.
+          Que feriu o Egipto com seus primogénitos: * pois eterna é a sua misericórdia.
         </Typography>
         <Typography className="latin">
-          Qui edúxit Israël de médio eórum: * quóniam in ætérnum misericórdia
-          ejus.
+          Qui edúxit Israël de médio eórum: * quóniam in ætérnum misericórdia ejus.
         </Typography>
         <Typography className="vernacular">
           Que tirou Israel do meio deles: * pois eterna é a sua misericórdia.
         </Typography>
         <Typography className="latin">
-          In manu poténti, et brácchio excélso: * quóniam in ætérnum
-          misericórdia ejus.
+          In manu poténti, et brácchio excélso: * quóniam in ætérnum misericórdia ejus.
         </Typography>
         <Typography className="vernacular">
-          Na mão poderosa e no braço excelso: * pois eterna é a sua
-          misericórdia.
+          Na mão poderosa e no braço excelso: * pois eterna é a sua misericórdia.
         </Typography>
         <Typography className="latin">
-          Qui spanísit Mare Rubrum in spanisiónes: * quóniam in ætérnum
-          misericórdia ejus.
+          Qui spanísit Mare Rubrum in spanisiónes: * quóniam in ætérnum misericórdia ejus.
         </Typography>
         <Typography className="vernacular">
-          Que spanidiu em partes o mar Vermelho: * pois eterna é a sua
-          misericórdia.
+          Que spanidiu em partes o mar Vermelho: * pois eterna é a sua misericórdia.
         </Typography>
         <Typography className="latin">
-          Et edúxit Israël per médium ejus: * quóniam in ætérnum misericórdia
-          ejus.
+          Et edúxit Israël per médium ejus: * quóniam in ætérnum misericórdia ejus.
         </Typography>
         <Typography className="vernacular">
           Fez passar Israel pelo meio dele: * pois eterna é a sua misericórdia.
         </Typography>
         <Typography className="latin">
-          Et excússit Pharaónem, et virtútem ejus in Mari Rubro: * quóniam in
-          ætérnum misericórdia ejus.
+          Et excússit Pharaónem, et virtútem ejus in Mari Rubro: * quóniam in ætérnum misericórdia
+          ejus.
         </Typography>
         <Typography className="vernacular">
-          Precipitou Faraó e o seu exército no mar Vermelho: * pois eterna é a
-          sua misericórdia.
+          Precipitou Faraó e o seu exército no mar Vermelho: * pois eterna é a sua misericórdia.
         </Typography>
         <Typography className="latin">
-          Qui tradúxit pópulum suum per desértum: * quóniam in ætérnum
-          misericórdia ejus.
+          Qui tradúxit pópulum suum per desértum: * quóniam in ætérnum misericórdia ejus.
         </Typography>
         <Typography className="vernacular">
-          Que conduziu o seu povo pelo deserto: * pois eterna é a sua
-          misericórdia.
+          Que conduziu o seu povo pelo deserto: * pois eterna é a sua misericórdia.
         </Typography>
         <Typography className="latin">
           Qui percússit reges magnos: * quóniam in ætérnum misericórdia ejus.
@@ -148,8 +131,7 @@ export default function Page135() {
           A Ogue, rei de Basã: * pois eterna é a sua misericórdia.
         </Typography>
         <Typography className="latin">
-          Et dedit terram eórum hereditátem: * quóniam in ætérnum misericórdia
-          ejus.
+          Et dedit terram eórum hereditátem: * quóniam in ætérnum misericórdia ejus.
         </Typography>
         <Typography className="vernacular">
           Deu a terra deles em herança: * pois eterna é a sua misericórdia.
@@ -161,16 +143,13 @@ export default function Page135() {
           Em herança a Israel, seu servo: * pois eterna é a sua misericórdia.
         </Typography>
         <Typography className="latin">
-          Quia in humilitáte nostra memor fuit nostri: * quóniam in ætérnum
-          misericórdia ejus.
+          Quia in humilitáte nostra memor fuit nostri: * quóniam in ætérnum misericórdia ejus.
         </Typography>
         <Typography className="vernacular">
-          Em nosso abatimento de nós se lembrou: * pois eterna é a sua
-          misericórdia.
+          Em nosso abatimento de nós se lembrou: * pois eterna é a sua misericórdia.
         </Typography>
         <Typography className="latin">
-          Et redémit nos ab inimícis nostris: * quóniam in ætérnum misericórdia
-          ejus.
+          Et redémit nos ab inimícis nostris: * quóniam in ætérnum misericórdia ejus.
         </Typography>
         <Typography className="vernacular">
           Livrou-nos dos nossos inimigos: * pois eterna é a sua misericórdia.

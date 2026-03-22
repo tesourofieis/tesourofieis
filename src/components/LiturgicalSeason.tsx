@@ -1,12 +1,4 @@
-import {
-  Star,
-  Flame,
-  Sprout,
-  Cross,
-  Bird,
-  Baby,
-  Heart,
-} from "lucide-react-native";
+import { Star, Flame, Sprout, Cross, Bird, Baby, Heart } from "lucide-react-native";
 import type { LiturgicalSeason as Season } from "~/lib/calendar";
 
 import { useColorScheme, View } from "react-native";
@@ -390,10 +382,7 @@ const getIconComponent = (iconName: string) => {
   }
 };
 
-const SEASON_COLORS: Record<
-  Season,
-  { bg: string; border: string; accent: string }
-> = {
+const SEASON_COLORS: Record<Season, { bg: string; border: string; accent: string }> = {
   Advento: {
     bg: "bg-violet-100 dark:bg-violet-900/30",
     border: "border-violet-300 dark:border-violet-700",
@@ -462,9 +451,7 @@ export default function LiturgicalSeason() {
           return <IconComponent size={15} color={iconColor} />;
         })()}
 
-        <Typography
-          className={`text-pretty bold text-xl ${seasonColors.accent}`}
-        >
+        <Typography className={`text-pretty bold text-xl ${seasonColors.accent}`}>
           {season}
         </Typography>
       </View>

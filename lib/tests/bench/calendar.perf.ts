@@ -131,9 +131,7 @@ function runAppWorkload() {
 function median(values: number[]) {
   const sorted = [...values].sort((a, b) => a - b);
   const mid = Math.floor(sorted.length / 2);
-  return sorted.length % 2 === 0
-    ? (sorted[mid - 1]! + sorted[mid]!) / 2
-    : sorted[mid]!;
+  return sorted.length % 2 === 0 ? (sorted[mid - 1]! + sorted[mid]!) / 2 : sorted[mid]!;
 }
 
 function mean(values: number[]) {
@@ -142,17 +140,13 @@ function mean(values: number[]) {
 
 function stddev(values: number[]) {
   const avg = mean(values);
-  const variance =
-    values.reduce((sum, value) => sum + (value - avg) ** 2, 0) / values.length;
+  const variance = values.reduce((sum, value) => sum + (value - avg) ** 2, 0) / values.length;
   return Math.sqrt(variance);
 }
 
 function percentile(values: number[], p: number) {
   const sorted = [...values].sort((a, b) => a - b);
-  const index = Math.min(
-    sorted.length - 1,
-    Math.ceil((p / 100) * sorted.length) - 1,
-  );
+  const index = Math.min(sorted.length - 1, Math.ceil((p / 100) * sorted.length) - 1);
   return sorted[index]!;
 }
 

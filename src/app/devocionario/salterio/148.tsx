@@ -28,12 +28,11 @@ export default function Page148() {
           Louvai-O, sol e lua: * louvai-O, todas as estrelas luminosas.
         </Typography>
         <Typography className="latin">
-          Laudáte eum, cæli cælórum: * et aquæ omnes, quæ super cælos sunt,
-          laudent nomen Dómini.
+          Laudáte eum, cæli cælórum: * et aquæ omnes, quæ super cælos sunt, laudent nomen Dómini.
         </Typography>
         <Typography className="vernacular">
-          Louvai-O, céus dos céus: * e todas as águas que estão sobre os céus,
-          louvem o nome do Senhor.
+          Louvai-O, céus dos céus: * e todas as águas que estão sobre os céus, louvem o nome do
+          Senhor.
         </Typography>
         <Typography className="latin">
           Quia ipse dixit, et facta sunt: * ipse mandávit, et creáta sunt.
@@ -42,12 +41,11 @@ export default function Page148() {
           Pois Ele falou e foram feitas: * mandou e foram criadas.
         </Typography>
         <Typography className="latin">
-          Státuit ea in ætérnum, et in sǽculum sǽculi: * præcéptum pósuit, et
-          non præteríbit.
+          Státuit ea in ætérnum, et in sǽculum sǽculi: * præcéptum pósuit, et non præteríbit.
         </Typography>
         <Typography className="vernacular">
-          Ele estabeleceu-as para sempre e pelos séculos dos séculos: *
-          fixou-lhes uma doutrina que não passará.
+          Ele estabeleceu-as para sempre e pelos séculos dos séculos: * fixou-lhes uma doutrina que
+          não passará.
         </Typography>
         <Typography className="latin">
           Laudáte Dóminum de terra, * dracónes, et omnes abýssi.
@@ -56,12 +54,10 @@ export default function Page148() {
           Louvai o Senhor criaturas da terra, * ó dragões, e todos abysmos.
         </Typography>
         <Typography className="latin">
-          Ignis, grando, nix, glácies, spíritus procellárum: * quæ fáciunt
-          verbum ejus:
+          Ignis, grando, nix, glácies, spíritus procellárum: * quæ fáciunt verbum ejus:
         </Typography>
         <Typography className="vernacular">
-          Fogo, granizo, neve, geada, espírito das tempestades: * que executam a
-          sua palavra:
+          Fogo, granizo, neve, geada, espírito das tempestades: * que executam a sua palavra:
         </Typography>
         <Typography className="latin">
           Montes, et omnes colles: * ligna fructífera, et omnes cedri.
@@ -79,31 +75,27 @@ export default function Page148() {
           Reges terræ, et omnes pópuli: * príncipes, et omnes júdices terræ.
         </Typography>
         <Typography className="vernacular">
-          Reis da terra e todos os povos: * príncipes e todos os juízes da
-          terra.
+          Reis da terra e todos os povos: * príncipes e todos os juízes da terra.
         </Typography>
         <Typography className="latin">
-          Júvenes, et vírgines: senes cum junióribus laudent nomen Dómini: *
-          quia exaltátum est nomen ejus solíus.
+          Júvenes, et vírgines: senes cum junióribus laudent nomen Dómini: * quia exaltátum est
+          nomen ejus solíus.
         </Typography>
         <Typography className="vernacular">
-          Jovens e donzelas, velhos e meninos louvem o nome do Senhor: * pois só
-          o seu nome é digno de ser exaltado.
+          Jovens e donzelas, velhos e meninos louvem o nome do Senhor: * pois só o seu nome é digno
+          de ser exaltado.
         </Typography>
         <Typography className="latin">
           Conféssio ejus super cælum et terram: * et exaltávit cornu pópuli sui.
         </Typography>
         <Typography className="vernacular">
-          Seu louvor está acima do céu e da terra: * Ele ergueu o poder do seu
-          povo.
+          Seu louvor está acima do céu e da terra: * Ele ergueu o poder do seu povo.
         </Typography>
         <Typography className="latin">
-          Hymnus ómnibus sanctis ejus: * fíliis Israël, pópulo appropinquánti
-          sibi.
+          Hymnus ómnibus sanctis ejus: * fíliis Israël, pópulo appropinquánti sibi.
         </Typography>
         <Typography className="vernacular">
-          Cantem-Lhe hinos todos seus santos: * os filhos de Israel, o povo que
-          se aproxima d’Ele.
+          Cantem-Lhe hinos todos seus santos: * os filhos de Israel, o povo que se aproxima d’Ele.
         </Typography>
       </Language>
     </PageWrapper>

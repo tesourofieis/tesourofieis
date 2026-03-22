@@ -11,83 +11,70 @@ export default function Page1212Brasil() {
       <H1 text="Nossa Senhora de Guadalupe, a 12 de Dezembro" />
       <Typography className="aside">
         Como na{" "}
-        <Link href="/missal/comum/29missamaria3">
-          Missa Salve, sancta Parens da Virgem Maria,
-        </Link>
+        <Link href="/missal/comum/29missamaria3">Missa Salve, sancta Parens da Virgem Maria,</Link>
         excepto:
       </Typography>
       :<H3 text="Oração" />
       <Language>
         <Typography className="latin">
-          Deus, qui sub beatíssimæ Vírginis Maríæ singulári patrocínio
-          constitútos, perpétuis benefíciis nos cumulári voluísti: præsta
-          supplícibus tuis; ut cujus hódie commemoratióne lætámur in terris,
-          ejus conspéctu perfruámur in cœlis. Per Dóminum...
+          Deus, qui sub beatíssimæ Vírginis Maríæ singulári patrocínio constitútos, perpétuis
+          benefíciis nos cumulári voluísti: præsta supplícibus tuis; ut cujus hódie commemoratióne
+          lætámur in terris, ejus conspéctu perfruámur in cœlis. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Ó Deus, que nos colocastes sob a protecção particular da Santíssima
-          Virgem Maria, e nos quisestes cumular com perpétuos benefícios,
-          concedei aos que Vos suplicam, que desfrutemos no céu a visão daquela
-          cuja comemoração hoje na terra festejamos. Por nosso Senhor...
+          Ó Deus, que nos colocastes sob a protecção particular da Santíssima Virgem Maria, e nos
+          quisestes cumular com perpétuos benefícios, concedei aos que Vos suplicam, que desfrutemos
+          no céu a visão daquela cuja comemoração hoje na terra festejamos. Por nosso Senhor...
         </Typography>
       </Language>
       <H3 text="Epístola" />
-      <LinkCard
-        href="/missal/santos/07-16#epístola"
-        title="B. Virgem Maria do Monte Carmelo"
-      />
+      <LinkCard href="/missal/santos/07-16#epístola" title="B. Virgem Maria do Monte Carmelo" />
       <H3 text="Gradual" />
       <Typography className="em">Ct. 6, 9</Typography>
       <Language>
         <Typography className="latin">
-          Quæ est ista, quæ progréditur quasi auróra consúrgens, pulchra ut
-          luna, elécta ut sol? Quasi arcus refúlgens inter nebulas glóriæ, et
-          quasi flos rosárum in diébus vernis.
+          Quæ est ista, quæ progréditur quasi auróra consúrgens, pulchra ut luna, elécta ut sol?
+          Quasi arcus refúlgens inter nebulas glóriæ, et quasi flos rosárum in diébus vernis.
         </Typography>
         <Typography className="vernacular">
-          Quem é esta que aparece como a aurora quando desponta, formosa como a
-          lua, eleita, como o sol? É como o arco-íris, que resplandece entre as
-          nuvens transparentes e como a rosa florescente no tempo da primavera.
+          Quem é esta que aparece como a aurora quando desponta, formosa como a lua, eleita, como o
+          sol? É como o arco-íris, que resplandece entre as nuvens transparentes e como a rosa
+          florescente no tempo da primavera.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Cant. 2, 12</Typography> Flores
-          apparuérunt in terra nostra, tempus putatiónis advénit. Allelúia.
+          <Typography className="latin">Cant. 2, 12</Typography> Flores apparuérunt in terra nostra,
+          tempus putatiónis advénit. Allelúia.
         </Typography>
         <Typography className="vernacular">
           Aleluta, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Ct. 2, 12</Typography> As flores
-          apareceram em nossa terra; chegou o tempo da poda. Aleluía.
+          <Typography className="vernacular">Ct. 2, 12</Typography> As flores apareceram em nossa
+          terra; chegou o tempo da poda. Aleluía.
         </Typography>
       </Language>
       <H3 text="Evangelho" />
-      <LinkCard
-        href="/missal/santos/07-02#evangelho"
-        title="Visitação da B. Virgem Maria"
-      />
+      <LinkCard href="/missal/santos/07-02#evangelho" title="Visitação da B. Virgem Maria" />
       <H3 text="Ofertório" />
       <Typography className="em">2 Cr. 7, 16</Typography>
       <Language>
         <Typography className="latin">
-          Elégi et sanctificávi locum istum, ut sit ibi nomen meum, et
-          permáneant óculi mei, et cor meum ibi cunctis diébus.
+          Elégi et sanctificávi locum istum, ut sit ibi nomen meum, et permáneant óculi mei, et cor
+          meum ibi cunctis diébus.
         </Typography>
         <Typography className="vernacular">
-          Escolhi e santifiquei este lugar, a fim de aí estar o meu nome, e
-          estarem fixos nele os meus olhos e o meu coração, em todo o tempo.
+          Escolhi e santifiquei este lugar, a fim de aí estar o meu nome, e estarem fixos nele os
+          meus olhos e o meu coração, em todo o tempo.
         </Typography>
       </Language>
       <H3 text="Secreta" />
       <Language>
         <Typography className="latin">
-          Tua Dómine, propitiatióne, et beátæ Maríæ semper Vírginis
-          intercessióne, ad perpétuam atque præséntem hæc oblátio nobis
-          profíciat prosperitátem et pacem. Per Dóminum...
+          Tua Dómine, propitiatióne, et beátæ Maríæ semper Vírginis intercessióne, ad perpétuam
+          atque præséntem hæc oblátio nobis profíciat prosperitátem et pacem. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Aproveite-nos, Senhor, esta oblação para nossa perpétua e presente paz
-          e prosperidade por vossa misericórdia e pela íntercessão da B. sempre
-          Virgem Maria. Por nosso Senhor...
+          Aproveite-nos, Senhor, esta oblação para nossa perpétua e presente paz e prosperidade por
+          vossa misericórdia e pela íntercessão da B. sempre Virgem Maria. Por nosso Senhor...
         </Typography>
       </Language>
       <H3 text="Comúnio" />
@@ -97,22 +84,20 @@ export default function Page1212Brasil() {
           Non fecit táliter omni natióni: et judícia sua non manifestávit eis.
         </Typography>
         <Typography className="vernacular">
-          Não fez assim a todas as nações, nem lhes manifestou os seus
-          desígnios.
+          Não fez assim a todas as nações, nem lhes manifestou os seus desígnios.
         </Typography>
       </Language>
       <H3 text="Postcomúnio" />
       <Language>
         <Typography className="latin">
-          Sumptis, Dómine, salútis nostræ subsídiis: da, quǽsumus, beátæ Maríæ
-          semper Vírginis patrocíniis nos ubíque prótegi: in cujus veneration
-          hæc tuæ obtúlimus majestáti. Per Dóminum nostrum...
+          Sumptis, Dómine, salútis nostræ subsídiis: da, quǽsumus, beátæ Maríæ semper Vírginis
+          patrocíniis nos ubíque prótegi: in cujus veneration hæc tuæ obtúlimus majestáti. Per
+          Dóminum nostrum...
         </Typography>
         <Typography className="vernacular">
-          Recebidos, Senhor, os auxílios de nossa salvação, concedei que em todo
-          o lugar, nos proteja o patrocínio da B. sempre Virgem Maria, em cuja
-          honra oferecemos êstes santos Místérios à vossa divina Majestade. Por
-          nosso Senhor...
+          Recebidos, Senhor, os auxílios de nossa salvação, concedei que em todo o lugar, nos
+          proteja o patrocínio da B. sempre Virgem Maria, em cuja honra oferecemos êstes santos
+          Místérios à vossa divina Majestade. Por nosso Senhor...
         </Typography>
       </Language>
     </PageWrapper>

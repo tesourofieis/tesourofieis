@@ -21,15 +21,14 @@ export default function Page0610() {
 
       <Language>
         <Typography className="latin">
-          Deus, qui beátam Margarítam regínam exímia in páuperes caritáte
-          inirábilem effecísti: da; ut, ejus intercessióne et exémplo, tua in
-          córdibus nostris cáritas júgiter augeátur. Per Dóminum nostrum...
+          Deus, qui beátam Margarítam regínam exímia in páuperes caritáte inirábilem effecísti: da;
+          ut, ejus intercessióne et exémplo, tua in córdibus nostris cáritas júgiter augeátur. Per
+          Dóminum nostrum...
         </Typography>
         <Typography className="vernacular">
-          Ó Deus, que tornastes admirável a B. Margarida, rainha, concedendo-lhe
-          uma caridade extraordinária para com os pobres, permiti que, pelo seu
-          exemplo e intercessão, a vossa caridade cresça continuamente nos
-          nossos corações. Por nosso Senhor...
+          Ó Deus, que tornastes admirável a B. Margarida, rainha, concedendo-lhe uma caridade
+          extraordinária para com os pobres, permiti que, pelo seu exemplo e intercessão, a vossa
+          caridade cresça continuamente nos nossos corações. Por nosso Senhor...
         </Typography>
       </Language>
     </PageWrapper>

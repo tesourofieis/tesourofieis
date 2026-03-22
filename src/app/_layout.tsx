@@ -1,22 +1,10 @@
 import { useFonts } from "expo-font";
 import Head from "expo-router/head";
 import { useEffect } from "react";
-import {
-  useWindowDimensions,
-  Platform,
-  Pressable,
-  useColorScheme,
-  View,
-} from "react-native";
+import { useWindowDimensions, Platform, Pressable, useColorScheme, View } from "react-native";
 import { Typography } from "~/components/typography";
 import "../global.css";
-import {
-  BookPlus,
-  ChevronRight,
-  Search,
-  Menu,
-  AlertTriangle,
-} from "lucide-react-native";
+import { BookPlus, ChevronRight, Search, Menu, AlertTriangle } from "lucide-react-native";
 import { burgundy } from "config";
 import { useNavigation, usePathname, useRouter } from "expo-router";
 
@@ -126,10 +114,7 @@ function RootLayoutNav() {
       >
         {isWebDesktop && <WebHeader />}
         <UpdateAwareDrawer />
-        <StatusBar
-          hidden
-          backgroundColor={isDarkMode ? COLORS["800"] : COLORS["200"]}
-        />
+        <StatusBar hidden backgroundColor={isDarkMode ? COLORS["800"] : COLORS["200"]} />
       </View>
     );
   }
@@ -142,10 +127,7 @@ function RootLayoutNav() {
       }}
     >
       <UpdateAwareDrawer />
-      <StatusBar
-        hidden
-        backgroundColor={isDarkMode ? COLORS["800"] : COLORS["200"]}
-      />
+      <StatusBar hidden backgroundColor={isDarkMode ? COLORS["800"] : COLORS["200"]} />
     </SafeAreaView>
   );
 }
@@ -204,12 +186,7 @@ function UpdateAwareDrawer() {
         headerShown: !isWebDesktop,
         freezeOnBlur: true,
         header: ({ route }) => {
-          const isRootScreen = [
-            "index",
-            "calendario",
-            "ordo",
-            "configurar",
-          ].includes(route.name);
+          const isRootScreen = ["index", "calendario", "ordo", "configurar"].includes(route.name);
           return <Header withBC={!isRootScreen} />;
         },
         headerStyle: {
@@ -238,9 +215,7 @@ const Breadcrumbs = () => {
   const isWeb = Platform.OS === "web";
   const isWebDesktop = isWeb && width >= 768;
 
-  const segments = pathname
-    .split("/")
-    .filter((segment) => segment && segment !== "(tabs)");
+  const segments = pathname.split("/").filter((segment) => segment && segment !== "(tabs)");
 
   if (segments.length <= 1) {
     return null;
@@ -271,8 +246,7 @@ const Breadcrumbs = () => {
     if (segment === "...") return "...";
 
     // Check if segment is a UUID using regex
-    const uuidRegex =
-      /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+    const uuidRegex = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
     if (uuidRegex.test(segment)) {
       return `${segment.substring(0, 4)}...`;
     }
@@ -320,22 +294,12 @@ const Breadcrumbs = () => {
         }
 
         return (
-          <View
-            className="flex-row items-center gap-1 flex-shrink"
-            key={`${segment}-${index}`}
-          >
+          <View className="flex-row items-center gap-1 flex-shrink" key={`${segment}-${index}`}>
             {index !== 0 && (
-              <ChevronRight
-                size={8}
-                color={burgundy[500]}
-                className="flex-shrink-0"
-              />
+              <ChevronRight size={8} color={burgundy[500]} className="flex-shrink-0" />
             )}
             {index === displaySegments.length - 1 ? (
-              <Typography
-                className="font-display text-sm text-red-500"
-                numberOfLines={1}
-              >
+              <Typography className="font-display text-sm text-red-500" numberOfLines={1}>
                 {formatSegmentName(segment)}
               </Typography>
             ) : (

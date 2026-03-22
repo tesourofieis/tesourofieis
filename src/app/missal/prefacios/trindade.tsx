@@ -9,35 +9,30 @@ export default function PageTrindade() {
       <H1 text="Prefácio da SS. Trindade" />
 
       <Typography className="aside">
-        Diz-se na Festa da Santíssima Trindade e nos Domingos que não tiverem
-        Prefácio próprio.
+        Diz-se na Festa da Santíssima Trindade e nos Domingos que não tiverem Prefácio próprio.
       </Typography>
 
       <Language>
         <Typography className="latin">
-          Vere dignum et justum est, æquum et salutáre, nos tibi semper et
-          ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne Deus:
-          Qui cum unigénito Fílio tuo et Spíritu Sancto unus es Deus, unus es
-          Dóminus: non in unius singularitáte persónæ, sed in uníus Trinitáte
-          substántiæ. Quod enim de tua glória, revelánte te, crédimus, hoc de
-          Fílio tuo, hoc de Spíritu Sancto sine differéntia discretiónis
-          sentímus. Ut in confessióne veræ sempiternǽque Deitátis, et in
-          persónis propríetas, et in esséntia únitas, et in majestáte adorétur
-          æquálitas. Quam laudant Angeli atque Archángeli, Chérubim quoque ac
-          Séraphim: qui non cessant clamáre cotídie, una voce dicéntes:
+          Vere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere:
+          Dómine sancte, Pater omnípotens, ætérne Deus: Qui cum unigénito Fílio tuo et Spíritu
+          Sancto unus es Deus, unus es Dóminus: non in unius singularitáte persónæ, sed in uníus
+          Trinitáte substántiæ. Quod enim de tua glória, revelánte te, crédimus, hoc de Fílio tuo,
+          hoc de Spíritu Sancto sine differéntia discretiónis sentímus. Ut in confessióne veræ
+          sempiternǽque Deitátis, et in persónis propríetas, et in esséntia únitas, et in majestáte
+          adorétur æquálitas. Quam laudant Angeli atque Archángeli, Chérubim quoque ac Séraphim: qui
+          non cessant clamáre cotídie, una voce dicéntes:
         </Typography>
         <Typography className="vernacular">
-          É verdadeiramente digno e justo, racional e salutar render-Vos graças
-          em todos os lugares e sempre, ó Senhor santo, Pai omnipotente, eterno
-          Deus, que com vosso Filho Unigénito e com o Espírito Santo sois um só
-          Deus, um só Senhor, não na unidade de uma só pessoa, mas na Trindade
-          de uma só substância. Porquanto, o que acreditamos a respeito da vossa
-          glória, acreditamo-lo também, pela vossa revelação, a respeito do
-          vosso Filho e do Espírito Santo, de tal modo que, confessando a
-          verdadeira e eterna divindade, adoramos nas pessoas a propriedade, na
-          essência a unidade e a igualdade na majestade. É esta majestade, que
-          louvam os Anjos e Arcanjos, os Querubins e Serafins, que não cessam
-          quotidianamente de cantar em uníssono:
+          É verdadeiramente digno e justo, racional e salutar render-Vos graças em todos os lugares
+          e sempre, ó Senhor santo, Pai omnipotente, eterno Deus, que com vosso Filho Unigénito e
+          com o Espírito Santo sois um só Deus, um só Senhor, não na unidade de uma só pessoa, mas
+          na Trindade de uma só substância. Porquanto, o que acreditamos a respeito da vossa glória,
+          acreditamo-lo também, pela vossa revelação, a respeito do vosso Filho e do Espírito Santo,
+          de tal modo que, confessando a verdadeira e eterna divindade, adoramos nas pessoas a
+          propriedade, na essência a unidade e a igualdade na majestade. É esta majestade, que
+          louvam os Anjos e Arcanjos, os Querubins e Serafins, que não cessam quotidianamente de
+          cantar em uníssono:
         </Typography>
       </Language>
     </PageWrapper>

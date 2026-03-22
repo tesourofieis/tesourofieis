@@ -14,18 +14,17 @@ export default function Page0201() {
 
       <Language>
         <Typography className="latin">
-          Mihi autem absit gloriári, nisi in Cruce Dómini nostri Jesu Christi:
-          per quem mihi mundus crucifíxus est, et ego mundo.{" "}
-          <Typography className="latin">Ps. 131, 1</Typography> Meménto, Dómine,
-          David: et omnis mansuetúdinis ejus.
+          Mihi autem absit gloriári, nisi in Cruce Dómini nostri Jesu Christi: per quem mihi mundus
+          crucifíxus est, et ego mundo. <Typography className="latin">Ps. 131, 1</Typography>{" "}
+          Meménto, Dómine, David: et omnis mansuetúdinis ejus.
           <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
         <Typography className="vernacular">
-          Longe esteja de mim gloriar-me nalguma coisa senão na Cruz de N. S.
-          Jesus Cristo, pela qual o mundo foi crucificado para mim e eu para o
-          mundo. <Typography className="vernacular">Sl. 131, 1</Typography>{" "}
-          Lembrai-Vos de David, Senhor, assim como da sua mansidão.
+          Longe esteja de mim gloriar-me nalguma coisa senão na Cruz de N. S. Jesus Cristo, pela
+          qual o mundo foi crucificado para mim e eu para o mundo.{" "}
+          <Typography className="vernacular">Sl. 131, 1</Typography> Lembrai-Vos de David, Senhor,
+          assim como da sua mansidão.
           <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
@@ -36,33 +35,25 @@ export default function Page0201() {
       <Typography className="em">Rm. 8, 35-39</Typography>
 
       <Language>
+        <Typography className="latin">Léctio Epistolæ beáti Pauli Apóstoli ad Romános.</Typography>
+        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º Paulo aos Romanos.</Typography>
         <Typography className="latin">
-          Léctio Epistolæ beáti Pauli Apóstoli ad Romános.
+          Fratres: Quis nos separábit a cantáte Christi: tribulátio, an angustia, an fames, an
+          núditas, an perículum, an persecútio, an gládius? (sicut scriptum est: Quia propter te
+          mortificámur tota die: æstimáti sumus sicut oves occisiónis). Sed in his ómnibus superámus
+          propter eum, qui diléxit nos. Certus sum enim, quia neque mors, neque vita, neque ángeli,
+          neque principátus, neque virtútes, neque instántia, neque futúra, neque fortitúdo, neque
+          altitúdo, neque profúndum, neque creatúra alia poterit nos separáre a cantáte Dei, quæ est
+          in Christo Jesu, Dómino nostro.
         </Typography>
         <Typography className="vernacular">
-          Lição da Ep.ª do B. Ap.º Paulo aos Romanos.
-        </Typography>
-        <Typography className="latin">
-          Fratres: Quis nos separábit a cantáte Christi: tribulátio, an
-          angustia, an fames, an núditas, an perículum, an persecútio, an
-          gládius? (sicut scriptum est: Quia propter te mortificámur tota die:
-          æstimáti sumus sicut oves occisiónis). Sed in his ómnibus superámus
-          propter eum, qui diléxit nos. Certus sum enim, quia neque mors, neque
-          vita, neque ángeli, neque principátus, neque virtútes, neque
-          instántia, neque futúra, neque fortitúdo, neque altitúdo, neque
-          profúndum, neque creatúra alia poterit nos separáre a cantáte Dei, quæ
-          est in Christo Jesu, Dómino nostro.
-        </Typography>
-        <Typography className="vernacular">
-          Quem nos separará do amor de Cristo? A tribulação, a angústia, a fome,
-          a nudez, os perigos, a perseguição, a espada? Segundo o que está
-          escrito: «Por ti somos entregues à morte todos os dias; somos
-          reputados como ovelhas conduzidas à morte». Mas de todas estas coisas
-          saímos vencedores por Aquele que nos amou. Estou certo de que nem a
-          morte, nem a vida, nem os anjos, nem os príncipes, nem as virtudes,
-          nem as coisas presentes, nem as futuras, nem a força, nem a altura,
-          nem a profundidade, nem nenhuma outra criatura poderá separar-nos do
-          amor de Deus, que está em nosso Senhor Jesus Cristo.
+          Quem nos separará do amor de Cristo? A tribulação, a angústia, a fome, a nudez, os
+          perigos, a perseguição, a espada? Segundo o que está escrito: «Por ti somos entregues à
+          morte todos os dias; somos reputados como ovelhas conduzidas à morte». Mas de todas estas
+          coisas saímos vencedores por Aquele que nos amou. Estou certo de que nem a morte, nem a
+          vida, nem os anjos, nem os príncipes, nem as virtudes, nem as coisas presentes, nem as
+          futuras, nem a força, nem a altura, nem a profundidade, nem nenhuma outra criatura poderá
+          separar-nos do amor de Deus, que está em nosso Senhor Jesus Cristo.
         </Typography>
       </Language>
 
@@ -74,26 +65,24 @@ export default function Page0201() {
         <Typography className="latin">
           Ecce sacérdos magnus, qui m diébus suis plácuit Deo.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ibid , 20</Typography> Non est invéntus
-          símilis illi, qui conserváret legem Excélsi.
+          <Typography className="latin">Ibid , 20</Typography> Non est invéntus símilis illi, qui
+          conserváret legem Excélsi.
         </Typography>
         <Typography className="vernacular">
           Eis o grande sacerdote que durante a vida agradou a Deus.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Ibid , 20</Typography> Não houve
-          quem, como ele, guardasse a observância da Lei do Altíssimo.
+          <Typography className="vernacular">Ibid , 20</Typography> Não houve quem, como ele,
+          guardasse a observância da Lei do Altíssimo.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Gal 2, 19-20</Typography> Christo
-          confíxus sum Cruci: vivo ego, jam non ego, vivit vero in me Christus.
-          Allelúja.
+          <Typography className="latin">Gal 2, 19-20</Typography> Christo confíxus sum Cruci: vivo
+          ego, jam non ego, vivit vero in me Christus. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Gl 2, 19-20</Typography> Estou
-          crucificado com Cristo. Vivo, mas já não sou eu que vivo: é Cristo que
-          vive em mim. Aleluia.
+          <Typography className="vernacular">Gl 2, 19-20</Typography> Estou crucificado com Cristo.
+          Vivo, mas já não sou eu que vivo: é Cristo que vive em mim. Aleluia.
         </Typography>
       </Language>
 
@@ -107,19 +96,19 @@ export default function Page0201() {
 
       <Language>
         <Typography className="latin">
-          Desirérium ánimæ ejus tribuísti ei: et voluntáte labiórum ejus non
-          fraudásti eum.<Typography className="versicle"> ℣. </Typography>
+          Desirérium ánimæ ejus tribuísti ei: et voluntáte labiórum ejus non fraudásti eum.
+          <Typography className="versicle"> ℣. </Typography>
           Quoniam prævenísti eum in benedictiónibus dulcedinis.
-          <Typography className="versicle"> ℣. </Typography>Posuísti in cápite
-          ejus coronam de lápide pretióso.
+          <Typography className="versicle"> ℣. </Typography>Posuísti in cápite ejus coronam de
+          lápide pretióso.
         </Typography>
         <Typography className="vernacular">
-          Satisfizestes os desejos do seu coração e o não iludistes nas preces
-          proferidas por seus lábios.
-          <Typography className="versicle"> ℣. </Typography>Vós, Senhor, o
-          enchestes com bênçãos faustosas.
-          <Typography className="versicle"> ℣. </Typography>Colocastes na sua
-          cabeça o diadema de ouro.
+          Satisfizestes os desejos do seu coração e o não iludistes nas preces proferidas por seus
+          lábios.
+          <Typography className="versicle"> ℣. </Typography>Vós, Senhor, o enchestes com bênçãos
+          faustosas.
+          <Typography className="versicle"> ℣. </Typography>Colocastes na sua cabeça o diadema de
+          ouro.
         </Typography>
       </Language>
 
@@ -129,12 +118,11 @@ export default function Page0201() {
 
       <Language>
         <Typography className="latin">
-          Glória et honóre coronásti eum: et constituísti eum super ópera mánuum
-          tuárum, Domine.
+          Glória et honóre coronásti eum: et constituísti eum super ópera mánuum tuárum, Domine.
         </Typography>
         <Typography className="vernacular">
-          Vós o coroastes, Senhor, com glória e honras: Vós lhe concedestes
-          domínio sobre as obras das vossas mãos.
+          Vós o coroastes, Senhor, com glória e honras: Vós lhe concedestes domínio sobre as obras
+          das vossas mãos.
         </Typography>
       </Language>
 
@@ -144,12 +132,11 @@ export default function Page0201() {
 
       <Language>
         <Typography className="latin">
-          Fruméntum Christi sum: déntibus bestiárum molar, ut panis mundus
-          invéniar.
+          Fruméntum Christi sum: déntibus bestiárum molar, ut panis mundus invéniar.
         </Typography>
         <Typography className="vernacular">
-          Sou o trigo de Cristo, que hei-de ser moído nos dentes das feras para
-          me tornar em pão puríssimo.
+          Sou o trigo de Cristo, que hei-de ser moído nos dentes das feras para me tornar em pão
+          puríssimo.
         </Typography>
       </Language>
     </PageWrapper>

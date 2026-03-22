@@ -15,28 +15,23 @@ export default function Page10Martires() {
 
       <Language>
         <Typography className="latin">
-          Sancti tui, Dómine, benedícent te: glóriam regni tui dicent, allelúja,
-          allelúja. <Typography className="latin">Ps. ibid., 1</Typography>{" "}
-          Exaltábo te, Deus meus, Rex: et benedícam nómini tuo in sǽculum, et in
-          sǽculum sǽculi.<Typography className="versicle"> ℣. </Typography>
+          Sancti tui, Dómine, benedícent te: glóriam regni tui dicent, allelúja, allelúja.{" "}
+          <Typography className="latin">Ps. ibid., 1</Typography> Exaltábo te, Deus meus, Rex: et
+          benedícam nómini tuo in sǽculum, et in sǽculum sǽculi.
+          <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
         <Typography className="vernacular">
-          Que os vossos Santos Vos bendigam, Senhor: e publiquem a glória do
-          vosso reino. Aleluia, aleluia.{" "}
-          <Typography className="vernacular">Sl. ibid., 1</Typography> Exaltarei
-          a vossa glória, ó Deus, o meu Rei: e abençoarei o vosso Nome agora,
-          sempre e em todos os séculos!
+          Que os vossos Santos Vos bendigam, Senhor: e publiquem a glória do vosso reino. Aleluia,
+          aleluia. <Typography className="vernacular">Sl. ibid., 1</Typography> Exaltarei a vossa
+          glória, ó Deus, o meu Rei: e abençoarei o vosso Nome agora, sempre e em todos os séculos!
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
 
       <H3 text="Oração" />
 
-      <LinkCard
-        title="Oração Muitos Mártires"
-        href="/missal/comum/6muitosmartires1#oração"
-      />
+      <LinkCard title="Oração Muitos Mártires" href="/missal/comum/6muitosmartires1#oração" />
 
       <H3 text="Epístola" />
 
@@ -44,50 +39,43 @@ export default function Page10Martires() {
 
       <Language>
         <Typography className="latin">Léctio Epístolæ beáti Petri.</Typography>
-        <Typography className="vernacular">
-          Lição da Ep.ª do B. Ap.º Pedro.
-        </Typography>
+        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Typography>
         <Typography className="latin">
-          Benedíctus Deus et Pater Dómini nostri Jesu Christi, qui secúndum
-          misericórdiam suam magnam regenerávit nos in spem vivam, per
-          resurrectiónem Jesu Christi ex mórtuis, in hereditátem incorruptíbilem
-          et incontaminátam et immarcescíbilem, conservátam in cœlis in vobis,
-          qui in virtúte Dei custodímini per fidem in salútem, parátam revelári
-          in témpore novíssimo. In quo exsultábitis, módicum nunc si opórtet
-          contristári in váriis tentatiónibus: ut probátio vestræ fídei multo
-          pretiósior auro (quod per ignem probátur) inveniátur in laudem et
-          glóriam et honórem, in revelatióne Jesu Christi, Dómini nostri.
+          Benedíctus Deus et Pater Dómini nostri Jesu Christi, qui secúndum misericórdiam suam
+          magnam regenerávit nos in spem vivam, per resurrectiónem Jesu Christi ex mórtuis, in
+          hereditátem incorruptíbilem et incontaminátam et immarcescíbilem, conservátam in cœlis in
+          vobis, qui in virtúte Dei custodímini per fidem in salútem, parátam revelári in témpore
+          novíssimo. In quo exsultábitis, módicum nunc si opórtet contristári in váriis
+          tentatiónibus: ut probátio vestræ fídei multo pretiósior auro (quod per ignem probátur)
+          inveniátur in laudem et glóriam et honórem, in revelatióne Jesu Christi, Dómini nostri.
         </Typography>
         <Typography className="vernacular">
-          Bendito seja Deus, Pai de N. S. Jesus Cristo, que, segundo a grandeza
-          da sua misericórdia, nos regenerou para uma esperança viva pela
-          ressurreição dos mortos de Jesus Cristo, para alcançarmos a herança
-          incorruptível, inalterável e imortal que está reservada nos céus para
-          vós, a quem o poder de Deus guarda pela fé, para vos conceder o gozo
-          da salvação, que será manifestada no fim dos tempos. Alegrai-vos com
-          isto, ainda que devais ser perseguidos algumas vezes com diversas
-          provações, a fim de que a manifestação da vossa fé, mais preciosa que
-          o ouro (que é provado pelo fogo), seja julgada digna de louvor, honra
-          e glória na revelação de N. S. Jesus Cristo.
+          Bendito seja Deus, Pai de N. S. Jesus Cristo, que, segundo a grandeza da sua misericórdia,
+          nos regenerou para uma esperança viva pela ressurreição dos mortos de Jesus Cristo, para
+          alcançarmos a herança incorruptível, inalterável e imortal que está reservada nos céus
+          para vós, a quem o poder de Deus guarda pela fé, para vos conceder o gozo da salvação, que
+          será manifestada no fim dos tempos. Alegrai-vos com isto, ainda que devais ser perseguidos
+          algumas vezes com diversas provações, a fim de que a manifestação da vossa fé, mais
+          preciosa que o ouro (que é provado pelo fogo), seja julgada digna de louvor, honra e
+          glória na revelação de N. S. Jesus Cristo.
         </Typography>
       </Language>
 
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          Sancti tui, Dómine, florébunt sicut lílium: et sicut odor bálsami
-          erunt ante te. Allelúja.
+          Sancti tui, Dómine, florébunt sicut lílium: et sicut odor bálsami erunt ante te. Allelúja.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 115, 15</Typography> Pretiósa in
-          conspéctu Dómini mors Sanctórum ejus. Allelúja.
+          <Typography className="latin">Ps. 115, 15</Typography> Pretiósa in conspéctu Dómini mors
+          Sanctórum ejus. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          Vossos santos, Senhor, florescerão, como o lírio, e serão, ante Vós,
-          como o odor do bálsamo. Aleluia.
+          Vossos santos, Senhor, florescerão, como o lírio, e serão, ante Vós, como o odor do
+          bálsamo. Aleluia.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 115, 15</Typography> É preciosa
-          diante do Senhor a morte dos seus Santos. Aleluia.
+          <Typography className="vernacular">Sl. 115, 15</Typography> É preciosa diante do Senhor a
+          morte dos seus Santos. Aleluia.
         </Typography>
       </Language>
 
@@ -97,41 +85,35 @@ export default function Page10Martires() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
-          Evangélii secúndum Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
+          Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo
-          Evangelho segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho segundo S.
+          João.
         </Typography>
         <Typography className="latin">
-          In illo témpore: Dixit Jesus discípulis suis: Ego sum vitis, vos
-          pálmites: qui manet in me, et ego in eo, hic fert fructum multum: quia
-          sine me nihil potéstis fácere. Si quis in me non mánserit, mittétur
-          foras sicut palmes, et aréscet, et cólligent eum, et in ignem mittent,
-          et ardet. Si manséritis in me, et verba mea in vobis mánserint:
-          quodcúmque voluéritis, petétis, et fiet vobis. In hoc clarificátus est
-          Pater meus, ut fructum plúrimum afferátis, et efficiámini mei
-          discípuli. Sicut diléxit me Pater, et ego diléxi vos. Manéte in
-          dilectióne mea. Si præcépta mea servavéritis, manébitis in dilectióne
-          mea, sicut et ego Patris mei præcépta servávi, et máneo in ejus
-          dilectióne. Hæc locútus sum vobis, ut gáudium meum in vobis sit, et
-          gáudium vestrum impleátur.
+          In illo témpore: Dixit Jesus discípulis suis: Ego sum vitis, vos pálmites: qui manet in
+          me, et ego in eo, hic fert fructum multum: quia sine me nihil potéstis fácere. Si quis in
+          me non mánserit, mittétur foras sicut palmes, et aréscet, et cólligent eum, et in ignem
+          mittent, et ardet. Si manséritis in me, et verba mea in vobis mánserint: quodcúmque
+          voluéritis, petétis, et fiet vobis. In hoc clarificátus est Pater meus, ut fructum
+          plúrimum afferátis, et efficiámini mei discípuli. Sicut diléxit me Pater, et ego diléxi
+          vos. Manéte in dilectióne mea. Si præcépta mea servavéritis, manébitis in dilectióne mea,
+          sicut et ego Patris mei præcépta servávi, et máneo in ejus dilectióne. Hæc locútus sum
+          vobis, ut gáudium meum in vobis sit, et gáudium vestrum impleátur.
         </Typography>
         <Typography className="vernacular">
-          Naquele tempo, disse Jesus aos seus discípulos: «Eu sou a videira, e
-          vós sois as vides. Aquele que permanece em mim, eu permaneço nele, e
-          dará abundante fruto; pois sem mim nada podereis fazer. Se alguém não
-          permanecer em mim, será arrancado e lançado fora, como uma vide seca.
-          Então secará e levá-la-ão para a lançar no fogo, em que arderá. Se
-          permanecerdes em mim e as minhas palavras permanecerem em vós, tudo o
-          que quiserdes podereis pedir, que vos será concedido. Meu Pai será
-          glorificado, se vós derdes muito fruto e vos tornardes meus
-          discípulos. Assim como meu Pai me amou, assim também eu vos amo.
-          Permanecei no meu amor. Se observardes os meus mandamentos,
-          permanecereis no meu amor, como eu, que guardo os mandamentos de meu
-          Pai, permaneço no seu amor. Digo-Vos estas coisas a fim de que minha
-          alegria permaneça convosco e a vossa alegria seja abundante».
+          Naquele tempo, disse Jesus aos seus discípulos: «Eu sou a videira, e vós sois as vides.
+          Aquele que permanece em mim, eu permaneço nele, e dará abundante fruto; pois sem mim nada
+          podereis fazer. Se alguém não permanecer em mim, será arrancado e lançado fora, como uma
+          vide seca. Então secará e levá-la-ão para a lançar no fogo, em que arderá. Se
+          permanecerdes em mim e as minhas palavras permanecerem em vós, tudo o que quiserdes
+          podereis pedir, que vos será concedido. Meu Pai será glorificado, se vós derdes muito
+          fruto e vos tornardes meus discípulos. Assim como meu Pai me amou, assim também eu vos
+          amo. Permanecei no meu amor. Se observardes os meus mandamentos, permanecereis no meu
+          amor, como eu, que guardo os mandamentos de meu Pai, permaneço no seu amor. Digo-Vos estas
+          coisas a fim de que minha alegria permaneça convosco e a vossa alegria seja abundante».
         </Typography>
       </Language>
 
@@ -141,21 +123,18 @@ export default function Page10Martires() {
 
       <Language>
         <Typography className="latin">
-          Lætámini in Dómino et exsultáte, justi: et gloriámini, omnes recti
-          corde, allelúja, allelúja.
+          Lætámini in Dómino et exsultáte, justi: et gloriámini, omnes recti corde, allelúja,
+          allelúja.
         </Typography>
         <Typography className="vernacular">
-          Alegrai-vos no Senhor, ó justos! Exultai de júbilo! Todos aqueles que
-          possuem o coração recto serão glorificados. Aleluia, aleluia.
+          Alegrai-vos no Senhor, ó justos! Exultai de júbilo! Todos aqueles que possuem o coração
+          recto serão glorificados. Aleluia, aleluia.
         </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
-      <LinkCard
-        title="Secreta Muitos Mártires"
-        href="/missal/comum/6muitosmartires1#secreta"
-      />
+      <LinkCard title="Secreta Muitos Mártires" href="/missal/comum/6muitosmartires1#secreta" />
 
       <H3 text="Comúnio" />
 
@@ -163,12 +142,11 @@ export default function Page10Martires() {
 
       <Language>
         <Typography className="latin">
-          Gaudéte, justi, in Dómino, allelúja: rectos decet collaudátio,
-          allelúja.
+          Gaudéte, justi, in Dómino, allelúja: rectos decet collaudátio, allelúja.
         </Typography>
         <Typography className="vernacular">
-          Alegrai-vos no Senhor, ó justos. Aleluia. É aos que são rectos que
-          pertence cantar os vossos louvores. Aleluia.
+          Alegrai-vos no Senhor, ó justos. Aleluia. É aos que são rectos que pertence cantar os
+          vossos louvores. Aleluia.
         </Typography>
       </Language>
 

@@ -14,17 +14,17 @@ export default function Page11Confessorespontifices1() {
 
       <Language>
         <Typography className="latin">
-          Státuit ei Dóminus testaméntum pacis, et príncipem fecit eum: ut sit
-          illi sacerdótii dígnitas in ætérnum. (T. P. Allelúja, allelúja.){" "}
-          <Typography className="latin">Ps. 131, 1</Typography> Meménto, Dómine,
-          David: et omnis mansuetúdinis ejus.
+          Státuit ei Dóminus testaméntum pacis, et príncipem fecit eum: ut sit illi sacerdótii
+          dígnitas in ætérnum. (T. P. Allelúja, allelúja.){" "}
+          <Typography className="latin">Ps. 131, 1</Typography> Meménto, Dómine, David: et omnis
+          mansuetúdinis ejus.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
-          Deus estabeleceu com ele aliança de paz e tornou-o príncipe, para que
-          possuísse eternamente a dignidade sacerdotal. (T. P. Aleluia,
-          aleluia.) <Typography className="vernacular">Sl. 131, 1</Typography>{" "}
-          Lembrai-vos de David, ó Senhor, e da sua grande mansidão.
+          Deus estabeleceu com ele aliança de paz e tornou-o príncipe, para que possuísse
+          eternamente a dignidade sacerdotal. (T. P. Aleluia, aleluia.){" "}
+          <Typography className="vernacular">Sl. 131, 1</Typography> Lembrai-vos de David, ó Senhor,
+          e da sua grande mansidão.
           <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
@@ -34,16 +34,14 @@ export default function Page11Confessorespontifices1() {
 
       <Language>
         <Typography className="latin">
-          Da, quǽsumus, omnípotens Deus: ut beáti{" "}
-          <Typography className="latin">N.</Typography> Confessóris tui atque
-          Pontíficis veneránda sollémnitas, et devotiónem nobis áugeat et
+          Da, quǽsumus, omnípotens Deus: ut beáti <Typography className="latin">N.</Typography>{" "}
+          Confessóris tui atque Pontíficis veneránda sollémnitas, et devotiónem nobis áugeat et
           salútem. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Dignai-Vos permitir, ó Deus omnipotente, que a veneranda solenidade do
-          vosso Confessor e Pontífice{" "}
-          <Typography className="vernacular">N.</Typography> aumente a nossa
-          piedade e nos assegure a salvação. Por nosso Senhor...
+          Dignai-Vos permitir, ó Deus omnipotente, que a veneranda solenidade do vosso Confessor e
+          Pontífice <Typography className="vernacular">N.</Typography> aumente a nossa piedade e nos
+          assegure a salvação. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -53,35 +51,28 @@ export default function Page11Confessorespontifices1() {
 
       <Language>
         <Typography className="latin">Léctio libri Sapiéntiæ.</Typography>
-        <Typography className="vernacular">
-          Lição do Livro da Sabedoria.
-        </Typography>
+        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
         <Typography className="latin">
-          Ecce sacérdos magnus, qui in diébus suis plácuit Deo, et invéntus est
-          justus: et in témpore iracúndiæ factus est reconciliátio. Non est
-          invéntus símilis illi, qui conservávit legem Excélsi. Ideo jurejurándo
-          fecit illum Dóminus créscere in plebem suam. Benedictiónem ómnium
-          géntium dedit illi, et testaméntum suum confirmávit super caput ejus.
-          Agnóvit eum in benedictiónibus suis: conservávit illi misericórdiam
-          suam: et invenit grátiam coram óculis Dómini. Magnificávit eum in
-          conspéctu regum: et dedit illi corónam glóriæ. Státuit illi
-          testaméntum ætérnum, et dedit illi sacerdótium magnum: et beatificávit
-          illum in glória. Fungi sacerdótio, et habére laudem in nómine ipsíus,
-          et offérre illi incénsum dignum in odórem suavitátis.
+          Ecce sacérdos magnus, qui in diébus suis plácuit Deo, et invéntus est justus: et in
+          témpore iracúndiæ factus est reconciliátio. Non est invéntus símilis illi, qui conservávit
+          legem Excélsi. Ideo jurejurándo fecit illum Dóminus créscere in plebem suam. Benedictiónem
+          ómnium géntium dedit illi, et testaméntum suum confirmávit super caput ejus. Agnóvit eum
+          in benedictiónibus suis: conservávit illi misericórdiam suam: et invenit grátiam coram
+          óculis Dómini. Magnificávit eum in conspéctu regum: et dedit illi corónam glóriæ. Státuit
+          illi testaméntum ætérnum, et dedit illi sacerdótium magnum: et beatificávit illum in
+          glória. Fungi sacerdótio, et habére laudem in nómine ipsíus, et offérre illi incénsum
+          dignum in odórem suavitátis.
         </Typography>
         <Typography className="vernacular">
-          Eis o grande sacerdote, que nos dias da sua vida agradou a Deus e foi
-          julgado justo; e no tempo da ira se tornou a reconciliação dos homens.
-          Ninguém o igualou na observância das leis do Altíssimo. Eis porque o
-          Senhor jurou que o tornaria grande no meio do seu povo. O Senhor
-          abençoou nele todos os povos; e com ele ratificou a sua aliança. O
-          Senhor deu-lhe as suas bênçãos e continuou a dispensar-lhe a sua
-          misericórdia, vendo-se bem que este homem achou graça aos olhos do
-          Senhor, que, por isso mesmo, o engrandeceu diante dos reis e lhe deu
-          uma coroa de glória. Estabeleceu com ele uma aliança eterna, elevou-o
-          ao sumo sacerdócio, e tornou-o feliz na glória para exercer o
-          sacerdócio, louvar o seu nome e oferecer-lhe dignamente incenso de
-          odor agradável.
+          Eis o grande sacerdote, que nos dias da sua vida agradou a Deus e foi julgado justo; e no
+          tempo da ira se tornou a reconciliação dos homens. Ninguém o igualou na observância das
+          leis do Altíssimo. Eis porque o Senhor jurou que o tornaria grande no meio do seu povo. O
+          Senhor abençoou nele todos os povos; e com ele ratificou a sua aliança. O Senhor deu-lhe
+          as suas bênçãos e continuou a dispensar-lhe a sua misericórdia, vendo-se bem que este
+          homem achou graça aos olhos do Senhor, que, por isso mesmo, o engrandeceu diante dos reis
+          e lhe deu uma coroa de glória. Estabeleceu com ele uma aliança eterna, elevou-o ao sumo
+          sacerdócio, e tornou-o feliz na glória para exercer o sacerdócio, louvar o seu nome e
+          oferecer-lhe dignamente incenso de odor agradável.
         </Typography>
       </Language>
 
@@ -93,25 +84,24 @@ export default function Page11Confessorespontifices1() {
         <Typography className="latin">
           Ecce sacérdos magnus, qui in diébus suis plácuit Deo.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">ibid., 20</Typography> Non st invéntus
-          símilis illi, qui conserváret legem Excélsi.
+          <Typography className="latin">ibid., 20</Typography> Non st invéntus símilis illi, qui
+          conserváret legem Excélsi.
         </Typography>
         <Typography className="vernacular">
           Eis o grande sacerdote que nos dias da sua vida agradou a Deus.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">ibid., 20</Typography> Não foi
-          encontrado outrem semelhante a ele na observância das leis do
-          Altíssimo.
+          <Typography className="vernacular">ibid., 20</Typography> Não foi encontrado outrem
+          semelhante a ele na observância das leis do Altíssimo.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 109, 4</Typography> Tu es sacérdos
-          in ætérnum, secúndum órdinem Melchísedech. Allelúja.
+          <Typography className="latin">Ps. 109, 4</Typography> Tu es sacérdos in ætérnum, secúndum
+          órdinem Melchísedech. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 109, 4</Typography> Tu és
-          sacerdote para sempre, segundo a ordem de Melquisedeque. Aleluia.
+          <Typography className="vernacular">Sl. 109, 4</Typography> Tu és sacerdote para sempre,
+          segundo a ordem de Melquisedeque. Aleluia.
         </Typography>
       </Language>
 
@@ -128,38 +118,35 @@ export default function Page11Confessorespontifices1() {
           Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.
           <Typography className="versicle"> ℣. </Typography>
           Potens in terra erit semen ejus: generátio rectórum benedicétur.
-          <Typography className="versicle"> ℣. </Typography>Glória et divítiæ in
-          domo ejus: et justítia ejus manet in sǽculum sǽculi.
+          <Typography className="versicle"> ℣. </Typography>Glória et divítiæ in domo ejus: et
+          justítia ejus manet in sǽculum sǽculi.
         </Typography>
         <Typography className="vernacular">
-          Bem-aventurado o varão que teme o Senhor e cuja vontade é ardente no
-          cumprimento dos seus mandamentos.
-          <Typography className="versicle"> ℣. </Typography>Sua descendência
-          será poderosa na terra, pois a posteridade dos justos será abençoada.
-          <Typography className="versicle"> ℣. </Typography>Na sua casa haverá
-          abundância e riqueza, e a sua justiça subsistirá em todos os séculos
-          dos séculos.
+          Bem-aventurado o varão que teme o Senhor e cuja vontade é ardente no cumprimento dos seus
+          mandamentos.
+          <Typography className="versicle"> ℣. </Typography>Sua descendência será poderosa na terra,
+          pois a posteridade dos justos será abençoada.
+          <Typography className="versicle"> ℣. </Typography>Na sua casa haverá abundância e riqueza,
+          e a sua justiça subsistirá em todos os séculos dos séculos.
         </Typography>
       </Language>
 
-      <Typography className="aside">
-        No T. Pascal omite-se Gradual e o Trato e diz-se:
-      </Typography>
+      <Typography className="aside">No T. Pascal omite-se Gradual e o Trato e diz-se:</Typography>
 
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 109, 4</Typography> Tu es sacérdos
-          in ætérnum, secúndum órdinem Melchísedech. Allelúja.
-          <Typography className="versicle"> ℣. </Typography>Hic est sacérdos,
-          quem coronávit Dóminus. Allelúja.
+          <Typography className="latin">Ps. 109, 4</Typography> Tu es sacérdos in ætérnum, secúndum
+          órdinem Melchísedech. Allelúja.
+          <Typography className="versicle"> ℣. </Typography>Hic est sacérdos, quem coronávit
+          Dóminus. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 109, 4</Typography> Tu és
-          sacerdote para sempre segundo a ordem de Melquisedeque. Aleluia.
-          <Typography className="versicle"> ℣. </Typography>Este é o sacerdote
-          que o Senhor coroou. Aleluia.
+          <Typography className="vernacular">Sl. 109, 4</Typography> Tu és sacerdote para sempre
+          segundo a ordem de Melquisedeque. Aleluia.
+          <Typography className="versicle"> ℣. </Typography>Este é o sacerdote que o Senhor coroou.
+          Aleluia.
         </Typography>
       </Language>
 
@@ -169,51 +156,43 @@ export default function Page11Confessorespontifices1() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
-          Evangélii secúndum Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
+          Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo
-          Evangelho segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho segundo S.
+          Mateus.
         </Typography>
         <Typography className="latin">
-          In illo témpore: Dixit Jesus discípulis suis parábolam hanc: Homo
-          péregre proficíscens vocávit servos suos, et trádidit illis bona sua.
-          Et uni dedit quinque talénta, álii a tem duo, álii vero unum,
-          unicuíque secúndum própriam virtútem, et proféctus est statim. Abiit
-          autem, qui quinque talénta accéperat, et operátus est in eis, et
-          lucrátus est ália quinque. Simíliter et, qui duo accéperat, lucrátus
-          est ália duo. Qui autem unum accéperat, ábiens fodit in terram, et
-          abscóndit pecúniam dómini sui. Post multum vero témporis venit dóminus
-          servórum illórum, et pósuit ratiónem cum eis. Et accédens qui quinque
-          talénta accéperat, óbtulit ália quinque talénta, dicens: Dómine,
-          quinque talénta tradidísti mihi, ecce, ália quinque superlucrátus sum.
-          Ait illi dóminus ejus: Euge, serve bone et fidélis, quia super pauca
-          fuísti fidélis, super multa te constítuam: intra in gáudium dómini
-          tui. Accéssit autem et qui duo talénta accéperat, et ait: Dómine, duo
-          talénta tradidísti mihi, ecce, ália duo lucrátus sum. Ait illi dóminus
-          ejus: Euge, serve bone et fidélis, quia super pauca fuísti fidélis,
-          super multa te constítuam: intra in gáudium dómini tui.
+          In illo témpore: Dixit Jesus discípulis suis parábolam hanc: Homo péregre proficíscens
+          vocávit servos suos, et trádidit illis bona sua. Et uni dedit quinque talénta, álii a tem
+          duo, álii vero unum, unicuíque secúndum própriam virtútem, et proféctus est statim. Abiit
+          autem, qui quinque talénta accéperat, et operátus est in eis, et lucrátus est ália
+          quinque. Simíliter et, qui duo accéperat, lucrátus est ália duo. Qui autem unum accéperat,
+          ábiens fodit in terram, et abscóndit pecúniam dómini sui. Post multum vero témporis venit
+          dóminus servórum illórum, et pósuit ratiónem cum eis. Et accédens qui quinque talénta
+          accéperat, óbtulit ália quinque talénta, dicens: Dómine, quinque talénta tradidísti mihi,
+          ecce, ália quinque superlucrátus sum. Ait illi dóminus ejus: Euge, serve bone et fidélis,
+          quia super pauca fuísti fidélis, super multa te constítuam: intra in gáudium dómini tui.
+          Accéssit autem et qui duo talénta accéperat, et ait: Dómine, duo talénta tradidísti mihi,
+          ecce, ália duo lucrátus sum. Ait illi dóminus ejus: Euge, serve bone et fidélis, quia
+          super pauca fuísti fidélis, super multa te constítuam: intra in gáudium dómini tui.
         </Typography>
         <Typography className="vernacular">
-          Naquele tempo, disse Jesus a seus discípulos esta parábola: Indo um
-          homem viajar para longe, chamou os seus servos e entregou-lhes os
-          bens. A um deu cinco talentos, a outro dois e ao terceiro um. Deu a
-          cada um segundo a sua capacidade; partindo imediatamente. Aquele que
-          havia recebido cinco talentos partiu, e, negociando com este dinheiro,
-          ganhou outros cinco talentos. Semelhantemente, o que recebera dois
-          lucrou outros dois. Mas aquele que havia recebido só um talento foi,
-          cavou a terra e aí ocultou o dinheiro do senhor. Passado muito tempo,
-          veio o senhor daqueles servos e fez contas com eles. Aproximando-se,
-          então, o que recebera cinco talentos, apresentou outros cinco,
-          dizendo: «Senhor, entregastes-me cinco talentos, eis outros cinco, que
-          lucrei». Disse-lhe o seu senhor: «Muito bem, servo bom e fiel: visto
-          que foste fiel em poucas coisas, estabelecer-te-ei acima de muitas
-          coisas: entra no gozo do teu senhor». Aproximando-se também o que
-          recebera dois talentos, disse: «Senhor, entregastes-me dois talentos,
-          eis outros dois que lucrei». E o senhor lhe disse: «Muito bem, servo
-          bom e fiel: visto que foste fiel em poucas coisas, eu te estabelecerei
-          acima de muitas coisas: entra no gozo do teu senhor».
+          Naquele tempo, disse Jesus a seus discípulos esta parábola: Indo um homem viajar para
+          longe, chamou os seus servos e entregou-lhes os bens. A um deu cinco talentos, a outro
+          dois e ao terceiro um. Deu a cada um segundo a sua capacidade; partindo imediatamente.
+          Aquele que havia recebido cinco talentos partiu, e, negociando com este dinheiro, ganhou
+          outros cinco talentos. Semelhantemente, o que recebera dois lucrou outros dois. Mas aquele
+          que havia recebido só um talento foi, cavou a terra e aí ocultou o dinheiro do senhor.
+          Passado muito tempo, veio o senhor daqueles servos e fez contas com eles. Aproximando-se,
+          então, o que recebera cinco talentos, apresentou outros cinco, dizendo: «Senhor,
+          entregastes-me cinco talentos, eis outros cinco, que lucrei». Disse-lhe o seu senhor:
+          «Muito bem, servo bom e fiel: visto que foste fiel em poucas coisas, estabelecer-te-ei
+          acima de muitas coisas: entra no gozo do teu senhor». Aproximando-se também o que recebera
+          dois talentos, disse: «Senhor, entregastes-me dois talentos, eis outros dois que lucrei».
+          E o senhor lhe disse: «Muito bem, servo bom e fiel: visto que foste fiel em poucas coisas,
+          eu te estabelecerei acima de muitas coisas: entra no gozo do teu senhor».
         </Typography>
       </Language>
 
@@ -223,12 +202,12 @@ export default function Page11Confessorespontifices1() {
 
       <Language>
         <Typography className="latin">
-          Invéni David servum meum, óleo sancto meo unxi eum: manus enim mea
-          auxiliábitur ei, et bráchium meum confortábit eum. (T. P. Allelúja.)
+          Invéni David servum meum, óleo sancto meo unxi eum: manus enim mea auxiliábitur ei, et
+          bráchium meum confortábit eum. (T. P. Allelúja.)
         </Typography>
         <Typography className="vernacular">
-          Encontrei o meu servo David e ungi-o com meu óleo sagrado. Minha mão o
-          socorrerá e o meu braço o fortalecerá. (T. P. Aleluia).
+          Encontrei o meu servo David e ungi-o com meu óleo sagrado. Minha mão o socorrerá e o meu
+          braço o fortalecerá. (T. P. Aleluia).
         </Typography>
       </Language>
 
@@ -236,13 +215,12 @@ export default function Page11Confessorespontifices1() {
 
       <Language>
         <Typography className="latin">
-          Sancti tui, quǽsumus, Dómine, nos ubíque lætíficant: ut, dum eórum
-          mérita recólimus, patrocínia sentiámus. Per Dóminum...
+          Sancti tui, quǽsumus, Dómine, nos ubíque lætíficant: ut, dum eórum mérita recólimus,
+          patrocínia sentiámus. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Que os vossos santos, Senhor, Vos suplicamos, nos alegrem em toda a
-          parte, a fim de que, honrando os seus méritos, sintamos o efeito do
-          seu patrocínio. Por nosso Senhor...
+          Que os vossos santos, Senhor, Vos suplicamos, nos alegrem em toda a parte, a fim de que,
+          honrando os seus méritos, sintamos o efeito do seu patrocínio. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -252,13 +230,12 @@ export default function Page11Confessorespontifices1() {
 
       <Language>
         <Typography className="latin">
-          Fidélis servus et prudens, quem constítuit dóminus super famíliam
-          suam: ut det illis in témpore trítici mensúram. (T. P. Allelúja.)
+          Fidélis servus et prudens, quem constítuit dóminus super famíliam suam: ut det illis in
+          témpore trítici mensúram. (T. P. Allelúja.)
         </Typography>
         <Typography className="vernacular">
-          Eis o servo fiel e prudente que o Senhor estabeleceu acima da sua
-          família para distribuir, oportunamente, a cada um a sua medida de
-          trigo. (T. P. Aleluia).
+          Eis o servo fiel e prudente que o Senhor estabeleceu acima da sua família para distribuir,
+          oportunamente, a cada um a sua medida de trigo. (T. P. Aleluia).
         </Typography>
       </Language>
 
@@ -266,16 +243,15 @@ export default function Page11Confessorespontifices1() {
 
       <Language>
         <Typography className="latin">
-          Præsta, quǽsumus, omnípotens Deus: ut, de percéptis munéribus grátias
-          exhibéntes, intercedénte beáto{" "}
-          <Typography className="latin">N.</Typography> Confessóre tuo atque
+          Præsta, quǽsumus, omnípotens Deus: ut, de percéptis munéribus grátias exhibéntes,
+          intercedénte beáto <Typography className="latin">N.</Typography> Confessóre tuo atque
           Pontífice, benefícia potióra sumámus. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Dignai-Vos permitir, ó Deus omnipotente, que, dando-Vos nós graças
-          pelos benefícios recebidos, alcancemos por intercessão do B.{" "}
-          <Typography className="vernacular">N.</Typography>, vosso Confessor e
-          Pontífice, ainda outros maiores. Por nosso Senhor...
+          Dignai-Vos permitir, ó Deus omnipotente, que, dando-Vos nós graças pelos benefícios
+          recebidos, alcancemos por intercessão do B.{" "}
+          <Typography className="vernacular">N.</Typography>, vosso Confessor e Pontífice, ainda
+          outros maiores. Por nosso Senhor...
         </Typography>
       </Language>
     </PageWrapper>

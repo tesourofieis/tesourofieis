@@ -16,10 +16,9 @@ export default function Page0727Outro() {
       </Typography>
       <H3 text="Oração" />
       <Typography className="vernacular">
-        Vos pedimos, permiti que a veneranda oblação dos vossos B. B. Mártires
-        Rodolfo, Afonso, Pedro, António e Francisco Vos recomende as nossas
-        orações, a fim de que, pelo seu exemplo e intercessão, também nos
-        imolemos, como hóstia viva por Vós recebida, em honra do vosso santo
+        Vos pedimos, permiti que a veneranda oblação dos vossos B. B. Mártires Rodolfo, Afonso,
+        Pedro, António e Francisco Vos recomende as nossas orações, a fim de que, pelo seu exemplo e
+        intercessão, também nos imolemos, como hóstia viva por Vós recebida, em honra do vosso santo
         nome. Por nosso Senhor...
       </Typography>
     </PageWrapper>

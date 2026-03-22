@@ -215,11 +215,7 @@ export class MassManager {
 
   match(
     observances: Mass[],
-    criteria:
-      | Mass
-      | undefined
-      | (Mass | undefined)[]
-      | ((mass: Mass) => boolean),
+    criteria: Mass | undefined | (Mass | undefined)[] | ((mass: Mass) => boolean),
   ): Mass | undefined {
     if (!criteria) {
       return undefined;
@@ -239,9 +235,7 @@ export class MassManager {
 
       if (!criteriaIds) {
         criteriaIds = new Set(
-          criteria
-            .map((criterion) => criterion?.id)
-            .filter((id): id is string => Boolean(id)),
+          criteria.map((criterion) => criterion?.id).filter((id): id is string => Boolean(id)),
         );
         this.criteriaIdSetCache.set(criteria, criteriaIds);
       }

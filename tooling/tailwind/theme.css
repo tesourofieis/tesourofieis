@@ -70,10 +70,9 @@
   --line-height-6xl: 4rem;
 
   /* Web fonts - using font-family names that work in browsers */
-  --font-display: "DM Serif Display", "ui-serif", "Georgia", "Cambria",
-    "Times New Roman", "Times", serif;
-  --font-body: "DM Serif Text", "ui-serif", "Georgia", "Cambria",
-    "Times New Roman", "Times", serif;
+  --font-display:
+    "DM Serif Display", "ui-serif", "Georgia", "Cambria", "Times New Roman", "Times", serif;
+  --font-body: "DM Serif Text", "ui-serif", "Georgia", "Cambria", "Times New Roman", "Times", serif;
 
   /* Accent colors for web-specific use */
   --color-accent-50: #f4e0e1;

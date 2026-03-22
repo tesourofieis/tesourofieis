@@ -12,15 +12,13 @@ export default function Page13Tribulacao() {
 
       <Language>
         <Typography className="latin">
-          Ne despícias, omnípotens Deus, pópulum tuum in afflictióne clamántem:
-          sed, propter glóriam nóminis tui, tribulátis succúrre placátus. Per
-          Dóminum...
+          Ne despícias, omnípotens Deus, pópulum tuum in afflictióne clamántem: sed, propter glóriam
+          nóminis tui, tribulátis succúrre placátus. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Não desprezeis, ó Deus omnipotente, o vosso povo, que nesta aflição
-          por Vós clama; mas antes, para glória do vosso nome, deixai-Vos
-          aplacar e vinde em auxílio daqueles que estão na tribulação. Por nosso
-          Senhor...
+          Não desprezeis, ó Deus omnipotente, o vosso povo, que nesta aflição por Vós clama; mas
+          antes, para glória do vosso nome, deixai-Vos aplacar e vinde em auxílio daqueles que estão
+          na tribulação. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -28,13 +26,12 @@ export default function Page13Tribulacao() {
 
       <Language>
         <Typography className="latin">
-          Súscipe, Dómine, propítius hóstias, quibus et te placári voluísti, et
-          nobis salútem poténti pietáte restítui. Per Dóminum...
+          Súscipe, Dómine, propítius hóstias, quibus et te placári voluísti, et nobis salútem
+          poténti pietáte restítui. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Recebei propício, Senhor, estas oblações, com as quais quisestes ser
-          aplacado; e, pela vossa poderosa misericórdia, restituí-nos a salvação
-          por meio delas. Por nosso Senhor...
+          Recebei propício, Senhor, estas oblações, com as quais quisestes ser aplacado; e, pela
+          vossa poderosa misericórdia, restituí-nos a salvação por meio delas. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -42,13 +39,12 @@ export default function Page13Tribulacao() {
 
       <Language>
         <Typography className="latin">
-          Tribulatiónem nostram, quǽsumus, Dómine, propítius réspice: et iram
-          tuæ indignatiónis, quam juste merémur, avérte. Per Dóminum nostrum...
+          Tribulatiónem nostram, quǽsumus, Dómine, propítius réspice: et iram tuæ indignatiónis,
+          quam juste merémur, avérte. Per Dóminum nostrum...
         </Typography>
         <Typography className="vernacular">
-          Senhor, Vos suplicamos, lançai vossos olhares misericordiosos para as
-          nossas tribulações e afastai de nós o furor da vossa indignação, que
-          justamente merecemos. Por nosso Senhor...
+          Senhor, Vos suplicamos, lançai vossos olhares misericordiosos para as nossas tribulações e
+          afastai de nós o furor da vossa indignação, que justamente merecemos. Por nosso Senhor...
         </Typography>
       </Language>
     </PageWrapper>

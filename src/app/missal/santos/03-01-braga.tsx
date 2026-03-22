@@ -16,9 +16,9 @@ export default function Page0301Braga() {
       </Typography>
       <H3 text="Oração" />
       <Typography className="vernacular">
-        Senhor, que os vossos B. B. Miguel e seus Companheiros nos confortem com
-        sua preciosa profissão de fé; e que pela sua piedosa intercessão sejamos
-        continuamente favorecidos. Por nosso Senhor...
+        Senhor, que os vossos B. B. Miguel e seus Companheiros nos confortem com sua preciosa
+        profissão de fé; e que pela sua piedosa intercessão sejamos continuamente favorecidos. Por
+        nosso Senhor...
       </Typography>
     </PageWrapper>
   );

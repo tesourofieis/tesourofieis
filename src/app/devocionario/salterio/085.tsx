@@ -10,45 +10,39 @@ export default function Page085() {
 
       <Language>
         <Typography className="latin">
-          Inclína, Dómine, aurem tuam, et exáudi me: * quóniam inops, et pauper
-          sum ego.
+          Inclína, Dómine, aurem tuam, et exáudi me: * quóniam inops, et pauper sum ego.
         </Typography>
         <Typography className="vernacular">
-          Inclinai, ó Senhor, o vosso ouvido e ouvi-me: * porque estou carente e
-          pobre.
+          Inclinai, ó Senhor, o vosso ouvido e ouvi-me: * porque estou carente e pobre.
         </Typography>
         <Typography className="latin">
-          Custódi ánimam meam, quóniam sanctus sum: * salvum fac servum tuum,
-          Deus meus, sperántem in Te.
+          Custódi ánimam meam, quóniam sanctus sum: * salvum fac servum tuum, Deus meus, sperántem
+          in Te.
         </Typography>
         <Typography className="vernacular">
-          Velai a minha alma, porque sou santo: * salvai, ó meu Deus, o vosso
-          servo, que em Vós espera.
+          Velai a minha alma, porque sou santo: * salvai, ó meu Deus, o vosso servo, que em Vós
+          espera.
         </Typography>
         <Typography className="latin">
-          Miserére mei, Dómine, quóniam ad Te clamávi tota die: * lætífica
-          ánimam servi tui, quóniam ad Te, Dómine, ánimam meam levávi.
+          Miserére mei, Dómine, quóniam ad Te clamávi tota die: * lætífica ánimam servi tui, quóniam
+          ad Te, Dómine, ánimam meam levávi.
         </Typography>
         <Typography className="vernacular">
-          Senhor, tende misericórdia de mim, porque a Vós clamei todo dia: *
-          alegrai a alma de vosso servo, porque a Vós, ó Senhor, elevei a minha
-          alma.
+          Senhor, tende misericórdia de mim, porque a Vós clamei todo dia: * alegrai a alma de vosso
+          servo, porque a Vós, ó Senhor, elevei a minha alma.
         </Typography>
         <Typography className="latin">
-          Quóniam Tu, Dómine, suávis, et mitis: * et multæ misericórdiæ ómnibus
-          invocántibus Te.
+          Quóniam Tu, Dómine, suávis, et mitis: * et multæ misericórdiæ ómnibus invocántibus Te.
         </Typography>
         <Typography className="vernacular">
-          Porque Vós, ó Senhor, sois suave e manso: * e de muita misericórdia
-          para todos os que Vos invocam.
+          Porque Vós, ó Senhor, sois suave e manso: * e de muita misericórdia para todos os que Vos
+          invocam.
         </Typography>
         <Typography className="latin">
-          Áuribus pércipe, Dómine, oratiónem meam: * et inténde voci
-          deprecatiónis meæ.
+          Áuribus pércipe, Dómine, oratiónem meam: * et inténde voci deprecatiónis meæ.
         </Typography>
         <Typography className="vernacular">
-          Prestai ouvidos, ó Senhor, à minha oração: * e atendei à voz da minha
-          súplica.
+          Prestai ouvidos, ó Senhor, à minha oração: * e atendei à voz da minha súplica.
         </Typography>
         <Typography className="latin">
           In die tribulatiónis meæ clamávi ad Te: * quia exaudísti me.
@@ -60,16 +54,15 @@ export default function Page085() {
           Non est símilis tui in diis, Dómine: * et non est secúndum ópera tua.
         </Typography>
         <Typography className="vernacular">
-          Não há semelhante a Vós nos deuses, ó Senhor: * e conforme vossas
-          obras não há.
+          Não há semelhante a Vós nos deuses, ó Senhor: * e conforme vossas obras não há.
         </Typography>
         <Typography className="latin">
-          Omnes gentes quascúmque fecísti, vénient, et adorábunt coram Te,
-          Dómine: * et glorificábunt nomen tuum.
+          Omnes gentes quascúmque fecísti, vénient, et adorábunt coram Te, Dómine: * et
+          glorificábunt nomen tuum.
         </Typography>
         <Typography className="vernacular">
-          Senhor, todas as gentes que criastes virão e prostradas Vos adorarão:
-          * e glorificarão o vosso nome.
+          Senhor, todas as gentes que criastes virão e prostradas Vos adorarão: * e glorificarão o
+          vosso nome.
         </Typography>
         <Typography className="latin">
           Quóniam magnus es Tu, et fáciens mirabília: * Tu es Deus solus.
@@ -78,62 +71,57 @@ export default function Page085() {
           Porque Vós sois grande e fazeis maravilhas: * só Vós sois Deus.
         </Typography>
         <Typography className="latin">
-          Deduc me, Dómine, in via tua, et ingrédiar in veritáte tua: * lætétur
-          cor meum ut tímeat nomen tuum.
+          Deduc me, Dómine, in via tua, et ingrédiar in veritáte tua: * lætétur cor meum ut tímeat
+          nomen tuum.
         </Typography>
         <Typography className="vernacular">
-          Guiai-me, ó Senhor, pelo vosso caminho e andarei na vossa verdade: *
-          alegre-se o meu coração no temor do vosso nome.
+          Guiai-me, ó Senhor, pelo vosso caminho e andarei na vossa verdade: * alegre-se o meu
+          coração no temor do vosso nome.
         </Typography>
         <Typography className="latin">
-          Confitébor tibi, Dómine, Deus meus, in toto corde meo, * et
-          glorificábo nomen tuum in ætérnum:
+          Confitébor tibi, Dómine, Deus meus, in toto corde meo, * et glorificábo nomen tuum in
+          ætérnum:
         </Typography>
         <Typography className="vernacular">
-          Louvar-Vos-ei, ó Senhor meu Deus, com todo meu coração, * e
-          glorificarei eternamente o vosso nome:
+          Louvar-Vos-ei, ó Senhor meu Deus, com todo meu coração, * e glorificarei eternamente o
+          vosso nome:
         </Typography>
         <Typography className="latin">
-          Quia misericórdia tua magna est super me: * et eruísti ánimam meam ex
-          inférno inferióri.
+          Quia misericórdia tua magna est super me: * et eruísti ánimam meam ex inférno inferióri.
         </Typography>
         <Typography className="vernacular">
-          Pois vossa misericórdia é grande para comigo: * e livrastes a minha
-          alma do mais profundo inferno.
+          Pois vossa misericórdia é grande para comigo: * e livrastes a minha alma do mais profundo
+          inferno.
         </Typography>
         <Typography className="latin">
-          Deus, iníqui insurrexérunt super me, et synagóga poténtium quæsiérunt
-          ánimam meam: * et non proposuérunt Te in conspéctu suo.
+          Deus, iníqui insurrexérunt super me, et synagóga poténtium quæsiérunt ánimam meam: * et
+          non proposuérunt Te in conspéctu suo.
         </Typography>
         <Typography className="vernacular">
-          Ó Deus, levantaram-se os maus contra mim e atentou contra a minha vida
-          uma reunião de poderosos: * sem que Vos tivessem ante seus olhos
-          presente.
+          Ó Deus, levantaram-se os maus contra mim e atentou contra a minha vida uma reunião de
+          poderosos: * sem que Vos tivessem ante seus olhos presente.
         </Typography>
         <Typography className="latin">
-          Et Tu, Dómine, Deus miserátor et miséricors, * pátiens, et multæ
-          misericórdiæ, et verax,
+          Et Tu, Dómine, Deus miserátor et miséricors, * pátiens, et multæ misericórdiæ, et verax,
         </Typography>
         <Typography className="vernacular">
-          Vós sois, ó Senhor Deus, compassivo e clemente, * paciente, de muita
-          misericórdia e veraz,
+          Vós sois, ó Senhor Deus, compassivo e clemente, * paciente, de muita misericórdia e veraz,
         </Typography>
         <Typography className="latin">
-          Réspice in me, et miserére mei, * da impérium tuum púero tuo: et
-          salvum fac fílium ancíllæ tuæ.
+          Réspice in me, et miserére mei, * da impérium tuum púero tuo: et salvum fac fílium ancíllæ
+          tuæ.
         </Typography>
         <Typography className="vernacular">
-          Olhai para mim e tende piedade de mim, * dai o vosso império ao vosso
-          servo e salvai o filho de vossa serva.
+          Olhai para mim e tende piedade de mim, * dai o vosso império ao vosso servo e salvai o
+          filho de vossa serva.
         </Typography>
         <Typography className="latin">
-          Fac mecum signum in bonum, ut vídeant qui odérunt me, et confundántur:
-          * quóniam Tu, Dómine, adjuvísti me, et consolátus es me.
+          Fac mecum signum in bonum, ut vídeant qui odérunt me, et confundántur: * quóniam Tu,
+          Dómine, adjuvísti me, et consolátus es me.
         </Typography>
         <Typography className="vernacular">
-          Operai em mim sinais de bondade, para que vejam os que me odeiam e
-          sejam confundidos: * porque Vós, Senhor, me tendes socorrido e
-          consolado.
+          Operai em mim sinais de bondade, para que vejam os que me odeiam e sejam confundidos: *
+          porque Vós, Senhor, me tendes socorrido e consolado.
         </Typography>
       </Language>
     </PageWrapper>

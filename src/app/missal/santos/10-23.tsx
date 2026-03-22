@@ -21,19 +21,17 @@ export default function Page1023() {
 
       <Language>
         <Typography className="latin">
-          Deus, qui beátum Antónium Maríam Confessórem tuum atque Pontíficem,
-          apostólicis virtútibus sublimásti, et per eum novas in Ecclésia
-          clericórum ac vírginum famílias collegísti: concéde, quǽsumus; ut,
-          eius dirigéntibus mónitis ac suffragántibus méritis, animárum salútem
-          quǽrere iúgiter studeámus. Per Dóminum...
+          Deus, qui beátum Antónium Maríam Confessórem tuum atque Pontíficem, apostólicis virtútibus
+          sublimásti, et per eum novas in Ecclésia clericórum ac vírginum famílias collegísti:
+          concéde, quǽsumus; ut, eius dirigéntibus mónitis ac suffragántibus méritis, animárum
+          salútem quǽrere iúgiter studeámus. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Ó Deus, que embelezastes o B. António Maria, vosso Confessor e
-          Pontífice, com as virtudes apostólicas, e por ele fundastes na vossa
-          Igreja novas congregações de clérigos e de virgens, concedei-nos, Vos
-          suplicamos, que, esclarecidos com seus salutares conselhos e
-          confortados com seus exemplos, consigamos com felicidade unirmo-nos
-          convosco. Por nosso Senhor...
+          Ó Deus, que embelezastes o B. António Maria, vosso Confessor e Pontífice, com as virtudes
+          apostólicas, e por ele fundastes na vossa Igreja novas congregações de clérigos e de
+          virgens, concedei-nos, Vos suplicamos, que, esclarecidos com seus salutares conselhos e
+          confortados com seus exemplos, consigamos com felicidade unirmo-nos convosco. Por nosso
+          Senhor...
         </Typography>
       </Language>
     </PageWrapper>

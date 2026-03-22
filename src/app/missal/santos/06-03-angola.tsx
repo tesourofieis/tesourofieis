@@ -14,10 +14,9 @@ export default function Page0603Angola() {
         </Link>{" "}
         , excepto:
       </Typography>
-      <H3 text="Oração" />Ó Deus, que nos permitistes a graça de celebrarmos o
-      nascimento no céu dos vossos Santos Mártires Carlos, Matias e seus
-      Companheiros, concedei-nos ainda a graça de gozarmos na sua companhia a
-      bem-aventurança eterna. Por nosso Senhor...
+      <H3 text="Oração" />Ó Deus, que nos permitistes a graça de celebrarmos o nascimento no céu dos
+      vossos Santos Mártires Carlos, Matias e seus Companheiros, concedei-nos ainda a graça de
+      gozarmos na sua companhia a bem-aventurança eterna. Por nosso Senhor...
     </PageWrapper>
   );
 }

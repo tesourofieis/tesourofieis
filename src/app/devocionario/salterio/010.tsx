@@ -10,20 +10,18 @@ export default function Page010() {
 
       <Language>
         <Typography className="latin">
-          In Dómino confído: quómodo dícitis ánimæ meæ: * Tránsmigra in montem
-          sicut passer?
+          In Dómino confído: quómodo dícitis ánimæ meæ: * Tránsmigra in montem sicut passer?
         </Typography>
         <Typography className="vernacular">
-          No Senhor confio: porque dizeis à minha alma: * migra para o monte
-          como a ave?
+          No Senhor confio: porque dizeis à minha alma: * migra para o monte como a ave?
         </Typography>
         <Typography className="latin">
-          Quóniam ecce peccatóres intendérunt arcum, paravérunt sagíttas suas in
-          pháretra, * ut sagíttent in obscúro rectos corde.
+          Quóniam ecce peccatóres intendérunt arcum, paravérunt sagíttas suas in pháretra, * ut
+          sagíttent in obscúro rectos corde.
         </Typography>
         <Typography className="vernacular">
-          Eis que os pecadores mostraram o seu arco, prepararam as suas setas na
-          aljava, * para no escuro dispararem aos rectos de coração.
+          Eis que os pecadores mostraram o seu arco, prepararam as suas setas na aljava, * para no
+          escuro dispararem aos rectos de coração.
         </Typography>
         <Typography className="latin">
           Quóniam quæ perfecísti, destruxérunt: * justus autem quid fecit?
@@ -38,36 +36,30 @@ export default function Page010() {
           O Senhor habita no seu santo templo, * o trono do Senhor está no céu.
         </Typography>
         <Typography className="latin">
-          Óculi ejus in páuperem respíciunt: * pálpebræ ejus intérrogant fílios
-          hóminum.
+          Óculi ejus in páuperem respíciunt: * pálpebræ ejus intérrogant fílios hóminum.
         </Typography>
         <Typography className="vernacular">
-          Seus olhos olham para o pobre: * suas pálpebras inquirem os filhos dos
-          homens.
+          Seus olhos olham para o pobre: * suas pálpebras inquirem os filhos dos homens.
         </Typography>
         <Typography className="latin">
-          Dóminus intérrogat justum et ímpium: * qui autem díligit iniquitátem,
-          odit ánimam suam.
+          Dóminus intérrogat justum et ímpium: * qui autem díligit iniquitátem, odit ánimam suam.
         </Typography>
         <Typography className="vernacular">
-          O Senhor interroga o justo e o ímpio: * mas aquele que ama a
-          iniquidade, odeia a sua alma.
+          O Senhor interroga o justo e o ímpio: * mas aquele que ama a iniquidade, odeia a sua alma.
         </Typography>
         <Typography className="latin">
-          Pluet super peccatóres láqueos: * ignis, et sulphur, et spíritus
-          procellárum pars cálicis eórum.
+          Pluet super peccatóres láqueos: * ignis, et sulphur, et spíritus procellárum pars cálicis
+          eórum.
         </Typography>
         <Typography className="vernacular">
-          Fará chover laços sobre os pecadores: * o fogo e o enxofre e as
-          tempestades são a parte que lhes toca.
+          Fará chover laços sobre os pecadores: * o fogo e o enxofre e as tempestades são a parte
+          que lhes toca.
         </Typography>
         <Typography className="latin">
-          Quóniam justus Dóminus, et justítias diléxit: * æquitátem vidit vultus
-          ejus.
+          Quóniam justus Dóminus, et justítias diléxit: * æquitátem vidit vultus ejus.
         </Typography>
         <Typography className="vernacular">
-          Porque o Senhor é justo e ama a justiça: * o seu rosto olha para a
-          equidade.
+          Porque o Senhor é justo e ama a justiça: * o seu rosto olha para a equidade.
         </Typography>
       </Language>
     </PageWrapper>

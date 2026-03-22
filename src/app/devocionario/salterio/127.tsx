@@ -13,15 +13,13 @@ export default function Page127() {
           Beáti omnes, qui timent Dóminum, * qui ámbulant in viis ejus.
         </Typography>
         <Typography className="vernacular">
-          Bem-aventurados todos os que temem o Senhor, * e que andam nos seus
-          caminhos.
+          Bem-aventurados todos os que temem o Senhor, * e que andam nos seus caminhos.
         </Typography>
         <Typography className="latin">
           Labóres mánuum tuárum quia manducábis: * beátus es, et bene tibi erit.
         </Typography>
         <Typography className="vernacular">
-          Pois comerás dos labores de tuas mãos: * bem-aventurado és e ficarás
-          bem.
+          Pois comerás dos labores de tuas mãos: * bem-aventurado és e ficarás bem.
         </Typography>
         <Typography className="latin">
           Uxor tua sicut vitis abúndans, * in latéribus domus tuæ.
@@ -35,19 +33,15 @@ export default function Page127() {
         <Typography className="vernacular">
           Teus filhos, como pimpolhos de oliveiras, * ao redor de tua mesa.
         </Typography>
-        <Typography className="latin">
-          Ecce, sic benedicétur homo, * qui timet Dóminum.
-        </Typography>
+        <Typography className="latin">Ecce, sic benedicétur homo, * qui timet Dóminum.</Typography>
         <Typography className="vernacular">
           Eis como será abençoado o homem, * que teme o Senhor.
         </Typography>
         <Typography className="latin">
-          Benedícat tibi Dóminus ex Sion: * et vídeas bona Jerúsalem ómnibus
-          diébus vitæ tuæ.
+          Benedícat tibi Dóminus ex Sion: * et vídeas bona Jerúsalem ómnibus diébus vitæ tuæ.
         </Typography>
         <Typography className="vernacular">
-          Te abençoe o Senhor desde Sião: * e vejas os bens de Jerusalém todos
-          os dias de tua vida.
+          Te abençoe o Senhor desde Sião: * e vejas os bens de Jerusalém todos os dias de tua vida.
         </Typography>
         <Typography className="latin">
           Et vídeas fílios filiórum tuórum, * pacem super Israël.

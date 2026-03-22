@@ -38,17 +38,11 @@ function createExcerpt(text: string, maxWords = 20): string {
   return words.slice(0, maxWords).join(" ") + "...";
 }
 
-function generateDocumentKeywords(
-  title: string,
-  content: any,
-  section: string | null,
-): string[] {
+function generateDocumentKeywords(title: string, content: any, section: string | null): string[] {
   // Include heading titles + first part of body content for keyword extraction
   const headingText = content.headings
     .map((h: any) => {
-      const bodyStart = h.body
-        ? h.body.split(/\s+/).slice(0, 15).join(" ")
-        : ""; // First 15 words of body
+      const bodyStart = h.body ? h.body.split(/\s+/).slice(0, 15).join(" ") : ""; // First 15 words of body
       return `${h.title} ${bodyStart}`;
     })
     .join(" ");
@@ -132,10 +126,7 @@ function parseRawContentToSegments(rawContent: string): ParsedContentSegment[] {
 
   const headingMatches = headingTags
     .flatMap((tag) => {
-      const regex = new RegExp(
-        `<${tag}[^>]*text\\s*=\\s*(["'])(.*?)\\1[^>]*\\/>`,
-        "gs",
-      );
+      const regex = new RegExp(`<${tag}[^>]*text\\s*=\\s*(["'])(.*?)\\1[^>]*\\/>`, "gs");
       return [...rawContent.matchAll(regex)].map((match) => ({
         type: "heading" as const,
         content: match[2].trim(),
@@ -167,10 +158,7 @@ function parseRawContentToSegments(rawContent: string): ParsedContentSegment[] {
 
   for (const structuralElement of allStructuralElements) {
     if (structuralElement.index! > lastIndex) {
-      const textChunk = rawContent.substring(
-        lastIndex,
-        structuralElement.index!,
-      );
+      const textChunk = rawContent.substring(lastIndex, structuralElement.index!);
 
       const extractedTexts = extractTextFromNestedTags(textChunk);
 
@@ -297,9 +285,7 @@ function buildDocumentContent(rawContent: string): Docs["content"] {
 }
 
 function generateTitle(filePath: string, content: string): string {
-  const headingMatches = [
-    ...content.matchAll(/<H[1-6][^>]*text\s*=\s*(["'])(.*?)\1[^>]*\/>/gs),
-  ];
+  const headingMatches = [...content.matchAll(/<H[1-6][^>]*text\s*=\s*(["'])(.*?)\1[^>]*\/>/gs)];
   if (headingMatches.length > 0) {
     const primaryTitle = headingMatches[0][2].trim();
     if (primaryTitle) return primaryTitle;
@@ -319,15 +305,9 @@ function generateUrl(relativePath: string): string {
   return `/${relativePath}`;
 }
 
-function shouldProcessFile(
-  file: string,
-  baseDir: string,
-  targetDirs: string[],
-): boolean {
+function shouldProcessFile(file: string, baseDir: string, targetDirs: string[]): boolean {
   const relative: string = path.relative(baseDir, file);
-  const isInTargetDir: boolean = targetDirs.some((dir) =>
-    relative.startsWith(`${dir}${path.sep}`),
-  );
+  const isInTargetDir: boolean = targetDirs.some((dir) => relative.startsWith(`${dir}${path.sep}`));
   const isLayout: boolean = path.basename(file) === "_layout.tsx";
 
   return isInTargetDir && !isLayout;
@@ -360,8 +340,7 @@ function processFile(file: string, baseDir: string): Docs | null {
     const section: string | null = pathParts.length > 0 ? pathParts[0] : null;
     const levels: string[] = pathParts.slice(0, -1);
     const level: number = levels.length;
-    const parent: string | null =
-      level > 0 ? pathParts.slice(0, level).join("/") : null;
+    const parent: string | null = level > 0 ? pathParts.slice(0, level).join("/") : null;
 
     const hasChildren = isFolder;
 
@@ -392,13 +371,7 @@ function buildJsonDocs(): void {
   console.log("🔍 Iniciando indexação e construção do arquivo JSON...");
   const startTime = Date.now();
 
-  const targetDirs: string[] = [
-    "canticos",
-    "devocionario",
-    "fe",
-    "missal",
-    "ritual",
-  ];
+  const targetDirs: string[] = ["canticos", "devocionario", "fe", "missal", "ritual"];
   const baseDir: string = "src/app";
   const jsonFilePath: string = path.resolve("./assets/docs.json");
   const searchIndexPath: string = path.resolve("./assets/search-index.json");
@@ -429,16 +402,12 @@ function buildJsonDocs(): void {
   }
 
   let files: string[] = [];
-  for (const pattern of targetDirs.map((dir) =>
-    path.join(baseDir, dir, "**", "*.tsx"),
-  )) {
+  for (const pattern of targetDirs.map((dir) => path.join(baseDir, dir, "**", "*.tsx"))) {
     const found: string[] = globSync(pattern, { cwd: process.cwd() });
     files = files.concat(found);
   }
 
-  files = [...new Set(files)].filter((file) =>
-    shouldProcessFile(file, baseDir, targetDirs),
-  );
+  files = [...new Set(files)].filter((file) => shouldProcessFile(file, baseDir, targetDirs));
 
   console.log(`📁 Total de arquivos TSX a processar: ${files.length}`);
   stats.totalFiles = files.length;
@@ -453,8 +422,7 @@ function buildJsonDocs(): void {
 
       // Update statistics
       if (doc.section) {
-        stats.sectionCounts[doc.section] =
-          (stats.sectionCounts[doc.section] || 0) + 1;
+        stats.sectionCounts[doc.section] = (stats.sectionCounts[doc.section] || 0) + 1;
       }
       stats.totalHeadings += doc.content.headings.length;
       stats.totalKeywords += doc.keywords.length;
@@ -502,11 +470,7 @@ function buildJsonDocs(): void {
 
   try {
     // Save MiniSearch index
-    fs.writeFileSync(
-      searchIndexPath,
-      JSON.stringify(miniSearch.toJSON()),
-      "utf-8",
-    );
+    fs.writeFileSync(searchIndexPath, JSON.stringify(miniSearch.toJSON()), "utf-8");
     const indexSize = fs.statSync(searchIndexPath).size;
     console.log(
       `✅ Índice MiniSearch salvo: ${searchIndexPath} (${(indexSize / 1024).toFixed(1)}KB)`,
@@ -539,12 +503,8 @@ function buildJsonDocs(): void {
 
     console.log(`\n📊 Estatísticas de Indexação:`);
     console.log(`⏱️  Tempo de processamento: ${processingTime.toFixed(2)}s`);
-    console.log(
-      `📁 Arquivos processados: ${stats.processedDocs}/${stats.totalFiles}`,
-    );
-    console.log(
-      `📝 Média de cabeçalhos por documento: ${stats.averageHeadings.toFixed(1)}`,
-    );
+    console.log(`📁 Arquivos processados: ${stats.processedDocs}/${stats.totalFiles}`);
+    console.log(`📝 Média de cabeçalhos por documento: ${stats.averageHeadings.toFixed(1)}`);
     console.log(`📚 Documentos por seção:`);
     Object.entries(stats.sectionCounts)
       .sort(([, a], [, b]) => b - a)

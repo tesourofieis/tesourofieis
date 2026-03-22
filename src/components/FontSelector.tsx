@@ -18,10 +18,7 @@ export const FontSizeSelector = () => {
   return (
     <View className="py-3 my-3 border-b border-sepia-300 dark:border-sepia-700">
       <View className="flex-row items-center mb-3 gap-1">
-        <Type
-          size={15}
-          color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
-        />
+        <Type size={15} color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]} />
         <H6 text="Tamanho da Letra" />
       </View>
 
@@ -31,9 +28,7 @@ export const FontSizeSelector = () => {
             key={size}
             onPress={() => setFontSize(size)}
             className={`flex-1 mx-1 py-3 px-4 rounded-lg items-center ${
-              fontSize === size
-                ? "bg-sepia-800 dark:bg-sepia-200"
-                : "soft-background"
+              fontSize === size ? "bg-sepia-800 dark:bg-sepia-200" : "soft-background"
             }`}
           >
             <Typography

@@ -1,11 +1,4 @@
-import {
-  Settings,
-  Bell,
-  Calendar,
-  Circle,
-  BookPlus,
-  Sparkles,
-} from "lucide-react-native";
+import { Settings, Bell, Calendar, Circle, BookPlus, Sparkles } from "lucide-react-native";
 import { useEffect, useState } from "react";
 import {
   Platform,
@@ -20,10 +13,7 @@ import { H6 } from "~/components/Headings";
 import { COLORS } from "~/constants/Colors";
 import { useSettings } from "~/providers/settings";
 import { Typography } from "./typography";
-import {
-  type WebNotificationSchedule,
-  webNotificationService,
-} from "~/services/webNotifications";
+import { type WebNotificationSchedule, webNotificationService } from "~/services/webNotifications";
 
 const NotificationToggle = ({
   title,
@@ -70,9 +60,7 @@ const NotificationToggle = ({
             color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
           />
           <View className="flex-1 ml-3">
-            <Typography className="bold text-sepia-800 dark:text-sepia-200">
-              {title}
-            </Typography>
+            <Typography className="bold text-sepia-800 dark:text-sepia-200">{title}</Typography>
             <Typography className="font-display text-sepia-800 dark:text-sepia-200 text-sm">
               {description}
             </Typography>
@@ -117,9 +105,7 @@ export const Notifications = () => {
   } = useSettings();
 
   const [showSuccessMessage, setShowSuccessMessage] = useState(false);
-  const [webScheduled, setWebScheduled] = useState<WebNotificationSchedule[]>(
-    [],
-  );
+  const [webScheduled, setWebScheduled] = useState<WebNotificationSchedule[]>([]);
 
   const toggleExpand = () => {
     setIsExpanded(!isExpanded);
@@ -151,22 +137,18 @@ export const Notifications = () => {
     return (
       <View className="py-3 my-3 border-b border-sepia-300 dark:border-sepia-700">
         <View className="flex-row items-center gap-1">
-          <Settings
-            size={15}
-            color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
-          />
+          <Settings size={15} color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]} />
           <H6 text={isWeb ? "Notificações Web" : "Notificações Desativadas"} />
         </View>
 
         {isWeb ? (
           <>
             <Typography className="font-display dark:text-sepia-200 text-sm">
-              Receba lembretes de oração diretamente no seu navegador, mesmo
-              quando a página não estiver aberta.
+              Receba lembretes de oração diretamente no seu navegador, mesmo quando a página não
+              estiver aberta.
             </Typography>
             <Typography className="font-display dark:text-sepia-200 text-sm mt-2">
-              🔔 <Typography className="bold">Angelus</Typography> - 6:00,
-              12:00, 18:00
+              🔔 <Typography className="bold">Angelus</Typography> - 6:00, 12:00, 18:00
             </Typography>
             <Typography className="font-display dark:text-sepia-200 text-sm">
               📅 <Typography className="bold">Missa do Dia</Typography> - 7:00
@@ -175,18 +157,14 @@ export const Notifications = () => {
               🙏 <Typography className="bold">Novenas</Typography> - 20:00
             </Typography>
             <Typography className="font-display dark:text-sepia-200 text-sm">
-              ⏰ <Typography className="bold">Ofício</Typography> - 8 vezes ao
-              dia
+              ⏰ <Typography className="bold">Ofício</Typography> - 8 vezes ao dia
             </Typography>
             <Typography className="font-display dark:text-sepia-200 text-sm">
-              ✨ <Typography className="bold">Indulgências</Typography> - Dias
-              especiais
+              ✨ <Typography className="bold">Indulgências</Typography> - Dias especiais
             </Typography>
             <Typography className="font-display text-xs text-sepia-700 dark:text-sepia-300 mt-3">
               O seu navegador pedirá permissão para mostrar notificações.
-              {isSoftRejected
-                ? ' Clique em "Permitir" para receber os lembretes.'
-                : ""}
+              {isSoftRejected ? ' Clique em "Permitir" para receber os lembretes.' : ""}
             </Typography>
           </>
         ) : (
@@ -222,8 +200,7 @@ export const Notifications = () => {
         {showSuccessMessage && isWeb && (
           <View className="mt-3 p-3 bg-green-100 dark:bg-green-900 rounded">
             <Typography className="text-center text-green-800 dark:text-green-200 text-sm">
-              ✅ Notificações ativadas! Receberá lembretes de oração mesmo com o
-              navegador fechado.
+              ✅ Notificações ativadas! Receberá lembretes de oração mesmo com o navegador fechado.
             </Typography>
           </View>
         )}
@@ -234,10 +211,7 @@ export const Notifications = () => {
   return (
     <ScrollView className="py-3 my-3 border-b border-sepia-300 dark:border-sepia-700">
       <View className="flex-row items-center gap-1">
-        <Settings
-          size={15}
-          color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
-        />
+        <Settings size={15} color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]} />
         <H6 text="Configurar Notificações" />
       </View>
 
@@ -246,8 +220,8 @@ export const Notifications = () => {
       </Typography>
 
       <Typography className="font-display text-xs text-sepia-700 dark:text-sepia-300">
-        As notificações dinâmicas, como as da Missa do Dia e Novenas, necessitam
-        de que o utilizador use a aplicação pelo menos uma vez por semana.
+        As notificações dinâmicas, como as da Missa do Dia e Novenas, necessitam de que o utilizador
+        use a aplicação pelo menos uma vez por semana.
       </Typography>
 
       <NotificationToggle
@@ -281,16 +255,7 @@ export const Notifications = () => {
         title="Ofício"
         icon="book"
         description="Receba lembretes para o Pequeno Ofício de Nossa Senhora."
-        times={[
-          "0:00",
-          "3:00",
-          "6:00",
-          "9:00",
-          "12:00",
-          "15:00",
-          "18:00",
-          "21:00",
-        ]}
+        times={["0:00", "3:00", "6:00", "9:00", "12:00", "15:00", "18:00", "21:00"]}
         enabled={settings.officeEnabled}
         toggle={() => setNotificationPref("OFFICE", !settings.officeEnabled)}
       />
@@ -301,29 +266,22 @@ export const Notifications = () => {
         description="Receba alertas sobre indulgências plenárias e oportunidades especiais."
         times={["Dias especiais", "Festas móveis"]}
         enabled={settings.indulgencesEnabled}
-        toggle={() =>
-          setNotificationPref("INDULGENCES", !settings.indulgencesEnabled)
-        }
+        toggle={() => setNotificationPref("INDULGENCES", !settings.indulgencesEnabled)}
       />
 
       <View className="mt-5">
-        {(
-          Platform.OS === "web" ? webScheduled.length > 0 : list?.length > 0
-        ) ? (
+        {(Platform.OS === "web" ? webScheduled.length > 0 : list?.length > 0) ? (
           <TouchableOpacity
             onPressOut={toggleExpand}
             className="p-3 soft-background text-sepia-700 dark:text-sepia-300"
           >
             <Typography className="text-center bold text-sepia-800 dark:text-sepia-200">
-              {isExpanded
-                ? "Esconder lista notificações"
-                : "Mostrar lista de notificações"}
+              {isExpanded ? "Esconder lista notificações" : "Mostrar lista de notificações"}
             </Typography>
           </TouchableOpacity>
         ) : undefined}
 
-        {isExpanded &&
-        (Platform.OS === "web" ? webScheduled.length > 0 : list?.length) ? (
+        {isExpanded && (Platform.OS === "web" ? webScheduled.length > 0 : list?.length) ? (
           <View>
             {Platform.OS === "web"
               ? webScheduled.map((notification) => (
@@ -332,8 +290,7 @@ export const Notifications = () => {
                     style={{
                       padding: 10,
                       borderBottomWidth: 1,
-                      borderColor:
-                        colorScheme === "light" ? COLORS["300"] : COLORS["700"],
+                      borderColor: colorScheme === "light" ? COLORS["300"] : COLORS["700"],
                     }}
                   >
                     <Typography className="text-sepia-800 dark:text-sepia-200">
@@ -355,8 +312,7 @@ export const Notifications = () => {
                     style={{
                       padding: 10,
                       borderBottomWidth: 1,
-                      borderColor:
-                        colorScheme === "light" ? COLORS["300"] : COLORS["700"],
+                      borderColor: colorScheme === "light" ? COLORS["300"] : COLORS["700"],
                     }}
                   >
                     <Typography className="text-sepia-800 dark:text-sepia-200">

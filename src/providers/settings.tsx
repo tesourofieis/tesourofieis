@@ -8,13 +8,7 @@ import * as Linking from "expo-linking";
 import * as Notifications from "expo-notifications";
 import { useRouter } from "expo-router";
 import type React from "react";
-import {
-  createContext,
-  useCallback,
-  useContext,
-  useEffect,
-  useState,
-} from "react";
+import { createContext, useCallback, useContext, useEffect, useState } from "react";
 import { Alert, Platform } from "react-native";
 import { useCalendar } from "./calendar";
 import { webNotificationService } from "~/services/webNotifications";
@@ -113,10 +107,7 @@ const DEFAULT_SETTINGS: Settings = {
 type SettingsContextType = {
   settings: Settings;
   isLoading: boolean;
-  setNotificationPref: (
-    key: keyof typeof prefKeyMap,
-    enabled: boolean,
-  ) => Promise<void>;
+  setNotificationPref: (key: keyof typeof prefKeyMap, enabled: boolean) => Promise<void>;
   list: Notifications.NotificationRequest[];
   permissionStatus: Notifications.PermissionStatus;
   requestPermission: () => Promise<boolean>;
@@ -124,9 +115,7 @@ type SettingsContextType = {
   isSoftRejected: boolean;
 };
 
-const SettingsContext = createContext<SettingsContextType | undefined>(
-  undefined,
-);
+const SettingsContext = createContext<SettingsContextType | undefined>(undefined);
 
 export function SettingsProvider({ children }: React.PropsWithChildren) {
   const router = useRouter();
@@ -136,10 +125,9 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
   const [settings, setSettings] = useState<Settings>(DEFAULT_SETTINGS);
   const [isLoading, setIsLoading] = useState(!isWeb);
   const [list, setList] = useState<Notifications.NotificationRequest[]>([]);
-  const [permissionStatus, setPermissionStatus] =
-    useState<Notifications.PermissionStatus>(
-      Notifications.PermissionStatus.UNDETERMINED,
-    );
+  const [permissionStatus, setPermissionStatus] = useState<Notifications.PermissionStatus>(
+    Notifications.PermissionStatus.UNDETERMINED,
+  );
 
   const getSettingsFromStorage = useCallback(async (): Promise<Settings> => {
     if (isWeb) return DEFAULT_SETTINGS;
@@ -149,10 +137,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
         const parsedSettings: Settings = JSON.parse(jsonValue);
         return { ...DEFAULT_SETTINGS, ...parsedSettings };
       } else {
-        await AsyncStorage.setItem(
-          SETTINGS_STORAGE_KEY,
-          JSON.stringify(DEFAULT_SETTINGS),
-        );
+        await AsyncStorage.setItem(SETTINGS_STORAGE_KEY, JSON.stringify(DEFAULT_SETTINGS));
         return DEFAULT_SETTINGS;
       }
     } catch (e: any) {
@@ -166,10 +151,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
       if (isWeb) return { ...settings, ...newValues };
       try {
         const updatedSettings: Settings = { ...settings, ...newValues };
-        await AsyncStorage.setItem(
-          SETTINGS_STORAGE_KEY,
-          JSON.stringify(updatedSettings),
-        );
+        await AsyncStorage.setItem(SETTINGS_STORAGE_KEY, JSON.stringify(updatedSettings));
         return updatedSettings;
       } catch (e: any) {
         console.error("Error updating settings in AsyncStorage:", e);
@@ -227,10 +209,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
   }, [isWeb]);
 
   const scheduleNotification = useCallback(
-    async (
-      notification: Notifications.NotificationRequestInput,
-      identifier: string,
-    ) => {
+    async (notification: Notifications.NotificationRequestInput, identifier: string) => {
       if (permissionStatus !== "granted") return;
 
       if (isWeb) {
@@ -256,9 +235,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
             icon: "/favicon.png",
           });
 
-          const delay = Math.round(
-            (triggerTime.getTime() - now.getTime()) / 1000,
-          );
+          const delay = Math.round((triggerTime.getTime() - now.getTime()) / 1000);
           console.log(
             `📅 Web notification scheduled: ${notification.content.title} at ${triggerTime.toLocaleString("pt-PT")} (in ${delay}s)`,
           );
@@ -271,9 +248,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
           }
 
           if (triggerDate <= new Date()) {
-            console.log(
-              `Skipping past notification: ${notification.content.title}`,
-            );
+            console.log(`Skipping past notification: ${notification.content.title}`);
             return;
           }
 
@@ -390,8 +365,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
         (startDate.getTime() - today.getTime()) / (1000 * 3600 * 24),
       );
 
-      const isWithinSchedulingWindow =
-        daysUntilStart <= maxDays && today <= endDate;
+      const isWithinSchedulingWindow = daysUntilStart <= maxDays && today <= endDate;
 
       if (isWithinSchedulingWindow) {
         for (let day = 1; day <= 7; day++) {
@@ -563,14 +537,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
 
     const scheduled = await Notifications.getAllScheduledNotificationsAsync();
     setList(scheduled);
-  }, [
-    isWeb,
-    permissionStatus,
-    settings,
-    calendar,
-    novenas,
-    scheduleNotification,
-  ]);
+  }, [isWeb, permissionStatus, settings, calendar, novenas, scheduleNotification]);
 
   const requestPermission = useCallback(async () => {
     if (!settings) return false;
@@ -692,14 +659,12 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
   useEffect(() => {
     if (isWeb) return;
 
-    const subscription = Notifications.addNotificationResponseReceivedListener(
-      (response) => {
-        const url = response.notification.request.content.data?.url;
-        if (url) {
-          router.navigate(url as string);
-        }
-      },
-    );
+    const subscription = Notifications.addNotificationResponseReceivedListener((response) => {
+      const url = response.notification.request.content.data?.url;
+      if (url) {
+        router.navigate(url as string);
+      }
+    });
     return () => subscription.remove();
   }, [isWeb, router]);
 

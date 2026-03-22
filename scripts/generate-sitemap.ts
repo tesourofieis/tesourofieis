@@ -6,14 +6,7 @@ const appDir = join(process.cwd(), "src/app");
 const publicDir = join(process.cwd(), "public");
 
 type RouteConfig = {
-  changefreq?:
-    | "always"
-    | "hourly"
-    | "daily"
-    | "weekly"
-    | "monthly"
-    | "yearly"
-    | "never";
+  changefreq?: "always" | "hourly" | "daily" | "weekly" | "monthly" | "yearly" | "never";
   priority?: number;
 };
 
@@ -77,9 +70,7 @@ const sitemap = generateSitemap(routes);
 const outputPath = join(publicDir, "sitemap.xml");
 
 writeFileSync(outputPath, sitemap, "utf-8");
-console.log(
-  `Generated sitemap.xml with ${routes.length} routes at ${outputPath}`,
-);
+console.log(`Generated sitemap.xml with ${routes.length} routes at ${outputPath}`);
 
 if (routes.length < 50) {
   console.log("\nRoutes:");

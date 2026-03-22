@@ -15,23 +15,19 @@ export default function Page0623() {
 
       <Language>
         <Typography className="latin">
-          Ne tímeas, Zacharía, exaudíta est orátio tua: et Elísabeth uxor tua
-          páriet tibi fílium, et vocábis nomen ejus Joánnem: et erit magnus
-          coram Dómino: et Spíritu Sancto replébitur adhuc ex útero matris suæ:
-          et multi in nativitáte ejus gaudébunt.{" "}
-          <Typography className="latin">Ps. 20, 2</Typography> Dómine, in
-          virtúte tua lætábitur rex: et super salutáre tuum exsultábit
-          veheménter.
+          Ne tímeas, Zacharía, exaudíta est orátio tua: et Elísabeth uxor tua páriet tibi fílium, et
+          vocábis nomen ejus Joánnem: et erit magnus coram Dómino: et Spíritu Sancto replébitur
+          adhuc ex útero matris suæ: et multi in nativitáte ejus gaudébunt.{" "}
+          <Typography className="latin">Ps. 20, 2</Typography> Dómine, in virtúte tua lætábitur rex:
+          et super salutáre tuum exsultábit veheménter.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
-          Não temas, Zacarias, pois a tua oração foi ouvida: Isabel, tua esposa,
-          dará à luz um filho, a quem darás o nome de João. Ele será grande
-          diante de Deus e cheio do Espírito Santo desde o seio de sua mãe.
-          Muitos se regozijarão com seu nascimento.{" "}
-          <Typography className="vernacular">Sl. 20, 2</Typography> Senhor,
-          alegrar-se-á o Rei com seu poder: e exultará com viva alegria,
-          esperando a vossa salvação.
+          Não temas, Zacarias, pois a tua oração foi ouvida: Isabel, tua esposa, dará à luz um
+          filho, a quem darás o nome de João. Ele será grande diante de Deus e cheio do Espírito
+          Santo desde o seio de sua mãe. Muitos se regozijarão com seu nascimento.{" "}
+          <Typography className="vernacular">Sl. 20, 2</Typography> Senhor, alegrar-se-á o Rei com
+          seu poder: e exultará com viva alegria, esperando a vossa salvação.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -40,16 +36,14 @@ export default function Page0623() {
 
       <Language>
         <Typography className="latin">
-          Præsta, quǽsumus, omnipotens Deus: ut familia tua per viam salútis
-          incedat; et, beáti Joánnis Præcursóris hortaménta sectándo ad eum,
-          quem prædíxit, secura perveniat, Dóminum nostrum Jesum Christum,
-          Fílium tuum: Qui tecum vivit et regnat...
+          Præsta, quǽsumus, omnipotens Deus: ut familia tua per viam salútis incedat; et, beáti
+          Joánnis Præcursóris hortaménta sectándo ad eum, quem prædíxit, secura perveniat, Dóminum
+          nostrum Jesum Christum, Fílium tuum: Qui tecum vivit et regnat...
         </Typography>
         <Typography className="vernacular">
-          Ó Deus omnipotente, Vos suplicamos, permiti que a vossa família
-          caminhe sempre pela via da salvação, a fim de que, sendo fiel aos
-          ensinos do B. João, o Precursor, consiga encontrar Aquele que ele
-          anunciou: nosso Senhor Jesus Cristo, que convosco vive e reina...
+          Ó Deus omnipotente, Vos suplicamos, permiti que a vossa família caminhe sempre pela via da
+          salvação, a fim de que, sendo fiel aos ensinos do B. João, o Precursor, consiga encontrar
+          Aquele que ele anunciou: nosso Senhor Jesus Cristo, que convosco vive e reina...
         </Typography>
       </Language>
 
@@ -59,35 +53,28 @@ export default function Page0623() {
 
       <Language>
         <Typography className="latin">Léctio Jeremíæ Prophétæ.</Typography>
-        <Typography className="vernacular">
-          Lição do Profeta Jeremias.
-        </Typography>
+        <Typography className="vernacular">Lição do Profeta Jeremias.</Typography>
         <Typography className="latin">
-          In diébus illis: Factum est verbum Dómini ad me, dicens: Priúsquam te
-          formárem in útero, novi te: et ántequam exíres de vulva, sanctificári
-          te, et prophétam in géntibus dedi te. Et dixi: A a a, Dómine Deus:
-          ecce, néscio loqui, quia puer ego sum. Et dixit Dóminus ad me: Noli
-          dícere: Puer sum; quóniam ad ómnia, quæ mittam te, ibis: et univérsa,
-          quæcúmque mandávero tibi, lóqueris. Ne tímeas a fácie eórum: quia
-          tecum ego sum, ut éruam te, dicit Dóminus. Et misit Dóminus manum
-          suam, et tétigit os meum: et dixit Dóminus ad me: Ecce, dedi verba mea
-          in ore tuo; ecce, constítui te hódie super gentes et super regna, ut
-          evéllas, et déstruas et dispérdas et díssipes et ædífices et plantes:
-          dicit Dóminus omnípotens.
+          In diébus illis: Factum est verbum Dómini ad me, dicens: Priúsquam te formárem in útero,
+          novi te: et ántequam exíres de vulva, sanctificári te, et prophétam in géntibus dedi te.
+          Et dixi: A a a, Dómine Deus: ecce, néscio loqui, quia puer ego sum. Et dixit Dóminus ad
+          me: Noli dícere: Puer sum; quóniam ad ómnia, quæ mittam te, ibis: et univérsa, quæcúmque
+          mandávero tibi, lóqueris. Ne tímeas a fácie eórum: quia tecum ego sum, ut éruam te, dicit
+          Dóminus. Et misit Dóminus manum suam, et tétigit os meum: et dixit Dóminus ad me: Ecce,
+          dedi verba mea in ore tuo; ecce, constítui te hódie super gentes et super regna, ut
+          evéllas, et déstruas et dispérdas et díssipes et ædífices et plantes: dicit Dóminus
+          omnípotens.
         </Typography>
         <Typography className="vernacular">
-          Naquele dias, foi-me dirigida a palavra do Senhor, dizendo-me: «Antes
-          de te formar no seio de tua mãe, já te conhecia; e antes de saíres
-          dele, já te santificara e consagrara Profeta entre os povos». E eu
-          disse: «Ah! ah! ah! Senhor Deus, não sei falar, pois sou menino!».
-          Então o Senhor disse: «Não digas «sou menino»; pois tu irás junto de
-          todos aqueles a quem te mandar, e dirás tudo quanto te ordenar. Não
-          temas, pois, quando estiveres na presença deles, porque estarei
-          contigo para te livrar», diz o Senhor. Depois o Senhor estendeu a sua
-          mão e tocou com ela na minha boca. E o Senhor disse-me: «Eis que pus
-          as minhas palavras na tua boca; e te estabeleci hoje sobre os povos e
-          os reinos, para arrancares e destruíres, para plantares e edificares»,
-          diz o Senhor omnipotente.
+          Naquele dias, foi-me dirigida a palavra do Senhor, dizendo-me: «Antes de te formar no seio
+          de tua mãe, já te conhecia; e antes de saíres dele, já te santificara e consagrara Profeta
+          entre os povos». E eu disse: «Ah! ah! ah! Senhor Deus, não sei falar, pois sou menino!».
+          Então o Senhor disse: «Não digas «sou menino»; pois tu irás junto de todos aqueles a quem
+          te mandar, e dirás tudo quanto te ordenar. Não temas, pois, quando estiveres na presença
+          deles, porque estarei contigo para te livrar», diz o Senhor. Depois o Senhor estendeu a
+          sua mão e tocou com ela na minha boca. E o Senhor disse-me: «Eis que pus as minhas
+          palavras na tua boca; e te estabeleci hoje sobre os povos e os reinos, para arrancares e
+          destruíres, para plantares e edificares», diz o Senhor omnipotente.
         </Typography>
       </Language>
 
@@ -98,13 +85,13 @@ export default function Page0623() {
       <Language>
         <Typography className="latin">
           Fuit homo missus a Deo, cui nomen erat Joánnes.
-          <Typography className="versicle"> ℣. </Typography>Hic venit, ut
-          testimónium perhibéret de lúmine, paráre Dómino plebem perféctam.
+          <Typography className="versicle"> ℣. </Typography>Hic venit, ut testimónium perhibéret de
+          lúmine, paráre Dómino plebem perféctam.
         </Typography>
         <Typography className="vernacular">
           Foi enviado por Deus um homem que se chamava João.
-          <Typography className="versicle"> ℣. </Typography>Ele veio para dar
-          testemunho da luz e preparar um povo perfeito para o Senhor.
+          <Typography className="versicle"> ℣. </Typography>Ele veio para dar testemunho da luz e
+          preparar um povo perfeito para o Senhor.
         </Typography>
       </Language>
 
@@ -114,57 +101,45 @@ export default function Page0623() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Initium sancti
-          Evangélii secúndum Lucam.
+          <Typography className="cross"> ✠ </Typography> Initium sancti Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Início do santo
-          Evangelho segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Início do santo Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
-          Fuit in diébus Heródis, regis Judǽæ, sacérdos quidam nómine Zacharías,
-          de vice Abía, et uxor illíus de filiábus Aaron, et nomen ejus
-          Elísabeth. Erant autem justi ambo ante Deum, incedéntes in ómnibus
-          mandátis et justificatiónibus Dómini sine queréla, et non erat illis
-          fílius, eo quod esset Elísabeth stérilis, et ambo processíssent in
-          diébus suis. Factum est autem, cum sacerdótio fungerátur in órdine
-          vicis suæ ante Deum, secúndum consuetúdinem sacerdótii, sorte éxiit,
-          ut incénsum póneret, ingréssus in templum Dómini: et omnis multitúdo
-          pópuli erat orans foris hora incénsi. Appáruit autem illi Angelus
-          Dómini, stans a dextris altáris incénsi. Et Zacharias turbátus est,
-          videns, et timor írruit super eum. Ait autem ad illum Angelus: Ne
-          tímeas, Zacharía, quóniam exaudíta est deprecátio tua: et uxor tua
-          Elísabeth páriet tibi fílium, et vocábis nomen ejus Joánnem: et erit
-          gáudium tibi et exsultátio, et multi in nativitáte ejus gaudébunt:
-          erit enim magnus coram Dómino: et vinum, et síceram non bibet, et
-          Spíritu Sancto replébitur adhuc ex útero matris suæ: et multos
-          filiórum Israël convértet ad Dóminum, Deum ipsórum: et ipse præcédet
-          ante illum in spíritu et virtúte Elíæ: ut convértat corda patrum in
-          fílios, et incrédulos ad prudéntiam justórum, paráre Dómino plebem
-          perféctam.
+          Fuit in diébus Heródis, regis Judǽæ, sacérdos quidam nómine Zacharías, de vice Abía, et
+          uxor illíus de filiábus Aaron, et nomen ejus Elísabeth. Erant autem justi ambo ante Deum,
+          incedéntes in ómnibus mandátis et justificatiónibus Dómini sine queréla, et non erat illis
+          fílius, eo quod esset Elísabeth stérilis, et ambo processíssent in diébus suis. Factum est
+          autem, cum sacerdótio fungerátur in órdine vicis suæ ante Deum, secúndum consuetúdinem
+          sacerdótii, sorte éxiit, ut incénsum póneret, ingréssus in templum Dómini: et omnis
+          multitúdo pópuli erat orans foris hora incénsi. Appáruit autem illi Angelus Dómini, stans
+          a dextris altáris incénsi. Et Zacharias turbátus est, videns, et timor írruit super eum.
+          Ait autem ad illum Angelus: Ne tímeas, Zacharía, quóniam exaudíta est deprecátio tua: et
+          uxor tua Elísabeth páriet tibi fílium, et vocábis nomen ejus Joánnem: et erit gáudium tibi
+          et exsultátio, et multi in nativitáte ejus gaudébunt: erit enim magnus coram Dómino: et
+          vinum, et síceram non bibet, et Spíritu Sancto replébitur adhuc ex útero matris suæ: et
+          multos filiórum Israël convértet ad Dóminum, Deum ipsórum: et ipse præcédet ante illum in
+          spíritu et virtúte Elíæ: ut convértat corda patrum in fílios, et incrédulos ad prudéntiam
+          justórum, paráre Dómino plebem perféctam.
         </Typography>
         <Typography className="vernacular">
-          No tempo em que Herodes reinava na Judeia, havia um sacerdote chamado
-          Zacarias, da classe de Abias. Sua mulher era filha de Aarão e
-          chamava-se Isabel. Ambos eram justos diante de Deus, cumprindo
-          irrepreensivelmente todos os mandamentos e preceitos do Senhor. Não
-          tinham filhos (pois Isabel era estéril); e ambos já estavam em idade
-          avançada. Ora aconteceu que, enquanto Zacarias desempenhava as funções
-          do seu ministério diante de Deus, na altura da sua classe, segundo o
-          costume entre os sacerdotes, foi escolhido pela sorte para entrar no
-          santuário do Senhor e oferecer aí o incenso. E quando era a hora
-          própria do incenso, toda a multidão do povo estava fora em oração.
-          Então, um Anjo do Senhor apareceu-lhe, estando de pé e à direita do
-          altar do incenso. Logo que Zacarias o viu, ficou perturbado e cheio de
-          temor. Mas o Anjo disse-lhe: «Não temas, Zacarias; pois a tua oração
-          foi ouvida: tua mulher dará à luz um filho, ao qual chamarás João, e
-          será para ti motivo de júbilo e de alegria, regozijando-se muitos com
-          seu nascimento, pois será grande diante do Senhor; não beberá vinho,
-          nem cidra e será cheio do Espírito Santo desde o seio de sua mãe. Ele
-          converterá ao Senhor, seu Deus, muitos filhos de Israel e caminhará
-          adiante d’Ele com o espírito e o poder de Elias para chamar os
-          corações dos pais aos filhos e os rebeldes à prudência dos justos, e
-          assim preparar para o Senhor um povo perfeito».
+          No tempo em que Herodes reinava na Judeia, havia um sacerdote chamado Zacarias, da classe
+          de Abias. Sua mulher era filha de Aarão e chamava-se Isabel. Ambos eram justos diante de
+          Deus, cumprindo irrepreensivelmente todos os mandamentos e preceitos do Senhor. Não tinham
+          filhos (pois Isabel era estéril); e ambos já estavam em idade avançada. Ora aconteceu que,
+          enquanto Zacarias desempenhava as funções do seu ministério diante de Deus, na altura da
+          sua classe, segundo o costume entre os sacerdotes, foi escolhido pela sorte para entrar no
+          santuário do Senhor e oferecer aí o incenso. E quando era a hora própria do incenso, toda
+          a multidão do povo estava fora em oração. Então, um Anjo do Senhor apareceu-lhe, estando
+          de pé e à direita do altar do incenso. Logo que Zacarias o viu, ficou perturbado e cheio
+          de temor. Mas o Anjo disse-lhe: «Não temas, Zacarias; pois a tua oração foi ouvida: tua
+          mulher dará à luz um filho, ao qual chamarás João, e será para ti motivo de júbilo e de
+          alegria, regozijando-se muitos com seu nascimento, pois será grande diante do Senhor; não
+          beberá vinho, nem cidra e será cheio do Espírito Santo desde o seio de sua mãe. Ele
+          converterá ao Senhor, seu Deus, muitos filhos de Israel e caminhará adiante d’Ele com o
+          espírito e o poder de Elias para chamar os corações dos pais aos filhos e os rebeldes à
+          prudência dos justos, e assim preparar para o Senhor um povo perfeito».
         </Typography>
       </Language>
 
@@ -179,14 +154,12 @@ export default function Page0623() {
 
       <Language>
         <Typography className="latin">
-          Múnera, Dómine, obláta sanctífica: et, intercedénte beáto Joánne
-          Baptista, nos per hæc a peccatórum nostrórum máculis emúnda. Per
-          Dóminum...
+          Múnera, Dómine, obláta sanctífica: et, intercedénte beáto Joánne Baptista, nos per hæc a
+          peccatórum nostrórum máculis emúnda. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Santificai, Senhor os dons que Vos são oferecidos e pela intercessão
-          do B. João Baptista fazei que nos purifiquem das manchas dos nossos
-          pecados. Por nosso Senhor...
+          Santificai, Senhor os dons que Vos são oferecidos e pela intercessão do B. João Baptista
+          fazei que nos purifiquem das manchas dos nossos pecados. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -196,12 +169,12 @@ export default function Page0623() {
 
       <Language>
         <Typography className="latin">
-          Magna est glória ejus in salutári tuo: glóriam et magnum decórem
-          ímpones super eum, Dómine.
+          Magna est glória ejus in salutári tuo: glóriam et magnum decórem ímpones super eum,
+          Dómine.
         </Typography>
         <Typography className="vernacular">
-          Grande é, Senhor, a sua glória, graças à vossa protecção. Vós o
-          rodeastes de glória e de magnificência.
+          Grande é, Senhor, a sua glória, graças à vossa protecção. Vós o rodeastes de glória e de
+          magnificência.
         </Typography>
       </Language>
 
@@ -209,15 +182,14 @@ export default function Page0623() {
 
       <Language>
         <Typography className="latin">
-          Beáti Joánnis Baptístæ nos, Dómine, præclára comitétur orátio: et,
-          quem ventúrum esse prædíxit, poscat nobis fore placátum, Dóminum
-          nostrum Jesum Christum, Fílium tuum: Qui tecum vivit et regnat...
+          Beáti Joánnis Baptístæ nos, Dómine, præclára comitétur orátio: et, quem ventúrum esse
+          prædíxit, poscat nobis fore placátum, Dóminum nostrum Jesum Christum, Fílium tuum: Qui
+          tecum vivit et regnat...
         </Typography>
         <Typography className="vernacular">
-          Fazei, Senhor, que a insigne Oração do B. João Baptista acompanhe a
-          nossa e que implore em nosso favor a misericórdia d’Aquele que ele
-          profetizou: nosso Senhor Jesus Cristo, vosso Filho, que convosco vive
-          e reina...
+          Fazei, Senhor, que a insigne Oração do B. João Baptista acompanhe a nossa e que implore em
+          nosso favor a misericórdia d’Aquele que ele profetizou: nosso Senhor Jesus Cristo, vosso
+          Filho, que convosco vive e reina...
         </Typography>
       </Language>
     </PageWrapper>

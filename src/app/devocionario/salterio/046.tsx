@@ -19,8 +19,7 @@ export default function Page046() {
           Quóniam Dóminus excélsus, terríbilis: * Rex magnus super omnem terram.
         </Typography>
         <Typography className="vernacular">
-          Porque o Senhor é excelso e terrível: * Rei supremo sobre toda a
-          terra.
+          Porque o Senhor é excelso e terrível: * Rei supremo sobre toda a terra.
         </Typography>
         <Typography className="latin">
           Subjécit pópulos nobis: * et gentes sub pédibus nostris.
@@ -59,12 +58,12 @@ export default function Page046() {
           Deus reinará sobre as gentes: * Deus está sentado no seu santo trono.
         </Typography>
         <Typography className="latin">
-          Príncipes populórum congregáti sunt cum Deo Ábraham: * quóniam dii
-          fortes terræ veheménter eleváti sunt.
+          Príncipes populórum congregáti sunt cum Deo Ábraham: * quóniam dii fortes terræ veheménter
+          eleváti sunt.
         </Typography>
         <Typography className="vernacular">
-          Os príncipes dos povos reuniram-se com o Deus de Abraão: * porque os
-          fortes deuses da terra foram elevadíssimos.
+          Os príncipes dos povos reuniram-se com o Deus de Abraão: * porque os fortes deuses da
+          terra foram elevadíssimos.
         </Typography>
       </Language>
     </PageWrapper>

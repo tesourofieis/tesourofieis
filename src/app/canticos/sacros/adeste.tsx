@@ -59,8 +59,7 @@ export default function PageAdeste() {
         </Typography>
         <Typography className="vernacular">
           Deixando o rebanho, os pastores humildes,{"\n"}
-          Chamados, apressam-se às pressas;{"\n"}E nós, com passo alegre,
-          apressemo-nos.{"\n"}
+          Chamados, apressam-se às pressas;{"\n"}E nós, com passo alegre, apressemo-nos.{"\n"}
           Vinde, adoremos (3×){"\n"}O Senhor.
         </Typography>
         <Typography className="latin">

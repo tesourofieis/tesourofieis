@@ -8,30 +8,24 @@ export default function PageApostolos() {
     <PageWrapper>
       <H1 text="Prefácio dos Apóstolos" />
 
-      <Typography className="aside">
-        Diz-se nas Festas dos Apóstolos e Evangelistas.
-      </Typography>
+      <Typography className="aside">Diz-se nas Festas dos Apóstolos e Evangelistas.</Typography>
 
       <Language>
         <Typography className="latin">
-          Vere dignum et justum est, æquum et salutáre: Te, Dómine, supplíciter
-          exoráre, ut gregem tuum, Pastor ætérne, non déseras: sed per beátos
-          Apóstolos tuos contínua protectióne custódias. Ut iísdem rectóribus
-          gubernétur, quos óperis tui vicários eídem contulísti præésse
-          pastóres. Et ídeo cum Angelis et Archángelis, cum Thronis et
-          Dominatiónibus cumque omni milítia cœléstis exércitus hymnum glóriæ
-          tuæ cánimus, sine fine dicéntes:
+          Vere dignum et justum est, æquum et salutáre: Te, Dómine, supplíciter exoráre, ut gregem
+          tuum, Pastor ætérne, non déseras: sed per beátos Apóstolos tuos contínua protectióne
+          custódias. Ut iísdem rectóribus gubernétur, quos óperis tui vicários eídem contulísti
+          præésse pastóres. Et ídeo cum Angelis et Archángelis, cum Thronis et Dominatiónibus cumque
+          omni milítia cœléstis exércitus hymnum glóriæ tuæ cánimus, sine fine dicéntes:
         </Typography>
         <Typography className="vernacular">
-          É verdadeiramente digno e justo, racional e salutar suplicar-Vos
-          humildemente, Senhor, que, como Pastor eterno, que sois, não
-          abandoneis o vosso rebanho, mas antes, por intercessão dos vossos
-          bem-aventurados Apóstolos, o guardeis sob a vossa perpétua protecção,
-          a fim de que seja sempre governado pelos mesmos Directores, que,
-          encarregados como Vigários de perpetuar a vossa obra, designastes seus
-          Pastores. E, por isso, com os Anjos e Arcanjos, com os Tronos e
-          Dominações e com toda a milícia do exército celestial, cantamos um
-          hino à vossa glória, dizendo incessantemente:
+          É verdadeiramente digno e justo, racional e salutar suplicar-Vos humildemente, Senhor,
+          que, como Pastor eterno, que sois, não abandoneis o vosso rebanho, mas antes, por
+          intercessão dos vossos bem-aventurados Apóstolos, o guardeis sob a vossa perpétua
+          protecção, a fim de que seja sempre governado pelos mesmos Directores, que, encarregados
+          como Vigários de perpetuar a vossa obra, designastes seus Pastores. E, por isso, com os
+          Anjos e Arcanjos, com os Tronos e Dominações e com toda a milícia do exército celestial,
+          cantamos um hino à vossa glória, dizendo incessantemente:
         </Typography>
       </Language>
     </PageWrapper>

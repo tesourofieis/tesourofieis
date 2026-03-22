@@ -18,10 +18,9 @@ export default function Page0603() {
         </Link>{" "}
         excepto:
       </Typography>
-      <H3 text="Oração" />Ó Deus, que maravilhosamente ilustrastes a vossa
-      Igreja com a pregação apostólica do B. Ovídio, vosso Mártir e Pontífice,
-      concedei-nos propício que intercedam por nós os sufrágios daquele de quem
-      recebemos o incremento da religião. Por nosso Senhor...
+      <H3 text="Oração" />Ó Deus, que maravilhosamente ilustrastes a vossa Igreja com a pregação
+      apostólica do B. Ovídio, vosso Mártir e Pontífice, concedei-nos propício que intercedam por
+      nós os sufrágios daquele de quem recebemos o incremento da religião. Por nosso Senhor...
     </PageWrapper>
   );
 }

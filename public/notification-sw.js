@@ -27,9 +27,7 @@ self.addEventListener("activate", (event) => {
         return Promise.all(
           cacheNames
             .filter(
-              (cacheName) =>
-                cacheName.startsWith("tesouro-") &&
-                cacheName !== NOTIFICATION_CACHE,
+              (cacheName) => cacheName.startsWith("tesouro-") && cacheName !== NOTIFICATION_CACHE,
             )
             .map((cacheName) => caches.delete(cacheName)),
         );
@@ -104,10 +102,7 @@ self.addEventListener("notificationclose", (event) => {
  * Handle push messages (for future server-sent notifications)
  */
 self.addEventListener("push", (event) => {
-  console.log(
-    "📧 Push message received:",
-    event.data ? event.data.text() : "No data",
-  );
+  console.log("📧 Push message received:", event.data ? event.data.text() : "No data");
 
   if (!event.data) {
     return;
@@ -133,12 +128,7 @@ self.addEventListener("push", (event) => {
       timestamp: Date.now(),
     };
 
-    event.waitUntil(
-      self.registration.showNotification(
-        data.title || "Tesouro dos Fiéis",
-        options,
-      ),
-    );
+    event.waitUntil(self.registration.showNotification(data.title || "Tesouro dos Fiéis", options));
   } catch (error) {
     console.error("Error handling push message:", error);
   }

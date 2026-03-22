@@ -14,36 +14,31 @@ export default function Page1205Braga() {
           <Typography className="versicle"> ℣. </Typography> Gloria Patri...
         </Typography>
         <Typography className="vernacular">
-          Um ínclito Confessor de Deus, lustre muito esplendoroso ante o Senhor,
-          pérola e modelo dos Prelados, hoje coroado, com o qual as celestiais
-          coortes rejubilam, entra nos céus, onde sem fim reina com Cristo. Ó
-          justos, exultai no Senhor: àqueles que têm o coração recto fica bem a
-          glória.<Typography className="versicle"> ℣. </Typography>
+          Um ínclito Confessor de Deus, lustre muito esplendoroso ante o Senhor, pérola e modelo dos
+          Prelados, hoje coroado, com o qual as celestiais coortes rejubilam, entra nos céus, onde
+          sem fim reina com Cristo. Ó justos, exultai no Senhor: àqueles que têm o coração recto
+          fica bem a glória.<Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
       </Language>
       <H3 text="Oração" />
       <Typography className="vernacular">
-        Ó Senhor, Vos suplicamos, que os preciosos méritos do B. Geraldo, vosso
-        Confessor e Pontífice, nos defendam; e que por suas preces seja bem
-        dirigida a Igreja. Por nosso Senhor...
+        Ó Senhor, Vos suplicamos, que os preciosos méritos do B. Geraldo, vosso Confessor e
+        Pontífice, nos defendam; e que por suas preces seja bem dirigida a Igreja. Por nosso
+        Senhor...
       </Typography>
       <H3 text="Epístola" />
-      <LinkCard
-        href="/missal/comum/10martires#epístola"
-        title="Mártires - Missa Sancti tui"
-      />
+      <LinkCard href="/missal/comum/10martires#epístola" title="Mártires - Missa Sancti tui" />
       <H3 text="Gradual" />
       <Language>
         <Typography className="latin">
-          Veneremos devotadamente, do íntimo do coração e da alma, a veneranda
-          festividade de hoje, em que o B. Geraldo, Confessor de Cristo, passou
-          alegre deste mundo para os céus. Por isso o B. Geraldo, acabado o
-          tempo da sua vida, é alistado nos exércitos celestiais.
+          Veneremos devotadamente, do íntimo do coração e da alma, a veneranda festividade de hoje,
+          em que o B. Geraldo, Confessor de Cristo, passou alegre deste mundo para os céus. Por isso
+          o B. Geraldo, acabado o tempo da sua vida, é alistado nos exércitos celestiais.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia. Geraldo foi esse servo do Senhor que, lutando à hora
-          da sua morte com o demónio, o venceu. Aleluia.
+          Aleluia, aleluia. Geraldo foi esse servo do Senhor que, lutando à hora da sua morte com o
+          demónio, o venceu. Aleluia.
         </Typography>
       </Language>
       <H3 text="Evangelho" />
@@ -53,28 +48,24 @@ export default function Page1205Braga() {
       />
       <H3 text="Ofertório" />
       <Typography className="vernacular">
-        Alegra-te, cidade de Braga, com tão excelso Padroeiro, o qual permitiu
-        Deus que fosse sepultado dentro dos teus muros. Por seu intermédio
-        obtiveste de Deus milagres inumeráveis.
+        Alegra-te, cidade de Braga, com tão excelso Padroeiro, o qual permitiu Deus que fosse
+        sepultado dentro dos teus muros. Por seu intermédio obtiveste de Deus milagres inumeráveis.
       </Typography>
       <H3 text="Secreta" />
       <Typography className="vernacular">
-        Seja aceite na vossa presença, ó Senhor, a oblação do vosso fiel povo e
-        permiti que lhe seja salutar, por intercessão do B. Geraldo, vosso
-        Confessor e Pontífice, em cuja solenidade ela Vos é oferecida. Por nosso
-        Senhor...
+        Seja aceite na vossa presença, ó Senhor, a oblação do vosso fiel povo e permiti que lhe seja
+        salutar, por intercessão do B. Geraldo, vosso Confessor e Pontífice, em cuja solenidade ela
+        Vos é oferecida. Por nosso Senhor...
       </Typography>
       <H3 text="Comúnio" />
       <Typography className="vernacular">
-        Ó quão glorioso é este Confessor de Deus, com o qual no céu exultam os
-        exércitos dos Santos!
+        Ó quão glorioso é este Confessor de Deus, com o qual no céu exultam os exércitos dos Santos!
       </Typography>
       <H3 text="Postcomúnio" />
       <Typography className="vernacular">
-        Ó Deus, remunerador das almas fiéis, concedei-nos a graça de alcançarmos
-        o perdão por intermédio das preces do B. Geraldo, vosso Confessor e
-        Pontífice, cuja veneranda festividade hoje celebramos. Por nosso
-        Senhor...
+        Ó Deus, remunerador das almas fiéis, concedei-nos a graça de alcançarmos o perdão por
+        intermédio das preces do B. Geraldo, vosso Confessor e Pontífice, cuja veneranda festividade
+        hoje celebramos. Por nosso Senhor...
       </Typography>
     </PageWrapper>
   );

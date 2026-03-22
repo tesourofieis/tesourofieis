@@ -16,15 +16,9 @@ type LanguageContextType = {
   isLoading: boolean;
 };
 
-const LanguageContext = createContext<LanguageContextType | undefined>(
-  undefined,
-);
+const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
-export const LanguageProvider = ({
-  children,
-}: {
-  children: React.ReactNode;
-}) => {
+export const LanguageProvider = ({ children }: { children: React.ReactNode }) => {
   const [language, setLanguageState] = useState<Language>("vernacular");
   const [isLoading, setIsLoading] = useState(true);
 
@@ -96,10 +90,7 @@ export const DefaultLanguageSelector = () => {
     return (
       <View className="py-3 my-3 border-b border-sepia-300 dark:border-sepia-700">
         <View className="flex-row items-center mb-3">
-          <Languages
-            size={15}
-            color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
-          />
+          <Languages size={15} color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]} />
           <H6 text="Língua Padrão" />
         </View>
         <View className="h-12 soft-background rounded-lg" />
@@ -110,19 +101,14 @@ export const DefaultLanguageSelector = () => {
   return (
     <View className="py-3 my-3 border-b border-sepia-300 dark:border-sepia-700">
       <View className="flex-row items-center mb-3 gap-1">
-        <Languages
-          size={15}
-          color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
-        />
+        <Languages size={15} color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]} />
         <H6 text="Língua Padrão" />
       </View>
       <View className="flex-row justify-between items-center">
         <TouchableOpacity
           onPress={() => setLanguage("vernacular")}
           className={`flex-1 mx-1 py-3 px-4 rounded-lg items-center ${
-            language === "vernacular"
-              ? "bg-sepia-800 dark:bg-sepia-200"
-              : "soft-background"
+            language === "vernacular" ? "bg-sepia-800 dark:bg-sepia-200" : "soft-background"
           }`}
         >
           <Typography
@@ -138,9 +124,7 @@ export const DefaultLanguageSelector = () => {
         <TouchableOpacity
           onPress={() => setLanguage("latin")}
           className={`flex-1 mx-1 py-3 px-4 rounded-lg items-center ${
-            language === "latin"
-              ? "bg-sepia-800 dark:bg-sepia-200"
-              : "soft-background"
+            language === "latin" ? "bg-sepia-800 dark:bg-sepia-200" : "soft-background"
           }`}
         >
           <Typography

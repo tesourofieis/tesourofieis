@@ -10,12 +10,10 @@ export default function Page022() {
 
       <Language>
         <Typography className="latin">
-          Dóminus regit me, et nihil mihi déerit: * in loco páscuæ ibi me
-          collocávit.
+          Dóminus regit me, et nihil mihi déerit: * in loco páscuæ ibi me collocávit.
         </Typography>
         <Typography className="vernacular">
-          O Senhor é meu pastor e nada me faltará: * num lugar de pastos me
-          colocou.
+          O Senhor é meu pastor e nada me faltará: * num lugar de pastos me colocou.
         </Typography>
         <Typography className="latin">
           Super aquam refectiónis educávit me: * ánimam meam convértit.
@@ -30,12 +28,11 @@ export default function Page022() {
           Levou-me por veredas de justiça, * por causa do seu nome.
         </Typography>
         <Typography className="latin">
-          Nam, et si ambulávero in médio umbræ mortis, non timébo mala: *
-          quóniam Tu mecum es.
+          Nam, et si ambulávero in médio umbræ mortis, non timébo mala: * quóniam Tu mecum es.
         </Typography>
         <Typography className="vernacular">
-          Pois, ainda que ande no meio da sombra da morte, não temerei mal
-          algum: * porque Vós estais comigo.
+          Pois, ainda que ande no meio da sombra da morte, não temerei mal algum: * porque Vós
+          estais comigo.
         </Typography>
         <Typography className="latin">
           Virga tua, et báculus tuus: * ipsa me consoláta sunt.
@@ -50,12 +47,10 @@ export default function Page022() {
           Preparastes uma mesa ante mim, * à vista daqueles que me atribulam.
         </Typography>
         <Typography className="latin">
-          Impinguásti in óleo caput meum: * et calix meus inébrians quam
-          præclárus est!
+          Impinguásti in óleo caput meum: * et calix meus inébrians quam præclárus est!
         </Typography>
         <Typography className="vernacular">
-          Ungistes com óleo a minha cabeça: * e quão precioso é o meu cálice
-          farto!
+          Ungistes com óleo a minha cabeça: * e quão precioso é o meu cálice farto!
         </Typography>
         <Typography className="latin">
           Et misericórdia tua subsequétur me * ómnibus diébus vitæ meæ:

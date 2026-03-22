@@ -21,15 +21,14 @@ export default function Page0529() {
 
       <Language>
         <Typography className="latin">
-          Deus, vrginitátis amátor, qui beátam Maríam Magdalénam Vírginem, tuo
-          amóre succénsam, cœléstibus donis decorásti: da; ut, quam festíva
-          celebritáte venerámur, puritáte et caritáte imitémur. Per Dóminum...
+          Deus, vrginitátis amátor, qui beátam Maríam Magdalénam Vírginem, tuo amóre succénsam,
+          cœléstibus donis decorásti: da; ut, quam festíva celebritáte venerámur, puritáte et
+          caritáte imitémur. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Ó Deus, que amais a virgindade e ornastes com dons celestiais a B.
-          Maria Madalena, vossa Virgem, cujo coração estava abrasado em amor por
-          Vós, concedei-nos que, honrando-a nós com a celebração desta festa, a
-          imitemos também na sua pureza e caridade. Por nosso Senhor...
+          Ó Deus, que amais a virgindade e ornastes com dons celestiais a B. Maria Madalena, vossa
+          Virgem, cujo coração estava abrasado em amor por Vós, concedei-nos que, honrando-a nós com
+          a celebração desta festa, a imitemos também na sua pureza e caridade. Por nosso Senhor...
         </Typography>
       </Language>
     </PageWrapper>

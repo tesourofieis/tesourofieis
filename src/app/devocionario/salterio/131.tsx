@@ -15,15 +15,12 @@ export default function Page131() {
         <Typography className="vernacular">
           Lembrai-Vos, ó Senhor, de David, * e de toda sua mansidão:
         </Typography>
-        <Typography className="latin">
-          Sicut jurávit Dómino, * votum vovit Deo Jacob:
-        </Typography>
+        <Typography className="latin">Sicut jurávit Dómino, * votum vovit Deo Jacob:</Typography>
         <Typography className="vernacular">
           Como fez um juramento ao Senhor, * um voto ao Deus de Jacob:
         </Typography>
         <Typography className="latin">
-          Si introíero in tabernáculum domus meæ, * si ascéndero in lectum
-          strati mei:
+          Si introíero in tabernáculum domus meæ, * si ascéndero in lectum strati mei:
         </Typography>
         <Typography className="vernacular">
           Se entrar na tenda de minha casa, * se subir ao leito do meu estrado:
@@ -35,64 +32,55 @@ export default function Page131() {
           Se der sono aos meus olhos, * e às minhas pestanas adormecimento:
         </Typography>
         <Typography className="latin">
-          Et réquiem tempóribus meis: donec invéniam locum Dómino, *
-          tabernáculum Deo Jacob.
+          Et réquiem tempóribus meis: donec invéniam locum Dómino, * tabernáculum Deo Jacob.
         </Typography>
         <Typography className="vernacular">
-          Repouso aos meus templos, até que encontre um lugar para o Senhor, *
-          um tabernáculo para o Deus de Jacob.
+          Repouso aos meus templos, até que encontre um lugar para o Senhor, * um tabernáculo para o
+          Deus de Jacob.
         </Typography>
         <Typography className="latin">
           Ecce, audívimus eam in Éphrata: * invénimus eam in campis silvæ.
         </Typography>
         <Typography className="vernacular">
-          Eis que ouvimos dizer que estava em Efrata: * e a encontrámos nos
-          campos da selva.
+          Eis que ouvimos dizer que estava em Efrata: * e a encontrámos nos campos da selva.
         </Typography>
         <Typography className="latin">
-          Introíbimus in tabernáculum ejus: * adorábimus in loco, ubi stetérunt
-          pedes ejus.
+          Introíbimus in tabernáculum ejus: * adorábimus in loco, ubi stetérunt pedes ejus.
         </Typography>
         <Typography className="vernacular">
-          Entraremos no seu tabernáculo: * nós o adoraremos no lugar onde
-          estiveram os seus pés.
+          Entraremos no seu tabernáculo: * nós o adoraremos no lugar onde estiveram os seus pés.
         </Typography>
         <Typography className="latin">
           Surge, Dómine, in réquiem tuam, * Tu et arca sanctificatiónis tuæ.
         </Typography>
         <Typography className="vernacular">
-          Levantai-Vos, ó Senhor, entrai no vosso repouso, * Vós e a arca de
-          vossa santificação.
+          Levantai-Vos, ó Senhor, entrai no vosso repouso, * Vós e a arca de vossa santificação.
         </Typography>
         <Typography className="latin">
           Sacerdótes tui induántur justítiam: * et sancti tui exsúltent.
         </Typography>
         <Typography className="vernacular">
-          Vistam-se os vossos sacerdotes de justiça: * e exultem-se os vossos
-          santos.
+          Vistam-se os vossos sacerdotes de justiça: * e exultem-se os vossos santos.
         </Typography>
         <Typography className="latin">
           Propter David, servum tuum, * non avértas fáciem Christi tui.
         </Typography>
         <Typography className="vernacular">
-          Por amor de David vosso servo, * não desprezeis o rosto de vosso
-          Cristo.
+          Por amor de David vosso servo, * não desprezeis o rosto de vosso Cristo.
         </Typography>
         <Typography className="latin">
-          Jurávit Dóminus David veritátem, et non frustrábitur eam: * De fructu
-          ventris tui ponam super sedem tuam.
+          Jurávit Dóminus David veritátem, et non frustrábitur eam: * De fructu ventris tui ponam
+          super sedem tuam.
         </Typography>
         <Typography className="vernacular">
-          Jurou o Senhor verdade a David e não deixará de cumpri-la: * sobre o
-          teu trono porei do fruto de teu ventre.
+          Jurou o Senhor verdade a David e não deixará de cumpri-la: * sobre o teu trono porei do
+          fruto de teu ventre.
         </Typography>
         <Typography className="latin">
-          Si custodíerint fílii tui testaméntum meum, * et testimónia mea hæc,
-          quæ docébo eos:
+          Si custodíerint fílii tui testaméntum meum, * et testimónia mea hæc, quæ docébo eos:
         </Typography>
         <Typography className="vernacular">
-          Se os teus filhos guardarem a minha aliança, * e os testemunhos que
-          lhes ensinarei:
+          Se os teus filhos guardarem a minha aliança, * e os testemunhos que lhes ensinarei:
         </Typography>
         <Typography className="latin">
           Et fílii eórum usque in sǽculum, * sedébunt super sedem tuam.
@@ -116,31 +104,25 @@ export default function Page131() {
           Víduam ejus benedícens benedícam: * páuperes ejus saturábo pánibus.
         </Typography>
         <Typography className="vernacular">
-          Abençoarei copiosamente a sua viúva: * saciarei de pães os seus
-          pobres.
+          Abençoarei copiosamente a sua viúva: * saciarei de pães os seus pobres.
         </Typography>
         <Typography className="latin">
-          Sacerdótes ejus índuam salutári: * et sancti ejus exsultatióne
-          exsultábunt.
+          Sacerdótes ejus índuam salutári: * et sancti ejus exsultatióne exsultábunt.
         </Typography>
         <Typography className="vernacular">
-          Vestirei os seus sacerdotes de salvação: * e os seus santos exultarão
-          de júbilo.
+          Vestirei os seus sacerdotes de salvação: * e os seus santos exultarão de júbilo.
         </Typography>
         <Typography className="latin">
           Illuc prodúcam cornu David, * parávi lucérnam Christo meo.
         </Typography>
         <Typography className="vernacular">
-          Ali dilatarei o poder de David, * preparei uma lâmpada para o meu
-          Cristo.
+          Ali dilatarei o poder de David, * preparei uma lâmpada para o meu Cristo.
         </Typography>
         <Typography className="latin">
-          Inimícos ejus índuam confusióne: * super ipsum autem efflorébit
-          sanctificátio mea.
+          Inimícos ejus índuam confusióne: * super ipsum autem efflorébit sanctificátio mea.
         </Typography>
         <Typography className="vernacular">
-          Cobrirei de confusão os seus inimigos: * mas sobre eles florescerá a
-          minha santidade.
+          Cobrirei de confusão os seus inimigos: * mas sobre eles florescerá a minha santidade.
         </Typography>
       </Language>
     </PageWrapper>

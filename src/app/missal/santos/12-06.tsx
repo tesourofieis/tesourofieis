@@ -10,19 +10,17 @@ export default function Page1206() {
       <H1 text="S. Nicolau, B. e Conf., a 6 de Dezembro" />
 
       <Typography className="comment">
-        S. Nicolau, chamado o Grande, nasceu na Ásia Menor. Deus o glorificou
-        por inúmeros milagres e a Igreja, em vista do poder desse Santo sobre as
-        chamas, nos faz pedir a graça de sermos preservados, por sua
-        intercessão, do fogo do inferno. Nomeado Arcebispo de Mira, a sua
-        solicitude pastoral estendeu-se a todas as necessidades do seu rebanho.
-        Tomou parte no Concílio de Niceia, no qual foi condenado o Arianismo.
-        Fazendo valer os talentos mencionados no Evangelho, praticava, ao mesmo
-        tempo, as obras de misericórdia espirituais e temporais, como indicam as
-        esmolas discretamente lançadas por uma janela, para salvar a honra de
-        três moças, e ainda lembradas pela festa infantil, em que se atribuía à
-        generosidade de S. Nicolau, os presentes encontrados nos sapatos das
-        crianças. O Santo morreu em 324. Suas relíquias são conservadas em Bari
-        (Itália). Ajudemos o próximo nas suas necessidades de corpo e alma.
+        S. Nicolau, chamado o Grande, nasceu na Ásia Menor. Deus o glorificou por inúmeros milagres
+        e a Igreja, em vista do poder desse Santo sobre as chamas, nos faz pedir a graça de sermos
+        preservados, por sua intercessão, do fogo do inferno. Nomeado Arcebispo de Mira, a sua
+        solicitude pastoral estendeu-se a todas as necessidades do seu rebanho. Tomou parte no
+        Concílio de Niceia, no qual foi condenado o Arianismo. Fazendo valer os talentos mencionados
+        no Evangelho, praticava, ao mesmo tempo, as obras de misericórdia espirituais e temporais,
+        como indicam as esmolas discretamente lançadas por uma janela, para salvar a honra de três
+        moças, e ainda lembradas pela festa infantil, em que se atribuía à generosidade de S.
+        Nicolau, os presentes encontrados nos sapatos das crianças. O Santo morreu em 324. Suas
+        relíquias são conservadas em Bari (Itália). Ajudemos o próximo nas suas necessidades de
+        corpo e alma.
       </Typography>
 
       <H3 text="Intróito" />
@@ -36,15 +34,13 @@ export default function Page1206() {
 
       <Language>
         <Typography className="latin">
-          Deus, qui beátum Nicoláum Pontíficem innúmeris decorásti miráculis:
-          tríbue, quǽsumus; ut ejus méritis et précibus a gehénnæ incéndiis
-          liberémur. Per Dóminum nostrum...
+          Deus, qui beátum Nicoláum Pontíficem innúmeris decorásti miráculis: tríbue, quǽsumus; ut
+          ejus méritis et précibus a gehénnæ incéndiis liberémur. Per Dóminum nostrum...
         </Typography>
         <Typography className="vernacular">
-          Ó Deus, que distinguistes o B. Pontífice Nicolau, concedendo-lhe o dom
-          de praticar inumeráveis milagres, permiti, Vos suplicamos, que pelos
-          seus méritos e preces sejamos preservados do fogo do inferno. Por
-          nosso Senhor...
+          Ó Deus, que distinguistes o B. Pontífice Nicolau, concedendo-lhe o dom de praticar
+          inumeráveis milagres, permiti, Vos suplicamos, que pelos seus méritos e preces sejamos
+          preservados do fogo do inferno. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -53,49 +49,37 @@ export default function Page1206() {
       <Typography className="em">Heb. 13, 7-17</Typography>
 
       <Language>
+        <Typography className="latin">Léctio Epístolæ beáti Pauli Apóstoli ad Hebrǽos.</Typography>
+        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º Paulo aos Hebreus.</Typography>
         <Typography className="latin">
-          Léctio Epístolæ beáti Pauli Apóstoli ad Hebrǽos.
+          Fratres: Mementóte præpositórum vestrórum, qui vobis locúti sunt verbum Dei: quorum
+          intuéntes éxitum conversatiónis, imitámini fidem. Jesus Christus heri et hódie: ipse et in
+          sǽcula. Doctrínis váriis et peregrínis nolíte abdúci. Optimum est enim grátia stabilíre
+          cor, non escis, quæ non profuérunt ambulántibus in eis. Habémus altáre, de quo édere non
+          habent potestátem, qui tabernáculo deserviunt. Quorum enim animálium infértur sanguis pro
+          peccáto in Sancta per pontíficem, horum córpora cremántur extra castra. Propter quod et
+          Jesus, ut sanctificáret per suum sánguinem pópulum, extra portam passus est. Exeámus
+          ígitur ad eum extra castra, impropérium ejus portántes. Non enim habémus hic manéntem
+          civitátem, sed futúram inquírimus. Per ipsum ergo offerámus hóstiam laudis semper Deo, id
+          est fructum labiórum confiténtium nómini ejus. Beneficéntiæ autem et communiónis nolíte
+          oblivísci: tálibus enim hóstiis promerétur Deus. Obœdíte præpósitis vestris et subjacéte
+          eis. Ipsi enim pervígilant, quasi ratiónem pro animábus vestris redditúri.
         </Typography>
         <Typography className="vernacular">
-          Lição da Ep.ª do B. Ap.º Paulo aos Hebreus.
-        </Typography>
-        <Typography className="latin">
-          Fratres: Mementóte præpositórum vestrórum, qui vobis locúti sunt
-          verbum Dei: quorum intuéntes éxitum conversatiónis, imitámini fidem.
-          Jesus Christus heri et hódie: ipse et in sǽcula. Doctrínis váriis et
-          peregrínis nolíte abdúci. Optimum est enim grátia stabilíre cor, non
-          escis, quæ non profuérunt ambulántibus in eis. Habémus altáre, de quo
-          édere non habent potestátem, qui tabernáculo deserviunt. Quorum enim
-          animálium infértur sanguis pro peccáto in Sancta per pontíficem, horum
-          córpora cremántur extra castra. Propter quod et Jesus, ut
-          sanctificáret per suum sánguinem pópulum, extra portam passus est.
-          Exeámus ígitur ad eum extra castra, impropérium ejus portántes. Non
-          enim habémus hic manéntem civitátem, sed futúram inquírimus. Per ipsum
-          ergo offerámus hóstiam laudis semper Deo, id est fructum labiórum
-          confiténtium nómini ejus. Beneficéntiæ autem et communiónis nolíte
-          oblivísci: tálibus enim hóstiis promerétur Deus. Obœdíte præpósitis
-          vestris et subjacéte eis. Ipsi enim pervígilant, quasi ratiónem pro
-          animábus vestris redditúri.
-        </Typography>
-        <Typography className="vernacular">
-          Meus irmãos: Lembrai-vos dos vossos pastores que vos pregaram a
-          palavra de Deus; e, considerando qual foi o fim da sua vida, imitai a
-          sua fé. Jesus Cristo é o mesmo ontem e hoje, e será o mesmo em todos
-          os séculos! Não vos deixeis iludir com doutrinas diversas e estranhas,
-          pois é melhor corroborar o coração com a graça do que procurar
-          alimentos que em nada aproveitam aos que deles usam. Temos um altar do
-          qual os ministros, que servem o tabernáculo, não têm o direito de
-          comer. Os animais, cujo sangue para a expiação dos pecados o sacerdote
-          levava para o santuário, eram queimados fora do campo. Por isso também
-          Jesus, devendo santificar o povo com seu sangue, padeceu fora de
-          portas. Portanto vamos a Ele fora dos arraiais, levando sobre nós a
-          ignomínia da sua cruz; pois não temos aqui cidade permanente, mas
-          buscamos a que há-de vir. Ofereçamos, portanto, por Ele sem cessar um
-          sacrifício de louvor a Deus, isto é, o fruto dos lábios que confessam
-          o seu nome. E não vos esqueçais de praticar a beneficência e a
-          liberalidade, que são sacrifícios muito agradáveis a Deus. Obedeci aos
-          vossos pastores e sede-lhe submissos; pois elos vigiam as vossas
-          almas, das quais têm de dar conta.
+          Meus irmãos: Lembrai-vos dos vossos pastores que vos pregaram a palavra de Deus; e,
+          considerando qual foi o fim da sua vida, imitai a sua fé. Jesus Cristo é o mesmo ontem e
+          hoje, e será o mesmo em todos os séculos! Não vos deixeis iludir com doutrinas diversas e
+          estranhas, pois é melhor corroborar o coração com a graça do que procurar alimentos que em
+          nada aproveitam aos que deles usam. Temos um altar do qual os ministros, que servem o
+          tabernáculo, não têm o direito de comer. Os animais, cujo sangue para a expiação dos
+          pecados o sacerdote levava para o santuário, eram queimados fora do campo. Por isso também
+          Jesus, devendo santificar o povo com seu sangue, padeceu fora de portas. Portanto vamos a
+          Ele fora dos arraiais, levando sobre nós a ignomínia da sua cruz; pois não temos aqui
+          cidade permanente, mas buscamos a que há-de vir. Ofereçamos, portanto, por Ele sem cessar
+          um sacrifício de louvor a Deus, isto é, o fruto dos lábios que confessam o seu nome. E não
+          vos esqueçais de praticar a beneficência e a liberalidade, que são sacrifícios muito
+          agradáveis a Deus. Obedeci aos vossos pastores e sede-lhe submissos; pois elos vigiam as
+          vossas almas, das quais têm de dar conta.
         </Typography>
       </Language>
 
@@ -105,28 +89,26 @@ export default function Page1206() {
 
       <Language>
         <Typography className="latin">
-          Invéni David servum meum, óleo sancto meo unxi eum: manus enim mea
-          auxiliábitur ei, et bráchium meum confortábit eum.
-          <Typography className="versicle"> ℣. </Typography>Nihil profíciet
-          inimícus in eo, et fílius iniquitátis non nocébit ei.
+          Invéni David servum meum, óleo sancto meo unxi eum: manus enim mea auxiliábitur ei, et
+          bráchium meum confortábit eum.
+          <Typography className="versicle"> ℣. </Typography>Nihil profíciet inimícus in eo, et
+          fílius iniquitátis non nocébit ei.
         </Typography>
         <Typography className="vernacular">
-          Encontrei o meu servo David e ungi-o com meu óleo sagrado: a minha mão
-          o auxiliará e o meu braço o fortalecerá.
-          <Typography className="versicle"> ℣. </Typography>Contra ele não
-          prevalecerá o inimigo, e o filho da iniquidade não poderá fazer-lhe
-          mal.
+          Encontrei o meu servo David e ungi-o com meu óleo sagrado: a minha mão o auxiliará e o meu
+          braço o fortalecerá.
+          <Typography className="versicle"> ℣. </Typography>Contra ele não prevalecerá o inimigo, e
+          o filho da iniquidade não poderá fazer-lhe mal.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 91, 13</Typography> Justus ut palma
-          florébit: sicut cedrus Líbani multiplicábitur. Allelúja.
+          <Typography className="latin">Ps. 91, 13</Typography> Justus ut palma florébit: sicut
+          cedrus Líbani multiplicábitur. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 91, 13</Typography> O justo
-          florescerá, como a palmeira, e crescerá, como o cedro do Líbano.
-          Aleluia.
+          <Typography className="vernacular">Sl. 91, 13</Typography> O justo florescerá, como a
+          palmeira, e crescerá, como o cedro do Líbano. Aleluia.
         </Typography>
       </Language>
 
@@ -143,12 +125,11 @@ export default function Page1206() {
 
       <Language>
         <Typography className="latin">
-          Véritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur
-          cornu ejus.
+          Véritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus.
         </Typography>
         <Typography className="vernacular">
-          A minha verdade e a minha misericórdia estarão com ele: e o seu poder
-          elevar-se-á pelo meu nome.
+          A minha verdade e a minha misericórdia estarão com ele: e o seu poder elevar-se-á pelo meu
+          nome.
         </Typography>
       </Language>
 
@@ -156,15 +137,14 @@ export default function Page1206() {
 
       <Language>
         <Typography className="latin">
-          Sanctífica, quǽsumus, Dómine Deus, hæc múnera, quæ in sollemnitáte
-          sancti Antístitis tui Nicolái offérimus: ut per ea vita nostra inter
-          advérsa et próspera úbique dirigátur. Per Dóminum...
+          Sanctífica, quǽsumus, Dómine Deus, hæc múnera, quæ in sollemnitáte sancti Antístitis tui
+          Nicolái offérimus: ut per ea vita nostra inter advérsa et próspera úbique dirigátur. Per
+          Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Santificai, ó Senhor, nosso Deus, estes dons, que Vos apresentamos na
-          solenidade do vosso santo Pontífice Nicolau, a fim de que por meio
-          deles possamos sempre proceder com rectidão, tanto nas adversidades,
-          como nas prosperidades. Por nosso Senhor...
+          Santificai, ó Senhor, nosso Deus, estes dons, que Vos apresentamos na solenidade do vosso
+          santo Pontífice Nicolau, a fim de que por meio deles possamos sempre proceder com
+          rectidão, tanto nas adversidades, como nas prosperidades. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -174,14 +154,13 @@ export default function Page1206() {
 
       <Language>
         <Typography className="latin">
-          Semel jurávi in sancto meo: Semen ejus in ætérnum manebit, et sedes
-          ejus sicut sol in conspéctu meo, et sicut luna perfécta in ætérnum, et
-          testis in cœlo fidélis.
+          Semel jurávi in sancto meo: Semen ejus in ætérnum manebit, et sedes ejus sicut sol in
+          conspéctu meo, et sicut luna perfécta in ætérnum, et testis in cœlo fidélis.
         </Typography>
         <Typography className="vernacular">
-          Jurei uma vez por minha santidade: a sua descendência durará
-          eternamente e o seu trono brilhará perante mim, como o sol, e, como a
-          lua, permanecerá para sempre, e será testemunho fiel no céu.
+          Jurei uma vez por minha santidade: a sua descendência durará eternamente e o seu trono
+          brilhará perante mim, como o sol, e, como a lua, permanecerá para sempre, e será
+          testemunho fiel no céu.
         </Typography>
       </Language>
 
@@ -189,13 +168,12 @@ export default function Page1206() {
 
       <Language>
         <Typography className="latin">
-          Sacrifícia, quæ súmpsimus, Dómine, pro sollemnitáte sancti Pontíficis
-          tui Nicolái, sempitérna nos protectióne consérvent. Per Dóminum...
+          Sacrifícia, quæ súmpsimus, Dómine, pro sollemnitáte sancti Pontíficis tui Nicolái,
+          sempitérna nos protectióne consérvent. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Que o sacrifício de que participámos, celebrando a festa do santo
-          Pontífice Nicolau, Senhor, nos alcance perpetuamente a vossa
-          protecção. Por nosso Senhor...
+          Que o sacrifício de que participámos, celebrando a festa do santo Pontífice Nicolau,
+          Senhor, nos alcance perpetuamente a vossa protecção. Por nosso Senhor...
         </Typography>
       </Language>
     </PageWrapper>

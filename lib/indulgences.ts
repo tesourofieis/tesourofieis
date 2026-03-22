@@ -145,10 +145,7 @@ export function getMovableIndulgence(dayData?: Day): Indulgence | null {
   return null;
 }
 
-export function getTodaysIndulgences(
-  calendar: Day[],
-  date: Date,
-): Indulgence[] {
+export function getTodaysIndulgences(calendar: Day[], date: Date): Indulgence[] {
   const today = new Date();
   const currentYear = today.getFullYear();
   const indulgences: Indulgence[] = [];

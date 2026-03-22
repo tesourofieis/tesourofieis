@@ -10,20 +10,16 @@ export default function Page117() {
 
       <Language>
         <Typography className="latin">
-          Confitémini Dómino quóniam bonus: * quóniam in sǽculum misericórdia
-          ejus.
+          Confitémini Dómino quóniam bonus: * quóniam in sǽculum misericórdia ejus.
         </Typography>
         <Typography className="vernacular">
-          Louvai o Senhor, porque Ele é bom: * porque a sua misericórdia é
-          eterna.
+          Louvai o Senhor, porque Ele é bom: * porque a sua misericórdia é eterna.
         </Typography>
         <Typography className="latin">
-          Dicat nunc Israël quóniam bonus: * quóniam in sǽculum misericórdia
-          ejus.
+          Dicat nunc Israël quóniam bonus: * quóniam in sǽculum misericórdia ejus.
         </Typography>
         <Typography className="vernacular">
-          Diga agora Israel que o Senhor é bom: * e que sua misericórdia é
-          eterna.
+          Diga agora Israel que o Senhor é bom: * e que sua misericórdia é eterna.
         </Typography>
         <Typography className="latin">
           Dicat nunc domus Aaron: * quóniam in sǽculum misericórdia ejus.
@@ -32,19 +28,16 @@ export default function Page117() {
           Diga agora a casa de Arão: * que sua misericórdia é eterna.
         </Typography>
         <Typography className="latin">
-          Dicant nunc qui timent Dóminum: * quóniam in sǽculum misericórdia
-          ejus.
+          Dicant nunc qui timent Dóminum: * quóniam in sǽculum misericórdia ejus.
         </Typography>
         <Typography className="vernacular">
           Digam agora os que temem o Senhor: * que sua misericórdia é eterna.
         </Typography>
         <Typography className="latin">
-          De tribulatióne invocávi Dóminum: * et exaudívit me in latitúdine
-          Dóminus.
+          De tribulatióne invocávi Dóminum: * et exaudívit me in latitúdine Dóminus.
         </Typography>
         <Typography className="vernacular">
-          No meio da tribulação invoquei o Senhor: * e o Senhor me ouviu e me
-          pôs ao largo.
+          No meio da tribulação invoquei o Senhor: * e o Senhor me ouviu e me pôs ao largo.
         </Typography>
         <Typography className="latin">
           Dóminus mihi adjútor: * non timébo quid fáciat mihi homo.
@@ -71,27 +64,24 @@ export default function Page117() {
           É melhor esperar no Senhor, * que esperar nos príncipes.
         </Typography>
         <Typography className="latin">
-          Omnes gentes circuiérunt me: * et in nómine Dómini quia ultus sum in
-          eos.
+          Omnes gentes circuiérunt me: * et in nómine Dómini quia ultus sum in eos.
         </Typography>
         <Typography className="vernacular">
           Todas as gentes me cercaram: * e no nome do Senhor me vinguei delas.
         </Typography>
         <Typography className="latin">
-          Circumdántes circumdedérunt me: * et in nómine Dómini quia ultus sum
-          in eos.
+          Circumdántes circumdedérunt me: * et in nómine Dómini quia ultus sum in eos.
         </Typography>
         <Typography className="vernacular">
-          Pondo-se à minha volta me cercaram: * e no nome do Senhor me vinguei
-          delas.
+          Pondo-se à minha volta me cercaram: * e no nome do Senhor me vinguei delas.
         </Typography>
         <Typography className="latin">
-          Circumdedérunt me sicut apes, et exarsérunt sicut ignis in spinis: *
-          et in nómine Dómini quia ultus sum in eos.
+          Circumdedérunt me sicut apes, et exarsérunt sicut ignis in spinis: * et in nómine Dómini
+          quia ultus sum in eos.
         </Typography>
         <Typography className="vernacular">
-          Cercaram-me como abelhas, incendiaram-se como fogo em espinhos: * e no
-          nome do Senhor me vinguei delas.
+          Cercaram-me como abelhas, incendiaram-se como fogo em espinhos: * e no nome do Senhor me
+          vinguei delas.
         </Typography>
         <Typography className="latin">
           Impúlsus evérsus sum ut cáderem: * et Dóminus suscépit me.
@@ -103,8 +93,7 @@ export default function Page117() {
           Fortitúdo mea, et laus mea Dóminus: * et factus est mihi in salútem.
         </Typography>
         <Typography className="vernacular">
-          O Senhor é a minha fortaleza e o meu louvor: * e tornou-se a minha
-          salvação.
+          O Senhor é a minha fortaleza e o meu louvor: * e tornou-se a minha salvação.
         </Typography>
         <Typography className="latin">
           Vox exsultatiónis, et salútis * in tabernáculis justórum.
@@ -113,16 +102,14 @@ export default function Page117() {
           Voz de júbilo e de salvação * nas tendas dos justos.
         </Typography>
         <Typography className="latin">
-          Déxtera Dómini fecit virtútem: déxtera Dómini exaltávit me, * déxtera
-          Dómini fecit virtútem.
+          Déxtera Dómini fecit virtútem: déxtera Dómini exaltávit me, * déxtera Dómini fecit
+          virtútem.
         </Typography>
         <Typography className="vernacular">
-          A dextra do Senhor mostrou o seu poder: a dextra do Senhor me ergueu,
-          * a dextra do Senhor mostrou o seu poder.
+          A dextra do Senhor mostrou o seu poder: a dextra do Senhor me ergueu, * a dextra do Senhor
+          mostrou o seu poder.
         </Typography>
-        <Typography className="latin">
-          Non móriar, sed vivam: * et narrábo ópera Dómini.
-        </Typography>
+        <Typography className="latin">Non móriar, sed vivam: * et narrábo ópera Dómini.</Typography>
         <Typography className="vernacular">
           Não morrerei, mas viverei: * e narrarei as obras do Senhor.
         </Typography>
@@ -133,12 +120,12 @@ export default function Page117() {
           Severamente me castigou o Senhor: * mas me não entregou à morte.
         </Typography>
         <Typography className="latin">
-          Aperíte mihi portas justítiæ, ingréssus in eas confitébor Dómino: *
-          hæc porta Dómini, justi intrábunt in eam.
+          Aperíte mihi portas justítiæ, ingréssus in eas confitébor Dómino: * hæc porta Dómini,
+          justi intrábunt in eam.
         </Typography>
         <Typography className="vernacular">
-          Abri-me as portas da justiça, entrarei por elas e louvarei o Senhor: *
-          esta é a porta do Senhor, os justos entrarão por ela.
+          Abri-me as portas da justiça, entrarei por elas e louvarei o Senhor: * esta é a porta do
+          Senhor, os justos entrarão por ela.
         </Typography>
         <Typography className="latin">
           Confitébor tibi quóniam exaudísti me: * et factus es mihi in salútem.
@@ -147,8 +134,7 @@ export default function Page117() {
           Vos louvarei porque me ouvistes: * e minha salvação Vos tornastes.
         </Typography>
         <Typography className="latin">
-          Lápidem, quem reprobavérunt ædificántes: * hic factus est in caput
-          ánguli.
+          Lápidem, quem reprobavérunt ædificántes: * hic factus est in caput ánguli.
         </Typography>
         <Typography className="vernacular">
           A pedra que os construtores rejeitaram: * tornou-se a pedra angular.
@@ -166,19 +152,18 @@ export default function Page117() {
           Este é o dia que o Senhor fez: * exultemos e alegremo-nos n’Ele.
         </Typography>
         <Typography className="latin">
-          O Dómine, salvum me fac, o Dómine, bene prosperáre: * benedíctus qui
-          venit in nómine Dómini.
+          O Dómine, salvum me fac, o Dómine, bene prosperáre: * benedíctus qui venit in nómine
+          Dómini.
         </Typography>
         <Typography className="vernacular">
-          Ó Senhor, salvai-me, ó Senhor, fazei que tenha prosperidade: * bendito
-          o que vem em nome do Senhor.
+          Ó Senhor, salvai-me, ó Senhor, fazei que tenha prosperidade: * bendito o que vem em nome
+          do Senhor.
         </Typography>
         <Typography className="latin">
           Benedíximus vobis de domo Dómini: * Deus Dóminus, et illúxit nobis.
         </Typography>
         <Typography className="vernacular">
-          A vós bendizemos que sois da casa do Senhor: * o Senhor é Deus e a sua
-          luz nos manifestou.
+          A vós bendizemos que sois da casa do Senhor: * o Senhor é Deus e a sua luz nos manifestou.
         </Typography>
         <Typography className="latin">
           Constitúite diem solémnem in condénsis, * usque ad cornu altáris.
@@ -187,12 +172,10 @@ export default function Page117() {
           Tornai esse dia solene cobrindo de folhagem, * até à ponta do altar.
         </Typography>
         <Typography className="latin">
-          Deus meus es Tu, et confitébor tibi: * Deus meus es Tu, et exaltábo
-          Te.
+          Deus meus es Tu, et confitébor tibi: * Deus meus es Tu, et exaltábo Te.
         </Typography>
         <Typography className="vernacular">
-          Vós sois o meu Deus e Vos louvarei: * Vós sois o meu Deus e Vos
-          exaltarei.
+          Vós sois o meu Deus e Vos louvarei: * Vós sois o meu Deus e Vos exaltarei.
         </Typography>
         <Typography className="latin">
           Confitébor tibi quóniam exaudísti me * et factus es mihi in salútem.
@@ -201,8 +184,7 @@ export default function Page117() {
           Vos louvarei porque me atendestes, * e Vos tornastes a minha salvação.
         </Typography>
         <Typography className="latin">
-          Confitémini Dómino quóniam bonus: * quóniam in sǽculum misericórdia
-          ejus.
+          Confitémini Dómino quóniam bonus: * quóniam in sǽculum misericórdia ejus.
         </Typography>
         <Typography className="vernacular">
           Louvai o Senhor, porque é bom: * porque a sua misericórdia é eterna.

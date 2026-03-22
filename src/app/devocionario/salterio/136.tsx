@@ -10,12 +10,10 @@ export default function Page136() {
 
       <Language>
         <Typography className="latin">
-          Super flúmina Babylónis, illic sédimus et flévimus: * cum recordarémur
-          Sion:
+          Super flúmina Babylónis, illic sédimus et flévimus: * cum recordarémur Sion:
         </Typography>
         <Typography className="vernacular">
-          Junto dos rios da Babilónia, ali nos assentámos a chorar: *
-          lembrando-nos de Sião:
+          Junto dos rios da Babilónia, ali nos assentámos a chorar: * lembrando-nos de Sião:
         </Typography>
         <Typography className="latin">
           In salícibus in médio ejus, * suspéndimus órgana nostra.
@@ -24,19 +22,16 @@ export default function Page136() {
           Nos salgueiros que lá havia, * as nossas harpas pendurámos.
         </Typography>
         <Typography className="latin">
-          Quia illic interrogavérunt nos, qui captívos duxérunt nos, * verba
-          cantiónum:
+          Quia illic interrogavérunt nos, qui captívos duxérunt nos, * verba cantiónum:
         </Typography>
         <Typography className="vernacular">
-          Os mesmos que nos tinham levado cativos pediam-nos, * palavras de
-          canções:
+          Os mesmos que nos tinham levado cativos pediam-nos, * palavras de canções:
         </Typography>
         <Typography className="latin">
           Et qui abduxérunt nos: * Hymnum cantáte nobis de cánticis Sion.
         </Typography>
         <Typography className="vernacular">
-          Os que à força nos tinham levado diziam: * cantai-nos um hino dos
-          cânticos de Sião.
+          Os que à força nos tinham levado diziam: * cantai-nos um hino dos cânticos de Sião.
         </Typography>
         <Typography className="latin">
           Quómodo cantábimus cánticum Dómini * in terra aliéna?
@@ -48,8 +43,7 @@ export default function Page136() {
           Si oblítus fúero tui, Jerúsalem, * oblivióni detur déxtera mea.
         </Typography>
         <Typography className="vernacular">
-          Se me esquecer de ti, ó Jerusalém, * ao esquecimento seja entregue a
-          minha direita.
+          Se me esquecer de ti, ó Jerusalém, * ao esquecimento seja entregue a minha direita.
         </Typography>
         <Typography className="latin">
           Adhǽreat lingua mea fáucibus meis, * si non memínero tui:
@@ -76,19 +70,17 @@ export default function Page136() {
           Que diziam: arrasai, arrasai * até aos alicerces.
         </Typography>
         <Typography className="latin">
-          Fília Babylónis mísera: * beátus, qui retríbuet tibi retributiónem
-          tuam, quam retribuísti nobis.
+          Fília Babylónis mísera: * beátus, qui retríbuet tibi retributiónem tuam, quam retribuísti
+          nobis.
         </Typography>
         <Typography className="vernacular">
-          Ó desgraçada filha da Babilónia: * bem-aventurado o que te der a paga
-          do que nos pagastes.
+          Ó desgraçada filha da Babilónia: * bem-aventurado o que te der a paga do que nos pagastes.
         </Typography>
         <Typography className="latin">
           Beátus, qui tenébit, * et allídet párvulos tuos ad petram.
         </Typography>
         <Typography className="vernacular">
-          Bem-aventurado o que agarrar, * em teus filhinhos e os despedaçar
-          contra um rochedo.
+          Bem-aventurado o que agarrar, * em teus filhinhos e os despedaçar contra um rochedo.
         </Typography>
       </Language>
     </PageWrapper>

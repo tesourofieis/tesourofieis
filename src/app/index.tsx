@@ -48,9 +48,7 @@ export default function PageRender() {
   const bgColor = pulseAnim.interpolate({
     inputRange: [0, 1],
     outputRange:
-      colorScheme === "light"
-        ? [COLORS["100"], COLORS["200"]]
-        : [COLORS["900"], COLORS["700"]],
+      colorScheme === "light" ? [COLORS["100"], COLORS["200"]] : [COLORS["900"], COLORS["700"]],
   });
 
   function getPrayer(date: Date) {
@@ -80,17 +78,13 @@ export default function PageRender() {
           className={`flex-1 ${!isWebDesktop ? "" : "web:mx-auto"} py-5 p-3 rounded-lg`}
           style={{
             borderWidth: 1,
-            borderColor:
-              colorScheme === "light" ? COLORS["200"] : COLORS["800"],
+            borderColor: colorScheme === "light" ? COLORS["200"] : COLORS["800"],
             backgroundColor: bgColor,
           }}
         >
           <View className="px-5 flex flex-col pb-3">
             <View className="flex-row items-center">
-              <Calendar
-                size={15}
-                color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
-              />
+              <Calendar size={15} color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]} />
               <Typography className="bold dark:text-sepia-200 text-left p-3 text-lg text-bold">
                 {format(date, "EEEE, dd MMMM", {
                   locale: pt,
@@ -108,10 +102,7 @@ export default function PageRender() {
 
           <View className="px-5 flex flex-col pb-3">
             <View className="flex-row items-center">
-              <Clock
-                size={15}
-                color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
-              />
+              <Clock size={15} color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]} />
               <Typography className="bold dark:text-sepia-200 text-left p-3 text-lg text-bold">
                 {format(date, "HH:mm", {
                   locale: pt,

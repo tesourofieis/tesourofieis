@@ -10,25 +10,20 @@ export default function Page0912() {
       <H1 text="Santíssimo Nome de Maria, a 12 de Setembro" />
 
       <Typography className="comment">
-        Assim como, alguns dias depois do Natal, celebramos o Santo Nome de
-        Jesus, também, depois da festa da Natividade de Maria, glorificamos o
-        seu Santo Nome. Oito dias depois do nascimento da Santíssima Virgem,
-        segundo a prática dos Judeus, seus santos Pais, inspirados por Deus,
-        dizem S. Jerónimo e Santo Antonino, chamaram-na Maria. Por isso no curso
-        da Oitava da Natividade, a liturgia tem uma festa em honra desse santo
-        Nome. A Espanha, com a aprovação de Roma, em 1513, foi a primeira a
-        celebrá-la, e, em 1683, o Papa Inocêncio XI estendeu-a á toda a Igreja,
-        a fim de agradecer á Maria a victoria obtida por João Sobieski, rei da
-        Polónia, contra os Turcos que sitiavam Vienna e ameaçavam o Ocidente. O
-        nome da Virgem, diz o Evangelho, era Maria». « O nome hebraico de Maria,
-        em latim Domina, significa Senhora ou Soberana; realmente, a autoridade
-        de seu Filho, Dominador do mundo, a constitue Soberana de facto e pelo
-        nome, desde o seu nascimento» (1). Como chamamos a Jesus Nosso Senhor,
-        chamamos a Maria Nossa Senhora. Pronunciar-lhe o nome é afirmar o seu
-        poder sem limites. Ofereçamos o Santo Sacrifício a Deus, a fim de
-        honrarmos o Santíssimo Nome de Maria, e obtermos, por sua oração, a
-        graça de experimentarmos em todos os logares a sua protecção
-        (Postcomm.).
+        Assim como, alguns dias depois do Natal, celebramos o Santo Nome de Jesus, também, depois da
+        festa da Natividade de Maria, glorificamos o seu Santo Nome. Oito dias depois do nascimento
+        da Santíssima Virgem, segundo a prática dos Judeus, seus santos Pais, inspirados por Deus,
+        dizem S. Jerónimo e Santo Antonino, chamaram-na Maria. Por isso no curso da Oitava da
+        Natividade, a liturgia tem uma festa em honra desse santo Nome. A Espanha, com a aprovação
+        de Roma, em 1513, foi a primeira a celebrá-la, e, em 1683, o Papa Inocêncio XI estendeu-a á
+        toda a Igreja, a fim de agradecer á Maria a victoria obtida por João Sobieski, rei da
+        Polónia, contra os Turcos que sitiavam Vienna e ameaçavam o Ocidente. O nome da Virgem, diz
+        o Evangelho, era Maria». « O nome hebraico de Maria, em latim Domina, significa Senhora ou
+        Soberana; realmente, a autoridade de seu Filho, Dominador do mundo, a constitue Soberana de
+        facto e pelo nome, desde o seu nascimento» (1). Como chamamos a Jesus Nosso Senhor, chamamos
+        a Maria Nossa Senhora. Pronunciar-lhe o nome é afirmar o seu poder sem limites. Ofereçamos o
+        Santo Sacrifício a Deus, a fim de honrarmos o Santíssimo Nome de Maria, e obtermos, por sua
+        oração, a graça de experimentarmos em todos os logares a sua protecção (Postcomm.).
       </Typography>
 
       <Typography className="aside">
@@ -43,16 +38,14 @@ export default function Page0912() {
 
       <Language>
         <Typography className="latin">
-          Concéde, quǽsumus, omnípotens Deus: ut fidéles tui, qui sub
-          sanctíssimæ Vírginis Maríæ Nómine et protectióne lætántur; ejus pia
-          intercessióne a cunctis malis liberéntur in terris, et ad gáudia
-          ætérna perveníre mereántur in cœlis. Per Dóminum...
+          Concéde, quǽsumus, omnípotens Deus: ut fidéles tui, qui sub sanctíssimæ Vírginis Maríæ
+          Nómine et protectióne lætántur; ejus pia intercessióne a cunctis malis liberéntur in
+          terris, et ad gáudia ætérna perveníre mereántur in cœlis. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Ó Deus omnipotente, Vos rogamos, concedei, por sua intercessão, aos
-          vossos fiéis, que se alegram com o nome e a protecção da SS. Virgem
-          Maria, a graça de serem livres de todos os males terrenos e de
-          merecerem a posse das celestiais alegrias eternas. Por nosso Senhor...
+          Ó Deus omnipotente, Vos rogamos, concedei, por sua intercessão, aos vossos fiéis, que se
+          alegram com o nome e a protecção da SS. Virgem Maria, a graça de serem livres de todos os
+          males terrenos e de merecerem a posse das celestiais alegrias eternas. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -60,14 +53,12 @@ export default function Page0912() {
 
       <Language>
         <Typography className="latin">
-          Tua, Dómine, propitiatióne, et beátæ Maríæ semper Vírginis
-          intercessióne, ad perpétuam atque præséntem hæc oblátio nobis
-          profíciat prosperitátem et pacem. Per Dóminum...
+          Tua, Dómine, propitiatióne, et beátæ Maríæ semper Vírginis intercessióne, ad perpétuam
+          atque præséntem hæc oblátio nobis profíciat prosperitátem et pacem. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Pela vossa misericórdia, Senhor, e pela intercessão da B. Maria,
-          sempre Virgem, fazei que esta oblação nos assegure a prosperidade e a
-          paz, agora e sempre. Por nosso Senhor...
+          Pela vossa misericórdia, Senhor, e pela intercessão da B. Maria, sempre Virgem, fazei que
+          esta oblação nos assegure a prosperidade e a paz, agora e sempre. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -75,15 +66,14 @@ export default function Page0912() {
 
       <Language>
         <Typography className="latin">
-          Sumptis, Dómine, salútis nostræ subsídiis: da, quǽsumus, beátæ Maríæ
-          semper Vírginis patrocíniis nos úbique protegi; in cujus veneratióne
-          hæc tuæ obtúlimus majestáti. Per Dóminum...
+          Sumptis, Dómine, salútis nostræ subsídiis: da, quǽsumus, beátæ Maríæ semper Vírginis
+          patrocíniis nos úbique protegi; in cujus veneratióne hæc tuæ obtúlimus majestáti. Per
+          Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Havendo nós alcançado o poderoso auxílio da vossa salvação, Senhor,
-          fazei, Vos imploramos, que sejamos protegidos com o patrocínio da B.
-          Maria, sempre Virgem, em cuja honra oferecemos este sacrifício à vossa
-          majestade. Por nosso Senhor...
+          Havendo nós alcançado o poderoso auxílio da vossa salvação, Senhor, fazei, Vos imploramos,
+          que sejamos protegidos com o patrocínio da B. Maria, sempre Virgem, em cuja honra
+          oferecemos este sacrifício à vossa majestade. Por nosso Senhor...
         </Typography>
       </Language>
     </PageWrapper>

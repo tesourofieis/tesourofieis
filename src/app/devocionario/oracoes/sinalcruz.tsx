@@ -9,12 +9,12 @@ export default function PageSinalCruz() {
       <H2 text="Sinal da Cruz" />
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> In nómine Patris, et
-          Fílii, et Spíritus Sancti.
+          <Typography className="cross"> ✠ </Typography> In nómine Patris, et Fílii, et Spíritus
+          Sancti.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Em nome do Pai e do
-          Filho e do Espírito Santo.
+          <Typography className="cross"> ✠ </Typography> Em nome do Pai e do Filho e do Espírito
+          Santo.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Amen.

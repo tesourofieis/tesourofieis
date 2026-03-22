@@ -13,8 +13,7 @@ export default function PageEucaminharei() {
           Eu caminharei em direcção a Deus, que alegra os filhos seus.
         </Typography>
         <Typography className="vernacular">
-          Refrão: Glória ao Pai, glória ao Filho Senhor, glória ao Espírito
-          Santo amor.
+          Refrão: Glória ao Pai, glória ao Filho Senhor, glória ao Espírito Santo amor.
         </Typography>
         <Typography className="vernacular">
           Em ardente prece e humilde confissão, vamos pedir perdão.

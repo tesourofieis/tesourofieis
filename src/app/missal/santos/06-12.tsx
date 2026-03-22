@@ -21,17 +21,15 @@ export default function Page0612() {
 
       <Language>
         <Typography className="latin">
-          Deus, auctor pacis et amátor caritátis, qui beátum Joánnem Confessórem
-          tuum mirífica dissidéntes componéndi grátia decorásti: ejus méritis et
-          intercessióne concéde; ut, in tua caritáte firmáti, nullis a te
-          tentatiónibus separémur. Per Dóminum...
+          Deus, auctor pacis et amátor caritátis, qui beátum Joánnem Confessórem tuum mirífica
+          dissidéntes componéndi grátia decorásti: ejus méritis et intercessióne concéde; ut, in tua
+          caritáte firmáti, nullis a te tentatiónibus separémur. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Ó Deus, autor da paz e amante da caridade, que dotastes o B. João,
-          vosso Confessor, com a admirável graça de compor as discórdias,
-          concedei-nos por seus méritos e intercessão que estejamos de tal modo
-          consolidados na vossa caridade que nenhuma tentação nos possa separar
-          de Vós. Por nosso Senhor...
+          Ó Deus, autor da paz e amante da caridade, que dotastes o B. João, vosso Confessor, com a
+          admirável graça de compor as discórdias, concedei-nos por seus méritos e intercessão que
+          estejamos de tal modo consolidados na vossa caridade que nenhuma tentação nos possa
+          separar de Vós. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -41,17 +39,15 @@ export default function Page0612() {
 
       <Language>
         <Typography className="latin">
-          Sanctórum Mártyrum tuórum Basílidis, Gyrini, Naboris atque Nazárii,
-          quǽsumus, Dómine, natalítia nobis votíva respléndeant: et, quod illis
-          cóntulit excelléntia sempitérna, frúctibus nostræ devotiónis
-          accréscat. Per Dóminum nostrum...
+          Sanctórum Mártyrum tuórum Basílidis, Gyrini, Naboris atque Nazárii, quǽsumus, Dómine,
+          natalítia nobis votíva respléndeant: et, quod illis cóntulit excelléntia sempitérna,
+          frúctibus nostræ devotiónis accréscat. Per Dóminum nostrum...
         </Typography>
         <Typography className="vernacular">
-          Que o nascimento dos vossos Santos Mártires Basilides, Cirino, Nabor e
-          Nazário, Vos suplicamos, Senhor, seja celebrado com esplendor Pelos
-          votos que Vos oferecemos, e que a felicidade eterna, que eles gozam,
-          reverta em nosso proveito, aumentando os frutos da nossa devoção. Por
-          nosso Senhor...
+          Que o nascimento dos vossos Santos Mártires Basilides, Cirino, Nabor e Nazário, Vos
+          suplicamos, Senhor, seja celebrado com esplendor Pelos votos que Vos oferecemos, e que a
+          felicidade eterna, que eles gozam, reverta em nosso proveito, aumentando os frutos da
+          nossa devoção. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -59,15 +55,14 @@ export default function Page0612() {
 
       <Language>
         <Typography className="latin">
-          Pro sanctórum tuórum Basílidis, Cyrini, Nabóris atque Nazárii sánguine
-          venerándo, hóstias tibi. Dómine, sollémniter immolámus, tua mirabília
-          pertractántes: per quem talis est perfécta victória. Per Dóminum...
+          Pro sanctórum tuórum Basílidis, Cyrini, Nabóris atque Nazárii sánguine venerándo, hóstias
+          tibi. Dómine, sollémniter immolámus, tua mirabília pertractántes: per quem talis est
+          perfécta victória. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Senhor, celebramos os vossos venerandos mystérios, oferecendo-Vos
-          solenemente esta hóstia em honra do sangue dos vossos Santos Mártires
-          Basilides, Cirino, Nabor e Nazário pelo qual eles alcançaram uma
-          brilhante vitória. Por nosso Senhor...
+          Senhor, celebramos os vossos venerandos mystérios, oferecendo-Vos solenemente esta hóstia
+          em honra do sangue dos vossos Santos Mártires Basilides, Cirino, Nabor e Nazário pelo qual
+          eles alcançaram uma brilhante vitória. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -75,15 +70,14 @@ export default function Page0612() {
 
       <Language>
         <Typography className="latin">
-          Semper, Dómine, sanctórum Martyrum tuórum Basílidis, Cyríni, Nabóris
-          atque Nazárii sollémnia celebrántes: præsta, quǽsumus; ut eórum
-          patrocínia júgiter sentiámus. Per Dóminum...
+          Semper, Dómine, sanctórum Martyrum tuórum Basílidis, Cyríni, Nabóris atque Nazárii
+          sollémnia celebrántes: præsta, quǽsumus; ut eórum patrocínia júgiter sentiámus. Per
+          Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Visto que nós, Senhor, celebramos sempre a solenidade dos vossos
-          Santos Mártires Basilides, Cirino, Nabor e Nazário, concedei-nos, Vos
-          rogamos, que alcancemos incessantemente o seu patrocínio. Por nosso
-          Senhor...
+          Visto que nós, Senhor, celebramos sempre a solenidade dos vossos Santos Mártires
+          Basilides, Cirino, Nabor e Nazário, concedei-nos, Vos rogamos, que alcancemos
+          incessantemente o seu patrocínio. Por nosso Senhor...
         </Typography>
       </Language>
     </PageWrapper>

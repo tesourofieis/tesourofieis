@@ -10,19 +10,16 @@ export default function Page0928() {
       <H1 text="S. Venceslau, Mártir, a 28 de Setembro" />
 
       <Typography className="comment">
-        Wenceslau, duque da Bohemia, praticou sempre no trono, as mais belas
-        virtudes cristãs. Cheio de caridade, socorria com as suas esmolas os
-        órfãos, as viúvas e os pobres, libertava os cativos e visitava os
-        prisioneiros. Durante toda a sua vida conservou intacto o tesouro da
-        virgindade. Tinha para com os sacerdotes grande veneração, e, com as
-        proprias mãos, semeava o trigo e espremia as uvas destinadas a servir no
-        Santo Sacrifício da Missa. Entretanto, á instigação de sua mãe, o impio
-        Boleslau, realizando o que anunciara Jesus que o homem terá por
-        inimigos, os da sua propria casa (Ev.) resolveu desfazer-se do rei, seu
-        irmão. Depois de havê-lo recebido á sua mesa, foi com uns cúmplices
-        matá-lo na igreja onde orava esperando a morte que sabia estarem-lhe
-        preparando. S. Wenceslau morreu em 938. A Hungria, a Polónia e a Bohemia
-        o escolheram por padroeiro.
+        Wenceslau, duque da Bohemia, praticou sempre no trono, as mais belas virtudes cristãs. Cheio
+        de caridade, socorria com as suas esmolas os órfãos, as viúvas e os pobres, libertava os
+        cativos e visitava os prisioneiros. Durante toda a sua vida conservou intacto o tesouro da
+        virgindade. Tinha para com os sacerdotes grande veneração, e, com as proprias mãos, semeava
+        o trigo e espremia as uvas destinadas a servir no Santo Sacrifício da Missa. Entretanto, á
+        instigação de sua mãe, o impio Boleslau, realizando o que anunciara Jesus que o homem terá
+        por inimigos, os da sua propria casa (Ev.) resolveu desfazer-se do rei, seu irmão. Depois de
+        havê-lo recebido á sua mesa, foi com uns cúmplices matá-lo na igreja onde orava esperando a
+        morte que sabia estarem-lhe preparando. S. Wenceslau morreu em 938. A Hungria, a Polónia e a
+        Bohemia o escolheram por padroeiro.
       </Typography>
 
       <Typography className="aside">
@@ -37,16 +34,14 @@ export default function Page0928() {
 
       <Language>
         <Typography className="latin">
-          Deus, qui beátum Wencesláum per martýrii palmam a terréno principátu
-          ad cœléstem glóriam transtulísti: ejus précibus nos ab omni
-          adversitáte custódi; et ejúsdem tríbue gaudére consórtio. Per
-          Dóminum...
+          Deus, qui beátum Wencesláum per martýrii palmam a terréno principátu ad cœléstem glóriam
+          transtulísti: ejus précibus nos ab omni adversitáte custódi; et ejúsdem tríbue gaudére
+          consórtio. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Ó Deus, que pela palma do martírio trasladastes o B. Venceslau do
-          principado terreno para a glória celestial, defendei-nos, pelas suas
-          preces, de todas as adversidades e proporcionai-nos a alegria de
-          compartilhar do seu glorioso destino. Por nosso Senhor...
+          Ó Deus, que pela palma do martírio trasladastes o B. Venceslau do principado terreno para
+          a glória celestial, defendei-nos, pelas suas preces, de todas as adversidades e
+          proporcionai-nos a alegria de compartilhar do seu glorioso destino. Por nosso Senhor...
         </Typography>
       </Language>
     </PageWrapper>

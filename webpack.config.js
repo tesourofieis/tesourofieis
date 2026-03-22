@@ -13,9 +13,7 @@ module.exports = async function (env, argv) {
   // Add custom service worker handling for notifications
   if (config.plugins) {
     // Find the Workbox plugin and customize it
-    const workboxPlugin = config.plugins.find(
-      (plugin) => plugin.constructor.name === "GenerateSW",
-    );
+    const workboxPlugin = config.plugins.find((plugin) => plugin.constructor.name === "GenerateSW");
 
     if (workboxPlugin) {
       // Enhance the Workbox configuration for notifications

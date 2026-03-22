@@ -9,30 +9,25 @@ export default function Page0930() {
     <PageWrapper>
       <H1 text="S. Jerónimo, Presb. C. e Doutor, a 30 de Setembro" />
       <Typography className="comment">
-        Jerónimo nasceu em Stridon, na Dalmacia e recebeu o baptismo em Roma;
-        instruiu-se na escola de sábios muito afamados. Ordenado Sacerdote,
-        retirou-se para o mosteiro fundado por duas grandes senhoras romanas,
-        Santa Paula e Santa Eustachia, em Belem, perto do presépio onde nasceu
-        Nosso Senhor. Mortificou-se por uma perpetua abstinência e entregou-se á
-        meditação dos Livros Santos (Grad.); passava os dias e as noites a ler e
-        a escrever. Foi quem fixou o texto latino na tradução chamada Vulgata e
-        adoptada pela Igreja como versão official da Bíblia. Faleceu em 420 e
-        seu corpo descansa em Santa Maria Maior, onde estão as reliquias do
-        presépio. Os Apóstolos e os Doutores são chamados sal, diz S. Jerónimo
-        explicando o Evangelho, visto ser a sua doutrina o condimento de todo o
-        genero humano. « Pois, se o sal perder a sua força, com que se salgará?
-        Se um Doutor se transvia, por qual outro Doutor será ele levantado? Não
-        será útil para nada senão para ser jogado fora e pisado pelos homens. A
-        comparação é tirada da agricultura. Se o sal é necessario para temperar
-        os alimentos e impedir a corrupção da carne, realmente, não tem outra
-        utilidade. Pelo menos lemos nos escritos, que em algumas cidades, a
-        vingança dos vencedores, foi espalhar sal, a fim de impedir que brotasse
-        do solo alguma vegetação. Sois a luz do mundo. Uma cidade sitiada sobre
-        uma montanha não pode estar escondida, e não se accende uma lampada para
-        colocá-la sob o alqueire, mas sim num candelabro para que ilumine todos
-        que estão na casa. É a audácia da pregação ensinada por Jesus, desejando
-        que seus Apóstolos, em logar de se esconderem por temor, assemelhando-se
-        assim á uma lampada occulta sob o alqueire, se manifestem com inteira
+        Jerónimo nasceu em Stridon, na Dalmacia e recebeu o baptismo em Roma; instruiu-se na escola
+        de sábios muito afamados. Ordenado Sacerdote, retirou-se para o mosteiro fundado por duas
+        grandes senhoras romanas, Santa Paula e Santa Eustachia, em Belem, perto do presépio onde
+        nasceu Nosso Senhor. Mortificou-se por uma perpetua abstinência e entregou-se á meditação
+        dos Livros Santos (Grad.); passava os dias e as noites a ler e a escrever. Foi quem fixou o
+        texto latino na tradução chamada Vulgata e adoptada pela Igreja como versão official da
+        Bíblia. Faleceu em 420 e seu corpo descansa em Santa Maria Maior, onde estão as reliquias do
+        presépio. Os Apóstolos e os Doutores são chamados sal, diz S. Jerónimo explicando o
+        Evangelho, visto ser a sua doutrina o condimento de todo o genero humano. « Pois, se o sal
+        perder a sua força, com que se salgará? Se um Doutor se transvia, por qual outro Doutor será
+        ele levantado? Não será útil para nada senão para ser jogado fora e pisado pelos homens. A
+        comparação é tirada da agricultura. Se o sal é necessario para temperar os alimentos e
+        impedir a corrupção da carne, realmente, não tem outra utilidade. Pelo menos lemos nos
+        escritos, que em algumas cidades, a vingança dos vencedores, foi espalhar sal, a fim de
+        impedir que brotasse do solo alguma vegetação. Sois a luz do mundo. Uma cidade sitiada sobre
+        uma montanha não pode estar escondida, e não se accende uma lampada para colocá-la sob o
+        alqueire, mas sim num candelabro para que ilumine todos que estão na casa. É a audácia da
+        pregação ensinada por Jesus, desejando que seus Apóstolos, em logar de se esconderem por
+        temor, assemelhando-se assim á uma lampada occulta sob o alqueire, se manifestem com inteira
         liberdade e preguem sobre os tectos o que ouviram em segredo (Matinas).
       </Typography>
 
@@ -46,45 +41,41 @@ export default function Page0930() {
       <H3 text="Oração" />
       <Language>
         <Typography className="latin">
-          Deus, qui Ecclésiæ tuæ in exponéndis sacris Scriptúris beátum
-          Hierónymum, Confessórem tuum, Doctórem máximum providére dignátus es:
-          præsta, quǽsumus; ut, ejus suffragántibus méritis, quod ore simul et
-          ópere dócuit, te adjuvánte, exercére valeámus. Per Dóminum...
+          Deus, qui Ecclésiæ tuæ in exponéndis sacris Scriptúris beátum Hierónymum, Confessórem
+          tuum, Doctórem máximum providére dignátus es: præsta, quǽsumus; ut, ejus suffragántibus
+          méritis, quod ore simul et ópere dócuit, te adjuvánte, exercére valeámus. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Ó Deus, que para explicar as Sagradas Escrituras Vos dignastes prover
-          a vossa Igreja com um eminente Doutor na pessoa do vosso B. confessor
-          Jerónimo, concedei-nos, Vos suplicamos. que pelos sufrágios dos seus
-          méritos possamos com o auxílio da vossa graça praticar aquilo que ele
-          ensinou, tanto pelas palavras, como pelas acções. Por nosso Senhor...
+          Ó Deus, que para explicar as Sagradas Escrituras Vos dignastes prover a vossa Igreja com
+          um eminente Doutor na pessoa do vosso B. confessor Jerónimo, concedei-nos, Vos suplicamos.
+          que pelos sufrágios dos seus méritos possamos com o auxílio da vossa graça praticar aquilo
+          que ele ensinou, tanto pelas palavras, como pelas acções. Por nosso Senhor...
         </Typography>
       </Language>
       <H3 text="Secreta" />
       <Language>
         <Typography className="latin">
-          Donis cœléstibus da nobis, quǽsumus, Dómine, líbera tibi mente
-          servíre: ut múnera, quæ deférimus, interveniénte beáto Hierónymo
-          Confessóre tuo, et medélam nobis operéntur et glóriam. Per Dóminum...
+          Donis cœléstibus da nobis, quǽsumus, Dómine, líbera tibi mente servíre: ut múnera, quæ
+          deférimus, interveniénte beáto Hierónymo Confessóre tuo, et medélam nobis operéntur et
+          glóriam. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Pela virtude destes dons, Senhor, concedei-nos a graça de Vos
-          servirmos com inteira liberdade de espírito, a fim de que os dons, que
-          Vos apresentamos, nos alcancem, por intercessão do vosso B. Confessor
-          Jerónimo, a cura dos nossos males e a glória eterna. Por nosso
-          Senhor...
+          Pela virtude destes dons, Senhor, concedei-nos a graça de Vos servirmos com inteira
+          liberdade de espírito, a fim de que os dons, que Vos apresentamos, nos alcancem, por
+          intercessão do vosso B. Confessor Jerónimo, a cura dos nossos males e a glória eterna. Por
+          nosso Senhor...
         </Typography>
       </Language>
       <H3 text="Postcomúnio" />
       <Language>
         <Typography className="latin">
-          Repleti alimónia cœlésti, quǽsumus, Dómine: ut, interveniénte beáto
-          Hierónymo Confessóre tuo, misericórdiæ tuæ grátiam cónsequi mereámur.
-          Per Dóminum nostrum...
+          Repleti alimónia cœlésti, quǽsumus, Dómine: ut, interveniénte beáto Hierónymo Confessóre
+          tuo, misericórdiæ tuæ grátiam cónsequi mereámur. Per Dóminum nostrum...
         </Typography>
         <Typography className="vernacular">
-          Saciados com o alimento celestial, permiti, Senhor, Vos rogamos, que
-          pela intercessão do vosso B. Confessor Jerónimo mereçamos conseguir a
-          graça da vossa misericórdia. Por nosso Senhor...
+          Saciados com o alimento celestial, permiti, Senhor, Vos rogamos, que pela intercessão do
+          vosso B. Confessor Jerónimo mereçamos conseguir a graça da vossa misericórdia. Por nosso
+          Senhor...
         </Typography>
       </Language>
     </PageWrapper>

@@ -18,8 +18,7 @@ export default function PageVeniSancteSpiritus() {
           Veni, pater páuperum, veni, dator múnerum, veni, lumen córdium.
         </Typography>
         <Typography className="vernacular">
-          Vinde, ó pai dos pobres; vinde, distribuidor de todos os dons; vinde,
-          luz dos corações.
+          Vinde, ó pai dos pobres; vinde, distribuidor de todos os dons; vinde, luz dos corações.
         </Typography>
         <Typography className="latin">
           Consolátor óptime, dulcis hospes ánimæ, dulce refrigérium.
@@ -49,15 +48,13 @@ export default function PageVeniSancteSpiritus() {
           Lava quod est sórdidum, riga quod est áridum, sana quod est sáucium.
         </Typography>
         <Typography className="vernacular">
-          Lavai, pois, o que está manchado, regai o que está seco, curai o que
-          está doente.
+          Lavai, pois, o que está manchado, regai o que está seco, curai o que está doente.
         </Typography>
         <Typography className="latin">
           Flecte quod est rígidum, fove quod est frígidum, rege quod est dévium.
         </Typography>
         <Typography className="vernacular">
-          Dobrai o que é rígido, aquecei o que está frio, guiai o que está
-          errante.
+          Dobrai o que é rígido, aquecei o que está frio, guiai o que está errante.
         </Typography>
         <Typography className="latin">
           Da tuis fidélibus, in te con­fi­dén­tibus, sacrum sep­te­nárium.
@@ -69,8 +66,7 @@ export default function PageVeniSancteSpiritus() {
           Da virtútis méritum, da salútis éxitum, da perénne gáudium.
         </Typography>
         <Typography className="vernacular">
-          Dai-lhes o mérito da virtude, dai-lhes um fim feliz, dai-lhes a
-          alegria eterna.
+          Dai-lhes o mérito da virtude, dai-lhes um fim feliz, dai-lhes a alegria eterna.
         </Typography>
       </Language>
     </PageWrapper>

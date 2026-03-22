@@ -10,29 +10,24 @@ export default function Page0729() {
       <H1 text="Santa Marta, Virgem, a 29 de Julho" />
 
       <Typography className="comment">
-        Depois de havermos celebrado a 22 deste mês a festa de Santa Maria
-        Madalena, veneramos hoje Marta, sua irmã. Descendente de parentes nobres
-        e ricos, morava na Betânia, a duas milhas de Jerusalém. «Jesus, diz S.
-        João, amava a Marta, a sua irmão Maria e a Lázaro», e, na sua casa,
-        hospedava-se de preferência, quando se achava na Judeia; aí passou os
-        últimos dias antes de sua morte. Marta, sendo a mais velha, teve a honra
-        de dar muitas vezes hospedagem a Jesus (Ev., Com.), o esposo divino a
-        quem consagrára a sua virgindade (Ev.). Preocupada em servir Jesus,
-        roga-lhe que decida Maria em ajudá-la, Jesus, sem no entanto censurá-la,
-        visto que se dedica por Ele, lhe faz compreender que certas almas,
-        chamadas por Deus, escolhem uma parte ainda mais bela e, desde a terra,
-        começam o que todas farão no céu. A vida activa, com suas penas e
-        fadigas sofridas pelo amor de Cristo, a quem se serve no próximo, é
-        muito meritória, «feliz, entretanto, a casa onde Maria provoca as
-        queixas de Marta», e não consente em arrancar à oração uma vida que as
-        ocupações exteriores pareceriam reclamar. Deus é o autor de todas as
-        graças e, como tal, quer ser reconhecido: a vida contemplativa, pondo as
-        almas em contacto directo com Ele, garante mais plenamente a santidade
-        pessoal e ao mesmo tempo obtém com maior eficácia os socorros que tornam
-        cristão. Estimemos o seu justo valor, a parte por Jesus reservada a
-        Maria, e, se Ele nos chama a partilhar das solicitudes de Marta,
-        procuremos, como os Santos, compensar, pelo espírito de oração, o que
-        falta à vida activa.
+        Depois de havermos celebrado a 22 deste mês a festa de Santa Maria Madalena, veneramos hoje
+        Marta, sua irmã. Descendente de parentes nobres e ricos, morava na Betânia, a duas milhas de
+        Jerusalém. «Jesus, diz S. João, amava a Marta, a sua irmão Maria e a Lázaro», e, na sua
+        casa, hospedava-se de preferência, quando se achava na Judeia; aí passou os últimos dias
+        antes de sua morte. Marta, sendo a mais velha, teve a honra de dar muitas vezes hospedagem a
+        Jesus (Ev., Com.), o esposo divino a quem consagrára a sua virgindade (Ev.). Preocupada em
+        servir Jesus, roga-lhe que decida Maria em ajudá-la, Jesus, sem no entanto censurá-la, visto
+        que se dedica por Ele, lhe faz compreender que certas almas, chamadas por Deus, escolhem uma
+        parte ainda mais bela e, desde a terra, começam o que todas farão no céu. A vida activa, com
+        suas penas e fadigas sofridas pelo amor de Cristo, a quem se serve no próximo, é muito
+        meritória, «feliz, entretanto, a casa onde Maria provoca as queixas de Marta», e não
+        consente em arrancar à oração uma vida que as ocupações exteriores pareceriam reclamar. Deus
+        é o autor de todas as graças e, como tal, quer ser reconhecido: a vida contemplativa, pondo
+        as almas em contacto directo com Ele, garante mais plenamente a santidade pessoal e ao mesmo
+        tempo obtém com maior eficácia os socorros que tornam cristão. Estimemos o seu justo valor,
+        a parte por Jesus reservada a Maria, e, se Ele nos chama a partilhar das solicitudes de
+        Marta, procuremos, como os Santos, compensar, pelo espírito de oração, o que falta à vida
+        activa.
       </Typography>
 
       <Typography className="aside">
@@ -49,34 +44,29 @@ export default function Page0729() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
-          Evangélii secúndum Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo
-          Evangelho segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho segundo S.
+          Lucas.
         </Typography>
         <Typography className="latin">
-          In illo témpore: Intrávit Jesus in quoddam castéllum: et múlier
-          quædam, Martha nómine, excépit illum in domum suam: et huic erat soror
-          nómine María, quæ étiam sedens secus pedes Dómini, audiébat verbum
-          illíus. Martha autem satagébat circa frequens ministérium: quæ stetit
-          et ait: Dómine, non est tibi curæ, quod soror mea réliquit me solam
-          ministráre? dic ergo illi, ut me ádjuvet. Et respóndens, dixit illi
-          Dóminus: Martha, Martha, sollícita es et turbáris erga plúrima: porro
-          unum est necessárium. María óptimam partem elégit, quæ non auferétur
-          ab ea.
+          In illo témpore: Intrávit Jesus in quoddam castéllum: et múlier quædam, Martha nómine,
+          excépit illum in domum suam: et huic erat soror nómine María, quæ étiam sedens secus pedes
+          Dómini, audiébat verbum illíus. Martha autem satagébat circa frequens ministérium: quæ
+          stetit et ait: Dómine, non est tibi curæ, quod soror mea réliquit me solam ministráre? dic
+          ergo illi, ut me ádjuvet. Et respóndens, dixit illi Dóminus: Martha, Martha, sollícita es
+          et turbáris erga plúrima: porro unum est necessárium. María óptimam partem elégit, quæ non
+          auferétur ab ea.
         </Typography>
         <Typography className="vernacular">
-          Naquele tempo, entrou Jesus em um castelo, onde uma mulher, chamada
-          Marta, O recebeu em sua casa. Tinha esta uma irmã, de nome Maria, que
-          se assentou aos pés do Senhor, escutando suas palavras. Porém, Marta
-          estava muito atarefada, a preparar quanto era necessário. Então esta
-          veio ter com Jesus, dizendo-Lhe: «Senhor, não reparais que minha irmã
-          me deixa só a servir? Dizei-lhe, pois, que venha ajudar-me». E o
-          Senhor disse: «Marta, Marta, inquietai-vos e embaraçai-vos, cuidando
-          solícitamente de muitas coisas, quando na verdade só uma é necessária.
-          Maria escolheu a melhor parte, a qual lhe não será tirada».
+          Naquele tempo, entrou Jesus em um castelo, onde uma mulher, chamada Marta, O recebeu em
+          sua casa. Tinha esta uma irmã, de nome Maria, que se assentou aos pés do Senhor, escutando
+          suas palavras. Porém, Marta estava muito atarefada, a preparar quanto era necessário.
+          Então esta veio ter com Jesus, dizendo-Lhe: «Senhor, não reparais que minha irmã me deixa
+          só a servir? Dizei-lhe, pois, que venha ajudar-me». E o Senhor disse: «Marta, Marta,
+          inquietai-vos e embaraçai-vos, cuidando solícitamente de muitas coisas, quando na verdade
+          só uma é necessária. Maria escolheu a melhor parte, a qual lhe não será tirada».
         </Typography>
       </Language>
 
@@ -86,17 +76,15 @@ export default function Page0729() {
 
       <Language>
         <Typography className="latin">
-          Præsta, quǽsumus, Dómine: ut, sicut pópulus christiánus Mártyrum
-          tuórum Felícis, Simplícii, Faustíni et Beatrícis temporáli
-          sollemnitáte congáudet, ita perfruátur ætérna; et, quod votis
-          célebrat, comprehéndat efféctu. Per Dóminum...
+          Præsta, quǽsumus, Dómine: ut, sicut pópulus christiánus Mártyrum tuórum Felícis,
+          Simplícii, Faustíni et Beatrícis temporáli sollemnitáte congáudet, ita perfruátur ætérna;
+          et, quod votis célebrat, comprehéndat efféctu. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Permiti, Senhor, Vos suplicamos, que, assim como o povo cristão
-          celebra com júbilo durante esta vida a festa dos vossos Santos
-          Mártires Félix, Simplício, Faustino e Beatriz, assim também possa
-          alegrar-se na eternidade, e alcance na realidade mais tarde o que
-          agora honra com seus votos. Por nosso Senhor...
+          Permiti, Senhor, Vos suplicamos, que, assim como o povo cristão celebra com júbilo durante
+          esta vida a festa dos vossos Santos Mártires Félix, Simplício, Faustino e Beatriz, assim
+          também possa alegrar-se na eternidade, e alcance na realidade mais tarde o que agora honra
+          com seus votos. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -104,16 +92,14 @@ export default function Page0729() {
 
       <Language>
         <Typography className="latin">
-          Hóstias tibi, Dómine, pro sanctórum Mártyrum tuórum Felícis,
-          Simplícii, Faustíni et Beatrícis commemoratióne deférimus: supplíciter
-          deprecántes; ut indulgéntiam nobis páriter cónferant et salútem. Per
-          Dóminum nostrum...
+          Hóstias tibi, Dómine, pro sanctórum Mártyrum tuórum Felícis, Simplícii, Faustíni et
+          Beatrícis commemoratióne deférimus: supplíciter deprecántes; ut indulgéntiam nobis páriter
+          cónferant et salútem. Per Dóminum nostrum...
         </Typography>
         <Typography className="vernacular">
-          Vos oferecemos, Senhor, estas hóstias em memória dos vossos Santos
-          Mártires Félix. Simplício, Faustino e Beatriz, suplicando-Vos
-          humildemente que por eles nos concedais simultaneamente o perdão e a
-          salvação. Por nosso Senhor...
+          Vos oferecemos, Senhor, estas hóstias em memória dos vossos Santos Mártires Félix.
+          Simplício, Faustino e Beatriz, suplicando-Vos humildemente que por eles nos concedais
+          simultaneamente o perdão e a salvação. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -121,16 +107,14 @@ export default function Page0729() {
 
       <Language>
         <Typography className="latin">
-          Præsta, quǽsumus, omnípotens Deus: ut sanctórum Martyrum tuórum
-          Felícis, Simplícii, Faustíni et Beatrícis cœléstibus mýsteriis
-          celebráta sollémnitas, indulgéntiam nobis tuæ propitiatiónis acquírat.
-          Per Dóminum...
+          Præsta, quǽsumus, omnípotens Deus: ut sanctórum Martyrum tuórum Felícis, Simplícii,
+          Faustíni et Beatrícis cœléstibus mýsteriis celebráta sollémnitas, indulgéntiam nobis tuæ
+          propitiatiónis acquírat. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Ó Deus omnipotente, Vos suplicamos, fazei que a solenidade dos vossos
-          Santos Mártires Félix, Simplício, Faustino e Beatriz, que celebramos
-          com estes celestiais mystérios, nos obtenha o perdão da vossa
-          misericórdia. Por nosso Senhor...
+          Ó Deus omnipotente, Vos suplicamos, fazei que a solenidade dos vossos Santos Mártires
+          Félix, Simplício, Faustino e Beatriz, que celebramos com estes celestiais mystérios, nos
+          obtenha o perdão da vossa misericórdia. Por nosso Senhor...
         </Typography>
       </Language>
     </PageWrapper>

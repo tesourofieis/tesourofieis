@@ -20,10 +20,9 @@ export default function Page0522Braga() {
       </Typography>
       <H3 text="Oração" />
       <Typography className="vernacular">
-        Deixai-Vos aplacar, Senhor, Vos pedimos, e concedei-nos o vosso auxílio;
-        e pela intercessão dos vossos B. B. Mártires João Baptista e seus
-        Companheiros estendei sobre nós a vossa mão misericordiosa. Por nosso
-        Senhor...
+        Deixai-Vos aplacar, Senhor, Vos pedimos, e concedei-nos o vosso auxílio; e pela intercessão
+        dos vossos B. B. Mártires João Baptista e seus Companheiros estendei sobre nós a vossa mão
+        misericordiosa. Por nosso Senhor...
       </Typography>
     </PageWrapper>
   );

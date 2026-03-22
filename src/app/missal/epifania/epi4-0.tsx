@@ -14,17 +14,15 @@ export default function PageEpi40() {
 
       <Language>
         <Typography className="latin">
-          Adoráte Deum, omnes Angeli ejus: audívit, et lætáta est Sion: et
-          exsultavérunt fíliæ Judae.{" "}
-          <Typography className="latin">Ps. ibid., 1</Typography> Dóminus
-          regnávit, exsúltet terra: læténtur ínsulæ multæ.
+          Adoráte Deum, omnes Angeli ejus: audívit, et lætáta est Sion: et exsultavérunt fíliæ
+          Judae. <Typography className="latin">Ps. ibid., 1</Typography> Dóminus regnávit, exsúltet
+          terra: læténtur ínsulæ multæ.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
-          Adorai a Deus, ó vós, que sois os seus Anjos. Ouviu Sião: e rejubilou:
-          e as filhas de Judá exultaram de alegria.{" "}
-          <Typography className="vernacular">Sl. ibid., 1</Typography> O Senhor
-          reinou: alegre-se a terra e as suas muitas ilhas.
+          Adorai a Deus, ó vós, que sois os seus Anjos. Ouviu Sião: e rejubilou: e as filhas de Judá
+          exultaram de alegria. <Typography className="vernacular">Sl. ibid., 1</Typography> O
+          Senhor reinou: alegre-se a terra e as suas muitas ilhas.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -33,17 +31,15 @@ export default function PageEpi40() {
 
       <Language>
         <Typography className="latin">
-          Deus, qui nos, in tantis perículis constitútos, pro humána scis
-          fragilitáte non posse subsístere: da nobis salútem mentis et córporis;
-          ut ea, quæ pro peccátis nostris pátimur, te adjuvánte vincámus. Per
-          Dóminum...
+          Deus, qui nos, in tantis perículis constitútos, pro humána scis fragilitáte non posse
+          subsístere: da nobis salútem mentis et córporis; ut ea, quæ pro peccátis nostris pátimur,
+          te adjuvánte vincámus. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Ó Deus, que conheceis não poder a fraqueza humana subsistir no meio de
-          tantos perigos que nos cercam, concedei-nos a saúde da alma e do
-          corpo, a fim de que com vosso auxílio possamos vencer os males que
-          devemos sofrer em castigo dos pecados. Por nosso Senhor Jesus Cristo,
-          vosso Filho, que...
+          Ó Deus, que conheceis não poder a fraqueza humana subsistir no meio de tantos perigos que
+          nos cercam, concedei-nos a saúde da alma e do corpo, a fim de que com vosso auxílio
+          possamos vencer os males que devemos sofrer em castigo dos pecados. Por nosso Senhor Jesus
+          Cristo, vosso Filho, que...
         </Typography>
       </Language>
 
@@ -52,29 +48,22 @@ export default function PageEpi40() {
       <Typography className="em">Rm. 13, 8-10</Typography>
 
       <Language>
+        <Typography className="latin">Léctio Epístolæ beáti Pauli Apóstoli ad Romános.</Typography>
+        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º Paulo aos Romanos.</Typography>
         <Typography className="latin">
-          Léctio Epístolæ beáti Pauli Apóstoli ad Romános.
+          Fratres: Némini quidquam debeátis, nisi ut ínvicem diligátis: qui enim díligit próximum,
+          legem implévit. Nam: Non adulterábis, Non occídes, Non furáberis, Non falsum testimónium
+          dices, Non concupísces: et si quod est áliud mandátum, in hoc verbo instaurátur: Díliges
+          próximum tuum sicut teípsum. Diléctio próximi malum non operátur. Plenitúdo ergo legis est
+          diléctio.
         </Typography>
         <Typography className="vernacular">
-          Lição da Ep.ª do B. Ap.º Paulo aos Romanos.
-        </Typography>
-        <Typography className="latin">
-          Fratres: Némini quidquam debeátis, nisi ut ínvicem diligátis: qui enim
-          díligit próximum, legem implévit. Nam: Non adulterábis, Non occídes,
-          Non furáberis, Non falsum testimónium dices, Non concupísces: et si
-          quod est áliud mandátum, in hoc verbo instaurátur: Díliges próximum
-          tuum sicut teípsum. Diléctio próximi malum non operátur. Plenitúdo
-          ergo legis est diléctio.
-        </Typography>
-        <Typography className="vernacular">
-          Meus irmãos: Não sejais devedores a ninguém de coisa alguma, senão do
-          amor que deveis uns aos outros; pois aquele que ama o seu próximo
-          cumpre a lei. Com efeito, estes mandamentos de Deus: não cometerás
-          adultério; não matarás; não roubarás; não levantarás falso testemunho;
-          não cobiçarás as coisas alheias, e todos os outros mandamentos que há,
-          resumem-se nestas palavras: amarás ao teu próximo como a ti próprio. O
-          amor ao próximo não permite que se lhe faça mal. O amor é, portanto, a
-          plenitude da lei.
+          Meus irmãos: Não sejais devedores a ninguém de coisa alguma, senão do amor que deveis uns
+          aos outros; pois aquele que ama o seu próximo cumpre a lei. Com efeito, estes mandamentos
+          de Deus: não cometerás adultério; não matarás; não roubarás; não levantarás falso
+          testemunho; não cobiçarás as coisas alheias, e todos os outros mandamentos que há,
+          resumem-se nestas palavras: amarás ao teu próximo como a ti próprio. O amor ao próximo não
+          permite que se lhe faça mal. O amor é, portanto, a plenitude da lei.
         </Typography>
       </Language>
 
@@ -85,24 +74,24 @@ export default function PageEpi40() {
       <Language>
         <Typography className="latin">
           Timébunt gentes nomen tuum, Dómine, et omnes reges terræ glóriam tuam.
-          <Typography className="versicle"> ℣. </Typography>Quóniam ædificávit
-          Dóminus Sion, et vidébitur in majestáte sua.
+          <Typography className="versicle"> ℣. </Typography>Quóniam ædificávit Dóminus Sion, et
+          vidébitur in majestáte sua.
         </Typography>
         <Typography className="vernacular">
-          As nações temerão o vosso nome, Senhor; e todos os reis da terra
-          contemplarão a vossa glória.
+          As nações temerão o vosso nome, Senhor; e todos os reis da terra contemplarão a vossa
+          glória.
           <Typography className="versicle"> ℣. </Typography>
           Pois o Senhor reedificou Sião: e manifestar-se-á aí na sua majestade.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 96, 1</Typography> Dóminus regnávit,
-          exsúltet terra: læténtur ínsulæ multæ. Allelúja.
+          <Typography className="latin">Ps. 96, 1</Typography> Dóminus regnávit, exsúltet terra:
+          læténtur ínsulæ multæ. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 96, 1</Typography> O Senhor
-          reinou: alegre-se a terra e as suas muitas ilhas. Aleluia.
+          <Typography className="vernacular">Sl. 96, 1</Typography> O Senhor reinou: alegre-se a
+          terra e as suas muitas ilhas. Aleluia.
         </Typography>
       </Language>
 
@@ -112,32 +101,28 @@ export default function PageEpi40() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
-          Evangélii secúndum Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
+          Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo
-          Evangelho segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho segundo S.
+          Mateus.
         </Typography>
         <Typography className="latin">
-          In illo témpore: Ascendénte Jesu in navículam, secúti sunt eum
-          discípuli ejus: et ecce, motus magnus factus est in mari, ita ut
-          navícula operirétur flúctibus, ipse vero dormiébat. Et accessérunt ad
-          eum discípuli ejus, et suscitavérunt eum, dicéntes: Dómine, salva nos,
-          perímus. Et dicit eis Jesus: Quid tímidi estis, módicæ fídei? Tunc
-          surgens, imperávit ventis et mari, et facta est tranquíllitas magna.
-          Porro hómines miráti sunt, dicéntes: Qualis est hic, quia venti et
-          mare obœdiunt ei?
+          In illo témpore: Ascendénte Jesu in navículam, secúti sunt eum discípuli ejus: et ecce,
+          motus magnus factus est in mari, ita ut navícula operirétur flúctibus, ipse vero
+          dormiébat. Et accessérunt ad eum discípuli ejus, et suscitavérunt eum, dicéntes: Dómine,
+          salva nos, perímus. Et dicit eis Jesus: Quid tímidi estis, módicæ fídei? Tunc surgens,
+          imperávit ventis et mari, et facta est tranquíllitas magna. Porro hómines miráti sunt,
+          dicéntes: Qualis est hic, quia venti et mare obœdiunt ei?
         </Typography>
         <Typography className="vernacular">
-          Naquele tempo, Jesus entrou em uma barca, sendo acompanhado pelos seus
-          discípulos. E eis que uma grande tempestade surgiu do mar, de modo que
-          as ondas cobriam a barca. Jesus dormia. Os discípulos aproximaram-se,
-          então, de Jesus, dizendo: «Senhor, salvai-nos, pois perecemos!». Jesus
-          disse-lhes: «Porque receais, homens de pouca fé?». E, erguendo-se,
-          impôs a sua vontade aos ventos e ao mar; e fez-se uma grande bonança.
-          E aqueles homens admiraram-se, dizendo: «Quem é Este, que até os
-          ventos e o mar Lhe obedecem?!».
+          Naquele tempo, Jesus entrou em uma barca, sendo acompanhado pelos seus discípulos. E eis
+          que uma grande tempestade surgiu do mar, de modo que as ondas cobriam a barca. Jesus
+          dormia. Os discípulos aproximaram-se, então, de Jesus, dizendo: «Senhor, salvai-nos, pois
+          perecemos!». Jesus disse-lhes: «Porque receais, homens de pouca fé?». E, erguendo-se,
+          impôs a sua vontade aos ventos e ao mar; e fez-se uma grande bonança. E aqueles homens
+          admiraram-se, dizendo: «Quem é Este, que até os ventos e o mar Lhe obedecem?!».
         </Typography>
       </Language>
 
@@ -147,12 +132,12 @@ export default function PageEpi40() {
 
       <Language>
         <Typography className="latin">
-          Déxtera Dómini fecit virtutem, déxtera Dómini exaltávit me: non
-          móriar, sed vivam, et narrábo ópera Dómini.
+          Déxtera Dómini fecit virtutem, déxtera Dómini exaltávit me: non móriar, sed vivam, et
+          narrábo ópera Dómini.
         </Typography>
         <Typography className="vernacular">
-          A dextra do Senhor mostrou o seu poder: a dextra do Senhor exaltou-me.
-          Não morrerei: viverei e narrarei os prodígios do Senhor.
+          A dextra do Senhor mostrou o seu poder: a dextra do Senhor exaltou-me. Não morrerei:
+          viverei e narrarei os prodígios do Senhor.
         </Typography>
       </Language>
 
@@ -160,14 +145,12 @@ export default function PageEpi40() {
 
       <Language>
         <Typography className="latin">
-          Concéde, quǽsumus, omnípotens Deus: ut hujus sacrifícii munus oblátum
-          fragilitátem nostram ab omni malo purget semper et múniat. Per
-          Dóminum...
+          Concéde, quǽsumus, omnípotens Deus: ut hujus sacrifícii munus oblátum fragilitátem nostram
+          ab omni malo purget semper et múniat. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Vos suplicamos, fazei que a hóstia oferecida neste sacrifício livre a
-          nossa fraqueza de todo o mal e a fortifique para o futuro. Por nosso
-          Senhor...
+          Vos suplicamos, fazei que a hóstia oferecida neste sacrifício livre a nossa fraqueza de
+          todo o mal e a fortifique para o futuro. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -188,13 +171,12 @@ export default function PageEpi40() {
 
       <Language>
         <Typography className="latin">
-          Múnera tua nos, Deus, a delectatiónibus terrenis expédiant: et
-          cœléstibus semper instáurent aliméntis. Per Dóminum...
+          Múnera tua nos, Deus, a delectatiónibus terrenis expédiant: et cœléstibus semper
+          instáurent aliméntis. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Ó Deus, que estes vossos dons nos afastem dos gozos terrenos, e nos
-          restaurem com seu alimento celestial. Por nosso Senhor Jesus Cristo,
-          vosso Filho, que...
+          Ó Deus, que estes vossos dons nos afastem dos gozos terrenos, e nos restaurem com seu
+          alimento celestial. Por nosso Senhor Jesus Cristo, vosso Filho, que...
         </Typography>
       </Language>
     </PageWrapper>

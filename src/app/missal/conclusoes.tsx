@@ -9,23 +9,21 @@ export default function PageConclusoes() {
       <H1 text="Conclusão das Orações, Secretas e Postcomúnios" />
 
       <Typography className="aside">
-        Para maior facilidade, damos a seguir as conclusões por extenso das
-        Orações, Secretas e Postcomúnios das Missas, as quais, ordinariamente,
-        estão indicadas no Missal, de modo abreviado.
+        Para maior facilidade, damos a seguir as conclusões por extenso das Orações, Secretas e
+        Postcomúnios das Missas, as quais, ordinariamente, estão indicadas no Missal, de modo
+        abreviado.
       </Typography>
 
       <H1 text="1.ª - Quando se dirige ao Pai, concluir-se-á:" />
 
       <Language>
         <Typography className="latin">
-          Per Dóminum nostrum Jesum Christum Fílium tuum, qui tecum vivit et
-          regnat in unitáte Spíritus Sancti, Deus, per ómnia Sæcula sæculórum.
-          Amen.
+          Per Dóminum nostrum Jesum Christum Fílium tuum, qui tecum vivit et regnat in unitáte
+          Spíritus Sancti, Deus, per ómnia Sæcula sæculórum. Amen.
         </Typography>
         <Typography className="vernacular">
-          Por nosso Senhor Jesus, vosso Filho, que convosco vive e reina em
-          unidade do Espírito Santo, Deus, por todos os séculos dos séculos.
-          Amen.
+          Por nosso Senhor Jesus, vosso Filho, que convosco vive e reina em unidade do Espírito
+          Santo, Deus, por todos os séculos dos séculos. Amen.
         </Typography>
       </Language>
 
@@ -33,14 +31,12 @@ export default function PageConclusoes() {
 
       <Language>
         <Typography className="latin">
-          Per eúmdem Dóminum nostrum Jesum Christum Fílium tuum, qui tecum vivit
-          et regnat in unitáte Spíritus Sancti, Deus, per ómnia sæcula
-          sæculórum. Amen.
+          Per eúmdem Dóminum nostrum Jesum Christum Fílium tuum, qui tecum vivit et regnat in
+          unitáte Spíritus Sancti, Deus, per ómnia sæcula sæculórum. Amen.
         </Typography>
         <Typography className="vernacular">
-          Pelo mesmo nosso Senhor Jesus Cristo, vosso Filho, que convosco vive e
-          reina em unidade do Espírito Santo, Deus, por todos os séculos dos
-          séculos. Amen.
+          Pelo mesmo nosso Senhor Jesus Cristo, vosso Filho, que convosco vive e reina em unidade do
+          Espírito Santo, Deus, por todos os séculos dos séculos. Amen.
         </Typography>
       </Language>
 
@@ -48,12 +44,12 @@ export default function PageConclusoes() {
 
       <Language>
         <Typography className="latin">
-          Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia
-          sæcula sæculórum. Amen.
+          Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sæcula sæculórum.
+          Amen.
         </Typography>
         <Typography className="vernacular">
-          Que convosco vive e reina em unidade do Espírito Santo, Deus, por
-          todos os séculos dos séculos. Amen.
+          Que convosco vive e reina em unidade do Espírito Santo, Deus, por todos os séculos dos
+          séculos. Amen.
         </Typography>
       </Language>
 
@@ -61,12 +57,12 @@ export default function PageConclusoes() {
 
       <Language>
         <Typography className="latin">
-          Qui vivis et regnas cum Deo Patre in unitáte Spíritus Sancti, Deus,
-          per ómnia sæcula sæculórum. Amen.
+          Qui vivis et regnas cum Deo Patre in unitáte Spíritus Sancti, Deus, per ómnia sæcula
+          sæculórum. Amen.
         </Typography>
         <Typography className="vernacular">
-          Ó Vós, que viveis e reinais com Deus Pai em unidade do Espírito Santo,
-          Deus, por todos os séculos dos séculos. Amen.
+          Ó Vós, que viveis e reinais com Deus Pai em unidade do Espírito Santo, Deus, por todos os
+          séculos dos séculos. Amen.
         </Typography>
       </Language>
 
@@ -74,19 +70,17 @@ export default function PageConclusoes() {
 
       <Language>
         <Typography className="latin">
-          ... in unitáte ejúsdem Spíritus Sancti, Deus, per ómnia sæcula
-          sæculórum. Amen.
+          ... in unitáte ejúsdem Spíritus Sancti, Deus, per ómnia sæcula sæculórum. Amen.
         </Typography>
         <Typography className="vernacular">
-          ... em unidade do mesmo Espírito Santo, Deus, por todos os séculos dos
-          séculos. Amen.
+          ... em unidade do mesmo Espírito Santo, Deus, por todos os séculos dos séculos. Amen.
         </Typography>
       </Language>
 
       <Typography className="aside">
-        Quando na mesma Missa se recitam diversas Orações, Secretas e
-        Postcomúnios, somente a primeira e a última terão a conclusão como se
-        indica atrás. Terminadas as conclusões, os fiéis respondem: Amen.
+        Quando na mesma Missa se recitam diversas Orações, Secretas e Postcomúnios, somente a
+        primeira e a última terão a conclusão como se indica atrás. Terminadas as conclusões, os
+        fiéis respondem: Amen.
       </Typography>
     </PageWrapper>
   );

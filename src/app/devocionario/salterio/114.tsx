@@ -34,12 +34,11 @@ export default function Page114() {
           Encontrei-me na tribulação e na dor: * e invoquei o nome do Senhor.
         </Typography>
         <Typography className="latin">
-          O Dómine, líbera ánimam meam: * miséricors Dóminus, et justus, et Deus
-          noster miserétur.
+          O Dómine, líbera ánimam meam: * miséricors Dóminus, et justus, et Deus noster miserétur.
         </Typography>
         <Typography className="vernacular">
-          Ó Senhor, livrai a minha alma: * o Senhor é misericordioso e justo e o
-          nosso Deus é compassivo.
+          Ó Senhor, livrai a minha alma: * o Senhor é misericordioso e justo e o nosso Deus é
+          compassivo.
         </Typography>
         <Typography className="latin">
           Custódiens párvulos Dóminus: * humiliátus sum, et liberávit me.
@@ -51,23 +50,16 @@ export default function Page114() {
           Convértere, ánima mea, in réquiem tuam: * quia Dóminus benefécit tibi.
         </Typography>
         <Typography className="vernacular">
-          Volta, ó minha alma, ao teu repouso: * pois o Senhor te cumulou de
-          bens.
+          Volta, ó minha alma, ao teu repouso: * pois o Senhor te cumulou de bens.
         </Typography>
         <Typography className="latin">
-          Quia erípuit ánimam meam de morte: * óculos meos a lácrimis, pedes
-          meos a lapsu.
+          Quia erípuit ánimam meam de morte: * óculos meos a lácrimis, pedes meos a lapsu.
         </Typography>
         <Typography className="vernacular">
-          Porque livrou da morte a minha alma: * os meus olhos das lágrimas, os
-          meus pés da queda.
+          Porque livrou da morte a minha alma: * os meus olhos das lágrimas, os meus pés da queda.
         </Typography>
-        <Typography className="latin">
-          Placébo Dómino * in regióne vivórum.
-        </Typography>
-        <Typography className="vernacular">
-          Agradarei ao Senhor * na região dos vivos.
-        </Typography>
+        <Typography className="latin">Placébo Dómino * in regióne vivórum.</Typography>
+        <Typography className="vernacular">Agradarei ao Senhor * na região dos vivos.</Typography>
       </Language>
     </PageWrapper>
   );

@@ -16,30 +16,26 @@ export default function Page1025EvoraBeja() {
       </Typography>
       <H3 text="Oração" />
       <Typography className="vernacular">
-        Senhor, ao vosso povo, a fim de que, em atenção aos preclaros méritos
-        dos vossos B. B. Mártires Crispim e Crispiniano, ao implorar a vossa
-        misericórdia, seja sempre auxiliado com sua protecção. Por nosso
-        Senhor...
+        Senhor, ao vosso povo, a fim de que, em atenção aos preclaros méritos dos vossos B. B.
+        Mártires Crispim e Crispiniano, ao implorar a vossa misericórdia, seja sempre auxiliado com
+        sua protecção. Por nosso Senhor...
       </Typography>
       <H3 text="Gradual" />
       <Typography className="vernacular">
-        Deus é glorioso em seus Santos: e admirável na sua majestade, praticando
-        prodígios. Senhor, a vossa dextra engrandeceu-se pela sua força: a vossa
-        dextra esmagou os inimigos. Aleluia, aleluia. Esta é a verdadeira
-        fraternidade que Venceu os crimes do mundo. Ela seguiu Cristo, pelo que
-        gozará com glória o reino celestial. Aleluia.
+        Deus é glorioso em seus Santos: e admirável na sua majestade, praticando prodígios. Senhor,
+        a vossa dextra engrandeceu-se pela sua força: a vossa dextra esmagou os inimigos. Aleluia,
+        aleluia. Esta é a verdadeira fraternidade que Venceu os crimes do mundo. Ela seguiu Cristo,
+        pelo que gozará com glória o reino celestial. Aleluia.
       </Typography>
       <H3 text="Secreta" />
       <Typography className="vernacular">
-        Recebei propício, Senhor, as dádivas que oferecemos, e permiti que a
-        oração dos vossos B. B. Mártires Crispim e Crispiniano as torne
-        agradáveis à vossa Majestade. Por nosso Senhor...
+        Recebei propício, Senhor, as dádivas que oferecemos, e permiti que a oração dos vossos B. B.
+        Mártires Crispim e Crispiniano as torne agradáveis à vossa Majestade. Por nosso Senhor...
       </Typography>
       <H3 text="Postcomúnio" />
       <Typography className="vernacular">
-        Que os sacramentos recebidos, Senhor, nos purifiquem, e pela intercessão
-        dos B. B. Mártires Crispim e Crispiniano nos livrem de todos os males.
-        Por nosso Senhor...
+        Que os sacramentos recebidos, Senhor, nos purifiquem, e pela intercessão dos B. B. Mártires
+        Crispim e Crispiniano nos livrem de todos os males. Por nosso Senhor...
       </Typography>
     </PageWrapper>
   );

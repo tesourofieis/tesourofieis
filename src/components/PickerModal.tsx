@@ -14,18 +14,11 @@ export function PickerModal({
   children: React.ReactNode;
 }) {
   return (
-    <Modal
-      visible={visible}
-      transparent
-      animationType="slide"
-      onRequestClose={onClose}
-    >
+    <Modal visible={visible} transparent animationType="slide" onRequestClose={onClose}>
       <View className="flex-1 justify-end bg-black/50">
         <View className="medium-background rounded-t-3xl p-6">
           <View className="flex-row justify-between items-center mb-6">
-            <Typography className="text-xl font-bold text-sepia-900">
-              {title}
-            </Typography>
+            <Typography className="text-xl font-bold text-sepia-900">{title}</Typography>
             <TouchableOpacity onPress={onClose} className="p-2">
               <X size={24} color="#7c2d12" />
             </TouchableOpacity>

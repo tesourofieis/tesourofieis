@@ -21,15 +21,14 @@ export default function Page0822Outro() {
 
       <Language>
         <Typography className="latin">
-          Aixílium tuum nobis, Dómine, quǽsumus, placátus impende: et,
-          intercedéntibus beátis Martýribus tuis Timótheo, Hippolýto et
-          Symphoriáno, déxteram super nos tuæ propitiatiónis exténde. Per
-          Dóminum...
+          Aixílium tuum nobis, Dómine, quǽsumus, placátus impende: et, intercedéntibus beátis
+          Martýribus tuis Timótheo, Hippolýto et Symphoriáno, déxteram super nos tuæ propitiatiónis
+          exténde. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Deixai-Vos aplacar, Senhor, e concedei-nos o vosso auxílio; e pela
-          intercessão dos vossos B. B. Mártires Timóteo, Hipólito e Sinforiano
-          dignai-Vos amparar-nos com vossa mão propícia. Por nosso Senhor...
+          Deixai-Vos aplacar, Senhor, e concedei-nos o vosso auxílio; e pela intercessão dos vossos
+          B. B. Mártires Timóteo, Hipólito e Sinforiano dignai-Vos amparar-nos com vossa mão
+          propícia. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -37,14 +36,13 @@ export default function Page0822Outro() {
 
       <Language>
         <Typography className="latin">
-          Accépta tibi sit, Dómine, sacrátæ plebis oblátio pro tuórum honóre
-          Sanctórum: quorum se méritis de tribulatióne percepísse cognóscit
-          auxílium. Per Dóminum nostrum...
+          Accépta tibi sit, Dómine, sacrátæ plebis oblátio pro tuórum honóre Sanctórum: quorum se
+          méritis de tribulatióne percepísse cognóscit auxílium. Per Dóminum nostrum...
         </Typography>
         <Typography className="vernacular">
-          Aceitai, Senhor, esta oferta, que o vosso povo escolhido oferece em
-          honra dos vossos Santos, por cujos méritos reconhece ter alcançado
-          auxílio na tribulação. Por nosso Senhor...
+          Aceitai, Senhor, esta oferta, que o vosso povo escolhido oferece em honra dos vossos
+          Santos, por cujos méritos reconhece ter alcançado auxílio na tribulação. Por nosso
+          Senhor...
         </Typography>
       </Language>
 
@@ -52,15 +50,14 @@ export default function Page0822Outro() {
 
       <Language>
         <Typography className="latin">
-          Divíni muneris largitate satiáti, quǽsumus, Dómine, Deus noster: ut,
-          intercedéntibus sanctis Martýribus tuis Timótheo, Hippolýto et
-          Symphoriáno, in ejus semper participatióne vivámus. Per Dóminum...
+          Divíni muneris largitate satiáti, quǽsumus, Dómine, Deus noster: ut, intercedéntibus
+          sanctis Martýribus tuis Timótheo, Hippolýto et Symphoriáno, in ejus semper participatióne
+          vivámus. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Saciados abundantemente com o dom divino, ó Senhor, nosso Deus, Vos
-          suplicamos, fazei, pela intercessão dos vossos Santos Mártires
-          Timóteo, Hipólito e Sinforiano, que participemos sempre dele durante
-          toda nossa vida. Por nosso...
+          Saciados abundantemente com o dom divino, ó Senhor, nosso Deus, Vos suplicamos, fazei,
+          pela intercessão dos vossos Santos Mártires Timóteo, Hipólito e Sinforiano, que
+          participemos sempre dele durante toda nossa vida. Por nosso...
         </Typography>
       </Language>
     </PageWrapper>

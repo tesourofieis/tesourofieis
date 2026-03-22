@@ -17,9 +17,7 @@ const DirectoryList = ({ slug }: { slug: string }) => {
       try {
         const results = findBySlug(slug);
         const currentDirUrl = `/${slug}`;
-        const childrenOnly = results.filter(
-          (item) => item.url !== currentDirUrl,
-        );
+        const childrenOnly = results.filter((item) => item.url !== currentDirUrl);
         setSearchResults(childrenOnly);
       } catch (err: any) {
         console.error("Error fetching by slug:", err);
@@ -72,9 +70,7 @@ const DirectoryList = ({ slug }: { slug: string }) => {
           description={
             page.content.comment ??
             page.content.introduction ??
-            page.content.headings
-              .sort((a, b) => a.level - b.level)
-              .find((i) => i.body.length)?.body
+            page.content.headings.sort((a, b) => a.level - b.level).find((i) => i.body.length)?.body
           }
         />
       ))}

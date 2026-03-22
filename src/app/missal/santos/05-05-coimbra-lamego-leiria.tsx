@@ -15,19 +15,17 @@ export default function Page0505CoimbraLamegoLeiria() {
 
       <Language>
         <Typography className="latin">
-          Venite, audíte, et narrábo, omnes qui timétis Deum, quanta fecit ánimæ
-          meæ miséricors et miserátor Dóminus, aleluia, aleluia.{" "}
-          <Typography className="latin">Ps. ibid., 1-2</Typography> Jubiláte
-          Deo, omnis terra, psalmum dícite nómini ejus: date glóriam laudi ejus.
+          Venite, audíte, et narrábo, omnes qui timétis Deum, quanta fecit ánimæ meæ miséricors et
+          miserátor Dóminus, aleluia, aleluia.{" "}
+          <Typography className="latin">Ps. ibid., 1-2</Typography> Jubiláte Deo, omnis terra,
+          psalmum dícite nómini ejus: date glóriam laudi ejus.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
-          Vinde, escutai vós todos, os que temeis a Deus; e eu vos narrarei as
-          muitas graças que o Senhor misericordioso e compassivo fez à minha
-          alma, aleluia, aleluia.{" "}
-          <Typography className="vernacular">Sl. ibid., 1-2</Typography> Povos
-          de toda a terra: cantai um hino ao seu nome: rendei-Lhe louvores e
-          honras.
+          Vinde, escutai vós todos, os que temeis a Deus; e eu vos narrarei as muitas graças que o
+          Senhor misericordioso e compassivo fez à minha alma, aleluia, aleluia.{" "}
+          <Typography className="vernacular">Sl. ibid., 1-2</Typography> Povos de toda a terra:
+          cantai um hino ao seu nome: rendei-Lhe louvores e honras.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
 
@@ -35,16 +33,14 @@ export default function Page0505CoimbraLamegoLeiria() {
 
         <Language>
           <Typography className="latin">
-            Deus, qui ineffábili providéntia beátum Augustínum ab errórum
-            ténebris ad lucem Evangélicæ veritátis aduxísti: da nobis, quæsumus,
-            ut qui ejus hódie Conversiónem cólimus, ejúsdem apud te précibus
-            actus nostros in mélius reformémus. Per Dóminum...
+            Deus, qui ineffábili providéntia beátum Augustínum ab errórum ténebris ad lucem
+            Evangélicæ veritátis aduxísti: da nobis, quæsumus, ut qui ejus hódie Conversiónem
+            cólimus, ejúsdem apud te précibus actus nostros in mélius reformémus. Per Dóminum...
           </Typography>
           <Typography className="vernacular">
-            Ó Deus, que com inefável providéncia trouxestes o bem-aventurado
-            Agostinho das trevas do erro à luz da verdade evangélicæ, concedei,
-            nós vos pedimos, que pelas preces daquele cuja conversão hoje
-            celebramos reformemos para melhor os nossos actos. Por nosso
+            Ó Deus, que com inefável providéncia trouxestes o bem-aventurado Agostinho das trevas do
+            erro à luz da verdade evangélicæ, concedei, nós vos pedimos, que pelas preces daquele
+            cuja conversão hoje celebramos reformemos para melhor os nossos actos. Por nosso
             Senhor...
           </Typography>
         </Language>
@@ -61,22 +57,18 @@ export default function Page0505CoimbraLamegoLeiria() {
             Lição da Ep.ª do B. Ap.º Paulo aos Romanos.
           </Typography>
           <Typography className="latin">
-            Frates: Hora est jam nos de somno súrgere. Nunc enim própior est
-            nostra salus, quam cum credídimus. Nox præcéssit, dies autem
-            apropinquávit. Abjiciámus ergo ópera tenebrárum, et induámur arma
-            lucis. Sicut in die honéste ambulémus: non in comessatiónibus, et
-            ebrietátibus, non in cubílibus et impudicítiis, non in contentióne,
-            et æmulatióne: sed induímini Dóminum Jesum Christum et carnis curam
-            ne fecéritis in desidériis.
+            Frates: Hora est jam nos de somno súrgere. Nunc enim própior est nostra salus, quam cum
+            credídimus. Nox præcéssit, dies autem apropinquávit. Abjiciámus ergo ópera tenebrárum,
+            et induámur arma lucis. Sicut in die honéste ambulémus: non in comessatiónibus, et
+            ebrietátibus, non in cubílibus et impudicítiis, non in contentióne, et æmulatióne: sed
+            induímini Dóminum Jesum Christum et carnis curam ne fecéritis in desidériis.
           </Typography>
           <Typography className="vernacular">
-            Já é chegada a hora de nos levantarmos do sono, porquanto está mais
-            próxima a nossa salvação do que quando recebemos a fé. A noite
-            passou e o dia se apróxima. Deixemos, portanto, as obras das trevas
-            e vistamos as armas da luz. Caminhemos como de dia, honestamente,
-            não em gulodice e em embriaguez, não em desonestidades e
-            dissoluções: mas revisto-vos do Senhor Jesus Cristo e não tomeis
-            cuidado da carne em vossas vontades.
+            Já é chegada a hora de nos levantarmos do sono, porquanto está mais próxima a nossa
+            salvação do que quando recebemos a fé. A noite passou e o dia se apróxima. Deixemos,
+            portanto, as obras das trevas e vistamos as armas da luz. Caminhemos como de dia,
+            honestamente, não em gulodice e em embriaguez, não em desonestidades e dissoluções: mas
+            revisto-vos do Senhor Jesus Cristo e não tomeis cuidado da carne em vossas vontades.
           </Typography>
         </Language>
 
@@ -84,17 +76,17 @@ export default function Page0505CoimbraLamegoLeiria() {
           <Typography className="latin">
             Allelúja, allelúja.
             <Typography className="versicle"> ℣. </Typography>
-            Dirupísti víncula mea, Deus meus: tibi sacrificábo hóstiam laudis,
-            et nomem Dómini invocábo. Allelúja.
-            <Typography className="versicle"> ℣. </Typography>Confitébor tibi,
-            quóniam exaudísti me: et factus es mihi in salútem. Allelúja.
+            Dirupísti víncula mea, Deus meus: tibi sacrificábo hóstiam laudis, et nomem Dómini
+            invocábo. Allelúja.
+            <Typography className="versicle"> ℣. </Typography>Confitébor tibi, quóniam exaudísti me:
+            et factus es mihi in salútem. Allelúja.
           </Typography>
           <Typography className="vernacular">
             Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-            Rompestes os meus laços, ó meu Deus, a vós oferecerei o sacrifício
-            de louvor, e invocarei o nome do Senhor. Aleluia.
-            <Typography className="versicle"> ℣. </Typography>Louvar-Vos-ei,
-            porque me escutastes e me salvastes. Aleluia.
+            Rompestes os meus laços, ó meu Deus, a vós oferecerei o sacrifício de louvor, e
+            invocarei o nome do Senhor. Aleluia.
+            <Typography className="versicle"> ℣. </Typography>Louvar-Vos-ei, porque me escutastes e
+            me salvastes. Aleluia.
           </Typography>
         </Language>
 
@@ -150,8 +142,7 @@ export default function Page0505CoimbraLamegoLeiria() {
             Verbi necat gládio.
           </Typography>
           <Typography className="vernacular">
-            Animando a fé, formando os costumes,{"\n"}Extermina com a espada da
-            sua palavra
+            Animando a fé, formando os costumes,{"\n"}Extermina com a espada da sua palavra
             {"\n"}Os perversores da lei sagrada.
           </Typography>
 
@@ -273,12 +264,10 @@ export default function Page0505CoimbraLamegoLeiria() {
 
       <Language>
         <Typography className="latin">
-          Veníte ad me omnes qui laborátis et oneráti estis, et ego refíciam
-          vos, allelúja.
+          Veníte ad me omnes qui laborátis et oneráti estis, et ego refíciam vos, allelúja.
         </Typography>
         <Typography className="vernacular">
-          Vinde a mim todos os que trabalhais e estais sobrecarregados e eu vos
-          aliviarei, aleluia.
+          Vinde a mim todos os que trabalhais e estais sobrecarregados e eu vos aliviarei, aleluia.
         </Typography>
       </Language>
 
@@ -286,15 +275,14 @@ export default function Page0505CoimbraLamegoLeiria() {
 
       <Language>
         <Typography className="latin">
-          Sancti Augustíni Confessóris tui atque Pontíficis précibus, Dómine,
-          plebis tuæ dona sanctífica: ut, quæ tibi tuo grata sunt institúto,
-          gratióra fiant patrocínio supplicántis. Per Dóminum...
+          Sancti Augustíni Confessóris tui atque Pontíficis précibus, Dómine, plebis tuæ dona
+          sanctífica: ut, quæ tibi tuo grata sunt institúto, gratióra fiant patrocínio supplicántis.
+          Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Santificai, Senhor, as ofertas do vosso povo pelas preces do vosso
-          Confessor e Pontífice Agostinho, a fim de que, sendo-vos já agradáveis
-          (porque por Vós foram instituídas), mais agradáveis ainda se tornem
-          pelo patrocínio do suplicante. Por nosso Senhor...
+          Santificai, Senhor, as ofertas do vosso povo pelas preces do vosso Confessor e Pontífice
+          Agostinho, a fim de que, sendo-vos já agradáveis (porque por Vós foram instituídas), mais
+          agradáveis ainda se tornem pelo patrocínio do suplicante. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -304,12 +292,11 @@ export default function Page0505CoimbraLamegoLeiria() {
 
       <Language>
         <Typography className="latin">
-          Dico vobis, quod gáudium magnum erit in cælo super uno peccatóre
-          pœniténtiam agénte, allelúja.
+          Dico vobis, quod gáudium magnum erit in cælo super uno peccatóre pœniténtiam agénte,
+          allelúja.
         </Typography>
         <Typography className="vernacular">
-          Digo-vos que haverá grande júbilo no céu por um pecador que faz
-          penitência, aleluia.
+          Digo-vos que haverá grande júbilo no céu por um pecador que faz penitência, aleluia.
         </Typography>
       </Language>
 
@@ -317,14 +304,12 @@ export default function Page0505CoimbraLamegoLeiria() {
 
       <Language>
         <Typography className="latin">
-          Sanctificáti, Dómine, salutári mystério, quæsumus: ut pro nobis ejus
-          non desit orátio, cujus nos donásti patrocínio gubernári. Per
-          Dóminum...
+          Sanctificáti, Dómine, salutári mystério, quæsumus: ut pro nobis ejus non desit orátio,
+          cujus nos donásti patrocínio gubernári. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Santificados, Senhor, pelo mystério salutar, nós Vos suplicamos não
-          cesse de interceder por nós aquele a cujo patrocínio nos confiastes.
-          Por nosso Senhor...
+          Santificados, Senhor, pelo mystério salutar, nós Vos suplicamos não cesse de interceder
+          por nós aquele a cujo patrocínio nos confiastes. Por nosso Senhor...
         </Typography>
       </Language>
     </PageWrapper>

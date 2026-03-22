@@ -22,12 +22,10 @@ export default function Page133() {
           Vós que estais na casa do Senhor, * nos átrios da casa do nosso Deus.
         </Typography>
         <Typography className="latin">
-          In nóctibus extóllite manus vestras in sancta, * et benedícite
-          Dóminum.
+          In nóctibus extóllite manus vestras in sancta, * et benedícite Dóminum.
         </Typography>
         <Typography className="vernacular">
-          De noite levantai as vossas mãos para o santuário, * e bendizei o
-          Senhor.
+          De noite levantai as vossas mãos para o santuário, * e bendizei o Senhor.
         </Typography>
         <Typography className="latin">
           Benedícat te Dóminus ex Sion, * qui fecit cælum et terram.

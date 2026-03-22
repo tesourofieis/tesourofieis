@@ -38,18 +38,12 @@ function escapeRegExp(text: string): string {
   return text.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
-function highlightMatches(
-  text: string,
-  match?: Record<string, string[]>,
-): string {
+function highlightMatches(text: string, match?: Record<string, string[]>): string {
   if (!match) return text;
   const terms = Object.keys(match);
   if (!terms.length) return text;
 
-  const regex = new RegExp(
-    `(${terms.map((t) => escapeRegExp(t)).join("|")})`,
-    "gi",
-  );
+  const regex = new RegExp(`(${terms.map((t) => escapeRegExp(t)).join("|")})`, "gi");
   return text.replace(regex, "<b>$1</b>");
 }
 
@@ -132,25 +126,16 @@ function extractContextualSnippet(
   if (endIndex < words.length) snippet = snippet + "...";
 
   // Highlight the matched terms
-  const allTerms = [...new Set([...queryWords, ...matchTerms])].filter(
-    (t) => t.length >= 2,
-  );
+  const allTerms = [...new Set([...queryWords, ...matchTerms])].filter((t) => t.length >= 2);
   if (allTerms.length > 0) {
-    const highlightRegex = new RegExp(
-      `(${allTerms.map((t) => escapeRegExp(t)).join("|")})`,
-      "gi",
-    );
+    const highlightRegex = new RegExp(`(${allTerms.map((t) => escapeRegExp(t)).join("|")})`, "gi");
     snippet = snippet.replace(highlightRegex, "<b>$1</b>");
   }
 
   return snippet;
 }
 
-export function search(
-  query: string,
-  limit = 15,
-  filters?: SearchFilters,
-): SearchResult[] {
+export function search(query: string, limit = 15, filters?: SearchFilters): SearchResult[] {
   const trimmedQuery = query.trim();
   if (!trimmedQuery) return [];
 
@@ -161,8 +146,7 @@ export function search(
     fuzzy: 0.2,
     boost: { title: 3, headingTitles: 2, section: 1.5 },
     filter: filters?.sections?.length
-      ? (result: MiniSearchResult) =>
-          filters.sections!.includes(result.section as string)
+      ? (result: MiniSearchResult) => filters.sections!.includes(result.section as string)
       : undefined,
   });
 
@@ -192,8 +176,7 @@ export function search(
 
       if (
         matchTerms.some(
-          (term) =>
-            normalizedTitle.includes(term) || normalizedBody.includes(term),
+          (term) => normalizedTitle.includes(term) || normalizedBody.includes(term),
         ) ||
         normalizedTitle.includes(normalizedQuery) ||
         normalizedBody.includes(normalizedQuery)
@@ -205,11 +188,7 @@ export function search(
 
     // Extract contextual snippet from the stored bodyText
     const bodyText = result.bodyText as string | undefined;
-    let matchedText = extractContextualSnippet(
-      bodyText,
-      trimmedQuery,
-      matchTerms,
-    );
+    let matchedText = extractContextualSnippet(bodyText, trimmedQuery, matchTerms);
 
     // Fallback to heading body or introduction if no snippet found
     if (!matchedText) {
@@ -250,9 +229,7 @@ export function findBySlug(slug: string): Docs[] {
     }
 
     if (docUrlNormalized.startsWith(`${targetUrlNormalized}/`)) {
-      const pathAfterSlug = docUrlNormalized.substring(
-        `${targetUrlNormalized}/`.length,
-      );
+      const pathAfterSlug = docUrlNormalized.substring(`${targetUrlNormalized}/`.length);
       const segments = pathAfterSlug.split("/").filter(Boolean);
       return segments.length === 1;
     }

@@ -13,8 +13,7 @@ export default function Page130() {
           Dómine, non est exaltátum cor meum: * neque eláti sunt óculi mei.
         </Typography>
         <Typography className="vernacular">
-          Senhor, o meu coração se não exaltou: * nem os meus olhos se mostraram
-          altivos.
+          Senhor, o meu coração se não exaltou: * nem os meus olhos se mostraram altivos.
         </Typography>
         <Typography className="latin">
           Neque ambulávi in magnis: * neque in mirabílibus super me.

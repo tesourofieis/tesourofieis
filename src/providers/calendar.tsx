@@ -3,13 +3,7 @@ import type { Day } from "~/lib/calendar";
 import { getCalendar, getCalendarDay, getSeason } from "~/lib/getCalendar";
 import type { Mass } from "~/lib/observanceManager";
 import { yyyyMMDD } from "~/lib/utils";
-import {
-  addDays,
-  getMonth,
-  getYear,
-  isWithinInterval,
-  parseISO,
-} from "date-fns";
+import { addDays, getMonth, getYear, isWithinInterval, parseISO } from "date-fns";
 import {
   createContext,
   type PropsWithChildren,
@@ -72,10 +66,7 @@ export function CalendarProvider({ children }: PropsWithChildren) {
     return novenaObservances;
   }, [calendar, date]);
 
-  const season = useMemo(
-    () => getSeason(dateKey) || LiturgicalSeason.ADVENT,
-    [dateKey],
-  );
+  const season = useMemo(() => getSeason(dateKey) || LiturgicalSeason.ADVENT, [dateKey]);
 
   if (!calendar || !day) {
     return (
@@ -86,9 +77,7 @@ export function CalendarProvider({ children }: PropsWithChildren) {
   }
 
   return (
-    <CalendarContext.Provider
-      value={{ mass, day, calendar, novenas, date, season }}
-    >
+    <CalendarContext.Provider value={{ mass, day, calendar, novenas, date, season }}>
       {children}
     </CalendarContext.Provider>
   );

@@ -10,34 +10,27 @@ export default function Page0929() {
       <H1 text="Dedicação de S. Miguel Arcanjo, a 29 de Setembro" />
 
       <Typography className="comment">
-        O dia 29 de Setembro era outrora consagrado a todos os Anjos (Intr.,
-        Or., Grad., Comm.) e o Papa Bonifácio II, cerca do anno 530 escolheu
-        essa data para consagrar a S. Miguel uma igreja no grande circo, em
-        Roma. A Missa composta para a circunstância é a do XVIII Domingo depois
-        de Pentecostes, e refere-se a uma consagração de igreja. A de hoje
-        pertence a uma época mais recente. O nome de Miguel significa em
-        hebraico: Quem é como Deus, e lembra o combate travado no céu entre o
-        Arcanjo de Deus que mereceu ser colocado á frente da milicia celeste e o
-        demónio. Caídos em poder de Satanás pelo pecado, a S. Miguel compete
-        continuar a luta para libertar-nos (All. e Oração depois da Missa) e
-        dele dependem os nossos anjos da guarda. S. Miguel venceu o orgulho de
-        Satanás e nos obtém a humildade; ele também preside ao culto de adoração
-        prestado ao Altissimo, pois oferece a Deus as orações dos Santos,
-        simbolizadas pelo incenso cuja fumaça sobe aos céus (Off., Benção do
-        incenso). Quando o cristão deixa este mundo, pede-se que o
-        porta-estandarte, S. Miguel o introduza no céu e, por isso, é muitas
-        vezes representado com a balança da justiça divina onde são pesadas as
-        almas. Seu nome é citado no Confiteor, em seguida ao de Maria, a Rainha
-        dos Anjos. Anjo protector da Sinagoga, S. Miguel também o é da Igreja,
-        que lhe sucedeu, e a liturgia atribui-lhe a revelação do futuro feito a
-        S João no Apocalypse (Ep.).
+        O dia 29 de Setembro era outrora consagrado a todos os Anjos (Intr., Or., Grad., Comm.) e o
+        Papa Bonifácio II, cerca do anno 530 escolheu essa data para consagrar a S. Miguel uma
+        igreja no grande circo, em Roma. A Missa composta para a circunstância é a do XVIII Domingo
+        depois de Pentecostes, e refere-se a uma consagração de igreja. A de hoje pertence a uma
+        época mais recente. O nome de Miguel significa em hebraico: Quem é como Deus, e lembra o
+        combate travado no céu entre o Arcanjo de Deus que mereceu ser colocado á frente da milicia
+        celeste e o demónio. Caídos em poder de Satanás pelo pecado, a S. Miguel compete continuar a
+        luta para libertar-nos (All. e Oração depois da Missa) e dele dependem os nossos anjos da
+        guarda. S. Miguel venceu o orgulho de Satanás e nos obtém a humildade; ele também preside ao
+        culto de adoração prestado ao Altissimo, pois oferece a Deus as orações dos Santos,
+        simbolizadas pelo incenso cuja fumaça sobe aos céus (Off., Benção do incenso). Quando o
+        cristão deixa este mundo, pede-se que o porta-estandarte, S. Miguel o introduza no céu e,
+        por isso, é muitas vezes representado com a balança da justiça divina onde são pesadas as
+        almas. Seu nome é citado no Confiteor, em seguida ao de Maria, a Rainha dos Anjos. Anjo
+        protector da Sinagoga, S. Miguel também o é da Igreja, que lhe sucedeu, e a liturgia
+        atribui-lhe a revelação do futuro feito a S João no Apocalypse (Ep.).
       </Typography>
 
       <Typography className="aside">
         Como na{" "}
-        <Link href="/missal/santos/05-08">
-          Missa da Festa da Aparição de Arcanjo Miguel,
-        </Link>
+        <Link href="/missal/santos/05-08">Missa da Festa da Aparição de Arcanjo Miguel,</Link>
         excepto:
       </Typography>
 
@@ -47,25 +40,24 @@ export default function Page0929() {
 
       <Language>
         <Typography className="latin">
-          Benedícite Dóminum, omnes Angeli ejus: poténtes virtúte, qui fácitis
-          verbum ejus.<Typography className="versicle"> ℣. </Typography>Benedic,
-          ánima mea, Dóminum, et ómnia interióra mea, nomen sanctum ejus.
+          Benedícite Dóminum, omnes Angeli ejus: poténtes virtúte, qui fácitis verbum ejus.
+          <Typography className="versicle"> ℣. </Typography>Benedic, ánima mea, Dóminum, et ómnia
+          interióra mea, nomen sanctum ejus.
         </Typography>
         <Typography className="vernacular">
-          Bendizei o Senhor, ó Anjos do Senhor, que sois poderosos e cheios de
-          força, e cumpris as ordens do Senhor.
-          <Typography className="versicle"> ℣. </Typography>Bendizei o Senhor, ó
-          minha alma; que toda minha alma bendiga o nome do Senhor.
+          Bendizei o Senhor, ó Anjos do Senhor, que sois poderosos e cheios de força, e cumpris as
+          ordens do Senhor.
+          <Typography className="versicle"> ℣. </Typography>Bendizei o Senhor, ó minha alma; que
+          toda minha alma bendiga o nome do Senhor.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          Sancte Míchaël Archángele, defénde nos in prǿlio: ut non pereámus in
-          treméndo judício. Allelúja.
+          Sancte Míchaël Archángele, defénde nos in prǿlio: ut non pereámus in treméndo judício.
+          Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>S.
-          Miguel Arcanjo, defendei-nos neste combate, para que não pereçamos no
-          dia do tremendo juízo. Aleluia.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>S. Miguel Arcanjo,
+          defendei-nos neste combate, para que não pereçamos no dia do tremendo juízo. Aleluia.
         </Typography>
       </Language>
     </PageWrapper>

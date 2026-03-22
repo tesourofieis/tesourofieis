@@ -10,17 +10,15 @@ export default function Page0505() {
       <H1 text="S. Pio V, Papa e Conf., a 5 de Maio" />
 
       <Typography className="comment">
-        Pio, nasceu em Bosco (Lombardia). Aos quatorze anos entrou para a Ordem
-        dos Dominicanos. Bispo, Cardeal e Papa fez valer os talentos de Deus
-        recebidos. Seu Pontificado, embora curto, foi um dos mais gloriosos do
-        século XVI. O protestantismo proclamara a reforma e o islamismo ameaçava
-        o Ocidente. Para remediar aos males que faziam gemer a cristandade, Pio
-        V, fez a aplicação dos decretos do Concílio de Trento, publicou uma nova
-        edição do missal e do breviário, e obteve pelas suas orações, a gloriosa
-        vitória dos exércitos cristãos em Lepanto, em 1571. Instituiu, nessa
-        ocasião, a festa de Nossa Senhora das Victórias, que mais tarde se
-        tornou a do Santíssimo Rosário. Morreu a 5 de Maio de 1572, recitando o
-        hino do Tempo Pascal.
+        Pio, nasceu em Bosco (Lombardia). Aos quatorze anos entrou para a Ordem dos Dominicanos.
+        Bispo, Cardeal e Papa fez valer os talentos de Deus recebidos. Seu Pontificado, embora
+        curto, foi um dos mais gloriosos do século XVI. O protestantismo proclamara a reforma e o
+        islamismo ameaçava o Ocidente. Para remediar aos males que faziam gemer a cristandade, Pio
+        V, fez a aplicação dos decretos do Concílio de Trento, publicou uma nova edição do missal e
+        do breviário, e obteve pelas suas orações, a gloriosa vitória dos exércitos cristãos em
+        Lepanto, em 1571. Instituiu, nessa ocasião, a festa de Nossa Senhora das Victórias, que mais
+        tarde se tornou a do Santíssimo Rosário. Morreu a 5 de Maio de 1572, recitando o hino do
+        Tempo Pascal.
       </Typography>
 
       <Typography className="aside">
@@ -35,19 +33,17 @@ export default function Page0505() {
 
       <Language>
         <Typography className="latin">
-          Deus, qui, ad conteréndos Ecclésiæ tuæ hostes et ad divínum cultum
-          reparándum, beátum Pium Pontíficem Máximum elígere dignátus es: fac
-          nos ipsíus deféndi præsídiis et ita tuis inhærére obséquiis; ut,
-          ómnium hóstium superátis insídiis, perpétua pace lætémur. Per Dóminum
-          nostrum...
+          Deus, qui, ad conteréndos Ecclésiæ tuæ hostes et ad divínum cultum reparándum, beátum Pium
+          Pontíficem Máximum elígere dignátus es: fac nos ipsíus deféndi præsídiis et ita tuis
+          inhærére obséquiis; ut, ómnium hóstium superátis insídiis, perpétua pace lætémur. Per
+          Dóminum nostrum...
         </Typography>
         <Typography className="vernacular">
-          Ó Deus, que para esmagar os inimigos da vossa Igreja e reformar o
-          culto divino Vos dignastes escolher o B. Pio para Sumo Pontífice,
-          permiti que sejamos munidos com o socorro da sua protecção; e de tal
-          modo nos liguemos ao vosso serviço que, depois de havermos triunfado
-          das insídias de todos os inimigos, gozemos a alegria da eterna paz.
-          Por nosso Senhor...
+          Ó Deus, que para esmagar os inimigos da vossa Igreja e reformar o culto divino Vos
+          dignastes escolher o B. Pio para Sumo Pontífice, permiti que sejamos munidos com o socorro
+          da sua protecção; e de tal modo nos liguemos ao vosso serviço que, depois de havermos
+          triunfado das insídias de todos os inimigos, gozemos a alegria da eterna paz. Por nosso
+          Senhor...
         </Typography>
       </Language>
     </PageWrapper>

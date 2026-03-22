@@ -12,19 +12,18 @@ export default function Page1229() {
 
       <Language>
         <Typography className="latin">
-          Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre beáti
-          Thomæ Mártyris: de cujus passióne gaudent Angeli et colláudant Fílium
-          Dei. <Typography className="latin">Ps. 32, 1</Typography> Exsultáte,
-          justi, in Dómino: rectos decet collaudátio.
+          Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre beáti Thomæ Mártyris: de
+          cujus passióne gaudent Angeli et colláudant Fílium Dei.{" "}
+          <Typography className="latin">Ps. 32, 1</Typography> Exsultáte, justi, in Dómino: rectos
+          decet collaudátio.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
-          Regozijemo-nos todos no Senhor, celebrando neste dia a festa em honra
-          do Mártir Tomás, de cujo martírio se alegram os Anjos, que por este
-          motivo louvam o Filho de Deus.{" "}
-          <Typography className="vernacular">Sl. 32, 1</Typography> Ó justos,
-          cantai ao Senhor hinos de alegria! É aos corações rectos que incumbe
-          louvar o Senhor.<Typography className="versicle"> ℣. </Typography>
+          Regozijemo-nos todos no Senhor, celebrando neste dia a festa em honra do Mártir Tomás, de
+          cujo martírio se alegram os Anjos, que por este motivo louvam o Filho de Deus.{" "}
+          <Typography className="vernacular">Sl. 32, 1</Typography> Ó justos, cantai ao Senhor hinos
+          de alegria! É aos corações rectos que incumbe louvar o Senhor.
+          <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
       </Language>
@@ -33,15 +32,14 @@ export default function Page1229() {
 
       <Language>
         <Typography className="latin">
-          Deus, pro cujus Ecclésia gloriósus Póntifex Thomas gládiis impiórum
-          occúbuit: præsta, quǽsumus; ut omnes, qui ejus implórant auxílium,
-          petitiónis suæ salutárem consequántur efféctum. Per Dóminum...
+          Deus, pro cujus Ecclésia gloriósus Póntifex Thomas gládiis impiórum occúbuit: præsta,
+          quǽsumus; ut omnes, qui ejus implórant auxílium, petitiónis suæ salutárem consequántur
+          efféctum. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Ó Deus, em defesa de cuja Igreja o glorioso Pontífice Tomás morreu sob
-          o gládio dos ímpios, permiti, Vos pedimos, que todos aqueles que
-          imploram o seu auxílio obtenham o efeito salutar de suas súplicas. Por
-          nosso Senhor...
+          Ó Deus, em defesa de cuja Igreja o glorioso Pontífice Tomás morreu sob o gládio dos
+          ímpios, permiti, Vos pedimos, que todos aqueles que imploram o seu auxílio obtenham o
+          efeito salutar de suas súplicas. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -50,36 +48,27 @@ export default function Page1229() {
       <Typography className="em">Heb. 5, 1-6</Typography>
 
       <Language>
+        <Typography className="latin">Léctio Epístolæ beáti Pauli Apóstoli ad Hebrǽos.</Typography>
+        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º Paulo aos Hebreus.</Typography>
         <Typography className="latin">
-          Léctio Epístolæ beáti Pauli Apóstoli ad Hebrǽos.
+          Fratres: Omnis póntifex ex homínibus assúmptus, pro homínibus constitúitur in iis, quæ
+          sunt ad Deum: ut ófferat dona, et sacrifícia pro peccátis: qui condolére possit iis, qui
+          ígnorant et errant: quóniam et ipse circúmdatus est infirmitáte: et proptérea debet,
+          quemádmodum pro pópulo, ita étiam et pro semetípso offérre pro peccátis. Nec quisquam
+          sumit sibi honórem, sed qui vocátur a Deo, tamquam Aaron. Sic et Christus non semetípsum
+          clarificávit, ut Póntifex fíeret: sed qui locútus est ad eum: Fílius meus es tu, ego hódie
+          génui te. Quemádmodum et in álio loco dicit: Tu es sacérdos in ætérnum, secúndum órdinem
+          Melchísedech.
         </Typography>
         <Typography className="vernacular">
-          Lição da Ep.ª do B. Ap.º Paulo aos Hebreus.
-        </Typography>
-        <Typography className="latin">
-          Fratres: Omnis póntifex ex homínibus assúmptus, pro homínibus
-          constitúitur in iis, quæ sunt ad Deum: ut ófferat dona, et sacrifícia
-          pro peccátis: qui condolére possit iis, qui ígnorant et errant:
-          quóniam et ipse circúmdatus est infirmitáte: et proptérea debet,
-          quemádmodum pro pópulo, ita étiam et pro semetípso offérre pro
-          peccátis. Nec quisquam sumit sibi honórem, sed qui vocátur a Deo,
-          tamquam Aaron. Sic et Christus non semetípsum clarificávit, ut
-          Póntifex fíeret: sed qui locútus est ad eum: Fílius meus es tu, ego
-          hódie génui te. Quemádmodum et in álio loco dicit: Tu es sacérdos in
-          ætérnum, secúndum órdinem Melchísedech.
-        </Typography>
-        <Typography className="vernacular">
-          Meus irmãos: Todo o pontífice é escolhido entre os homens e
-          estabelecido para os homens no que respeita às suas relações com Deus,
-          a fim de que ofereça dons e sacrifícios pelos pecados e se compadeça
-          daqueles que pecam por ignorância e por erro, lembrando-se de que
-          também está cheio de fraquezas e deve oferecer sacrifícios de expiação
-          dos pecados por si e pelo povo. Ninguém assuma por si próprio esta
-          honra, mas espere que seja chamado por Deus, como Aarão; pois Cristo
-          não assumiu por si próprio a glória do pontificado, mas recebeu-a
-          d’Aquele que lhe disse: «Tu és o meu Filho; gerei-te hoje». E também
-          lhe disse em outra ocasião: «Tu és sacerdote para sempre, segundo a
-          ordem de Melquisedeque».
+          Meus irmãos: Todo o pontífice é escolhido entre os homens e estabelecido para os homens no
+          que respeita às suas relações com Deus, a fim de que ofereça dons e sacrifícios pelos
+          pecados e se compadeça daqueles que pecam por ignorância e por erro, lembrando-se de que
+          também está cheio de fraquezas e deve oferecer sacrifícios de expiação dos pecados por si
+          e pelo povo. Ninguém assuma por si próprio esta honra, mas espere que seja chamado por
+          Deus, como Aarão; pois Cristo não assumiu por si próprio a glória do pontificado, mas
+          recebeu-a d’Aquele que lhe disse: «Tu és o meu Filho; gerei-te hoje». E também lhe disse
+          em outra ocasião: «Tu és sacerdote para sempre, segundo a ordem de Melquisedeque».
         </Typography>
       </Language>
 
@@ -91,25 +80,24 @@ export default function Page1229() {
         <Typography className="latin">
           Ecce Sacérdos magnus, qui in diébus suis plácuit Deo.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ib., 20</Typography> Non est invéntus
-          símilis illi, qui conserváret legem Excélsi.
+          <Typography className="latin">Ib., 20</Typography> Non est invéntus símilis illi, qui
+          conserváret legem Excélsi.
         </Typography>
         <Typography className="vernacular">
           Eis o sumo sacerdote, que nos dias da sua vida agradou a Deus.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Ib., 20</Typography> Não foi
-          encontrado outrem que o igualasse na observância da lei do Altíssimo.
+          <Typography className="vernacular">Ib., 20</Typography> Não foi encontrado outrem que o
+          igualasse na observância da lei do Altíssimo.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Joann. 10, 14</Typography> Ego sum
-          pastor bonus: et cognósco oves meas, et cognóscunt me meæ. Allelúja.
+          <Typography className="latin">Joann. 10, 14</Typography> Ego sum pastor bonus: et cognósco
+          oves meas, et cognóscunt me meæ. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Jo. 10, 14</Typography> Eu sou o
-          bom Pastor: eu conheço as minhas ovelhas e as minhas ovelhas
-          conhecem-me. Aleluia.
+          <Typography className="vernacular">Jo. 10, 14</Typography> Eu sou o bom Pastor: eu conheço
+          as minhas ovelhas e as minhas ovelhas conhecem-me. Aleluia.
         </Typography>
       </Language>
 
@@ -119,36 +107,33 @@ export default function Page1229() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
-          Evangélii secundum Joannem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secundum
+          Joannem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo
-          Evangelho segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho segundo S.
+          João.
         </Typography>
         <Typography className="latin">
-          In illo témpore: Dixit Jesus pharisǽis: Ego sum pastor bonus. Bonus
-          pastor ánimam suam dat pro óvibus suis. Mercennárius autem, et qui non
-          est pastor, cujus non sunt oves própriæ, videt lupum veniéntem, et
-          dimíttit oves et fugit: et lupus rapit et dispérgit oves; mercennárius
-          autem fugit, quia mercennárius est et non pértinet ad eum de óvibus.
-          Ego sum pastor bonus: et cognósco meas et cognóscunt me meæ. Sicut
-          novit me Pater, et ego agnósco Patrem, et ánimam meam pono pro óvibus
-          meis. Et álias oves hábeo, quæ non sunt ex hoc ovíli: et illas opórtet
-          me addúcere, et vocem meam áudient, et fiet unum ovíle et unus pastor.
+          In illo témpore: Dixit Jesus pharisǽis: Ego sum pastor bonus. Bonus pastor ánimam suam dat
+          pro óvibus suis. Mercennárius autem, et qui non est pastor, cujus non sunt oves própriæ,
+          videt lupum veniéntem, et dimíttit oves et fugit: et lupus rapit et dispérgit oves;
+          mercennárius autem fugit, quia mercennárius est et non pértinet ad eum de óvibus. Ego sum
+          pastor bonus: et cognósco meas et cognóscunt me meæ. Sicut novit me Pater, et ego agnósco
+          Patrem, et ánimam meam pono pro óvibus meis. Et álias oves hábeo, quæ non sunt ex hoc
+          ovíli: et illas opórtet me addúcere, et vocem meam áudient, et fiet unum ovíle et unus
+          pastor.
         </Typography>
         <Typography className="vernacular">
-          Naquele tempo, disse Jesus aos fariseus: «Eu sou o bom Pastor. O bom
-          Pastor dá a vida pelas ovelhas. Porém, o mercenário, que não é pastor
-          e a quem as ovelhas não pertencem, vê vir o lobo, abandona as ovelhas
-          e foge. E, então, o lobo arrebata as ovelhas e dispersa-as. O
-          mercenário procede assim porque é mercenário e porque não tem cuidado
-          com as ovelhas. Eu sou o bom Pastor: eu conheço as minhas ovelhas, e
-          as minhas ovelhas conhecem-me; assim como meu Pai me conhece e eu
-          conheço meu Pai. Eu dou a minha vida pelas minhas ovelhas. Tenho ainda
-          outras ovelhas que não pertencem a este aprisco; mas é preciso que eu
-          as atraia e ouçam a minha voz, para que não haja senão um só aprisco e
-          um só Pastor».
+          Naquele tempo, disse Jesus aos fariseus: «Eu sou o bom Pastor. O bom Pastor dá a vida
+          pelas ovelhas. Porém, o mercenário, que não é pastor e a quem as ovelhas não pertencem, vê
+          vir o lobo, abandona as ovelhas e foge. E, então, o lobo arrebata as ovelhas e
+          dispersa-as. O mercenário procede assim porque é mercenário e porque não tem cuidado com
+          as ovelhas. Eu sou o bom Pastor: eu conheço as minhas ovelhas, e as minhas ovelhas
+          conhecem-me; assim como meu Pai me conhece e eu conheço meu Pai. Eu dou a minha vida pelas
+          minhas ovelhas. Tenho ainda outras ovelhas que não pertencem a este aprisco; mas é preciso
+          que eu as atraia e ouçam a minha voz, para que não haja senão um só aprisco e um só
+          Pastor».
         </Typography>
       </Language>
 
@@ -158,12 +143,12 @@ export default function Page1229() {
 
       <Language>
         <Typography className="latin">
-          Posuísti, Dómine, in capite ejus corónam de lápide pretióso: vitam
-          pétiit a te, et tribuísti ei, allelúja.
+          Posuísti, Dómine, in capite ejus corónam de lápide pretióso: vitam pétiit a te, et
+          tribuísti ei, allelúja.
         </Typography>
         <Typography className="vernacular">
-          Impusestes na sua cabeça, Senhor, uma coroa de pedras preciosas; e
-          concedestes-lhe a vida que Vos Implorou. Aleluia.
+          Impusestes na sua cabeça, Senhor, uma coroa de pedras preciosas; e concedestes-lhe a vida
+          que Vos Implorou. Aleluia.
         </Typography>
       </Language>
 
@@ -171,14 +156,13 @@ export default function Page1229() {
 
       <Language>
         <Typography className="latin">
-          Múnera tibi, Dómine, dicáta sanctífica: et, intercedénte beáto Thoma
-          Mártyre tuo atque Pontífice, per éadem nos placátus inténde. Per
-          Dóminum...
+          Múnera tibi, Dómine, dicáta sanctífica: et, intercedénte beáto Thoma Mártyre tuo atque
+          Pontífice, per éadem nos placátus inténde. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Santificai, Senhor, estes dons que Vos oferecemos, e, por intercessão
-          do B. Tomás, vosso Mártir e Pontífice, e por virtude dos mesmos dons,
-          dignai-Vos olhar aplacado para nós. Por nosso Senhor...
+          Santificai, Senhor, estes dons que Vos oferecemos, e, por intercessão do B. Tomás, vosso
+          Mártir e Pontífice, e por virtude dos mesmos dons, dignai-Vos olhar aplacado para nós. Por
+          nosso Senhor...
         </Typography>
       </Language>
 
@@ -191,8 +175,7 @@ export default function Page1229() {
           Ego sum pastor bonus: et cognósco oves meas, et cognóscunt me meæ.
         </Typography>
         <Typography className="vernacular">
-          Eu sou o bom Pastor: conheço as minhas ovelhas e as minhas ovelhas
-          conhecem-me.
+          Eu sou o bom Pastor: conheço as minhas ovelhas e as minhas ovelhas conhecem-me.
         </Typography>
       </Language>
 
@@ -200,14 +183,13 @@ export default function Page1229() {
 
       <Language>
         <Typography className="latin">
-          Hæc nos commúnio, Dómine, purget a crímine: et, intercedénte beáto
-          Thoma Mártyre tuo atque Pontífice, cœléstis remédii fáciat esse
-          consórtes. Per Dóminum nostrum...
+          Hæc nos commúnio, Dómine, purget a crímine: et, intercedénte beáto Thoma Mártyre tuo atque
+          Pontífice, cœléstis remédii fáciat esse consórtes. Per Dóminum nostrum...
         </Typography>
         <Typography className="vernacular">
-          Que esta comunhão, Senhor, nos purifique dos nossos crimes, e,
-          intercedendo o B. Tomás, vosso Mártir e Pontífice, nos torne
-          participantes do remédio celestial. Por nosso Senhor...
+          Que esta comunhão, Senhor, nos purifique dos nossos crimes, e, intercedendo o B. Tomás,
+          vosso Mártir e Pontífice, nos torne participantes do remédio celestial. Por nosso
+          Senhor...
         </Typography>
       </Language>
     </PageWrapper>

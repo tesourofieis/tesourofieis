@@ -11,25 +11,22 @@ export default function Page0626() {
       <H1 text="S. S. João e Paulo, Mártires, a 26 de Junho" />
 
       <Typography className="comment">
-        Os dois irmãos João e Paulo eram Romanos e serviam à Constância, filha
-        de Constantino. Juliano o Apóstata, convidou-os a tomar parte entre os
-        seus familiares, eles, porém, recusaram a fim de guardar a Jesus a sua
-        fidelidade. Concederam-lhes dez dias para se resolverem, do que
-        aproveitaram para distribuir seus bens aos pobres. Foram presos e, «sem
-        temer os que não podem senão matar o corpo e nada mais fazer» (Ev.),
-        tornaram-se, no ano 362, mais que nunca irmãos pela mesma fé e pelo
-        mesmo martírio (Or.. Grad., Ale.). A Igreja os compara «às duas
-        oliveiras e aos dois candelabros, brilhando diante da face do Senhor, e
-        de que fala o Apocalipse». «Estes justos, acrescenta ele, comparecem
-        juntos na presença do Senhor e não se separam». Seus nomes figuram no
+        Os dois irmãos João e Paulo eram Romanos e serviam à Constância, filha de Constantino.
+        Juliano o Apóstata, convidou-os a tomar parte entre os seus familiares, eles, porém,
+        recusaram a fim de guardar a Jesus a sua fidelidade. Concederam-lhes dez dias para se
+        resolverem, do que aproveitaram para distribuir seus bens aos pobres. Foram presos e, «sem
+        temer os que não podem senão matar o corpo e nada mais fazer» (Ev.), tornaram-se, no ano
+        362, mais que nunca irmãos pela mesma fé e pelo mesmo martírio (Or.. Grad., Ale.). A Igreja
+        os compara «às duas oliveiras e aos dois candelabros, brilhando diante da face do Senhor, e
+        de que fala o Apocalipse». «Estes justos, acrescenta ele, comparecem juntos na presença do
+        Senhor e não se separam». Seus nomes figuram no
         <Link className="link" href="/ordo#canon-missæ">
           Canon da Missa
         </Link>{" "}
-        passando de geração em geração, enquanto os seus corpos descançam em paz
-        (Ep.) no antigo santuário a eles consagrado no Monte Coelius, em Roma e
-        onde é feita a Estação de Sexta-Feira depois das Cinzas. Alegremo-nos
-        com a Igreja pelo trinfo de São João e de São Paulo (Or.) e,
-        imitando-os, confessemos a fé em Jesus, diante dos homens, e Ele nos
+        passando de geração em geração, enquanto os seus corpos descançam em paz (Ep.) no antigo
+        santuário a eles consagrado no Monte Coelius, em Roma e onde é feita a Estação de
+        Sexta-Feira depois das Cinzas. Alegremo-nos com a Igreja pelo trinfo de São João e de São
+        Paulo (Or.) e, imitando-os, confessemos a fé em Jesus, diante dos homens, e Ele nos
         reconhecerá como seus, em presença de seus Anjos (Ev.).
       </Typography>
 
@@ -44,16 +41,14 @@ export default function Page0626() {
 
       <Language>
         <Typography className="latin">
-          Quǽsumus, omnípotens Deus: ut nos gemináta lætítia hodiérnæ
-          festivitátis excípiat, quæ de beatórum Joánnis et Pauli glorificatióne
-          procédit; quos eadem fides et pássio vere fecit esse germános. Per
-          Dóminum...
+          Quǽsumus, omnípotens Deus: ut nos gemináta lætítia hodiérnæ festivitátis excípiat, quæ de
+          beatórum Joánnis et Pauli glorificatióne procédit; quos eadem fides et pássio vere fecit
+          esse germános. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Ó Senhor omnipotente, Vos rogamos, permiti que participemos da alegria
-          desta dupla festa, neste dia em que são glorificados os B. B. João e
-          Paulo, que a mesma fé e o mesmo martírio tornaram verdadeiramente
-          irmãos. Por nosso Senhor...
+          Ó Senhor omnipotente, Vos rogamos, permiti que participemos da alegria desta dupla festa,
+          neste dia em que são glorificados os B. B. João e Paulo, que a mesma fé e o mesmo martírio
+          tornaram verdadeiramente irmãos. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -63,27 +58,21 @@ export default function Page0626() {
 
       <Language>
         <Typography className="latin">Léctio libri Sapiéntiæ.</Typography>
-        <Typography className="vernacular">
-          Lição do Livro da Sabedoria.
-        </Typography>
+        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
         <Typography className="latin">
-          Hi viri misericórdiæ sunt, quorum pietátes non defuérunt: cum semine
-          eórum pérmanent bona, heréditas sancta nepótes eórum, et in
-          testaméntis stetit semen eórum: et fílii eórum propter illos usque in
-          ætérnum manent: semen eórum et glória eórum non derelinquétur. Córpora
-          ipsórum in pace sepúlta sunt, et nomen eórum vivit in generatiónem et
-          generatiónem. Sapiéntiam ipsórum narrent pópuli, et laudem eórum
-          núntiet Ecclésia.
+          Hi viri misericórdiæ sunt, quorum pietátes non defuérunt: cum semine eórum pérmanent bona,
+          heréditas sancta nepótes eórum, et in testaméntis stetit semen eórum: et fílii eórum
+          propter illos usque in ætérnum manent: semen eórum et glória eórum non derelinquétur.
+          Córpora ipsórum in pace sepúlta sunt, et nomen eórum vivit in generatiónem et
+          generatiónem. Sapiéntiam ipsórum narrent pópuli, et laudem eórum núntiet Ecclésia.
         </Typography>
         <Typography className="vernacular">
-          São homens de misericórdia e as obras da sua piedade não faltaram. Os
-          bens, que deixaram à posteridade, permanecerão sempre. Seus
-          descendentes constituirão uma herança sagrada; a sua raça manterá a
-          aliança com Deus; e em virtude dela os seus filhos subsistirão
-          eternamente, nunca mas acabando a sua geração, assim como a sua
-          glória. Seus corpos foram sepultados em paz e o seu nome vive em todas
-          as gerações. Que os povos, pois, publiquem a sua sabedoria e que a
-          Igreja cante os seus louvores.
+          São homens de misericórdia e as obras da sua piedade não faltaram. Os bens, que deixaram à
+          posteridade, permanecerão sempre. Seus descendentes constituirão uma herança sagrada; a
+          sua raça manterá a aliança com Deus; e em virtude dela os seus filhos subsistirão
+          eternamente, nunca mas acabando a sua geração, assim como a sua glória. Seus corpos foram
+          sepultados em paz e o seu nome vive em todas as gerações. Que os povos, pois, publiquem a
+          sua sabedoria e que a Igreja cante os seus louvores.
         </Typography>
       </Language>
       <H3 text="Gradual" />
@@ -98,19 +87,18 @@ export default function Page0626() {
         </Typography>
         <Typography className="vernacular">
           Ah! como é bom e consolador que os irmãos habitem juntamente.
-          <Typography className="versicle"> ℣. </Typography>É como o perfume
-          espalhado na cabeça, que desceu sobre a barba de Aarão.
+          <Typography className="versicle"> ℣. </Typography>É como o perfume espalhado na cabeça,
+          que desceu sobre a barba de Aarão.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          Hæc est vera fratérnitas, quæ vicit mundi crímina: Christum secúta
-          est, ínclita tenens regna cœléstia. Allelúja.
+          Hæc est vera fratérnitas, quæ vicit mundi crímina: Christum secúta est, ínclita tenens
+          regna cœléstia. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          Esta é a verdadeira fraternidade que venceu os crimes do mundo: ela
-          seguiu Cristo e por isso possuirá gloriosamente o reino do céu.
-          Aleluia.
+          Esta é a verdadeira fraternidade que venceu os crimes do mundo: ela seguiu Cristo e por
+          isso possuirá gloriosamente o reino do céu. Aleluia.
         </Typography>
       </Language>
 
@@ -127,13 +115,12 @@ export default function Page0626() {
 
       <Language>
         <Typography className="latin">
-          Gloriabúntur in te omnes, qui díligunt nomen tuum, quóniam tu, Dómine,
-          benedíces justo: Dómine, ut scuto bonæ voluntátis tuæ coronásti nos.
+          Gloriabúntur in te omnes, qui díligunt nomen tuum, quóniam tu, Dómine, benedíces justo:
+          Dómine, ut scuto bonæ voluntátis tuæ coronásti nos.
         </Typography>
         <Typography className="vernacular">
-          Todos aqueles que amam o vosso nome, Senhor, serão glorificados
-          convosco, pois abençoais o justo. Vós o protegereis, Senhor, com vossa
-          boa vontade, como se fora um escudo.
+          Todos aqueles que amam o vosso nome, Senhor, serão glorificados convosco, pois abençoais o
+          justo. Vós o protegereis, Senhor, com vossa boa vontade, como se fora um escudo.
         </Typography>
       </Language>
 
@@ -141,15 +128,13 @@ export default function Page0626() {
 
       <Language>
         <Typography className="latin">
-          Hóstias tibi, Dómine, sanctórum Martyrum tuórum Joánnis et Pauli
-          dicátas méritis, benígnus assúme: et ad perpétuum nobis tríbue
-          proveníre subsídium. Per Dóminum nostrum...
+          Hóstias tibi, Dómine, sanctórum Martyrum tuórum Joánnis et Pauli dicátas méritis, benígnus
+          assúme: et ad perpétuum nobis tríbue proveníre subsídium. Per Dóminum nostrum...
         </Typography>
         <Typography className="vernacular">
-          Aceitai benigno, Senhor, as hóstias que Vos oferecemos pelos méritos
-          dos vossos Santos Mártires João e Paulo e dignai-Vos, em virtude
-          delas, fazer descer sobre nós o vosso perpétuo socorro. Por nosso
-          Senhor...
+          Aceitai benigno, Senhor, as hóstias que Vos oferecemos pelos méritos dos vossos Santos
+          Mártires João e Paulo e dignai-Vos, em virtude delas, fazer descer sobre nós o vosso
+          perpétuo socorro. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -159,13 +144,12 @@ export default function Page0626() {
 
       <Language>
         <Typography className="latin">
-          Est si coram homínibus torménta passi sunt, Deus tentavit eos: tamquam
-          aurum in fornáce probávit eos, et quasi holocáusta accépit eos.
+          Est si coram homínibus torménta passi sunt, Deus tentavit eos: tamquam aurum in fornáce
+          probávit eos, et quasi holocáusta accépit eos.
         </Typography>
         <Typography className="vernacular">
-          Se sofreram tormentos diante dos homens, foi porque Deus os provou.
-          Deus provou-os, como ao ouro, na fornalha, e recebeu-os, como hóstia
-          de holocausto.
+          Se sofreram tormentos diante dos homens, foi porque Deus os provou. Deus provou-os, como
+          ao ouro, na fornalha, e recebeu-os, como hóstia de holocausto.
         </Typography>
       </Language>
 
@@ -173,15 +157,14 @@ export default function Page0626() {
 
       <Language>
         <Typography className="latin">
-          Súmpsimus, Dómine, sanctórum Martyrum tuórum Joánnis et Pauli
-          sollémnia celebrántes, sacraménta cœléstia: præsta, quǽsumus; ut, quod
-          temporáliter gérimus, ætérnis gáudiis consequámur. Per Dóminum...
+          Súmpsimus, Dómine, sanctórum Martyrum tuórum Joánnis et Pauli sollémnia celebrántes,
+          sacraménta cœléstia: præsta, quǽsumus; ut, quod temporáliter gérimus, ætérnis gáudiis
+          consequámur. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Recebemos, Senhor, os vossos celestiais sacramentos, celebrando a
-          festa dos vossos Santos Mártires João e Paulo; e concedei-nos, Vos
-          suplicamos, que alcancemos nos gozos eternos o que agora celebrámos.
-          Por nosso Senhor...
+          Recebemos, Senhor, os vossos celestiais sacramentos, celebrando a festa dos vossos Santos
+          Mártires João e Paulo; e concedei-nos, Vos suplicamos, que alcancemos nos gozos eternos o
+          que agora celebrámos. Por nosso Senhor...
         </Typography>
       </Language>
     </PageWrapper>

@@ -8,17 +8,13 @@ export default function Page0818Outro() {
     <PageWrapper>
       <H1 text="S. Roque, Confessor, a 18 de Agosto" />
       <Typography className="aside">
-        Como na{" "}
-        <Link href="/missal/comum/15confessoresnaopontifices2">
-          Missa Justus ut palma,
-        </Link>
+        Como na <Link href="/missal/comum/15confessoresnaopontifices2">Missa Justus ut palma,</Link>
         excepto:
       </Typography>
       <H3 text="Oração" />
       <Typography className="vernacular">
-        Senhor, Vos rogamos, o vosso povo com incessante bondade; e, pelos
-        sufrágios e méritos do B. Roque, livrai-o de todo o contágio na alma e
-        no corpo. Por nosso Senhor...
+        Senhor, Vos rogamos, o vosso povo com incessante bondade; e, pelos sufrágios e méritos do B.
+        Roque, livrai-o de todo o contágio na alma e no corpo. Por nosso Senhor...
       </Typography>
     </PageWrapper>
   );

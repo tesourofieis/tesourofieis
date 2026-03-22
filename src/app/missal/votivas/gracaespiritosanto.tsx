@@ -21,17 +21,15 @@ export default function PageGracaespiritosanto() {
 
       <Language>
         <Typography className="latin">
-          Deus, cui omne cor patet, et omnis volúntas lóquitur, et quem nullum
-          latet secrétum: purífica per infusiónem Sancti Spíritus cogitatiónes
-          cordis nostri; ut te perfécte dilígere et digne laudáre mereámur. Per
-          Dóminum... in unitáte ejúsdem Spíritus Sancti...
+          Deus, cui omne cor patet, et omnis volúntas lóquitur, et quem nullum latet secrétum:
+          purífica per infusiónem Sancti Spíritus cogitatiónes cordis nostri; ut te perfécte
+          dilígere et digne laudáre mereámur. Per Dóminum... in unitáte ejúsdem Spíritus Sancti...
         </Typography>
         <Typography className="vernacular">
-          Ó Deus, de quem é conhecido o íntimo de todo o coração e os desejos de
-          toda a vontade, assim como não ignorais nenhum segredo, purificai,
-          pela difusão do Espírito Santo, os pensamentos do nosso coração, a fim
-          de que Vos amemos com perfeição e mereçamos louvar-Vos dignamente. Por
-          nosso Senhor... em unidade do mesmo Espírito Santo...
+          Ó Deus, de quem é conhecido o íntimo de todo o coração e os desejos de toda a vontade,
+          assim como não ignorais nenhum segredo, purificai, pela difusão do Espírito Santo, os
+          pensamentos do nosso coração, a fim de que Vos amemos com perfeição e mereçamos louvar-Vos
+          dignamente. Por nosso Senhor... em unidade do mesmo Espírito Santo...
         </Typography>
       </Language>
 
@@ -39,14 +37,13 @@ export default function PageGracaespiritosanto() {
 
       <Language>
         <Typography className="latin">
-          Hæc oblátio, quǽsumus, Dómine, cordis nostri máculas emúndet: ut
-          Sancti Spíritus digna efficiátur habitátio. Per Dóminum... in unitáte
-          ejúsdem Spíritus Sancti...
+          Hæc oblátio, quǽsumus, Dómine, cordis nostri máculas emúndet: ut Sancti Spíritus digna
+          efficiátur habitátio. Per Dóminum... in unitáte ejúsdem Spíritus Sancti...
         </Typography>
         <Typography className="vernacular">
-          Que esta oblação, Senhor, Vos suplicamos, apague as manchas do nosso
-          coração, a fim de que ele se torna em digno habitáculo do Espírito
-          Santo. Por nosso Senhor... em unidade do mesmo Espírito Santo...
+          Que esta oblação, Senhor, Vos suplicamos, apague as manchas do nosso coração, a fim de que
+          ele se torna em digno habitáculo do Espírito Santo. Por nosso Senhor... em unidade do
+          mesmo Espírito Santo...
         </Typography>
       </Language>
 
@@ -54,17 +51,15 @@ export default function PageGracaespiritosanto() {
 
       <Language>
         <Typography className="latin">
-          Concéde, quǽsumus, omnípotens Deus, Sanctum nos Spíritum votis
-          promeréri sédulis: quaténus, ejus grátia, et ab ómnibus liberémur
-          tentatiónibus, et peccatórum nostrórum indulgéntiam percípere
-          mereámur. Per Dóminum... in unitáte ejúsdem Spíritus Sancti...
+          Concéde, quǽsumus, omnípotens Deus, Sanctum nos Spíritum votis promeréri sédulis:
+          quaténus, ejus grátia, et ab ómnibus liberémur tentatiónibus, et peccatórum nostrórum
+          indulgéntiam percípere mereámur. Per Dóminum... in unitáte ejúsdem Spíritus Sancti...
         </Typography>
         <Typography className="vernacular">
-          Ó omnipotente Deus, Vos suplicamos, concedei-nos que pelos nossos
-          votos nos tornemos dignos de o Espírito Santo habitar em nós, de modo
-          que pela sua graça sejamos livres de todas as tentações e mereçamos
-          alcançar o perdão dos nossos pecados. Por nosso Senhor... em unidade
-          do mesmo Espírito Santo...
+          Ó omnipotente Deus, Vos suplicamos, concedei-nos que pelos nossos votos nos tornemos
+          dignos de o Espírito Santo habitar em nós, de modo que pela sua graça sejamos livres de
+          todas as tentações e mereçamos alcançar o perdão dos nossos pecados. Por nosso Senhor...
+          em unidade do mesmo Espírito Santo...
         </Typography>
       </Language>
     </PageWrapper>

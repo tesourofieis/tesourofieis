@@ -22,18 +22,16 @@ export default function Page0308() {
 
       <Language>
         <Typography className="latin">
-          Deus, qui beátum Joánnem, tuo amóre succénsum, inter flammas innóxium
-          incédere fecísti, et per eum Ecclésiam tuam nova prole fœcundásti:
-          præsta, ipsíus suffragántibus méritis; ut igne caritátis tuæ vitia
-          nostra curéntur, et remédia nobis ætérna provéniant. Per Dóminum
+          Deus, qui beátum Joánnem, tuo amóre succénsum, inter flammas innóxium incédere fecísti, et
+          per eum Ecclésiam tuam nova prole fœcundásti: præsta, ipsíus suffragántibus méritis; ut
+          igne caritátis tuæ vitia nostra curéntur, et remédia nobis ætérna provéniant. Per Dóminum
           nostrum...
         </Typography>
         <Typography className="vernacular">
-          Ó Deus, que, depois de abrasardes a alma do B. João no vosso amor, o
-          fizestes passar incólume por entre as chamas, e que por meio dele
-          enriquecestes a Igreja com uma nova prole, concedei-nos pelos seus
-          méritos que com o fogo da vossa caridade sejamos curados de nossos
-          vícios e providos dos remédios eternos. Por nosso Senhor...
+          Ó Deus, que, depois de abrasardes a alma do B. João no vosso amor, o fizestes passar
+          incólume por entre as chamas, e que por meio dele enriquecestes a Igreja com uma nova
+          prole, concedei-nos pelos seus méritos que com o fogo da vossa caridade sejamos curados de
+          nossos vícios e providos dos remédios eternos. Por nosso Senhor...
         </Typography>
       </Language>
 

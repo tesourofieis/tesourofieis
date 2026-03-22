@@ -19,8 +19,7 @@ export default function Page119() {
           Dómine, líbera ánimam meam a lábiis iníquis, * et a lingua dolósa.
         </Typography>
         <Typography className="vernacular">
-          Ó Senhor, livrai a minha alma dos lábios iníquos, * e da língua
-          dolosa.
+          Ó Senhor, livrai a minha alma dos lábios iníquos, * e da língua dolosa.
         </Typography>
         <Typography className="latin">
           Quid detur tibi, aut quid apponátur tibi * ad linguam dolósam?
@@ -35,20 +34,19 @@ export default function Page119() {
           Setas agudas do poderoso, * com brasas devoradoras.
         </Typography>
         <Typography className="latin">
-          Heu mihi, quia incolátus meus prolongátus est: habitávi cum
-          habitántibus Cedar: * multum íncola fuit ánima mea.
+          Heu mihi, quia incolátus meus prolongátus est: habitávi cum habitántibus Cedar: * multum
+          íncola fuit ánima mea.
         </Typography>
         <Typography className="vernacular">
-          Ai de mim, o meu desterro prolongou-se, habitei com os moradores de
-          Cedar: * muito andou peregrinando a minha alma.
+          Ai de mim, o meu desterro prolongou-se, habitei com os moradores de Cedar: * muito andou
+          peregrinando a minha alma.
         </Typography>
         <Typography className="latin">
-          Cum his, qui odérunt pacem, eram pacíficus: * cum loquébar illis,
-          impugnábant me gratis.
+          Cum his, qui odérunt pacem, eram pacíficus: * cum loquébar illis, impugnábant me gratis.
         </Typography>
         <Typography className="vernacular">
-          Com os que odiavam a paz eu era pacífico: * quando lhes falava, me
-          contradiziam sem motivo.
+          Com os que odiavam a paz eu era pacífico: * quando lhes falava, me contradiziam sem
+          motivo.
         </Typography>
       </Language>
     </PageWrapper>

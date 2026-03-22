@@ -21,16 +21,15 @@ export default function Page0517() {
 
       <Language>
         <Typography className="latin">
-          Deus, qui beátum Paschálem Confessórem tuum mirífica erga Córporis et
-          Sánguinis tui sacra mystéria dilectióne decorásti: concéde propítius;
-          ut, quam ille ex hoc divino convívio spíritus percépit pinguédinem,
-          eándem et nos percípere mereámur: Qui vivis et regnas...
+          Deus, qui beátum Paschálem Confessórem tuum mirífica erga Córporis et Sánguinis tui sacra
+          mystéria dilectióne decorásti: concéde propítius; ut, quam ille ex hoc divino convívio
+          spíritus percépit pinguédinem, eándem et nos percípere mereámur: Qui vivis et regnas...
         </Typography>
         <Typography className="vernacular">
-          Ó Deus, que enriquecestes o B. Pascoal, vosso Confessor, com precioso
-          afecto para com os sagrados mystérios do vosso Corpo e Sangue,
-          concedei-nos propício que alcancemos neste divino banquete a mesma
-          abundância de graças que ele alcançou. Ó Vós, que viveis e reinais...
+          Ó Deus, que enriquecestes o B. Pascoal, vosso Confessor, com precioso afecto para com os
+          sagrados mystérios do vosso Corpo e Sangue, concedei-nos propício que alcancemos neste
+          divino banquete a mesma abundância de graças que ele alcançou. Ó Vós, que viveis e
+          reinais...
         </Typography>
       </Language>
     </PageWrapper>

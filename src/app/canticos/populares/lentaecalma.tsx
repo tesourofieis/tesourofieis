@@ -10,12 +10,12 @@ export default function PageLentaecalma() {
 
       <View className="not-content">
         <Typography className="vernacular">
-          Lenta e calma sobre a terra desce a noite, vai-se a luz, Quero agora
-          despedir-me, boa noite meu Jesus.
+          Lenta e calma sobre a terra desce a noite, vai-se a luz, Quero agora despedir-me, boa
+          noite meu Jesus.
         </Typography>
         <Typography className="vernacular">
-          E vós ó Virgem Maria, dai-nos a bênção também velai por nós esta
-          noite, Boa noite minha Mãe.
+          E vós ó Virgem Maria, dai-nos a bênção também velai por nós esta noite, Boa noite minha
+          Mãe.
         </Typography>
       </View>
     </PageWrapper>

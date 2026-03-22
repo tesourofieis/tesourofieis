@@ -29,10 +29,8 @@ export default function CalendarMasterpiece() {
   const [currentDate, setCurrentDate] = useState<Date>(new Date());
   const [viewMode, setViewMode] = useState<"month" | "week">("month");
 
-  const intervalStart =
-    viewMode === "month" ? startOfMonth(currentDate) : startOfWeek(currentDate);
-  const intervalEnd =
-    viewMode === "month" ? endOfMonth(currentDate) : endOfWeek(currentDate);
+  const intervalStart = viewMode === "month" ? startOfMonth(currentDate) : startOfWeek(currentDate);
+  const intervalEnd = viewMode === "month" ? endOfMonth(currentDate) : endOfWeek(currentDate);
 
   const days = eachDayOfInterval({ start: intervalStart, end: intervalEnd });
 
@@ -105,19 +103,12 @@ export default function CalendarMasterpiece() {
                 <Typography className="w-20 text-sm bold text-sepia-700 dark:text-sepia-300">
                   {format(dayDate, "EEE, dd", { locale: pt })}
                 </Typography>
-                <View
-                  ref={isToday ? todayRef : null}
-                  className="flex-1 p-1 rounded"
-                >
+                <View ref={isToday ? todayRef : null} className="flex-1 p-1 rounded">
                   {dayData?.mass && dayData.mass.length > 0
-                    ? dayData.mass.map((item) => (
-                        <LinkCard key={item.id} mass={item} />
-                      ))
+                    ? dayData.mass.map((item) => <LinkCard key={item.id} mass={item} />)
                     : null}
                   {dayData?.alternatives && dayData.alternatives.length > 0
-                    ? dayData.alternatives.map((item) => (
-                        <LinkCard key={item.id} mass={item} />
-                      ))
+                    ? dayData.alternatives.map((item) => <LinkCard key={item.id} mass={item} />)
                     : null}
                 </View>
               </View>
@@ -161,9 +152,7 @@ function Header({
         </Pressable>
       </View>
 
-      <Typography className="p-3 text-xl bold dark:text-sepia-200">
-        {formattedPeriod}
-      </Typography>
+      <Typography className="p-3 text-xl bold dark:text-sepia-200">{formattedPeriod}</Typography>
 
       <View className="flex flex-row items-center">
         <Pressable onPressOut={() => onViewSwitch("week")}>
@@ -178,9 +167,7 @@ function Header({
         <Pressable onPressOut={() => onViewSwitch("month")}>
           <Typography
             className={`p-2 rounded-r text-sepia-700 dark:text-sepia-300 ${
-              viewMode === "month"
-                ? "soft-background bold"
-                : "medium-background"
+              viewMode === "month" ? "soft-background bold" : "medium-background"
             }`}
           >
             Month

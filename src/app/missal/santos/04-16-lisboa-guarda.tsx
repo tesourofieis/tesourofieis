@@ -14,10 +14,9 @@ export default function Page0416LisboaGuarda() {
         </Link>{" "}
         , excepto:
       </Typography>
-      <H3 text="Oração" />Ó Deus omnipotente e sempiterno, que escolheis os
-      fracos do mundo para com eles confundirdes os poderosos, a nós, que
-      celebramos esta solenidade em honra da B. Engrácia, vossa Virgem e Mártir,
-      concedei propício que junto de Vós sintamos o seu patrocínio. Por nosso
+      <H3 text="Oração" />Ó Deus omnipotente e sempiterno, que escolheis os fracos do mundo para com
+      eles confundirdes os poderosos, a nós, que celebramos esta solenidade em honra da B. Engrácia,
+      vossa Virgem e Mártir, concedei propício que junto de Vós sintamos o seu patrocínio. Por nosso
       Senhor...
     </PageWrapper>
   );

@@ -9,51 +9,42 @@ export default function Page0515() {
       <H1 text="S. João Baptista de la Salle, Conf., a 15 de Maio" />
 
       <Typography className="comment">
-        Nascido em Reims, a 30 de Abril de 1651, duma ilustre família, S. João
-        Baptista de la Salle, tornou-se caro a todos, desde a sua infância,
-        pelas virtudes de sua alma, a doçura de sua natureza e vivacidade de
-        espírito. Em Paris, estudou a teologia, na Sorbona, foi cónego da
-        Metrópole, com 17 anos. Ordenado sacerdote, celebrou o Santo Sacrifício
-        com fé mui viva e grande amor, conservando estes sentimentos sempre que
-        subia ao altar. Deus o suscitou «para dar aos pobres o ensino cristão e
-        firmar a mocidade no caminho da verdade». Fundou, com esse desígnio, uma
-        nova congregação religiosa por ele intitulada «Os Irmãos das Escolas
-        Cristãs», espalhada, em breve, por todo o mundo. Por humildade e pelo
-        amor à pobreza renunciou ao canonicato distribuindo aos pobres todos os
-        seus bens. «Inflamado de zelo pela salvação das almas», diz o Breviário,
-        «consumiu a existência em trabalhar para seu maior bem. Castigava-se
-        assiduamente por jejuns, flagelações e outras austeridades; passava
-        noites em orações. Tal foi a sua vida, notável em todas as virtudes,
-        especialmente na obediência e zelo no cumprimento da vontade divina,
-        amor e dedicação para com a Sé Apostólica. Carregado de méritos,
-        adormeceu no Senhor em Rouen, numa Sexta-Feira Santa a 7 de Abril de
-        1719 com a idade de 68 anos». Aplicava-se em ocultar a sua vida nas mais
-        humildes funções, servindo a Jesus nos pequeninos. Foi exaltado pelo
-        Divino Ressuscitado, cuja glória compartilha, continuando a abençoar a
-        sua obra, no universo inteiro. À imitação do Santo, «tenhamos grande
-        zelo em procurar a glória de Deus salvando-lhes almas, a fim de
-        merecermos igual recompensa no céu».
+        Nascido em Reims, a 30 de Abril de 1651, duma ilustre família, S. João Baptista de la Salle,
+        tornou-se caro a todos, desde a sua infância, pelas virtudes de sua alma, a doçura de sua
+        natureza e vivacidade de espírito. Em Paris, estudou a teologia, na Sorbona, foi cónego da
+        Metrópole, com 17 anos. Ordenado sacerdote, celebrou o Santo Sacrifício com fé mui viva e
+        grande amor, conservando estes sentimentos sempre que subia ao altar. Deus o suscitou «para
+        dar aos pobres o ensino cristão e firmar a mocidade no caminho da verdade». Fundou, com esse
+        desígnio, uma nova congregação religiosa por ele intitulada «Os Irmãos das Escolas Cristãs»,
+        espalhada, em breve, por todo o mundo. Por humildade e pelo amor à pobreza renunciou ao
+        canonicato distribuindo aos pobres todos os seus bens. «Inflamado de zelo pela salvação das
+        almas», diz o Breviário, «consumiu a existência em trabalhar para seu maior bem.
+        Castigava-se assiduamente por jejuns, flagelações e outras austeridades; passava noites em
+        orações. Tal foi a sua vida, notável em todas as virtudes, especialmente na obediência e
+        zelo no cumprimento da vontade divina, amor e dedicação para com a Sé Apostólica. Carregado
+        de méritos, adormeceu no Senhor em Rouen, numa Sexta-Feira Santa a 7 de Abril de 1719 com a
+        idade de 68 anos». Aplicava-se em ocultar a sua vida nas mais humildes funções, servindo a
+        Jesus nos pequeninos. Foi exaltado pelo Divino Ressuscitado, cuja glória compartilha,
+        continuando a abençoar a sua obra, no universo inteiro. À imitação do Santo, «tenhamos
+        grande zelo em procurar a glória de Deus salvando-lhes almas, a fim de merecermos igual
+        recompensa no céu».
       </Typography>
 
       <H3 text="Oração" />
 
       <Language>
         <Typography className="latin">
-          Deus, qui, ad christiánam páuperum eruditiónem et ad juvéntam in via
-          veritátis firmándam, sanctum Joánnem Baptístam Confessórem excitásti,
-          et novam per eum in Ecclésia famíliam collegísti: concéde propítius;
-          ut ejus intercessióne et exémplo, stúdio glóriæ tuæ in animárum salúte
-          fervéntes, ejus in cœlis corónæ partícipes fíeri valeámus. Per
-          Dóminum...
+          Deus, qui, ad christiánam páuperum eruditiónem et ad juvéntam in via veritátis firmándam,
+          sanctum Joánnem Baptístam Confessórem excitásti, et novam per eum in Ecclésia famíliam
+          collegísti: concéde propítius; ut ejus intercessióne et exémplo, stúdio glóriæ tuæ in
+          animárum salúte fervéntes, ejus in cœlis corónæ partícipes fíeri valeámus. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Ó Deus, que para o ensino dos pobres e para a firmeza dos jovens no
-          caminho da verdade fizestes aparecer o Santo Confessor João Baptista,
-          pelo qual fundastes uma nova família na Igreja, concedei-nos propício
-          que, pela sua intercessão e seguindo o seu exemplo, sejamos devorados
-          pelo zelo da glória de Deus para a salvação das almas, a fim de que
-          possamos tornar-nos seus companheiros de glória no céu. Por nosso
-          Senhor...
+          Ó Deus, que para o ensino dos pobres e para a firmeza dos jovens no caminho da verdade
+          fizestes aparecer o Santo Confessor João Baptista, pelo qual fundastes uma nova família na
+          Igreja, concedei-nos propício que, pela sua intercessão e seguindo o seu exemplo, sejamos
+          devorados pelo zelo da glória de Deus para a salvação das almas, a fim de que possamos
+          tornar-nos seus companheiros de glória no céu. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -63,31 +54,27 @@ export default function Page0515() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
-          Evangélii secúndum Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
+          Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo
-          Evangelho segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho segundo S.
+          Mateus.
         </Typography>
         <Typography className="latin">
-          In illo témpore: Accessérunt discípuli ad Jesum, dicéntes: Quis,
-          putas, major est in regno cœlórum? Et ádvocans Jesus párvulum, státuit
-          eum in médio eórum et dixit: Amen, dico vobis, nisi convérsi fuéritis
-          et efficiámini sicut párvuli, non intrábitis in regnum cœlórum.
-          Quicumque ergo humiliáverit se sicut párvulus iste, hic est major in
-          regno cœlórum. Et qui suscéperit unum párvulum talem in nómine meo, me
-          súscipit.
+          In illo témpore: Accessérunt discípuli ad Jesum, dicéntes: Quis, putas, major est in regno
+          cœlórum? Et ádvocans Jesus párvulum, státuit eum in médio eórum et dixit: Amen, dico
+          vobis, nisi convérsi fuéritis et efficiámini sicut párvuli, non intrábitis in regnum
+          cœlórum. Quicumque ergo humiliáverit se sicut párvulus iste, hic est major in regno
+          cœlórum. Et qui suscéperit unum párvulum talem in nómine meo, me súscipit.
         </Typography>
         <Typography className="vernacular">
-          Naquele tempo, aproximaram-se de Jesus os seus discípulos,
-          dizendo-Lhe: «Qual pensais Vós que é o maior no reino dos céus?». E
-          Jesus, havendo chamado um pequeno, colocou-o no meio deles e disse:
-          «Em verdade vos digo: se vos não converteis e vos não tornais como os
-          pequenos, não entrareis no reino dos céus. Todo aquele, pois, que se
-          fizer pequeno, como este menino, esse é o maior no reino dos céus; e
-          quem receber um pequeno, como este, em meu nome, recebe-me a mim
-          mesmo».
+          Naquele tempo, aproximaram-se de Jesus os seus discípulos, dizendo-Lhe: «Qual pensais Vós
+          que é o maior no reino dos céus?». E Jesus, havendo chamado um pequeno, colocou-o no meio
+          deles e disse: «Em verdade vos digo: se vos não converteis e vos não tornais como os
+          pequenos, não entrareis no reino dos céus. Todo aquele, pois, que se fizer pequeno, como
+          este menino, esse é o maior no reino dos céus; e quem receber um pequeno, como este, em
+          meu nome, recebe-me a mim mesmo».
         </Typography>
       </Language>
     </PageWrapper>

@@ -9,18 +9,16 @@ export default function Page0626Portugal() {
       <H1 text="S. Pelágio, a 26 de Junho, Nalgumas Dioceses" />
       <H3 text="Intróito" />
       <Typography className="vernacular">
-        Fizestes-Vos, Senhor, o meu auxiliar e o meu protector: e livrastes-me
-        da perdição: livrastes-me das mãos daqueles que procuravam tirar-me a
-        vida, assim como do rei iníquo e das línguas injustas. Entoai em honra
-        do Senhor um cântico novo, pois Ele operou maravilhas.
+        Fizestes-Vos, Senhor, o meu auxiliar e o meu protector: e livrastes-me da perdição:
+        livrastes-me das mãos daqueles que procuravam tirar-me a vida, assim como do rei iníquo e
+        das línguas injustas. Entoai em honra do Senhor um cântico novo, pois Ele operou maravilhas.
         <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
       </Typography>
       <H3 text="Oração" />
       <Typography className="vernacular">
-        Ó Deus, que pela magnitude da vossa inefável piedade permitistes que o
-        B. Pelágio, sendo de pouca idade, se mostrasse grande na fé e virtude,
-        Concedei-nos, Vos suplicamos, que, assim como Veneramos a sua glória,
-        assim também imitemos a sua inocência. Por nosso Senhor...
+        Ó Deus, que pela magnitude da vossa inefável piedade permitistes que o B. Pelágio, sendo de
+        pouca idade, se mostrasse grande na fé e virtude, Concedei-nos, Vos suplicamos, que, assim
+        como Veneramos a sua glória, assim também imitemos a sua inocência. Por nosso Senhor...
       </Typography>
       <H3 text="Epístola" />
       <LinkCard
@@ -29,12 +27,10 @@ export default function Page0626Portugal() {
       />
       <H3 text="Gradual" />
       <Typography className="vernacular">
-        Sois a minha esperança, Senhor, desde a minha juventude: por Vós fui
-        fortalecido ainda antes de nascer: desde o seio de minha mãe que sois o
-        meu protector. Aceitastes-me por causa da minha inocência e
-        fortalecestes-me para sempre na vossa presença. Aleluia, aleluia. Sou,
-        fui e serei cristão (diz Pelágio ao rei) eis porque não temo a morte.
-        Aleluia.
+        Sois a minha esperança, Senhor, desde a minha juventude: por Vós fui fortalecido ainda antes
+        de nascer: desde o seio de minha mãe que sois o meu protector. Aceitastes-me por causa da
+        minha inocência e fortalecestes-me para sempre na vossa presença. Aleluia, aleluia. Sou, fui
+        e serei cristão (diz Pelágio ao rei) eis porque não temo a morte. Aleluia.
       </Typography>
       <H3 text="Evangelho" />
       <LinkCard
@@ -43,27 +39,26 @@ export default function Page0626Portugal() {
       />
       <H3 text="Ofertório" />
       <Typography className="vernacular">
-        Sua vida consumou-se em breve; contudo encheu seus anos com muitas
-        coisas, pois sua alma era agradável a Deus. Eis porque Ele se apressou a
-        tirá-lo do meio das iniquidades.
+        Sua vida consumou-se em breve; contudo encheu seus anos com muitas coisas, pois sua alma era
+        agradável a Deus. Eis porque Ele se apressou a tirá-lo do meio das iniquidades.
       </Typography>
       <H3 text="Secreta" />
       <Typography className="vernacular">
-        Vos oferecemos, Senhor, a hóstia imaculada, rogando-Vos insistentemente
-        que em virtude das preces e da intercessão do B. Pelágio, vosso Mártir,
-        alcancemos o que humildemente Vos pedimos. Por nosso Senhor...
+        Vos oferecemos, Senhor, a hóstia imaculada, rogando-Vos insistentemente que em virtude das
+        preces e da intercessão do B. Pelágio, vosso Mártir, alcancemos o que humildemente Vos
+        pedimos. Por nosso Senhor...
       </Typography>
       <H3 text="Comúnio" />
       <Typography className="vernacular">
-        Aquele que vencer envergará os vestidos brancos: e Eu confessarei o seu
-        nome na presença de meu Pai e dos seus Anjos, aleluia.
+        Aquele que vencer envergará os vestidos brancos: e Eu confessarei o seu nome na presença de
+        meu Pai e dos seus Anjos, aleluia.
       </Typography>
       <H3 text="Postcomúnio" />
       <Typography className="vernacular">
-        Saciados com o banquete do alimento espiritual e animados com a
-        sacratíssima bebida, Vos suplicamos, Senhor, nosso Deus, que, assim como
-        nos alegramos com a coroa triunfal do B. Pelágio, vosso Mártir, assim
-        também continuamente gozemos o seu patrocínio. Por nosso Senhor...
+        Saciados com o banquete do alimento espiritual e animados com a sacratíssima bebida, Vos
+        suplicamos, Senhor, nosso Deus, que, assim como nos alegramos com a coroa triunfal do B.
+        Pelágio, vosso Mártir, assim também continuamente gozemos o seu patrocínio. Por nosso
+        Senhor...
       </Typography>
     </PageWrapper>
   );

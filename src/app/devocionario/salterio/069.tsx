@@ -31,16 +31,15 @@ export default function Page069() {
           Avertántur statim erubescéntes, * qui dicunt mihi: euge, euge.
         </Typography>
         <Typography className="vernacular">
-          Deixai que sejam imediatamente envergonhados, * os que me dizem: bem,
-          bem.
+          Deixai que sejam imediatamente envergonhados, * os que me dizem: bem, bem.
         </Typography>
         <Typography className="latin">
-          Exsúltent et læténtur in Te omnes qui quǽrunt Te, * et dicant semper:
-          magnificétur Dóminus: qui díligunt salutáre tuum.
+          Exsúltent et læténtur in Te omnes qui quǽrunt Te, * et dicant semper: magnificétur
+          Dóminus: qui díligunt salutáre tuum.
         </Typography>
         <Typography className="vernacular">
-          Regozijem-se e alegrem-se em Vós todos os que Vos buscam, * e digam
-          sempre os que amam a vossa salvação: glorificado seja o Senhor.
+          Regozijem-se e alegrem-se em Vós todos os que Vos buscam, * e digam sempre os que amam a
+          vossa salvação: glorificado seja o Senhor.
         </Typography>
         <Typography className="latin">
           Ego vero egénus, et pauper sum: * Deus, ádjuva me.
@@ -52,8 +51,7 @@ export default function Page069() {
           Adjútor meus, et liberátor meus es Tu: * Dómine, ne moréris.
         </Typography>
         <Typography className="vernacular">
-          Vós sois o meu auxiliador e o meu libertador: * ó Senhor, Vos não
-          demoreis.
+          Vós sois o meu auxiliador e o meu libertador: * ó Senhor, Vos não demoreis.
         </Typography>
       </Language>
     </PageWrapper>

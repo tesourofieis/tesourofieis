@@ -16,9 +16,9 @@ export default function Page0227Portugal() {
       </Typography>
       <H3 text="Oração" />
       <Typography className="vernacular">
-        Dignai-Vos ouvir clementemente, Senhor, as preces do vosso povo, a fim
-        de que sejamos auxiliados pelos méritos do B. Torquato, vosso Mártir e
-        Pontífice, em cujo martírio nos alegramos. Por nosso Senhor...
+        Dignai-Vos ouvir clementemente, Senhor, as preces do vosso povo, a fim de que sejamos
+        auxiliados pelos méritos do B. Torquato, vosso Mártir e Pontífice, em cujo martírio nos
+        alegramos. Por nosso Senhor...
       </Typography>
     </PageWrapper>
   );

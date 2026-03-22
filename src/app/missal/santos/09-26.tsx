@@ -11,15 +11,13 @@ export default function Page0926() {
       <H1 text="S. S. Cipriano e Justina, Mártires, a 26 de Setembro" />
 
       <Typography className="comment">
-        Em Nicomedia, diz o Martyrologio Romano, nascimento para o cão dos
-        Santos Mártires Cypriano e Justina. Essa virgem, depois de haver sofrido
-        muitos tormentos sob o imperador Diocleciano e o presidente Eutholmo,
-        converteu ao Cristo o magico Cypriano que se esforçava por seduzi-la com
-        os seus artifícios. Ambos foram martirizados em 304. Seus corpos,
-        expostos aos animais selvagens, foram retirados durante a noite, por
-        alguns marinheiros cristãos que os transportaram para Roma. Mais tarde
-        foram inumados na basilica Constantiniana (S. João de Latrão), proximo
-        ao baptistério.
+        Em Nicomedia, diz o Martyrologio Romano, nascimento para o cão dos Santos Mártires Cypriano
+        e Justina. Essa virgem, depois de haver sofrido muitos tormentos sob o imperador Diocleciano
+        e o presidente Eutholmo, converteu ao Cristo o magico Cypriano que se esforçava por
+        seduzi-la com os seus artifícios. Ambos foram martirizados em 304. Seus corpos, expostos aos
+        animais selvagens, foram retirados durante a noite, por alguns marinheiros cristãos que os
+        transportaram para Roma. Mais tarde foram inumados na basilica Constantiniana (S. João de
+        Latrão), proximo ao baptistério.
       </Typography>
 
       <Typography className="aside">
@@ -34,15 +32,13 @@ export default function Page0926() {
 
       <Language>
         <Typography className="latin">
-          Beatórum Mártyrum Cypriáni et Justínæ nos, Dómine, fóveant continuáta
-          pæsídia: quia non désinis propítius intuéri, quos tálibus auxíliis
-          concésseris adjuvári. Per Dóminum...
+          Beatórum Mártyrum Cypriáni et Justínæ nos, Dómine, fóveant continuáta pæsídia: quia non
+          désinis propítius intuéri, quos tálibus auxíliis concésseris adjuvári. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
-          Fazei, Senhor, que incessantemente nos alegremos com a protecção dos
-          vossos B. B. Mártires Cipriano e Justina, visto que não podeis deixar
-          de acolher benignamente aqueles a quem concedeis a assistência de tais
-          auxílios. Por nosso Senhor...
+          Fazei, Senhor, que incessantemente nos alegremos com a protecção dos vossos B. B. Mártires
+          Cipriano e Justina, visto que não podeis deixar de acolher benignamente aqueles a quem
+          concedeis a assistência de tais auxílios. Por nosso Senhor...
         </Typography>
       </Language>
 

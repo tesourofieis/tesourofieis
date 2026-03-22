@@ -39,19 +39,11 @@ const styles = StyleSheet.create({
 export default function LanguageToggle({ children }: LanguageToggleProps) {
   const defaultLanguage = useDefaultLanguage();
   const [containerWidth, setContainerWidth] = useState(0);
-  const [currentLang, setCurrentLang] = useState<"latin" | "vernacular">(
-    defaultLanguage,
-  );
+  const [currentLang, setCurrentLang] = useState<"latin" | "vernacular">(defaultLanguage);
 
-  const currentLanguage = useSharedValue<"latin" | "vernacular">(
-    defaultLanguage,
-  );
-  const translateX = useSharedValue(
-    defaultLanguage === "vernacular" ? -1000 : 0,
-  );
-  const translateXToggle = useSharedValue(
-    defaultLanguage === "vernacular" ? toggleWidth : 0,
-  );
+  const currentLanguage = useSharedValue<"latin" | "vernacular">(defaultLanguage);
+  const translateX = useSharedValue(defaultLanguage === "vernacular" ? -1000 : 0);
+  const translateXToggle = useSharedValue(defaultLanguage === "vernacular" ? toggleWidth : 0);
 
   useEffect(() => {
     setCurrentLang(defaultLanguage);
@@ -68,10 +60,7 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
     currentLanguage.value = newLang;
     const targetContent = vernacular ? -containerWidth : 0;
     translateX.value = withSpring(targetContent, springConfig);
-    translateXToggle.value = withSpring(
-      vernacular ? toggleWidth : 0,
-      springConfig,
-    );
+    translateXToggle.value = withSpring(vernacular ? toggleWidth : 0, springConfig);
   };
 
   const toggle = () => {
@@ -95,10 +84,7 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
         Math.min(0, startTranslate.value + event.translationX),
       );
       const toggleProgress = -translateX.value / containerWidth;
-      translateXToggle.value = Math.max(
-        0,
-        Math.min(toggleWidth, toggleProgress * toggleWidth),
-      );
+      translateXToggle.value = Math.max(0, Math.min(toggleWidth, toggleProgress * toggleWidth));
     })
     .onEnd((event) => {
       if (containerWidth === 0) return;
@@ -181,11 +167,7 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
     <View onLayout={onContainerLayout} style={styles.container}>
       <GestureDetector gesture={panGesture}>
         <Animated.View
-          style={[
-            contentStyle,
-            { width: containerWidth * 2 },
-            styles.animatedContainer,
-          ]}
+          style={[contentStyle, { width: containerWidth * 2 }, styles.animatedContainer]}
         >
           <View style={{ flex: 1, width: containerWidth }}>
             <GestureScrollView
@@ -219,16 +201,12 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
         >
           <View
             className={`w-2 h-2 rounded-full transition-colors ${
-              currentLang === "vernacular"
-                ? "soft-background"
-                : "bg-sepia-700 dark:bg-sepia-300"
+              currentLang === "vernacular" ? "soft-background" : "bg-sepia-700 dark:bg-sepia-300"
             }`}
           />
           <View
             className={`w-2 h-2 rounded-full transition-colors ${
-              currentLang === "latin"
-                ? "soft-background"
-                : "bg-sepia-700 dark:bg-sepia-300"
+              currentLang === "latin" ? "soft-background" : "bg-sepia-700 dark:bg-sepia-300"
             }`}
           />
         </Pressable>

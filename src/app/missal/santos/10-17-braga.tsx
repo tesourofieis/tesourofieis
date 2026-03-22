@@ -16,23 +16,20 @@ export default function Page1017Braga() {
       </Typography>
       <H3 text="Oração" />
       <Typography className="vernacular">
-        Ó Deus, que de um modo admirável nos destes como primeiro Pastor o B.
-        Mártir Pedro, permiti, Vos imploramos, que, celebrando a sua
-        Trasladação, nos tornemos dignos filhos de tão grande pai. Por nosso
-        Senhor
+        Ó Deus, que de um modo admirável nos destes como primeiro Pastor o B. Mártir Pedro, permiti,
+        Vos imploramos, que, celebrando a sua Trasladação, nos tornemos dignos filhos de tão grande
+        pai. Por nosso Senhor
       </Typography>
       <H3 text="Secreta" />
       <Typography className="vernacular">
-        Olhai benignamente, Senhor, para as dádivas que Vos pela intercessão
-        daquele cujos méritos Vos foram agradáveis, elas nos sejam salutares.
-        Por nosso Senhor...
+        Olhai benignamente, Senhor, para as dádivas que Vos pela intercessão daquele cujos méritos
+        Vos foram agradáveis, elas nos sejam salutares. Por nosso Senhor...
       </Typography>
       <H3 text="Postcomúnio" />
       <Typography className="vernacular">
-        Humildemente Vos suplicamos, Senhor, que nos guardeis com a graça da
-        contínua oração do B. Pedro, vosso Mártir e Pontífice, para que pelos
-        seus méritos seja dignamente governada a Igreja que se ufana de o haver
-        possuído como seu Padroeiro e Chefe. Por nosso Senhor...
+        Humildemente Vos suplicamos, Senhor, que nos guardeis com a graça da contínua oração do B.
+        Pedro, vosso Mártir e Pontífice, para que pelos seus méritos seja dignamente governada a
+        Igreja que se ufana de o haver possuído como seu Padroeiro e Chefe. Por nosso Senhor...
       </Typography>
     </PageWrapper>
   );
