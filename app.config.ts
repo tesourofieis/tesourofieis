@@ -73,6 +73,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
       "expo-router",
       {
         sitemap: true,
+        origin: "https://tesourofieis.com",
       },
     ],
     [
