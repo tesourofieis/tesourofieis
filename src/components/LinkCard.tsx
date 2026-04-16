@@ -1,11 +1,4 @@
-import {
-  ChevronRight,
-  ChevronDown,
-  MapPin,
-  Sparkles,
-  Calendar,
-  Users,
-} from "lucide-react-native";
+import { ChevronRight, ChevronDown, MapPin, Sparkles, Calendar, Users } from "lucide-react-native";
 import type { Mass } from "~/lib/observanceManager";
 import { burgundy } from "config";
 import { Link } from "expo-router";

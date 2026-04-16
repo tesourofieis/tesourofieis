@@ -9,7 +9,7 @@ const NOTIFICATION_CACHE = "tesouro-notifications-v1";
 /**
  * Install event - set up notification handling
  */
-self.addEventListener("install", (event) => {
+self.addEventListener("install", (_event) => {
   console.log("📦 Notification Service Worker installing...");
   self.skipWaiting();
 });
