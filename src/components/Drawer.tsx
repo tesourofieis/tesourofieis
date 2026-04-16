@@ -1,23 +1,21 @@
 import {
   Building,
+  BookPlus,
   Cross,
   CalendarDays,
   MessageSquare,
   Settings,
+  Search,
   ChevronDown,
   ChevronRight,
-  FolderOpen,
-  Folder,
-  FileText,
-  File,
 } from "lucide-react-native";
 import { burgundy } from "config";
 import { usePathname, useRouter } from "expo-router";
 import React, { useCallback, useEffect, useMemo, useState } from "react";
-import { ActivityIndicator, FlatList, TouchableOpacity, useColorScheme, View } from "react-native";
-import { Typography } from "~/components/typography";
+import { ActivityIndicator, FlatList, Text, TouchableOpacity, useColorScheme, View } from "react-native";
 import { COLORS } from "~/constants/Colors";
 import { getAllTopLevelDocs, getChildren } from "~/services/search";
+import { useSearchModal } from "~/components/Search";
 
 interface StaticRoute {
   name: string;
@@ -59,7 +57,6 @@ export interface Docs {
 const ALL_STATIC_ROUTES: StaticRoute[] = [
   { name: "index", title: "Início", icon: "landmark" },
   { name: "calendario", title: "Calendário", icon: "calendar-days" },
-  { name: "configurar", title: "Configurar", icon: "gear" },
 ];
 
 const getIconComponent = (iconName: string) => {
@@ -75,7 +72,7 @@ const getIconComponent = (iconName: string) => {
     case "gear":
       return Settings;
     default:
-      return File;
+      return Building;
   }
 };
 
@@ -93,6 +90,9 @@ function pathsMatch(pathname: string, docUrl: string): boolean {
 
   return false;
 }
+
+const SIDEBAR_FONT = 'Cardo_400Regular';
+const SIDEBAR_SIZE = 13;
 
 const TreeItem = React.memo(
   ({
@@ -114,7 +114,7 @@ const TreeItem = React.memo(
     currentPathname: string;
     loadingIds: string[];
     childrenMap: Record<string, Docs[]>;
-    colors: { icon: string };
+    colors: { icon: string; active: string; activeBg: string };
     closeDrawer: () => void;
     flattenedDocs: Docs[];
   }) => {
@@ -135,79 +135,50 @@ const TreeItem = React.memo(
       }
     }, [children, doc.url, doc.id, router, toggleExpand, closeDrawer]);
 
-    const intro = doc.content.introduction ?? "";
-    const heading = doc.content.headings.length > 0 ? doc.content.headings[0]?.body || "" : "";
-    const description = !children ? intro || heading : "";
-
-    const iconSize = 12;
-    const chevronSize = 12;
-    const chevronWidth = chevronSize + 12;
+    const chevronSize = 11;
+    const chevronWidth = 20;
     const indent = level * chevronWidth;
 
     return (
       <TouchableOpacity
         onPress={handlePress}
-        className="flex-row items-center py-2 px-4 active:bg-sepia-300 dark:active:bg-sepia-700"
+        style={{
+          flexDirection: 'row',
+          alignItems: 'center',
+          paddingVertical: 5,
+          paddingHorizontal: 8,
+          paddingLeft: 8 + indent,
+          marginHorizontal: 4,
+          borderRadius: 6,
+          backgroundColor: isActive ? colors.activeBg : 'transparent',
+        }}
         accessibilityRole="button"
         accessibilityLabel={doc.title}
       >
-        {children && (
-          <View
-            style={{
-              marginLeft: indent,
-              width: chevronSize,
-              alignItems: "center",
-            }}
-          >
-            {loadingIds.includes(doc.id) ? (
+        {/* Chevron for expandable, small indent for leaves */}
+        <View style={{ width: chevronWidth, alignItems: 'center' }}>
+          {children ? (
+            loadingIds.includes(doc.id) ? (
               <ActivityIndicator size="small" />
             ) : isOpen ? (
-              <ChevronDown size={chevronSize} color={isActive ? burgundy[500] : colors.icon} />
+              <ChevronDown size={chevronSize} color={colors.icon} />
             ) : (
-              <ChevronRight size={chevronSize} color={isActive ? burgundy[500] : colors.icon} />
-            )}
-          </View>
-        )}
+              <ChevronRight size={chevronSize} color={colors.icon} />
+            )
+          ) : null}
+        </View>
 
-        <View
+        <Text
+          numberOfLines={1}
           style={{
-            width: iconSize,
-            alignItems: "center",
-            marginLeft: children ? 12 : indent + chevronWidth,
-            marginRight: 12,
+            fontFamily: SIDEBAR_FONT,
+            fontSize: SIDEBAR_SIZE,
+            color: isActive ? colors.active : colors.icon,
+            flex: 1,
           }}
         >
-          {children ? (
-            isOpen ? (
-              <FolderOpen size={iconSize} color={isActive ? burgundy[500] : colors.icon} />
-            ) : (
-              <Folder size={iconSize} color={isActive ? burgundy[500] : colors.icon} />
-            )
-          ) : isActive ? (
-            <FileText size={iconSize} color={isActive ? burgundy[500] : colors.icon} />
-          ) : (
-            <File size={iconSize} color={isActive ? burgundy[500] : colors.icon} />
-          )}
-        </View>
-
-        <View style={{ flex: 1 }}>
-          <>
-            <Typography
-              className={`text-sm bold ${
-                isActive
-                  ? "text-burgundy-600 dark:text-burgundy-400 bold"
-                  : "text-sepia-800 dark:text-sepia-200"
-              }`}
-            >
-              {doc.title}
-            </Typography>
-            {description && description !== doc.title && (
-              <Typography className="text-sepia-500 text-xs font-display" numberOfLines={1}>
-                {description}
-              </Typography>
-            )}
-          </>
-        </View>
+          {doc.title}
+        </Text>
       </TouchableOpacity>
     );
   },
@@ -217,6 +188,7 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
   const router = useRouter();
   const pathname = usePathname();
   const isDark = useColorScheme() === "dark";
+  const { toggleSearch } = useSearchModal();
 
   const [expanded, setExpanded] = useState<Record<string, boolean>>({});
   const [allDocs, setAllDocs] = useState<Docs[]>([]);
@@ -434,7 +406,9 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
 
   const colors = useMemo(
     () => ({
-      icon: isDark ? COLORS["300"] : COLORS["700"],
+      icon: isDark ? COLORS["400"] : COLORS["600"],
+      active: isDark ? burgundy[300] : burgundy[600],
+      activeBg: isDark ? COLORS["800"] : COLORS["200"],
     }),
     [isDark],
   );
@@ -456,53 +430,117 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
   );
 
   return (
-    <View className="flex-1 pt-3 soft-background">
-      {STATIC_ROUTES.map((route) => (
-        <TouchableOpacity
-          key={route.name}
-          onPress={() => handleStaticRoute(route.name)}
-          className={`flex-row items-center py-2 px-4 active:bg-sepia-300 dark:active:bg-sepia-700`}
-          accessibilityRole="button"
-          accessibilityLabel={route.title}
-        >
-          <View style={{ width: 18, alignItems: "center", marginRight: 12 }}>
-            {(() => {
-              const IconComponent = getIconComponent(route.icon);
-              return <IconComponent size={10} color={colors.icon} />;
-            })()}
-          </View>
-          <Typography className="text-sm bold text-sepia-800 dark:text-sepia-200">
-            {route.title}
-          </Typography>
-        </TouchableOpacity>
-      ))}
+    <View style={{ flex: 1, backgroundColor: isDark ? COLORS["900"] : COLORS["50"], justifyContent: 'space-between' }}>
+      <View style={{ flex: 1 }}>
 
-      {isLoadingInitialDocs ? (
-        <View className="flex-1 justify-center items-center">
-          <ActivityIndicator size="large" />
-          <Typography className="text-sepia-500 mt-2">A carregar documentos...</Typography>
+        {/* App wordmark — same font as everything else, just muted */}
+        <View style={{ paddingHorizontal: 12, paddingTop: 16, paddingBottom: 12 }}>
+          <Text style={{ fontFamily: SIDEBAR_FONT, fontSize: 11, color: COLORS["500"], letterSpacing: 0.5 }}>
+            Tesouro dos Fiéis
+          </Text>
         </View>
-      ) : (
-        <FlatList
-          ref={flatListRef}
-          data={flattenedDocs}
-          keyExtractor={(doc) => doc.id}
-          renderItem={({ item: doc }) => (
-            <TreeItem
-              doc={doc}
-              level={getItemLevel(doc)}
-              expanded={expanded}
-              toggleExpand={toggleExpand}
-              currentPathname={pathname}
-              loadingIds={loadingIds}
-              childrenMap={childrenMap}
-              colors={colors}
-              closeDrawer={navigation.closeDrawer}
-              flattenedDocs={flattenedDocs}
-            />
-          )}
-        />
-      )}
+
+        {/* Search action */}
+        <View style={{ paddingHorizontal: 4, paddingBottom: 4, borderBottomWidth: 1, borderBottomColor: isDark ? COLORS["700"] : COLORS["300"] }}>
+          <TouchableOpacity
+            onPress={toggleSearch}
+            style={{ flexDirection: 'row', alignItems: 'center', gap: 8, paddingVertical: 5, paddingHorizontal: 8, marginHorizontal: 4, borderRadius: 6 }}
+            accessibilityRole="button"
+            accessibilityLabel="Pesquisar"
+          >
+            <View style={{ width: 20, alignItems: 'center' }}>
+              <Search size={14} color={colors.icon} />
+            </View>
+            <Text style={{ fontFamily: SIDEBAR_FONT, fontSize: SIDEBAR_SIZE, color: colors.icon }}>
+              Pesquisar
+            </Text>
+          </TouchableOpacity>
+        </View>
+
+        {/* Primary nav */}
+        <View style={{ paddingHorizontal: 4, paddingTop: 8, paddingBottom: 4 }}>
+          {STATIC_ROUTES.map((route) => {
+            const isActiveRoute = pathname === (route.name === "index" ? "/" : `/${route.name}`);
+            const IconComponent = getIconComponent(route.icon);
+            return (
+              <TouchableOpacity
+                key={route.name}
+                onPress={() => handleStaticRoute(route.name)}
+                style={{
+                  flexDirection: 'row',
+                  alignItems: 'center',
+                  gap: 8,
+                  paddingVertical: 5,
+                  paddingHorizontal: 8,
+                  marginHorizontal: 4,
+                  marginVertical: 1,
+                  borderRadius: 6,
+                  backgroundColor: isActiveRoute ? colors.activeBg : 'transparent',
+                }}
+                accessibilityRole="button"
+                accessibilityLabel={route.title}
+              >
+                <View style={{ width: 20, alignItems: 'center' }}>
+                  <IconComponent size={14} color={isActiveRoute ? colors.active : colors.icon} />
+                </View>
+                <Text style={{ fontFamily: SIDEBAR_FONT, fontSize: SIDEBAR_SIZE, color: isActiveRoute ? colors.active : colors.icon }}>
+                  {route.title}
+                </Text>
+              </TouchableOpacity>
+            );
+          })}
+        </View>
+
+        {/* Section label */}
+        <Text style={{ fontFamily: SIDEBAR_FONT, fontSize: 10, color: COLORS["500"], letterSpacing: 1.5, textTransform: 'uppercase', paddingHorizontal: 12, paddingTop: 12, paddingBottom: 4 }}>
+          Biblioteca
+        </Text>
+
+        {/* Document tree */}
+        {isLoadingInitialDocs ? (
+          <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+            <ActivityIndicator size="large" />
+            <Text style={{ fontFamily: SIDEBAR_FONT, fontSize: SIDEBAR_SIZE, color: COLORS["500"], marginTop: 8 }}>A carregar...</Text>
+          </View>
+        ) : (
+          <FlatList
+            ref={flatListRef}
+            data={flattenedDocs}
+            keyExtractor={(doc) => doc.id}
+            renderItem={({ item: doc }) => (
+              <TreeItem
+                doc={doc}
+                level={getItemLevel(doc)}
+                expanded={expanded}
+                toggleExpand={toggleExpand}
+                currentPathname={pathname}
+                loadingIds={loadingIds}
+                childrenMap={childrenMap}
+                colors={colors}
+                closeDrawer={navigation.closeDrawer}
+                flattenedDocs={flattenedDocs}
+              />
+            )}
+          />
+        )}
+      </View>
+
+      {/* Footer */}
+      <View style={{ borderTopWidth: 1, borderTopColor: isDark ? COLORS["700"] : COLORS["300"], paddingHorizontal: 4, paddingVertical: 8 }}>
+        <TouchableOpacity
+          onPress={() => { navigation.closeDrawer(); router.push("/configurar"); }}
+          style={{ flexDirection: 'row', alignItems: 'center', gap: 8, paddingVertical: 5, paddingHorizontal: 8, marginHorizontal: 4, borderRadius: 6 }}
+          accessibilityRole="button"
+          accessibilityLabel="Configurações"
+        >
+          <View style={{ width: 20, alignItems: 'center' }}>
+            <Settings size={14} color={colors.icon} />
+          </View>
+          <Text style={{ fontFamily: SIDEBAR_FONT, fontSize: SIDEBAR_SIZE, color: colors.icon }}>
+            Configurações
+          </Text>
+        </TouchableOpacity>
+      </View>
     </View>
   );
 }

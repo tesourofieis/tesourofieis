@@ -2,7 +2,6 @@ import {
   ChevronRight,
   ChevronDown,
   MapPin,
-  Shirt,
   Sparkles,
   Calendar,
   Users,
@@ -24,11 +23,43 @@ export function getColor(color?: string) {
       return "green";
     case "v":
       return "violet";
+    case "vw":
+      return "#8b6090";
     case "b":
       return "black";
     default:
       return "gray";
   }
+}
+
+export function getBorderColor(color?: string) {
+  switch (color) {
+    case "w":
+      return "#d8d8cc";
+    case "r":
+      return burgundy[500];
+    case "g":
+      return "#3a7d50";
+    case "v":
+      return "#7a4d8a";
+    case "vw":
+      return "#9b6faa";
+    case "b":
+      return "#555550";
+    default:
+      return "#7c6f64";
+  }
+}
+
+function toRoman(n: number): string {
+  const map: Record<number, string> = { 1: "I", 2: "II", 3: "III", 4: "IV" };
+  return map[n] ?? String(n);
+}
+
+function massNameColor(rank: number): string {
+  if (rank === 1) return "text-sepia-800 dark:text-sepia-100";
+  if (rank === 2) return "text-sepia-700 dark:text-sepia-200";
+  return "text-sepia-600 dark:text-sepia-400";
 }
 
 export const cardBase = (pressed: boolean) => {
@@ -104,25 +135,48 @@ export default function PageLinkCard({
         <Link href={mass.link} asChild>
           <Pressable>
             {({ pressed }) => (
-              <View className={cardBase(pressed)}>
+              <View
+                className={cardBase(pressed)}
+                style={{
+                  borderLeftWidth: 4,
+                  borderLeftColor: getBorderColor(mass.color),
+                }}
+              >
                 <View className="flex flex-row justify-between items-center gap-1 mr-2">
                   <View className="flex-1">
-                    <View className="px-3 flex flex-row items-center gap-2">
-                      <Shirt size={15} color={getColor(mass.color)} />
-                      <Typography
-                        numberOfLines={1}
-                        className="font-display text-sepia-600 dark:text-sepia-200"
+                    {/* Pill badges: type + rank */}
+                    <View className="flex-row gap-1.5 mb-1.5">
+                      <View className="rounded-full px-2 py-0.5 bg-sepia-200 dark:bg-sepia-700">
+                        <Typography
+                          className="text-sepia-600 dark:text-sepia-300"
+                          style={{ fontSize: 9, letterSpacing: 0.8 }}
+                        >
+                          {description?.toUpperCase() || "MISSA"}
+                        </Typography>
+                      </View>
+                      <View
+                        className={`rounded-full px-2 py-0.5 ${
+                          mass.rank === 1
+                            ? "bg-burgundy-100 dark:bg-burgundy-900"
+                            : "bg-sepia-200 dark:bg-sepia-700"
+                        }`}
                       >
-                        {description || "Missa"}
-                      </Typography>
-                      <Typography className="text-sepia">|</Typography>
-
-                      <Typography className="font-display text-sepia-700 dark:text-sepia-200">
-                        Classe: {mass.rank}
-                      </Typography>
+                        <Typography
+                          className={`${
+                            mass.rank === 1
+                              ? "text-burgundy-700 dark:text-burgundy-200"
+                              : "text-sepia-500 dark:text-sepia-400"
+                          }`}
+                          style={{ fontSize: 9, letterSpacing: 0.8 }}
+                        >
+                          {toRoman(mass.rank)} CLASSE
+                        </Typography>
+                      </View>
                     </View>
 
-                    <Typography className="text-pretty bold text-base text-sepia-600 dark:text-sepia-300">
+                    <Typography
+                      className={`text-pretty bold text-base ${massNameColor(mass.rank)}`}
+                    >
                       {mass.name || ""}
                     </Typography>
 
