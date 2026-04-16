@@ -1,4 +1,17 @@
 {
   "$schema": "./node_modules/oxfmt/configuration_schema.json",
-  "ignorePatterns": []
+  "ignorePatterns": [
+    ".git",
+    ".expo",
+    ".turbo",
+    "node_modules",
+    "dist",
+    "android",
+    "ios",
+    "assets/docs.json",
+    "assets/search-index.json",
+    "public",
+    "coverage"
+  ],
+  "sortPackageJson": {}
 }

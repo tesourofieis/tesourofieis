@@ -12,8 +12,8 @@
     "android": "expo run:android",
     "ios": "expo run:ios",
     "build:web": "expo export --platform web",
-    "lint": "oxlint --type-aware && oxfmt --check && expo lint",
-    "lint:fix": "oxlint --type-aware --fix && oxfmt && expo lint --fix",
+    "lint": "oxlint . && oxfmt --check . && expo lint",
+    "lint:fix": "oxlint --fix . && oxfmt . && expo lint --fix",
     "format": "oxfmt --write .",
     "prebuild": "npx tsx ./scripts/build-search-index.ts && npx tsx ./scripts/generate-sitemap.ts",
     "dev": "npm run prebuild && expo start --clear",
@@ -21,7 +21,9 @@
     "update": "npx eas-cli update --auto --environment production",
     "test": "vitest .",
     "test:e2e": "playwright test",
-    "test:e2e:ui": "playwright test --ui"
+    "test:e2e:ui": "playwright test --ui",
+    "fmt": "oxfmt .",
+    "fmt:check": "oxfmt --check ."
   },
   "dependencies": {
     "@expo-google-fonts/cardo": "^0.4.1",
@@ -88,6 +90,8 @@
     "eslint": "^9.0.0",
     "eslint-config-expo": "~55.0.0",
     "expo-atlas": "^0.4.3",
+    "oxfmt": "^0.41.0",
+    "oxlint": "^1.56.0",
     "tailwindcss": "^4.1.16",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3",

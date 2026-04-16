@@ -101,8 +101,7 @@ function RootLayoutNav() {
   const colorScheme = useColorScheme();
   const isDarkMode = colorScheme === "dark";
   const isWeb = Platform.OS === "web";
-  const { width } = useWindowDimensions();
-  const isWebDesktop = isWeb && width >= 768;
+  const { width: _width } = useWindowDimensions();
 
   if (isWeb) {
     return (
@@ -283,7 +282,13 @@ const Breadcrumbs = () => {
   );
 };
 
-export const Header = ({ withBC, isWebDesktop = false }: { withBC: boolean; isWebDesktop?: boolean }) => {
+export const Header = ({
+  withBC,
+  isWebDesktop = false,
+}: {
+  withBC: boolean;
+  isWebDesktop?: boolean;
+}) => {
   const router = useRouter();
   const navigation = useNavigation();
   const { toggleSearch } = useSearchModal();

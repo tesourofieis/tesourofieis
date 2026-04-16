@@ -1,0 +1,28 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "ignorePatterns": [
+    ".git",
+    ".expo",
+    ".turbo",
+    "node_modules",
+    "dist",
+    "android",
+    "ios",
+    "assets/docs.json",
+    "assets/search-index.json",
+    "public",
+    "coverage"
+  ],
+  "plugins": ["eslint", "oxc", "react", "unicorn", "typescript"],
+  "categories": {
+    "correctness": "warn",
+    "suspicious": "warn",
+    "perf": "warn"
+  },
+  "rules": {
+    "react-in-jsx-scope": "off",
+    "eslint/no-shadow": "off",
+    "eslint/no-await-in-loop": "off",
+    "unicorn/no-array-sort": "off"
+  }
+}

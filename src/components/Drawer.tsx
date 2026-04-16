@@ -1,6 +1,5 @@
 import {
   Building,
-  BookPlus,
   Cross,
   CalendarDays,
   MessageSquare,
@@ -12,7 +11,14 @@ import {
 import { burgundy } from "config";
 import { usePathname, useRouter } from "expo-router";
 import React, { useCallback, useEffect, useMemo, useState } from "react";
-import { ActivityIndicator, FlatList, Text, TouchableOpacity, useColorScheme, View } from "react-native";
+import {
+  ActivityIndicator,
+  FlatList,
+  Text,
+  TouchableOpacity,
+  useColorScheme,
+  View,
+} from "react-native";
 import { COLORS } from "~/constants/Colors";
 import { getAllTopLevelDocs, getChildren } from "~/services/search";
 import { useSearchModal } from "~/components/Search";
@@ -91,7 +97,7 @@ function pathsMatch(pathname: string, docUrl: string): boolean {
   return false;
 }
 
-const SIDEBAR_FONT = 'Cardo_400Regular';
+const SIDEBAR_FONT = "Cardo_400Regular";
 const SIDEBAR_SIZE = 13;
 
 const TreeItem = React.memo(
@@ -102,10 +108,10 @@ const TreeItem = React.memo(
     toggleExpand,
     currentPathname,
     loadingIds,
-    childrenMap,
+    childrenMap: _childrenMap,
     colors,
     closeDrawer,
-    flattenedDocs,
+    flattenedDocs: _flattenedDocs,
   }: {
     doc: Docs;
     level: number;
@@ -143,20 +149,20 @@ const TreeItem = React.memo(
       <TouchableOpacity
         onPress={handlePress}
         style={{
-          flexDirection: 'row',
-          alignItems: 'center',
+          flexDirection: "row",
+          alignItems: "center",
           paddingVertical: 5,
           paddingHorizontal: 8,
           paddingLeft: 8 + indent,
           marginHorizontal: 4,
           borderRadius: 6,
-          backgroundColor: isActive ? colors.activeBg : 'transparent',
+          backgroundColor: isActive ? colors.activeBg : "transparent",
         }}
         accessibilityRole="button"
         accessibilityLabel={doc.title}
       >
         {/* Chevron for expandable, small indent for leaves */}
-        <View style={{ width: chevronWidth, alignItems: 'center' }}>
+        <View style={{ width: chevronWidth, alignItems: "center" }}>
           {children ? (
             loadingIds.includes(doc.id) ? (
               <ActivityIndicator size="small" />
@@ -345,7 +351,7 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
                     viewPosition: 0.3,
                   });
                   hasScrolledToActive.current = true;
-                } catch (err) {
+                } catch (_err) {
                   attemptScroll(attempt + 1);
                 }
               }
@@ -430,25 +436,52 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
   );
 
   return (
-    <View style={{ flex: 1, backgroundColor: isDark ? COLORS["900"] : COLORS["50"], justifyContent: 'space-between' }}>
+    <View
+      style={{
+        flex: 1,
+        backgroundColor: isDark ? COLORS["900"] : COLORS["50"],
+        justifyContent: "space-between",
+      }}
+    >
       <View style={{ flex: 1 }}>
-
         {/* App wordmark — same font as everything else, just muted */}
         <View style={{ paddingHorizontal: 12, paddingTop: 16, paddingBottom: 12 }}>
-          <Text style={{ fontFamily: SIDEBAR_FONT, fontSize: 11, color: COLORS["500"], letterSpacing: 0.5 }}>
+          <Text
+            style={{
+              fontFamily: SIDEBAR_FONT,
+              fontSize: 11,
+              color: COLORS["500"],
+              letterSpacing: 0.5,
+            }}
+          >
             Tesouro dos Fiéis
           </Text>
         </View>
 
         {/* Search action */}
-        <View style={{ paddingHorizontal: 4, paddingBottom: 4, borderBottomWidth: 1, borderBottomColor: isDark ? COLORS["700"] : COLORS["300"] }}>
+        <View
+          style={{
+            paddingHorizontal: 4,
+            paddingBottom: 4,
+            borderBottomWidth: 1,
+            borderBottomColor: isDark ? COLORS["700"] : COLORS["300"],
+          }}
+        >
           <TouchableOpacity
             onPress={toggleSearch}
-            style={{ flexDirection: 'row', alignItems: 'center', gap: 8, paddingVertical: 5, paddingHorizontal: 8, marginHorizontal: 4, borderRadius: 6 }}
+            style={{
+              flexDirection: "row",
+              alignItems: "center",
+              gap: 8,
+              paddingVertical: 5,
+              paddingHorizontal: 8,
+              marginHorizontal: 4,
+              borderRadius: 6,
+            }}
             accessibilityRole="button"
             accessibilityLabel="Pesquisar"
           >
-            <View style={{ width: 20, alignItems: 'center' }}>
+            <View style={{ width: 20, alignItems: "center" }}>
               <Search size={14} color={colors.icon} />
             </View>
             <Text style={{ fontFamily: SIDEBAR_FONT, fontSize: SIDEBAR_SIZE, color: colors.icon }}>
@@ -467,23 +500,29 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
                 key={route.name}
                 onPress={() => handleStaticRoute(route.name)}
                 style={{
-                  flexDirection: 'row',
-                  alignItems: 'center',
+                  flexDirection: "row",
+                  alignItems: "center",
                   gap: 8,
                   paddingVertical: 5,
                   paddingHorizontal: 8,
                   marginHorizontal: 4,
                   marginVertical: 1,
                   borderRadius: 6,
-                  backgroundColor: isActiveRoute ? colors.activeBg : 'transparent',
+                  backgroundColor: isActiveRoute ? colors.activeBg : "transparent",
                 }}
                 accessibilityRole="button"
                 accessibilityLabel={route.title}
               >
-                <View style={{ width: 20, alignItems: 'center' }}>
+                <View style={{ width: 20, alignItems: "center" }}>
                   <IconComponent size={14} color={isActiveRoute ? colors.active : colors.icon} />
                 </View>
-                <Text style={{ fontFamily: SIDEBAR_FONT, fontSize: SIDEBAR_SIZE, color: isActiveRoute ? colors.active : colors.icon }}>
+                <Text
+                  style={{
+                    fontFamily: SIDEBAR_FONT,
+                    fontSize: SIDEBAR_SIZE,
+                    color: isActiveRoute ? colors.active : colors.icon,
+                  }}
+                >
                   {route.title}
                 </Text>
               </TouchableOpacity>
@@ -492,15 +531,35 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
         </View>
 
         {/* Section label */}
-        <Text style={{ fontFamily: SIDEBAR_FONT, fontSize: 10, color: COLORS["500"], letterSpacing: 1.5, textTransform: 'uppercase', paddingHorizontal: 12, paddingTop: 12, paddingBottom: 4 }}>
+        <Text
+          style={{
+            fontFamily: SIDEBAR_FONT,
+            fontSize: 10,
+            color: COLORS["500"],
+            letterSpacing: 1.5,
+            textTransform: "uppercase",
+            paddingHorizontal: 12,
+            paddingTop: 12,
+            paddingBottom: 4,
+          }}
+        >
           Biblioteca
         </Text>
 
         {/* Document tree */}
         {isLoadingInitialDocs ? (
-          <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+          <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
             <ActivityIndicator size="large" />
-            <Text style={{ fontFamily: SIDEBAR_FONT, fontSize: SIDEBAR_SIZE, color: COLORS["500"], marginTop: 8 }}>A carregar...</Text>
+            <Text
+              style={{
+                fontFamily: SIDEBAR_FONT,
+                fontSize: SIDEBAR_SIZE,
+                color: COLORS["500"],
+                marginTop: 8,
+              }}
+            >
+              A carregar...
+            </Text>
           </View>
         ) : (
           <FlatList
@@ -526,14 +585,32 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
       </View>
 
       {/* Footer */}
-      <View style={{ borderTopWidth: 1, borderTopColor: isDark ? COLORS["700"] : COLORS["300"], paddingHorizontal: 4, paddingVertical: 8 }}>
+      <View
+        style={{
+          borderTopWidth: 1,
+          borderTopColor: isDark ? COLORS["700"] : COLORS["300"],
+          paddingHorizontal: 4,
+          paddingVertical: 8,
+        }}
+      >
         <TouchableOpacity
-          onPress={() => { navigation.closeDrawer(); router.push("/configurar"); }}
-          style={{ flexDirection: 'row', alignItems: 'center', gap: 8, paddingVertical: 5, paddingHorizontal: 8, marginHorizontal: 4, borderRadius: 6 }}
+          onPress={() => {
+            navigation.closeDrawer();
+            router.push("/configurar");
+          }}
+          style={{
+            flexDirection: "row",
+            alignItems: "center",
+            gap: 8,
+            paddingVertical: 5,
+            paddingHorizontal: 8,
+            marginHorizontal: 4,
+            borderRadius: 6,
+          }}
           accessibilityRole="button"
           accessibilityLabel="Configurações"
         >
-          <View style={{ width: 20, alignItems: 'center' }}>
+          <View style={{ width: 20, alignItems: "center" }}>
             <Settings size={14} color={colors.icon} />
           </View>
           <Text style={{ fontFamily: SIDEBAR_FONT, fontSize: SIDEBAR_SIZE, color: colors.icon }}>

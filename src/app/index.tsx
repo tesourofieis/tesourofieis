@@ -95,12 +95,13 @@ export default function PageRender() {
             >
               {format(date, "EEEE", { locale: pt })}
             </Typography>
-            <Typography className="font-display text-sepia-800 dark:text-sepia-100 leading-none mb-1" style={{ fontSize: 34 }}>
+            <Typography
+              className="font-display text-sepia-800 dark:text-sepia-100 leading-none mb-1"
+              style={{ fontSize: 34 }}
+            >
               {format(date, "d 'de' MMMM", { locale: pt })}
             </Typography>
-            <Typography className="text-xs text-sepia-500 dark:text-sepia-500">
-              {season}
-            </Typography>
+            <Typography className="text-xs text-sepia-500 dark:text-sepia-500">{season}</Typography>
 
             {day.mass?.map((item) => (
               <LinkCard key={item.id} mass={item} />
