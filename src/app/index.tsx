@@ -1,4 +1,4 @@
-import { BookPlus, Calendar, Clock } from "lucide-react-native";
+import { BookPlus } from "lucide-react-native";
 import { burgundy } from "config";
 import { format, getYear, isWithinInterval } from "date-fns";
 import { pt } from "date-fns/locale";
@@ -23,7 +23,7 @@ import { useCalendar } from "~/providers/calendar";
 import { useTodaysIndulgences } from "~/hooks/useTodaysIndulgences";
 
 export default function PageRender() {
-  const { day, date } = useCalendar();
+  const { day, date, season } = useCalendar();
   const colorScheme = useColorScheme();
   const pulseAnim = useRef(new Animated.Value(0)).current;
   const todaysIndulgences = useTodaysIndulgences();
@@ -82,15 +82,25 @@ export default function PageRender() {
             backgroundColor: bgColor,
           }}
         >
-          <View className="px-5 flex flex-col pb-3">
-            <View className="flex-row items-center">
-              <Calendar size={15} color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]} />
-              <Typography className="bold dark:text-sepia-200 text-left p-3 text-lg text-bold">
-                {format(date, "EEEE, dd MMMM", {
-                  locale: pt,
-                })}
-              </Typography>
-            </View>
+          <View
+            className="px-5 flex flex-col pb-5"
+            style={{
+              borderBottomWidth: 1,
+              borderBottomColor: colorScheme === "light" ? COLORS["300"] : COLORS["600"],
+            }}
+          >
+            <Typography
+              className="uppercase text-burgundy-500 dark:text-burgundy-400 mb-1"
+              style={{ fontSize: 11, letterSpacing: 3 }}
+            >
+              {format(date, "EEEE", { locale: pt })}
+            </Typography>
+            <Typography className="font-display text-sepia-800 dark:text-sepia-100 leading-none mb-1" style={{ fontSize: 34 }}>
+              {format(date, "d 'de' MMMM", { locale: pt })}
+            </Typography>
+            <Typography className="text-xs text-sepia-500 dark:text-sepia-500">
+              {season}
+            </Typography>
 
             {day.mass?.map((item) => (
               <LinkCard key={item.id} mass={item} />
@@ -100,15 +110,13 @@ export default function PageRender() {
             ))}
           </View>
 
-          <View className="px-5 flex flex-col pb-3">
-            <View className="flex-row items-center">
-              <Clock size={15} color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]} />
-              <Typography className="bold dark:text-sepia-200 text-left p-3 text-lg text-bold">
-                {format(date, "HH:mm", {
-                  locale: pt,
-                }).toUpperCase()}
-              </Typography>
-            </View>
+          <View className="px-5 flex flex-col pb-3 mt-5">
+            <Typography
+              className="uppercase text-burgundy-500 dark:text-burgundy-400 mb-3"
+              style={{ fontSize: 11, letterSpacing: 3 }}
+            >
+              {format(date, "HH:mm", { locale: pt })} · Orações
+            </Typography>
 
             <LinkCard
               oratio={{

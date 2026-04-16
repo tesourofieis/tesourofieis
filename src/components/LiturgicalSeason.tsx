@@ -430,11 +430,24 @@ const SEASON_COLORS: Record<Season, { bg: string; border: string; accent: string
   },
 };
 
+const SEASON_NOTES: Record<Season, string> = {
+  Advento: "Maranatha · Vem, Senhor Jesus",
+  Natal: "Gloria in Excelsis Deo",
+  Epifania: "Manifestação do Senhor aos Gentios",
+  Septuagésima: "Preparação para a Santa Quaresma",
+  Quaresma: "Jejum, Oração e Penitência",
+  Paixão: "Contemplação da Cruz de Cristo",
+  "Semana Santa": "Paixão, Morte e Sepultura de Cristo",
+  Páscoa: "Alleluia · Cristo Ressuscitou",
+  Pentecostes: "Veni Sancte Spiritus",
+};
+
 export default function LiturgicalSeason() {
   const colorScheme = useColorScheme();
   const { season } = useCalendar();
 
   const prayers = TEMPORAS_PRAYERS[season] || [];
+  const seasonNote = SEASON_NOTES[season] ?? "";
 
   if (prayers.length === 0) {
     return null;
@@ -442,18 +455,32 @@ export default function LiturgicalSeason() {
 
   const seasonColors = SEASON_COLORS[season];
   const iconColor = colorScheme === "light" ? COLORS["700"] : COLORS["300"];
+  const IconComponent = getIconComponent(CATEGORY_ICONS[season]);
 
   return (
     <View className="mt-2 gap-2 flex-1 px-5 h-full">
-      <View className="flex-row items-center justify-left gap-1">
-        {(() => {
-          const IconComponent = getIconComponent(CATEGORY_ICONS[season]);
-          return <IconComponent size={15} color={iconColor} />;
-        })()}
-
-        <Typography className={`text-pretty bold text-xl ${seasonColors.accent}`}>
-          {season}
-        </Typography>
+      {/* Season hero card */}
+      <View
+        className={`rounded-xl border mb-1 ${seasonColors.bg} ${seasonColors.border}`}
+        style={{ overflow: "hidden" }}
+      >
+        <View className="p-4">
+          <Typography
+            className="uppercase text-sepia-500 dark:text-sepia-500 mb-2"
+            style={{ fontSize: 10, letterSpacing: 3 }}
+          >
+            Tempo Litúrgico
+          </Typography>
+          <View className="flex-row items-center gap-2 mb-1">
+            <IconComponent size={18} color={iconColor} />
+            <Typography className={`font-display text-2xl ${seasonColors.accent}`}>
+              {season}
+            </Typography>
+          </View>
+          <Typography className="text-xs text-sepia-500 dark:text-sepia-500 italic">
+            {seasonNote}
+          </Typography>
+        </View>
       </View>
 
       <View>

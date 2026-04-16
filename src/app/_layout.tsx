@@ -112,7 +112,6 @@ function RootLayoutNav() {
           backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
         }}
       >
-        {isWebDesktop && <WebHeader />}
         <UpdateAwareDrawer />
         <StatusBar hidden backgroundColor={isDarkMode ? COLORS["800"] : COLORS["200"]} />
       </View>
@@ -132,46 +131,6 @@ function RootLayoutNav() {
   );
 }
 
-function WebHeader() {
-  const router = useRouter();
-  const pathname = usePathname();
-  const { toggleSearch } = useSearchModal();
-
-  const isRootScreen = ["index", "calendario", "ordo", "configurar"].some(
-    (screen) => pathname === `/${screen}` || pathname === "/",
-  );
-
-  return (
-    <View className="w-full border-b border-sepia z-10">
-      <View className="flex-row items-center justify-between p-3 gap-2 medium-background">
-        <View className="flex-row items-center gap-4 shrink">
-          <Pressable
-            className="p-2 items-center rounded-xl active:bg-sepia-200 dark:active:bg-sepia-700"
-            onPress={() => router.navigate("/")}
-            accessibilityRole="button"
-            accessibilityLabel="Ir para Início"
-          >
-            <BookPlus size={15} color={burgundy[500]} />
-          </Pressable>
-          {!isRootScreen && <Breadcrumbs />}
-        </View>
-        <Pressable
-          onPress={toggleSearch}
-          className="flex-row gap-1 p-2 items-center rounded-xl active:bg-sepia-300 dark:active:bg-sepia-700 soft-background"
-        >
-          {Platform.OS === "web" && (
-            <>
-              <Typography className="text-xs">Procurar</Typography>
-              <Typography className="text-xs text-sepia-500">Ctrl+k</Typography>
-            </>
-          )}
-          <Search size={15} color={burgundy[500]} />
-        </Pressable>
-      </View>
-    </View>
-  );
-}
-
 function UpdateAwareDrawer() {
   const colorScheme = useColorScheme();
   const isDarkMode = colorScheme === "dark";
@@ -183,11 +142,12 @@ function UpdateAwareDrawer() {
     <Drawer
       drawerContent={(props) => <CustomDrawer {...props} />}
       screenOptions={{
-        headerShown: !isWebDesktop,
+        headerShown: true,
         freezeOnBlur: true,
         header: ({ route }) => {
           const isRootScreen = ["index", "calendario", "ordo", "configurar"].includes(route.name);
-          return <Header withBC={!isRootScreen} />;
+          if (isRootScreen && isWebDesktop) return null;
+          return <Header withBC={!isRootScreen} isWebDesktop={isWebDesktop} />;
         },
         headerStyle: {
           backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
@@ -197,8 +157,9 @@ function UpdateAwareDrawer() {
         },
         drawerType: isWebDesktop ? "permanent" : "slide",
         drawerStyle: {
-          backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
-          borderRightWidth: 0,
+          backgroundColor: isDarkMode ? COLORS["900"] : COLORS["50"],
+          borderRightWidth: 1,
+          borderRightColor: isDarkMode ? COLORS["700"] : COLORS["300"],
           width: 250,
         },
         drawerInactiveTintColor: isDarkMode ? COLORS["200"] : COLORS["800"],
@@ -322,39 +283,48 @@ const Breadcrumbs = () => {
   );
 };
 
-export const Header = ({ withBC }: { withBC: boolean }) => {
+export const Header = ({ withBC, isWebDesktop = false }: { withBC: boolean; isWebDesktop?: boolean }) => {
   const router = useRouter();
   const navigation = useNavigation();
   const { toggleSearch } = useSearchModal();
+
+  // On web desktop sub-pages: thin breadcrumb bar only, inside the content panel
+  if (isWebDesktop && withBC) {
+    return (
+      <View className="flex-row items-center px-5 py-2.5 border-b border-sepia-200 dark:border-sepia-700 medium-background">
+        <Breadcrumbs />
+      </View>
+    );
+  }
 
   if (withBC) {
     return (
       <View className="flex-row items-center justify-between p-3 gap-2 medium-background w-full border-b border-sepia">
         <View className="flex-row items-center justify-between flex-1">
-          <View className="flex-row gap-4 items-center shrink">
+          <View className="flex-row gap-3 items-center shrink">
             <Pressable
-              className="p-2 items-center rounded-xl active:bg-sepia-400 dark:active:bg-sepia-700 soft-background"
+              className="flex items-center justify-center w-9 h-9 rounded-xl active:bg-sepia-400 dark:active:bg-sepia-700 soft-background"
               // @ts-expect-error
               onPress={() => navigation.openDrawer()}
             >
-              <Menu size={15} color={burgundy[500]} />
+              <Menu size={18} color={burgundy[500]} />
             </Pressable>
 
             <Pressable
-              className="p-2 items-center rounded-xl active:bg-sepia-200 dark:active:bg-sepia-700"
+              className="flex items-center justify-center w-9 h-9 rounded-xl active:bg-sepia-200 dark:active:bg-sepia-700"
               onPress={() => router.navigate("/")}
               accessibilityRole="button"
               accessibilityLabel="Ir para Início"
             >
-              <BookPlus size={15} color={burgundy[500]} />
+              <BookPlus size={18} color={burgundy[500]} />
             </Pressable>
             <Breadcrumbs />
           </View>
           <Pressable
             onPress={toggleSearch}
-            className="p-2 items-center rounded-xl active:bg-sepia-400 dark:active:bg-sepia-700 soft-background"
+            className="flex items-center justify-center w-9 h-9 rounded-xl active:bg-sepia-400 dark:active:bg-sepia-700 soft-background"
           >
-            <Search size={15} color={burgundy[500]} />
+            <Search size={18} color={burgundy[500]} />
           </Pressable>
         </View>
       </View>
@@ -364,25 +334,25 @@ export const Header = ({ withBC }: { withBC: boolean }) => {
   return (
     <View className="flex-row items-center justify-between p-3 gap-2 w-full border-b border-sepia">
       <Pressable
-        className="p-2 items-center rounded-xl active:bg-sepia-400 dark:active:bg-sepia-700 soft-background"
+        className="flex items-center justify-center w-9 h-9 rounded-xl active:bg-sepia-400 dark:active:bg-sepia-700 soft-background"
         // @ts-expect-error
         onPress={() => navigation.openDrawer()}
       >
-        <Menu size={15} color={burgundy[500]} />
+        <Menu size={18} color={burgundy[500]} />
       </Pressable>
       <Pressable
-        className="p-2 items-center rounded-xl active:bg-sepia-200 dark:active:bg-sepia-700"
+        className="flex items-center justify-center w-9 h-9 rounded-xl active:bg-sepia-200 dark:active:bg-sepia-700"
         onPress={() => router.navigate("/")}
         accessibilityRole="button"
         accessibilityLabel="Ir para Início"
       >
-        <BookPlus size={15} color={burgundy[500]} />
+        <BookPlus size={18} color={burgundy[500]} />
       </Pressable>
       <Pressable
         onPress={toggleSearch}
-        className="p-2 items-center rounded-xl active:bg-sepia-100 dark:active:bg-sepia-700 soft-background"
+        className="flex items-center justify-center w-9 h-9 rounded-xl active:bg-sepia-100 dark:active:bg-sepia-700 soft-background"
       >
-        <Search size={15} color={burgundy[500]} />
+        <Search size={18} color={burgundy[500]} />
       </Pressable>
     </View>
   );
