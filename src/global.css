@@ -52,6 +52,9 @@
   --font-family-bold: "Cardo_700Bold", Georgia, "Times New Roman", Times, serif;
   --font-family-italic:
     "DMSerifDisplay_400Regular_Italic", Georgia, "Times New Roman", Times, serif;
+
+  /* Typography rhythm — used across all content utilities */
+  --line-height-base: 1.75;
 }
 
 @layer base {
@@ -150,31 +153,31 @@
 
 @utility bold {
   font-family: var(--font-family-bold);
-  @apply text-sepia;
+  @apply leading-7 text-sepia;
 }
 
 @utility list-styled {
   @apply p-2;
 }
 
+/* Body text — generic prose paragraphs */
 @utility text-pretty {
-  line-height: var(--line-height-base);
+  @apply leading-7 py-2 px-4;
   text-rendering: optimizeLegibility;
-  @apply py-2 px-3;
 }
 
+/* Latin — the primary sacred text. Full brightness, generous leading. */
 @utility latin {
-  line-height: var(--line-height-base);
+  @apply leading-7 py-1.5 px-4 text-sepia-900 dark:text-sepia-100;
   font-family: var(--font-family-reading);
   text-rendering: optimizeLegibility;
-  @apply py-2 px-3 text-sepia;
 }
 
+/* Vernacular — the translation. Same reading font, slightly muted to signal secondary status. */
 @utility vernacular {
-  line-height: var(--line-height-base);
+  @apply leading-7 py-1.5 px-4 text-sepia-600 dark:text-sepia-300;
   font-family: var(--font-family-reading);
   text-rendering: optimizeLegibility;
-  @apply py-2 px-3 text-sepia;
 }
 
 @utility font-serif {
@@ -185,6 +188,7 @@
   font-family: var(--font-family-italic);
 }
 
+/* Liturgical cross mark ✅ */
 @utility cross {
   @apply text-burgundy-500;
 }
@@ -205,31 +209,45 @@
   @apply bg-sepia-300 dark:bg-sepia-700 shadow-sm;
 }
 
+@utility link {
+  @apply underline text-sepia-800 dark:text-sepia-200;
+}
+
+/* ℣ Versicle — call marker. Burgundy like response — they’re a pair. */
+@utility versicle {
+  font-family: var(--font-family-bold);
+  @apply text-burgundy-500;
+}
+
+/* ℟ Response */
 @utility response {
   font-family: var(--font-family-bold);
   @apply text-burgundy-500;
 }
 
-@utility versicle {
-  font-family: var(--font-family-bold);
-  @apply text-sepia;
-}
-
-@utility link {
-  @apply underline text-sepia-800 dark:text-sepia-200;
-}
-
-@utility aside {
-  font-family: var(--font-family-italic);
-  @apply m-2 text-pretty rounded-xl p-4 my-4 border-l-4 border-sepia-500 bg-sepia-400 text-sepia-600 dark:bg-sepia-700 dark:text-sepia-300;
-}
-
-@utility comment {
-  font-family: var(--font-family-italic);
-  @apply m-2 text-pretty rounded-xl p-4 my-4 border-l-4 border-burgundy-500 bg-sepia-300 text-sepia-800 dark:border-burgundy-700 dark:bg-sepia-700 dark:text-sepia-200;
-}
-
+/* Scripture citation — e.g. “Sl. 24, 1–3”. Quiet italic reference, not a UI badge. */
 @utility em {
   font-family: var(--font-family-italic);
-  @apply mx-1 text-pretty rounded-xl px-3 py-2 bg-sepia-200 text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
+  @apply text-sepia-500 dark:text-sepia-400 px-4 pt-2 pb-0;
+  letter-spacing: 0.02em;
+}
+
+/* Liturgical aside — meditational annotation, e.g. Matinas sidebar */
+@utility aside {
+  font-family: var(--font-family-italic);
+  @apply leading-7 mx-3 my-4 px-4 py-3 rounded-lg;
+  @apply border-l-4 border-sepia-400 dark:border-sepia-600;
+  @apply bg-sepia-200 dark:bg-sepia-800;
+  @apply text-sepia-700 dark:text-sepia-300;
+  text-rendering: optimizeLegibility;
+}
+
+/* Editorial comment — rubric-style note with burgundy accent */
+@utility comment {
+  font-family: var(--font-family-italic);
+  @apply leading-7 mx-3 my-4 px-4 py-3 rounded-lg;
+  @apply border-l-4 border-burgundy-400 dark:border-burgundy-700;
+  @apply bg-sepia-100 dark:bg-sepia-800;
+  @apply text-sepia-800 dark:text-sepia-200;
+  text-rendering: optimizeLegibility;
 }

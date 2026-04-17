@@ -6,12 +6,14 @@ import { useEffect, useRef } from "react";
 import {
   Animated,
   Platform,
+  Pressable,
   ScrollView,
   useColorScheme,
   useWindowDimensions,
   View,
 } from "react-native";
 import ExternalLinks from "~/components/External";
+import { DatePicker } from "~/components/DatePicker";
 import { H1 } from "~/components/Headings";
 import LinkCard from "~/components/LinkCard";
 import LiturgicalSeason from "~/components/LiturgicalSeason";
@@ -23,33 +25,9 @@ import { useCalendar } from "~/providers/calendar";
 import { useTodaysIndulgences } from "~/hooks/useTodaysIndulgences";
 
 export default function PageRender() {
-  const { day, date, season } = useCalendar();
+  const { day, date, season, setDate, resetToToday, isCustomDate } = useCalendar();
   const colorScheme = useColorScheme();
-  const pulseAnim = useRef(new Animated.Value(0)).current;
   const todaysIndulgences = useTodaysIndulgences();
-
-  useEffect(() => {
-    Animated.loop(
-      Animated.sequence([
-        Animated.timing(pulseAnim, {
-          toValue: 1,
-          duration: 5000,
-          useNativeDriver: false,
-        }),
-        Animated.timing(pulseAnim, {
-          toValue: 0,
-          duration: 5000,
-          useNativeDriver: false,
-        }),
-      ]),
-    ).start();
-  }, []);
-
-  const bgColor = pulseAnim.interpolate({
-    inputRange: [0, 1],
-    outputRange:
-      colorScheme === "light" ? [COLORS["100"], COLORS["200"]] : [COLORS["900"], COLORS["700"]],
-  });
 
   function getPrayer(date: Date) {
     const hour = date.getHours();
@@ -74,35 +52,84 @@ export default function PageRender() {
           <H1 text="Tesouro dos Fiéis" />
         </View>
 
-        <Animated.View
+        <View
           className={`flex-1 ${!isWebDesktop ? "" : "web:mx-auto"} py-5 p-3 rounded-lg`}
           style={{
             borderWidth: 1,
             borderColor: colorScheme === "light" ? COLORS["200"] : COLORS["800"],
-            backgroundColor: bgColor,
+            backgroundColor: colorScheme === "light" ? COLORS["50"] : COLORS["900"],
           }}
         >
+          {/* Liturgical day header — missal style: rules framing pure typography */}
           <View
-            className="px-5 flex flex-col pb-5"
             style={{
+              borderTopWidth: 1,
               borderBottomWidth: 1,
-              borderBottomColor: colorScheme === "light" ? COLORS["300"] : COLORS["600"],
+              borderColor: colorScheme === "light" ? COLORS["300"] : COLORS["600"],
+              paddingTop: 16,
+              paddingBottom: 18,
+              paddingHorizontal: 20,
+              marginBottom: 4,
             }}
           >
+            {/* Feria label — tracked small-caps, burgundy */}
             <Typography
-              className="uppercase text-burgundy-500 dark:text-burgundy-400 mb-1"
-              style={{ fontSize: 11, letterSpacing: 3 }}
+              className="uppercase text-burgundy-500 dark:text-burgundy-400"
+              style={{ fontSize: 10, letterSpacing: 4, marginBottom: 6 }}
             >
               {format(date, "EEEE", { locale: pt })}
             </Typography>
-            <Typography
-              className="font-display text-sepia-800 dark:text-sepia-100 leading-none mb-1"
-              style={{ fontSize: 34 }}
-            >
-              {format(date, "d 'de' MMMM", { locale: pt })}
-            </Typography>
-            <Typography className="text-xs text-sepia-500 dark:text-sepia-500">{season}</Typography>
 
+            {/* The date itself — tappable, large display serif */}
+            <DatePicker date={date} onDateChange={setDate}>
+              <Typography
+                className={`font-display leading-none ${
+                  isCustomDate
+                    ? "text-burgundy-600 dark:text-burgundy-400"
+                    : "text-sepia-800 dark:text-sepia-100"
+                }`}
+                style={{
+                  fontSize: 38,
+                  marginBottom: 10,
+                  textDecorationLine: "underline",
+                  textDecorationStyle: "solid",
+                  textDecorationColor:
+                    colorScheme === "light"
+                      ? isCustomDate
+                        ? burgundy[600]
+                        : COLORS["800"]
+                      : isCustomDate
+                        ? burgundy[400]
+                        : COLORS["100"],
+                }}
+              >
+                {format(date, "d 'de' MMMM", { locale: pt })}
+              </Typography>
+            </DatePicker>
+
+            {/* Season — italic, like a liturgical subtitle */}
+            <Typography
+              className="font-italic text-sepia-500 dark:text-sepia-400"
+              style={{ fontSize: 13 }}
+            >
+              {season}
+            </Typography>
+
+            {/* Rubric: when on custom date, a small italic note to return */}
+            {isCustomDate && (
+              <Pressable onPress={resetToToday} accessibilityLabel="Voltar a hoje">
+                <Typography
+                  className="font-italic text-burgundy-500 dark:text-burgundy-400"
+                  style={{ fontSize: 11, marginTop: 6 }}
+                >
+                  † voltar ao dia de hoje
+                </Typography>
+              </Pressable>
+            )}
+          </View>
+
+          {/* Mass cards — sit directly below the day header, inside the animated container */}
+          <View className="px-5 pt-2 pb-4">
             {day.mass?.map((item) => (
               <LinkCard key={item.id} mass={item} />
             ))}
@@ -111,7 +138,15 @@ export default function PageRender() {
             ))}
           </View>
 
-          <View className="px-5 flex flex-col pb-3 mt-5">
+          <View
+            style={{
+              height: 1,
+              backgroundColor: colorScheme === "light" ? COLORS["300"] : COLORS["600"],
+              marginHorizontal: 20,
+            }}
+          />
+
+          <View className="px-5 flex flex-col pt-5 pb-4">
             <Typography
               className="uppercase text-burgundy-500 dark:text-burgundy-400 mb-3"
               style={{ fontSize: 11, letterSpacing: 3 }}
@@ -181,12 +216,28 @@ export default function PageRender() {
             )}
           </View>
 
+          <View
+            style={{
+              height: 1,
+              backgroundColor: colorScheme === "light" ? COLORS["300"] : COLORS["600"],
+              marginHorizontal: 20,
+            }}
+          />
+
           <View className="pb-3">
             <LiturgicalSeason />
           </View>
 
+          <View
+            style={{
+              height: 1,
+              backgroundColor: colorScheme === "light" ? COLORS["300"] : COLORS["600"],
+              marginHorizontal: 20,
+            }}
+          />
+
           <ExternalLinks />
-        </Animated.View>
+        </View>
       </View>
     </ScrollView>
   );
