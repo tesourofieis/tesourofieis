@@ -2,9 +2,7 @@ import { BookPlus } from "lucide-react-native";
 import { burgundy } from "config";
 import { format, getYear, isWithinInterval } from "date-fns";
 import { pt } from "date-fns/locale";
-import { useEffect, useRef } from "react";
 import {
-  Animated,
   Platform,
   Pressable,
   ScrollView,
