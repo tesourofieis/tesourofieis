@@ -22,19 +22,39 @@ const CalendarContext = createContext<
       novenas?: Mass[] | undefined;
       date: Date;
       season: LiturgicalSeason;
+      isCustomDate: boolean;
+      setDate: (date: Date) => void;
+      resetToToday: () => void;
     }
   | undefined
 >(undefined);
 
 export function CalendarProvider({ children }: PropsWithChildren) {
-  const [date, setDate] = useState(new Date());
+  const [autoDate, setAutoDate] = useState(new Date());
+  const [userDate, setUserDate] = useState<Date | null>(null);
+
+  const date = userDate ?? autoDate;
+  const isCustomDate = userDate !== null;
 
   useEffect(() => {
     const timer = setInterval(() => {
-      setDate(new Date());
+      setAutoDate(new Date());
     }, 60000);
     return () => clearInterval(timer);
   }, []);
+
+  const setDate = (d: Date) => {
+    // Preserve the current clock time — only the calendar date changes
+    const withTime = new Date(d);
+    withTime.setHours(
+      autoDate.getHours(),
+      autoDate.getMinutes(),
+      autoDate.getSeconds(),
+      autoDate.getMilliseconds(),
+    );
+    setUserDate(withTime);
+  };
+  const resetToToday = () => setUserDate(null);
 
   const currentYear = getYear(date);
   const currentMonth = getMonth(date);
@@ -77,7 +97,9 @@ export function CalendarProvider({ children }: PropsWithChildren) {
   }
 
   return (
-    <CalendarContext.Provider value={{ mass, day, calendar, novenas, date, season }}>
+    <CalendarContext.Provider
+      value={{ mass, day, calendar, novenas, date, season, isCustomDate, setDate, resetToToday }}
+    >
       {children}
     </CalendarContext.Provider>
   );

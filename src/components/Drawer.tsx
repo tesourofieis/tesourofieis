@@ -1,13 +1,4 @@
-import {
-  Building,
-  Cross,
-  CalendarDays,
-  MessageSquare,
-  Settings,
-  Search,
-  ChevronDown,
-  ChevronRight,
-} from "lucide-react-native";
+import { Settings, Search, ChevronDown, ChevronRight } from "lucide-react-native";
 import { burgundy } from "config";
 import { usePathname, useRouter } from "expo-router";
 import React, { useCallback, useEffect, useMemo, useState } from "react";
@@ -22,12 +13,6 @@ import {
 import { COLORS } from "~/constants/Colors";
 import { getAllTopLevelDocs, getChildren } from "~/services/search";
 import { useSearchModal } from "~/components/Search";
-
-interface StaticRoute {
-  name: string;
-  title: string;
-  icon: string;
-}
 
 interface CustomDrawerContentProps {
   navigation: {
@@ -59,28 +44,6 @@ export interface Docs {
   keywords: string[]; // Minimal keyword array instead of searchBlob
   hasChildren: boolean;
 }
-
-const ALL_STATIC_ROUTES: StaticRoute[] = [
-  { name: "index", title: "Início", icon: "landmark" },
-  { name: "calendario", title: "Calendário", icon: "calendar-days" },
-];
-
-const getIconComponent = (iconName: string) => {
-  switch (iconName) {
-    case "landmark":
-      return Building;
-    case "cross":
-      return Cross;
-    case "calendar-days":
-      return CalendarDays;
-    case "comment-medical":
-      return MessageSquare;
-    case "gear":
-      return Settings;
-    default:
-      return Building;
-  }
-};
 
 function normalizePathForMatching(path: string): string {
   return path.replace(/\/\([^)]+\)/g, "");
@@ -202,11 +165,6 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
 
   const flatListRef = React.useRef<FlatList>(null);
   const hasScrolledToActive = React.useRef(false);
-
-  const STATIC_ROUTES = useMemo(() => {
-    // All static routes are now available on all platforms including web
-    return ALL_STATIC_ROUTES;
-  }, []);
 
   useEffect(() => {
     if (allDocs.length === 0) {
@@ -401,15 +359,6 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
     [expanded, allDocs],
   );
 
-  const handleStaticRoute = useCallback(
-    (routeName: string) => {
-      navigation.closeDrawer();
-      // @ts-ignore
-      router.push(`/${routeName === "index" ? "" : routeName}` as const);
-    },
-    [router, navigation],
-  );
-
   const colors = useMemo(
     () => ({
       icon: isDark ? COLORS["400"] : COLORS["600"],
@@ -444,8 +393,16 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
       }}
     >
       <View style={{ flex: 1 }}>
-        {/* App wordmark — same font as everything else, just muted */}
-        <View style={{ paddingHorizontal: 12, paddingTop: 16, paddingBottom: 12 }}>
+        {/* App wordmark — tappable, navigates to root */}
+        <TouchableOpacity
+          onPress={() => {
+            navigation.closeDrawer();
+            router.push("/");
+          }}
+          style={{ paddingHorizontal: 12, paddingTop: 16, paddingBottom: 12 }}
+          accessibilityRole="link"
+          accessibilityLabel="Início"
+        >
           <Text
             style={{
               fontFamily: SIDEBAR_FONT,
@@ -456,7 +413,7 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
           >
             Tesouro dos Fiéis
           </Text>
-        </View>
+        </TouchableOpacity>
 
         {/* Search action */}
         <View
@@ -489,62 +446,6 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
             </Text>
           </TouchableOpacity>
         </View>
-
-        {/* Primary nav */}
-        <View style={{ paddingHorizontal: 4, paddingTop: 8, paddingBottom: 4 }}>
-          {STATIC_ROUTES.map((route) => {
-            const isActiveRoute = pathname === (route.name === "index" ? "/" : `/${route.name}`);
-            const IconComponent = getIconComponent(route.icon);
-            return (
-              <TouchableOpacity
-                key={route.name}
-                onPress={() => handleStaticRoute(route.name)}
-                style={{
-                  flexDirection: "row",
-                  alignItems: "center",
-                  gap: 8,
-                  paddingVertical: 5,
-                  paddingHorizontal: 8,
-                  marginHorizontal: 4,
-                  marginVertical: 1,
-                  borderRadius: 6,
-                  backgroundColor: isActiveRoute ? colors.activeBg : "transparent",
-                }}
-                accessibilityRole="button"
-                accessibilityLabel={route.title}
-              >
-                <View style={{ width: 20, alignItems: "center" }}>
-                  <IconComponent size={14} color={isActiveRoute ? colors.active : colors.icon} />
-                </View>
-                <Text
-                  style={{
-                    fontFamily: SIDEBAR_FONT,
-                    fontSize: SIDEBAR_SIZE,
-                    color: isActiveRoute ? colors.active : colors.icon,
-                  }}
-                >
-                  {route.title}
-                </Text>
-              </TouchableOpacity>
-            );
-          })}
-        </View>
-
-        {/* Section label */}
-        <Text
-          style={{
-            fontFamily: SIDEBAR_FONT,
-            fontSize: 10,
-            color: COLORS["500"],
-            letterSpacing: 1.5,
-            textTransform: "uppercase",
-            paddingHorizontal: 12,
-            paddingTop: 12,
-            paddingBottom: 4,
-          }}
-        >
-          Biblioteca
-        </Text>
 
         {/* Document tree */}
         {isLoadingInitialDocs ? (

@@ -1,14 +1,14 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { yyyyMMDD } from "~/lib/utils";
 import { burgundy } from "config";
-import { addDays, subDays } from "date-fns";
+import { addDays, isWithinInterval, parseISO, subDays } from "date-fns";
 import * as Application from "expo-application";
 import * as IntentLauncher from "expo-intent-launcher";
 import * as Linking from "expo-linking";
 import * as Notifications from "expo-notifications";
 import { useRouter } from "expo-router";
 import type React from "react";
-import { createContext, useCallback, useContext, useEffect, useState } from "react";
+import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
 import { Alert, Platform } from "react-native";
 import { useCalendar } from "./calendar";
 import { webNotificationService } from "~/services/webNotifications";
@@ -119,7 +119,26 @@ const SettingsContext = createContext<SettingsContextType | undefined>(undefined
 
 export function SettingsProvider({ children }: React.PropsWithChildren) {
   const router = useRouter();
-  const { calendar, novenas } = useCalendar();
+  const { calendar } = useCalendar();
+
+  // Always use real clock for notification scheduling — never the user-selected display date.
+  // If we used context `novenas` here, changing the date picker would retrigger syncNotifications
+  // with the wrong 9-day window and corrupt scheduled novena notifications.
+  const novenas = useMemo(() => {
+    const today = new Date();
+    const endDate = addDays(today, 9);
+    const result: { name: string; date?: string; link: string; novena?: boolean }[] = [];
+    for (const calDay of calendar) {
+      const dayDate = parseISO(calDay.date);
+      if (isWithinInterval(dayDate, { start: today, end: endDate })) {
+        const dayNovenas = calDay.mass
+          .filter((m) => m.novena)
+          .map((m) => ({ ...m, date: yyyyMMDD(dayDate) }));
+        result.push(...dayNovenas);
+      }
+    }
+    return result;
+  }, [calendar]);
   const isWeb = Platform.OS === "web";
 
   const [settings, setSettings] = useState<Settings>(DEFAULT_SETTINGS);

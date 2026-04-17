@@ -144,7 +144,7 @@ function UpdateAwareDrawer() {
         headerShown: true,
         freezeOnBlur: true,
         header: ({ route }) => {
-          const isRootScreen = ["index", "calendario", "ordo", "configurar"].includes(route.name);
+          const isRootScreen = ["index", "configurar"].includes(route.name);
           if (isRootScreen && isWebDesktop) return null;
           return <Header withBC={!isRootScreen} isWebDesktop={isWebDesktop} />;
         },
