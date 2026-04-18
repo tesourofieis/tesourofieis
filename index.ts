@@ -1,6 +1,6 @@
 import "expo-router/entry";
 
-import * as Notifications from "expo-notifications";
+import { Notifications } from "./src/services/notifications";
 
 Notifications.setNotificationHandler({
   handleNotification: async () => ({

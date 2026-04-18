@@ -5,12 +5,13 @@ import { addDays, isWithinInterval, parseISO, subDays } from "date-fns";
 import * as Application from "expo-application";
 import * as IntentLauncher from "expo-intent-launcher";
 import * as Linking from "expo-linking";
-import * as Notifications from "expo-notifications";
+import type * as ExpoNotifications from "expo-notifications";
 import { useRouter } from "expo-router";
 import type React from "react";
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
 import { Alert, Platform } from "react-native";
 import { useCalendar } from "./calendar";
+import { Notifications, nativeNotificationsAvailable } from "~/services/notifications";
 import { webNotificationService } from "~/services/webNotifications";
 import { FIXED_INDULGENCES, getMovableIndulgence } from "~/lib/indulgences";
 
@@ -108,8 +109,8 @@ type SettingsContextType = {
   settings: Settings;
   isLoading: boolean;
   setNotificationPref: (key: keyof typeof prefKeyMap, enabled: boolean) => Promise<void>;
-  list: Notifications.NotificationRequest[];
-  permissionStatus: Notifications.PermissionStatus;
+  list: ExpoNotifications.NotificationRequest[];
+  permissionStatus: ExpoNotifications.PermissionStatus;
   requestPermission: () => Promise<boolean>;
   openSettings: () => Promise<void>;
   isSoftRejected: boolean;
@@ -143,8 +144,8 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
 
   const [settings, setSettings] = useState<Settings>(DEFAULT_SETTINGS);
   const [isLoading, setIsLoading] = useState(!isWeb);
-  const [list, setList] = useState<Notifications.NotificationRequest[]>([]);
-  const [permissionStatus, setPermissionStatus] = useState<Notifications.PermissionStatus>(
+  const [list, setList] = useState<ExpoNotifications.NotificationRequest[]>([]);
+  const [permissionStatus, setPermissionStatus] = useState<ExpoNotifications.PermissionStatus>(
     Notifications.PermissionStatus.UNDETERMINED,
   );
 
@@ -201,9 +202,16 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
       return status;
     }
 
-    const { status } = await Notifications.getPermissionsAsync();
-    setPermissionStatus(status);
-    return status;
+    if (!nativeNotificationsAvailable) {
+      setPermissionStatus(Notifications.PermissionStatus.DENIED);
+      return Notifications.PermissionStatus.DENIED;
+    }
+
+    const permissions = (await Notifications.getPermissionsAsync()) as {
+      status: ExpoNotifications.PermissionStatus;
+    };
+    setPermissionStatus(permissions.status);
+    return permissions.status;
   }, [isWeb]);
 
   const openSettings = useCallback(async () => {
@@ -228,7 +236,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
   }, [isWeb]);
 
   const scheduleNotification = useCallback(
-    async (notification: Notifications.NotificationRequestInput, identifier: string) => {
+    async (notification: ExpoNotifications.NotificationRequestInput, identifier: string) => {
       if (permissionStatus !== "granted") return;
 
       if (isWeb) {
@@ -290,6 +298,8 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
       }
 
       // Mobile notifications
+      if (!nativeNotificationsAvailable) return;
+
       await Notifications.scheduleNotificationAsync({
         ...notification,
         identifier,
@@ -304,7 +314,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
     if (permissionStatus !== "granted" || !settings) {
       if (isWeb) {
         webNotificationService.cancelAllScheduledNotifications();
-      } else {
+      } else if (nativeNotificationsAvailable) {
         await Notifications.cancelAllScheduledNotificationsAsync();
       }
       setList([]);
@@ -314,7 +324,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
     // Clear existing notifications
     if (isWeb) {
       webNotificationService.cancelAllScheduledNotifications();
-    } else {
+    } else if (nativeNotificationsAvailable) {
       await Notifications.cancelAllScheduledNotificationsAsync();
     }
 
@@ -554,6 +564,11 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
       return;
     }
 
+    if (!nativeNotificationsAvailable) {
+      setList([]);
+      return;
+    }
+
     const scheduled = await Notifications.getAllScheduledNotificationsAsync();
     setList(scheduled);
   }, [isWeb, permissionStatus, settings, calendar, novenas, scheduleNotification]);
@@ -601,7 +616,18 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
       return webPermission.status === "granted";
     }
 
-    const { status: currentStatus } = await Notifications.getPermissionsAsync();
+    if (!nativeNotificationsAvailable) {
+      Alert.alert(
+        "Notificações indisponíveis",
+        "Esta compilação local não inclui o módulo nativo de notificações. Use um development build atualizado.",
+      );
+      return false;
+    }
+
+    const currentPermissions = (await Notifications.getPermissionsAsync()) as {
+      status: ExpoNotifications.PermissionStatus;
+    };
+    const currentStatus = currentPermissions.status;
     if (currentStatus === "granted") {
       setPermissionStatus(Notifications.PermissionStatus.GRANTED);
       await updateSetting({ permissionSoftRejected: false });
@@ -641,18 +667,20 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
       return false;
     }
 
-    const { status } = await Notifications.requestPermissionsAsync();
-    setPermissionStatus(status);
+    const permissions = (await Notifications.requestPermissionsAsync()) as {
+      status: ExpoNotifications.PermissionStatus;
+    };
+    setPermissionStatus(permissions.status);
     await updateSetting({
       permissionRequested: true,
       permissionSoftRejected: false,
     });
 
-    if (status === "granted") {
+    if (permissions.status === "granted") {
       await syncNotifications();
     }
 
-    return status === "granted";
+    return permissions.status === "granted";
   }, [isWeb, openSettings, settings, updateSetting, syncNotifications]);
 
   useEffect(() => {
@@ -676,7 +704,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
   }, [syncNotifications, isLoading]);
 
   useEffect(() => {
-    if (isWeb) return;
+    if (isWeb || !nativeNotificationsAvailable) return;
 
     const subscription = Notifications.addNotificationResponseReceivedListener((response) => {
       const url = response.notification.request.content.data?.url;
