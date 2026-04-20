@@ -18,7 +18,7 @@ export function PickerModal({
       <View className="flex-1 justify-end bg-black/50">
         <View className="medium-background rounded-t-3xl p-6">
           <View className="flex-row justify-between items-center mb-6">
-            <Typography className="text-xl font-bold text-sepia-900">{title}</Typography>
+            <Typography className="text-xl font-display text-sepia">{title}</Typography>
             <TouchableOpacity onPress={onClose} className="p-2">
               <X size={24} color="#7c2d12" />
             </TouchableOpacity>

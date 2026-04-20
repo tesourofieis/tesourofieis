@@ -1,8 +1,8 @@
 import { Star, Flame, Sprout, Cross, Bird, Baby, Heart } from "lucide-react-native";
 import type { LiturgicalSeason as Season } from "~/lib/calendar";
 
-import { useColorScheme, View } from "react-native";
-import { COLORS } from "~/constants/Colors";
+import { View } from "react-native";
+import { useAppTheme } from "~/theme";
 import { useCalendar } from "~/providers/calendar";
 import PageLinkCard from "./LinkCard";
 import { Typography } from "./typography";
@@ -443,7 +443,7 @@ const SEASON_NOTES: Record<Season, string> = {
 };
 
 export default function LiturgicalSeason() {
-  const colorScheme = useColorScheme();
+  const { colors } = useAppTheme();
   const { season } = useCalendar();
 
   const prayers = TEMPORAS_PRAYERS[season] || [];
@@ -454,7 +454,7 @@ export default function LiturgicalSeason() {
   }
 
   const seasonColors = SEASON_COLORS[season];
-  const iconColor = colorScheme === "light" ? COLORS["700"] : COLORS["300"];
+  const iconColor = colors.icon;
   const IconComponent = getIconComponent(CATEGORY_ICONS[season]);
 
   return (

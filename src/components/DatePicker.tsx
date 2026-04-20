@@ -6,8 +6,9 @@ import { addMonths, format, parseISO, startOfMonth, subMonths } from "date-fns";
 import { pt } from "date-fns/locale";
 import { ChevronLeft, ChevronRight } from "lucide-react-native";
 import { useCallback, useMemo, useRef, useState } from "react";
-import { Pressable, Text, View, useColorScheme } from "react-native";
+import { Pressable, Text, View } from "react-native";
 import { COLORS } from "~/constants/Colors";
+import { useAppTheme } from "~/theme";
 
 interface DatePickerProps {
   date: Date;
@@ -22,7 +23,7 @@ const FONT_DISPLAY = "DMSerifDisplay_400Regular";
 const formatWeekDay = (d: Date) => format(d, "EEEEEE", { locale: pt }).toUpperCase();
 
 export function DatePicker({ date, onDateChange, children }: DatePickerProps) {
-  const isDark = useColorScheme() === "dark";
+  const { isDark, colors } = useAppTheme();
   const sheetRef = useRef<BottomSheetModal>(null);
   const [viewMonth, setViewMonth] = useState(() => startOfMonth(date));
 
@@ -41,11 +42,11 @@ export function DatePicker({ date, onDateChange, children }: DatePickerProps) {
 
   const monthLabel = format(viewMonth, "MMMM yyyy", { locale: pt });
 
-  const bg = isDark ? COLORS["800"] : COLORS["50"];
-  const textPrimary = isDark ? COLORS["200"] : COLORS["800"];
+  const bg = colors.panel;
+  const textPrimary = colors.textSecondary;
   const textMuted = COLORS["500"];
-  const hoverBg = isDark ? COLORS["700"] : COLORS["200"];
-  const todayBg = isDark ? COLORS["700"] : COLORS["200"];
+  const hoverBg = colors.divider;
+  const todayBg = colors.divider;
   const activeBg = burgundy[isDark ? 600 : 500];
 
   const theme = useMemo<CalendarTheme>(

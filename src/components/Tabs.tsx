@@ -30,7 +30,7 @@ export function Tabs({ children }: { children: ReactNode }) {
               }`}
             >
               <Typography
-                className={`text-pretty bold font-medium ${
+                className={`text-pretty bold ${
                   activeTab === index ? "text-sepia-600 dark:text-sepia-400" : "text-sepia-500"
                 }`}
               >

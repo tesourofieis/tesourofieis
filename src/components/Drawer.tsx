@@ -2,17 +2,11 @@ import { Settings, Search, ChevronDown, ChevronRight } from "lucide-react-native
 import { burgundy } from "config";
 import { usePathname, useRouter } from "expo-router";
 import React, { useCallback, useEffect, useMemo, useState } from "react";
-import {
-  ActivityIndicator,
-  FlatList,
-  Text,
-  TouchableOpacity,
-  useColorScheme,
-  View,
-} from "react-native";
+import { ActivityIndicator, FlatList, Text, TouchableOpacity, View } from "react-native";
 import { COLORS } from "~/constants/Colors";
 import { getAllTopLevelDocs, getChildren } from "~/services/search";
 import { useSearchModal } from "~/components/Search";
+import { FONT_FAMILIES, useAppTheme } from "~/theme";
 
 interface CustomDrawerContentProps {
   navigation: {
@@ -60,7 +54,7 @@ function pathsMatch(pathname: string, docUrl: string): boolean {
   return false;
 }
 
-const SIDEBAR_FONT = "Cardo_400Regular";
+const SIDEBAR_FONT = FONT_FAMILIES.reading;
 const SIDEBAR_SIZE = 13;
 
 const TreeItem = React.memo(
@@ -156,7 +150,7 @@ const TreeItem = React.memo(
 export default function CustomDrawerContent({ navigation }: CustomDrawerContentProps) {
   const router = useRouter();
   const pathname = usePathname();
-  const isDark = useColorScheme() === "dark";
+  const { colors, isDark } = useAppTheme();
   const { toggleSearch } = useSearchModal();
 
   const [expanded, setExpanded] = useState<Record<string, boolean>>({});
@@ -359,13 +353,13 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
     [expanded, allDocs],
   );
 
-  const colors = useMemo(
+  const drawerColors = useMemo(
     () => ({
       icon: isDark ? COLORS["400"] : COLORS["600"],
       active: isDark ? burgundy[300] : burgundy[600],
-      activeBg: isDark ? COLORS["800"] : COLORS["200"],
+      activeBg: colors.panel,
     }),
-    [isDark],
+    [colors.panel, isDark],
   );
 
   const isLoadingInitialDocs = allDocs.length === 0;
@@ -388,7 +382,7 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
     <View
       style={{
         flex: 1,
-        backgroundColor: isDark ? COLORS["900"] : COLORS["50"],
+        backgroundColor: colors.screen,
         justifyContent: "space-between",
       }}
     >
@@ -421,7 +415,7 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
             paddingHorizontal: 4,
             paddingBottom: 4,
             borderBottomWidth: 1,
-            borderBottomColor: isDark ? COLORS["700"] : COLORS["300"],
+            borderBottomColor: colors.divider,
           }}
         >
           <TouchableOpacity
@@ -476,7 +470,7 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
                 currentPathname={pathname}
                 loadingIds={loadingIds}
                 childrenMap={childrenMap}
-                colors={colors}
+                colors={drawerColors}
                 closeDrawer={navigation.closeDrawer}
                 flattenedDocs={flattenedDocs}
               />
@@ -489,7 +483,7 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
       <View
         style={{
           borderTopWidth: 1,
-          borderTopColor: isDark ? COLORS["700"] : COLORS["300"],
+          borderTopColor: colors.divider,
           paddingHorizontal: 4,
           paddingVertical: 8,
         }}

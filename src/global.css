@@ -64,6 +64,7 @@
 
   html {
     @apply bg-sepia-200 dark:bg-sepia-800;
+    font-family: var(--font-family-reading);
     --scrollbar-track: theme(colors.sepia.200);
     --scrollbar-thumb: theme(colors.sepia.500);
     --scrollbar-thumb-hover: theme(colors.sepia.600);
@@ -115,6 +116,7 @@
   }
 
   body {
+    font-family: var(--font-family-reading);
     @apply bg-sepia-200 dark:bg-sepia-800 text-sepia-900 dark:text-sepia-100;
   }
 }
@@ -123,8 +125,20 @@
   font-family: var(--font-family-display);
 }
 
+@utility font-display-italic {
+  font-family: var(--font-family-italic);
+}
+
+@utility font-reading {
+  font-family: var(--font-family-reading);
+}
+
 @utility font-serif-custom {
   font-family: var(--font-family-reading);
+}
+
+@utility font-strong {
+  font-family: var(--font-family-bold);
 }
 
 @utility font-bold-custom {
@@ -165,7 +179,7 @@
 @utility text-pretty {
   line-height: var(--line-height-base);
   text-rendering: optimizeLegibility;
-  @apply py-2 px-3;
+  @apply py-2;
 }
 
 /* Latin — the primary sacred text. Full brightness, generous leading. */
@@ -173,7 +187,7 @@
   line-height: var(--line-height-base);
   font-family: var(--font-family-reading);
   text-rendering: optimizeLegibility;
-  @apply py-2 px-3 text-sepia;
+  @apply py-2 text-sepia;
 }
 
 /* Vernacular — same reading rhythm, slightly muted tone. */
@@ -181,7 +195,7 @@
   line-height: var(--line-height-base);
   font-family: var(--font-family-reading);
   text-rendering: optimizeLegibility;
-  @apply py-2 px-3 text-sepia-600 dark:text-sepia-300;
+  @apply py-2 text-sepia-600 dark:text-sepia-300;
 }
 
 @utility font-serif {

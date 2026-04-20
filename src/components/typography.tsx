@@ -14,7 +14,10 @@ type PProps = TextProps & {
 export function Typography({ children, className = "", ...props }: PProps) {
   const { fontSize } = useFontContext();
   return (
-    <Text className={`text-sepia ${PAGE_FONT_SIZE_CLASS[fontSize]} ${className}`} {...props}>
+    <Text
+      className={`font-reading text-sepia ${PAGE_FONT_SIZE_CLASS[fontSize]} ${className}`}
+      {...props}
+    >
       {children}
     </Text>
   );

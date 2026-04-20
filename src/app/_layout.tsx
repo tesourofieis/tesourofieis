@@ -1,7 +1,7 @@
 import { useFonts } from "expo-font";
 import Head from "expo-router/head";
 import { useEffect } from "react";
-import { useWindowDimensions, Platform, Pressable, useColorScheme, View } from "react-native";
+import { useWindowDimensions, Platform, Pressable, View } from "react-native";
 import { Typography } from "~/components/typography";
 import "../global.css";
 import { BookPlus, ChevronRight, Search, Menu, AlertTriangle } from "lucide-react-native";
@@ -22,6 +22,7 @@ import { FontProvider } from "~/providers/fonts";
 import { SettingsProvider } from "~/providers/settings";
 import { PostHogProvider } from "posthog-react-native";
 import { LanguageProvider } from "~/providers/language";
+import { useAppTheme } from "~/theme";
 
 SplashScreen.preventAutoHideAsync();
 
@@ -98,21 +99,19 @@ export default function PageRootLayout() {
 }
 
 function RootLayoutNav() {
-  const colorScheme = useColorScheme();
-  const isDarkMode = colorScheme === "dark";
+  const { colors } = useAppTheme();
   const isWeb = Platform.OS === "web";
-  const { width: _width } = useWindowDimensions();
 
   if (isWeb) {
     return (
       <View
         style={{
           flex: 1,
-          backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
+          backgroundColor: colors.shell,
         }}
       >
         <UpdateAwareDrawer />
-        <StatusBar hidden backgroundColor={isDarkMode ? COLORS["800"] : COLORS["200"]} />
+        <StatusBar hidden backgroundColor={colors.shell} />
       </View>
     );
   }
@@ -121,18 +120,17 @@ function RootLayoutNav() {
     <SafeAreaView
       style={{
         flex: 1,
-        backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
+        backgroundColor: colors.shell,
       }}
     >
       <UpdateAwareDrawer />
-      <StatusBar hidden backgroundColor={isDarkMode ? COLORS["800"] : COLORS["200"]} />
+      <StatusBar hidden backgroundColor={colors.shell} />
     </SafeAreaView>
   );
 }
 
 function UpdateAwareDrawer() {
-  const colorScheme = useColorScheme();
-  const isDarkMode = colorScheme === "dark";
+  const { colors, isDark } = useAppTheme();
   const isWeb = Platform.OS === "web";
   const { width } = useWindowDimensions();
   const isWebDesktop = isWeb && width >= 768;
@@ -149,20 +147,20 @@ function UpdateAwareDrawer() {
           return <Header withBC={!isRootScreen} isWebDesktop={isWebDesktop} />;
         },
         headerStyle: {
-          backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
+          backgroundColor: colors.panel,
         },
         sceneStyle: {
-          backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
+          backgroundColor: colors.panel,
         },
         drawerType: isWebDesktop ? "permanent" : "slide",
         drawerStyle: {
-          backgroundColor: isDarkMode ? COLORS["900"] : COLORS["50"],
+          backgroundColor: colors.screen,
           borderRightWidth: 1,
-          borderRightColor: isDarkMode ? COLORS["700"] : COLORS["300"],
+          borderRightColor: colors.divider,
           width: 250,
         },
-        drawerInactiveTintColor: isDarkMode ? COLORS["200"] : COLORS["800"],
-        drawerActiveTintColor: isDarkMode ? burgundy["300"] : COLORS["700"],
+        drawerInactiveTintColor: colors.textSecondary,
+        drawerActiveTintColor: isDark ? burgundy["300"] : COLORS["700"],
       }}
     />
   );

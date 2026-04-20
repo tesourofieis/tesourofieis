@@ -2,14 +2,7 @@ import { BookPlus } from "lucide-react-native";
 import { burgundy } from "config";
 import { format, getYear, isWithinInterval } from "date-fns";
 import { pt } from "date-fns/locale";
-import {
-  Platform,
-  Pressable,
-  ScrollView,
-  useColorScheme,
-  useWindowDimensions,
-  View,
-} from "react-native";
+import { Platform, Pressable, ScrollView, useWindowDimensions, View } from "react-native";
 import ExternalLinks from "~/components/External";
 import { DatePicker } from "~/components/DatePicker";
 import { H1 } from "~/components/Headings";
@@ -21,10 +14,11 @@ import { Typography } from "~/components/typography";
 import { COLORS } from "~/constants/Colors";
 import { useCalendar } from "~/providers/calendar";
 import { useTodaysIndulgences } from "~/hooks/useTodaysIndulgences";
+import { FONT_FAMILIES, useAppTheme } from "~/theme";
 
 export default function PageRender() {
   const { day, date, season, setDate, resetToToday, isCustomDate } = useCalendar();
-  const colorScheme = useColorScheme();
+  const { isDark, colors } = useAppTheme();
   const todaysIndulgences = useTodaysIndulgences();
 
   function getPrayer(date: Date) {
@@ -41,6 +35,24 @@ export default function PageRender() {
   const isWeb = Platform.OS === "web";
   const { width } = useWindowDimensions();
   const isWebDesktop = isWeb && width >= 768;
+  const isCompactLayout = width < 420;
+  const sectionInset = isCompactLayout ? 20 : 20;
+  const headerPaddingTop = isCompactLayout ? 14 : 16;
+  const headerPaddingBottom = isCompactLayout ? 16 : 18;
+  const feriaFontSize = isCompactLayout ? 9 : 10;
+  const feriaLetterSpacing = isCompactLayout ? 3.2 : 4;
+  const dateFontSize = isCompactLayout ? 32 : 38;
+  const seasonFontSize = isCompactLayout ? 12 : 13;
+  const dateTextColor = isCustomDate
+    ? isDark
+      ? burgundy[400]
+      : burgundy[600]
+    : isDark
+      ? colors.textPrimary
+      : colors.textSecondary;
+  const feriaTextColor = isDark ? burgundy[400] : burgundy[500];
+  const seasonTextColor = isDark ? colors.textMuted : COLORS["500"];
+  const sectionLabelColor = isDark ? burgundy[400] : burgundy[500];
 
   return (
     <ScrollView>
@@ -54,8 +66,8 @@ export default function PageRender() {
           className={`flex-1 ${!isWebDesktop ? "" : "web:mx-auto"} py-5 p-3 rounded-lg`}
           style={{
             borderWidth: 1,
-            borderColor: colorScheme === "light" ? COLORS["200"] : COLORS["800"],
-            backgroundColor: colorScheme === "light" ? COLORS["50"] : COLORS["900"],
+            borderColor: isDark ? COLORS["800"] : COLORS["200"],
+            backgroundColor: colors.screen,
           }}
         >
           {/* Liturgical day header — missal style: rules framing pure typography */}
@@ -63,19 +75,24 @@ export default function PageRender() {
             style={{
               borderTopWidth: 1,
               borderBottomWidth: 1,
-              borderColor: colorScheme === "light" ? COLORS["300"] : COLORS["600"],
-              paddingTop: 16,
-              paddingBottom: 18,
-              paddingHorizontal: 20,
+              borderColor: colors.divider,
+              paddingTop: headerPaddingTop,
+              paddingBottom: headerPaddingBottom,
+              paddingHorizontal: sectionInset,
               marginBottom: 4,
             }}
           >
             {/* Feria label — tracked small-caps, burgundy */}
             <Typography
-              className="uppercase text-burgundy-500 dark:text-burgundy-400"
-              style={{ fontSize: 10, letterSpacing: 4, marginBottom: 6 }}
+              style={{
+                fontFamily: FONT_FAMILIES.reading,
+                fontSize: feriaFontSize,
+                letterSpacing: feriaLetterSpacing,
+                color: feriaTextColor,
+                marginBottom: 6,
+              }}
             >
-              {format(date, "EEEE", { locale: pt })}
+              {format(date, "EEEE", { locale: pt }).toUpperCase()}
             </Typography>
 
             {/* The date itself — tappable, large display serif */}
@@ -87,18 +104,13 @@ export default function PageRender() {
                     : "text-sepia-800 dark:text-sepia-100"
                 }`}
                 style={{
-                  fontSize: 38,
+                  fontFamily: FONT_FAMILIES.display,
+                  fontSize: dateFontSize,
+                  color: dateTextColor,
                   marginBottom: 10,
                   textDecorationLine: "underline",
                   textDecorationStyle: "solid",
-                  textDecorationColor:
-                    colorScheme === "light"
-                      ? isCustomDate
-                        ? burgundy[600]
-                        : COLORS["800"]
-                      : isCustomDate
-                        ? burgundy[400]
-                        : COLORS["100"],
+                  textDecorationColor: dateTextColor,
                 }}
               >
                 {format(date, "d 'de' MMMM", { locale: pt })}
@@ -107,8 +119,11 @@ export default function PageRender() {
 
             {/* Season — italic, like a liturgical subtitle */}
             <Typography
-              className="font-italic text-sepia-500 dark:text-sepia-400"
-              style={{ fontSize: 13 }}
+              style={{
+                fontFamily: FONT_FAMILIES.displayItalic,
+                fontSize: seasonFontSize,
+                color: seasonTextColor,
+              }}
             >
               {season}
             </Typography>
@@ -127,29 +142,34 @@ export default function PageRender() {
           </View>
 
           {/* Mass cards — sit directly below the day header, inside the animated container */}
-          <View className="px-5 pt-2 pb-4">
+          <View className="pt-2 pb-4" style={{ paddingHorizontal: sectionInset }}>
             {day.mass?.map((item) => (
-              <LinkCard key={item.id} mass={item} />
+              <LinkCard key={item.id} mass={item} variant="featured" />
             ))}
             {day.alternatives?.map((item) => (
-              <LinkCard key={item.id} mass={item} />
+              <LinkCard key={item.id} mass={item} variant="featured" />
             ))}
           </View>
 
           <View
             style={{
               height: 1,
-              backgroundColor: colorScheme === "light" ? COLORS["300"] : COLORS["600"],
-              marginHorizontal: 20,
+              backgroundColor: colors.divider,
+              marginHorizontal: sectionInset,
             }}
           />
 
-          <View className="px-5 flex flex-col pt-5 pb-4">
+          <View className="flex flex-col pt-6 pb-4" style={{ paddingHorizontal: sectionInset }}>
             <Typography
-              className="uppercase text-burgundy-500 dark:text-burgundy-400 mb-3"
-              style={{ fontSize: 11, letterSpacing: 3 }}
+              style={{
+                fontFamily: FONT_FAMILIES.reading,
+                fontSize: 11,
+                letterSpacing: 3.2,
+                color: sectionLabelColor,
+                marginBottom: 14,
+              }}
             >
-              {format(date, "HH:mm", { locale: pt })} · Orações
+              {`${format(date, "HH:mm", { locale: pt })} · ORAÇÕES`}
             </Typography>
 
             <LinkCard
@@ -217,8 +237,8 @@ export default function PageRender() {
           <View
             style={{
               height: 1,
-              backgroundColor: colorScheme === "light" ? COLORS["300"] : COLORS["600"],
-              marginHorizontal: 20,
+              backgroundColor: colors.divider,
+              marginHorizontal: sectionInset,
             }}
           />
 
@@ -229,8 +249,8 @@ export default function PageRender() {
           <View
             style={{
               height: 1,
-              backgroundColor: colorScheme === "light" ? COLORS["300"] : COLORS["600"],
-              marginHorizontal: 20,
+              backgroundColor: colors.divider,
+              marginHorizontal: sectionInset,
             }}
           />
 

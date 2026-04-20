@@ -3,16 +3,9 @@ import { burgundy } from "config";
 import * as Clipboard from "expo-clipboard";
 import * as WebBrowser from "expo-web-browser";
 import type { GestureResponderEvent } from "react-native";
-import {
-  Alert,
-  Platform,
-  Pressable,
-  ScrollView,
-  ToastAndroid,
-  useColorScheme,
-  View,
-} from "react-native";
+import { Alert, Platform, Pressable, ScrollView, ToastAndroid, View } from "react-native";
 import { COLORS } from "~/constants/Colors";
+import { useAppTheme } from "~/theme";
 import { cardBase } from "./LinkCard";
 import { Typography } from "./typography";
 
@@ -104,7 +97,7 @@ export const openExternalLink = async (link: string) => {
 };
 
 export default function ExternalLinks() {
-  const colorScheme = useColorScheme();
+  const { isDark } = useAppTheme();
 
   return (
     <ScrollView className="gap-1 mt-1 p-4">
@@ -124,10 +117,7 @@ export default function ExternalLinks() {
                     {(() => {
                       const IconComponent = getIconComponent(link.icon);
                       return (
-                        <IconComponent
-                          size={15}
-                          color={colorScheme === "dark" ? COLORS["200"] : COLORS["800"]}
-                        />
+                        <IconComponent size={15} color={isDark ? COLORS["200"] : COLORS["800"]} />
                       );
                     })()}
                     <Typography className="text-lg font-display text-sepia-600 dark:text-sepia-300">

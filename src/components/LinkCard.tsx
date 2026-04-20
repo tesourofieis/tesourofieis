@@ -1,9 +1,10 @@
 import { ChevronRight, ChevronDown, MapPin, Sparkles, Calendar, Users } from "lucide-react-native";
 import type { Mass } from "~/lib/observanceManager";
-import { burgundy } from "config";
+import { burgundy, sepia } from "config";
 import { Link } from "expo-router";
 import { Pressable, View } from "react-native";
 import { COLORS } from "~/constants/Colors";
+import { FONT_FAMILIES, useAppTheme } from "~/theme";
 import { Typography } from "./typography";
 
 export function getColor(color?: string) {
@@ -55,10 +56,18 @@ function massNameColor(rank: number): string {
   return "text-sepia-600 dark:text-sepia-400";
 }
 
-export const cardBase = (pressed: boolean) => {
-  return `border border-sepia my-1 w-full justify-between rounded-xl shadow-sm p-2 ${
-    pressed ? "bg-sepia-200 dark:bg-sepia-700 opacity-90" : "bg-sepia-100 dark:bg-sepia-800"
-  }`;
+function massNameTone(rank: number, isDark: boolean): string {
+  if (rank === 1) return isDark ? sepia[100] : sepia[800];
+  if (rank === 2) return isDark ? sepia[200] : sepia[700];
+  return isDark ? sepia[300] : sepia[600];
+}
+
+type LinkCardVariant = "default" | "featured";
+
+export const cardBase = (pressed: boolean, variant: LinkCardVariant = "default") => {
+  return `border border-sepia my-1 w-full justify-between shadow-sm ${
+    variant === "featured" ? "rounded-xl p-3" : "rounded-xl p-2"
+  } ${pressed ? "bg-sepia-200 dark:bg-sepia-700 opacity-90" : "bg-sepia-100 dark:bg-sepia-800"}`;
 };
 
 export default function PageLinkCard({
@@ -70,6 +79,7 @@ export default function PageLinkCard({
   hasChildren,
   indulgence,
   noLink,
+  variant = "default",
 }: {
   mass?: Mass;
   oratio?: {
@@ -86,7 +96,11 @@ export default function PageLinkCard({
     link?: string;
   };
   noLink?: boolean;
+  variant?: LinkCardVariant;
 }) {
+  const isFeatured = variant === "featured";
+  const { isDark } = useAppTheme();
+
   if (oratio) {
     return (
       <View>
@@ -129,26 +143,64 @@ export default function PageLinkCard({
           <Pressable>
             {({ pressed }) => (
               <View
-                className={cardBase(pressed)}
-                style={{
-                  borderLeftWidth: 4,
-                  borderLeftColor: getBorderColor(mass.color),
-                }}
+                className={cardBase(pressed, variant)}
+                style={
+                  isFeatured
+                    ? {
+                        borderRadius: 16,
+                        overflow: "hidden",
+                        paddingVertical: 15,
+                        paddingHorizontal: 16,
+                      }
+                    : {
+                        borderLeftWidth: 4,
+                        borderLeftColor: getBorderColor(mass.color),
+                      }
+                }
               >
-                <View className="flex flex-row justify-between items-center gap-1 mr-2">
+                {isFeatured && (
+                  <View
+                    style={{
+                      position: "absolute",
+                      left: 0,
+                      top: 0,
+                      bottom: 0,
+                      width: 5,
+                      backgroundColor: getBorderColor(mass.color),
+                    }}
+                  />
+                )}
+                <View
+                  className={`flex flex-row justify-between ${
+                    isFeatured ? "items-start gap-3 mr-1" : "items-center gap-1 mr-2"
+                  }`}
+                >
                   <View className="flex-1">
                     {/* Pill badges: type + rank */}
-                    <View className="flex-row gap-1.5 mb-1.5">
-                      <View className="rounded-full px-2 py-0.5 bg-sepia-200 dark:bg-sepia-700">
+                    <View
+                      className={`flex-row flex-wrap ${isFeatured ? "gap-2 mb-2" : "gap-1.5 mb-1.5"}`}
+                    >
+                      <View
+                        className={`${
+                          isFeatured ? "rounded-full px-2.5 py-1" : "rounded-full px-2 py-0.5"
+                        } bg-sepia-200 dark:bg-sepia-700`}
+                      >
                         <Typography
                           className="text-sepia-600 dark:text-sepia-300"
-                          style={{ fontSize: 9, letterSpacing: 0.8 }}
+                          style={{
+                            fontFamily: FONT_FAMILIES.reading,
+                            fontSize: isFeatured ? 10 : 9,
+                            letterSpacing: isFeatured ? 1 : 0.8,
+                            color: isDark ? sepia[300] : sepia[600],
+                          }}
                         >
                           {description?.toUpperCase() || "MISSA"}
                         </Typography>
                       </View>
                       <View
-                        className={`rounded-full px-2 py-0.5 ${
+                        className={`${
+                          isFeatured ? "rounded-full px-2.5 py-1" : "rounded-full px-2 py-0.5"
+                        } ${
                           mass.rank === 1
                             ? "bg-burgundy-100 dark:bg-burgundy-900"
                             : "bg-sepia-200 dark:bg-sepia-700"
@@ -160,7 +212,19 @@ export default function PageLinkCard({
                               ? "text-burgundy-700 dark:text-burgundy-200"
                               : "text-sepia-500 dark:text-sepia-400"
                           }`}
-                          style={{ fontSize: 9, letterSpacing: 0.8 }}
+                          style={{
+                            fontFamily: FONT_FAMILIES.reading,
+                            fontSize: isFeatured ? 10 : 9,
+                            letterSpacing: isFeatured ? 1 : 0.8,
+                            color:
+                              mass.rank === 1
+                                ? isDark
+                                  ? burgundy[200]
+                                  : burgundy[700]
+                                : isDark
+                                  ? sepia[400]
+                                  : sepia[500],
+                          }}
                         >
                           {toRoman(mass.rank)} CLASSE
                         </Typography>
@@ -168,13 +232,23 @@ export default function PageLinkCard({
                     </View>
 
                     <Typography
-                      className={`text-pretty bold text-base ${massNameColor(mass.rank)}`}
+                      className={
+                        isFeatured ? "font-strong" : `font-strong ${massNameColor(mass.rank)}`
+                      }
+                      style={{
+                        fontFamily: FONT_FAMILIES.strong,
+                        fontSize: isFeatured ? 18 : 16,
+                        lineHeight: isFeatured ? 25 : 22,
+                        color: isFeatured ? massNameTone(mass.rank, isDark) : undefined,
+                      }}
                     >
                       {mass.name || ""}
                     </Typography>
 
                     {(mass.local || mass.calendar || mass.outro) && (
-                      <View className="flex-row items-center gap-3 flex-wrap mt-1">
+                      <View
+                        className={`flex-row items-center flex-wrap gap-3 ${isFeatured ? "mt-2" : "mt-1"}`}
+                      >
                         {mass.local && (
                           <View className="flex-row items-center gap-1">
                             <MapPin size={12} color={COLORS[500]} />
@@ -199,11 +273,19 @@ export default function PageLinkCard({
                     )}
                   </View>
 
-                  {hasChildren ? (
-                    <ChevronDown size={15} color={pressed ? COLORS[600] : COLORS[500]} />
-                  ) : (
-                    <ChevronRight size={15} color={pressed ? COLORS[600] : COLORS[500]} />
-                  )}
+                  <View className={isFeatured ? "pt-1" : ""}>
+                    {hasChildren ? (
+                      <ChevronDown
+                        size={isFeatured ? 18 : 15}
+                        color={pressed ? COLORS[600] : COLORS[500]}
+                      />
+                    ) : (
+                      <ChevronRight
+                        size={isFeatured ? 18 : 15}
+                        color={pressed ? COLORS[600] : COLORS[500]}
+                      />
+                    )}
+                  </View>
                 </View>
               </View>
             )}

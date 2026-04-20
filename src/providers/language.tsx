@@ -1,10 +1,10 @@
 import { Languages } from "lucide-react-native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { createContext, useContext, useEffect, useState } from "react";
-import { Platform, TouchableOpacity, useColorScheme, View } from "react-native";
+import { Platform, TouchableOpacity, View } from "react-native";
 import { H6 } from "~/components/Headings";
-import { COLORS } from "~/constants/Colors";
 import { Typography } from "~/components/typography";
+import { useAppTheme } from "~/theme";
 
 type Language = "latin" | "vernacular";
 
@@ -83,14 +83,14 @@ export const useLanguageContext = () => {
 };
 
 export const DefaultLanguageSelector = () => {
-  const colorScheme = useColorScheme();
+  const { colors } = useAppTheme();
   const { language, setLanguage, isLoading } = useLanguageContext();
 
   if (isLoading) {
     return (
       <View className="py-3 my-3 border-b border-sepia-300 dark:border-sepia-700">
         <View className="flex-row items-center mb-3">
-          <Languages size={15} color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]} />
+          <Languages size={15} color={colors.textPrimary} />
           <H6 text="Língua Padrão" />
         </View>
         <View className="h-12 soft-background rounded-lg" />
@@ -101,7 +101,7 @@ export const DefaultLanguageSelector = () => {
   return (
     <View className="py-3 my-3 border-b border-sepia-300 dark:border-sepia-700">
       <View className="flex-row items-center mb-3 gap-1">
-        <Languages size={15} color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]} />
+        <Languages size={15} color={colors.textPrimary} />
         <H6 text="Língua Padrão" />
       </View>
       <View className="flex-row justify-between items-center">
@@ -112,7 +112,7 @@ export const DefaultLanguageSelector = () => {
           }`}
         >
           <Typography
-            className={`font-medium ${
+            className={`font-strong ${
               language === "vernacular"
                 ? "text-sepia-200 dark:text-sepia-800"
                 : "text-sepia-800 dark:text-sepia-200"
@@ -128,7 +128,7 @@ export const DefaultLanguageSelector = () => {
           }`}
         >
           <Typography
-            className={`font-medium ${
+            className={`font-strong ${
               language === "latin"
                 ? "text-sepia-200 dark:text-sepia-800"
                 : "text-sepia-800 dark:text-sepia-200"

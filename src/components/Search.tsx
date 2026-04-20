@@ -18,7 +18,6 @@ import {
   Pressable,
   TextInput,
   TouchableOpacity,
-  useColorScheme,
   View,
   ScrollView,
   Keyboard,
@@ -41,6 +40,7 @@ import {
   getSectionDisplayName,
 } from "~/services/search";
 import { H5 } from "./Headings";
+import { useAppTheme } from "~/theme";
 
 const SearchModalContext = createContext<{
   openSearch: () => void;
@@ -368,7 +368,7 @@ function SearchResults({
   onNavigate: (url: string, headingId?: string) => void;
   ListComponent?: typeof FlatList | typeof BottomSheetFlatList;
 }) {
-  const isDark = useColorScheme() === "dark";
+  const { colors: themeColors } = useAppTheme();
 
   if (isSearching) {
     return (
@@ -409,7 +409,7 @@ function SearchResults({
   if (searchQuery.trim()) {
     return (
       <View className="flex-1 justify-center items-center py-12">
-        <Search size={15} color={isDark ? COLORS["300"] : COLORS["700"]} />
+        <Search size={15} color={themeColors.icon} />
         <Typography className="text-sepia-500 dark:text-sepia-400 mt-2 text-center">
           Nenhum resultado encontrado
         </Typography>
@@ -495,7 +495,7 @@ const SearchBottomSheet = React.forwardRef<
     onDismiss: () => void;
   }
 >(({ searchQuery, setSearchQuery, onNavigate, onDismiss }, ref) => {
-  const isDark = useColorScheme() === "dark";
+  const { colors: themeColors } = useAppTheme();
   const insets = useSafeAreaInsets();
   const [showFilters, setShowFilters] = useState(false);
   const [selectedSections, setSelectedSections] = useState<string[]>([]);
@@ -553,7 +553,7 @@ const SearchBottomSheet = React.forwardRef<
       android_keyboardInputMode="adjustResize"
       topInset={insets.top + 55}
       backgroundStyle={{
-        backgroundColor: isDark ? COLORS["800"] : COLORS["200"],
+        backgroundColor: themeColors.panel,
       }}
     >
       <BottomSheetScrollView
@@ -579,7 +579,7 @@ const SearchBottomSheet = React.forwardRef<
                 paddingVertical: 8,
                 marginLeft: 8,
                 fontSize: 16,
-                color: isDark ? COLORS["100"] : COLORS["900"],
+                color: themeColors.textPrimary,
               }}
             />
             <TouchableOpacity onPress={() => setShowFilters(!showFilters)} className="ml-2 p-1">

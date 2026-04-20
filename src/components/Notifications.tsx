@@ -1,19 +1,12 @@
 import { Settings, Bell, Calendar, Circle, BookPlus, Sparkles } from "lucide-react-native";
 import { useEffect, useState } from "react";
-import {
-  Platform,
-  Pressable,
-  ScrollView,
-  Switch,
-  TouchableOpacity,
-  useColorScheme,
-  View,
-} from "react-native";
+import { Platform, Pressable, ScrollView, Switch, TouchableOpacity, View } from "react-native";
 import { H6 } from "~/components/Headings";
 import { COLORS } from "~/constants/Colors";
 import { useSettings } from "~/providers/settings";
 import { Typography } from "./typography";
 import { type WebNotificationSchedule, webNotificationService } from "~/services/webNotifications";
+import { useAppTheme } from "~/theme";
 
 const NotificationToggle = ({
   title,
@@ -30,7 +23,7 @@ const NotificationToggle = ({
   enabled: boolean;
   toggle: () => void;
 }) => {
-  const colorScheme = useColorScheme();
+  const { colors } = useAppTheme();
 
   const getIconComponent = (iconName: string) => {
     switch (iconName) {
@@ -55,10 +48,7 @@ const NotificationToggle = ({
     <View className="py-3">
       <View className="my-1 py-1">
         <View className="flex flex-row items-center justify-between">
-          <IconComponent
-            size={15}
-            color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
-          />
+          <IconComponent size={15} color={colors.textPrimary} />
           <View className="flex-1 ml-3">
             <Typography className="bold text-sepia-800 dark:text-sepia-200">{title}</Typography>
             <Typography className="font-display text-sepia-800 dark:text-sepia-200 text-sm">
@@ -92,7 +82,7 @@ const NotificationToggle = ({
 };
 
 export const Notifications = () => {
-  const colorScheme = useColorScheme();
+  const { colors } = useAppTheme();
   const [isExpanded, setIsExpanded] = useState(false);
 
   const {
@@ -137,7 +127,7 @@ export const Notifications = () => {
     return (
       <View className="py-3 my-3 border-b border-sepia-300 dark:border-sepia-700">
         <View className="flex-row items-center gap-1">
-          <Settings size={15} color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]} />
+          <Settings size={15} color={colors.textPrimary} />
           <H6 text={isWeb ? "Notificações Web" : "Notificações Desativadas"} />
         </View>
 
@@ -211,7 +201,7 @@ export const Notifications = () => {
   return (
     <ScrollView className="py-3 my-3 border-b border-sepia-300 dark:border-sepia-700">
       <View className="flex-row items-center gap-1">
-        <Settings size={15} color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]} />
+        <Settings size={15} color={colors.textPrimary} />
         <H6 text="Configurar Notificações" />
       </View>
 
@@ -290,7 +280,7 @@ export const Notifications = () => {
                     style={{
                       padding: 10,
                       borderBottomWidth: 1,
-                      borderColor: colorScheme === "light" ? COLORS["300"] : COLORS["700"],
+                      borderColor: colors.divider,
                     }}
                   >
                     <Typography className="text-sepia-800 dark:text-sepia-200">
@@ -312,7 +302,7 @@ export const Notifications = () => {
                     style={{
                       padding: 10,
                       borderBottomWidth: 1,
-                      borderColor: colorScheme === "light" ? COLORS["300"] : COLORS["700"],
+                      borderColor: colors.divider,
                     }}
                   >
                     <Typography className="text-sepia-800 dark:text-sepia-200">

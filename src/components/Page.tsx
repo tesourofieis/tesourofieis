@@ -76,11 +76,13 @@ export default function PageWrapper({ children }: PageWrapperProps) {
   }
 
   const ScrollComponent = isWeb ? ScrollView : GestureScrollView;
-  const content = <View className="flex-1">{children}</View>;
+  const content = <View className="flex-1 px-5">{children}</View>;
   const scrollContent = isWebDesktop ? (
-    <View className="flex-1 web:w-6/12 mx-auto">{content}</View>
+    <View className="flex-1 web:w-6/12 mx-auto" style={{ minHeight: "100%" }}>
+      {content}
+    </View>
   ) : (
-    <View className="flex-1 px-1 w-full" style={{ minHeight: "100%" }}>
+    <View className="flex-1 w-full" style={{ minHeight: "100%" }}>
       {content}
     </View>
   );

@@ -1,9 +1,9 @@
 import { Type } from "lucide-react-native";
-import { TouchableOpacity, useColorScheme, View } from "react-native";
+import { TouchableOpacity, View } from "react-native";
 import { H6 } from "~/components/Headings";
-import { COLORS } from "~/constants/Colors";
 import { useFontContext } from "~/providers/fonts";
 import { Typography } from "./typography";
+import { useAppTheme } from "~/theme";
 
 const SIZES = ["small", "medium", "large"] as const;
 const SIZE_LABEL: Record<string, string> = {
@@ -13,12 +13,12 @@ const SIZE_LABEL: Record<string, string> = {
 };
 
 export const FontSizeSelector = () => {
-  const colorScheme = useColorScheme();
+  const { colors } = useAppTheme();
   const { fontSize, setFontSize } = useFontContext();
   return (
     <View className="py-3 my-3 border-b border-sepia-300 dark:border-sepia-700">
       <View className="flex-row items-center mb-3 gap-1">
-        <Type size={15} color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]} />
+        <Type size={15} color={colors.textPrimary} />
         <H6 text="Tamanho da Letra" />
       </View>
 
@@ -32,7 +32,7 @@ export const FontSizeSelector = () => {
             }`}
           >
             <Typography
-              className={`font-medium ${
+              className={`font-strong ${
                 fontSize === size
                   ? "text-sepia-200 dark:text-sepia-800"
                   : "text-sepia-800 dark:text-sepia-200"

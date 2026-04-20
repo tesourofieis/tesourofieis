@@ -1,10 +1,9 @@
 import { Stack } from "expo-router";
-import { useColorScheme } from "nativewind";
-import { COLORS } from "~/constants/Colors";
+
+import { useAppTheme } from "~/theme";
 
 export default function DevocionarioLayout() {
-  const { colorScheme } = useColorScheme();
-  const isDarkMode = colorScheme === "dark";
+  const { colors } = useAppTheme();
 
   return (
     <Stack
@@ -12,11 +11,11 @@ export default function DevocionarioLayout() {
         animation: "none",
         headerShown: false,
         headerStyle: {
-          backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
+          backgroundColor: colors.panel,
         },
-        headerTintColor: isDarkMode ? COLORS["100"] : COLORS["900"],
+        headerTintColor: colors.textPrimary,
         contentStyle: {
-          backgroundColor: isDarkMode ? COLORS["900"] : COLORS["50"],
+          backgroundColor: colors.screen,
         },
       }}
     />
