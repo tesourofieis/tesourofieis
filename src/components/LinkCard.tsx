@@ -65,7 +65,7 @@ function massNameTone(rank: number, isDark: boolean): string {
 type LinkCardVariant = "default" | "featured";
 
 export const cardBase = (pressed: boolean, variant: LinkCardVariant = "default") => {
-  return `border border-sepia my-1 w-full justify-between shadow-sm ${
+  return `border border-sepia my-2 w-full justify-between shadow-sm ${
     variant === "featured" ? "rounded-xl p-3" : "rounded-xl p-2"
   } ${pressed ? "bg-sepia-200 dark:bg-sepia-700 opacity-90" : "bg-sepia-100 dark:bg-sepia-800"}`;
 };
@@ -233,12 +233,16 @@ export default function PageLinkCard({
 
                     <Typography
                       className={
-                        isFeatured ? "font-strong" : `font-strong ${massNameColor(mass.rank)}`
+                        isFeatured
+                          ? `font-display ${massNameColor(mass.rank)}`
+                          : `font-strong ${massNameColor(mass.rank)}`
                       }
                       style={{
-                        fontFamily: FONT_FAMILIES.strong,
-                        fontSize: isFeatured ? 18 : 16,
-                        lineHeight: isFeatured ? 25 : 22,
+                        fontFamily: isFeatured
+                          ? FONT_FAMILIES.display
+                          : FONT_FAMILIES.strong,
+                        fontSize: isFeatured ? 17 : 15,
+                        lineHeight: isFeatured ? 24 : 21,
                         color: isFeatured ? massNameTone(mass.rank, isDark) : undefined,
                       }}
                     >

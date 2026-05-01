@@ -100,7 +100,7 @@ export default function ExternalLinks() {
   const { isDark } = useAppTheme();
 
   return (
-    <ScrollView className="gap-1 mt-1 p-4">
+    <ScrollView className="mt-1 p-4">
       {externalLinks.map((link) => (
         <Pressable
           key={link.name}

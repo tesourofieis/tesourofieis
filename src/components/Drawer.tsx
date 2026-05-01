@@ -1,5 +1,5 @@
-import { Settings, Search, ChevronDown, ChevronRight } from "lucide-react-native";
-import { burgundy } from "config";
+import { Settings, Search, ChevronDown, ChevronRight, BookPlus } from "lucide-react-native";
+import { burgundy, sepia } from "config";
 import { usePathname, useRouter } from "expo-router";
 import React, { useCallback, useEffect, useMemo, useState } from "react";
 import { ActivityIndicator, FlatList, Text, TouchableOpacity, View } from "react-native";
@@ -55,7 +55,7 @@ function pathsMatch(pathname: string, docUrl: string): boolean {
 }
 
 const SIDEBAR_FONT = FONT_FAMILIES.reading;
-const SIDEBAR_SIZE = 13;
+const SIDEBAR_SIZE = 14;
 
 const TreeItem = React.memo(
   ({
@@ -112,8 +112,10 @@ const TreeItem = React.memo(
           paddingHorizontal: 8,
           paddingLeft: 8 + indent,
           marginHorizontal: 4,
-          borderRadius: 6,
+          borderRadius: 8,
           backgroundColor: isActive ? colors.activeBg : "transparent",
+          borderLeftWidth: isActive ? 3 : 0,
+          borderLeftColor: isActive ? burgundy[500] : "transparent",
         }}
         accessibilityRole="button"
         accessibilityLabel={doc.title}
@@ -124,9 +126,9 @@ const TreeItem = React.memo(
             loadingIds.includes(doc.id) ? (
               <ActivityIndicator size="small" />
             ) : isOpen ? (
-              <ChevronDown size={chevronSize} color={colors.icon} />
+              <ChevronDown size={chevronSize} color={isActive ? colors.active : colors.icon} />
             ) : (
-              <ChevronRight size={chevronSize} color={colors.icon} />
+              <ChevronRight size={chevronSize} color={isActive ? colors.active : colors.icon} />
             )
           ) : null}
         </View>
@@ -134,7 +136,7 @@ const TreeItem = React.memo(
         <Text
           numberOfLines={1}
           style={{
-            fontFamily: SIDEBAR_FONT,
+            fontFamily: isActive ? FONT_FAMILIES.strong : SIDEBAR_FONT,
             fontSize: SIDEBAR_SIZE,
             color: isActive ? colors.active : colors.icon,
             flex: 1,
@@ -393,16 +395,23 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
             navigation.closeDrawer();
             router.push("/");
           }}
-          style={{ paddingHorizontal: 12, paddingTop: 16, paddingBottom: 12 }}
+          style={{
+            paddingHorizontal: 16,
+            paddingTop: 20,
+            paddingBottom: 14,
+            flexDirection: "row",
+            alignItems: "center",
+            gap: 10,
+          }}
           accessibilityRole="link"
           accessibilityLabel="Início"
         >
+          <BookPlus size={20} color={burgundy[500]} />
           <Text
             style={{
-              fontFamily: SIDEBAR_FONT,
-              fontSize: 11,
-              color: COLORS["500"],
-              letterSpacing: 0.5,
+              fontFamily: FONT_FAMILIES.display,
+              fontSize: 16,
+              color: isDark ? sepia[200] : sepia[800],
             }}
           >
             Tesouro dos Fiéis

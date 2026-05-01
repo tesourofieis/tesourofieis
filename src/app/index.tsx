@@ -41,7 +41,7 @@ export default function PageRender() {
   const headerPaddingBottom = isCompactLayout ? 16 : 18;
   const feriaFontSize = isCompactLayout ? 9 : 10;
   const feriaLetterSpacing = isCompactLayout ? 3.2 : 4;
-  const dateFontSize = isCompactLayout ? 32 : 38;
+  const dateFontSize = isCompactLayout ? 28 : 34;
   const seasonFontSize = isCompactLayout ? 12 : 13;
   const dateTextColor = isCustomDate
     ? isDark
