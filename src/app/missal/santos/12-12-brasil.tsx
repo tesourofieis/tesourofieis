@@ -11,7 +11,9 @@ export default function Page1212Brasil() {
       <H1 text="Nossa Senhora de Guadalupe, a 12 de Dezembro" />
       <Typography className="aside">
         Como na{" "}
-        <Link href="/missal/comum/29missamaria3">Missa Salve, sancta Parens da Virgem Maria,</Link>
+        <Link className="link" href="/missal/comum/29missamaria3">
+          Missa Salve, sancta Parens da Virgem Maria,
+        </Link>
         excepto:
       </Typography>
       :<H3 text="Oração" />

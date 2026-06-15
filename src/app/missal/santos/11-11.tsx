@@ -44,7 +44,10 @@ export default function Page1111() {
 
       <Typography className="aside">
         Comemoração de S. Mena como na
-        <Link href="/missal/comum/4martirnaopontifice1">Missa In virtúte tua</Link>.
+        <Link className="link" href="/missal/comum/4martirnaopontifice1">
+          Missa In virtúte tua
+        </Link>
+        .
       </Typography>
 
       <H3 text="Intróito" />

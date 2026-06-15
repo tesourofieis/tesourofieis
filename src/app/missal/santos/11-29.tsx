@@ -43,11 +43,11 @@ export default function Page1129() {
         </Typography>
       </Language>
 
-      <Link href="/missal/comum/1vigiliaapostolos#oração">
+      <Link className="link" href="/missal/comum/1vigiliaapostolos#oração">
         Oração Missa da Vigília dos Apóstolos - Missa Ego autem
       </Link>
 
-      <Link href="/missal/comum/1vigiliaapostolos#epístola">
+      <Link className="link" href="/missal/comum/1vigiliaapostolos#epístola">
         Epístola Missa da Vigília dos Apóstolos - Missa Ego autem
       </Link>
 

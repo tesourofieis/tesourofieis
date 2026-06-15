@@ -9,7 +9,9 @@ export default function Page1030Portugal() {
       <H1 text="Vitória dos Cristãos, a 30 de Outubro, Missa de Acção de Graças pela vitória que os cristãos alcançaram na luta contra os sarracenos" />
       <Typography className="aside">
         Evangelho, ofertório e secreta como na Missa da
-        <Link href="/missal/santos/05-03">Invenção da Santa Cruz.</Link>
+        <Link className="link" href="/missal/santos/05-03">
+          Invenção da Santa Cruz.
+        </Link>
       </Typography>
       <H3 text="Intróito" />
       <Typography className="vernacular">

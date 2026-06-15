@@ -92,22 +92,19 @@ export default function PageOracaonoite() {
       </Typography>
       <Typography className="aside">
         <Typography className="vernacular">Em seguida rezar: </Typography>
-        <Link style={{ textDecorationLine: "underline" }} href="/devocionario/oracoes/painosso">
+        <Link className="link" href="/devocionario/oracoes/painosso">
           Pai Nosso,
         </Link>{" "}
-        <Link style={{ textDecorationLine: "underline" }} href="/devocionario/oracoes/avemaria">
+        <Link className="link" href="/devocionario/oracoes/avemaria">
           Ave Maria,
         </Link>{" "}
-        <Link style={{ textDecorationLine: "underline" }} href="/devocionario/oracoes/gloria">
+        <Link className="link" href="/devocionario/oracoes/gloria">
           Glória,
         </Link>{" "}
-        <Link
-          style={{ textDecorationLine: "underline" }}
-          href="/devocionario/oracoes/simboloapostolos"
-        >
+        <Link className="link" href="/devocionario/oracoes/simboloapostolos">
           Símbolo dos Apóstolos,
         </Link>{" "}
-        <Link style={{ textDecorationLine: "underline" }} href="/devocionario/oracoes/confesso">
+        <Link className="link" href="/devocionario/oracoes/confesso">
           Confesso
         </Link>{" "}
         . Depois o Hino:
@@ -117,25 +114,19 @@ export default function PageOracaonoite() {
       <Typography className="aside">
         Examina que pecados cometeste neste dia, por pensamentos, palavras, actos ou omissões.
         Depois diz o{" "}
-        <Link style={{ textDecorationLine: "underline" }} href="/devocionario/oracoes/actofe">
+        <Link className="link" href="/devocionario/oracoes/actofe">
           Acto de Fé
         </Link>
         {", "}
-        <Link
-          style={{ textDecorationLine: "underline" }}
-          href="/devocionario/oracoes/actoesperanca"
-        >
+        <Link className="link" href="/devocionario/oracoes/actoesperanca">
           de Esperança
         </Link>
         {", "}
-        <Link style={{ textDecorationLine: "underline" }} href="/devocionario/oracoes/actocaridade">
+        <Link className="link" href="/devocionario/oracoes/actocaridade">
           de Caridade
         </Link>
         {" e "}
-        <Link
-          style={{ textDecorationLine: "underline" }}
-          href="/devocionario/oracoes/actocontricao"
-        >
+        <Link className="link" href="/devocionario/oracoes/actocontricao">
           de Contrição
         </Link>
         {"."}

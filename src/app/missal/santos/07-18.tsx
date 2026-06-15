@@ -27,7 +27,9 @@ export default function Page0718() {
 
       <Typography className="aside">
         Comemoração de Santa Sinforoza e seus Filhos como na
-        <Link href="/missal/comum/7muitosmartires2">Missa Sapiéntiam sanctórum.</Link>
+        <Link className="link" href="/missal/comum/7muitosmartires2">
+          Missa Sapiéntiam sanctórum.
+        </Link>
       </Typography>
 
       <H3 text="Intróito" />

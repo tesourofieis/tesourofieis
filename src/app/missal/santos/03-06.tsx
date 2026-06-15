@@ -10,7 +10,10 @@ export default function Page0306() {
       <H1 text="S. S. Perpétua e Felicidade, Mártires, a 6 de Março" />
 
       <Typography className="aside">
-        Como na <Link href="/missal/comum/19muitasvirgensmartires">Missa Me exspectavérunt,</Link>
+        Como na{" "}
+        <Link className="link" href="/missal/comum/19muitasvirgensmartires">
+          Missa Me exspectavérunt,
+        </Link>
         excepto:
       </Typography>
 

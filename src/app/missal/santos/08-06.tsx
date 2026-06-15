@@ -20,7 +20,9 @@ export default function Page0806() {
 
       <Typography className="aside">
         Comemoração de S. Sixto, Felicíssimo e Agapito como na
-        <Link href="/missal/comum/7muitosmartires2">Missa Missa Sapiéntiam sanctórum</Link>
+        <Link className="link" href="/missal/comum/7muitosmartires2">
+          Missa Missa Sapiéntiam sanctórum
+        </Link>
       </Typography>
 
       <H3 text="Intróito" />

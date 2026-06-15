@@ -11,7 +11,10 @@ export default function Page0324Portugal() {
       <Typography className="aside">
         Em todoas as igrejas de Portugal é permitido, neste dia, celebrar em honra do Santíssimo
         Sacramento, a Missa, que será do
-        <Link href="/missal/pentecostes/pent1-4"> Santíssimo Corpo de Cristo </Link>
+        <Link className="link" href="/missal/pentecostes/pent1-4">
+          {" "}
+          Santíssimo Corpo de Cristo{" "}
+        </Link>
         com Glória e Credo.
       </Typography>
     </PageWrapper>

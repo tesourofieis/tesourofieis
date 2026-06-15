@@ -10,7 +10,10 @@ export default function Page0524() {
       <H1 text="B. Virgem Maria, Auxílio dos Cristãos, a 24 de Maio" />
 
       <Typography className="aside">
-        Como na <Link href="/missal/comum/26festasmaria1">Missa Comum das Festas da B. V. M.,</Link>
+        Como na{" "}
+        <Link className="link" href="/missal/comum/26festasmaria1">
+          Missa Comum das Festas da B. V. M.,
+        </Link>
         excepto:
       </Typography>
 

@@ -611,7 +611,9 @@ export default function PageQuad65() {
 
       <Typography className="aside">
         O Celebrante vai ao meio do Altar e diz o
-        <Link href="/ordo#munda-cor">MUNDA COR MEUM...</Link>
+        <Link className="link" href="/ordo#munda-cor">
+          MUNDA COR MEUM...
+        </Link>
         Depois prossegue:
       </Typography>
 

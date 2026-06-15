@@ -11,7 +11,7 @@ export default function PageQuad56() {
 
       <Typography className="aside">
         Intróito, Gradual, Ofertório e Comúnio como na
-        <Link href="/missal/quaresma/quad5-5">
+        <Link className="link" href="/missal/quaresma/quad5-5">
           Sexta-feira da Semana da Paixão - Estação em Santo Estêvão no Monte Célio.
         </Link>
       </Typography>

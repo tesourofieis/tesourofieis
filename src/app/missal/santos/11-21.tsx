@@ -30,7 +30,9 @@ export default function Page1121() {
 
       <Typography className="aside">
         Como na{" "}
-        <Link href="/missal/comum/29missamaria3">Missa Salve, sancta Parens da Virgem Maria,</Link>
+        <Link className="link" href="/missal/comum/29missamaria3">
+          Missa Salve, sancta Parens da Virgem Maria,
+        </Link>
         excepto:
       </Typography>
 

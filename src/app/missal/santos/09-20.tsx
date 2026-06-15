@@ -22,7 +22,7 @@ export default function Page0920() {
 
       <Typography className="aside">
         Como na{" "}
-        <Link href="/missal/comum/1vigiliaapostolos">
+        <Link className="link" href="/missal/comum/1vigiliaapostolos">
           Missa da Vigília dos Apóstolos - Missa Ego autem,
         </Link>
         excepto:

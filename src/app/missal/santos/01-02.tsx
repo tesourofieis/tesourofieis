@@ -11,7 +11,7 @@ export default function Page0102() {
 
       <Typography className="aside">
         Como na{" "}
-        <Link href="/missal/santos/12-26">
+        <Link className="link" href="/missal/santos/12-26">
           Missa S. Estêvão, Primeiro Mártir, a 26 de Dezembro,
         </Link>
         excepto:

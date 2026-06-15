@@ -1364,7 +1364,10 @@ export default function PageQuad60() {
       </Language>
 
       <Typography className="aside">
-        Interrompe-se aqui a leitura e diz-se o<Link href="/ordo#munda-cor">MUNDA COR MEUM...</Link>
+        Interrompe-se aqui a leitura e diz-se o
+        <Link className="link" href="/ordo#munda-cor">
+          MUNDA COR MEUM...
+        </Link>
         Depois continua-se:
       </Typography>
 

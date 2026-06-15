@@ -11,13 +11,17 @@ export default function PageAccaogracas() {
 
       <Typography className="aside">
         Como alguma das
-        <Link href="/missal/votivas/santissimatrindade">
+        <Link className="link" href="/missal/votivas/santissimatrindade">
           Missas Votivas da Santíssima Trindade,
         </Link>
         ou do
-        <Link href="/missal/votivas/espiritosanto">Espírito Santo,</Link>
+        <Link className="link" href="/missal/votivas/espiritosanto">
+          Espírito Santo,
+        </Link>
         ou da
-        <Link href="/missal/comum/27missamaria1">Santíssima Virgem,</Link>
+        <Link className="link" href="/missal/comum/27missamaria1">
+          Santíssima Virgem,
+        </Link>
         excepto o seguinte:
       </Typography>
 

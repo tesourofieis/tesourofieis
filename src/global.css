@@ -238,8 +238,13 @@
   @apply text-burgundy-500;
 }
 
+/* Inline cross-reference link. Burgundy gives strong contrast against the
+   sepia `aside`/`comment` backgrounds where these links live. Thicker
+   underline + offset keeps it readable in italic text on mobile. */
 @utility link {
-  @apply underline text-sepia-800 dark:text-sepia-200;
+  @apply text-burgundy-700 dark:text-burgundy-300
+         underline decoration-burgundy-500 dark:decoration-burgundy-400
+         decoration-[1.5px] underline-offset-4;
 }
 
 /* Liturgical aside — meditational annotation, e.g. Matinas sidebar */

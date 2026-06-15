@@ -58,3 +58,4 @@ playwright-report
 
 autoresearch.*
 /autoresearch.*
+/.pi/todos

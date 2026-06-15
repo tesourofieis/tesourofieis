@@ -49,7 +49,9 @@ export default function Page6Muitosmartires1() {
 
       <Typography className="aside">
         Não sendo Pontífice, diz-se a
-        <Link href="/missal/comum/7muitosmartires2#oração">Oração da Missa seguinte.</Link>
+        <Link className="link" href="/missal/comum/7muitosmartires2#oração">
+          Oração da Missa seguinte.
+        </Link>
       </Typography>
 
       <H3 text="Epístola" />

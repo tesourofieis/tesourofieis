@@ -39,7 +39,10 @@ export default function Page1116() {
       </Typography>
 
       <Typography className="aside">
-        Como na <Link href="/missal/comum/20virgemnaomartir1">Missa Dilexísti justitiam,</Link>
+        Como na{" "}
+        <Link className="link" href="/missal/comum/20virgemnaomartir1">
+          Missa Dilexísti justitiam,
+        </Link>
         excepto:
       </Typography>
 

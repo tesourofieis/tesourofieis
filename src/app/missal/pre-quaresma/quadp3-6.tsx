@@ -11,7 +11,7 @@ export default function PageQuadp36() {
 
       <Typography className="aside">
         Intróito, Gradual, Ofertório e Comúnio como na
-        <Link href="/missal/pre-quaresma/quadp3-5">
+        <Link className="link" href="/missal/pre-quaresma/quadp3-5">
           Sexta-feira depois das Cinzas - Estação na Igreja dos SS. João e Paulo, Mártires.
         </Link>
       </Typography>

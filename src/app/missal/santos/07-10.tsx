@@ -15,7 +15,7 @@ export default function Page0710() {
         presença, louva a mulher forte (Ep.) que, exortando-os a morrer, «em todos foi ela própria
         vitoriosa». Estendeu às almas dos filhos a sua maternidade, fazendo-os cumprir a vontade de
         Deus (Ev., Com.) (Ver
-        <Link href="/missal/santos/11-23#comemoração-de-santa-felicidade">
+        <Link className="link" href="/missal/santos/11-23#comemoração-de-santa-felicidade">
           Comemoração de Santa Felicidade
         </Link>
         ). Eles morreram no ano de 150, sob o imperador Antonino. Um século depois, Rufina e

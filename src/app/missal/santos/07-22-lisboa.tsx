@@ -81,7 +81,9 @@ export default function Page0722Lisboa() {
       </Typography>
       <Typography className="aside">
         Nalguns lugares diz-se a
-        <Link href="/missal/comum/14confessoresnaopontifices1">Missa Os justi,</Link>
+        <Link className="link" href="/missal/comum/14confessoresnaopontifices1">
+          Missa Os justi,
+        </Link>
         com a Oração, Secreta e Postcomúnio precedentes.
       </Typography>
     </PageWrapper>

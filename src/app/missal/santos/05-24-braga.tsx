@@ -10,7 +10,7 @@ export default function Page0524Braga() {
 
       <Typography className="aside">
         Como na{" "}
-        <Link href="/missal/santos/05-04-portugal">
+        <Link className="link" href="/missal/santos/05-04-portugal">
           Missa da Trasladação das Relíquias de S. Vicente,
         </Link>
         alterando-se com o nome deste Santo.

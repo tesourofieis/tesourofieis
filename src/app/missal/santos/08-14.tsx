@@ -44,7 +44,9 @@ export default function Page0814() {
 
       <Typography className="aside">
         Oração, Secreta e Postcomúnio S. Eusébio como na
-        <Link href="/missal/comum/14confessoresnaopontifices1">Missa Os justi.</Link>
+        <Link className="link" href="/missal/comum/14confessoresnaopontifices1">
+          Missa Os justi.
+        </Link>
       </Typography>
 
       <H3 text="Epístola" />

@@ -238,9 +238,7 @@ export default function PageLinkCard({
                           : `font-strong ${massNameColor(mass.rank)}`
                       }
                       style={{
-                        fontFamily: isFeatured
-                          ? FONT_FAMILIES.display
-                          : FONT_FAMILIES.strong,
+                        fontFamily: isFeatured ? FONT_FAMILIES.display : FONT_FAMILIES.strong,
                         fontSize: isFeatured ? 17 : 15,
                         lineHeight: isFeatured ? 24 : 21,
                         color: isFeatured ? massNameTone(mass.rank, isDark) : undefined,

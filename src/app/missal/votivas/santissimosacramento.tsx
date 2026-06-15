@@ -10,7 +10,10 @@ export default function PageSantissimosacramento() {
       <H1 text="Missa do Santíssimo Sacramento" />
 
       <Typography className="aside">
-        Como na <Link href="/missal/pentecostes/pent1-4">Missa do Santíssimo Corpo de Cristo,</Link>
+        Como na{" "}
+        <Link className="link" href="/missal/pentecostes/pent1-4">
+          Missa do Santíssimo Corpo de Cristo,
+        </Link>
         excepto: Depois da Septuagésima omite-se o Aleluia o Verso que se segue, e diz-se o:
       </Typography>
 

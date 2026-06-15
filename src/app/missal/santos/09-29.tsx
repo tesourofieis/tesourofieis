@@ -30,7 +30,9 @@ export default function Page0929() {
 
       <Typography className="aside">
         Como na{" "}
-        <Link href="/missal/santos/05-08">Missa da Festa da Aparição de Arcanjo Miguel,</Link>
+        <Link className="link" href="/missal/santos/05-08">
+          Missa da Festa da Aparição de Arcanjo Miguel,
+        </Link>
         excepto:
       </Typography>
 
