@@ -1,4 +1,4 @@
-import { Link } from "expo-router";
+import { MissalRefLink as Link } from "~/components/MissalRefLink";
 import { H1, H3 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 import { Typography } from "~/components/typography";

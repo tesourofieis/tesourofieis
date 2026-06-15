@@ -1,5 +1,5 @@
 import { Image } from "expo-image";
-import { Link } from "expo-router";
+import { MissalRefLink as Link } from "~/components/MissalRefLink";
 import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
