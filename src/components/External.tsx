@@ -110,67 +110,67 @@ export default function ExternalLinks() {
             accessibilityLabel={`${link.title}: ${link.desc}`}
             accessibilityRole="link"
           >
-          {({ pressed }) => (
-            <View className={cardBase(pressed)}>
-              <View className="flex flex-row justify-between items-center gap-1 mr-2">
-                <View className="flex-1">
-                  <View className="flex text-pretty bold flex-row items-center gap-2">
-                    {(() => {
-                      const IconComponent = getIconComponent(link.icon);
-                      return (
-                        <IconComponent size={15} color={isDark ? COLORS["200"] : COLORS["800"]} />
-                      );
-                    })()}
-                    <Typography className="text-lg font-display text-sepia-600 dark:text-sepia-300">
-                      {link.title}
-                    </Typography>
-                  </View>
-
-                  <View className="flex flex-row">
-                    <Typography
-                      className="text-pretty bold text-xs text-sepia-600 dark:text-sepia-200"
-                      numberOfLines={1}
-                    >
-                      {link.desc}
-                    </Typography>
-                  </View>
-
-                  {link.copyValue && (
-                    <View className="flex-row items-center gap-2 mt-1">
-                      {/* Important: stopPropagation to avoid opening the external link when pressing copy */}
-                      <Pressable
-                        onPress={async (e: GestureResponderEvent) => {
-                          // evita que o Pressable pai seja acionado
-                          e.stopPropagation?.();
-                          try {
-                            await copyToClipboard(link.copyValue as string);
-                            showCopiedFeedback();
-                          } catch (err) {
-                            console.warn("Erro ao copiar:", err);
-                            showCopiedFeedback("Erro ao copiar");
-                          }
-                        }}
-                        accessibilityRole="button"
-                        accessibilityLabel={`Copiar ${link.name}`}
-                      >
-                        <View className="flex-row p-3 gap-3 items-center text-xs text-sepia bg-sepia-200 dark:bg-sepia-900 rounded-xl">
-                          <Typography
-                            className="font-mono text-xs"
-                            numberOfLines={1}
-                            ellipsizeMode="middle"
-                          >
-                            {link.copyValue}
-                          </Typography>
-
-                          <Copy size={12} color={COLORS[500]} />
-                        </View>
-                      </Pressable>
+            {({ pressed }) => (
+              <View className={cardBase(pressed)}>
+                <View className="flex flex-row justify-between items-center gap-1 mr-2">
+                  <View className="flex-1">
+                    <View className="flex text-pretty bold flex-row items-center gap-2">
+                      {(() => {
+                        const IconComponent = getIconComponent(link.icon);
+                        return (
+                          <IconComponent size={15} color={isDark ? COLORS["200"] : COLORS["800"]} />
+                        );
+                      })()}
+                      <Typography className="text-lg font-display text-sepia-600 dark:text-sepia-300">
+                        {link.title}
+                      </Typography>
                     </View>
-                  )}
+
+                    <View className="flex flex-row">
+                      <Typography
+                        className="text-pretty bold text-xs text-sepia-600 dark:text-sepia-200"
+                        numberOfLines={1}
+                      >
+                        {link.desc}
+                      </Typography>
+                    </View>
+
+                    {link.copyValue && (
+                      <View className="flex-row items-center gap-2 mt-1">
+                        {/* Important: stopPropagation to avoid opening the external link when pressing copy */}
+                        <Pressable
+                          onPress={async (e: GestureResponderEvent) => {
+                            // evita que o Pressable pai seja acionado
+                            e.stopPropagation?.();
+                            try {
+                              await copyToClipboard(link.copyValue as string);
+                              showCopiedFeedback();
+                            } catch (err) {
+                              console.warn("Erro ao copiar:", err);
+                              showCopiedFeedback("Erro ao copiar");
+                            }
+                          }}
+                          accessibilityRole="button"
+                          accessibilityLabel={`Copiar ${link.name}`}
+                        >
+                          <View className="flex-row p-3 gap-3 items-center text-xs text-sepia bg-sepia-200 dark:bg-sepia-900 rounded-xl">
+                            <Typography
+                              className="font-mono text-xs"
+                              numberOfLines={1}
+                              ellipsizeMode="middle"
+                            >
+                              {link.copyValue}
+                            </Typography>
+
+                            <Copy size={12} color={COLORS[500]} />
+                          </View>
+                        </Pressable>
+                      </View>
+                    )}
+                  </View>
                 </View>
               </View>
-            </View>
-          )}
+            )}
           </Pressable>
         ))}
       </View>

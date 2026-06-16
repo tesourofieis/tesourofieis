@@ -1,4 +1,11 @@
-import { Settings, Search, ChevronDown, ChevronRight, BookPlus } from "lucide-react-native";
+import {
+  Settings,
+  Search,
+  ChevronDown,
+  ChevronRight,
+  BookPlus,
+  CalendarDays,
+} from "lucide-react-native";
 import { burgundy, sepia } from "config";
 import { usePathname, useRouter } from "expo-router";
 import React, { useCallback, useEffect, useMemo, useState } from "react";
@@ -447,6 +454,44 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
             </View>
             <Text style={{ fontFamily: SIDEBAR_FONT, fontSize: SIDEBAR_SIZE, color: colors.icon }}>
               Pesquisar
+            </Text>
+          </TouchableOpacity>
+
+          {/* Calendar action — static quick link to the month/week overview */}
+          <TouchableOpacity
+            onPress={() => {
+              navigation.closeDrawer();
+              router.push("/calendario");
+            }}
+            style={{
+              flexDirection: "row",
+              alignItems: "center",
+              gap: 8,
+              paddingVertical: 5,
+              paddingHorizontal: 8,
+              marginHorizontal: 4,
+              borderRadius: 6,
+              backgroundColor: pathname === "/calendario" ? drawerColors.activeBg : "transparent",
+              borderLeftWidth: pathname === "/calendario" ? 3 : 0,
+              borderLeftColor: pathname === "/calendario" ? burgundy[500] : "transparent",
+            }}
+            accessibilityRole="button"
+            accessibilityLabel="Calendário"
+          >
+            <View style={{ width: 20, alignItems: "center" }}>
+              <CalendarDays
+                size={14}
+                color={pathname === "/calendario" ? drawerColors.active : colors.icon}
+              />
+            </View>
+            <Text
+              style={{
+                fontFamily: pathname === "/calendario" ? FONT_FAMILIES.strong : SIDEBAR_FONT,
+                fontSize: SIDEBAR_SIZE,
+                color: pathname === "/calendario" ? drawerColors.active : colors.icon,
+              }}
+            >
+              Calendário
             </Text>
           </TouchableOpacity>
         </View>

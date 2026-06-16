@@ -286,11 +286,30 @@ export const Header = ({
   const navigation = useNavigation();
   const { toggleSearch } = useSearchModal();
 
-  // On web desktop sub-pages: thin breadcrumb bar only, inside the content panel
+  // On web desktop sub-pages keep the app header visible with breadcrumbs and search.
   if (isWebDesktop && withBC) {
     return (
-      <View className="flex-row items-center px-5 py-2.5 border-b border-sepia-200 dark:border-sepia-700 medium-background">
-        <Breadcrumbs />
+      <View className="flex-row items-center justify-between px-5 py-2.5 gap-3 border-b border-sepia-200 dark:border-sepia-700 medium-background w-full">
+        <View className="flex-row items-center gap-3 flex-1 min-w-0">
+          <Pressable
+            className="flex items-center justify-center w-9 h-9 rounded-xl active:bg-sepia-200 dark:active:bg-sepia-700"
+            onPress={() => router.navigate("/")}
+            accessibilityRole="button"
+            accessibilityLabel="Ir para Início"
+          >
+            <BookPlus size={18} color={burgundy[500]} />
+          </Pressable>
+          <Breadcrumbs />
+        </View>
+
+        <Pressable
+          onPress={toggleSearch}
+          className="flex items-center justify-center w-9 h-9 rounded-xl active:bg-sepia-400 dark:active:bg-sepia-700 soft-background"
+          accessibilityRole="button"
+          accessibilityLabel="Pesquisar"
+        >
+          <Search size={18} color={burgundy[500]} />
+        </Pressable>
       </View>
     );
   }
@@ -330,25 +349,35 @@ export const Header = ({
   }
 
   return (
-    <View className="flex-row items-center justify-between p-3 gap-2 w-full border-b border-sepia">
-      <Pressable
-        className="flex items-center justify-center w-9 h-9 rounded-xl active:bg-sepia-400 dark:active:bg-sepia-700 soft-background"
-        // @ts-expect-error
-        onPress={() => navigation.openDrawer()}
-      >
-        <Menu size={18} color={burgundy[500]} />
-      </Pressable>
-      <Pressable
-        className="flex items-center justify-center w-9 h-9 rounded-xl active:bg-sepia-200 dark:active:bg-sepia-700"
-        onPress={() => router.navigate("/")}
-        accessibilityRole="button"
-        accessibilityLabel="Ir para Início"
-      >
-        <BookPlus size={18} color={burgundy[500]} />
-      </Pressable>
+    <View
+      className={`flex-row items-center justify-between w-full border-b border-sepia ${
+        isWebDesktop ? "px-5 py-2.5 gap-3 medium-background" : "p-3 gap-2"
+      }`}
+    >
+      <View className={`flex-row items-center flex-1 ${isWebDesktop ? "gap-3 min-w-0" : "gap-2"}`}>
+        {isWebDesktop ? null : (
+          <Pressable
+            className="flex items-center justify-center w-9 h-9 rounded-xl active:bg-sepia-400 dark:active:bg-sepia-700 soft-background"
+            // @ts-expect-error
+            onPress={() => navigation.openDrawer()}
+          >
+            <Menu size={18} color={burgundy[500]} />
+          </Pressable>
+        )}
+        <Pressable
+          className="flex items-center justify-center w-9 h-9 rounded-xl active:bg-sepia-200 dark:active:bg-sepia-700"
+          onPress={() => router.navigate("/")}
+          accessibilityRole="button"
+          accessibilityLabel="Ir para Início"
+        >
+          <BookPlus size={18} color={burgundy[500]} />
+        </Pressable>
+      </View>
       <Pressable
         onPress={toggleSearch}
-        className="flex items-center justify-center w-9 h-9 rounded-xl active:bg-sepia-100 dark:active:bg-sepia-700 soft-background"
+        className={`flex items-center justify-center w-9 h-9 rounded-xl dark:active:bg-sepia-700 soft-background ${
+          isWebDesktop ? "active:bg-sepia-400" : "active:bg-sepia-100"
+        }`}
       >
         <Search size={18} color={burgundy[500]} />
       </Pressable>

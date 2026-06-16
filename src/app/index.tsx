@@ -10,6 +10,7 @@ import LinkCard from "~/components/LinkCard";
 import LiturgicalSeason from "~/components/LiturgicalSeason";
 import Novenas from "~/components/Novenas";
 import Office from "~/components/Office";
+import { LiturgicalDateHeader } from "~/components/LiturgicalDateHeader";
 import { Typography } from "~/components/typography";
 import { COLORS } from "~/constants/Colors";
 import { useCalendar } from "~/providers/calendar";
@@ -37,30 +38,24 @@ export default function PageRender() {
   const sectionInset = isCompactLayout ? 20 : 20;
   const headerPaddingTop = isCompactLayout ? 6 : 8;
   const headerPaddingBottom = isCompactLayout ? 8 : 10;
-  const feriaFontSize = isCompactLayout ? 9 : 10;
-  const feriaLetterSpacing = isCompactLayout ? 3.2 : 4;
-  const dateFontSize = isCompactLayout ? 28 : 34;
-  const seasonFontSize = isCompactLayout ? 12 : 13;
+  const dateFontSize = isCompactLayout ? 28 : 32;
+  const seasonFontSize = isCompactLayout ? 12 : 12;
   const dateTextColor = isCustomDate
     ? isDark
       ? burgundy[400]
       : burgundy[600]
-    : isDark
-      ? colors.textPrimary
-      : colors.textSecondary;
+    : colors.textSecondary;
   const chevronColor = isDark ? colors.textMuted : COLORS["500"];
-  const feriaTextColor = isDark ? burgundy[400] : burgundy[500];
-  const seasonTextColor = isDark ? colors.textMuted : COLORS["500"];
   const sectionLabelColor = isDark ? burgundy[400] : burgundy[500];
 
   const stepDay = (delta: number) => () => setDate(addDays(date, delta));
 
-  const prayerItems: Array<{
+  const prayerItems: {
     key: string;
     href: string;
     title: string;
     description: string;
-  }> = [
+  }[] = [
     {
       key: "rosario",
       href: "/devocionario/rosario",
@@ -94,56 +89,27 @@ export default function PageRender() {
   }
 
   return (
-    <ScrollView>
-      <View className="extreme-background">
-        <View className="flex flex-row items-center gap-3 p-1 justify-center">
-          <BookPlus strokeWidth={2} size={25} color={burgundy[500]} />
-          <H1 text="Tesouro dos Fiéis" />
-        </View>
-
+    <ScrollView contentContainerStyle={{ flexGrow: 1 }}>
+      <View className="extreme-background w-full">
         <View
-          className="flex-1 web:max-w-5xl web:mx-auto py-5 p-3 rounded-lg"
+          className="flex-1 w-full web:max-w-4xl web:mx-auto py-5 px-3"
           style={{
-            borderWidth: 1,
-            borderColor: isDark ? COLORS["800"] : COLORS["200"],
             backgroundColor: colors.screen,
           }}
         >
-          {/* Liturgical day header — missal style: rules framing pure typography */}
-          <View
-            style={{
-              borderTopWidth: 1,
-              borderBottomWidth: 1,
-              borderColor: colors.divider,
-              paddingTop: headerPaddingTop,
-              paddingBottom: headerPaddingBottom,
-              paddingHorizontal: sectionInset,
-              marginBottom: 4,
-            }}
-          >
-            {/* Feria label — tracked small-caps, burgundy */}
-            <Typography
-              className="font-reading"
-              style={{
-                fontSize: feriaFontSize,
-                letterSpacing: feriaLetterSpacing,
-                color: feriaTextColor,
-                marginBottom: 6,
-              }}
-            >
-              {format(date, "EEEE", { locale: pt }).toUpperCase()}
-            </Typography>
-
-            {/* Date stepper — circular targets flank a tappable date, so the three elements read as one control */}
-            <View
-              style={{
-                flexDirection: "row",
-                alignItems: "center",
-                columnGap: 6,
-                alignSelf: "flex-start",
-                marginBottom: 6,
-              }}
-            >
+          <View className="flex flex-row items-center justify-center gap-3 px-1 pb-3 pt-1">
+            <BookPlus strokeWidth={2} size={25} color={burgundy[500]} />
+            <H1 text="Tesouro dos Fiéis" />
+          </View>
+          <LiturgicalDateHeader
+            overline={format(date, "EEEE", { locale: pt }).toUpperCase()}
+            paddingHorizontal={sectionInset}
+            paddingTop={headerPaddingTop}
+            paddingBottom={headerPaddingBottom}
+            titleSize={dateFontSize}
+            subtitleSize={seasonFontSize}
+            subtitle={season}
+            leftControl={
               <Pressable
                 onPress={stepDay(-1)}
                 hitSlop={6}
@@ -161,25 +127,30 @@ export default function PageRender() {
               >
                 <ChevronLeft size={18} color={chevronColor} strokeWidth={1.7} />
               </Pressable>
-
+            }
+            title={
               <DatePicker date={date} onDateChange={setDate}>
-                <Typography
-                  className={`font-display leading-none ${
-                    isCustomDate
-                      ? "text-burgundy-600 dark:text-burgundy-400"
-                      : "text-sepia-800 dark:text-sepia-100"
-                  }`}
-                  style={{
-                    fontSize: dateFontSize,
-                    color: dateTextColor,
-                    paddingHorizontal: 10,
-                    paddingVertical: 2,
-                  }}
-                >
-                  {format(date, "d 'de' MMMM", { locale: pt })}
-                </Typography>
+                <View style={{ flexShrink: 1 }}>
+                  <Typography
+                    className={`font-display leading-none ${
+                      isCustomDate
+                        ? "text-burgundy-600 dark:text-burgundy-400"
+                        : "text-sepia-800 dark:text-sepia-100"
+                    }`}
+                    style={{
+                      fontSize: dateFontSize,
+                      color: dateTextColor,
+                      paddingHorizontal: 10,
+                      paddingVertical: 2,
+                    }}
+                    numberOfLines={1}
+                  >
+                    {format(date, "d 'de' MMMM", { locale: pt })}
+                  </Typography>
+                </View>
               </DatePicker>
-
+            }
+            rightControl={
               <Pressable
                 onPress={stepDay(1)}
                 hitSlop={6}
@@ -197,31 +168,20 @@ export default function PageRender() {
               >
                 <ChevronRight size={18} color={chevronColor} strokeWidth={1.7} />
               </Pressable>
-            </View>
-
-            {/* Season — italic, like a liturgical subtitle */}
-            <Typography
-              className="font-display-italic"
-              style={{
-                fontSize: seasonFontSize,
-                color: seasonTextColor,
-              }}
-            >
-              {season}
-            </Typography>
-
-            {/* Rubric: when on custom date, a small italic note to return */}
-            {isCustomDate && (
-              <Pressable onPress={resetToToday} accessibilityLabel="Voltar a hoje">
-                <Typography
-                  className="font-italic text-burgundy-500 dark:text-burgundy-400"
-                  style={{ fontSize: 11, marginTop: 6 }}
-                >
-                  † voltar ao dia de hoje
-                </Typography>
-              </Pressable>
-            )}
-          </View>
+            }
+            footer={
+              isCustomDate ? (
+                <Pressable onPress={resetToToday} accessibilityLabel="Voltar a hoje">
+                  <Typography
+                    className="font-italic text-burgundy-500 dark:text-burgundy-400"
+                    style={{ fontSize: 11, marginTop: 6 }}
+                  >
+                    † voltar ao dia de hoje
+                  </Typography>
+                </Pressable>
+              ) : undefined
+            }
+          />
 
           {/* Mass cards — sit directly below the day header, inside the animated container */}
           <View className="pt-2 pb-4 gap-3" style={{ paddingHorizontal: sectionInset }}>
