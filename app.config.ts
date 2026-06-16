@@ -88,13 +88,14 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
         ],
       },
     ],
-    "expo-localization",
     [
       "expo-notifications",
       {
         icon: "./assets/images/notifications.png",
       },
     ],
+    "expo-localization",
+    "expo-status-bar",
     "expo-secure-store",
     "expo-image",
     "expo-web-browser",
