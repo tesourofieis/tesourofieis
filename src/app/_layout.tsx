@@ -1,7 +1,7 @@
 import { useFonts } from "expo-font";
 import Head from "expo-router/head";
 import { useEffect } from "react";
-import { useWindowDimensions, Platform, Pressable, View } from "react-native";
+import { Platform, Pressable, View } from "react-native";
 import { Typography } from "~/components/typography";
 import "../global.css";
 import { BookPlus, ChevronRight, Search, Menu, AlertTriangle } from "lucide-react-native";
@@ -23,6 +23,7 @@ import { SettingsProvider } from "~/providers/settings";
 import { PostHogProvider } from "posthog-react-native";
 import { LanguageProvider } from "~/providers/language";
 import { useAppTheme } from "~/theme";
+import { useWebDesktop } from "~/hooks/useWebDesktop";
 
 SplashScreen.preventAutoHideAsync();
 
@@ -32,7 +33,6 @@ export default function PageRootLayout() {
     Cardo_700Bold: require("~/assets/fonts/Cardo_700Bold.ttf"),
     DMSerifDisplay_400Regular: require("~/assets/fonts/DMSerifDisplay_400Regular.ttf"),
     DMSerifDisplay_400Regular_Italic: require("~/assets/fonts/DMSerifDisplay_400Regular_Italic.ttf"),
-    DMSerifText_400Regular: require("~/assets/fonts/DMSerifText_400Regular.ttf"),
   });
 
   useEffect(() => {
@@ -111,7 +111,7 @@ function RootLayoutNav() {
         }}
       >
         <UpdateAwareDrawer />
-        <StatusBar hidden backgroundColor={colors.shell} />
+        <StatusBar hidden />
       </View>
     );
   }
@@ -124,16 +124,14 @@ function RootLayoutNav() {
       }}
     >
       <UpdateAwareDrawer />
-      <StatusBar hidden backgroundColor={colors.shell} />
+      <StatusBar hidden />
     </SafeAreaView>
   );
 }
 
 function UpdateAwareDrawer() {
   const { colors, isDark } = useAppTheme();
-  const isWeb = Platform.OS === "web";
-  const { width } = useWindowDimensions();
-  const isWebDesktop = isWeb && width >= 768;
+  const isWebDesktop = useWebDesktop();
 
   return (
     <Drawer
@@ -143,7 +141,6 @@ function UpdateAwareDrawer() {
         freezeOnBlur: true,
         header: ({ route }) => {
           const isRootScreen = ["index", "configurar"].includes(route.name);
-          if (isRootScreen && isWebDesktop) return null;
           return <Header withBC={!isRootScreen} isWebDesktop={isWebDesktop} />;
         },
         headerStyle: {
@@ -169,9 +166,7 @@ function UpdateAwareDrawer() {
 const Breadcrumbs = () => {
   const pathname = usePathname();
   const router = useRouter();
-  const { width } = useWindowDimensions();
-  const isWeb = Platform.OS === "web";
-  const isWebDesktop = isWeb && width >= 768;
+  const isWebDesktop = useWebDesktop();
 
   const segments = pathname.split("/").filter((segment) => segment && segment !== "(tabs)");
 

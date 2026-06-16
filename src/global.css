@@ -46,7 +46,6 @@
   --color-red-800: var(--color-burgundy-800);
   --color-red-900: var(--color-burgundy-900);
 
-  --font-family-serif: "DMSerifText_400Regular", Georgia, "Times New Roman", Times, serif;
   --font-family-reading: "Cardo_400Regular", Georgia, "Times New Roman", Times, serif;
   --font-family-display: "DMSerifDisplay_400Regular", Georgia, "Times New Roman", Times, serif;
   --font-family-bold: "Cardo_700Bold", Georgia, "Times New Roman", Times, serif;
@@ -133,15 +132,7 @@
   font-family: var(--font-family-reading);
 }
 
-@utility font-serif-custom {
-  font-family: var(--font-family-reading);
-}
-
 @utility font-strong {
-  font-family: var(--font-family-bold);
-}
-
-@utility font-bold-custom {
   font-family: var(--font-family-bold);
 }
 
@@ -196,10 +187,6 @@
   font-family: var(--font-family-reading);
   text-rendering: optimizeLegibility;
   @apply py-2 text-sepia-600 dark:text-sepia-300;
-}
-
-@utility font-serif {
-  font-family: var(--font-family-serif);
 }
 
 @utility font-italic {

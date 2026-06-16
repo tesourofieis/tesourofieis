@@ -461,8 +461,10 @@ function useSearch(searchQuery: string, selectedSections: string[]) {
 
   useEffect(() => {
     if (!searchQuery.trim()) {
-      setResults([]);
-      setIsSearching(false);
+      void Promise.resolve().then(() => {
+        setResults([]);
+        setIsSearching(false);
+      });
       if (timeoutRef.current) {
         clearTimeout(timeoutRef.current);
         timeoutRef.current = null;

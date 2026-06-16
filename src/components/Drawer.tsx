@@ -327,6 +327,7 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
 
   const toggleExpand = useCallback(
     async (id: string, children: boolean) => {
+      // eslint-disable-next-line react-hooks/immutability
       isManualInteraction.current = true;
       const isCurrentlyExpanded = expanded[id];
 

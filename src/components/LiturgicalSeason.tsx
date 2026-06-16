@@ -1,4 +1,5 @@
 import { Star, Flame, Sprout, Cross, Bird, Baby, Heart } from "lucide-react-native";
+import { createElement } from "react";
 import type { LiturgicalSeason as Season } from "~/lib/calendar";
 
 import { View } from "react-native";
@@ -447,7 +448,6 @@ export default function LiturgicalSeason() {
   const { season } = useCalendar();
 
   const prayers = TEMPORAS_PRAYERS[season] || [];
-  const seasonNote = SEASON_NOTES[season] ?? "";
 
   if (prayers.length === 0) {
     return null;
@@ -455,35 +455,19 @@ export default function LiturgicalSeason() {
 
   const seasonColors = SEASON_COLORS[season];
   const iconColor = colors.icon;
-  const IconComponent = getIconComponent(CATEGORY_ICONS[season]);
+  const iconElement = createElement(getIconComponent(CATEGORY_ICONS[season]), {
+    size: 18,
+    color: iconColor,
+  });
 
   return (
-    <View className="mt-2 gap-2 flex-1 px-5 h-full">
-      {/* Season hero card */}
-      <View
-        className={`rounded-xl border mb-1 ${seasonColors.bg} ${seasonColors.border}`}
-        style={{ overflow: "hidden" }}
-      >
-        <View className="p-4">
-          <Typography
-            className="uppercase text-sepia-500 dark:text-sepia-500 mb-2"
-            style={{ fontSize: 10, letterSpacing: 3 }}
-          >
-            Tempo Litúrgico
-          </Typography>
-          <View className="flex-row items-center gap-2 mb-1">
-            <IconComponent size={18} color={iconColor} />
-            <Typography className={`font-display text-2xl ${seasonColors.accent}`}>
-              {season}
-            </Typography>
-          </View>
-          <Typography className="text-xs text-sepia-500 dark:text-sepia-500 italic">
-            {seasonNote}
-          </Typography>
-        </View>
+    <View className="mt-2 gap-3 flex-1">
+      <View className="flex-row items-center gap-2">
+        {iconElement}
+        <Typography className={`font-display text-xl ${seasonColors.accent}`}>{season}</Typography>
       </View>
 
-      <View>
+      <View className="gap-2">
         {prayers.map((prayer) => (
           <PageLinkCard
             key={prayer.title}

@@ -1,9 +1,8 @@
-import { Languages } from "lucide-react-native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import { createContext, useContext, useEffect, useState } from "react";
-import { Platform, TouchableOpacity, View } from "react-native";
-import { H6 } from "~/components/Headings";
-import { Typography } from "~/components/typography";
+import { Languages } from "lucide-react-native";
+import { SegmentedOption, SettingsSection } from "~/components/SettingsControls";
+import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
+import { Platform, View } from "react-native";
 import { useAppTheme } from "~/theme";
 
 type Language = "latin" | "vernacular";
@@ -22,11 +21,7 @@ export const LanguageProvider = ({ children }: { children: React.ReactNode }) =>
   const [language, setLanguageState] = useState<Language>("vernacular");
   const [isLoading, setIsLoading] = useState(true);
 
-  useEffect(() => {
-    loadLanguage();
-  }, []);
-
-  const loadLanguage = async () => {
+  const loadLanguage = useCallback(async () => {
     try {
       if (Platform.OS !== "web") {
         const stored = await AsyncStorage.getItem(STORAGE_KEY);
@@ -44,9 +39,9 @@ export const LanguageProvider = ({ children }: { children: React.ReactNode }) =>
     } finally {
       setIsLoading(false);
     }
-  };
+  }, []);
 
-  const setLanguage = async (lang: Language) => {
+  const setLanguage = useCallback(async (lang: Language) => {
     try {
       setLanguageState(lang);
       if (Platform.OS !== "web") {
@@ -57,13 +52,18 @@ export const LanguageProvider = ({ children }: { children: React.ReactNode }) =>
     } catch (error) {
       console.log("Error saving default language:", error);
     }
-  };
+  }, []);
 
-  return (
-    <LanguageContext.Provider value={{ language, setLanguage, isLoading }}>
-      {children}
-    </LanguageContext.Provider>
+  useEffect(() => {
+    void Promise.resolve().then(loadLanguage);
+  }, [loadLanguage]);
+
+  const value = useMemo(
+    () => ({ language, setLanguage, isLoading }),
+    [language, setLanguage, isLoading],
   );
+
+  return <LanguageContext.Provider value={value}>{children}</LanguageContext.Provider>;
 };
 
 export const useDefaultLanguage = () => {
@@ -88,56 +88,28 @@ export const DefaultLanguageSelector = () => {
 
   if (isLoading) {
     return (
-      <View className="py-3 my-3 border-b border-sepia-300 dark:border-sepia-700">
-        <View className="flex-row items-center mb-3">
-          <Languages size={15} color={colors.textPrimary} />
-          <H6 text="Língua Padrão" />
-        </View>
+      <SettingsSection
+        icon={<Languages size={15} color={colors.textPrimary} />}
+        title="Língua Padrão"
+      >
         <View className="h-12 soft-background rounded-lg" />
-      </View>
+      </SettingsSection>
     );
   }
 
   return (
-    <View className="py-3 my-3 border-b border-sepia-300 dark:border-sepia-700">
-      <View className="flex-row items-center mb-3 gap-1">
-        <Languages size={15} color={colors.textPrimary} />
-        <H6 text="Língua Padrão" />
-      </View>
-      <View className="flex-row justify-between items-center">
-        <TouchableOpacity
-          onPress={() => setLanguage("vernacular")}
-          className={`flex-1 mx-1 py-3 px-4 rounded-lg items-center ${
-            language === "vernacular" ? "bg-sepia-800 dark:bg-sepia-200" : "soft-background"
-          }`}
-        >
-          <Typography
-            className={`font-strong ${
-              language === "vernacular"
-                ? "text-sepia-200 dark:text-sepia-800"
-                : "text-sepia-800 dark:text-sepia-200"
-            }`}
-          >
-            Vernáculo
-          </Typography>
-        </TouchableOpacity>
-        <TouchableOpacity
-          onPress={() => setLanguage("latin")}
-          className={`flex-1 mx-1 py-3 px-4 rounded-lg items-center ${
-            language === "latin" ? "bg-sepia-800 dark:bg-sepia-200" : "soft-background"
-          }`}
-        >
-          <Typography
-            className={`font-strong ${
-              language === "latin"
-                ? "text-sepia-200 dark:text-sepia-800"
-                : "text-sepia-800 dark:text-sepia-200"
-            }`}
-          >
-            Latim
-          </Typography>
-        </TouchableOpacity>
-      </View>
-    </View>
+    <SettingsSection
+      icon={<Languages size={15} color={colors.textPrimary} />}
+      title="Língua Padrão"
+    >
+      <SegmentedOption
+        value={language}
+        onChange={setLanguage}
+        options={[
+          { label: "Vernáculo", value: "vernacular" },
+          { label: "Latim", value: "latin" },
+        ]}
+      />
+    </SettingsSection>
   );
 };

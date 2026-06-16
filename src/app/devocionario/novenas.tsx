@@ -1,10 +1,9 @@
 import { Calendar } from "~/lib/calendar";
 import { getNovenas } from "~/lib/getCalendar";
-import type { Mass } from "~/lib/observanceManager";
 import { yyyyMMDD } from "~/lib/utils";
 import { getYear } from "date-fns";
 import { Link } from "expo-router";
-import { useEffect, useState } from "react";
+import { useMemo } from "react";
 import { View } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
@@ -24,15 +23,10 @@ function getAllNovenasForYear(year: number) {
 }
 
 export default function PaginaNovenas() {
-  const [allNovenas, setAllNovenas] = useState<Mass[]>([]);
   const year = getYear(new Date());
+  const allNovenas = useMemo(() => getAllNovenasForYear(year), [year]);
 
   const novena = getNovenas(yyyyMMDD(new Date()));
-
-  useEffect(() => {
-    const novenas = getAllNovenasForYear(year);
-    setAllNovenas(novenas);
-  }, [year]);
 
   return (
     <PageWrapper>

@@ -8,16 +8,13 @@ import { ChevronLeft, ChevronRight } from "lucide-react-native";
 import { useCallback, useMemo, useRef, useState } from "react";
 import { Pressable, Text, View } from "react-native";
 import { COLORS } from "~/constants/Colors";
-import { useAppTheme } from "~/theme";
+import { FONT_FAMILIES, useAppTheme } from "~/theme";
 
 interface DatePickerProps {
   date: Date;
   onDateChange: (date: Date) => void;
   children: React.ReactNode;
 }
-
-const FONT = "Cardo_400Regular";
-const FONT_DISPLAY = "DMSerifDisplay_400Regular";
 
 // Stable formatting functions (must be outside component for referential equality)
 const formatWeekDay = (d: Date) => format(d, "EEEEEE", { locale: pt }).toUpperCase();
@@ -58,7 +55,7 @@ export function DatePicker({ date, onDateChange, children }: DatePickerProps) {
       // Week day names
       itemWeekName: {
         content: {
-          fontFamily: FONT,
+          fontFamily: FONT_FAMILIES.reading,
           fontSize: 11,
           color: textMuted,
           letterSpacing: 0.5,
@@ -72,7 +69,7 @@ export function DatePicker({ date, onDateChange, children }: DatePickerProps) {
             borderRadius: 99,
           },
           content: {
-            fontFamily: FONT,
+            fontFamily: FONT_FAMILIES.reading,
             fontSize: 14,
             color: isDark ? COLORS["300"] : COLORS["600"],
           },
@@ -83,7 +80,7 @@ export function DatePicker({ date, onDateChange, children }: DatePickerProps) {
             borderRadius: 99,
           },
           content: {
-            fontFamily: FONT,
+            fontFamily: FONT_FAMILIES.reading,
             fontSize: 14,
             color: isPressed || isHovered ? "#fff" : isDark ? COLORS["100"] : COLORS["700"],
           },
@@ -94,7 +91,7 @@ export function DatePicker({ date, onDateChange, children }: DatePickerProps) {
             borderRadius: 99,
           },
           content: {
-            fontFamily: FONT,
+            fontFamily: FONT_FAMILIES.reading,
             fontSize: 14,
             color: "#fff",
           },
@@ -109,7 +106,12 @@ export function DatePicker({ date, onDateChange, children }: DatePickerProps) {
 
   return (
     <>
-      <Pressable onPress={open} accessibilityRole="button" accessibilityLabel="Selecionar data">
+      <Pressable
+        onPress={open}
+        accessibilityRole="button"
+        accessibilityLabel="Selecionar data"
+        accessibilityHint="Abre o calendário para alterar a data"
+      >
         {children}
       </Pressable>
 
@@ -140,7 +142,13 @@ export function DatePicker({ date, onDateChange, children }: DatePickerProps) {
               <ChevronLeft size={20} color={textMuted} />
             </Pressable>
 
-            <Text style={{ fontFamily: FONT_DISPLAY, fontSize: 18, color: textPrimary }}>
+            <Text
+              style={{
+                fontFamily: FONT_FAMILIES.display,
+                fontSize: 18,
+                color: textPrimary,
+              }}
+            >
               {monthLabel}
             </Text>
 

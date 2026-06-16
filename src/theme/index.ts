@@ -6,7 +6,6 @@ export const FONT_FAMILIES = {
   strong: "Cardo_700Bold",
   display: "DMSerifDisplay_400Regular",
   displayItalic: "DMSerifDisplay_400Regular_Italic",
-  serif: "DMSerifText_400Regular",
 } as const;
 
 export const THEME_COLORS = {

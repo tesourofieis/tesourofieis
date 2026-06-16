@@ -100,15 +100,16 @@ export default function ExternalLinks() {
   const { isDark } = useAppTheme();
 
   return (
-    <ScrollView className="mt-1 p-4">
-      {externalLinks.map((link) => (
-        <Pressable
-          key={link.name}
-          onPress={() => openExternalLink(link.url)}
-          className="w-full"
-          accessibilityLabel={`${link.title}: ${link.desc}`}
-          accessibilityRole="link"
-        >
+    <ScrollView className="mt-1 px-5 py-4">
+      <View className="flex flex-col gap-3">
+        {externalLinks.map((link) => (
+          <Pressable
+            key={link.name}
+            onPress={() => openExternalLink(link.url)}
+            className="w-full"
+            accessibilityLabel={`${link.title}: ${link.desc}`}
+            accessibilityRole="link"
+          >
           {({ pressed }) => (
             <View className={cardBase(pressed)}>
               <View className="flex flex-row justify-between items-center gap-1 mr-2">
@@ -170,8 +171,9 @@ export default function ExternalLinks() {
               </View>
             </View>
           )}
-        </Pressable>
-      ))}
+          </Pressable>
+        ))}
+      </View>
     </ScrollView>
   );
 }

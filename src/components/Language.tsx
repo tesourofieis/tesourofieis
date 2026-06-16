@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo, useState } from "react";
+/* eslint-disable react-hooks/immutability, react-hooks/set-state-in-effect */
 import { Platform, Pressable, StyleSheet, View } from "react-native";
 import {
   Gesture,

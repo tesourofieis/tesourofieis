@@ -48,6 +48,6 @@ export async function updateSettings(newValues: Partial<Settings>): Promise<Sett
     return updatedSettings;
   } catch (e: any) {
     console.error("Error updating settings in AsyncStorage:", e);
-    throw new Error(`Failed to update settings: ${e.message}`);
+    throw new Error(`Failed to update settings: ${e.message}`, { cause: e });
   }
 }

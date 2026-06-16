@@ -12,7 +12,6 @@ import { createContext, useCallback, useContext, useEffect, useMemo, useState } 
 import { Alert, Platform } from "react-native";
 import { useCalendar } from "./calendar";
 import { Notifications, nativeNotificationsAvailable } from "~/services/notifications";
-import { webNotificationService } from "~/services/webNotifications";
 import { FIXED_INDULGENCES, getMovableIndulgence } from "~/lib/indulgences";
 
 export type Settings = {
@@ -24,8 +23,6 @@ export type Settings = {
   permissionRequested: boolean;
   permissionSoftRejected: boolean;
 };
-
-// WebNotificationSchedule type now imported from services
 
 const NOTIFICATIONS = {
   ANGELUS: {
@@ -175,7 +172,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
         return updatedSettings;
       } catch (e: any) {
         console.error("Error updating settings in AsyncStorage:", e);
-        throw new Error(`Failed to update settings: ${e.message}`);
+        throw new Error(`Failed to update settings: ${e.message}`, { cause: e });
       }
     },
     [settings, isWeb],
@@ -191,15 +188,8 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
 
   const checkPermissionStatus = useCallback(async () => {
     if (isWeb) {
-      const webPermission = webNotificationService.getPermissionStatus();
-      const status =
-        webPermission.status === "granted"
-          ? Notifications.PermissionStatus.GRANTED
-          : webPermission.status === "denied"
-            ? Notifications.PermissionStatus.DENIED
-            : Notifications.PermissionStatus.UNDETERMINED;
-      setPermissionStatus(status);
-      return status;
+      setPermissionStatus(Notifications.PermissionStatus.DENIED);
+      return Notifications.PermissionStatus.DENIED;
     }
 
     if (!nativeNotificationsAvailable) {
@@ -240,60 +230,6 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
       if (permissionStatus !== "granted") return;
 
       if (isWeb) {
-        // Handle web notifications
-        const trigger = notification.trigger as any;
-        if (trigger?.type === "daily") {
-          // Convert daily trigger to specific time
-          const now = new Date();
-          const triggerTime = new Date();
-          triggerTime.setHours(trigger.hour || 0, trigger.minute || 0, 0, 0);
-
-          // If time has passed today, schedule for tomorrow
-          if (triggerTime <= now) {
-            triggerTime.setDate(triggerTime.getDate() + 1);
-          }
-
-          webNotificationService.scheduleNotification({
-            id: identifier,
-            title: notification.content.title || "Tesouro dos Fiéis",
-            body: notification.content.body || undefined,
-            triggerAt: triggerTime,
-            url: notification.content.data?.url as string,
-            icon: "/favicon.png",
-          });
-
-          const delay = Math.round((triggerTime.getTime() - now.getTime()) / 1000);
-          console.log(
-            `📅 Web notification scheduled: ${notification.content.title} at ${triggerTime.toLocaleString("pt-PT")} (in ${delay}s)`,
-          );
-        } else if (trigger?.type === "date" || trigger?.date) {
-          const triggerDate = new Date(trigger.date);
-
-          if (Number.isNaN(triggerDate.getTime())) {
-            console.log("⚠️ Invalid web notification date trigger", trigger);
-            return;
-          }
-
-          if (triggerDate <= new Date()) {
-            console.log(`Skipping past notification: ${notification.content.title}`);
-            return;
-          }
-
-          webNotificationService.scheduleNotification({
-            id: identifier,
-            title: notification.content.title || "Tesouro dos Fiéis",
-            body: notification.content.body || undefined,
-            triggerAt: triggerDate,
-            url: notification.content.data?.url as string,
-            icon: "/favicon.png",
-          });
-
-          console.log(
-            `📅 Web notification scheduled: ${notification.content.title} at ${triggerDate.toLocaleString("pt-PT")}`,
-          );
-        } else {
-          console.log(`⚠️ Unsupported web trigger type: ${trigger?.type}`);
-        }
         return;
       }
 
@@ -309,12 +245,8 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
   );
 
   const syncNotifications = useCallback(async () => {
-    // Handle both web and mobile notifications
-
     if (permissionStatus !== "granted" || !settings) {
-      if (isWeb) {
-        webNotificationService.cancelAllScheduledNotifications();
-      } else if (nativeNotificationsAvailable) {
+      if (!isWeb && nativeNotificationsAvailable) {
         await Notifications.cancelAllScheduledNotificationsAsync();
       }
       setList([]);
@@ -323,8 +255,11 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
 
     // Clear existing notifications
     if (isWeb) {
-      webNotificationService.cancelAllScheduledNotifications();
-    } else if (nativeNotificationsAvailable) {
+      setList([]);
+      return;
+    }
+
+    if (nativeNotificationsAvailable) {
       await Notifications.cancelAllScheduledNotificationsAsync();
     }
 
@@ -351,7 +286,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
 
     if (settings.massEnabled) {
       const today = new Date();
-      const maxDays = isWeb ? 7 : 30;
+      const maxDays = 30;
       for (let i = 0; i < maxDays; i++) {
         const date = addDays(today, i);
         const dayMass = calendar.find((d) => d.date === yyyyMMDD(date))?.mass;
@@ -387,7 +322,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
       const currentYear = today.getFullYear();
       const startDate = new Date(currentYear, 11, 17);
       const endDate = new Date(currentYear, 11, 23, 23);
-      const maxDays = isWeb ? 7 : 30;
+      const maxDays = 30;
       const maxScheduleDate = addDays(today, maxDays);
 
       const daysUntilStart = Math.ceil(
@@ -429,7 +364,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
 
     if (settings.novenaEnabled && novenas) {
       const today = new Date();
-      const maxDays = isWeb ? 7 : 30;
+      const maxDays = 30;
       const maxScheduleDate = addDays(today, maxDays);
       for (const novena of novenas) {
         if (!novena.date) continue;
@@ -495,7 +430,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
     if (settings.indulgencesEnabled) {
       const today = new Date();
       const currentYear = today.getFullYear();
-      const maxDays = isWeb ? 7 : 30;
+      const maxDays = 30;
       const maxScheduleDate = addDays(today, maxDays);
 
       for (const indulgence of NOTIFICATIONS.INDULGENCES.dates) {
@@ -529,8 +464,6 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
       for (let i = 0; i < maxDays; i++) {
         const checkDate = addDays(today, i);
         const dayData = calendar.find((d) => d.date === yyyyMMDD(checkDate));
-        const id = dayData?.mass?.[0]?.id || "";
-
         const movable = getMovableIndulgence(dayData);
 
         if (movable) {
@@ -559,11 +492,6 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
       }
     }
 
-    if (isWeb) {
-      setList([]);
-      return;
-    }
-
     if (!nativeNotificationsAvailable) {
       setList([]);
       return;
@@ -576,44 +504,9 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
   const requestPermission = useCallback(async () => {
     if (!settings) return false;
 
-    // Handle web notification permission
     if (isWeb) {
-      if (!webNotificationService.isSupported()) {
-        console.log("❌ Web notifications not supported in this browser");
-        return false;
-      }
-
-      const currentStatus = webNotificationService.getPermissionStatus();
-      if (currentStatus.status === "granted") {
-        setPermissionStatus(Notifications.PermissionStatus.GRANTED);
-        await updateSetting({ permissionSoftRejected: false });
-        return true;
-      }
-
-      console.log("🔔 Requesting web notification permission...");
-      const webPermission = await webNotificationService.requestPermission();
-
-      const status =
-        webPermission.status === "granted"
-          ? Notifications.PermissionStatus.GRANTED
-          : webPermission.status === "denied"
-            ? Notifications.PermissionStatus.DENIED
-            : Notifications.PermissionStatus.UNDETERMINED;
-
-      setPermissionStatus(status);
-      await updateSetting({
-        permissionRequested: true,
-        permissionSoftRejected: webPermission.status !== "granted",
-      });
-
-      if (webPermission.status === "granted") {
-        console.log("✅ Web notifications enabled!");
-        await syncNotifications();
-      } else {
-        console.log("❌ Web notifications denied by user");
-      }
-
-      return webPermission.status === "granted";
+      setPermissionStatus(Notifications.PermissionStatus.DENIED);
+      return false;
     }
 
     if (!nativeNotificationsAvailable) {
@@ -700,7 +593,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
 
   useEffect(() => {
     if (isLoading) return;
-    syncNotifications();
+    void Promise.resolve().then(syncNotifications);
   }, [syncNotifications, isLoading]);
 
   useEffect(() => {
@@ -728,22 +621,29 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
     [permissionStatus, requestPermission, updateSetting],
   );
 
-  return (
-    <SettingsContext.Provider
-      value={{
-        settings,
-        isLoading,
-        setNotificationPref,
-        list,
-        permissionStatus,
-        requestPermission,
-        openSettings,
-        isSoftRejected: settings.permissionSoftRejected === true,
-      }}
-    >
-      {children}
-    </SettingsContext.Provider>
+  const value = useMemo(
+    () => ({
+      settings,
+      isLoading,
+      setNotificationPref,
+      list,
+      permissionStatus,
+      requestPermission,
+      openSettings,
+      isSoftRejected: settings.permissionSoftRejected === true,
+    }),
+    [
+      settings,
+      isLoading,
+      setNotificationPref,
+      list,
+      permissionStatus,
+      requestPermission,
+      openSettings,
+    ],
   );
+
+  return <SettingsContext.Provider value={value}>{children}</SettingsContext.Provider>;
 }
 
 export const useSettings = () => {

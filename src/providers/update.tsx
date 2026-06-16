@@ -1,6 +1,14 @@
 import * as Updates from "expo-updates";
 import { useUpdates } from "expo-updates";
-import { createContext, type ReactNode, useCallback, useContext, useEffect, useState } from "react";
+import {
+  createContext,
+  type ReactNode,
+  useCallback,
+  useContext,
+  useEffect,
+  useMemo,
+  useState,
+} from "react";
 import { Platform } from "react-native";
 
 type UpdateState = "idle" | "available" | "downloading" | "ready" | "error" | "checking";
@@ -63,39 +71,44 @@ export const UpdateProvider = ({ children }: { children: ReactNode }) => {
   }, []);
 
   useEffect(() => {
-    if (isChecking && Platform.OS !== "web") {
-      setUpdateState("checking");
-    } else if (!isChecking && updateState === "checking") {
-      setUpdateState("idle");
-    }
-  }, [isChecking]);
+    void Promise.resolve().then(() => {
+      if (isChecking && Platform.OS !== "web") {
+        setUpdateState("checking");
+      } else if (!isChecking && updateState === "checking") {
+        setUpdateState("idle");
+      }
+    });
+  }, [isChecking, updateState]);
 
   useEffect(() => {
-    if (isUpdateAvailable && !hasShownUpdatePrompt && !isDownloading && !isUpdatePending) {
-      setHasShownUpdatePrompt(true);
-      setUpdateState("available");
-    }
+    void Promise.resolve().then(() => {
+      if (isUpdateAvailable && !hasShownUpdatePrompt && !isDownloading && !isUpdatePending) {
+        setHasShownUpdatePrompt(true);
+        setUpdateState("available");
+      }
+    });
   }, [isUpdateAvailable, hasShownUpdatePrompt, isDownloading, isUpdatePending]);
 
   useEffect(() => {
-    if (isUpdatePending && updateState !== "ready") {
-      setUpdateState("ready");
-    }
-  }, [isUpdatePending]);
+    void Promise.resolve().then(() => {
+      if (isUpdatePending && updateState !== "ready") {
+        setUpdateState("ready");
+      }
+    });
+  }, [isUpdatePending, updateState]);
 
-  return (
-    <UpdateContext.Provider
-      value={{
-        updateState,
-        applyUpdate,
-        dismissUpdate,
-        continueWithoutUpdate,
-        reloadApp,
-      }}
-    >
-      {children}
-    </UpdateContext.Provider>
+  const value = useMemo(
+    () => ({
+      updateState,
+      applyUpdate,
+      dismissUpdate,
+      continueWithoutUpdate,
+      reloadApp,
+    }),
+    [updateState, applyUpdate, dismissUpdate, continueWithoutUpdate, reloadApp],
   );
+
+  return <UpdateContext.Provider value={value}>{children}</UpdateContext.Provider>;
 };
 
 export const useUpdate = () => {

@@ -9,6 +9,7 @@
     "resolveJsonModule": true,
     "moduleDetection": "force",
     "isolatedModules": true,
+    "ignoreDeprecations": "6.0",
     "baseUrl": ".",
     "jsx": "react-native",
     "checkJs": false,

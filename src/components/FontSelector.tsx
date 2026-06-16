@@ -1,12 +1,10 @@
 import { Type } from "lucide-react-native";
-import { TouchableOpacity, View } from "react-native";
-import { H6 } from "~/components/Headings";
 import { useFontContext } from "~/providers/fonts";
-import { Typography } from "./typography";
+import { SegmentedOption, SettingsSection } from "./SettingsControls";
 import { useAppTheme } from "~/theme";
 
 const SIZES = ["small", "medium", "large"] as const;
-const SIZE_LABEL: Record<string, string> = {
+const SIZE_LABEL: Record<(typeof SIZES)[number], string> = {
   small: "Pequeno",
   medium: "Médio",
   large: "Grande",
@@ -16,33 +14,12 @@ export const FontSizeSelector = () => {
   const { colors } = useAppTheme();
   const { fontSize, setFontSize } = useFontContext();
   return (
-    <View className="py-3 my-3 border-b border-sepia-300 dark:border-sepia-700">
-      <View className="flex-row items-center mb-3 gap-1">
-        <Type size={15} color={colors.textPrimary} />
-        <H6 text="Tamanho da Letra" />
-      </View>
-
-      <View className="flex-row justify-between items-center">
-        {SIZES.map((size) => (
-          <TouchableOpacity
-            key={size}
-            onPress={() => setFontSize(size)}
-            className={`flex-1 mx-1 py-3 px-4 rounded-lg items-center ${
-              fontSize === size ? "bg-sepia-800 dark:bg-sepia-200" : "soft-background"
-            }`}
-          >
-            <Typography
-              className={`font-strong ${
-                fontSize === size
-                  ? "text-sepia-200 dark:text-sepia-800"
-                  : "text-sepia-800 dark:text-sepia-200"
-              }`}
-            >
-              {SIZE_LABEL[size]}
-            </Typography>
-          </TouchableOpacity>
-        ))}
-      </View>
-    </View>
+    <SettingsSection icon={<Type size={15} color={colors.textPrimary} />} title="Tamanho da Letra">
+      <SegmentedOption
+        value={fontSize}
+        onChange={setFontSize}
+        options={SIZES.map((size) => ({ label: SIZE_LABEL[size], value: size }))}
+      />
+    </SettingsSection>
   );
 };

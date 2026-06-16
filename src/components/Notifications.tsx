@@ -1,12 +1,19 @@
 import { Settings, Bell, Calendar, Circle, BookPlus, Sparkles } from "lucide-react-native";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Platform, Pressable, ScrollView, Switch, TouchableOpacity, View } from "react-native";
 import { H6 } from "~/components/Headings";
 import { COLORS } from "~/constants/Colors";
 import { useSettings } from "~/providers/settings";
 import { Typography } from "./typography";
-import { type WebNotificationSchedule, webNotificationService } from "~/services/webNotifications";
 import { useAppTheme } from "~/theme";
+
+const notificationIcons = {
+  bell: Bell,
+  calendar: Calendar,
+  circle: Circle,
+  book: BookPlus,
+  sparkles: Sparkles,
+} as const;
 
 const NotificationToggle = ({
   title,
@@ -24,25 +31,7 @@ const NotificationToggle = ({
   toggle: () => void;
 }) => {
   const { colors } = useAppTheme();
-
-  const getIconComponent = (iconName: string) => {
-    switch (iconName) {
-      case "bell":
-        return Bell;
-      case "calendar":
-        return Calendar;
-      case "circle":
-        return Circle;
-      case "book":
-        return BookPlus;
-      case "sparkles":
-        return Sparkles;
-      default:
-        return Settings;
-    }
-  };
-
-  const IconComponent = getIconComponent(icon);
+  const IconComponent = notificationIcons[icon as keyof typeof notificationIcons] ?? Settings;
 
   return (
     <View className="py-3">
@@ -94,106 +83,41 @@ export const Notifications = () => {
     isSoftRejected,
   } = useSettings();
 
-  const [showSuccessMessage, setShowSuccessMessage] = useState(false);
-  const [webScheduled, setWebScheduled] = useState<WebNotificationSchedule[]>([]);
-
   const toggleExpand = () => {
     setIsExpanded(!isExpanded);
   };
 
-  useEffect(() => {
-    if (Platform.OS !== "web") {
-      return;
-    }
-    const refresh = () => {
-      setWebScheduled(webNotificationService.getScheduledNotificationDetails());
-    };
-
-    refresh();
-    const interval = setInterval(refresh, 1000);
-
-    return () => clearInterval(interval);
-  }, [permissionStatus, settings]);
-
-  // Web platform now supports notifications
   if (Platform.OS === "web") {
-    // Show the same notification settings as mobile
-    // but fall through to the normal UI below
+    return null;
   }
 
   if (permissionStatus !== "granted") {
-    const isWeb = Platform.OS === "web";
-
     return (
       <View className="py-3 my-3 border-b border-sepia-300 dark:border-sepia-700">
         <View className="flex-row items-center gap-1">
           <Settings size={15} color={colors.textPrimary} />
-          <H6 text={isWeb ? "Notificações Web" : "Notificações Desativadas"} />
+          <H6 text="Notificações Desativadas" />
         </View>
 
-        {isWeb ? (
-          <>
-            <Typography className="font-display dark:text-sepia-200 text-sm">
-              Receba lembretes de oração diretamente no seu navegador, mesmo quando a página não
-              estiver aberta.
-            </Typography>
-            <Typography className="font-display dark:text-sepia-200 text-sm mt-2">
-              🔔 <Typography className="bold">Angelus</Typography> - 6:00, 12:00, 18:00
-            </Typography>
-            <Typography className="font-display dark:text-sepia-200 text-sm">
-              📅 <Typography className="bold">Missa do Dia</Typography> - 7:00
-            </Typography>
-            <Typography className="font-display dark:text-sepia-200 text-sm">
-              🙏 <Typography className="bold">Novenas</Typography> - 20:00
-            </Typography>
-            <Typography className="font-display dark:text-sepia-200 text-sm">
-              ⏰ <Typography className="bold">Ofício</Typography> - 8 vezes ao dia
-            </Typography>
-            <Typography className="font-display dark:text-sepia-200 text-sm">
-              ✨ <Typography className="bold">Indulgências</Typography> - Dias especiais
-            </Typography>
-            <Typography className="font-display text-xs text-sepia-700 dark:text-sepia-300 mt-3">
-              O seu navegador pedirá permissão para mostrar notificações.
-              {isSoftRejected ? ' Clique em "Permitir" para receber os lembretes.' : ""}
-            </Typography>
-          </>
-        ) : (
-          <>
-            <Typography className="font-display dark:text-sepia-200 text-sm">
-              {isSoftRejected
-                ? "Os lembretes de oração ajudam a santificar o seu dia."
-                : "Para receber notificações active as notificações."}
-            </Typography>
-            <Typography className="font-display dark:text-sepia-200 text-xs">
-              {isSoftRejected
-                ? '"Orai sem cessar" (1 Tes 5:17)'
-                : "Pode ter que activar nas definições do dispositivo."}
-            </Typography>
-          </>
-        )}
+        <Typography className="font-display dark:text-sepia-200 text-sm">
+          {isSoftRejected
+            ? "Os lembretes de oração ajudam a santificar o seu dia."
+            : "Para receber notificações active as notificações."}
+        </Typography>
+        <Typography className="font-display dark:text-sepia-200 text-xs">
+          {isSoftRejected
+            ? '"Orai sem cessar" (1 Tes 5:17)'
+            : "Pode ter que activar nas definições do dispositivo."}
+        </Typography>
 
         <Pressable
           className="bg-sepia-800 dark:bg-sepia-200 items-center justify-center rounded mt-3 active:bg-sepia-700 dark:active:bg-sepia-300"
-          onPressOut={async () => {
-            const success = await requestPermission();
-            if (success && isWeb) {
-              setShowSuccessMessage(true);
-              setTimeout(() => setShowSuccessMessage(false), 3000);
-            }
-          }}
+          onPressOut={requestPermission}
         >
           <Typography className="m-5 text-sepia-300 dark:text-sepia-700">
-            {isWeb ? "Permitir Notificações" : "Activar Notificações"}
+            Activar Notificações
           </Typography>
         </Pressable>
-
-        {showSuccessMessage && isWeb && (
-          <View className="mt-3 p-3 bg-green-100 dark:bg-green-900 rounded">
-            <Typography className="text-center text-green-800 dark:text-green-200 text-sm">
-              ✅ Notificações ativadas! Receberá lembretes de oração mesmo com o navegador fechado.
-            </Typography>
-          </View>
-        )}
       </View>
     );
   }
@@ -260,7 +184,7 @@ export const Notifications = () => {
       />
 
       <View className="mt-5">
-        {(Platform.OS === "web" ? webScheduled.length > 0 : list?.length > 0) ? (
+        {list?.length > 0 ? (
           <TouchableOpacity
             onPressOut={toggleExpand}
             className="p-3 soft-background text-sepia-700 dark:text-sepia-300"
@@ -271,50 +195,27 @@ export const Notifications = () => {
           </TouchableOpacity>
         ) : undefined}
 
-        {isExpanded && (Platform.OS === "web" ? webScheduled.length > 0 : list?.length) ? (
+        {isExpanded && list?.length ? (
           <View>
-            {Platform.OS === "web"
-              ? webScheduled.map((notification) => (
-                  <View
-                    key={notification.id}
-                    style={{
-                      padding: 10,
-                      borderBottomWidth: 1,
-                      borderColor: colors.divider,
-                    }}
-                  >
-                    <Typography className="text-sepia-800 dark:text-sepia-200">
-                      {notification.title}
-                    </Typography>
-                    <Typography className="text-sepia-700 dark:text-sepia-300">
-                      {notification.triggerAt.toLocaleString("pt-PT")}
-                    </Typography>
-                    {notification.body ? (
-                      <Typography className="text-sepia-700 dark:text-sepia-300">
-                        {notification.body}
-                      </Typography>
-                    ) : undefined}
-                  </View>
-                ))
-              : list.map((notification) => (
-                  <View
-                    key={notification.identifier}
-                    style={{
-                      padding: 10,
-                      borderBottomWidth: 1,
-                      borderColor: colors.divider,
-                    }}
-                  >
-                    <Typography className="text-sepia-800 dark:text-sepia-200">
-                      {notification.content.title}
-                    </Typography>
-                    {notification.content.body ? (
-                      <Typography className="text-sepia-700 dark:text-sepia-300">
-                        {notification.content.body}
-                      </Typography>
-                    ) : undefined}
-                  </View>
-                ))}
+            {list.map((notification) => (
+              <View
+                key={notification.identifier}
+                style={{
+                  padding: 10,
+                  borderBottomWidth: 1,
+                  borderColor: colors.divider,
+                }}
+              >
+                <Typography className="text-sepia-800 dark:text-sepia-200">
+                  {notification.content.title}
+                </Typography>
+                {notification.content.body ? (
+                  <Typography className="text-sepia-700 dark:text-sepia-300">
+                    {notification.content.body}
+                  </Typography>
+                ) : undefined}
+              </View>
+            ))}
           </View>
         ) : undefined}
       </View>

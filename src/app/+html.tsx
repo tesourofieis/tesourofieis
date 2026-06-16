@@ -57,55 +57,6 @@ export default function PageRoot({ children }: PropsWithChildren) {
           `}
         </style>
 
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              if ('serviceWorker' in navigator) {
-                window.addEventListener('load', async () => {
-                  try {
-                    const registration = await navigator.serviceWorker.register('/sw.js', {
-                      scope: '/'
-                    });
-                    
-                    console.log('🚀 Tesouro dos Fiéis SW registered:', registration.scope);
-                    
-                    await navigator.serviceWorker.ready;
-                    console.log('✅ Service Worker ready for notifications');
-                    
-                    registration.addEventListener('updatefound', () => {
-                      console.log('🔄 Service Worker update found');
-                      const newWorker = registration.installing;
-                      if (newWorker) {
-                        newWorker.addEventListener('statechange', () => {
-                          if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
-                            console.log('🆕 New Service Worker ready');
-                          }
-                        });
-                      }
-                    });
-                    
-                    navigator.serviceWorker.addEventListener('message', (event) => {
-                      console.log('📨 Message from SW:', event.data);
-                      
-                      if (event.data?.type === 'NOTIFICATION_CLICK') {
-                        const { url } = event.data;
-                        if (url && url !== window.location.pathname) {
-                          window.location.href = url;
-                        }
-                      }
-                    });
-                    
-                  } catch (error) {
-                    console.error('❌ SW registration failed:', error);
-                  }
-                });
-              } else {
-                console.log('❌ Service Worker not supported');
-              }
-            `,
-          }}
-        />
-
         <ScrollViewStyleReset />
       </head>
       <body>{children}</body>

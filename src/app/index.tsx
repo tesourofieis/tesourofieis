@@ -1,8 +1,8 @@
-import { BookPlus } from "lucide-react-native";
+import { BookPlus, ChevronLeft, ChevronRight } from "lucide-react-native";
 import { burgundy } from "config";
-import { format, getYear, isWithinInterval } from "date-fns";
+import { addDays, format, getYear, isWithinInterval } from "date-fns";
 import { pt } from "date-fns/locale";
-import { Platform, Pressable, ScrollView, useWindowDimensions, View } from "react-native";
+import { Pressable, ScrollView, useWindowDimensions, View } from "react-native";
 import ExternalLinks from "~/components/External";
 import { DatePicker } from "~/components/DatePicker";
 import { H1 } from "~/components/Headings";
@@ -14,7 +14,7 @@ import { Typography } from "~/components/typography";
 import { COLORS } from "~/constants/Colors";
 import { useCalendar } from "~/providers/calendar";
 import { useTodaysIndulgences } from "~/hooks/useTodaysIndulgences";
-import { FONT_FAMILIES, useAppTheme } from "~/theme";
+import { useAppTheme } from "~/theme";
 
 export default function PageRender() {
   const { day, date, season, setDate, resetToToday, isCustomDate } = useCalendar();
@@ -32,13 +32,11 @@ export default function PageRender() {
 
   const currentPrayer = getPrayer(date);
 
-  const isWeb = Platform.OS === "web";
   const { width } = useWindowDimensions();
-  const isWebDesktop = isWeb && width >= 768;
   const isCompactLayout = width < 420;
   const sectionInset = isCompactLayout ? 20 : 20;
-  const headerPaddingTop = isCompactLayout ? 14 : 16;
-  const headerPaddingBottom = isCompactLayout ? 16 : 18;
+  const headerPaddingTop = isCompactLayout ? 6 : 8;
+  const headerPaddingBottom = isCompactLayout ? 8 : 10;
   const feriaFontSize = isCompactLayout ? 9 : 10;
   const feriaLetterSpacing = isCompactLayout ? 3.2 : 4;
   const dateFontSize = isCompactLayout ? 28 : 34;
@@ -50,9 +48,50 @@ export default function PageRender() {
     : isDark
       ? colors.textPrimary
       : colors.textSecondary;
+  const chevronColor = isDark ? colors.textMuted : COLORS["500"];
   const feriaTextColor = isDark ? burgundy[400] : burgundy[500];
   const seasonTextColor = isDark ? colors.textMuted : COLORS["500"];
   const sectionLabelColor = isDark ? burgundy[400] : burgundy[500];
+
+  const stepDay = (delta: number) => () => setDate(addDays(date, delta));
+
+  const prayerItems: Array<{
+    key: string;
+    href: string;
+    title: string;
+    description: string;
+  }> = [
+    {
+      key: "rosario",
+      href: "/devocionario/rosario",
+      title: "Rosário",
+      description: "Orações do dia",
+    },
+  ];
+  if (currentPrayer.isAngelus) {
+    prayerItems.push({
+      key: "angelus",
+      href: "/devocionario/dia/angelus",
+      title: "Angelus",
+      description: "Hora do Angelus",
+    });
+  }
+  if (currentPrayer.isMorning) {
+    prayerItems.push({
+      key: "oracaomanha",
+      href: "/devocionario/dia/oracaomanha",
+      title: "Oração da Manhã",
+      description: "Orações do dia",
+    });
+  }
+  if (currentPrayer.isNight) {
+    prayerItems.push({
+      key: "oracaonoite",
+      href: "/devocionario/dia/oracaonoite",
+      title: "Oração da Noite",
+      description: "Orações do dia",
+    });
+  }
 
   return (
     <ScrollView>
@@ -63,7 +102,7 @@ export default function PageRender() {
         </View>
 
         <View
-          className={`flex-1 ${!isWebDesktop ? "" : "web:mx-auto"} py-5 p-3 rounded-lg`}
+          className="flex-1 web:max-w-5xl web:mx-auto py-5 p-3 rounded-lg"
           style={{
             borderWidth: 1,
             borderColor: isDark ? COLORS["800"] : COLORS["200"],
@@ -84,8 +123,8 @@ export default function PageRender() {
           >
             {/* Feria label — tracked small-caps, burgundy */}
             <Typography
+              className="font-reading"
               style={{
-                fontFamily: FONT_FAMILIES.reading,
                 fontSize: feriaFontSize,
                 letterSpacing: feriaLetterSpacing,
                 color: feriaTextColor,
@@ -95,32 +134,75 @@ export default function PageRender() {
               {format(date, "EEEE", { locale: pt }).toUpperCase()}
             </Typography>
 
-            {/* The date itself — tappable, large display serif */}
-            <DatePicker date={date} onDateChange={setDate}>
-              <Typography
-                className={`font-display leading-none ${
-                  isCustomDate
-                    ? "text-burgundy-600 dark:text-burgundy-400"
-                    : "text-sepia-800 dark:text-sepia-100"
-                }`}
+            {/* Date stepper — circular targets flank a tappable date, so the three elements read as one control */}
+            <View
+              style={{
+                flexDirection: "row",
+                alignItems: "center",
+                columnGap: 6,
+                alignSelf: "flex-start",
+                marginBottom: 6,
+              }}
+            >
+              <Pressable
+                onPress={stepDay(-1)}
+                hitSlop={6}
+                accessibilityRole="button"
+                accessibilityLabel="Dia anterior"
                 style={{
-                  fontFamily: FONT_FAMILIES.display,
-                  fontSize: dateFontSize,
-                  color: dateTextColor,
-                  marginBottom: 10,
-                  textDecorationLine: "underline",
-                  textDecorationStyle: "solid",
-                  textDecorationColor: dateTextColor,
+                  width: 34,
+                  height: 34,
+                  borderRadius: 17,
+                  alignItems: "center",
+                  justifyContent: "center",
+                  borderWidth: 1,
+                  borderColor: colors.divider,
                 }}
               >
-                {format(date, "d 'de' MMMM", { locale: pt })}
-              </Typography>
-            </DatePicker>
+                <ChevronLeft size={18} color={chevronColor} strokeWidth={1.7} />
+              </Pressable>
+
+              <DatePicker date={date} onDateChange={setDate}>
+                <Typography
+                  className={`font-display leading-none ${
+                    isCustomDate
+                      ? "text-burgundy-600 dark:text-burgundy-400"
+                      : "text-sepia-800 dark:text-sepia-100"
+                  }`}
+                  style={{
+                    fontSize: dateFontSize,
+                    color: dateTextColor,
+                    paddingHorizontal: 10,
+                    paddingVertical: 2,
+                  }}
+                >
+                  {format(date, "d 'de' MMMM", { locale: pt })}
+                </Typography>
+              </DatePicker>
+
+              <Pressable
+                onPress={stepDay(1)}
+                hitSlop={6}
+                accessibilityRole="button"
+                accessibilityLabel="Dia seguinte"
+                style={{
+                  width: 34,
+                  height: 34,
+                  borderRadius: 17,
+                  alignItems: "center",
+                  justifyContent: "center",
+                  borderWidth: 1,
+                  borderColor: colors.divider,
+                }}
+              >
+                <ChevronRight size={18} color={chevronColor} strokeWidth={1.7} />
+              </Pressable>
+            </View>
 
             {/* Season — italic, like a liturgical subtitle */}
             <Typography
+              className="font-display-italic"
               style={{
-                fontFamily: FONT_FAMILIES.displayItalic,
                 fontSize: seasonFontSize,
                 color: seasonTextColor,
               }}
@@ -142,7 +224,7 @@ export default function PageRender() {
           </View>
 
           {/* Mass cards — sit directly below the day header, inside the animated container */}
-          <View className="pt-2 pb-4" style={{ paddingHorizontal: sectionInset }}>
+          <View className="pt-2 pb-4 gap-3" style={{ paddingHorizontal: sectionInset }}>
             {day.mass?.map((item) => (
               <LinkCard key={item.id} mass={item} variant="featured" />
             ))}
@@ -161,8 +243,8 @@ export default function PageRender() {
 
           <View className="flex flex-col pt-6 pb-4" style={{ paddingHorizontal: sectionInset }}>
             <Typography
+              className="font-reading"
               style={{
-                fontFamily: FONT_FAMILIES.reading,
                 fontSize: 11,
                 letterSpacing: 3.2,
                 color: sectionLabelColor,
@@ -172,55 +254,57 @@ export default function PageRender() {
               {`${format(date, "HH:mm", { locale: pt })} · ORAÇÕES`}
             </Typography>
 
-            <LinkCard
-              oratio={{
-                link: "/devocionario/rosario",
-                name: "Rosário",
-              }}
-              description="Orações do dia"
-            />
+            <View style={{ flexDirection: "row", flexWrap: "wrap", marginHorizontal: -6 }}>
+              {prayerItems.map((item) => (
+                <View
+                  key={item.key}
+                  style={{ width: "100%", paddingHorizontal: 6, marginBottom: 12, minWidth: 0 }}
+                  className="md:w-1/2"
+                >
+                  <LinkCard
+                    oratio={{
+                      link: item.href,
+                      name: item.title,
+                    }}
+                    description={item.description}
+                  />
+                </View>
+              ))}
+            </View>
 
-            {currentPrayer.isAngelus && (
-              <LinkCard
-                oratio={{ link: "/devocionario/dia/angelus", name: "Angelus" }}
-                description="Hora do Angelus"
-              />
-            )}
+            <View style={{ flexDirection: "row", flexWrap: "wrap", marginHorizontal: -6 }}>
+              <View
+                style={{ width: "100%", paddingHorizontal: 6, marginBottom: 12, minWidth: 0 }}
+                className="md:w-1/2"
+              >
+                <Office />
+              </View>
+              <View
+                style={{ width: "100%", paddingHorizontal: 6, marginBottom: 12, minWidth: 0 }}
+                className="md:w-1/2"
+              >
+                <Novenas />
+              </View>
+            </View>
 
-            {currentPrayer.isMorning && (
-              <LinkCard
-                oratio={{
-                  link: "/devocionario/dia/oracaomanha",
-                  name: "Oração da Manhã",
-                }}
-                description="Orações do dia"
-              />
-            )}
-
-            {currentPrayer.isNight && (
-              <LinkCard
-                oratio={{
-                  link: "/devocionario/dia/oracaonoite",
-                  name: "Oração da Noite",
-                }}
-                description="Orações do dia"
-              />
-            )}
-
-            <Office />
-            <Novenas />
-
-            {todaysIndulgences.map((indulgence, index) => (
-              <LinkCard
-                key={`indulgence-${index}`}
-                indulgence={{
-                  prayer: indulgence.prayer,
-                  body: indulgence.body,
-                  link: indulgence.link,
-                }}
-                description="Indulgência Plenária"
-              />
-            ))}
+            <View style={{ flexDirection: "row", flexWrap: "wrap", marginHorizontal: -6 }}>
+              {todaysIndulgences.map((indulgence, index) => (
+                <View
+                  key={`indulgence-${index}`}
+                  style={{ width: "100%", paddingHorizontal: 6, marginBottom: 12, minWidth: 0 }}
+                  className="md:w-1/2"
+                >
+                  <LinkCard
+                    indulgence={{
+                      prayer: indulgence.prayer,
+                      body: indulgence.body,
+                      link: indulgence.link,
+                    }}
+                    description="Indulgência Plenária"
+                  />
+                </View>
+              ))}
+            </View>
 
             {isWithinInterval(date, {
               start: new Date(getYear(date), 11, 17),
@@ -242,7 +326,7 @@ export default function PageRender() {
             }}
           />
 
-          <View className="pb-3">
+          <View className="pb-4" style={{ paddingHorizontal: sectionInset }}>
             <LiturgicalSeason />
           </View>
 
