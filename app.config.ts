@@ -84,7 +84,6 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
           "./assets/fonts/Cardo_400Regular.ttf",
           "./assets/fonts/DMSerifDisplay_400Regular.ttf",
           "./assets/fonts/DMSerifDisplay_400Regular_Italic.ttf",
-          "./assets/fonts/DMSerifText_400Regular.ttf",
         ],
       },
     ],
