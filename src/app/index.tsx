@@ -92,7 +92,7 @@ export default function PageRender() {
     <ScrollView contentContainerStyle={{ flexGrow: 1 }}>
       <View className="extreme-background w-full">
         <View
-          className="flex-1 w-full web:max-w-4xl web:mx-auto py-5 px-3"
+          className="flex-1 w-full web:max-w-1/2 web:mx-auto py-5 px-3"
           style={{
             backgroundColor: colors.screen,
           }}
