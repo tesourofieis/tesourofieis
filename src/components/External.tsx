@@ -9,7 +9,7 @@ import { useAppTheme } from "~/theme";
 import { cardBase } from "./LinkCard";
 import { Typography } from "./typography";
 
-export function getColor(color?: string) {
+function getColor(color?: string) {
   switch (color) {
     case "w":
       return "white";
@@ -87,7 +87,7 @@ const showCopiedFeedback = (message = "Copiado para a área de transferência") 
   }
 };
 
-export const openExternalLink = async (link: string) => {
+const openExternalLink = async (link: string) => {
   try {
     await WebBrowser.openBrowserAsync(link);
   } catch (err) {

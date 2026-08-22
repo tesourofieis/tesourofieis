@@ -409,12 +409,12 @@ export interface ShiftInstruction {
 /**
  * The structured output of a ConcurrencyRule resolution.
  */
-export interface RuleResolution {
+interface RuleResolution {
   stay: Mass[]; // The list of masses that the rule explicitly kept on the current day (winners)
   shifts: ShiftInstruction[]; // The list of shifts to process
 }
 
-export interface ConcurrencyRule {
+interface ConcurrencyRule {
   applies(observances: Mass[], date: string, calendar: Calendar): boolean;
   resolve(observances: Mass[], date: string, calendar: Calendar): RuleResolution;
 }

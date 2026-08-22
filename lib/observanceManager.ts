@@ -44,7 +44,7 @@ export type MassMap = {
   [key: string]: Mass;
 };
 
-export class MassManager {
+class MassManager {
   private masses: Mass[];
   private byFlexibility: Map<Mass["flexibility"], Mass[]>;
   private byType: Map<Mass["type"], Mass[]>;

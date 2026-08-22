@@ -74,7 +74,7 @@ export const useDefaultLanguage = () => {
   return context.language;
 };
 
-export const useLanguageContext = () => {
+const useLanguageContext = () => {
   const context = useContext(LanguageContext);
   if (!context) {
     throw new Error("useLanguageContext must be used within LanguageProvider");

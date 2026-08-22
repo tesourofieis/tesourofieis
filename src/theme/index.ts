@@ -8,7 +8,7 @@ export const FONT_FAMILIES = {
   displayItalic: "DMSerifDisplay_400Regular_Italic",
 } as const;
 
-export const THEME_COLORS = {
+const THEME_COLORS = {
   sepia,
   burgundy,
 } as const;

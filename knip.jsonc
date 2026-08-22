@@ -1,0 +1,18 @@
+{
+  "$schema": "https://unpkg.com/knip@6/schema.jsonc",
+  // Vendored oxlint plugin: consumed by `.oxlintrc.json` (jsPlugins), not
+  // imported by app code, so it does not participate in the import graph.
+  "ignore": ["tools/oxlint/anti-slop/**"],
+  "entry": [
+    // Alchemy IaC: stack entry + the Workers asset fallback worker it wires up.
+    "alchemy.run.ts",
+    "infra/site-worker.ts",
+    // Build tooling executed via `npx tsx` / `node` from npm scripts.
+    "scripts/**/*.{ts,mjs}",
+    // Manual perf harness (`npx vitest bench` only picks up *.bench.ts).
+    "lib/tests/bench/calendar.perf.ts",
+  ],
+  // eas-cli is invoked via `npx eas-cli` in the deploy/update scripts;
+  // expo-atlas is activated by EXPO_UNSTABLE_ATLAS=1 in the start script.
+  "ignoreDependencies": ["eas-cli", "expo-atlas"],
+}

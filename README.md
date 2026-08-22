@@ -152,12 +152,6 @@ lib/                       # Core liturgical logic
 assets/
 ├── fonts/                # Cardo, DM Serif fonts
 └── images/               # Icons, splash screens
-
-tooling/
-├── eslint/               # ESLint configuration
-├── biome.json            # Biome configuration
-├── tailwind/             # Tailwind CSS configuration
-└── typescript/           # TypeScript configuration
 ```
 
 ## Development Guidelines

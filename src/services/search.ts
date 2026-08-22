@@ -253,10 +253,6 @@ export function getChildren(parent: string): Docs[] {
   return results;
 }
 
-export function getDocumentById(id: string): Docs | null {
-  return docsById.get(id) || null;
-}
-
 export function getAvailableSections(): string[] {
   const sections = new Set<string>();
   allDocs.forEach((doc) => {
