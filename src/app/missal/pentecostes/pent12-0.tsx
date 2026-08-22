@@ -178,8 +178,8 @@ export default function PagePent120() {
         <Typography className="vernacular">
           Moisés orou diante do Senhor, seu Deus, e disse: «Senhor, porque estais irritado contra o
           vosso povo? Aplacai a vossa ira! Lembrai-Vos de Abraão, de Isaque e de Jacob, a quem
-          jurastes dar a posse da terra, onde correm leite e mel». Então o Senhor aplacou-se
-          afastou os males com que ameaçara o povo.
+          jurastes dar a posse da terra, onde correm leite e mel». Então o Senhor aplacou-se afastou
+          os males com que ameaçara o povo.
         </Typography>
       </Language>
 

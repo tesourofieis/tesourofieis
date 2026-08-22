@@ -5,7 +5,10 @@ import { useAppTheme } from "~/theme";
 
 interface LiturgicalDateHeaderProps {
   overline: string;
-  title: React.ReactNode;
+  /** Plain-text title rendered with the header typography. */
+  title?: string;
+  /** Custom title content rendered in place of `title`. */
+  titleContent?: React.ReactNode;
   subtitle?: React.ReactNode;
   leftControl?: React.ReactNode;
   rightControl?: React.ReactNode;
@@ -22,6 +25,7 @@ interface LiturgicalDateHeaderProps {
 export function LiturgicalDateHeader({
   overline,
   title,
+  titleContent,
   subtitle,
   leftControl,
   rightControl,
@@ -78,7 +82,9 @@ export function LiturgicalDateHeader({
             alignItems: centeredTitle ? "center" : "flex-start",
           }}
         >
-          {typeof title === "string" ? (
+          {titleContent !== undefined ? (
+            titleContent
+          ) : (
             <Typography
               className={`font-display leading-none ${centeredTitle ? "text-center" : ""}`}
               style={{
@@ -89,8 +95,6 @@ export function LiturgicalDateHeader({
             >
               {title}
             </Typography>
-          ) : (
-            title
           )}
         </View>
 

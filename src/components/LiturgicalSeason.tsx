@@ -14,7 +14,7 @@ type Prayer = {
   description?: string;
 };
 
-const TEMPORAS_PRAYERS: Record<Season, Prayer[]> = {
+const TEMPORAS_PRAYERS = {
   Advento: [
     {
       title: "Rorate Caeli",
@@ -348,9 +348,9 @@ const TEMPORAS_PRAYERS: Record<Season, Prayer[]> = {
       description: "Oração pelas almas",
     },
   ],
-};
+} satisfies Record<Season, Prayer[]>;
 
-const CATEGORY_ICONS: Record<Season, string> = {
+const CATEGORY_ICONS = {
   Epifania: "star",
   Advento: "flame",
   Septuagésima: "sprout",
@@ -360,7 +360,7 @@ const CATEGORY_ICONS: Record<Season, string> = {
   Páscoa: "bird",
   Natal: "baby",
   Pentecostes: "flame",
-};
+} satisfies Record<Season, string>;
 
 const getIconComponent = (iconName: string) => {
   switch (iconName) {
@@ -383,7 +383,7 @@ const getIconComponent = (iconName: string) => {
   }
 };
 
-const SEASON_COLORS: Record<Season, { bg: string; border: string; accent: string }> = {
+const SEASON_COLORS = {
   Advento: {
     bg: "bg-violet-100 dark:bg-violet-900/30",
     border: "border-violet-300 dark:border-violet-700",
@@ -429,9 +429,9 @@ const SEASON_COLORS: Record<Season, { bg: string; border: string; accent: string
     border: "border-red-500 dark:border-red-700",
     accent: "text-red-700 dark:text-red-500",
   },
-};
+} satisfies Record<Season, { bg: string; border: string; accent: string }>;
 
-const SEASON_NOTES: Record<Season, string> = {
+const SEASON_NOTES = {
   Advento: "Maranatha · Vem, Senhor Jesus",
   Natal: "Gloria in Excelsis Deo",
   Epifania: "Manifestação do Senhor aos Gentios",
@@ -441,7 +441,7 @@ const SEASON_NOTES: Record<Season, string> = {
   "Semana Santa": "Paixão, Morte e Sepultura de Cristo",
   Páscoa: "Alleluia · Cristo Ressuscitou",
   Pentecostes: "Veni Sancte Spiritus",
-};
+} satisfies Record<Season, string>;
 
 export default function LiturgicalSeason() {
   const { colors } = useAppTheme();

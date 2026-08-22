@@ -4,11 +4,11 @@ import { SegmentedOption, SettingsSection } from "./SettingsControls";
 import { useAppTheme } from "~/theme";
 
 const SIZES = ["small", "medium", "large"] as const;
-const SIZE_LABEL: Record<(typeof SIZES)[number], string> = {
+const SIZE_LABEL = {
   small: "Pequeno",
   medium: "Médio",
   large: "Grande",
-};
+} satisfies Record<(typeof SIZES)[number], string>;
 
 export const FontSizeSelector = () => {
   const { colors } = useAppTheme();

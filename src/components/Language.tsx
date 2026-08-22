@@ -18,6 +18,20 @@ type LanguageToggleProps = {
   children: React.ReactNode;
 };
 
+type ClassedElement = React.ReactElement<{ className?: string }>;
+
+/** Parses a rendered child at the component boundary into its className contract. */
+function isClassedElement(child: React.ReactNode): child is ClassedElement {
+  if (!React.isValidElement(child)) return false;
+  if (typeof child.props !== "object" || child.props === null) return false;
+  for (const [key, value] of Object.entries(child.props)) {
+    if (key === "className") {
+      return typeof value === "string";
+    }
+  }
+  return false;
+}
+
 const toggleWidth = 20;
 const springConfig = {
   damping: 20,
@@ -28,9 +42,12 @@ const springConfig = {
 } as const;
 
 const styles = StyleSheet.create({
-  container: {
-    ...(Platform.OS === "web" ? {} : { overflow: "hidden" }),
-  },
+  container:
+    Platform.OS === "web"
+      ? {}
+      : {
+          overflow: "hidden",
+        },
   animatedContainer: {
     flexDirection: "row",
     alignItems: "stretch",
@@ -108,25 +125,13 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
   }));
 
   const { latinContent, vernacularContent } = useMemo(() => {
-    const childrenArray = React.Children.toArray(children);
+    const classedChildren = React.Children.toArray(children).filter(isClassedElement);
     return {
-      latinContent: childrenArray.filter(
-        (child) =>
-          React.isValidElement(child) &&
-          typeof child.props === "object" &&
-          child.props !== null &&
-          "className" in child.props &&
-          typeof child.props.className === "string" &&
-          child.props.className.includes("latin"),
+      latinContent: classedChildren.filter((child) =>
+        (child.props.className ?? "").includes("latin"),
       ),
-      vernacularContent: childrenArray.filter(
-        (child) =>
-          React.isValidElement(child) &&
-          typeof child.props === "object" &&
-          child.props !== null &&
-          "className" in child.props &&
-          typeof child.props.className === "string" &&
-          child.props.className.includes("vernacular"),
+      vernacularContent: classedChildren.filter((child) =>
+        (child.props.className ?? "").includes("vernacular"),
       ),
     };
   }, [children]);

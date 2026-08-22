@@ -28,9 +28,7 @@ export default {
 
     // Expo's static export emits its not-found page as `+not-found.html`
     // rather than `404.html`, so serve it explicitly with a 404 status.
-    const notFound = await env.ASSETS.fetch(
-      new URL("/+not-found.html", request.url),
-    );
+    const notFound = await env.ASSETS.fetch(new URL("/+not-found.html", request.url));
     return new Response(notFound.body, {
       status: 404,
       headers: notFound.headers,

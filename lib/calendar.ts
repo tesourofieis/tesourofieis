@@ -272,16 +272,16 @@ class MassInserter {
     );
 
     const w = this.calculator.emberWednesdaySeptember();
-    this.insertBlock(w, ["TEMPORA_PENT_3"]);
-    this.insertBlock(addDays(w, 2), ["TEMPORA_PENT_5"]);
-    this.insertBlock(addDays(w, 3), ["TEMPORA_PENT_6"]);
+    this.insertBlock(w, massManager.getByIds(["TEMPORA_PENT_3"]));
+    this.insertBlock(addDays(w, 2), massManager.getByIds(["TEMPORA_PENT_5"]));
+    this.insertBlock(addDays(w, 3), massManager.getByIds(["TEMPORA_PENT_6"]));
 
-    this.insertBlock(this.calculator.holyName(), ["TEMPORA_NAT2_0"]);
-    this.insertBlock(this.calculator.christKing(), ["SANCTI_10_DUR"]);
+    this.insertBlock(this.calculator.holyName(), massManager.getByIds(["TEMPORA_NAT2_0"]));
+    this.insertBlock(this.calculator.christKing(), massManager.getByIds(["SANCTI_10_DUR"]));
 
     const christmasOctaveSunday = this.calculator.sundayInChristmasOctave();
     if (christmasOctaveSunday) {
-      this.insertBlock(christmasOctaveSunday, ["TEMPORA_NAT1_0"]);
+      this.insertBlock(christmasOctaveSunday, massManager.getByIds(["TEMPORA_NAT1_0"]));
     }
   }
 
@@ -308,14 +308,12 @@ class MassInserter {
 
   private insertBlock(
     date: Date,
-    block: (Mass | string)[],
+    block: Mass[],
     reverse = false,
     overwrite = true,
     stopDate?: Date,
   ): void {
-    const resolvedBlock: Mass[] = block
-      .map((entry) => (typeof entry === "string" ? massManager.getById(entry) : entry))
-      .filter((m): m is Mass => Boolean(m));
+    const resolvedBlock: Mass[] = block.filter((m): m is Mass => Boolean(m));
 
     // Separate special masses (outro, local, calendar:62) from regular masses
     // Special masses don't participate in date sequencing - they're appended to their fixed dates

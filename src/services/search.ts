@@ -267,13 +267,14 @@ export function getAvailableSections(): string[] {
   return Array.from(sections).sort();
 }
 
+const SECTION_DISPLAY_NAMES = new Map<string, string>([
+  ["canticos", "Cânticos"],
+  ["devocionario", "Devocionário"],
+  ["fe", "Fé"],
+  ["missal", "Missal"],
+  ["ritual", "Ritual"],
+]);
+
 export function getSectionDisplayName(section: string): string {
-  const displayNames: Record<string, string> = {
-    canticos: "Cânticos",
-    devocionario: "Devocionário",
-    fe: "Fé",
-    missal: "Missal",
-    ritual: "Ritual",
-  };
-  return displayNames[section] || section;
+  return SECTION_DISPLAY_NAMES.get(section) ?? section;
 }

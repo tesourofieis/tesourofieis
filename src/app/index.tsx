@@ -128,7 +128,7 @@ export default function PageRender() {
                 <ChevronLeft size={18} color={chevronColor} strokeWidth={1.7} />
               </Pressable>
             }
-            title={
+            titleContent={
               <DatePicker date={date} onDateChange={setDate}>
                 <View style={{ flexShrink: 1 }}>
                   <Typography

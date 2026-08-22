@@ -377,11 +377,12 @@ function buildJsonDocs(): void {
   const searchIndexPath: string = path.resolve("./assets/search-index.json");
 
   // Statistics tracking
+  const sectionCounts: Record<string, number> = {};
   const stats = {
     totalFiles: 0,
     processedDocs: 0,
     totalKeywords: 0,
-    sectionCounts: {} as Record<string, number>,
+    sectionCounts,
     averageHeadings: 0,
     totalHeadings: 0,
   };

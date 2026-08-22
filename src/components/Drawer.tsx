@@ -184,17 +184,14 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
   }, [allDocs.length]);
 
   const childrenMap = useMemo(() => {
-    return allDocs.reduce(
-      (map, doc) => {
-        if (doc.parent) {
-          const list = map[doc.parent] || [];
-          list.push(doc);
-          map[doc.parent] = list;
-        }
-        return map;
-      },
-      {} as Record<string, Docs[]>,
-    );
+    return allDocs.reduce<Record<string, Docs[]>>((map, doc) => {
+      if (doc.parent) {
+        const list = map[doc.parent] || [];
+        list.push(doc);
+        map[doc.parent] = list;
+      }
+      return map;
+    }, {});
   }, [allDocs]);
 
   const flattenedDocs = useMemo(() => {

@@ -10,9 +10,7 @@ type RouteConfig = {
   priority?: number;
 };
 
-const routeConfigs: Record<string, RouteConfig> = {
-  "/": { changefreq: "daily", priority: 1.0 },
-};
+const routeConfigs = new Map<string, RouteConfig>([["/", { changefreq: "daily", priority: 1.0 }]]);
 
 function getRoutes(dir: string, base = ""): string[] {
   const routes: string[] = [];
@@ -45,7 +43,7 @@ function generateSitemap(routes: string[]): string {
 
   const urls = routes
     .map((route) => {
-      const config = routeConfigs[route] || {
+      const config = routeConfigs.get(route) ?? {
         changefreq: "weekly",
         priority: 0.7,
       };

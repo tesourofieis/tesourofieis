@@ -6,17 +6,14 @@ function getServerSnapshot() {
 }
 
 function getClientSnapshot() {
-  if (typeof window === "undefined" || typeof window.matchMedia !== "function") {
-    return true;
-  }
-  return window.matchMedia("(min-width: 768px)").matches;
+  return globalThis.matchMedia?.("(min-width: 768px)").matches ?? true;
 }
 
 function subscribe(callback: () => void) {
-  if (typeof window === "undefined" || typeof window.matchMedia !== "function") {
+  const mql = globalThis.matchMedia?.("(min-width: 768px)");
+  if (!mql) {
     return () => {};
   }
-  const mql = window.matchMedia("(min-width: 768px)");
   mql.addEventListener("change", callback);
   return () => mql.removeEventListener("change", callback);
 }

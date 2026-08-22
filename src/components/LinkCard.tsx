@@ -8,8 +8,13 @@ import { useAppTheme } from "~/theme";
 import { Typography } from "./typography";
 
 function toRoman(n: number): string {
-  const map: Record<number, string> = { 1: "I", 2: "II", 3: "III", 4: "IV" };
-  return map[n] ?? String(n);
+  const map = new Map<number, string>([
+    [1, "I"],
+    [2, "II"],
+    [3, "III"],
+    [4, "IV"],
+  ]);
+  return map.get(n) ?? String(n);
 }
 
 function massNameClass(rank: number): string {

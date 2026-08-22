@@ -161,6 +161,10 @@ export class MassManager {
     return OBSERVANCES[id];
   }
 
+  getByIds(ids: string[]): Mass[] {
+    return ids.map((id) => OBSERVANCES[id]).filter((m): m is Mass => Boolean(m));
+  }
+
   getByTypeId(type: Mass["type"]): Mass[] {
     return this.byType.get(type) || [];
   }
@@ -213,20 +217,8 @@ export class MassManager {
     return this.sanctiClass2;
   }
 
-  match(
-    observances: Mass[],
-    criteria: Mass | undefined | (Mass | undefined)[] | ((mass: Mass) => boolean),
-  ): Mass | undefined {
+  match(observances: Mass[], criteria: Mass | undefined | (Mass | undefined)[]): Mass | undefined {
     if (!criteria) {
-      return undefined;
-    }
-
-    if (typeof criteria === "function") {
-      for (const observance of observances) {
-        if (criteria(observance)) {
-          return observance;
-        }
-      }
       return undefined;
     }
 
