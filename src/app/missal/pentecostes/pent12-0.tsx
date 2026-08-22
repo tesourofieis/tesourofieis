@@ -146,7 +146,7 @@ export default function PagePent120() {
           levantou-se, e, para tentar Jesus, disse-lhe: «Mestre, que hei-de fazer para possuir a
           vida eterna?». Jesus respondeu-lhe: «Que é que está escrito na Lei? De que modo lês tu?».
           Respondeu o doutor: «Amareis ao Senhor, vosso Deus, com todo o coração, com toda a alma,
-          com todas as forças e com todo o entendimento; e amar reis ao vosso próximo como a vós
+          com todas as forças e com todo o entendimento; e amareis ao vosso próximo como a vós
           mesmos». Jesus disse-lhe: «Respondeste com rectidão. Faze assim, e viverás». Mas o doutor,
           querendo justificar a sua pergunta, de novo interrogou Jesus: «E quem é o meu próximo?».
           Então Jesus, tomando a palavra, acrescentou: «Caminhando um homem de Jerusalém para
@@ -178,7 +178,7 @@ export default function PagePent120() {
         <Typography className="vernacular">
           Moisés orou diante do Senhor, seu Deus, e disse: «Senhor, porque estais irritado contra o
           vosso povo? Aplacai a vossa ira! Lembrai-Vos de Abraão, de Isaque e de Jacob, a quem
-          jurastes dar a posse da terra, onde. Correm leite e mel». Então o Senhor aplacou-se
+          jurastes dar a posse da terra, onde correm leite e mel». Então o Senhor aplacou-se
           afastou os males com que ameaçara o povo.
         </Typography>
       </Language>
