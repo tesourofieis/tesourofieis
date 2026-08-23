@@ -11,7 +11,7 @@
     "dev:ios": "expo start --ios",
     "android": "expo run:android",
     "ios": "expo run:ios",
-    "build:web": "expo export --platform web --source-maps=false",
+    "build:web": "expo export --platform web --source-maps=false && node scripts/prune-sourcemaps.mjs",
     "lint": "oxlint . && oxfmt --check . && expo lint",
     "lint:fix": "oxlint --fix . && oxfmt . && expo lint --fix",
     "format": "oxfmt --write .",

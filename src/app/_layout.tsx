@@ -140,6 +140,9 @@ function UpdateAwareDrawer() {
         },
         drawerType: isWebDesktop ? "permanent" : "slide",
         drawerStyle: {
+          backgroundColor: "var(--theme-screen)",
+          borderRightWidth: 1,
+          borderRightColor: "var(--theme-divider)",
           width: 250,
         },
         drawerInactiveTintColor: COLORS["700"],

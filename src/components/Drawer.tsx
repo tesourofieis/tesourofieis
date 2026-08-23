@@ -378,7 +378,7 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
   );
 
   return (
-    <View className="flex-1 justify-between bg-sepia-50 dark:bg-sepia-900 border-r border-sepia-300 dark:border-sepia-700">
+    <View className="flex-1 justify-between bg-sepia-50 dark:bg-sepia-900">
       <View style={{ flex: 1 }}>
         {/* App wordmark — tappable, navigates to root */}
         <TouchableOpacity
