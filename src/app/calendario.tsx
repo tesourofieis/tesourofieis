@@ -61,7 +61,7 @@ export default function CalendarMasterpiece() {
     <ScrollView ref={scrollViewRef} contentContainerStyle={{ flexGrow: 1 }}>
       <View className="extreme-background w-full">
         <View
-          className="flex-1 w-full web:max-w-1/2 web:mx-auto py-5 px-3"
+          className="flex-1 w-full web:lg:max-w-1/2 web:lg:mx-auto py-5 px-3"
           style={{
             backgroundColor: colors.screen,
           }}

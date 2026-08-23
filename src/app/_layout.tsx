@@ -99,17 +99,11 @@ export default function PageRootLayout() {
 }
 
 function RootLayoutNav() {
-  const { colors } = useAppTheme();
   const isWeb = Platform.OS === "web";
 
   if (isWeb) {
     return (
-      <View
-        style={{
-          flex: 1,
-          backgroundColor: colors.shell,
-        }}
-      >
+      <View className="flex-1 bg-sepia-200 dark:bg-sepia-800">
         <UpdateAwareDrawer />
         <StatusBar hidden />
       </View>
@@ -117,12 +111,7 @@ function RootLayoutNav() {
   }
 
   return (
-    <SafeAreaView
-      style={{
-        flex: 1,
-        backgroundColor: colors.shell,
-      }}
-    >
+    <SafeAreaView className="flex-1 bg-sepia-200 dark:bg-sepia-800">
       <UpdateAwareDrawer />
       <StatusBar hidden />
     </SafeAreaView>
@@ -130,9 +119,12 @@ function RootLayoutNav() {
 }
 
 function UpdateAwareDrawer() {
-  const { colors, isDark } = useAppTheme();
+  const { isDark } = useAppTheme();
   const isWebDesktop = useWebDesktop();
 
+  // Backgrounds are CSS-driven (dark: classes) so the statically exported
+  // HTML is dark from first paint; the header/scene/drawer wrappers stay
+  // transparent and let the themed layers beneath them paint.
   return (
     <Drawer
       drawerContent={(props) => <CustomDrawer {...props} />}
@@ -143,20 +135,14 @@ function UpdateAwareDrawer() {
           const isRootScreen = ["index", "configurar"].includes(route.name);
           return <Header withBC={!isRootScreen} isWebDesktop={isWebDesktop} />;
         },
-        headerStyle: {
-          backgroundColor: colors.panel,
-        },
         sceneStyle: {
-          backgroundColor: colors.panel,
+          backgroundColor: "transparent",
         },
         drawerType: isWebDesktop ? "permanent" : "slide",
         drawerStyle: {
-          backgroundColor: colors.screen,
-          borderRightWidth: 1,
-          borderRightColor: colors.divider,
           width: 250,
         },
-        drawerInactiveTintColor: colors.textSecondary,
+        drawerInactiveTintColor: COLORS["700"],
         drawerActiveTintColor: isDark ? burgundy["300"] : COLORS["700"],
       }}
     />
@@ -350,8 +336,8 @@ export const Header = ({
 
   return (
     <View
-      className={`flex-row items-center justify-between w-full border-b border-sepia ${
-        isWebDesktop ? "px-5 py-2.5 gap-3 medium-background" : "p-3 gap-2"
+      className={`flex-row items-center justify-between w-full border-b border-sepia-300 dark:border-sepia-700 ${
+        isWebDesktop ? "px-5 py-2.5 gap-3 medium-background" : "p-3 gap-2 medium-background"
       }`}
     >
       <View className={`flex-row items-center flex-1 ${isWebDesktop ? "gap-3 min-w-0" : "gap-2"}`}>

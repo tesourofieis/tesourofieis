@@ -56,6 +56,48 @@
   --line-height-base: 1.75;
 }
 
+/*
+ * Semantic theme tokens for JS inline styles (useAppTheme on web).
+ * The statically exported HTML ships with these inline styles already
+ * applied, so they must resolve dark mode through CSS media queries —
+ * before the JS bundle loads and hydrates the tree.
+ */
+:root {
+  --theme-screen: #f4eadd;
+  --theme-panel: #f2ddc7;
+  --theme-shell: #f2ddc7;
+  --theme-card: #eee6d9;
+  --theme-card-elevated: #f4eadd;
+  --theme-divider: #e2c1a2;
+  --theme-text-primary: #262624;
+  --theme-text-secondary: #2b2b29;
+  --theme-text-muted: #40403c;
+  --theme-icon: #32302f;
+  --theme-accent: #9b3d3f;
+  --theme-accent-strong: #8c3437;
+  --theme-selected-bg: #2b2b29;
+  --theme-selected-text: #f2ddc7;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --theme-screen: #262624;
+    --theme-panel: #2b2b29;
+    --theme-shell: #2b2b29;
+    --theme-card: #2b2b29;
+    --theme-card-elevated: #262624;
+    --theme-divider: #32302f;
+    --theme-text-primary: #eee6d9;
+    --theme-text-secondary: #f2ddc7;
+    --theme-text-muted: #e2c1a2;
+    --theme-icon: #e2c1a2;
+    --theme-accent: #d48385;
+    --theme-accent-strong: #b85d5f;
+    --theme-selected-bg: #f2ddc7;
+    --theme-selected-text: #2b2b29;
+  }
+}
+
 @layer base {
   * {
     @apply border-sepia-300 dark:border-sepia-700;

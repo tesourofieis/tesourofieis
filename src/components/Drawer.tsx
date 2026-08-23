@@ -6,14 +6,12 @@ import {
   BookPlus,
   CalendarDays,
 } from "lucide-react-native";
-import { burgundy, sepia } from "config";
+import { burgundy } from "config";
 import { usePathname, useRouter } from "expo-router";
 import React, { useCallback, useEffect, useMemo, useState } from "react";
 import { ActivityIndicator, FlatList, Text, TouchableOpacity, View } from "react-native";
-import { COLORS } from "~/constants/Colors";
 import { getAllTopLevelDocs, getChildren } from "~/services/search";
 import { useSearchModal } from "~/components/Search";
-import { FONT_FAMILIES, useAppTheme } from "~/theme";
 
 interface CustomDrawerContentProps {
   navigation: {
@@ -61,9 +59,6 @@ function pathsMatch(pathname: string, docUrl: string): boolean {
   return false;
 }
 
-const SIDEBAR_FONT = FONT_FAMILIES.reading;
-const SIDEBAR_SIZE = 14;
-
 const TreeItem = React.memo(
   ({
     doc,
@@ -73,7 +68,6 @@ const TreeItem = React.memo(
     currentPathname,
     loadingIds,
     childrenMap: _childrenMap,
-    colors,
     closeDrawer,
     flattenedDocs: _flattenedDocs,
   }: {
@@ -84,7 +78,6 @@ const TreeItem = React.memo(
     currentPathname: string;
     loadingIds: string[];
     childrenMap: Record<string, Docs[]>;
-    colors: { icon: string; active: string; activeBg: string };
     closeDrawer: () => void;
     flattenedDocs: Docs[];
   }) => {
@@ -109,6 +102,9 @@ const TreeItem = React.memo(
     const chevronWidth = 20;
     const indent = level * chevronWidth;
 
+    const itemText = "text-sepia-700 dark:text-sepia-300 font-reading text-[14px] flex-1";
+    const activeText = "text-burgundy-600 dark:text-burgundy-300 font-strong";
+
     return (
       <TouchableOpacity
         onPress={handlePress}
@@ -120,10 +116,10 @@ const TreeItem = React.memo(
           paddingLeft: 8 + indent,
           marginHorizontal: 4,
           borderRadius: 8,
-          backgroundColor: isActive ? colors.activeBg : "transparent",
           borderLeftWidth: isActive ? 3 : 0,
           borderLeftColor: isActive ? burgundy[500] : "transparent",
         }}
+        className={isActive ? "bg-sepia-200 dark:bg-sepia-800" : "bg-transparent"}
         accessibilityRole="button"
         accessibilityLabel={doc.title}
       >
@@ -133,22 +129,28 @@ const TreeItem = React.memo(
             loadingIds.includes(doc.id) ? (
               <ActivityIndicator size="small" />
             ) : isOpen ? (
-              <ChevronDown size={chevronSize} color={isActive ? colors.active : colors.icon} />
+              <ChevronDown
+                size={chevronSize}
+                className={
+                  isActive
+                    ? "text-burgundy-600 dark:text-burgundy-300"
+                    : "text-sepia-700 dark:text-sepia-300"
+                }
+              />
             ) : (
-              <ChevronRight size={chevronSize} color={isActive ? colors.active : colors.icon} />
+              <ChevronRight
+                size={chevronSize}
+                className={
+                  isActive
+                    ? "text-burgundy-600 dark:text-burgundy-300"
+                    : "text-sepia-700 dark:text-sepia-300"
+                }
+              />
             )
           ) : null}
         </View>
 
-        <Text
-          numberOfLines={1}
-          style={{
-            fontFamily: isActive ? FONT_FAMILIES.strong : SIDEBAR_FONT,
-            fontSize: SIDEBAR_SIZE,
-            color: isActive ? colors.active : colors.icon,
-            flex: 1,
-          }}
-        >
+        <Text numberOfLines={1} className={`${isActive ? activeText : itemText}`}>
           {doc.title}
         </Text>
       </TouchableOpacity>
@@ -159,7 +161,6 @@ const TreeItem = React.memo(
 export default function CustomDrawerContent({ navigation }: CustomDrawerContentProps) {
   const router = useRouter();
   const pathname = usePathname();
-  const { colors, isDark } = useAppTheme();
   const { toggleSearch } = useSearchModal();
 
   const [expanded, setExpanded] = useState<Record<string, boolean>>({});
@@ -360,15 +361,6 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
     [expanded, allDocs],
   );
 
-  const drawerColors = useMemo(
-    () => ({
-      icon: isDark ? COLORS["400"] : COLORS["600"],
-      active: isDark ? burgundy[300] : burgundy[600],
-      activeBg: colors.panel,
-    }),
-    [colors.panel, isDark],
-  );
-
   const isLoadingInitialDocs = allDocs.length === 0;
 
   const getItemLevel = useCallback(
@@ -386,13 +378,7 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
   );
 
   return (
-    <View
-      style={{
-        flex: 1,
-        backgroundColor: colors.screen,
-        justifyContent: "space-between",
-      }}
-    >
+    <View className="flex-1 justify-between bg-sepia-50 dark:bg-sepia-900 border-r border-sepia-300 dark:border-sepia-700">
       <View style={{ flex: 1 }}>
         {/* App wordmark — tappable, navigates to root */}
         <TouchableOpacity
@@ -412,13 +398,7 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
           accessibilityLabel="Início"
         >
           <BookPlus size={20} color={burgundy[500]} />
-          <Text
-            style={{
-              fontFamily: FONT_FAMILIES.display,
-              fontSize: 16,
-              color: isDark ? sepia[200] : sepia[800],
-            }}
-          >
+          <Text className="font-display text-base text-sepia-800 dark:text-sepia-200">
             Tesouro dos Fiéis
           </Text>
         </TouchableOpacity>
@@ -429,8 +409,8 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
             paddingHorizontal: 4,
             paddingBottom: 4,
             borderBottomWidth: 1,
-            borderBottomColor: colors.divider,
           }}
+          className="border-sepia-300 dark:border-sepia-700"
         >
           <TouchableOpacity
             onPress={toggleSearch}
@@ -447,9 +427,9 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
             accessibilityLabel="Pesquisar"
           >
             <View style={{ width: 20, alignItems: "center" }}>
-              <Search size={14} color={colors.icon} />
+              <Search size={14} className="text-sepia-700 dark:text-sepia-300" />
             </View>
-            <Text style={{ fontFamily: SIDEBAR_FONT, fontSize: SIDEBAR_SIZE, color: colors.icon }}>
+            <Text className="font-reading text-sm text-sepia-700 dark:text-sepia-300">
               Pesquisar
             </Text>
           </TouchableOpacity>
@@ -468,25 +448,31 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
               paddingHorizontal: 8,
               marginHorizontal: 4,
               borderRadius: 6,
-              backgroundColor: pathname === "/calendario" ? drawerColors.activeBg : "transparent",
               borderLeftWidth: pathname === "/calendario" ? 3 : 0,
               borderLeftColor: pathname === "/calendario" ? burgundy[500] : "transparent",
             }}
+            className={
+              pathname === "/calendario" ? "bg-sepia-200 dark:bg-sepia-800" : "bg-transparent"
+            }
             accessibilityRole="button"
             accessibilityLabel="Calendário"
           >
             <View style={{ width: 20, alignItems: "center" }}>
               <CalendarDays
                 size={14}
-                color={pathname === "/calendario" ? drawerColors.active : colors.icon}
+                className={
+                  pathname === "/calendario"
+                    ? "text-burgundy-600 dark:text-burgundy-300"
+                    : "text-sepia-700 dark:text-sepia-300"
+                }
               />
             </View>
             <Text
-              style={{
-                fontFamily: pathname === "/calendario" ? FONT_FAMILIES.strong : SIDEBAR_FONT,
-                fontSize: SIDEBAR_SIZE,
-                color: pathname === "/calendario" ? drawerColors.active : colors.icon,
-              }}
+              className={`font-reading text-sm ${
+                pathname === "/calendario"
+                  ? "text-burgundy-600 dark:text-burgundy-300 font-strong"
+                  : "text-sepia-700 dark:text-sepia-300"
+              }`}
             >
               Calendário
             </Text>
@@ -497,16 +483,7 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
         {isLoadingInitialDocs ? (
           <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
             <ActivityIndicator size="large" />
-            <Text
-              style={{
-                fontFamily: SIDEBAR_FONT,
-                fontSize: SIDEBAR_SIZE,
-                color: COLORS["500"],
-                marginTop: 8,
-              }}
-            >
-              A carregar...
-            </Text>
+            <Text className="font-reading text-sm text-sepia-500 mt-2">A carregar...</Text>
           </View>
         ) : (
           <FlatList
@@ -522,7 +499,6 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
                 currentPathname={pathname}
                 loadingIds={loadingIds}
                 childrenMap={childrenMap}
-                colors={drawerColors}
                 closeDrawer={navigation.closeDrawer}
                 flattenedDocs={flattenedDocs}
               />
@@ -535,10 +511,10 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
       <View
         style={{
           borderTopWidth: 1,
-          borderTopColor: colors.divider,
           paddingHorizontal: 4,
           paddingVertical: 8,
         }}
+        className="border-sepia-300 dark:border-sepia-700"
       >
         <TouchableOpacity
           onPress={() => {
@@ -558,9 +534,9 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
           accessibilityLabel="Configurações"
         >
           <View style={{ width: 20, alignItems: "center" }}>
-            <Settings size={14} color={colors.icon} />
+            <Settings size={14} className="text-sepia-700 dark:text-sepia-300" />
           </View>
-          <Text style={{ fontFamily: SIDEBAR_FONT, fontSize: SIDEBAR_SIZE, color: colors.icon }}>
+          <Text className="font-reading text-sm text-sepia-700 dark:text-sepia-300">
             Configurações
           </Text>
         </TouchableOpacity>
