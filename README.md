@@ -33,8 +33,11 @@ Tesouro dos Fiéis is a universal Catholic liturgical application that provides:
 
 ```bash
 npm run install
+npm run hooks:install
 npm run dev
 ```
+
+The installed pre-push hook runs lint, typecheck, and tests before every push.
 
 ### Platform-Specific Development
 
@@ -145,9 +148,8 @@ lib/                       # Core liturgical logic
 ├── observances.ts        # Feast days and seasons
 └── tests/                # Calendar calculation tests
 
-.github/
-└── workflows/
-    └── ci.yml            # CI/CD pipeline
+.githooks/
+└── pre-push              # Local lint, typecheck, and test gate
 
 assets/
 ├── fonts/                # Cardo, DM Serif fonts

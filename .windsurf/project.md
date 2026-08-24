@@ -132,7 +132,7 @@ lib/                       # Core liturgical logic
 - **EAS Build** for native apps
 - **Expo Updates** for OTA updates
 - **Static export** for web deployment
-- **Automated CI/CD** via GitHub Actions
+- **Local pre-push quality gate** and explicit Alchemy web deploys
 
 ## Cultural and Religious Context
 
