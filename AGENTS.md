@@ -33,10 +33,10 @@ Tesouro dos Fiéis is a universal Catholic liturgical application that provides:
 
 ### Testing
 
-- **Calendar Tests** (Critical): `vitest lib/tests/calendar/`
-- **Single Test**: `vitest lib/tests/calendar/2024.test.ts`
-- **Coverage**: `bun run coverage` (vitest --coverage)
-- **Benchmarks**: `vitest lib/tests/bench/`
+- **Calendar Tests** (Critical): `bun test lib/tests/calendar/`
+- **Single Test**: `bun test lib/tests/calendar/2024.test.ts`
+- **Coverage**: `bun test --coverage`
+- **Benchmarks**: `bun lib/tests/bench/calendar.perf.ts`
 
 ### Deployment
 

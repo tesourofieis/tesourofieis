@@ -1,4 +1,4 @@
-import { expect, test } from "vitest";
+import { expect, test } from "bun:test";
 import { getCalendarDay } from "../../getCalendar";
 
 test("no celebration when tempora 01-08 2024", () => {

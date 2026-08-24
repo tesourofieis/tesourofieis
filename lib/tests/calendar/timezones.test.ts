@@ -1,4 +1,4 @@
-import { afterEach, beforeEach, describe, expect, test } from "vitest";
+import { afterEach, beforeEach, describe, expect, test } from "bun:test";
 import { getCalendar } from "../../getCalendar";
 
 describe("calendar 2026", () => {
@@ -32,8 +32,9 @@ describe("calendar 2026", () => {
         return getCalendar(2026);
       });
 
-      const baseResult = results[0];
-      results.slice(1).forEach((result) => {
+      const [baseResult, ...otherResults] = results;
+      if (!baseResult) throw new Error("expected at least one timezone result");
+      otherResults.forEach((result) => {
         expect(result).toEqual(baseResult);
       });
     });

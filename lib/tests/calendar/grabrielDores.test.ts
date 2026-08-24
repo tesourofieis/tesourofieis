@@ -1,4 +1,4 @@
-import { expect, test } from "vitest";
+import { expect, test } from "bun:test";
 import { getCalendarDay } from "../../getCalendar";
 
 test("S. Gabriel de Nossa Senhora das Dores 2024", () => {

@@ -68,16 +68,16 @@ bun run prebuild # Build search index
 
 ```bash
 # Calendar tests (critical)
-vitest lib/tests/calendar/
+bun test lib/tests/calendar/
 
 # Single test file
-vitest lib/tests/calendar/2024.test.ts
+bun test lib/tests/calendar/2024.test.ts
 
 # Coverage report
-bun run coverage
+bun test --coverage
 
 # Benchmarks
-vitest lib/tests/bench/
+bun lib/tests/bench/calendar.perf.ts
 ```
 
 ### Deployment

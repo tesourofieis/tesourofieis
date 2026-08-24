@@ -63,7 +63,7 @@ pnpm run update  # OTA updates
 - `app.config.ts` - Expo app configuration
 - `tsconfig.json` - TypeScript configuration
 - `package.json` - Dependencies and scripts
-- `vitest.config.ts` - Test configuration
+- `bun test` - Test runner (no config file needed)
 
 ### Core Logic
 

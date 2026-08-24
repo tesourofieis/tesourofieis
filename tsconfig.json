@@ -3,6 +3,7 @@
   "compilerOptions": {
     "esModuleInterop": true,
     "skipLibCheck": true,
+    "types": ["node", "bun"],
     "target": "ES2022",
     "lib": ["ES2022", "DOM"],
     "allowJs": true,

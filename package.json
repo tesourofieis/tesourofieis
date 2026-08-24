@@ -19,7 +19,7 @@
     "dev": "bun run prebuild && expo start --clear",
     "deploy": "for i in 1 2 3; do NODE_OPTIONS=--dns-result-order=ipv4first bunx eas-cli@20.2.0 build --platform all --auto-submit --profile production --non-interactive --no-wait && exit 0; echo \"deploy attempt $i failed, retrying...\"; sleep 30; done; exit 1",
     "update": "for i in 1 2 3; do NODE_OPTIONS=--dns-result-order=ipv4first bunx eas-cli@20.2.0 update --auto --environment production && exit 0; echo \"update attempt $i failed, retrying...\"; sleep 30; done; exit 1",
-    "test": "vitest .",
+    "test": "bun test lib",
     "ci": "bun run lint && bun run check && bun run test",
     "hooks:install": "git config core.hooksPath .githooks",
     "test:e2e": "playwright test",
@@ -82,12 +82,12 @@
     "react-native-worklets": "0.8.3"
   },
   "devDependencies": {
-    "@edge-runtime/vm": "^5.0.0",
     "@effect/platform-bun": "^4.0.0-rc.111",
     "@effect/platform-node": "^4.0.0-rc.111",
     "@expo/metro-runtime": "~56.0.15",
     "@oxlint/plugins": "1.79.0",
     "@playwright/test": "^1.57.0",
+    "@types/bun": "^1.3.4",
     "@types/node": "^22.19.3",
     "@types/react": "~19.2.10",
     "@types/react-dom": "~19.2.0",
@@ -100,8 +100,7 @@
     "oxfmt": "^0.41.0",
     "oxlint": "1.79.0",
     "tailwindcss": "^4.1.16",
-    "typescript": "~6.0.3",
-    "vitest": "^1.6.1"
+    "typescript": "~6.0.3"
   },
   "overrides": {
     "lightningcss": "1.30.1"

@@ -9,7 +9,7 @@
     "infra/site-worker.ts",
     // Build tooling executed via `bunx tsx` / `node` from package scripts.
     "scripts/**/*.{ts,mjs}",
-    // Manual perf harness (`bunx vitest bench` only picks up *.bench.ts).
+    // Manual perf harness (bun has no `bench()` API; run via `bun`).
     "lib/tests/bench/calendar.perf.ts",
   ],
   // eas-cli is invoked pinned via `bunx eas-cli@20.2.0` in the deploy/update

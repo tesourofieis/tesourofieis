@@ -1,6 +1,6 @@
-// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+// Bun Snapshot v1, https://bun.sh/docs/test/snapshots
 
-exports[`calendar 2024 > renders entire calendar correctly 1`] = `
+exports[`calendar 2024 renders entire calendar correctly 1`] = `
 [
   Day {
     "alternatives": [],
