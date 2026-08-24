@@ -19,29 +19,29 @@ Tesouro dos Fiéis is a universal Catholic liturgical application that provides:
 
 ### Core Development
 
-- `npm run check` - Type check entire project
-- `npm run lint` - Lint all code with Biome + ESLint
-- `npm run test` - Run complete test suite
-- `npm run dev` - Start development server
-- `npm run run prebuild` - Build search index
+- `bun run check` - Type check entire project
+- `bun run lint` - Lint all code with Biome + ESLint
+- `bun run test` - Run complete test suite
+- `bun run dev` - Start development server
+- `bun run prebuild` - Build search index
 
 ### Platform-Specific Development
 
-- `npm run run dev:android` - Android development
-- `npm run run dev:ios` - iOS development
-- `npm run run build:web` - Web static export
+- `bun run dev:android` - Android development
+- `bun run dev:ios` - iOS development
+- `bun run build:web` - Web static export
 
 ### Testing
 
 - **Calendar Tests** (Critical): `vitest lib/tests/calendar/`
 - **Single Test**: `vitest lib/tests/calendar/2024.test.ts`
-- **Coverage**: `npm run coverage` (vitest --coverage)
+- **Coverage**: `bun run coverage` (vitest --coverage)
 - **Benchmarks**: `vitest lib/tests/bench/`
 
 ### Deployment
 
-- `npm run run deploy` - EAS build for all platforms
-- `npm run run update` - OTA updates via Expo
+- `bun run deploy` - EAS build for all platforms
+- `bun run update` - OTA updates via Expo
 
 ## Code Style Guidelines
 

@@ -32,9 +32,9 @@ Tesouro dos Fiéis is a universal Catholic liturgical application that provides:
 ## Getting Started
 
 ```bash
-npm run install
-npm run hooks:install
-npm run dev
+bun install
+bun run hooks:install
+bun run dev
 ```
 
 The installed pre-push hook runs lint, typecheck, and tests before every push.
@@ -43,13 +43,13 @@ The installed pre-push hook runs lint, typecheck, and tests before every push.
 
 ```bash
 # Android
-npm run run dev:android
+bun run dev:android
 
 # iOS
-npm run run dev:ios
+bun run dev:ios
 
 # Web
-npm run run build:web
+bun run build:web
 ```
 
 ## Build, Lint & Test Commands
@@ -57,11 +57,11 @@ npm run run build:web
 ### Core Development
 
 ```bash
-npm run check        # Type check entire project
-npm run lint         # Lint all code with Biome + ESLint
-npm run test         # Run complete test suite
-npm run dev          # Start development server
-npm run run prebuild # Build search index
+bun run check        # Type check entire project
+bun run lint         # Lint all code with Biome + ESLint
+bun run test         # Run complete test suite
+bun run dev          # Start development server
+bun run prebuild # Build search index
 ```
 
 ### Testing
@@ -74,7 +74,7 @@ vitest lib/tests/calendar/
 vitest lib/tests/calendar/2024.test.ts
 
 # Coverage report
-npm run coverage
+bun run coverage
 
 # Benchmarks
 vitest lib/tests/bench/
@@ -84,10 +84,10 @@ vitest lib/tests/bench/
 
 ```bash
 # Build for all platforms
-npm run run deploy
+bun run deploy
 
 # OTA updates via Expo
-npm run run update
+bun run update
 ```
 
 ## Code Style Guidelines

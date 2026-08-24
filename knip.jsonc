@@ -7,12 +7,14 @@
     // Alchemy IaC: stack entry + the Workers asset fallback worker it wires up.
     "alchemy.run.ts",
     "infra/site-worker.ts",
-    // Build tooling executed via `npx tsx` / `node` from npm scripts.
+    // Build tooling executed via `bunx tsx` / `node` from package scripts.
     "scripts/**/*.{ts,mjs}",
-    // Manual perf harness (`npx vitest bench` only picks up *.bench.ts).
+    // Manual perf harness (`bunx vitest bench` only picks up *.bench.ts).
     "lib/tests/bench/calendar.perf.ts",
   ],
-  // eas-cli is invoked via `npx eas-cli` in the deploy/update scripts;
+  // eas-cli is invoked pinned via `bunx eas-cli@20.2.0` in the deploy/update
+  // scripts (kept out of devDependencies: its vendored legacy @expo/* copies
+  // shadow the SDK's own packages under bun's hoisted layout);
   // expo-atlas is activated by EXPO_UNSTABLE_ATLAS=1 in the start script.
-  "ignoreDependencies": ["eas-cli", "expo-atlas"],
+  "ignoreDependencies": ["expo-atlas"],
 }

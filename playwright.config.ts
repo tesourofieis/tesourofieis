@@ -18,7 +18,7 @@ export default defineConfig({
     },
   ],
   webServer: {
-    command: "npx expo start --web",
+    command: "bunx expo start --web",
     url: "http://localhost:8081",
     reuseExistingServer: !process.env.CI,
   },
