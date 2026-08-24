@@ -12,13 +12,12 @@ export default Alchemy.Stack(
     const stage = yield* Alchemy.Stage;
     const prod = stage === "prod";
 
-    // Custom domains can't attach while the Pages project still claims
-    // these hostnames, so cutover runs on zone routes over the existing
-    // (proxied) DNS records. Once Pages is deleted this can switch to a
-    // platform-managed `domain` config if desired.
-    const zoneRoutes = prod
+    // Alchemy manages the apex domain. The existing proxied www record remains
+    // on a Worker route and is redirected to the apex by the site worker.
+    const customDomain = prod
       ? {
-          routes: [{ pattern: "tesourofieis.com/*" }, { pattern: "www.tesourofieis.com/*" }],
+          domain: "tesourofieis.com",
+          routes: [{ pattern: "www.tesourofieis.com/*" }],
         }
       : {};
 
@@ -29,7 +28,7 @@ export default Alchemy.Stack(
       command: "npm run prebuild && npm run build:web && node scripts/prune-sourcemaps.mjs",
       outdir: "dist",
       main: "./infra/site-worker.ts",
-      ...zoneRoutes,
+      ...customDomain,
       assets: {
         htmlHandling: "drop-trailing-slash",
         notFoundHandling: "none",
