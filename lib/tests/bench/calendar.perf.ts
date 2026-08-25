@@ -1,16 +1,14 @@
 import { performance } from "node:perf_hooks";
-import {
-  __clearCalendarCacheForBenchmarks,
-  getCalendar,
-  getCalendarDay,
-  getNovenas,
-  getSeason,
-} from "../../getCalendar";
+import { CalendarStore } from "../../calendarStore";
 
 const YEARS = Array.from({ length: 13 }, (_, i) => 2024 + i);
 const WARMUP_RUNS = 3;
 const MEASURED_RUNS = 11;
 const INNER_REPEATS = 3;
+const EDITION = "62" as const;
+
+/** Dedicated store so workloads control cache lifetime without touching app state. */
+const benchStore = new CalendarStore();
 
 const APP_YEAR = 2026;
 const APP_NEXT_YEAR = 2027;
@@ -61,10 +59,10 @@ function runColdWorkload() {
   const start = performance.now();
 
   for (let repeat = 0; repeat < INNER_REPEATS; repeat++) {
-    __clearCalendarCacheForBenchmarks();
+    benchStore.clear();
 
     for (const year of YEARS) {
-      const calendar = getCalendar(year);
+      const calendar = benchStore.getDays(year, EDITION);
       checksum += calendar.length;
       checksum += calendar[0]?.mass.length ?? 0;
       checksum += calendar[calendar.length - 1]?.mass.length ?? 0;
@@ -78,16 +76,16 @@ function runColdWorkload() {
 function runHotWorkload() {
   let checksum = 0;
 
-  __clearCalendarCacheForBenchmarks();
+  benchStore.clear();
   for (const year of YEARS) {
-    getCalendar(year);
+    benchStore.getDays(year, EDITION);
   }
 
   const start = performance.now();
 
   for (let repeat = 0; repeat < INNER_REPEATS; repeat++) {
     for (const year of YEARS) {
-      const calendar = getCalendar(year);
+      const calendar = benchStore.getDays(year, EDITION);
       checksum += calendar.length;
       checksum += calendar[0]?.mass.length ?? 0;
       checksum += calendar[calendar.length - 1]?.mass.length ?? 0;
@@ -102,26 +100,29 @@ function runAppWorkload() {
   let checksum = 0;
   const start = performance.now();
 
-  __clearCalendarCacheForBenchmarks();
+  benchStore.clear();
 
   // Provider behavior around December: current year + next year
-  const providerCalendar = [...getCalendar(APP_YEAR), ...getCalendar(APP_NEXT_YEAR)];
+  const providerCalendar = [
+    ...benchStore.getDays(APP_YEAR, EDITION),
+    ...benchStore.getDays(APP_NEXT_YEAR, EDITION),
+  ];
   checksum += providerCalendar.length;
 
   // Repeated day/season reads while date updates over time
   for (let i = 0; i < APP_READ_REPEATS; i++) {
     for (const dayKey of APP_DAY_KEYS) {
-      const day = getCalendarDay(dayKey);
+      const day = benchStore.getDay(dayKey, EDITION);
       checksum += day?.mass.length ?? 0;
 
-      const season = getSeason(dayKey);
+      const season = benchStore.getSeason(dayKey, EDITION);
       checksum += season ? season.length : 0;
     }
   }
 
   // Novena screen behavior
   for (const dateKey of APP_NOVENA_DATES) {
-    checksum += getNovenas(dateKey).length;
+    checksum += benchStore.getNovenas(dateKey, EDITION).length;
   }
 
   const elapsedMs = performance.now() - start;

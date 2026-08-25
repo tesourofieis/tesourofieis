@@ -1,70 +1,24 @@
 import type { CalendarEdition, Mass } from "./domain";
-import { Effect, Layer } from "effect";
-import { Calendar } from "./calendar";
-import { getCalendarDefinition } from "./calendars";
-import { MassesLive } from "./observanceManager";
-import { ObservabilityLive } from "./observability";
-import { shiftLocalDate } from "./utils";
-
-const calendarLayer = Layer.mergeAll(MassesLive, ObservabilityLive);
-
-const calendarByYear = new Map<string, Calendar>();
+import type { Day } from "./day";
+import { sharedCalendarStore } from "./calendarStore";
 
 /** The app's default calendar: Rubrics 1960 (1962 typical edition). */
 const DEFAULT_EDITION: CalendarEdition = "62";
 
-function getOrCreateCalendar(year: number, edition: CalendarEdition): Calendar {
-  const key = `${year}:${edition}`;
-  const existing = calendarByYear.get(key);
-  if (existing) {
-    return existing;
-  }
-
-  const calendar = new Calendar(year, getCalendarDefinition(edition));
-  // Throws UnsupportedYearError for years outside the model (fail fast).
-  Effect.runSync(calendar.build().pipe(Effect.provide(calendarLayer)));
-  calendarByYear.set(key, calendar);
-  return calendar;
-}
-
-function yearFromDateString(date: string): number {
-  return Number.parseInt(date.slice(0, 4), 10);
-}
-
-function getCalendar(year: number, edition: CalendarEdition = DEFAULT_EDITION) {
-  return getOrCreateCalendar(year, edition).getAllDays();
+function getCalendar(year: number, edition: CalendarEdition = DEFAULT_EDITION): Day[] {
+  return sharedCalendarStore.getDays(year, edition);
 }
 
 function getCalendarDay(date: string, edition: CalendarEdition = DEFAULT_EDITION) {
-  return getOrCreateCalendar(yearFromDateString(date), edition).get(date);
+  return sharedCalendarStore.getDay(date, edition);
 }
 
-function getNovenas(date: string, edition: CalendarEdition = DEFAULT_EDITION) {
-  const allDays = getOrCreateCalendar(yearFromDateString(date), edition).getAllDays();
-  const endDate = shiftLocalDate(date, 9);
-  const novenaObservances: Mass[] = [];
-
-  for (const day of allDays) {
-    if (day.date < date || day.date > endDate) {
-      continue;
-    }
-
-    for (const mass of day.mass) {
-      if (mass.novena) {
-        novenaObservances.push(mass);
-      }
-    }
-  }
-
-  return novenaObservances;
+function getNovenas(date: string, edition: CalendarEdition = DEFAULT_EDITION): Mass[] {
+  return sharedCalendarStore.getNovenas(date, edition);
 }
 
 function getSeason(date: string, edition: CalendarEdition = DEFAULT_EDITION) {
-  return getOrCreateCalendar(yearFromDateString(date), edition).get(date)?.season;
+  return sharedCalendarStore.getSeason(date, edition);
 }
 
-function __clearCalendarCacheForBenchmarks() {
-  calendarByYear.clear();
-}
-
-export { __clearCalendarCacheForBenchmarks, getCalendar, getCalendarDay, getNovenas, getSeason };
+export { getCalendar, getCalendarDay, getNovenas, getSeason };
