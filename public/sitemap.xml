@@ -3301,6 +3301,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://tesourofieis.com/missal/santos/01-19o</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://tesourofieis.com/missal/santos/01-20</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -4304,6 +4310,12 @@
   </url>
   <url>
     <loc>https://tesourofieis.com/missal/santos/07-07</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tesourofieis.com/missal/santos/07-08</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
