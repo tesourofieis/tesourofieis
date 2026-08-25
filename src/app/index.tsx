@@ -5,6 +5,7 @@ import { pt } from "date-fns/locale";
 import { Pressable, ScrollView, useWindowDimensions, View } from "react-native";
 import ExternalLinks from "~/components/External";
 import { DatePicker } from "~/components/DatePicker";
+import { EditionSummary } from "~/components/EditionSummary";
 import { H1 } from "~/components/Headings";
 import LinkCard from "~/components/LinkCard";
 import LiturgicalSeason from "~/components/LiturgicalSeason";
@@ -14,11 +15,14 @@ import { LiturgicalDateHeader } from "~/components/LiturgicalDateHeader";
 import { Typography } from "~/components/typography";
 import { COLORS } from "~/constants/Colors";
 import { useCalendar } from "~/providers/calendar";
+import { useCalendarEdition } from "~/providers/edition";
 import { useTodaysIndulgences } from "~/hooks/useTodaysIndulgences";
+import { yyyyMMDD } from "~/lib/utils";
 import { useAppTheme } from "~/theme";
 
 export default function PageRender() {
   const { day, date, season, setDate, resetToToday, isCustomDate } = useCalendar();
+  const { edition } = useCalendarEdition();
   const { isDark, colors } = useAppTheme();
   const todaysIndulgences = useTodaysIndulgences();
 
@@ -185,6 +189,7 @@ export default function PageRender() {
 
           {/* Mass cards — sit directly below the day header, inside the animated container */}
           <View className="pt-2 pb-4 gap-3" style={{ paddingHorizontal: sectionInset }}>
+            <EditionSummary date={yyyyMMDD(date)} edition={edition} />
             {day.mass?.map((item) => (
               <LinkCard key={item.id} mass={item} variant="featured" />
             ))}

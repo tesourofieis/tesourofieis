@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import { View } from "react-native";
+import { type StyleProp, View, type ViewStyle } from "react-native";
 import type { CalendarEdition } from "~/lib/domain";
 import { getCalendarDay } from "~/lib/getCalendar";
 import { Typography } from "~/components/typography";
@@ -20,9 +20,11 @@ const EDITIONS = Object.keys(LABELS) as CalendarEdition[];
 export function EditionSummary({
   date,
   edition,
+  style,
 }: {
   date: string;
   edition: CalendarEdition;
+  style?: StyleProp<ViewStyle>;
 }) {
   const { colors } = useAppTheme();
 
@@ -39,18 +41,21 @@ export function EditionSummary({
   if (notes.length === 0) return null;
 
   return (
-    <View style={{ marginBottom: 10 }} accessibilityLabel="Outras edições do calendário neste dia">
+    <View
+      style={[{ marginBottom: 8 }, style]}
+      accessibilityLabel="Outras edições do calendário neste dia"
+    >
       {notes.map((n) => (
         <Typography
           key={n.label}
           className="font-display-italic"
           style={{
             fontSize: 11,
-            letterSpacing: 0.4,
+            letterSpacing: 0.6,
             color: colors.textMuted,
           }}
         >
-          {`${n.label} · ${n.name}`}
+          {`† ${n.label} · ${n.name}`}
         </Typography>
       ))}
     </View>
