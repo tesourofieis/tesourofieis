@@ -29,6 +29,7 @@ const SHARED_ORDER = [
   "SecondClassConflictRule",
   "BmvSaturdayRule",
   "AnnunciationTransferredRule",
+  "VigilSundayOmissionRule",
 ];
 
 describe("rule composition pinning", () => {

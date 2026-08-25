@@ -555,4 +555,18 @@ export const SANCTI_10: MassMap = {
     month: 10,
     day: 30,
   },
+
+  SANCTI_10_31: {
+    flexibility: "santos",
+    id: "SANCTI_10_31",
+    name: "Vigília de Todos os Santos",
+    // DO Sancti/10-31: single Vigilia grade serving both rubrica eras.
+    rank: 4,
+    color: "v",
+    link: "missal/santos/11-01",
+    type: "sancti",
+    category: "santos",
+    month: 10,
+    day: 31,
+  },
 };

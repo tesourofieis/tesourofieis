@@ -699,6 +699,33 @@ class AnnunciationTransferredRule extends BaseConcurrencyRule {
 }
 
 /**
+ * VigilSundayOmissionRule
+ *
+ * Pio-Benedictine and Rubrics 1960 rubrics agree: a vigil that falls on
+ * a Sunday is wholly omitted - neither celebrated nor commemorated
+ * (unlike feasts, which are commemorated under the Sunday). Only the
+ * Vigil of the Nativity escapes, displacing the 4th Advent Sunday via
+ * NativityVigilRule.
+ */
+class VigilSundayOmissionRule implements ConcurrencyRule {
+  private static isVigil(mass: Mass): boolean {
+    return mass.flexibility === "santos" && mass.name.startsWith("Vigília");
+  }
+
+  applies(observances: Mass[], date: string): boolean {
+    if (!isSunday(parseLocalDate(date))) return false;
+    return observances.some((m) => VigilSundayOmissionRule.isVigil(m));
+  }
+
+  resolve(observances: Mass[]): RuleResolution {
+    return {
+      stay: observances.filter((m) => !VigilSundayOmissionRule.isVigil(m)),
+      shifts: [],
+    };
+  }
+}
+
+/**
  * SundayPrecedenceRule
  *
  * Edition-configured via Rubrics (typed knobs, DO-sourced values):
@@ -770,6 +797,7 @@ export function buildRules(masses: MassIndex, rubrics: Rubrics): ConcurrencyRule
     new SecondClassConflictRule(masses),
     new BmvSaturdayRule(masses),
     new AnnunciationTransferredRule(masses),
+    new VigilSundayOmissionRule(),
     new SundayPrecedenceRule(masses, rubrics),
     new GeneralRankRule(),
   ];

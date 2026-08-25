@@ -11115,6 +11115,20 @@ exports[`calendar pre-55 2028 renders the full year 1`] = `
     "date": "2028-10-31",
     "mass": [
       {
+        "category": "santos",
+        "color": "v",
+        "date": "2028-10-31",
+        "day": 31,
+        "flexibility": "santos",
+        "id": "SANCTI_10_31",
+        "link": "missal/santos/11-01",
+        "month": 10,
+        "name": "Vigília de Todos os Santos",
+        "precedence": 1.5,
+        "rank": 4,
+        "type": "sancti",
+      },
+      {
         "category": "pentecostes",
         "color": "g",
         "date": "2028-10-31",
@@ -23977,6 +23991,20 @@ exports[`calendar 62 2028 renders the full year 1`] = `
     "alternatives": [],
     "date": "2028-10-31",
     "mass": [
+      {
+        "category": "santos",
+        "color": "v",
+        "date": "2028-10-31",
+        "day": 31,
+        "flexibility": "santos",
+        "id": "SANCTI_10_31",
+        "link": "missal/santos/11-01",
+        "month": 10,
+        "name": "Vigília de Todos os Santos",
+        "precedence": 1.5,
+        "rank": 4,
+        "type": "sancti",
+      },
       {
         "category": "pentecostes",
         "color": "g",

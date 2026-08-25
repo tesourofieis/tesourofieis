@@ -41,9 +41,14 @@ describe("per-edition calendars", () => {
 
   test('selection "62" suppresses vigils and feasts abolished by the 1955/1960 reforms', () => {
     // Vigil of the Epiphany: abolished in 1955.
-    expect(getCalendarDay("2025-01-05", "pre-55")?.mass.some((m) => m.id === "SANCTI_01_05")).toBe(
+    expect(getCalendarDay("2026-01-05", "pre-55")?.mass.some((m) => m.id === "SANCTI_01_05")).toBe(
       true,
     );
+    // A vigil falling on a Sunday is wholly omitted (PBI n. 77).
+    const epiphanyVigilSunday = getCalendarDay("2025-01-05", "pre-55"); // Sunday
+    if (epiphanyVigilSunday?.mass.some((m) => m.flexibility === "tempora")) {
+      expect(epiphanyVigilSunday.mass.some((m) => m.id === "SANCTI_01_05")).toBe(false);
+    }
     const jan5 = getCalendarDay("2026-01-05", "62");
     if (jan5?.mass.some((m) => m.id === "SANCTI_01_06")) {
       expect(jan5.mass.some((m) => m.id === "SANCTI_01_05")).toBe(false);
@@ -103,11 +108,21 @@ describe("divergence-catalogue routing", () => {
       not62: ["SANCTI_05_03"],
     },
     {
+      // 2026-06-28 is a Sunday: the vigil is wholly omitted (both eras);
+      // pre-55 still keeps St Irenaeus of that date.
       date: "2026-06-28",
-      pre55: ["SANCTI_06_28", "SANCTI_06_28_OUTRO"],
+      pre55: ["SANCTI_06_28_OUTRO"],
+      m62: [],
+      notPre55: [],
+      not62: ["SANCTI_06_28", "SANCTI_06_28_OUTRO"],
+    },
+    {
+      // 2027-06-28 is a Monday: the vigil is celebrated, upgraded under '62
+      date: "2027-06-28",
+      pre55: ["SANCTI_06_28"],
       m62: ["SANCTI_06_28"],
       notPre55: [],
-      not62: ["SANCTI_06_28_OUTRO"],
+      not62: [],
     },
     {
       date: "2026-08-01",
@@ -117,14 +132,24 @@ describe("divergence-catalogue routing", () => {
       not62: ["SANCTI_08_01_AD_VINCULA"],
     },
     {
-      date: "2026-08-09",
+      // 2027-08-09 is a Monday (in 2026 it is a Sunday: vigil omitted).
+      date: "2027-08-09",
       pre55: ["SANCTI_08_09"],
       m62: ["SANCTI_08_09_OUTRO_1962"],
       notPre55: [],
       not62: ["SANCTI_08_09"],
     },
     {
+      // 2026-11-29 is a Sunday: the Andrew vigil is wholly omitted.
       date: "2026-11-29",
+      pre55: [],
+      m62: ["SANCTI_11_29_1962"],
+      notPre55: ["SANCTI_11_29", "SANCTI_11_29_1962"],
+      not62: ["SANCTI_11_29"],
+    },
+    {
+      // 2027-11-29 is a Monday: the vigil is celebrated pre-55.
+      date: "2027-11-29",
       pre55: ["SANCTI_11_29"],
       m62: ["SANCTI_11_29_1962"],
       notPre55: ["SANCTI_11_29_1962"],
@@ -144,12 +169,23 @@ describe("divergence-catalogue routing", () => {
   });
 
   test("the Peter and Paul vigil is II class under Rubrics 1960 only", () => {
-    const vigil55 = getCalendarDay("2026-06-28", "pre-55")?.mass.find(
+    // 2027-06-28 is a Monday (on Sundays the vigil is omitted entirely).
+    const vigil55 = getCalendarDay("2027-06-28", "pre-55")?.mass.find(
       (m) => m.id === "SANCTI_06_28",
     );
-    const vigil62 = getCalendarDay("2026-06-28", "62")?.mass.find((m) => m.id === "SANCTI_06_28");
+    const vigil62 = getCalendarDay("2027-06-28", "62")?.mass.find((m) => m.id === "SANCTI_06_28");
     expect(vigil55?.rank).toBe(3);
     expect(vigil62?.rank).toBe(2);
+  });
+
+  test("vigils falling on Sundays are wholly omitted, both editions", () => {
+    // Aug 9 2026 (St Lawrence vigil) and Jun 28 2026 (PP vigil) are Sundays.
+    for (const ed of ["pre-55", "62"] as const) {
+      for (const sunday of ["2026-08-09", "2026-06-28"]) {
+        const masses = getCalendarDay(sunday, ed)?.mass ?? [];
+        expect(masses.filter((m) => m.name.startsWith("Vigília")).map((m) => m.id)).toEqual([]);
+      }
+    }
   });
 });
 
