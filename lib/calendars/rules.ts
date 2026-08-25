@@ -361,8 +361,12 @@ class BmvSaturdayRule implements ConcurrencyRule {
   applies(observances: Mass[], date: string): boolean {
     if (!isSaturday(parseLocalDate(date))) return false;
 
-    const ranks = new Set(observances.map((i) => i.rank));
-    return ranks.size === 0 || (ranks.size === 1 && ranks.has(4));
+    // Fires only when everything on the day is simplex-tier.
+    const maxPrec = Math.max(
+      ...observances.map((i) => effectivePrecedence(i)),
+      PRECEDENCE.SIMPLEX,
+    );
+    return maxPrec <= PRECEDENCE.SIMPLEX;
   }
 
   resolve(observances: Mass[], date: string, calendar: Calendar): RuleResolution {

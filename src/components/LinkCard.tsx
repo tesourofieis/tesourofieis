@@ -6,11 +6,12 @@ import { Link } from "expo-router";
 import { Pressable, View } from "react-native";
 import { useAppTheme } from "~/theme";
 import { gradeLabel } from "~/lib/calendars/grade";
+import { PRECEDENCE } from "~/lib/calendars/precedence";
 import { Typography } from "./typography";
 
-function massNameClass(rank: number): string {
-  if (rank === 1) return "text-sepia-800 dark:text-sepia-100";
-  if (rank === 2) return "text-sepia-700 dark:text-sepia-200";
+function massNameClass(precedence: number): string {
+  if (precedence >= PRECEDENCE.DUPLEX_I_CLASSIS) return "text-sepia-800 dark:text-sepia-100";
+  if (precedence >= PRECEDENCE.DUPLEX_II_CLASSIS) return "text-sepia-700 dark:text-sepia-200";
   return "text-sepia-600 dark:text-sepia-400";
 }
 
@@ -259,13 +260,13 @@ export default function PageLinkCard({
                       className={`flex-row flex-wrap ${isFeatured ? "gap-2 mb-2" : "gap-1.5 mb-1.5"}`}
                     >
                       <Badge featured={isFeatured}>{description || "Missa"}</Badge>
-                      <Badge featured={isFeatured} important={mass.rank === 1}>
+                      <Badge featured={isFeatured} important={mass.precedence !== undefined && mass.precedence >= 6}>
                         {gradeLabel(mass)}
                       </Badge>
                     </View>
 
                     <Typography
-                      className={`${isFeatured ? "font-display" : "font-ui-medium"} ${massNameClass(mass.rank)}`}
+                      className={`${isFeatured ? "font-display" : "font-ui-medium"} ${massNameClass(mass.precedence ?? 1.5)}`}
                       style={{
                         fontSize: isFeatured ? 17 : 15,
                         lineHeight: isFeatured ? 24 : 21,

@@ -1,7 +1,7 @@
 import { parseLocalDate } from "../utils";
 import type { Mass } from "../domain";
 import { OBSERVANCES } from "../observances";
-import { legacyToPrecedence } from "./precedence";
+import { legacyToPrecedence, PRECEDENCE } from "./precedence";
 import { buildRules } from "./rules";
 import { RUBRICS_1954 } from "./rubrics";
 import type { CalendarDefinition } from "./types";
@@ -20,7 +20,7 @@ export const pre55Calendar: CalendarDefinition = {
   doVersion: "Divino Afflatu - 1954",
   observances: OBSERVANCES,
   rubrics: RUBRICS_1954,
-  adjustRank(mass: Mass, date: string, precedence: number): number {
+  adjustRank(mass: Mass, date: string | undefined, precedence: number): number {
     // The Semiduplex grades of the Epiphany-octave week hold only through
     // Jan 12; from the Commemoration of the Baptism (Jan 13) the same
     // tempora keys are plain ferias again.
@@ -32,7 +32,8 @@ export const pre55Calendar: CalendarDefinition = {
     ) {
       const parsed = parseLocalDate(date);
       if (parsed.getMonth() === 0 && parsed.getDate() >= 13) {
-        return legacyToPrecedence(mass.rank);
+        // Plain per-annum feria once the octave is over.
+        return PRECEDENCE.SIMPLEX;
       }
     }
 

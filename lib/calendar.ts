@@ -553,7 +553,9 @@ export class Calendar {
 
       if (temporaObservances.length > 1) {
         const bestTempora = temporaObservances.sort(
-          (a, b) => a.rank - b.rank || (a.week && b.week ? a.week - b.week : 0),
+          (a, b) =>
+            (b.precedence ?? 0) - (a.precedence ?? 0) ||
+            (a.week && b.week ? a.week - b.week : 0),
         )[0]!;
 
         finalObservances = [

@@ -1,5 +1,6 @@
 import { Context, Layer, Schema } from "effect";
 import { type CalendarEdition, Mass } from "./domain";
+import { legacyToPrecedence, PRECEDENCE } from "./calendars/precedence";
 import { computePrecedenceFor, computeRankFor, getCalendarDefinition } from "./calendars";
 
 /**
@@ -34,8 +35,17 @@ class MassManager {
     this.observances = observances;
     this.edition = edition;
     // Editions never see observances explicitly suppressed under them.
+    // Templates are stamped once with the edition-resolved precedence and
+    // derived coarse rank (date-less: dated adjustments apply later, per
+    // day, in createMassWithDate).
     this.masses = parseObservances(
-      Object.values(observances).filter((mass) => !mass.suppressedIn?.includes(edition)),
+      Object.values(observances)
+        .filter((mass) => !mass.suppressedIn?.includes(edition))
+        .map((mass) => ({
+          ...mass,
+          precedence: computePrecedenceFor(edition, mass),
+          rank: computeRankFor(edition, mass),
+        })),
     );
     this.byId = new Map(Object.entries(observances));
     this.byFlexibility = new Map();
@@ -103,12 +113,10 @@ class MassManager {
         this.adventEmberDays.push(mass);
       }
 
-      if (mass.category === "santos" && mass.rank === 1) {
-        this.sanctiClass1.push(mass);
-      }
-
-      if (mass.category === "santos" && mass.rank === 2) {
-        this.sanctiClass2.push(mass);
+      if (mass.category === "santos") {
+        const p = mass.precedence ?? legacyToPrecedence(mass.rank);
+        if (p >= PRECEDENCE.DUPLEX_I_CLASSIS) this.sanctiClass1.push(mass);
+        else if (p >= PRECEDENCE.DUPLEX_II_CLASSIS) this.sanctiClass2.push(mass);
       }
     }
 

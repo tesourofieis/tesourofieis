@@ -57,7 +57,7 @@ export interface CalendarDefinition {
    * Optional edition-specific adjustment applied after rank-variant
    * resolution (e.g., Advent ferias promoted from Dec 17-23).
    */
-  adjustRank?(mass: Mass, date: string, precedence: number): number;
+  adjustRank?(mass: Mass, date: string | undefined, precedence: number): number;
   /** Ordered concurrency rules for this edition's rubrics. */
   rules(index: MassIndex, rubrics: Rubrics): ConcurrencyRule[];
 }
