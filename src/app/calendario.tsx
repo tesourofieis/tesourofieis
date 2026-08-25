@@ -7,15 +7,18 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { Pressable, ScrollView, View } from "react-native";
 import { LiturgicalDateHeader } from "~/components/LiturgicalDateHeader";
 import LinkCard from "~/components/LinkCard";
+import { EditionSummary } from "~/components/EditionSummary";
 import { Typography } from "~/components/typography";
 import { COLORS } from "~/constants/Colors";
 import { useCalendar } from "~/providers/calendar";
+import { useCalendarEdition } from "~/providers/edition";
 import { useAppTheme } from "~/theme";
 
 export default function CalendarMasterpiece() {
   const scrollViewRef = useRef<ScrollView>(null);
   const todayRef = useRef<View>(null);
   const { calendar, date } = useCalendar();
+  const { edition } = useCalendarEdition();
   const { isDark, colors } = useAppTheme();
 
   const todayString = yyyyMMDD(date);
@@ -131,6 +134,8 @@ export default function CalendarMasterpiece() {
                       {dayData.season}
                     </Typography>
                   )}
+
+                  <EditionSummary date={dayString} edition={edition} />
 
                   <View className="gap-3">
                     {dayData?.mass && dayData.mass.length > 0
