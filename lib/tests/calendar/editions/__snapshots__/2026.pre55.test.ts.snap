@@ -595,6 +595,20 @@ exports[`calendar 2026 under pre-55 rubrics renders the full year 1`] = `
     "date": "2026-01-19",
     "mass": [
       {
+        "category": "santos",
+        "color": "r",
+        "date": "2026-01-19",
+        "day": 19,
+        "flexibility": "santos",
+        "id": "SANCTI_01_19_CANUTI",
+        "link": "missal/santos/01-19",
+        "month": 1,
+        "name": "S. Canuto, Rei e Mártir",
+        "precedence": 2.2,
+        "rank": 4,
+        "type": "sancti",
+      },
+      {
         "category": "epifania",
         "color": "g",
         "date": "2026-01-19",

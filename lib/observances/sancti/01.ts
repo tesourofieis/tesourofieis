@@ -311,6 +311,24 @@ export const SANCTI_01: MassMap = {
     month: 1,
     day: 18,
   },
+  // DO Sancti/01-19o: Semiduplex under Divino Afflatu, reduced to
+  // Simplex by the 1955 reform.
+  SANCTI_01_19_CANUTI: {
+    flexibility: "santos",
+    id: "SANCTI_01_19_CANUTI",
+    name: "S. Canuto, Rei e Mártir",
+    rank: 3,
+    color: "r",
+    link: "missal/santos/01-19",
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 2.2 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Simplex", precedence: 1.1 },
+    ],
+    type: "sancti",
+    category: "santos",
+    month: 1,
+    day: 19,
+  },
   SANCTI_01_19_PORTUGAL: {
     flexibility: "santos",
     id: "SANCTI_01_19_PORTUGAL",

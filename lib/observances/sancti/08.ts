@@ -487,4 +487,19 @@ export const SANCTI_08: MassMap = {
     month: 8,
     day: 31,
   },
+
+  SANCTI_08_23_VIGILIA: {
+    flexibility: "santos",
+    id: "SANCTI_08_23_VIGILIA",
+    name: "Vigília de S. Bartolomeu, Apóstolo",
+    // Abolished by the 1955 reform.
+    rank: 4,
+    color: "v",
+    link: "missal/santos/08-24",
+    suppressedIn: ["62"],
+    type: "sancti",
+    category: "santos",
+    month: 8,
+    day: 23,
+  },
 };

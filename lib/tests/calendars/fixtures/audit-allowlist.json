@@ -2,12 +2,9 @@
  "pre-55|01-10": "Sunday parity flip inside Epiphany octave (DO so=0)",
  "pre-55|06-01": "DO moved-office artifact (BMV Regina 05-31 -> Jun 1)",
  "pre-55|06-11": "DO DA feria-privilege quirk (trank 6.3 vs Barnabas majus)",
- "pre-55|08-22": "moved vigil commemoration 08-23o not yet modelled",
- "pre-55|08-23": "moved vigil commemoration 08-23o not yet modelled",
  "pre-55|11-28": "DO files Andrew vigil under 11-29; ours keeps true date",
  "pre-55|11-29": "same DO file-granularity quirk",
  "pre-55|12-19": "DO moved-octave-day pointer 12-20o",
- "pre-55|01-19": "moved commemoration 01-19o not yet modelled",
  "pre-55|09-24": "DA ember-adjacent parity flip",
  "62|03-24": "DO Nat-octave parity quirk; 1962 missal celebrates the feast",
  "62|12-26": "DO Nat-octave parity quirk",
@@ -17,5 +14,6 @@
  "pre-55|01-11": "Sunday parity flip inside Epiphany octave (DO so=0)",
  "pre-55|06-05": "DO moved-office artifact (BMV Regina lands here when 31 May is taken)",
  "pre-55|08-01": "Ad Vincula vs DA-Sunday parity flip (DO so=0)",
- "pre-55|12-20": "DO moved-octave pointer wins via 12-20o"
+ "pre-55|12-20": "DO moved-octave pointer wins via 12-20o",
+ "pre-55|08-22": "DO anticipates Bartholomew-vigil to the 22nd when a feast takes the 23rd - vigil-anticipation not modelled"
 }
