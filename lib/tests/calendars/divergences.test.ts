@@ -44,16 +44,11 @@ describe("sanctoral divergence catalogue", () => {
     // Edition-proper entries live in the Rubrics 1960 override layer, so the
     // scan covers the shared base plus the composed '62 map.
     const uncovered: string[] = [];
-    const universe = [
-      ...Object.values(OBSERVANCES),
-      ...Object.values(composeObservances1960()),
-    ];
+    const universe = [...Object.values(OBSERVANCES), ...Object.values(composeObservances1960())];
 
     for (const d of SANCTORAL_DIVERGENCES) {
       const [month, day] = d.date.split("-").map(Number);
-      const entriesOnDate = universe.filter(
-        (m) => m.month === month && m.day === day && !m.local,
-      );
+      const entriesOnDate = universe.filter((m) => m.month === month && m.day === day && !m.local);
 
       if (!entriesOnDate.length && (d.pre55 || d.m1962)) {
         uncovered.push(d.date);
@@ -111,9 +106,7 @@ describe("rank divergence catalogue", () => {
     // [Rank] says Duplex majus pre-55 - the port corrects that.
     expect(computeRankFor("pre-55", cross, "2025-09-14")).toBe(3);
     expect(computeRankFor("62", cross, "2025-09-14")).toBe(2);
-    expect(cross.rankVariants?.find((v) => v.rubrics === "R1960")?.precedence).toBe(
-      5.5,
-    );
+    expect(cross.rankVariants?.find((v) => v.rubrics === "R1960")?.precedence).toBe(5.5);
   });
 
   test("St Patrick drops a grade under '62 rubrics", () => {

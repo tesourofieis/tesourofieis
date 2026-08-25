@@ -38,9 +38,7 @@ collectSlugs(join(APP, "missal"), slugs);
 function collectLinks(): { link: string; source: string }[] {
   const out: { link: string; source: string }[] = [];
   for (const target of OBSERVANCE_DIRS) {
-    const files = statSync(target).isDirectory()
-      ? walk(target)
-      : [target];
+    const files = statSync(target).isDirectory() ? walk(target) : [target];
     for (const f of files) {
       const src = readFileSync(f, "utf8");
       for (const m of src.matchAll(/link: "([^"]+)"/g)) {
@@ -66,9 +64,7 @@ describe("observance link integrity", () => {
   test("every observance link resolves to a missal route", () => {
     const broken = collectLinks().filter(({ link }) => !slugs.has(link));
     if (broken.length) {
-      console.error(
-        broken.map((b) => `  ${b.link}  (${b.source})`).join("\n"),
-      );
+      console.error(broken.map((b) => `  ${b.link}  (${b.source})`).join("\n"));
     }
     expect(broken).toEqual([]);
   });

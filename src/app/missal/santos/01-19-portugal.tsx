@@ -164,7 +164,6 @@ export default function Page0119Portugal() {
           Por nosso Senhor...
         </Typography>
       </Language>
-
     </PageWrapper>
   );
 }

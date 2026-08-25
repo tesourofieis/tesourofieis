@@ -297,9 +297,7 @@ class StMatthiasRule extends BaseConcurrencyRule {
     if (temp) {
       // A transferred feast never lands on a Sunday - cascade past it.
       const candidate = shiftLocalDate(date, 1);
-      const target = isSunday(parseLocalDate(candidate))
-        ? shiftLocalDate(date, 2)
-        : candidate;
+      const target = isSunday(parseLocalDate(candidate)) ? shiftLocalDate(date, 2) : candidate;
       return {
         stay: [temp],
         shifts: [
@@ -362,10 +360,7 @@ class BmvSaturdayRule implements ConcurrencyRule {
     if (!isSaturday(parseLocalDate(date))) return false;
 
     // Fires only when everything on the day is simplex-tier.
-    const maxPrec = Math.max(
-      ...observances.map((i) => effectivePrecedence(i)),
-      PRECEDENCE.SIMPLEX,
-    );
+    const maxPrec = Math.max(...observances.map((i) => effectivePrecedence(i)), PRECEDENCE.SIMPLEX);
     return maxPrec <= PRECEDENCE.SIMPLEX;
   }
 
@@ -458,9 +453,7 @@ class AdventEmberDayRule implements ConcurrencyRule {
 
     // Everyone else on the day is commemorated under the winners, never
     // dropped - a missal lists the whole stack.
-    const rest = observances.filter(
-      (o) => o.id !== advOrEmber!.id && o.id !== sancti.id,
-    );
+    const rest = observances.filter((o) => o.id !== advOrEmber!.id && o.id !== sancti.id);
     const s = sancti as Mass;
     if (effectivePrecedence(advOrEmber!) === effectivePrecedence(s)) {
       return { stay: [s, advOrEmber!, ...rest], shifts: [] };

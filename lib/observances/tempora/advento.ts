@@ -11,9 +11,9 @@ export const TEMPORA_ADVENTO: MassMap = {
     // Privileged semiduplex Sunday (DA); every Sunday is II class under
     // Rubrics 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-        { rubrics: "*", name: "Semiduplex privilegiatum", precedence: 6.9 },
-        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
-     ],
+      { rubrics: "*", name: "Semiduplex privilegiatum", precedence: 6.9 },
+      { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "advent",
     category: "advento",
     weekday: 0,
@@ -21,9 +21,7 @@ export const TEMPORA_ADVENTO: MassMap = {
   },
   TEMPORA_ADV1_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_ADV1_1",
     name: "Segunda-feira da 1ª semana do Advento",
     color: "v",
@@ -35,9 +33,7 @@ export const TEMPORA_ADVENTO: MassMap = {
   },
   TEMPORA_ADV1_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_ADV1_2",
     name: "Terça-feira da 1ª semana do Advento",
     color: "v",
@@ -49,9 +45,7 @@ export const TEMPORA_ADVENTO: MassMap = {
   },
   TEMPORA_ADV1_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_ADV1_3",
     name: "Quarta-feira da 1ª semana do Advento",
     color: "v",
@@ -63,9 +57,7 @@ export const TEMPORA_ADVENTO: MassMap = {
   },
   TEMPORA_ADV1_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_ADV1_4",
     name: "Quinta-feira da 1ª semana do Advento",
     color: "v",
@@ -77,9 +69,7 @@ export const TEMPORA_ADVENTO: MassMap = {
   },
   TEMPORA_ADV1_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_ADV1_5",
     name: "Sexta-feira da 1ª semana do Advento",
     color: "v",
@@ -91,9 +81,7 @@ export const TEMPORA_ADVENTO: MassMap = {
   },
   TEMPORA_ADV1_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_ADV1_6",
     name: "Sábado da 1ª semana do Advento",
     color: "v",
@@ -112,9 +100,9 @@ export const TEMPORA_ADVENTO: MassMap = {
     // Privileged semiduplex Sunday (DA); every Sunday is II class under
     // Rubrics 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-        { rubrics: "*", name: "Semiduplex privilegiatum", precedence: 6.9 },
-        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
-     ],
+      { rubrics: "*", name: "Semiduplex privilegiatum", precedence: 6.9 },
+      { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "advent",
     category: "advento",
     weekday: 0,
@@ -122,9 +110,7 @@ export const TEMPORA_ADVENTO: MassMap = {
   },
   TEMPORA_ADV2_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_ADV2_1",
     name: "Segunda-feira da 2ª semana do Advento",
     color: "v",
@@ -136,9 +122,7 @@ export const TEMPORA_ADVENTO: MassMap = {
   },
   TEMPORA_ADV2_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_ADV2_2",
     name: "Terça-feira da 2ª semana do Advento",
     color: "v",
@@ -150,9 +134,7 @@ export const TEMPORA_ADVENTO: MassMap = {
   },
   TEMPORA_ADV2_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_ADV2_3",
     name: "Quarta-feira da 2ª semana do Advento",
     color: "v",
@@ -164,9 +146,7 @@ export const TEMPORA_ADVENTO: MassMap = {
   },
   TEMPORA_ADV2_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_ADV2_4",
     name: "Quinta-feira da 2ª semana do Advento",
     color: "v",
@@ -178,9 +158,7 @@ export const TEMPORA_ADVENTO: MassMap = {
   },
   TEMPORA_ADV2_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_ADV2_5",
     name: "Sexta-feira da 2ª semana do Advento",
     color: "v",
@@ -192,9 +170,7 @@ export const TEMPORA_ADVENTO: MassMap = {
   },
   TEMPORA_ADV2_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_ADV2_6",
     name: "Sábado da 2ª semana do Advento",
     color: "v",
@@ -213,9 +189,9 @@ export const TEMPORA_ADVENTO: MassMap = {
     // Privileged semiduplex Sunday (DA); every Sunday is II class under
     // Rubrics 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-        { rubrics: "*", name: "Semiduplex privilegiatum", precedence: 6.9 },
-        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
-     ],
+      { rubrics: "*", name: "Semiduplex privilegiatum", precedence: 6.9 },
+      { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "advent",
     category: "advento",
     weekday: 0,
@@ -223,9 +199,7 @@ export const TEMPORA_ADVENTO: MassMap = {
   },
   TEMPORA_ADV3_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_ADV3_1",
     name: "Segunda-feira da 3ª semana do Advento",
     color: "v",
@@ -237,9 +211,7 @@ export const TEMPORA_ADVENTO: MassMap = {
   },
   TEMPORA_ADV3_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_ADV3_2",
     name: "Terça-feira da 3ª semana do Advento",
     color: "v",
@@ -251,9 +223,7 @@ export const TEMPORA_ADVENTO: MassMap = {
   },
   TEMPORA_ADV3_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex II classis", precedence: 5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex II classis", precedence: 5 }],
     id: "TEMPORA_ADV3_3",
     name: "Quarta-feira das Têmporas de Inverno",
     color: "v",
@@ -265,9 +235,7 @@ export const TEMPORA_ADVENTO: MassMap = {
   },
   TEMPORA_ADV3_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_ADV3_4",
     name: "Quinta-feira da 3ª semana do Advento",
     color: "v",
@@ -279,9 +247,7 @@ export const TEMPORA_ADVENTO: MassMap = {
   },
   TEMPORA_ADV3_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex II classis", precedence: 5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex II classis", precedence: 5 }],
     id: "TEMPORA_ADV3_5",
     name: "Sexta-feira das Têmporas de Inverno",
     color: "v",
@@ -293,9 +259,7 @@ export const TEMPORA_ADVENTO: MassMap = {
   },
   TEMPORA_ADV3_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex II classis", precedence: 5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex II classis", precedence: 5 }],
     id: "TEMPORA_ADV3_6",
     name: "Sábado das Têmporas de Inverno",
     color: "v",
@@ -314,9 +278,9 @@ export const TEMPORA_ADVENTO: MassMap = {
     // Privileged semiduplex Sunday (DA); every Sunday is II class under
     // Rubrics 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-        { rubrics: "*", name: "Semiduplex privilegiatum", precedence: 6.9 },
-        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
-     ],
+      { rubrics: "*", name: "Semiduplex privilegiatum", precedence: 6.9 },
+      { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "advent",
     category: "advento",
     weekday: 0,
@@ -324,9 +288,7 @@ export const TEMPORA_ADVENTO: MassMap = {
   },
   TEMPORA_ADV4_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_ADV4_1",
     name: "Segunda-feira da 4ª semana do Advento",
     color: "v",
@@ -338,9 +300,7 @@ export const TEMPORA_ADVENTO: MassMap = {
   },
   TEMPORA_ADV4_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_ADV4_2",
     name: "Terça-feira da 4ª semana do Advento",
     color: "v",
@@ -352,9 +312,7 @@ export const TEMPORA_ADVENTO: MassMap = {
   },
   TEMPORA_ADV4_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_ADV4_3",
     name: "Quarta-feira da 4ª semana do Advento",
     color: "v",
@@ -366,9 +324,7 @@ export const TEMPORA_ADVENTO: MassMap = {
   },
   TEMPORA_ADV4_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_ADV4_4",
     name: "Quinta-feira da 4ª semana do Advento",
     color: "v",
@@ -380,9 +336,7 @@ export const TEMPORA_ADVENTO: MassMap = {
   },
   TEMPORA_ADV4_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_ADV4_5",
     name: "Sexta-feira da 4ª semana do Advento",
     color: "v",
@@ -394,9 +348,7 @@ export const TEMPORA_ADVENTO: MassMap = {
   },
   TEMPORA_NAT1_0: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex II classis", precedence: 5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex II classis", precedence: 5 }],
     id: "TEMPORA_NAT1_0",
     name: "Domingo dentro do Oitavário do Natal",
     color: "w",
@@ -408,9 +360,7 @@ export const TEMPORA_ADVENTO: MassMap = {
   },
   TEMPORA_NAT2_0: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex II classis", precedence: 5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex II classis", precedence: 5 }],
     id: "TEMPORA_NAT2_0",
     name: "Santíssimo Nome de Jesus",
     color: "w",

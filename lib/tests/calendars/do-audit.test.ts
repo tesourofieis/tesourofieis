@@ -20,14 +20,22 @@ import allowlistRaw from "./fixtures/audit-allowlist.json";
  * Vigils on Sundays are expected absent (both rubrics omit them).
  */
 
-const FIXTURES: Record<string, Record<string, DoDay>> = {
+const FIXTURES = {
   "pre-55-2026": do2026pre,
   "pre-55-2027": do2027pre,
   "62-2026": do202662,
   "62-2027": do202762,
 };
 
-type DoDay = { so: number; t: string; s: string; com: string[]; ph?: boolean; srank?: number | null; slatin?: string | undefined };
+type DoDay = {
+  so: number;
+  t: string;
+  s: string;
+  com: string[];
+  ph?: boolean;
+  srank?: number | null;
+  slatin?: string | undefined;
+};
 
 const coreOf = (key: string): string | null => {
   const m = key.match(/(\d{2}-\d{2})/);
@@ -54,7 +62,9 @@ describe("divinum-officium full-calendar audit", () => {
         const dow = new Date(`${iso}T12:00:00Z`).getUTCDay();
         const masses = getCalendarDay(iso, edition)?.mass ?? [];
         const cores = new Set(
-          masses.map((m) => `${String(m.month).padStart(2, "0")}-${String(m.day).padStart(2, "0")}`),
+          masses.map(
+            (m) => `${String(m.month).padStart(2, "0")}-${String(m.day).padStart(2, "0")}`,
+          ),
         );
         const top = masses[0];
         const topIsSancti = top?.flexibility === "santos";
@@ -65,7 +75,9 @@ describe("divinum-officium full-calendar audit", () => {
 
         if (sCore && !omittedVigil) {
           if (!cores.has(sCore)) {
-            problems.push(`${iso} missing ${doDay.s} (${edition}); ours=${[...cores].join(",") || "-"}`);
+            problems.push(
+              `${iso} missing ${doDay.s} (${edition}); ours=${[...cores].join(",") || "-"}`,
+            );
           }
           const topCore =
             top && topIsSancti

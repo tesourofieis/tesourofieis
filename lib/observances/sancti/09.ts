@@ -3,9 +3,7 @@ import type { MassMap } from "../../domain";
 export const SANCTI_09: MassMap = {
   SANCTI_09_01: {
     flexibility: "santos",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "SANCTI_09_01",
     name: "S. Egídio, Abade",
     color: "w",
@@ -17,9 +15,7 @@ export const SANCTI_09: MassMap = {
   },
   SANCTI_09_01_OUTRO: {
     flexibility: "santos",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "SANCTI_09_01_OUTRO",
     name: "S. S. Doze Irmãos, Mártires",
     color: "r",
@@ -33,9 +29,7 @@ export const SANCTI_09: MassMap = {
   },
   SANCTI_09_02: {
     flexibility: "santos",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "SANCTI_09_02",
     name: "S. Estêvão, Rei e Confessor",
     color: "w",
@@ -47,9 +41,7 @@ export const SANCTI_09: MassMap = {
   },
   SANCTI_09_03: {
     flexibility: "santos",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "SANCTI_09_03",
     name: "S. Pio X, Papa e Confessor",
     color: "w",
@@ -61,9 +53,7 @@ export const SANCTI_09: MassMap = {
   },
   SANCTI_09_05: {
     flexibility: "santos",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "SANCTI_09_05",
     name: "S. Lourenço Justiniano, Bispo e Confessor",
     color: "w",
@@ -75,9 +65,7 @@ export const SANCTI_09: MassMap = {
   },
   SANCTI_09_08: {
     flexibility: "santos",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex II classis", precedence: 5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex II classis", precedence: 5 }],
     id: "SANCTI_09_08",
     name: "Natividade da B. V. Maria",
     color: "w",
@@ -89,9 +77,7 @@ export const SANCTI_09: MassMap = {
   },
   SANCTI_09_09: {
     flexibility: "santos",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "SANCTI_09_09",
     name: "S. Gorgónio, Mártir",
     color: "r",
@@ -103,9 +89,7 @@ export const SANCTI_09: MassMap = {
   },
   SANCTI_09_09_ANGOLA: {
     flexibility: "santos",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "SANCTI_09_09_ANGOLA",
     name: "S. Pedro Claver, Confessor",
     color: "w",
@@ -118,9 +102,7 @@ export const SANCTI_09: MassMap = {
   },
   SANCTI_09_10: {
     flexibility: "santos",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "SANCTI_09_10",
     name: "S. Nicolau Tolentino, Confessor",
     color: "w",
@@ -132,9 +114,7 @@ export const SANCTI_09: MassMap = {
   },
   SANCTI_09_11: {
     flexibility: "santos",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "SANCTI_09_11",
     name: "S. S. Proto e Jacinto, Mártires",
     color: "r",
@@ -146,9 +126,7 @@ export const SANCTI_09: MassMap = {
   },
   SANCTI_09_12: {
     flexibility: "santos",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "SANCTI_09_12",
     name: "Santíssimo Nome de Maria",
     color: "w",
@@ -169,16 +147,14 @@ export const SANCTI_09: MassMap = {
     month: 9,
     day: 14,
     rankVariants: [
-        { rubrics: "*", name: "Duplex majus", precedence: 4 },
-        { rubrics: "R1960", name: "Duplex II classis", precedence: 5.5 },
-        { rubrics: "Cist", name: "Duplex II classis", precedence: 3 },
-     ],
+      { rubrics: "*", name: "Duplex majus", precedence: 4 },
+      { rubrics: "R1960", name: "Duplex II classis", precedence: 5.5 },
+      { rubrics: "Cist", name: "Duplex II classis", precedence: 3 },
+    ],
   },
   SANCTI_09_15: {
     flexibility: "santos",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex II classis", precedence: 5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex II classis", precedence: 5 }],
     id: "SANCTI_09_15",
     name: "Sete Dores da B. V. Maria",
     color: "w",
@@ -191,9 +167,7 @@ export const SANCTI_09: MassMap = {
   },
   SANCTI_09_16: {
     flexibility: "santos",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "SANCTI_09_16",
     name: "S. S. Cornélio e Cipriano, Mártires",
     color: "w",
@@ -205,9 +179,7 @@ export const SANCTI_09: MassMap = {
   },
   SANCTI_09_16_OUTRO: {
     flexibility: "santos",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "SANCTI_09_16_OUTRO",
     name: "S. Cornélio, Papa e Mártir",
     color: "r",
@@ -220,9 +192,7 @@ export const SANCTI_09: MassMap = {
   },
   SANCTI_09_16_OUTRO_2: {
     flexibility: "santos",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "SANCTI_09_16_OUTRO_2",
     name: "Santa Eufémia e Outros, Mártires",
     color: "r",
@@ -236,9 +206,7 @@ export const SANCTI_09: MassMap = {
   },
   SANCTI_09_16_PORTO: {
     flexibility: "santos",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "SANCTI_09_16_PORTO",
     name: "Na Dedicação da Igreja Catedral do Porto, a 16 de Setembro",
     color: "w",
@@ -251,9 +219,7 @@ export const SANCTI_09: MassMap = {
   },
   SANCTI_09_17: {
     flexibility: "santos",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "SANCTI_09_17",
     name: "Imp. dos Estigmas em S. Francisco",
     color: "w",
@@ -265,9 +231,7 @@ export const SANCTI_09: MassMap = {
   },
   SANCTI_09_18: {
     flexibility: "santos",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "SANCTI_09_18",
     name: "S. José Cupertino, Confessor",
     color: "w",
@@ -279,9 +243,7 @@ export const SANCTI_09: MassMap = {
   },
   SANCTI_09_19: {
     flexibility: "santos",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "SANCTI_09_19",
     name: "S. Januário e Outros, Mártires",
     color: "r",
@@ -293,9 +255,7 @@ export const SANCTI_09: MassMap = {
   },
   SANCTI_09_20: {
     flexibility: "santos",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "SANCTI_09_20",
     name: "Vigília de S. Mateus, Apóstolo e Evangelista",
     color: "v",
@@ -307,9 +267,7 @@ export const SANCTI_09: MassMap = {
   },
   SANCTI_09_20_OUTRO: {
     flexibility: "santos",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "SANCTI_09_20_OUTRO",
     name: "S. Eustáquio e Outros, Mártires",
     color: "r",
@@ -323,9 +281,7 @@ export const SANCTI_09: MassMap = {
   },
   SANCTI_09_21: {
     flexibility: "santos",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex II classis", precedence: 5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex II classis", precedence: 5 }],
     id: "SANCTI_09_21",
     name: "S. Mateus, Apóstolo e Evangelista",
     color: "r",
@@ -337,9 +293,7 @@ export const SANCTI_09: MassMap = {
   },
   SANCTI_09_22: {
     flexibility: "santos",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "SANCTI_09_22",
     name: "S. Tomás de Vilanova, Bispo e Confessor",
     color: "w",
@@ -351,9 +305,7 @@ export const SANCTI_09: MassMap = {
   },
   SANCTI_09_23: {
     flexibility: "santos",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "SANCTI_09_23",
     name: "S. Lino, Papa e Mártir",
     color: "r",
@@ -365,9 +317,7 @@ export const SANCTI_09: MassMap = {
   },
   SANCTI_09_23_OUTRO: {
     flexibility: "santos",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "SANCTI_09_23_OUTRO",
     name: "Santa Tecla, Virgem e Mártir",
     color: "r",
@@ -381,9 +331,7 @@ export const SANCTI_09: MassMap = {
   },
   SANCTI_09_24: {
     flexibility: "santos",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "SANCTI_09_24",
     name: "B. V. Maria das Mercês",
     color: "w",
@@ -395,9 +343,7 @@ export const SANCTI_09: MassMap = {
   },
   SANCTI_09_26: {
     flexibility: "santos",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "SANCTI_09_26",
     name: "S. S. Cipriano e Justina, Mártires",
     color: "r",
@@ -409,9 +355,7 @@ export const SANCTI_09: MassMap = {
   },
   SANCTI_09_27: {
     flexibility: "santos",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "SANCTI_09_27",
     name: "S. S. Cosme e Damião, Mártires",
     color: "r",
@@ -423,9 +367,7 @@ export const SANCTI_09: MassMap = {
   },
   SANCTI_09_28: {
     flexibility: "santos",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "SANCTI_09_28",
     name: "S. Venceslau, Mártir",
     color: "r",
@@ -437,9 +379,7 @@ export const SANCTI_09: MassMap = {
   },
   SANCTI_09_29: {
     flexibility: "santos",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex I classis", precedence: 6.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex I classis", precedence: 6.5 }],
     id: "SANCTI_09_29",
     name: "Dedicação de S. Miguel Arcanjo",
     color: "w",
@@ -452,9 +392,7 @@ export const SANCTI_09: MassMap = {
   },
   SANCTI_09_30: {
     flexibility: "santos",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "SANCTI_09_30",
     name: "S. Jerónimo, Presbítero Confessor e Doutor",
     color: "w",

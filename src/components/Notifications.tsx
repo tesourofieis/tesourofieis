@@ -39,7 +39,9 @@ const NotificationToggle = ({
         <View className="flex flex-row items-center justify-between">
           <IconComponent size={15} color={colors.textPrimary} />
           <View className="flex-1 ml-3">
-            <Typography className="font-ui-bold text-sepia-800 dark:text-sepia-200">{title}</Typography>
+            <Typography className="font-ui-bold text-sepia-800 dark:text-sepia-200">
+              {title}
+            </Typography>
             <Typography className="font-ui text-sepia-800 dark:text-sepia-200 text-sm">
               {description}
             </Typography>

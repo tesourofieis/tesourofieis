@@ -554,8 +554,7 @@ export class Calendar {
       if (temporaObservances.length > 1) {
         const bestTempora = temporaObservances.sort(
           (a, b) =>
-            (b.precedence ?? 0) - (a.precedence ?? 0) ||
-            (a.week && b.week ? a.week - b.week : 0),
+            (b.precedence ?? 0) - (a.precedence ?? 0) || (a.week && b.week ? a.week - b.week : 0),
         )[0]!;
 
         finalObservances = [
@@ -643,7 +642,7 @@ export class Calendar {
       ...toShift.observances.map((m) => {
         const stamped = this.masses!.createMassWithDate({ ...m }, toShift.date);
         return m.date ? { ...stamped, date: m.date } : stamped;
-      })
+      }),
     ]);
     this.container.set(toShift.date, shiftedDay);
   }

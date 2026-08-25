@@ -11,26 +11,19 @@
 import { readFileSync, readdirSync, statSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-const NAME: Record<number, string> = {
-  0: "Votiva",
-  1: "Duplex I classis",
-  2: "Duplex II classis",
-  3: "Duplex",
-  4: "Simplex",
-};
-const PREC: Record<number, number> = { 0: 0.5, 1: 6.5, 2: 5, 3: 3.5, 4: 1.5 };
+// Indexed by legacy coarse rank 0..4; out-of-range falls back at use sites.
+const NAME = ["Votiva", "Duplex I classis", "Duplex II classis", "Duplex", "Simplex"];
+const PREC = [0.5, 6.5, 5, 3.5, 1.5];
 
-const RUBRICS_MAP: Record<string, string> = {
-  '"Rubrics 1960 - 1960"': "R1960",
-  '"Tridentine - 1570"': "T1570",
-  "'\"rubrica cisterciensis\"'": "Cist",
-};
+const RUBRICS_MAP = new Map<string, string>([
+  ['"Rubrics 1960 - 1960"', "R1960"],
+  ['"Tridentine - 1570"', "T1570"],
+  ["'\"rubrica cisterciensis\"'", "Cist"],
+]);
 
 const VALID_RUBRICS = new Set(["*", "R1960", "T1570", "Cist"]);
 
-const NAME_NORM: Record<string, string> = {
-  "Duplex II. classis": "Duplex II classis",
-};
+const NAME_NORM = new Map([["Duplex II. classis", "Duplex II classis"]]);
 
 interface Item {
   rubrics: string;
@@ -67,12 +60,10 @@ function parseItem(line: string): Item | null {
   s = s.slice(1).trimStart();
 
   if (!s.startsWith("precedence:")) return null;
-  const precedence = Number(
-    s.slice("precedence:".length).replace(/[},\s]/g, ""),
-  );
+  const precedence = Number(s.slice("precedence:".length).replace(/[},\s]/g, ""));
   if (!Number.isFinite(precedence)) return null;
 
-  const code = RUBRICS_MAP[rawRubrics] ?? rawRubrics.replaceAll('"', "");
+  const code = RUBRICS_MAP.get(rawRubrics) ?? rawRubrics.replaceAll('"', "");
   if (!VALID_RUBRICS.has(code)) throw new Error(`unknown rubrics: ${rawRubrics}`);
   return { rubrics: code, name, precedence };
 }
@@ -127,7 +118,10 @@ function migrateFile(path: string, indent: number): number {
     for (let i = s0; i <= e0; i++) {
       const l = lines[i];
       const rm = l.match(rankLine);
-      if (rm) { rankIdx = i; rankN = Number(rm[1]); }
+      if (rm) {
+        rankIdx = i;
+        rankN = Number(rm[1]);
+      }
       if (l.includes("flexibility:")) flexIdx = i;
       if (l.startsWith(varStartPrefix)) varS = i;
       if (varS >= 0 && varE < 0 && anyClose.test(l)) varE = i;
@@ -138,7 +132,7 @@ function migrateFile(path: string, indent: number): number {
     if (varS >= 0) {
       for (let i = varS + 1; i < varE; i++) {
         const it = parseItem(lines[i]);
-        if (it) items.push({ ...it, name: NAME_NORM[it.name] ?? it.name });
+        if (it) items.push({ ...it, name: NAME_NORM.get(it.name) ?? it.name });
       }
     }
 
@@ -216,11 +210,16 @@ function migrateOverrides(path: string): number {
     let body = seg.slice(bodyStart, bodyEnd);
     const propLines = body.split("\n");
 
-    let rankIdx = -1; let rankN = NaN;
-    let varS = -1; let varE = -1;
+    let rankIdx = -1;
+    let rankN = NaN;
+    let varS = -1;
+    let varE = -1;
     propLines.forEach((l, j) => {
       const rm = l.match(/^    rank: (\d),$/);
-      if (rm) { rankIdx = j; rankN = Number(rm[1]); }
+      if (rm) {
+        rankIdx = j;
+        rankN = Number(rm[1]);
+      }
       if (l === "    rankVariants: [") varS = j;
       if (l === "    ]," && varS >= 0 && varE < 0) varE = j;
     });
@@ -253,8 +252,11 @@ function migrateOverrides(path: string): number {
     const newBody =
       propLines.slice(0, varS >= 0 ? varS : rankIdx).join("\n") +
       (varS >= 0 ? "" : "\n") +
-      "    rankVariants: [\n" + body2 + "    ]," +
-      "\n" + propLines.slice((varE >= 0 ? varE : rankIdx) + 1).join("\n");
+      "    rankVariants: [\n" +
+      body2 +
+      "    ]," +
+      "\n" +
+      propLines.slice((varE >= 0 ? varE : rankIdx) + 1).join("\n");
     count++;
     return seg.slice(0, bodyStart) + newBody + seg.slice(bodyEnd);
   });

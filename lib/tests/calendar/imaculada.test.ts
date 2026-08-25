@@ -14,7 +14,7 @@ test("imaculada conceicao", () => {
         name: "2º Domingo do Advento",
         rank: 1,
       },
-          {
+      {
         date: "2024-12-08",
         flexibility: "santos",
         id: "SANCTI_12_08",
@@ -22,6 +22,6 @@ test("imaculada conceicao", () => {
         name: "Imaculada Conceição da SS. Virgem",
         rank: 1,
       },
-],
+    ],
   });
 });

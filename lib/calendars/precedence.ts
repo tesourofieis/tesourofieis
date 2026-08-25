@@ -60,10 +60,10 @@ export function precedenceToLegacyRank(precedence: number): number {
 }
 
 /** Maps a definition's doVersion onto its rubric code in the data. */
-const RUBRIC_CODE: Record<string, RubricVersion | undefined> = {
-  "Rubrics 1960 - 1960": "R1960",
-  "Tridentine - 1570": "T1570",
-};
+const RUBRIC_CODE = new Map<string, RubricVersion>([
+  ["Rubrics 1960 - 1960", "R1960"],
+  ["Tridentine - 1570", "T1570"],
+]);
 
 /**
  * Resolve the full variant (grade name + precedence) under an edition
@@ -77,7 +77,7 @@ export function resolveVariant(
   if (!variants?.length) return undefined;
 
   for (const definition of chain) {
-    const code = RUBRIC_CODE[definition.doVersion];
+    const code = RUBRIC_CODE.get(definition.doVersion);
     if (!code) continue;
     const match = variants.find((v) => v.rubrics === code);
     if (match) return { name: match.name, precedence: match.precedence };

@@ -11,9 +11,9 @@ export const TEMPORA_QUARESMA: MassMap = {
     // Privileged semiduplex Sunday (DA); every Sunday is II class under
     // Rubrics 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-        { rubrics: "*", name: "Semiduplex privilegiatum", precedence: 6.9 },
-        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
-     ],
+      { rubrics: "*", name: "Semiduplex privilegiatum", precedence: 6.9 },
+      { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pre-quaresma",
     weekday: 0,
@@ -21,9 +21,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUADP1_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_QUADP1_1",
     name: "Segunda-feira da semana da Septuagésima",
     color: "v",
@@ -35,9 +33,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUADP1_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_QUADP1_2",
     name: "Terça-feira da semana da Septuagésima",
     color: "v",
@@ -49,9 +45,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUADP1_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_QUADP1_3",
     name: "Quarta-feira da semana da Septuagésima",
     color: "v",
@@ -63,9 +57,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUADP1_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_QUADP1_4",
     name: "Quinta-feira da semana da Septuagésima",
     color: "v",
@@ -77,9 +69,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUADP1_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_QUADP1_5",
     name: "Sexta-feira da semana da Septuagésima",
     color: "v",
@@ -91,9 +81,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUADP1_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_QUADP1_6",
     name: "Sábado da semana da Septuagésima",
     color: "v",
@@ -112,9 +100,9 @@ export const TEMPORA_QUARESMA: MassMap = {
     // Privileged semiduplex Sunday (DA); every Sunday is II class under
     // Rubrics 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-        { rubrics: "*", name: "Semiduplex privilegiatum", precedence: 6.9 },
-        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
-     ],
+      { rubrics: "*", name: "Semiduplex privilegiatum", precedence: 6.9 },
+      { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pre-quaresma",
     weekday: 0,
@@ -122,9 +110,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUADP2_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_QUADP2_1",
     name: "Segunda-feira da semana da Sexagésima",
     color: "v",
@@ -136,9 +122,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUADP2_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_QUADP2_2",
     name: "Terça-feira da semana da Sexagésima",
     color: "v",
@@ -150,9 +134,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUADP2_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_QUADP2_3",
     name: "Quarta-feira da semana da Sexagésima",
     color: "v",
@@ -164,9 +146,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUADP2_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_QUADP2_4",
     name: "Quinta-feira da semana da Sexagésima",
     color: "v",
@@ -178,9 +158,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUADP2_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_QUADP2_5",
     name: "Sexta-feira da semana da Sexagésima",
     color: "v",
@@ -192,9 +170,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUADP2_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_QUADP2_6",
     name: "Sábado da semana da Sexagésima",
     color: "v",
@@ -213,9 +189,9 @@ export const TEMPORA_QUARESMA: MassMap = {
     // Privileged semiduplex Sunday (DA); every Sunday is II class under
     // Rubrics 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-        { rubrics: "*", name: "Semiduplex privilegiatum", precedence: 6.9 },
-        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
-     ],
+      { rubrics: "*", name: "Semiduplex privilegiatum", precedence: 6.9 },
+      { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pre-quaresma",
     weekday: 0,
@@ -223,9 +199,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUADP3_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_QUADP3_1",
     name: "Segunda-feira da semana da Quinquagésima",
     color: "v",
@@ -237,9 +211,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUADP3_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_QUADP3_2",
     name: "Terça-feira da semana da Quinquagésima",
     color: "v",
@@ -251,9 +223,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUADP3_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex I classis", precedence: 6.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex I classis", precedence: 6.5 }],
     id: "TEMPORA_QUADP3_3",
     name: "Quarta-feira de Cinzas",
     color: "v",
@@ -265,9 +235,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUADP3_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_QUADP3_4",
     name: "Quinta-feira depois das Cinzas",
     color: "v",
@@ -279,9 +247,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUADP3_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_QUADP3_5",
     name: "Sexta-feira depois das Cinzas",
     color: "v",
@@ -293,9 +259,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUADP3_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_QUADP3_6",
     name: "Sábado depois das Cinzas",
     color: "v",
@@ -314,9 +278,9 @@ export const TEMPORA_QUARESMA: MassMap = {
     // Privileged semiduplex Sunday (DA); every Sunday is II class under
     // Rubrics 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-        { rubrics: "*", name: "Semiduplex privilegiatum", precedence: 6.9 },
-        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
-     ],
+      { rubrics: "*", name: "Semiduplex privilegiatum", precedence: 6.9 },
+      { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "quaresma",
     weekday: 0,
@@ -324,9 +288,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUAD1_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_QUAD1_1",
     name: "Segunda-feira da 1ª semana da Quaresma",
     color: "v",
@@ -338,9 +300,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUAD1_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_QUAD1_2",
     name: "Terça-feira da 1ª semana da Quaresma",
     color: "v",
@@ -352,9 +312,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUAD1_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex II classis", precedence: 5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex II classis", precedence: 5 }],
     id: "TEMPORA_QUAD1_3",
     name: "Quarta-feira da 1ª Semana da Quaresma, Têmporas da Primavera",
     color: "v",
@@ -366,9 +324,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUAD1_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_QUAD1_4",
     name: "Quinta-feira da 1ª semana da Quaresma",
     color: "v",
@@ -380,9 +336,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUAD1_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex II classis", precedence: 5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex II classis", precedence: 5 }],
     id: "TEMPORA_QUAD1_5",
     name: "Sexta-feira 1ª semana da Quaresma, Têmporas da Primavera",
     color: "v",
@@ -394,9 +348,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUAD1_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex II classis", precedence: 5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex II classis", precedence: 5 }],
     id: "TEMPORA_QUAD1_6",
     name: "Sábado da 1ª semana da Quaresma, Têmporas da Primavera",
     color: "v",
@@ -415,9 +367,9 @@ export const TEMPORA_QUARESMA: MassMap = {
     // Privileged semiduplex Sunday (DA); every Sunday is II class under
     // Rubrics 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-        { rubrics: "*", name: "Semiduplex privilegiatum", precedence: 6.9 },
-        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
-     ],
+      { rubrics: "*", name: "Semiduplex privilegiatum", precedence: 6.9 },
+      { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "quaresma",
     weekday: 0,
@@ -425,9 +377,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUAD2_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_QUAD2_1",
     name: "Segunda-feira da 2ª semana da Quaresma",
     color: "v",
@@ -439,9 +389,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUAD2_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_QUAD2_2",
     name: "Terça-feira da 2ª semana da Quaresma",
     color: "v",
@@ -453,9 +401,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUAD2_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_QUAD2_3",
     name: "Quarta-feira da 2ª semana da Quaresma",
     color: "v",
@@ -467,9 +413,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUAD2_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_QUAD2_4",
     name: "Quinta-feira da 2ª semana da Quaresma",
     color: "v",
@@ -481,9 +425,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUAD2_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_QUAD2_5",
     name: "Sexta-feira da 2ª semana da Quaresma",
     color: "v",
@@ -495,9 +437,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUAD2_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_QUAD2_6",
     name: "Sábado da 2ª semana da Quaresma",
     color: "v",
@@ -516,9 +456,9 @@ export const TEMPORA_QUARESMA: MassMap = {
     // Privileged semiduplex Sunday (DA); every Sunday is II class under
     // Rubrics 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-        { rubrics: "*", name: "Semiduplex privilegiatum", precedence: 6.9 },
-        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
-     ],
+      { rubrics: "*", name: "Semiduplex privilegiatum", precedence: 6.9 },
+      { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "quaresma",
     weekday: 0,
@@ -526,9 +466,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUAD3_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_QUAD3_1",
     name: "Segunda-feira da 3ª semana da Quaresma",
     color: "v",
@@ -540,9 +478,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUAD3_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_QUAD3_2",
     name: "Terça-feira da 3ª semana da Quaresma",
     color: "v",
@@ -554,9 +490,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUAD3_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_QUAD3_3",
     name: "Quarta-feira da 3ª semana da Quaresma",
     color: "v",
@@ -568,9 +502,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUAD3_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_QUAD3_4",
     name: "Quinta-feira da 3ª semana da Quaresma",
     color: "v",
@@ -582,9 +514,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUAD3_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_QUAD3_5",
     name: "Sexta-feira da 3ª semana da Quaresma",
     color: "v",
@@ -596,9 +526,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUAD3_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_QUAD3_6",
     name: "Sábado da 3ª semana da Quaresma",
     color: "v",
@@ -617,9 +545,9 @@ export const TEMPORA_QUARESMA: MassMap = {
     // Privileged semiduplex Sunday (DA); every Sunday is II class under
     // Rubrics 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-        { rubrics: "*", name: "Semiduplex privilegiatum", precedence: 6.9 },
-        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
-     ],
+      { rubrics: "*", name: "Semiduplex privilegiatum", precedence: 6.9 },
+      { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "quaresma",
     weekday: 0,
@@ -627,9 +555,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUAD4_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_QUAD4_1",
     name: "Segunda-feira da 4ª semana da Quaresma",
     color: "v",
@@ -641,9 +567,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUAD4_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_QUAD4_2",
     name: "Terça-feira da 4ª semana da Quaresma",
     color: "v",
@@ -655,9 +579,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUAD4_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_QUAD4_3",
     name: "Quarta-feira da 4ª semana da Quaresma",
     color: "v",
@@ -669,9 +591,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUAD4_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_QUAD4_4",
     name: "Quinta-feira da 4ª semana da Quaresma",
     color: "v",
@@ -683,9 +603,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUAD4_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_QUAD4_5",
     name: "Sexta-feira da 4ª semana da Quaresma",
     color: "v",
@@ -697,9 +615,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUAD4_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_QUAD4_6",
     name: "Sábado da 4ª semana da Quaresma",
     color: "v",
@@ -711,9 +627,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUAD5_0: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex I classis", precedence: 6.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex I classis", precedence: 6.5 }],
     id: "TEMPORA_QUAD5_0",
     name: "Domingo da Paixão",
     color: "v",
@@ -725,9 +639,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUAD5_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_QUAD5_1",
     name: "Segunda-feira da semana da Paixão",
     color: "v",
@@ -739,9 +651,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUAD5_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_QUAD5_2",
     name: "Terça-feira da semana da Paixão",
     color: "v",
@@ -753,9 +663,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUAD5_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_QUAD5_3",
     name: "Quarta-feira da semana da Paixão",
     color: "v",
@@ -767,9 +675,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUAD5_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_QUAD5_4",
     name: "Quinta-feira da semana da Paixão",
     color: "v",
@@ -781,9 +687,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUAD5_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_QUAD5_5",
     name: "Sexta-feira da semana da Paixão",
     color: "v",
@@ -795,9 +699,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUAD5_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_QUAD5_6",
     name: "Sábado da semana da Paixão",
     color: "v",
@@ -809,9 +711,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUAD6_0: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex I classis", precedence: 6.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex I classis", precedence: 6.5 }],
     id: "TEMPORA_QUAD6_0",
     name: "Domingo de Ramos",
     color: "v",
@@ -823,9 +723,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUAD6_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex I classis", precedence: 6.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex I classis", precedence: 6.5 }],
     id: "TEMPORA_QUAD6_1",
     name: "Segunda-feira Santa",
     color: "v",
@@ -837,9 +735,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUAD6_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex I classis", precedence: 6.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex I classis", precedence: 6.5 }],
     id: "TEMPORA_QUAD6_2",
     name: "Terça-feira Santa",
     color: "v",
@@ -851,9 +747,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUAD6_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex I classis", precedence: 6.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex I classis", precedence: 6.5 }],
     id: "TEMPORA_QUAD6_3",
     name: "Quarta-feira Santa",
     color: "v",
@@ -865,9 +759,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUAD6_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex I classis", precedence: 6.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex I classis", precedence: 6.5 }],
     id: "TEMPORA_QUAD6_4",
     name: "Quinta-feira Santa",
     color: "w",
@@ -879,9 +771,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUAD6_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex I classis", precedence: 6.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex I classis", precedence: 6.5 }],
     id: "TEMPORA_QUAD6_5",
     name: "Sexta-feira Santa",
     color: "b",
@@ -893,9 +783,7 @@ export const TEMPORA_QUARESMA: MassMap = {
   },
   TEMPORA_QUAD6_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex I classis", precedence: 6.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex I classis", precedence: 6.5 }],
     id: "TEMPORA_QUAD6_6",
     name: "Sábado Santo",
     color: "vw",

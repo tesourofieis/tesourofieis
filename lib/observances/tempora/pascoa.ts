@@ -4,9 +4,7 @@ import type { MassMap } from "../../domain";
 export const TEMPORA_PASCOA: MassMap = {
   TEMPORA_PASC0_0: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex I classis", precedence: 6.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex I classis", precedence: 6.5 }],
     id: "TEMPORA_PASC0_0",
     name: "Domingo da Ressurreição",
     color: "w",
@@ -18,9 +16,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC0_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex I classis", precedence: 6.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex I classis", precedence: 6.5 }],
     id: "TEMPORA_PASC0_1",
     name: "Segunda-feira Pascal",
     color: "w",
@@ -32,9 +28,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC0_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex I classis", precedence: 6.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex I classis", precedence: 6.5 }],
     id: "TEMPORA_PASC0_2",
     name: "Terça-feira Pascal",
     color: "w",
@@ -46,9 +40,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC0_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex I classis", precedence: 6.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex I classis", precedence: 6.5 }],
     id: "TEMPORA_PASC0_3",
     name: "Quarta-feira Pascal",
     color: "w",
@@ -60,9 +52,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC0_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex I classis", precedence: 6.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex I classis", precedence: 6.5 }],
     id: "TEMPORA_PASC0_4",
     name: "Quinta-feira Pascal",
     color: "w",
@@ -74,9 +64,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC0_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex I classis", precedence: 6.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex I classis", precedence: 6.5 }],
     id: "TEMPORA_PASC0_5",
     name: "Sexta-feira Pascal",
     color: "w",
@@ -88,9 +76,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC0_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex I classis", precedence: 6.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex I classis", precedence: 6.5 }],
     id: "TEMPORA_PASC0_6",
     name: "Sábado Pascal",
     color: "w",
@@ -102,9 +88,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC1_0: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex I classis", precedence: 6.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex I classis", precedence: 6.5 }],
     id: "TEMPORA_PASC1_0",
     name: "Domingo in Albis",
     color: "w",
@@ -116,9 +100,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC1_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PASC1_1",
     name: "Segunda-feira da 1º semana depois da Páscoa",
     color: "w",
@@ -130,9 +112,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC1_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PASC1_2",
     name: "Terça-feira da 1ª semana depois da Páscoa",
     color: "w",
@@ -144,9 +124,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC1_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PASC1_3",
     name: "Quarta-feira da 1ª semana depois da Páscoa",
     color: "w",
@@ -158,9 +136,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC1_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PASC1_4",
     name: "Quinta-feira da 1ª semana depois da Páscoa",
     color: "w",
@@ -172,9 +148,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC1_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PASC1_5",
     name: "Sexta-feira da 1ª semana depois da Páscoa",
     color: "w",
@@ -186,9 +160,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC1_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PASC1_6",
     name: "Sábado da 1ª semana depois da Páscoa",
     color: "w",
@@ -207,9 +179,9 @@ export const TEMPORA_PASCOA: MassMap = {
     // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
     // 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-        { rubrics: "*", name: "Semiduplex", precedence: 5 },
-        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
-     ],
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pascoa",
     weekday: 0,
@@ -217,9 +189,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC2_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PASC2_1",
     name: "Segunda-feira da 2ª semana depois da Páscoa",
     color: "w",
@@ -231,9 +201,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC2_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PASC2_2",
     name: "Terça-feira da 2ª semana depois da Páscoa",
     color: "w",
@@ -245,9 +213,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC2_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex II classis", precedence: 5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex II classis", precedence: 5 }],
     id: "TEMPORA_PASC2_3",
     name: "S. José, Padroeiro da Santa Igreja e dos Moribundos",
     color: "w",
@@ -259,9 +225,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC2_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PASC2_4",
     name: "Quinta-feira da 2ª semana depois da Páscoa",
     color: "w",
@@ -273,9 +237,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC2_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PASC2_5",
     name: "Sexta-feira da 2ª semana depois da Páscoa",
     color: "w",
@@ -287,9 +249,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC2_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PASC2_6",
     name: "Sábado da 2ª semana depois da Páscoa",
     color: "w",
@@ -308,9 +268,9 @@ export const TEMPORA_PASCOA: MassMap = {
     // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
     // 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-        { rubrics: "*", name: "Semiduplex", precedence: 5 },
-        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
-     ],
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pascoa",
     weekday: 0,
@@ -318,9 +278,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC3_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PASC3_1",
     name: "Segunda-feira da 3ª semana depois da Páscoa",
     color: "w",
@@ -332,9 +290,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC3_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PASC3_2",
     name: "Terça-feira da 3ª semana depois da Páscoa",
     color: "w",
@@ -346,9 +302,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC3_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PASC3_3",
     name: "Quarta-feira da 3ª semana depois da Páscoa",
     color: "w",
@@ -360,9 +314,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC3_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PASC3_4",
     name: "Quinta-feira da 3ª semana depois da Páscoa",
     color: "w",
@@ -374,9 +326,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC3_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PASC3_5",
     name: "Sexta-feira da 3ª semana depois da Páscoa",
     color: "w",
@@ -388,9 +338,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC3_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PASC3_6",
     name: "Sábado da 3ª semana depois da Páscoa",
     color: "w",
@@ -409,9 +357,9 @@ export const TEMPORA_PASCOA: MassMap = {
     // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
     // 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-        { rubrics: "*", name: "Semiduplex", precedence: 5 },
-        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
-     ],
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pascoa",
     weekday: 0,
@@ -419,9 +367,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC4_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PASC4_1",
     name: "Segunda-feira da 4ª semana depois da Páscoa",
     color: "w",
@@ -433,9 +379,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC4_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PASC4_2",
     name: "Terça-feira da 4ª semana depois da Páscoa",
     color: "w",
@@ -447,9 +391,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC4_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PASC4_3",
     name: "Quarta-feira da 4ª semana depois da Páscoa",
     color: "w",
@@ -461,9 +403,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC4_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PASC4_4",
     name: "Quinta-feira da 4ª semana depois da Páscoa",
     color: "w",
@@ -475,9 +415,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC4_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PASC4_5",
     name: "Sexta-feira da 4ª semana depois da Páscoa",
     color: "w",
@@ -489,9 +427,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC4_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PASC4_6",
     name: "Sábado da 4ª semana depois da Páscoa",
     color: "w",
@@ -510,9 +446,9 @@ export const TEMPORA_PASCOA: MassMap = {
     // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
     // 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-        { rubrics: "*", name: "Semiduplex", precedence: 5 },
-        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
-     ],
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pascoa",
     weekday: 0,
@@ -520,9 +456,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC5_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PASC5_1",
     name: "Segunda-feira das Rogações",
     color: "v",
@@ -534,9 +468,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC5_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PASC5_2",
     name: "Terça-feira das Rogações",
     color: "w",
@@ -548,9 +480,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC5_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex II classis", precedence: 5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex II classis", precedence: 5 }],
     id: "TEMPORA_PASC5_3",
     name: "Vigília da Ascensão",
     color: "w",
@@ -562,9 +492,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC5_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex I classis", precedence: 6.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex I classis", precedence: 6.5 }],
     id: "TEMPORA_PASC5_4",
     name: "Ascensão",
     color: "w",
@@ -576,9 +504,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC5_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_PASC5_5",
     name: "Sexta-feira depois da Ascensão",
     color: "w",
@@ -590,9 +516,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC5_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_PASC5_6",
     name: "Sábado depois da Ascensão",
     color: "w",
@@ -611,9 +535,9 @@ export const TEMPORA_PASCOA: MassMap = {
     // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
     // 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-        { rubrics: "*", name: "Semiduplex", precedence: 5 },
-        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
-     ],
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pascoa",
     weekday: 0,
@@ -621,9 +545,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC6_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_PASC6_1",
     name: "Segunda-feira da semana depois da Ascensão",
     color: "w",
@@ -635,9 +557,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC6_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_PASC6_2",
     name: "Terça-feira da semana depois da Ascensão",
     color: "w",
@@ -649,9 +569,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC6_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_PASC6_3",
     name: "Quarta-feira da semana depois da Ascensão",
     color: "w",
@@ -663,9 +581,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC6_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_PASC6_4",
     name: "Quinta-feira da semana depois da Ascensão",
     color: "w",
@@ -677,9 +593,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC6_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex", precedence: 3.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex", precedence: 3.5 }],
     id: "TEMPORA_PASC6_5",
     name: "Sexta-feira da semana depois da Ascensão",
     color: "w",
@@ -691,9 +605,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC6_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex I classis", precedence: 6.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex I classis", precedence: 6.5 }],
     id: "TEMPORA_PASC6_6",
     name: "Vigília de Pentecostes",
     color: "r",
@@ -712,9 +624,9 @@ export const TEMPORA_PASCOA: MassMap = {
     // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
     // 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-        { rubrics: "*", name: "Semiduplex", precedence: 5 },
-        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
-     ],
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pascoa",
     weekday: 0,
@@ -723,9 +635,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC7_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex I classis", precedence: 6.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex I classis", precedence: 6.5 }],
     id: "TEMPORA_PASC7_1",
     name: "Segunda-feira na semana da oitava de Pentecostes",
     color: "r",
@@ -737,9 +647,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC7_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex I classis", precedence: 6.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex I classis", precedence: 6.5 }],
     id: "TEMPORA_PASC7_2",
     name: "Terça-feira na semana da oitava de Pentecostes",
     color: "r",
@@ -751,9 +659,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC7_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex I classis", precedence: 6.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex I classis", precedence: 6.5 }],
     id: "TEMPORA_PASC7_3",
     name: "Quarta-feira das Têmporas de Pentecostes",
     color: "r",
@@ -765,9 +671,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC7_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex I classis", precedence: 6.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex I classis", precedence: 6.5 }],
     id: "TEMPORA_PASC7_4",
     name: "Quinta-feira na semana da oitava de Pentecostes",
     color: "r",
@@ -779,9 +683,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC7_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex I classis", precedence: 6.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex I classis", precedence: 6.5 }],
     id: "TEMPORA_PASC7_5",
     name: "Sexta-feira das Têmporas de Pentecostes",
     color: "r",
@@ -793,9 +695,7 @@ export const TEMPORA_PASCOA: MassMap = {
   },
   TEMPORA_PASC7_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex I classis", precedence: 6.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex I classis", precedence: 6.5 }],
     id: "TEMPORA_PASC7_6",
     name: "Sábado das Têmporas de Pentecostes",
     color: "r",

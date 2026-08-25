@@ -159,8 +159,7 @@ describe("divergence-catalogue routing", () => {
 
   test("each edition celebrates what its Kalendaria prescribes", () => {
     for (const { date, pre55, m62, notPre55, not62 } of cases) {
-      const ids = (ed: "pre-55" | "62") =>
-        getCalendarDay(date, ed)?.mass.map((m) => m.id) ?? [];
+      const ids = (ed: "pre-55" | "62") => getCalendarDay(date, ed)?.mass.map((m) => m.id) ?? [];
       for (const id of pre55) expect(ids("pre-55")).toContain(id);
       for (const id of m62) expect(ids("62")).toContain(id);
       for (const id of notPre55) expect(ids("pre-55")).not.toContain(id);
@@ -201,9 +200,7 @@ describe("Divino Afflatu commemoration stack", () => {
     const v55 = getCalendarDay("2026-12-07", "pre-55")?.mass.find(
       (m) => m.id === "SANCTI_12_07_OUTRO",
     );
-    const v62 = getCalendarDay("2026-12-07", "62")?.mass.find(
-      (m) => m.id === "SANCTI_12_07_OUTRO",
-    );
+    const v62 = getCalendarDay("2026-12-07", "62")?.mass.find((m) => m.id === "SANCTI_12_07_OUTRO");
     expect(v55?.precedence).toBe(3);
     expect(v62?.precedence).toBe(4); // Duplex majus under Rubrics 1960
   });

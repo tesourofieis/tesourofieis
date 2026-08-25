@@ -260,7 +260,10 @@ export default function PageLinkCard({
                       className={`flex-row flex-wrap ${isFeatured ? "gap-2 mb-2" : "gap-1.5 mb-1.5"}`}
                     >
                       <Badge featured={isFeatured}>{description || "Missa"}</Badge>
-                      <Badge featured={isFeatured} important={mass.precedence !== undefined && mass.precedence >= 6}>
+                      <Badge
+                        featured={isFeatured}
+                        important={mass.precedence !== undefined && mass.precedence >= 6}
+                      >
                         {gradeLabel(mass)}
                       </Badge>
                     </View>

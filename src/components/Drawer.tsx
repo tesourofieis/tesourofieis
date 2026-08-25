@@ -454,9 +454,7 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
             <View style={{ width: 20, alignItems: "center" }}>
               <Search size={14} className="text-sepia-700 dark:text-sepia-300" />
             </View>
-            <Text className={`${actionText} text-sepia-700 dark:text-sepia-300`}>
-              Pesquisar
-            </Text>
+            <Text className={`${actionText} text-sepia-700 dark:text-sepia-300`}>Pesquisar</Text>
           </TouchableOpacity>
 
           {/* Calendar action — static quick link to the month/week overview */}
@@ -561,9 +559,7 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
           <View style={{ width: 20, alignItems: "center" }}>
             <Settings size={14} className="text-sepia-700 dark:text-sepia-300" />
           </View>
-          <Text className={`${actionText} text-sepia-700 dark:text-sepia-300`}>
-            Configurações
-          </Text>
+          <Text className={`${actionText} text-sepia-700 dark:text-sepia-300`}>Configurações</Text>
         </TouchableOpacity>
       </View>
     </View>

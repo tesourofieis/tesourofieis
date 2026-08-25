@@ -4,9 +4,7 @@ import type { MassMap } from "../../domain";
 export const TEMPORA_PENTECOSTES: MassMap = {
   TEMPORA_PENT01_0A: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex II classis", precedence: 5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex II classis", precedence: 5 }],
     id: "TEMPORA_PENT01_0A",
     name: "1ª Domingo depois de Pentecostes",
     color: "g",
@@ -18,9 +16,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT01_0: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex I classis", precedence: 6.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex I classis", precedence: 6.5 }],
     id: "TEMPORA_PENT01_0",
     name: "Domingo da Santíssima Trindade",
     color: "w",
@@ -32,9 +28,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT01_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT01_1",
     name: "Segunda-feira depois 1ª semana da oitava de Pentecostes",
     color: "g",
@@ -46,9 +40,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT01_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT01_2",
     name: "Terça-feira depois 1ª semana da oitava de Pentecostes",
     color: "g",
@@ -60,9 +52,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT01_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT01_3",
     name: "Quarta-feira depois 1ª semana da oitava de Pentecostes",
     color: "g",
@@ -74,9 +64,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT01_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex I classis", precedence: 6.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex I classis", precedence: 6.5 }],
     id: "TEMPORA_PENT01_4",
     name: "Santíssimo Corpo de Cristo",
     color: "w",
@@ -89,9 +77,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT01_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT01_5",
     name: "Sexta-feira depois 1ª semana da oitava de Pentecostes",
     color: "g",
@@ -103,9 +89,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT01_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT01_6",
     name: "Sábado depois 1ª semana da oitava de Pentecostes",
     color: "g",
@@ -124,9 +108,9 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
     // 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-        { rubrics: "*", name: "Semiduplex", precedence: 5 },
-        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
-     ],
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -134,9 +118,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT02_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT02_1",
     name: "Segunda-feira da 2ª semana depois de Pentecostes",
     color: "g",
@@ -148,9 +130,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT02_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT02_2",
     name: "Terça-feira da 2ª semana depois de Pentecostes",
     color: "g",
@@ -162,9 +142,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT02_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT02_3",
     name: "Quarta-feira da 2ª semana depois de Pentecostes",
     color: "g",
@@ -176,9 +154,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT02_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT02_4",
     name: "Quinta-feira da 2ª semana depois de Pentecostes",
     color: "g",
@@ -190,9 +166,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT02_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex I classis", precedence: 6.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex I classis", precedence: 6.5 }],
     id: "TEMPORA_PENT02_5",
     name: "Santíssimo Coração de Jesus",
     color: "w",
@@ -205,9 +179,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT02_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT02_6",
     name: "Sábado da 2ª semana depois de Pentecostes",
     color: "g",
@@ -226,9 +198,9 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
     // 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-        { rubrics: "*", name: "Semiduplex", precedence: 5 },
-        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
-     ],
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -236,9 +208,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT03_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT03_1",
     name: "Segunda-feira da 3ª semana depois de Pentecostes",
     color: "g",
@@ -250,9 +220,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT03_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT03_2",
     name: "Terça-feira da 3ª semana depois de Pentecostes",
     color: "g",
@@ -264,9 +232,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT03_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT03_3",
     name: "Quarta-feira da 3ª semana depois de Pentecostes",
     color: "g",
@@ -278,9 +244,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT03_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT03_4",
     name: "Quinta-feira da 3ª semana depois de Pentecostes",
     color: "g",
@@ -292,9 +256,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT03_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT03_5",
     name: "Sexta-feira da 3ª semana depois de Pentecostes",
     color: "g",
@@ -306,9 +268,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT03_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT03_6",
     name: "Sábado da 3ª semana depois de Pentecostes",
     color: "g",
@@ -327,9 +287,9 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
     // 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-        { rubrics: "*", name: "Semiduplex", precedence: 5 },
-        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
-     ],
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -337,9 +297,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT04_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT04_1",
     name: "Segunda-feira da 4ª semana depois de Pentecostes",
     color: "g",
@@ -351,9 +309,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT04_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT04_2",
     name: "Terça-feira da 4ª semana depois de Pentecostes",
     color: "g",
@@ -365,9 +321,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT04_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT04_3",
     name: "Quarta-feira da 4ª semana depois de Pentecostes",
     color: "g",
@@ -379,9 +333,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT04_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT04_4",
     name: "Quinta-feira da 4ª semana depois de Pentecostes",
     color: "g",
@@ -393,9 +345,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT04_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT04_5",
     name: "Sexta-feira da 4ª semana depois de Pentecostes",
     color: "g",
@@ -407,9 +357,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT04_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT04_6",
     name: "Sábado da 4ª semana depois de Pentecostes",
     color: "g",
@@ -428,9 +376,9 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
     // 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-        { rubrics: "*", name: "Semiduplex", precedence: 5 },
-        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
-     ],
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -438,9 +386,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT05_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT05_1",
     name: "Segunda-feira da 5ª semana depois de Pentecostes",
     color: "g",
@@ -452,9 +398,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT05_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT05_2",
     name: "Terça-feira da 5ª semana depois de Pentecostes",
     color: "g",
@@ -466,9 +410,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT05_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT05_3",
     name: "Quarta-feira da 5ª semana depois de Pentecostes",
     color: "g",
@@ -480,9 +422,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT05_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT05_4",
     name: "Quinta-feira da 5ª semana depois de Pentecostes",
     color: "g",
@@ -494,9 +434,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT05_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT05_5",
     name: "Sexta-feira da 5ª semana depois de Pentecostes",
     color: "g",
@@ -508,9 +446,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT05_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT05_6",
     name: "Sábado da 5ª semana depois de Pentecostes",
     color: "g",
@@ -529,9 +465,9 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
     // 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-        { rubrics: "*", name: "Semiduplex", precedence: 5 },
-        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
-     ],
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -539,9 +475,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT06_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT06_1",
     name: "Segunda-feira da 6ª semana depois de Pentecostes",
     color: "g",
@@ -553,9 +487,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT06_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT06_2",
     name: "Terça-feira da 6ª semana depois de Pentecostes",
     color: "g",
@@ -567,9 +499,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT06_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT06_3",
     name: "Quarta-feira da 6ª semana depois de Pentecostes",
     color: "g",
@@ -581,9 +511,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT06_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT06_4",
     name: "Quinta-feira da 6ª semana depois de Pentecostes",
     color: "g",
@@ -595,9 +523,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT06_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT06_5",
     name: "Sexta-feira da 6ª semana depois de Pentecostes",
     color: "g",
@@ -609,9 +535,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT06_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT06_6",
     name: "Sábado da 6ª semana depois de Pentecostes",
     color: "g",
@@ -630,9 +554,9 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
     // 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-        { rubrics: "*", name: "Semiduplex", precedence: 5 },
-        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
-     ],
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -640,9 +564,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT07_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT07_1",
     name: "Segunda-feira da 7ª semana depois de Pentecostes",
     color: "g",
@@ -654,9 +576,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT07_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT07_2",
     name: "Terça-feira da 7ª semana depois de Pentecostes",
     color: "g",
@@ -668,9 +588,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT07_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT07_3",
     name: "Quarta-feira da 7ª semana depois de Pentecostes",
     color: "g",
@@ -682,9 +600,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT07_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT07_4",
     name: "Quinta-feira da 7ª semana depois de Pentecostes",
     color: "g",
@@ -696,9 +612,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT07_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT07_5",
     name: "Sexta-feira da 7ª semana depois de Pentecostes",
     color: "g",
@@ -710,9 +624,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT07_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT07_6",
     name: "Sábado da 7ª semana depois de Pentecostes",
     color: "g",
@@ -731,9 +643,9 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
     // 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-        { rubrics: "*", name: "Semiduplex", precedence: 5 },
-        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
-     ],
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -741,9 +653,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT08_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT08_1",
     name: "Segunda-feira da 8ª semana depois de Pentecostes",
     color: "g",
@@ -755,9 +665,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT08_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT08_2",
     name: "Terça-feira da 8ª semana depois de Pentecostes",
     color: "g",
@@ -769,9 +677,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT08_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT08_3",
     name: "Quarta-feira da 8ª semana depois de Pentecostes",
     color: "g",
@@ -783,9 +689,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT08_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT08_4",
     name: "Quinta-feira da 8ª semana depois de Pentecostes",
     color: "g",
@@ -797,9 +701,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT08_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT08_5",
     name: "Sexta-feira da 8ª semana depois de Pentecostes",
     color: "g",
@@ -811,9 +713,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT08_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT08_6",
     name: "Sábado da 8ª semana depois de Pentecostes",
     color: "g",
@@ -832,9 +732,9 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
     // 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-        { rubrics: "*", name: "Semiduplex", precedence: 5 },
-        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
-     ],
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -842,9 +742,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT09_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT09_1",
     name: "Segunda-feira da 9ª semana depois de Pentecostes",
     color: "g",
@@ -856,9 +754,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT09_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT09_2",
     name: "Terça-feira da 9ª semana depois de Pentecostes",
     color: "g",
@@ -870,9 +766,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT09_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT09_3",
     name: "Quarta-feira da 9ª semana depois de Pentecostes",
     color: "g",
@@ -884,9 +778,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT09_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT09_4",
     name: "Quinta-feira da 9ª semana depois de Pentecostes",
     color: "g",
@@ -898,9 +790,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT09_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT09_5",
     name: "Sexta-feira da 9ª semana depois de Pentecostes",
     color: "g",
@@ -912,9 +802,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT09_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT09_6",
     name: "Sábado da 9ª semana depois de Pentecostes",
     color: "g",
@@ -933,9 +821,9 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
     // 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-        { rubrics: "*", name: "Semiduplex", precedence: 5 },
-        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
-     ],
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -943,9 +831,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT10_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT10_1",
     name: "Segunda-feira da 10ª semana depois de Pentecostes",
     color: "g",
@@ -957,9 +843,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT10_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT10_2",
     name: "Terça-feira da 10ª semana depois de Pentecostes",
     color: "g",
@@ -971,9 +855,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT10_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT10_3",
     name: "Quarta-feira da 10ª semana depois de Pentecostes",
     color: "g",
@@ -985,9 +867,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT10_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT10_4",
     name: "Quinta-feira da 10ª semana depois de Pentecostes",
     color: "g",
@@ -999,9 +879,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT10_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT10_5",
     name: "Sexta-feira da 10ª semana depois de Pentecostes",
     color: "g",
@@ -1013,9 +891,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT10_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT10_6",
     name: "Sábado da 10ª semana depois de Pentecostes",
     color: "g",
@@ -1034,9 +910,9 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
     // 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-        { rubrics: "*", name: "Semiduplex", precedence: 5 },
-        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
-     ],
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -1044,9 +920,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT11_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT11_1",
     name: "Segunda-feira da 11ª semana depois de Pentecostes",
     color: "g",
@@ -1058,9 +932,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT11_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT11_2",
     name: "Terça-feira da 11ª semana depois de Pentecostes",
     color: "g",
@@ -1072,9 +944,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT11_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT11_3",
     name: "Quarta-feira da 11ª semana depois de Pentecostes",
     color: "g",
@@ -1086,9 +956,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT11_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT11_4",
     name: "Quinta-feira da 11ª semana depois de Pentecostes",
     color: "g",
@@ -1100,9 +968,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT11_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT11_5",
     name: "Sexta-feira da 11ª semana depois de Pentecostes",
     color: "g",
@@ -1114,9 +980,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT11_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT11_6",
     name: "Sábado da 11ª semana depois de Pentecostes",
     color: "g",
@@ -1135,9 +999,9 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
     // 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-        { rubrics: "*", name: "Semiduplex", precedence: 5 },
-        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
-     ],
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -1145,9 +1009,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT12_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT12_1",
     name: "Segunda-feira da 12ª semana depois de Pentecostes",
     color: "g",
@@ -1159,9 +1021,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT12_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT12_2",
     name: "Terça-feira da 12ª semana depois de Pentecostes",
     color: "g",
@@ -1173,9 +1033,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT12_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT12_3",
     name: "Quarta-feira da 12ª semana depois de Pentecostes",
     color: "g",
@@ -1187,9 +1045,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT12_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT12_4",
     name: "Quinta-feira da 12ª semana depois de Pentecostes",
     color: "g",
@@ -1201,9 +1057,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT12_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT12_5",
     name: "Sexta-feira da 12ª semana depois de Pentecostes",
     color: "g",
@@ -1215,9 +1069,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT12_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT12_6",
     name: "Sábado da 12ª semana depois de Pentecostes",
     color: "g",
@@ -1236,9 +1088,9 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
     // 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-        { rubrics: "*", name: "Semiduplex", precedence: 5 },
-        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
-     ],
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -1246,9 +1098,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT13_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT13_1",
     name: "Segunda-feira da 13ª semana depois de Pentecostes",
     color: "g",
@@ -1260,9 +1110,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT13_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT13_2",
     name: "Terça-feira da 13ª semana depois de Pentecostes",
     color: "g",
@@ -1274,9 +1122,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT13_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT13_3",
     name: "Quarta-feira da 13ª semana depois de Pentecostes",
     color: "g",
@@ -1288,9 +1134,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT13_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT13_4",
     name: "Quinta-feira da 13ª semana depois de Pentecostes",
     color: "g",
@@ -1302,9 +1146,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT13_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT13_5",
     name: "Sexta-feira da 13ª semana depois de Pentecostes",
     color: "g",
@@ -1316,9 +1158,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT13_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT13_6",
     name: "Sábado da 13ª semana depois de Pentecostes",
     color: "g",
@@ -1337,9 +1177,9 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
     // 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-        { rubrics: "*", name: "Semiduplex", precedence: 5 },
-        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
-     ],
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -1347,9 +1187,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT14_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT14_1",
     name: "Segunda-feira da 14ª semana depois de Pentecostes",
     color: "g",
@@ -1361,9 +1199,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT14_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT14_2",
     name: "Terça-feira da 14ª semana depois de Pentecostes",
     color: "g",
@@ -1375,9 +1211,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT14_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT14_3",
     name: "Quarta-feira da 14ª semana depois de Pentecostes",
     color: "g",
@@ -1389,9 +1223,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT14_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT14_4",
     name: "Quinta-feira da 14ª semana depois de Pentecostes",
     color: "g",
@@ -1403,9 +1235,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT14_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT14_5",
     name: "Sexta-feira da 14ª semana depois de Pentecostes",
     color: "g",
@@ -1417,9 +1247,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT14_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT14_6",
     name: "Sábado da 14ª semana depois de Pentecostes",
     color: "g",
@@ -1438,9 +1266,9 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
     // 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-        { rubrics: "*", name: "Semiduplex", precedence: 5 },
-        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
-     ],
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -1448,9 +1276,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT15_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT15_1",
     name: "Segunda-feira da 15ª semana depois de Pentecostes",
     color: "g",
@@ -1462,9 +1288,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT15_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT15_2",
     name: "Terça-feira da 15ª semana depois de Pentecostes",
     color: "g",
@@ -1476,9 +1300,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT15_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT15_3",
     name: "Quarta-feira da 15ª semana depois de Pentecostes",
     color: "g",
@@ -1490,9 +1312,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT15_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT15_4",
     name: "Quinta-feira da 15ª semana depois de Pentecostes",
     color: "g",
@@ -1504,9 +1324,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT15_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT15_5",
     name: "Sexta-feira da 15ª semana depois de Pentecostes",
     color: "g",
@@ -1518,9 +1336,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT15_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT15_6",
     name: "Sábado da 15ª semana depois de Pentecostes",
     color: "g",
@@ -1539,9 +1355,9 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
     // 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-        { rubrics: "*", name: "Semiduplex", precedence: 5 },
-        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
-     ],
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -1549,9 +1365,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT16_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT16_1",
     name: "Segunda-feira da 16ª semana depois de Pentecostes",
     color: "g",
@@ -1563,9 +1377,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT16_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT16_2",
     name: "Terça-feira da 16ª semana depois de Pentecostes",
     color: "g",
@@ -1577,9 +1389,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT16_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT16_3",
     name: "Quarta-feira da 16ª semana depois de Pentecostes",
     color: "g",
@@ -1591,9 +1401,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT16_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT16_4",
     name: "Quinta-feira da 16ª semana depois de Pentecostes",
     color: "g",
@@ -1605,9 +1413,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT16_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT16_5",
     name: "Sexta-feira da 16ª semana depois de Pentecostes",
     color: "g",
@@ -1619,9 +1425,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT16_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT16_6",
     name: "Sábado da 16ª semana depois de Pentecostes",
     color: "g",
@@ -1640,9 +1444,9 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
     // 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-        { rubrics: "*", name: "Semiduplex", precedence: 5 },
-        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
-     ],
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -1650,9 +1454,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT17_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT17_1",
     name: "Segunda-feira da 17ª semana depois de Pentecostes",
     color: "g",
@@ -1664,9 +1466,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT17_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT17_2",
     name: "Terça-feira da 17ª semana depois de Pentecostes",
     color: "g",
@@ -1678,9 +1478,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT17_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT17_3",
     name: "Quarta-feira da 17ª semana depois de Pentecostes",
     color: "g",
@@ -1692,9 +1490,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex II classis", precedence: 5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex II classis", precedence: 5 }],
     id: "TEMPORA_PENT_3",
     name: "Quarta-feira das Têmporas de Setembro",
     color: "v",
@@ -1705,9 +1501,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT17_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT17_4",
     name: "Quinta-feira da 17ª semana depois de Pentecostes",
     color: "g",
@@ -1719,9 +1513,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT17_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT17_5",
     name: "Sexta-feira da 17ª semana depois de Pentecostes",
     color: "g",
@@ -1733,9 +1525,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex II classis", precedence: 5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex II classis", precedence: 5 }],
     id: "TEMPORA_PENT_5",
     name: "Sexta-feira das Têmporas de Setembro",
     color: "v",
@@ -1746,9 +1536,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT17_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT17_6",
     name: "Sábado da 17ª semana depois de Pentecostes",
     color: "g",
@@ -1760,9 +1548,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex II classis", precedence: 5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex II classis", precedence: 5 }],
     id: "TEMPORA_PENT_6",
     name: "Sábado das Têmporas de Setembro",
     color: "v",
@@ -1780,9 +1566,9 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
     // 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-        { rubrics: "*", name: "Semiduplex", precedence: 5 },
-        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
-     ],
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -1790,9 +1576,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT18_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT18_1",
     name: "Segunda-feira da 18ª semana depois de Pentecostes",
     color: "g",
@@ -1804,9 +1588,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT18_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT18_2",
     name: "Terça-feira da 18ª semana depois de Pentecostes",
     color: "g",
@@ -1818,9 +1600,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT18_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT18_3",
     name: "Quarta-feira da 18ª semana depois de Pentecostes",
     color: "g",
@@ -1832,9 +1612,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT18_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT18_4",
     name: "Quinta-feira da 18ª semana depois de Pentecostes",
     color: "g",
@@ -1846,9 +1624,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT18_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT18_5",
     name: "Sexta-feira da 18ª semana depois de Pentecostes",
     color: "g",
@@ -1860,9 +1636,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT18_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT18_6",
     name: "Sábado da 18ª semana depois de Pentecostes",
     color: "g",
@@ -1881,9 +1655,9 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
     // 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-        { rubrics: "*", name: "Semiduplex", precedence: 5 },
-        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
-     ],
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -1891,9 +1665,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT19_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT19_1",
     name: "Segunda-feira da 19ª semana depois de Pentecostes",
     color: "g",
@@ -1905,9 +1677,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT19_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT19_2",
     name: "Terça-feira da 19ª semana depois de Pentecostes",
     color: "g",
@@ -1919,9 +1689,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT19_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT19_3",
     name: "Quarta-feira da 19ª semana depois de Pentecostes",
     color: "g",
@@ -1933,9 +1701,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT19_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT19_4",
     name: "Quinta-feira da 19ª semana depois de Pentecostes",
     color: "g",
@@ -1947,9 +1713,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT19_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT19_5",
     name: "Sexta-feira da 19ª semana depois de Pentecostes",
     color: "g",
@@ -1961,9 +1725,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT19_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT19_6",
     name: "Sábado da 19ª semana depois de Pentecostes",
     color: "g",
@@ -1982,9 +1744,9 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
     // 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-        { rubrics: "*", name: "Semiduplex", precedence: 5 },
-        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
-     ],
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -1992,9 +1754,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT20_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT20_1",
     name: "Segunda-feira da 20ª semana depois de Pentecostes",
     color: "g",
@@ -2006,9 +1766,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT20_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT20_2",
     name: "Terça-feira da 20ª semana depois de Pentecostes",
     color: "g",
@@ -2020,9 +1778,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT20_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT20_3",
     name: "Quarta-feira da 20ª semana depois de Pentecostes",
     color: "g",
@@ -2034,9 +1790,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT20_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT20_4",
     name: "Quinta-feira da 20ª semana depois de Pentecostes",
     color: "g",
@@ -2048,9 +1802,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT20_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT20_5",
     name: "Sexta-feira da 20ª semana depois de Pentecostes",
     color: "g",
@@ -2062,9 +1814,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT20_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT20_6",
     name: "Sábado da 20ª semana depois de Pentecostes",
     color: "g",
@@ -2083,9 +1833,9 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
     // 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-        { rubrics: "*", name: "Semiduplex", precedence: 5 },
-        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
-     ],
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -2093,9 +1843,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT21_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT21_1",
     name: "Segunda-feira da 21ª semana depois de Pentecostes",
     color: "g",
@@ -2107,9 +1855,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT21_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT21_2",
     name: "Terça-feira da 21ª semana depois de Pentecostes",
     color: "g",
@@ -2121,9 +1867,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT21_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT21_3",
     name: "Quarta-feira da 21ª semana depois de Pentecostes",
     color: "g",
@@ -2135,9 +1879,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT21_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT21_4",
     name: "Quinta-feira da 21ª semana depois de Pentecostes",
     color: "g",
@@ -2149,9 +1891,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT21_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT21_5",
     name: "Sexta-feira da 21ª semana depois de Pentecostes",
     color: "g",
@@ -2163,9 +1903,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT21_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT21_6",
     name: "Sábado da 21ª semana depois de Pentecostes",
     color: "g",
@@ -2184,9 +1922,9 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
     // 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-        { rubrics: "*", name: "Semiduplex", precedence: 5 },
-        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
-     ],
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -2194,9 +1932,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT22_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT22_1",
     name: "Segunda-feira da 22ª semana depois de Pentecostes",
     color: "g",
@@ -2208,9 +1944,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT22_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT22_2",
     name: "Terça-feira da 22ª semana depois de Pentecostes",
     color: "g",
@@ -2222,9 +1956,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT22_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT22_3",
     name: "Quarta-feira da 22ª semana depois de Pentecostes",
     color: "g",
@@ -2236,9 +1968,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT22_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT22_4",
     name: "Quinta-feira da 22ª semana depois de Pentecostes",
     color: "g",
@@ -2250,9 +1980,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT22_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT22_5",
     name: "Sexta-feira da 22ª semana depois de Pentecostes",
     color: "g",
@@ -2264,9 +1992,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT22_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT22_6",
     name: "Sábado da 22ª semana depois de Pentecostes",
     color: "g",
@@ -2285,9 +2011,9 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
     // 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-        { rubrics: "*", name: "Semiduplex", precedence: 5 },
-        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
-     ],
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -2295,9 +2021,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT23_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT23_1",
     name: "Segunda-feira da 23ª semana depois de Pentecostes",
     color: "g",
@@ -2309,9 +2033,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT23_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT23_2",
     name: "Terça-feira da 23ª semana depois de Pentecostes",
     color: "g",
@@ -2323,9 +2045,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT23_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT23_3",
     name: "Quarta-feira da 23ª semana depois de Pentecostes",
     color: "g",
@@ -2337,9 +2057,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT23_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT23_4",
     name: "Quinta-feira da 23ª semana depois de Pentecostes",
     color: "g",
@@ -2351,9 +2069,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT23_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT23_5",
     name: "Sexta-feira da 23ª semana depois de Pentecostes",
     color: "g",
@@ -2365,9 +2081,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT23_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT23_6",
     name: "Sábado da 23ª semana depois de Pentecostes",
     color: "g",
@@ -2379,9 +2093,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENTEPI3_0: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex II classis", precedence: 5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex II classis", precedence: 5 }],
     id: "TEMPORA_PENTEPI3_0",
     name: "3º Domingo após a Epifania",
     color: "g",
@@ -2393,9 +2105,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENTEPI3_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENTEPI3_1",
     name: "Segunda-feira da 3ª semana após a Epifania",
     color: "g",
@@ -2407,9 +2117,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENTEPI3_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENTEPI3_2",
     name: "Terça-feira da 3ª semana após a Epifania",
     color: "g",
@@ -2421,9 +2129,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENTEPI3_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENTEPI3_3",
     name: "Quarta-feira da 3ª semana após a Epifania",
     color: "g",
@@ -2435,9 +2141,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENTEPI3_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENTEPI3_4",
     name: "Quinta-feira da 3ª semana após a Epifania",
     color: "g",
@@ -2449,9 +2153,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENTEPI3_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENTEPI3_5",
     name: "Sexta-feira da 3ª semana após a Epifania",
     color: "g",
@@ -2463,9 +2165,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENTEPI3_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENTEPI3_6",
     name: "Sábado da 3ª semana após a Epifania",
     color: "g",
@@ -2477,9 +2177,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENTEPI4_0: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex II classis", precedence: 5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex II classis", precedence: 5 }],
     id: "TEMPORA_PENTEPI4_0",
     name: "4º Domingo após a Epifania",
     color: "g",
@@ -2491,9 +2189,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENTEPI4_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENTEPI4_1",
     name: "Segunda-feira da 4ª semana após a Epifania",
     color: "g",
@@ -2505,9 +2201,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENTEPI4_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENTEPI4_2",
     name: "Terça-feira da 4ª semana após a Epifania",
     color: "g",
@@ -2519,9 +2213,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENTEPI4_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENTEPI4_3",
     name: "Quarta-feira da 4ª semana após a Epifania",
     color: "g",
@@ -2533,9 +2225,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENTEPI4_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENTEPI4_4",
     name: "Quinta-feira da 4ª semana após a Epifania",
     color: "g",
@@ -2547,9 +2237,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENTEPI4_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENTEPI4_5",
     name: "Sexta-feira da 4ª semana após a Epifania",
     color: "g",
@@ -2561,9 +2249,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENTEPI4_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENTEPI4_6",
     name: "Sábado da 4ª semana após a Epifania",
     color: "g",
@@ -2575,9 +2261,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENTEPI5_0: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex II classis", precedence: 5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex II classis", precedence: 5 }],
     id: "TEMPORA_PENTEPI5_0",
     name: "5º Domingo após a Epifania",
     color: "g",
@@ -2589,9 +2273,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENTEPI5_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENTEPI5_1",
     name: "Segunda-feira da 5ª semana após a Epifania",
     color: "g",
@@ -2603,9 +2285,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENTEPI5_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENTEPI5_2",
     name: "Terça-feira da 5ª semana após a Epifania",
     color: "g",
@@ -2617,9 +2297,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENTEPI5_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENTEPI5_3",
     name: "Quarta-feira da 5ª semana após a Epifania",
     color: "g",
@@ -2631,9 +2309,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENTEPI5_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENTEPI5_4",
     name: "Quinta-feira da 5ª semana após a Epifania",
     color: "g",
@@ -2645,9 +2321,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENTEPI5_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENTEPI5_5",
     name: "Sexta-feira da 5ª semana após a Epifania",
     color: "g",
@@ -2659,9 +2333,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENTEPI5_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENTEPI5_6",
     name: "Sábado da 5ª semana após a Epifania",
     color: "g",
@@ -2673,9 +2345,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENTEPI6_0: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex II classis", precedence: 5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex II classis", precedence: 5 }],
     id: "TEMPORA_PENTEPI6_0",
     name: "6º Domingo após a Epifania",
     color: "g",
@@ -2687,9 +2357,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENTEPI6_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENTEPI6_1",
     name: "Segunda-feira da 6ª semana após a Epifania",
     color: "g",
@@ -2701,9 +2369,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENTEPI6_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENTEPI6_2",
     name: "Terça-feira da 6ª semana após a Epifania",
     color: "g",
@@ -2715,9 +2381,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENTEPI6_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENTEPI6_3",
     name: "Quarta-feira da 6ª semana após a Epifania",
     color: "g",
@@ -2729,9 +2393,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENTEPI6_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENTEPI6_4",
     name: "Quinta-feira da 6ª semana após a Epifania",
     color: "g",
@@ -2743,9 +2405,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENTEPI6_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENTEPI6_5",
     name: "Sexta-feira da 6ª semana após a Epifania",
     color: "g",
@@ -2757,9 +2417,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENTEPI6_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENTEPI6_6",
     name: "Sábado da 6ª semana após a Epifania",
     color: "g",
@@ -2778,9 +2436,9 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
     // 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-        { rubrics: "*", name: "Semiduplex", precedence: 5 },
-        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
-     ],
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "week-24-after-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -2788,9 +2446,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT24_1: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT24_1",
     name: "Segunda-feira da 24ª semana depois de Pentecostes",
     color: "g",
@@ -2802,9 +2458,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT24_2: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT24_2",
     name: "Terça-feira da 24ª semana depois de Pentecostes",
     color: "g",
@@ -2816,9 +2470,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT24_3: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT24_3",
     name: "Quarta-feira da 24ª semana depois de Pentecostes",
     color: "g",
@@ -2830,9 +2482,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT24_4: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT24_4",
     name: "Quinta-feira da 24ª semana depois de Pentecostes",
     color: "g",
@@ -2844,9 +2494,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT24_5: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT24_5",
     name: "Sexta-feira da 24ª semana depois de Pentecostes",
     color: "g",
@@ -2858,9 +2506,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
   },
   TEMPORA_PENT24_6: {
     flexibility: "tempora",
-    rankVariants: [
-        { rubrics: "*", name: "Simplex", precedence: 1.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Simplex", precedence: 1.5 }],
     id: "TEMPORA_PENT24_6",
     name: "Sábado da 24ª semana depois de Pentecostes",
     color: "g",

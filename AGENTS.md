@@ -226,7 +226,6 @@ When working on this project, always remember:
 
 Remember: This application preserves and shares sacred Catholic traditions. Every line of code should reflect the dignity and importance of this mission.
 
-
 ## Commit Policy
 
 Commit proactively - do not wait to be asked:

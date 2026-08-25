@@ -52,8 +52,8 @@
   --font-family-italic:
     "DMSerifDisplay_400Regular_Italic", Georgia, "Times New Roman", Times, serif;
   --font-family-ui: "Inter_400Regular", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-  --font-family-ui-medium: "Inter_600SemiBold", system-ui, -apple-system, "Segoe UI", Roboto,
-    sans-serif;
+  --font-family-ui-medium:
+    "Inter_600SemiBold", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --font-family-ui-bold: "Inter_700Bold", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 
   /* Typography rhythm — used across all content utilities */

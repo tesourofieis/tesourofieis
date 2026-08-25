@@ -30,11 +30,7 @@ export function getChain(edition: CalendarEdition): CalendarDefinition[] {
  * (e.g. Advent ferias), then mapped back to the legacy coarse rank the
  * engine compares today.
  */
-export function computeRankFor(
-  edition: CalendarEdition,
-  mass: Mass,
-  date?: string,
-): number {
+export function computeRankFor(edition: CalendarEdition, mass: Mass, date?: string): number {
   // Ranks outside the legacy 1-4 scale are meaningful data (e.g. 0);
   // pass them through untouched unless the entry declares variants.
   const hasVariants = Boolean(mass.rankVariants?.length);
@@ -49,11 +45,7 @@ export function computeRankFor(
  * edition: rank variants resolved through the chain, then per-edition
  * adjustments (e.g. Advent ferias).
  */
-export function computePrecedenceFor(
-  edition: CalendarEdition,
-  mass: Mass,
-  date?: string,
-): number {
+export function computePrecedenceFor(edition: CalendarEdition, mass: Mass, date?: string): number {
   const chain = getChain(edition);
   let precedence = resolvePrecedence(chain, mass);
 

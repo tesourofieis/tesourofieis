@@ -5,10 +5,10 @@ import { getCalendarDay } from "~/lib/getCalendar";
 import { Typography } from "~/components/typography";
 import { useAppTheme } from "~/theme";
 
-const LABELS: Record<CalendarEdition, string> = {
+const LABELS = {
   "pre-55": "pré-55",
   "62": "1962",
-};
+} satisfies Record<CalendarEdition, string>;
 
 const EDITIONS = Object.keys(LABELS) as CalendarEdition[];
 

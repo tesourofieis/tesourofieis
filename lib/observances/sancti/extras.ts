@@ -4,9 +4,7 @@ import type { MassMap } from "../../domain";
 export const SANCTI_EXTRA: MassMap = {
   SANCTI_10_DUR: {
     flexibility: "santos",
-    rankVariants: [
-        { rubrics: "*", name: "Duplex I classis", precedence: 6.5 },
-     ],
+    rankVariants: [{ rubrics: "*", name: "Duplex I classis", precedence: 6.5 }],
     id: "SANCTI_10_DUR",
     name: "Cristo Rei",
     color: "w",

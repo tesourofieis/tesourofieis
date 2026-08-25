@@ -16,9 +16,7 @@ describe("gradeLabel", () => {
   });
 
   test("feast grades across the scale", () => {
-    expect(
-      gradeLabel(massOn("2026-08-16", "pre-55", "SANCTI_08_16")),
-    ).toBe("Duplex II classe"); // St Joachim, both eras II class
+    expect(gradeLabel(massOn("2026-08-16", "pre-55", "SANCTI_08_16"))).toBe("Duplex II classe"); // St Joachim, both eras II class
     const barbara = massOn("2026-12-04", "pre-55", "SANCTI_12_04_OUTRO");
     expect(gradeLabel(barbara)).toBe("Simplex");
     const lawrenceVigil = massOn("2027-08-09", "62", "SANCTI_08_09_OUTRO_1962");
