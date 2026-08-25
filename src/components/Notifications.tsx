@@ -39,8 +39,8 @@ const NotificationToggle = ({
         <View className="flex flex-row items-center justify-between">
           <IconComponent size={15} color={colors.textPrimary} />
           <View className="flex-1 ml-3">
-            <Typography className="bold text-sepia-800 dark:text-sepia-200">{title}</Typography>
-            <Typography className="font-display text-sepia-800 dark:text-sepia-200 text-sm">
+            <Typography className="font-ui-bold text-sepia-800 dark:text-sepia-200">{title}</Typography>
+            <Typography className="font-ui text-sepia-800 dark:text-sepia-200 text-sm">
               {description}
             </Typography>
           </View>
@@ -99,12 +99,12 @@ export const Notifications = () => {
           <H6 text="Notificações Desativadas" />
         </View>
 
-        <Typography className="font-display dark:text-sepia-200 text-sm">
+        <Typography className="font-ui dark:text-sepia-200 text-sm">
           {isSoftRejected
             ? "Os lembretes de oração ajudam a santificar o seu dia."
             : "Para receber notificações active as notificações."}
         </Typography>
-        <Typography className="font-display dark:text-sepia-200 text-xs">
+        <Typography className="font-ui dark:text-sepia-200 text-xs">
           {isSoftRejected
             ? '"Orai sem cessar" (1 Tes 5:17)'
             : "Pode ter que activar nas definições do dispositivo."}
@@ -114,7 +114,7 @@ export const Notifications = () => {
           className="bg-sepia-800 dark:bg-sepia-200 items-center justify-center rounded mt-3 active:bg-sepia-700 dark:active:bg-sepia-300"
           onPressOut={requestPermission}
         >
-          <Typography className="m-5 text-sepia-300 dark:text-sepia-700">
+          <Typography className="m-5 font-ui-bold text-sepia-300 dark:text-sepia-700">
             Activar Notificações
           </Typography>
         </Pressable>
@@ -129,11 +129,11 @@ export const Notifications = () => {
         <H6 text="Configurar Notificações" />
       </View>
 
-      <Typography className="font-display dark:text-sepia-200 text-sm">
+      <Typography className="font-ui dark:text-sepia-200 text-sm">
         Receba notificações sobre as mais importantes orações do dia.
       </Typography>
 
-      <Typography className="font-display text-xs text-sepia-700 dark:text-sepia-300">
+      <Typography className="font-ui text-xs text-sepia-700 dark:text-sepia-300">
         As notificações dinâmicas, como as da Missa do Dia e Novenas, necessitam de que o utilizador
         use a aplicação pelo menos uma vez por semana.
       </Typography>
@@ -189,7 +189,7 @@ export const Notifications = () => {
             onPressOut={toggleExpand}
             className="p-3 soft-background text-sepia-700 dark:text-sepia-300"
           >
-            <Typography className="text-center bold text-sepia-800 dark:text-sepia-200">
+            <Typography className="text-center font-ui-medium text-sepia-800 dark:text-sepia-200">
               {isExpanded ? "Esconder lista notificações" : "Mostrar lista de notificações"}
             </Typography>
           </TouchableOpacity>

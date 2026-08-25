@@ -104,13 +104,13 @@ function CardContent({
       <View className="flex-1">
         {description ? (
           <Typography
-            className="font-strong text-xs text-sepia-600 dark:text-sepia-300"
+            className="font-ui-medium text-xs text-sepia-600 dark:text-sepia-300"
             numberOfLines={1}
           >
             {description}
           </Typography>
         ) : null}
-        <Typography className="font-strong text-base text-sepia-700 dark:text-sepia-200">
+        <Typography className="font-ui-bold text-base text-sepia-700 dark:text-sepia-200">
           {title || ""}
         </Typography>
       </View>
@@ -274,7 +274,7 @@ export default function PageLinkCard({
                     </View>
 
                     <Typography
-                      className={`${isFeatured ? "font-display" : "font-strong"} ${massNameClass(mass.rank)}`}
+                      className={`${isFeatured ? "font-display" : "font-ui-medium"} ${massNameClass(mass.rank)}`}
                       style={{
                         fontSize: isFeatured ? 17 : 15,
                         lineHeight: isFeatured ? 24 : 21,

@@ -47,7 +47,7 @@ export function SegmentedOption<T extends string>({
             accessibilityState={{ selected }}
           >
             <Typography
-              className={`font-strong ${
+              className={`font-ui-bold ${
                 selected
                   ? "text-sepia-200 dark:text-sepia-800"
                   : "text-sepia-800 dark:text-sepia-200"

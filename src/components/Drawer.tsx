@@ -102,8 +102,8 @@ const TreeItem = React.memo(
     const chevronWidth = 20;
     const indent = level * chevronWidth;
 
-    const itemText = "text-sepia-700 dark:text-sepia-300 font-reading text-[14px] flex-1";
-    const activeText = "text-burgundy-600 dark:text-burgundy-300 font-strong";
+    const itemText = "text-sepia-700 dark:text-sepia-300 font-ui text-[14px] flex-1";
+    const activeText = "text-burgundy-600 dark:text-burgundy-300 font-ui-bold";
 
     return (
       <TouchableOpacity
@@ -398,7 +398,7 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
           accessibilityLabel="Início"
         >
           <BookPlus size={20} color={burgundy[500]} />
-          <Text className="font-display text-base text-sepia-800 dark:text-sepia-200">
+          <Text className="font-ui-bold text-base text-sepia-800 dark:text-sepia-200">
             Tesouro dos Fiéis
           </Text>
         </TouchableOpacity>
@@ -429,7 +429,7 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
             <View style={{ width: 20, alignItems: "center" }}>
               <Search size={14} className="text-sepia-700 dark:text-sepia-300" />
             </View>
-            <Text className="font-reading text-sm text-sepia-700 dark:text-sepia-300">
+            <Text className="font-ui text-sm text-sepia-700 dark:text-sepia-300">
               Pesquisar
             </Text>
           </TouchableOpacity>
@@ -468,9 +468,9 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
               />
             </View>
             <Text
-              className={`font-reading text-sm ${
+              className={`font-ui text-sm ${
                 pathname === "/calendario"
-                  ? "text-burgundy-600 dark:text-burgundy-300 font-strong"
+                  ? "text-burgundy-600 dark:text-burgundy-300 font-ui-bold"
                   : "text-sepia-700 dark:text-sepia-300"
               }`}
             >
@@ -483,7 +483,7 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
         {isLoadingInitialDocs ? (
           <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
             <ActivityIndicator size="large" />
-            <Text className="font-reading text-sm text-sepia-500 mt-2">A carregar...</Text>
+            <Text className="font-ui text-sm text-sepia-500 mt-2">A carregar...</Text>
           </View>
         ) : (
           <FlatList
@@ -536,7 +536,7 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
           <View style={{ width: 20, alignItems: "center" }}>
             <Settings size={14} className="text-sepia-700 dark:text-sepia-300" />
           </View>
-          <Text className="font-reading text-sm text-sepia-700 dark:text-sepia-300">
+          <Text className="font-ui text-sm text-sepia-700 dark:text-sepia-300">
             Configurações
           </Text>
         </TouchableOpacity>

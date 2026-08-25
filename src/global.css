@@ -51,6 +51,10 @@
   --font-family-bold: "Cardo_700Bold", Georgia, "Times New Roman", Times, serif;
   --font-family-italic:
     "DMSerifDisplay_400Regular_Italic", Georgia, "Times New Roman", Times, serif;
+  --font-family-ui: "Inter_400Regular", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-family-ui-medium: "Inter_600SemiBold", system-ui, -apple-system, "Segoe UI", Roboto,
+    sans-serif;
+  --font-family-ui-bold: "Inter_700Bold", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 
   /* Typography rhythm — used across all content utilities */
   --line-height-base: 1.75;
@@ -176,6 +180,20 @@
 
 @utility font-strong {
   font-family: var(--font-family-bold);
+}
+
+/* UI chrome — buttons, lists, tabs, labels. Sans-serif for contrast
+   with the serif reading/display text. */
+@utility font-ui {
+  font-family: var(--font-family-ui);
+}
+
+@utility font-ui-medium {
+  font-family: var(--font-family-ui-medium);
+}
+
+@utility font-ui-bold {
+  font-family: var(--font-family-ui-bold);
 }
 
 @utility text-sepia {

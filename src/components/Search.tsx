@@ -240,14 +240,14 @@ const SearchResultItem = React.memo(
 
           {item.content.headings.length > 1 && (
             <View className="mt-2">
-              <Typography className="font-display">Secções:</Typography>
+              <Typography className="font-ui-medium">Secções:</Typography>
               <View className="flex-row flex-wrap gap-2 mt-1">
                 {item.content.headings
                   .filter((heading) => heading.id !== item.matchedHeading?.id)
                   .slice(0, 10)
                   .map((heading) => (
                     <TouchableOpacity key={heading.id} onPress={() => handlePress(heading.id)}>
-                      <Typography className="font-display text-xs underline" numberOfLines={1}>
+                      <Typography className="font-ui text-xs underline" numberOfLines={1}>
                         {heading.title}
                       </Typography>
                     </TouchableOpacity>
@@ -302,7 +302,7 @@ function SearchFiltersBar({
 
   return (
     <View className="mt-3 px-2">
-      <Typography className="text-sm font-display mb-2 text-sepia-500 dark:text-sepia-300">
+      <Typography className="text-sm font-ui-medium mb-2 text-sepia-500 dark:text-sepia-300">
         Filtrar por seção:
       </Typography>
       <ScrollView horizontal>

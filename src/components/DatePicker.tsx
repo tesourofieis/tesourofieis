@@ -55,7 +55,7 @@ export function DatePicker({ date, onDateChange, children }: DatePickerProps) {
       // Week day names
       itemWeekName: {
         content: {
-          fontFamily: FONT_FAMILIES.reading,
+          fontFamily: FONT_FAMILIES.ui,
           fontSize: 11,
           color: textMuted,
           letterSpacing: 0.5,
@@ -69,7 +69,7 @@ export function DatePicker({ date, onDateChange, children }: DatePickerProps) {
             borderRadius: 99,
           },
           content: {
-            fontFamily: FONT_FAMILIES.reading,
+            fontFamily: FONT_FAMILIES.ui,
             fontSize: 14,
             color: isDark ? COLORS["300"] : COLORS["600"],
           },
@@ -80,7 +80,7 @@ export function DatePicker({ date, onDateChange, children }: DatePickerProps) {
             borderRadius: 99,
           },
           content: {
-            fontFamily: FONT_FAMILIES.reading,
+            fontFamily: FONT_FAMILIES.ui,
             fontSize: 14,
             color: isPressed || isHovered ? "#fff" : isDark ? COLORS["100"] : COLORS["700"],
           },
@@ -91,7 +91,7 @@ export function DatePicker({ date, onDateChange, children }: DatePickerProps) {
             borderRadius: 99,
           },
           content: {
-            fontFamily: FONT_FAMILIES.reading,
+            fontFamily: FONT_FAMILIES.ui,
             fontSize: 14,
             color: "#fff",
           },
@@ -144,7 +144,7 @@ export function DatePicker({ date, onDateChange, children }: DatePickerProps) {
 
             <Text
               style={{
-                fontFamily: FONT_FAMILIES.display,
+                fontFamily: FONT_FAMILIES.uiBold,
                 fontSize: 18,
                 color: textPrimary,
               }}

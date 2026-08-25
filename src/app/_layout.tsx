@@ -34,6 +34,9 @@ export default function PageRootLayout() {
     Cardo_700Bold: require("~/assets/fonts/Cardo_700Bold.ttf"),
     DMSerifDisplay_400Regular: require("~/assets/fonts/DMSerifDisplay_400Regular.ttf"),
     DMSerifDisplay_400Regular_Italic: require("~/assets/fonts/DMSerifDisplay_400Regular_Italic.ttf"),
+    Inter_400Regular: require("~/assets/fonts/Inter_400Regular.ttf"),
+    Inter_600SemiBold: require("~/assets/fonts/Inter_600SemiBold.ttf"),
+    Inter_700Bold: require("~/assets/fonts/Inter_700Bold.ttf"),
   });
 
   useEffect(() => {

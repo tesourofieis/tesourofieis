@@ -94,7 +94,7 @@ export function H3({ text, id, className = "" }: HeadingProps) {
     <Text
       nativeID={anchorId}
       onLayout={(e) => registerAnchor(anchorId, e.nativeEvent.layout.y)}
-      className={`font-display text-center tracking-widest uppercase text-sepia-500 dark:text-sepia-400 pt-7 pb-1 ${H3_SIZE[fontSize]} ${className}`}
+      className={`font-display text-center text-sepia-500 dark:text-sepia-400 pt-7 pb-1 ${H3_SIZE[fontSize]} ${className}`}
     >
       {text}
     </Text>

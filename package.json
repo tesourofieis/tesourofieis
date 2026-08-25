@@ -34,6 +34,7 @@
     "cf:destroy": "alchemy destroy"
   },
   "dependencies": {
+    "@expo-google-fonts/inter": "^0.4.2",
     "@gorhom/bottom-sheet": "^5.2.8",
     "@marceloterreiro/flash-calendar": "^2.0.0",
     "@react-native-async-storage/async-storage": "2.2.0",

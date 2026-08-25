@@ -114,7 +114,7 @@ export default function ExternalLinks() {
               <View className={cardBase(pressed)}>
                 <View className="flex flex-row justify-between items-center gap-1 mr-2">
                   <View className="flex-1">
-                    <View className="flex text-pretty bold flex-row items-center gap-2">
+                    <View className="flex text-pretty font-ui-medium flex-row items-center gap-2">
                       {(() => {
                         const IconComponent = getIconComponent(link.icon);
                         return (
@@ -128,7 +128,7 @@ export default function ExternalLinks() {
 
                     <View className="flex flex-row">
                       <Typography
-                        className="text-pretty bold text-xs text-sepia-600 dark:text-sepia-200"
+                        className="text-pretty font-ui text-xs text-sepia-600 dark:text-sepia-200"
                         numberOfLines={1}
                       >
                         {link.desc}

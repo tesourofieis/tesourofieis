@@ -32,6 +32,9 @@ export const FONT_FAMILIES = {
   strong: "Cardo_700Bold",
   display: "DMSerifDisplay_400Regular",
   displayItalic: "DMSerifDisplay_400Regular_Italic",
+  ui: "Inter_400Regular",
+  uiMedium: "Inter_600SemiBold",
+  uiBold: "Inter_700Bold",
 } as const;
 
 const THEME_COLORS = {
