@@ -1,4 +1,4 @@
-import { ChevronRight, ChevronDown, MapPin, Sparkles, Calendar, Users } from "lucide-react-native";
+import { ChevronRight, ChevronDown, MapPin, Sparkles, Users } from "lucide-react-native";
 import { burgundy } from "config";
 import type React from "react";
 import type { Mass } from "~/lib/domain";
@@ -283,7 +283,7 @@ export default function PageLinkCard({
                       {mass.name || ""}
                     </Typography>
 
-                    {(mass.local || mass.calendar || mass.outro) && (
+                    {(mass.local || mass.outro) && (
                       <View
                         className={`flex-row items-center flex-wrap gap-3 ${isFeatured ? "mt-2" : "mt-1"}`}
                       >
@@ -293,12 +293,6 @@ export default function PageLinkCard({
                             <Typography className="text-xs text-sepia-500">
                               {String(mass.local).toUpperCase()}
                             </Typography>
-                          </View>
-                        )}
-                        {mass.calendar === "62" && (
-                          <View className="flex-row items-center gap-1">
-                            <Calendar size={12} color={colors.textSubtle} />
-                            <Typography className="text-xs text-sepia-500">1962</Typography>
                           </View>
                         )}
                         {mass.outro && (
