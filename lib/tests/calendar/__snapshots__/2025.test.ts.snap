@@ -544,7 +544,7 @@ exports[`calendar 2025 (default edition) renders entire calendar correctly 1`] =
         "day": 19,
         "flexibility": "santos",
         "id": "SANCTI_01_19_CANUTI",
-        "link": "missal/santos/01-19",
+        "link": "missal/santos/01-19o",
         "month": 1,
         "name": "S. Canuto, Rei e Mártir",
         "precedence": 1.1,

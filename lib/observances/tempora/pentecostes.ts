@@ -2131,7 +2131,7 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     name: "Segunda-feira da 3ª semana após a Epifania",
     rank: 4,
     color: "g",
-    link: "missal/pentecostes/pentiepi3-0",
+    link: "missal/pentecostes/pentepi3-0",
     type: "pentepi",
     category: "epifania",
     weekday: 1,

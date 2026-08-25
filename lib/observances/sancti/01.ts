@@ -319,7 +319,7 @@ export const SANCTI_01: MassMap = {
     name: "S. Canuto, Rei e Mártir",
     rank: 3,
     color: "r",
-    link: "missal/santos/01-19",
+    link: "missal/santos/01-19o",
     rankVariants: [
       { rubrics: "*", name: "Semiduplex", precedence: 2.2 },
       { rubrics: "Rubrics 1960 - 1960", name: "Simplex", precedence: 1.1 },
