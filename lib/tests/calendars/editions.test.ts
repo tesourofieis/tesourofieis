@@ -92,3 +92,63 @@ describe("edition-aware year calendars", () => {
     }
   });
 });
+
+describe("divergence-catalogue routing", () => {
+  const cases = [
+    {
+      date: "2026-05-03",
+      pre55: ["SANCTI_05_03"],
+      m62: ["SANCTI_05_03_1962"],
+      notPre55: [],
+      not62: ["SANCTI_05_03"],
+    },
+    {
+      date: "2026-06-28",
+      pre55: ["SANCTI_06_28", "SANCTI_06_28_OUTRO"],
+      m62: ["SANCTI_06_28"],
+      notPre55: [],
+      not62: ["SANCTI_06_28_OUTRO"],
+    },
+    {
+      date: "2026-08-01",
+      pre55: ["SANCTI_08_01_AD_VINCULA", "SANCTI_08_01"],
+      m62: ["SANCTI_08_01"],
+      notPre55: [],
+      not62: ["SANCTI_08_01_AD_VINCULA"],
+    },
+    {
+      date: "2026-08-09",
+      pre55: ["SANCTI_08_09"],
+      m62: ["SANCTI_08_09_OUTRO_1962"],
+      notPre55: [],
+      not62: ["SANCTI_08_09"],
+    },
+    {
+      date: "2026-11-29",
+      pre55: ["SANCTI_11_29"],
+      m62: ["SANCTI_11_29_1962"],
+      notPre55: ["SANCTI_11_29_1962"],
+      not62: ["SANCTI_11_29"],
+    },
+  ];
+
+  test("each edition celebrates what its Kalendaria prescribes", () => {
+    for (const { date, pre55, m62, notPre55, not62 } of cases) {
+      const ids = (ed: "pre-55" | "62") =>
+        getCalendarDay(date, ed)?.mass.map((m) => m.id) ?? [];
+      for (const id of pre55) expect(ids("pre-55")).toContain(id);
+      for (const id of m62) expect(ids("62")).toContain(id);
+      for (const id of notPre55) expect(ids("pre-55")).not.toContain(id);
+      for (const id of not62) expect(ids("62")).not.toContain(id);
+    }
+  });
+
+  test("the Peter and Paul vigil is II class under Rubrics 1960 only", () => {
+    const vigil55 = getCalendarDay("2026-06-28", "pre-55")?.mass.find(
+      (m) => m.id === "SANCTI_06_28",
+    );
+    const vigil62 = getCalendarDay("2026-06-28", "62")?.mass.find((m) => m.id === "SANCTI_06_28");
+    expect(vigil55?.rank).toBe(3);
+    expect(vigil62?.rank).toBe(2);
+  });
+});

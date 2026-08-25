@@ -330,6 +330,10 @@ export const SANCTI_06: MassMap = {
     category: "santos",
     month: 6,
     day: 28,
+    rankVariants: [
+      { rubrics: "*", name: "Duplex", precedence: 3.5 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Duplex II classis", precedence: 5 },
+    ],
   },
   SANCTI_06_28_OUTRO: {
     flexibility: "santos",
@@ -338,7 +342,9 @@ export const SANCTI_06: MassMap = {
     rank: 3,
     color: "r",
     link: "missal/santos/06-28-outro",
-    outro: true,
+    // Universal Roman calendar under Divino Afflatu; Rubrics 1960 move
+    // him to Jul 3rd (see SANCTI_07_03_OUTRO_1962 in the override layer).
+    suppressedIn: ["62"],
     type: "sancti",
     category: "santos",
     month: 6,
