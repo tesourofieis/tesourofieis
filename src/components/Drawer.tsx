@@ -102,7 +102,10 @@ const TreeItem = React.memo(
     const chevronWidth = 20;
     const indent = level * chevronWidth;
 
-    const itemText = "text-sepia-700 dark:text-sepia-300 font-ui text-[14px] flex-1";
+    const isTopLevel = level === 0;
+    const itemText = isTopLevel
+      ? "text-sepia-700 dark:text-sepia-300 font-ui-bold text-[15px] flex-1"
+      : "text-sepia-700 dark:text-sepia-300 font-ui text-[14px] flex-1";
     const activeText = "text-burgundy-600 dark:text-burgundy-300 font-ui-bold";
 
     return (
@@ -429,7 +432,7 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
             <View style={{ width: 20, alignItems: "center" }}>
               <Search size={14} className="text-sepia-700 dark:text-sepia-300" />
             </View>
-            <Text className="font-ui text-sm text-sepia-700 dark:text-sepia-300">
+            <Text className="font-ui-medium text-sm text-sepia-700 dark:text-sepia-300">
               Pesquisar
             </Text>
           </TouchableOpacity>
@@ -468,7 +471,7 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
               />
             </View>
             <Text
-              className={`font-ui text-sm ${
+              className={`font-ui-medium text-sm ${
                 pathname === "/calendario"
                   ? "text-burgundy-600 dark:text-burgundy-300 font-ui-bold"
                   : "text-sepia-700 dark:text-sepia-300"
@@ -536,7 +539,7 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
           <View style={{ width: 20, alignItems: "center" }}>
             <Settings size={14} className="text-sepia-700 dark:text-sepia-300" />
           </View>
-          <Text className="font-ui text-sm text-sepia-700 dark:text-sepia-300">
+          <Text className="font-ui-medium text-sm text-sepia-700 dark:text-sepia-300">
             Configurações
           </Text>
         </TouchableOpacity>
