@@ -6427,9 +6427,7 @@ exports[`calendar pre-55 2028 renders the full year 1`] = `
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [],
-    "date": "2028-07-04",
-    "mass": [
+    "alternatives": [
       {
         "category": "santos",
         "color": "w",
@@ -6438,12 +6436,16 @@ exports[`calendar pre-55 2028 renders the full year 1`] = `
         "flexibility": "santos",
         "id": "SANCTI_07_04",
         "link": "missal/santos/07-04",
+        "local": "portugal",
         "month": 7,
         "name": "S. Isabel, Rainha de Portugal e Viúva",
         "precedence": 3.5,
         "rank": 3,
         "type": "sancti",
       },
+    ],
+    "date": "2028-07-04",
+    "mass": [
       {
         "category": "pentecostes",
         "color": "g",
@@ -19748,9 +19750,7 @@ exports[`calendar 62 2028 renders the full year 1`] = `
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [],
-    "date": "2028-07-04",
-    "mass": [
+    "alternatives": [
       {
         "category": "santos",
         "color": "w",
@@ -19759,12 +19759,16 @@ exports[`calendar 62 2028 renders the full year 1`] = `
         "flexibility": "santos",
         "id": "SANCTI_07_04",
         "link": "missal/santos/07-04",
+        "local": "portugal",
         "month": 7,
         "name": "S. Isabel, Rainha de Portugal e Viúva",
         "precedence": 3.5,
         "rank": 3,
         "type": "sancti",
       },
+    ],
+    "date": "2028-07-04",
+    "mass": [
       {
         "category": "pentecostes",
         "color": "g",

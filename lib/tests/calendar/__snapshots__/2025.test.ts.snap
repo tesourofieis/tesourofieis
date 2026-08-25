@@ -6230,9 +6230,7 @@ exports[`calendar 2025 (default edition) renders entire calendar correctly 1`] =
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [],
-    "date": "2025-07-04",
-    "mass": [
+    "alternatives": [
       {
         "category": "santos",
         "color": "w",
@@ -6241,12 +6239,16 @@ exports[`calendar 2025 (default edition) renders entire calendar correctly 1`] =
         "flexibility": "santos",
         "id": "SANCTI_07_04",
         "link": "missal/santos/07-04",
+        "local": "portugal",
         "month": 7,
         "name": "S. Isabel, Rainha de Portugal e Viúva",
         "precedence": 3.5,
         "rank": 3,
         "type": "sancti",
       },
+    ],
+    "date": "2025-07-04",
+    "mass": [
       {
         "category": "pentecostes",
         "color": "g",

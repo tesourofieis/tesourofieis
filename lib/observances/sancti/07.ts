@@ -38,6 +38,8 @@ export const SANCTI_07: MassMap = {
     month: 7,
     day: 3,
   },
+  // Particular calendar of Portugal: dies natalis (July 4). The
+  // universal Roman office is July 8 - see SANCTI_07_08.
   SANCTI_07_04: {
     flexibility: "santos",
     id: "SANCTI_07_04",
@@ -45,6 +47,7 @@ export const SANCTI_07: MassMap = {
     rank: 3,
     color: "w",
     link: "missal/santos/07-04",
+    local: "portugal",
     type: "sancti",
     category: "santos",
     month: 7,
@@ -74,6 +77,8 @@ export const SANCTI_07: MassMap = {
     month: 7,
     day: 7,
   },
+  // Universal Roman date (Innocent XII, 1691); Portugal keeps the
+  // dies natalis on July 4 - see the local entry above.
   SANCTI_07_08: {
     flexibility: "santos",
     id: "SANCTI_07_08",
