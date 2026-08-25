@@ -5,17 +5,8 @@ import type { Mass } from "~/lib/domain";
 import { Link } from "expo-router";
 import { Pressable, View } from "react-native";
 import { useAppTheme } from "~/theme";
+import { gradeLabel } from "~/lib/calendars/grade";
 import { Typography } from "./typography";
-
-function toRoman(n: number): string {
-  const map = new Map<number, string>([
-    [1, "I"],
-    [2, "II"],
-    [3, "III"],
-    [4, "IV"],
-  ]);
-  return map.get(n) ?? String(n);
-}
 
 function massNameClass(rank: number): string {
   if (rank === 1) return "text-sepia-800 dark:text-sepia-100";
@@ -269,7 +260,7 @@ export default function PageLinkCard({
                     >
                       <Badge featured={isFeatured}>{description || "Missa"}</Badge>
                       <Badge featured={isFeatured} important={mass.rank === 1}>
-                        {toRoman(mass.rank)} classe
+                        {gradeLabel(mass)}
                       </Badge>
                     </View>
 
