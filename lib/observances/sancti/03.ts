@@ -210,6 +210,10 @@ export const SANCTI_03: MassMap = {
     category: "santos",
     month: 3,
     day: 24,
+    rankVariants: [
+      { rubrics: "*", name: "Duplex majus", precedence: 4 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Simplex", precedence: 1.5 },
+    ],
   },
   SANCTI_03_24_PORTUGAL: {
     flexibility: "santos",

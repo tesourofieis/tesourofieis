@@ -74,6 +74,18 @@ export const SANCTI_07: MassMap = {
     month: 7,
     day: 7,
   },
+  SANCTI_07_08: {
+    flexibility: "santos",
+    id: "SANCTI_07_08",
+    name: "S. Isabel de Portugal, Rainha e Viúva",
+    rank: 3,
+    color: "w",
+    link: "missal/santos/07-08",
+    type: "sancti",
+    category: "santos",
+    month: 7,
+    day: 8,
+  },
   SANCTI_07_10: {
     flexibility: "santos",
     id: "SANCTI_07_10",
