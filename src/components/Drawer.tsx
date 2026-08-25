@@ -50,9 +50,9 @@ function normalizePathForMatching(path: string): string {
 }
 
 const TOP_LEVEL_TEXT = {
-  small: "font-ui-bold text-sm",
-  medium: "font-ui-bold text-base",
-  large: "font-ui-bold text-lg",
+  small: "font-ui-bold text-xs",
+  medium: "font-ui-bold text-sm",
+  large: "font-ui-bold text-base",
 } as const;
 
 const CHILD_TEXT = {
