@@ -106,6 +106,12 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     rank: 2,
     color: "g",
     link: "missal/pentecostes/pent2-0",
+    // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
+    // 1960 - divinum-officium Tempora/[Rank], applied per era.
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -191,6 +197,12 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     rank: 2,
     color: "g",
     link: "missal/pentecostes/pent3-0",
+    // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
+    // 1960 - divinum-officium Tempora/[Rank], applied per era.
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -275,6 +287,12 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     rank: 2,
     color: "g",
     link: "missal/pentecostes/pent4-0",
+    // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
+    // 1960 - divinum-officium Tempora/[Rank], applied per era.
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -359,6 +377,12 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     rank: 2,
     color: "g",
     link: "missal/pentecostes/pent5-0",
+    // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
+    // 1960 - divinum-officium Tempora/[Rank], applied per era.
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -443,6 +467,12 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     rank: 2,
     color: "g",
     link: "missal/pentecostes/pent6-0",
+    // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
+    // 1960 - divinum-officium Tempora/[Rank], applied per era.
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -527,6 +557,12 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     rank: 2,
     color: "g",
     link: "missal/pentecostes/pent7-0",
+    // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
+    // 1960 - divinum-officium Tempora/[Rank], applied per era.
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -611,6 +647,12 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     rank: 2,
     color: "g",
     link: "missal/pentecostes/pent8-0",
+    // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
+    // 1960 - divinum-officium Tempora/[Rank], applied per era.
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -695,6 +737,12 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     rank: 2,
     color: "g",
     link: "missal/pentecostes/pent9-0",
+    // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
+    // 1960 - divinum-officium Tempora/[Rank], applied per era.
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -779,6 +827,12 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     rank: 2,
     color: "g",
     link: "missal/pentecostes/pent10-0",
+    // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
+    // 1960 - divinum-officium Tempora/[Rank], applied per era.
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -863,6 +917,12 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     rank: 2,
     color: "g",
     link: "missal/pentecostes/pent11-0",
+    // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
+    // 1960 - divinum-officium Tempora/[Rank], applied per era.
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -947,6 +1007,12 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     rank: 2,
     color: "g",
     link: "missal/pentecostes/pent12-0",
+    // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
+    // 1960 - divinum-officium Tempora/[Rank], applied per era.
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -1031,6 +1097,12 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     rank: 2,
     color: "g",
     link: "missal/pentecostes/pent13-0",
+    // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
+    // 1960 - divinum-officium Tempora/[Rank], applied per era.
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -1115,6 +1187,12 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     rank: 2,
     color: "g",
     link: "missal/pentecostes/pent14-0",
+    // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
+    // 1960 - divinum-officium Tempora/[Rank], applied per era.
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -1199,6 +1277,12 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     rank: 2,
     color: "g",
     link: "missal/pentecostes/pent15-0",
+    // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
+    // 1960 - divinum-officium Tempora/[Rank], applied per era.
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -1283,6 +1367,12 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     rank: 2,
     color: "g",
     link: "missal/pentecostes/pent16-0",
+    // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
+    // 1960 - divinum-officium Tempora/[Rank], applied per era.
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -1367,6 +1457,12 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     rank: 2,
     color: "g",
     link: "missal/pentecostes/pent17-0",
+    // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
+    // 1960 - divinum-officium Tempora/[Rank], applied per era.
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -1484,6 +1580,12 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     rank: 2,
     color: "g",
     link: "missal/pentecostes/pent18-0",
+    // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
+    // 1960 - divinum-officium Tempora/[Rank], applied per era.
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -1568,6 +1670,12 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     rank: 2,
     color: "g",
     link: "missal/pentecostes/pent19-0",
+    // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
+    // 1960 - divinum-officium Tempora/[Rank], applied per era.
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -1652,6 +1760,12 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     rank: 2,
     color: "g",
     link: "missal/pentecostes/pent20-0",
+    // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
+    // 1960 - divinum-officium Tempora/[Rank], applied per era.
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -1736,6 +1850,12 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     rank: 2,
     color: "g",
     link: "missal/pentecostes/pent21-0",
+    // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
+    // 1960 - divinum-officium Tempora/[Rank], applied per era.
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -1820,6 +1940,12 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     rank: 2,
     color: "g",
     link: "missal/pentecostes/pent22-0",
+    // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
+    // 1960 - divinum-officium Tempora/[Rank], applied per era.
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -1904,6 +2030,12 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     rank: 2,
     color: "g",
     link: "missal/pentecostes/pent23-0",
+    // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
+    // 1960 - divinum-officium Tempora/[Rank], applied per era.
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pentecostes",
     weekday: 0,
@@ -2324,6 +2456,12 @@ export const TEMPORA_PENTECOSTES: MassMap = {
     rank: 2,
     color: "g",
     link: "missal/pentecostes/pent24-0",
+    // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
+    // 1960 - divinum-officium Tempora/[Rank], applied per era.
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "week-24-after-pentcost",
     category: "pentecostes",
     weekday: 0,

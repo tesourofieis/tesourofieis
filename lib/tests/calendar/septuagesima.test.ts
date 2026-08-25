@@ -14,7 +14,7 @@ test("domingo septuagesima", () => {
         id: "TEMPORA_QUADP1_0",
         link: "missal/pre-quaresma/quadp1-0",
         name: "Domingo da Septuagésima",
-        rank: 2,
+        rank: 1,
         type: "pre-lent-to-pentcost",
         week: 1,
         weekday: 0,

@@ -93,6 +93,12 @@ export const TEMPORA_EPIFANIA: MassMap = {
     rank: 2,
     color: "g",
     link: "missal/epifania/epi2-0",
+    // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
+    // 1960 - divinum-officium Tempora/[Rank], applied per era.
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "post-epiphany",
     category: "epifania",
     weekday: 0,
@@ -177,6 +183,12 @@ export const TEMPORA_EPIFANIA: MassMap = {
     rank: 2,
     color: "g",
     link: "missal/epifania/epi3-0",
+    // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
+    // 1960 - divinum-officium Tempora/[Rank], applied per era.
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "post-epiphany",
     category: "epifania",
     weekday: 0,
@@ -261,6 +273,12 @@ export const TEMPORA_EPIFANIA: MassMap = {
     rank: 2,
     color: "g",
     link: "missal/epifania/epi4-0",
+    // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
+    // 1960 - divinum-officium Tempora/[Rank], applied per era.
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "post-epiphany",
     category: "epifania",
     weekday: 0,
@@ -345,6 +363,12 @@ export const TEMPORA_EPIFANIA: MassMap = {
     rank: 2,
     color: "g",
     link: "missal/epifania/epi5-0",
+    // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
+    // 1960 - divinum-officium Tempora/[Rank], applied per era.
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "post-epiphany",
     category: "epifania",
     weekday: 0,
@@ -429,6 +453,12 @@ export const TEMPORA_EPIFANIA: MassMap = {
     rank: 2,
     color: "g",
     link: "missal/epifania/epi6-0",
+    // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
+    // 1960 - divinum-officium Tempora/[Rank], applied per era.
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "post-epiphany",
     category: "epifania",
     weekday: 0,

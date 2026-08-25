@@ -177,6 +177,12 @@ export const TEMPORA_PASCOA: MassMap = {
     rank: 2,
     color: "w",
     link: "missal/pascoa/pasc2-0",
+    // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
+    // 1960 - divinum-officium Tempora/[Rank], applied per era.
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pascoa",
     weekday: 0,
@@ -261,6 +267,12 @@ export const TEMPORA_PASCOA: MassMap = {
     rank: 2,
     color: "w",
     link: "missal/pascoa/pasc3-0",
+    // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
+    // 1960 - divinum-officium Tempora/[Rank], applied per era.
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pascoa",
     weekday: 0,
@@ -345,6 +357,12 @@ export const TEMPORA_PASCOA: MassMap = {
     rank: 2,
     color: "w",
     link: "missal/pascoa/pasc4-0",
+    // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
+    // 1960 - divinum-officium Tempora/[Rank], applied per era.
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pascoa",
     weekday: 0,
@@ -429,6 +447,12 @@ export const TEMPORA_PASCOA: MassMap = {
     rank: 2,
     color: "w",
     link: "missal/pascoa/pasc5-0",
+    // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
+    // 1960 - divinum-officium Tempora/[Rank], applied per era.
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pascoa",
     weekday: 0,
@@ -513,6 +537,12 @@ export const TEMPORA_PASCOA: MassMap = {
     rank: 2,
     color: "w",
     link: "missal/pascoa/pasc6-0",
+    // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
+    // 1960 - divinum-officium Tempora/[Rank], applied per era.
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pascoa",
     weekday: 0,
@@ -597,6 +627,12 @@ export const TEMPORA_PASCOA: MassMap = {
     rank: 1,
     color: "r",
     link: "missal/pascoa/pasc7-0",
+    // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
+    // 1960 - divinum-officium Tempora/[Rank], applied per era.
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pascoa",
     weekday: 0,

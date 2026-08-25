@@ -9,6 +9,12 @@ export const TEMPORA_QUARESMA: MassMap = {
     rank: 2,
     color: "v",
     link: "missal/pre-quaresma/quadp1-0",
+    // Privileged semiduplex Sunday (DA); every Sunday is II class under
+    // Rubrics 1960 - divinum-officium Tempora/[Rank], applied per era.
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex privilegiatum", precedence: 6.9 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pre-quaresma",
     weekday: 0,
@@ -93,6 +99,12 @@ export const TEMPORA_QUARESMA: MassMap = {
     rank: 2,
     color: "v",
     link: "missal/pre-quaresma/quadp2-0",
+    // Privileged semiduplex Sunday (DA); every Sunday is II class under
+    // Rubrics 1960 - divinum-officium Tempora/[Rank], applied per era.
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex privilegiatum", precedence: 6.9 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pre-quaresma",
     weekday: 0,
@@ -177,6 +189,12 @@ export const TEMPORA_QUARESMA: MassMap = {
     rank: 2,
     color: "v",
     link: "missal/pre-quaresma/quadp3-0",
+    // Privileged semiduplex Sunday (DA); every Sunday is II class under
+    // Rubrics 1960 - divinum-officium Tempora/[Rank], applied per era.
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex privilegiatum", precedence: 6.9 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "pre-quaresma",
     weekday: 0,
@@ -261,6 +279,12 @@ export const TEMPORA_QUARESMA: MassMap = {
     rank: 1,
     color: "v",
     link: "missal/quaresma/quad1-0",
+    // Privileged semiduplex Sunday (DA); every Sunday is II class under
+    // Rubrics 1960 - divinum-officium Tempora/[Rank], applied per era.
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex privilegiatum", precedence: 6.9 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "quaresma",
     weekday: 0,
@@ -345,6 +369,12 @@ export const TEMPORA_QUARESMA: MassMap = {
     rank: 1,
     color: "v",
     link: "missal/quaresma/quad2-0",
+    // Privileged semiduplex Sunday (DA); every Sunday is II class under
+    // Rubrics 1960 - divinum-officium Tempora/[Rank], applied per era.
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex privilegiatum", precedence: 6.9 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "quaresma",
     weekday: 0,
@@ -429,6 +459,12 @@ export const TEMPORA_QUARESMA: MassMap = {
     rank: 1,
     color: "v",
     link: "missal/quaresma/quad3-0",
+    // Privileged semiduplex Sunday (DA); every Sunday is II class under
+    // Rubrics 1960 - divinum-officium Tempora/[Rank], applied per era.
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex privilegiatum", precedence: 6.9 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "quaresma",
     weekday: 0,
@@ -513,6 +549,12 @@ export const TEMPORA_QUARESMA: MassMap = {
     rank: 1,
     color: "v",
     link: "missal/quaresma/quad4-0",
+    // Privileged semiduplex Sunday (DA); every Sunday is II class under
+    // Rubrics 1960 - divinum-officium Tempora/[Rank], applied per era.
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex privilegiatum", precedence: 6.9 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
+    ],
     type: "pre-lent-to-pentcost",
     category: "quaresma",
     weekday: 0,
