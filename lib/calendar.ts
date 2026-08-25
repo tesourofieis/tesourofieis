@@ -17,6 +17,7 @@ import {
   type ShiftInstruction,
 } from "./calendars/types";
 import { type MassIndex, Masses } from "./observanceManager";
+import { legacyToPrecedence } from "./calendars/precedence";
 import { parseLocalDate, yyyyMMDD } from "./utils";
 
 export type { ShiftInstruction };
@@ -643,13 +644,15 @@ export class Calendar {
   }
 
   private removeDuplicates(masses: Mass[]): Mass[] {
+    // Missal-book order: highest precedence first. Stable ties keep the
+    // rules' intentional sequence (e.g. Sunday ahead of an equal-grade
+    // feast under Rubrics 1960); locals sink below universal offices.
     masses.sort((a, b) => {
-      if (a.rank === b.rank) {
-        if (a.local || b.local) return a.local ? 1 : -1;
-        // Fine-grained DO-scale precedence breaks coarse-rank ties.
-        return (a.precedence ?? 0) - (b.precedence ?? 0);
-      }
-      return a.rank - b.rank;
+      const pa = a.precedence ?? legacyToPrecedence(a.rank);
+      const pb = b.precedence ?? legacyToPrecedence(b.rank);
+      if (pa !== pb) return pb - pa;
+      if (a.local || b.local) return a.local ? 1 : -1;
+      return 0;
     });
 
     const seen = new Set<string>();
