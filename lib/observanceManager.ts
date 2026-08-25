@@ -47,7 +47,8 @@ class MassManager {
           rank: computeRankFor(edition, mass),
         })),
     );
-    this.byId = new Map(Object.entries(observances));
+    // getById serves the same stamped copies the indexes see.
+    this.byId = new Map(this.masses.map((mass) => [mass.id, mass]));
     this.byFlexibility = new Map();
     this.byType = new Map();
     this.santosByMonthDay = new Map();
