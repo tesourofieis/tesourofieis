@@ -2,7 +2,7 @@ import { expect, test } from "bun:test";
 import { getCalendarDay } from "../../getCalendar";
 
 test("S. Gabriel de Nossa Senhora das Dores 2024", () => {
-  const calendar = getCalendarDay("2024-02-28");
+  const calendar = getCalendarDay("2024-02-28", "pre-55");
   expect(calendar).toMatchObject({
     date: "2024-02-28",
     mass: [
@@ -53,7 +53,7 @@ test("S. Gabriel de Nossa Senhora das Dores 2024", () => {
 });
 
 test("S. Gabriel de Nossa Senhora das Dores 2025", () => {
-  const calendar = getCalendarDay("2025-02-27");
+  const calendar = getCalendarDay("2025-02-27", "pre-55");
   expect(calendar).toMatchObject({
     date: "2025-02-27",
     mass: [
@@ -105,7 +105,7 @@ test("S. Gabriel de Nossa Senhora das Dores 2025", () => {
 });
 
 test("Segunda-feira da 3ª semana da Quaresma", () => {
-  const calendar = getCalendarDay("2025-03-24");
+  const calendar = getCalendarDay("2025-03-24", "pre-55");
 
   expect(calendar).toMatchObject({
     date: "2025-03-24",

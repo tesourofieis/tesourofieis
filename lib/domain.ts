@@ -12,7 +12,8 @@ const Flexibility = Schema.Literals(["santos", "commune", "tempora", "votivas"])
 const LiturgicalColor = Schema.Literals(["w", "r", "v", "b", "g", "vw"]);
 
 /** Which missal edition a mass belongs to ("62" is the 1962 typical edition). */
-const CalendarEdition = Schema.Literals(["pre-55", "62"]);
+export const CalendarEdition = Schema.Literals(["pre-55", "62"]);
+export type CalendarEdition = typeof CalendarEdition.Type;
 
 const MassType = Schema.Literals([
   "feria",
@@ -40,6 +41,22 @@ const MassCategory = Schema.Literals([
   "pentecostes",
 ]);
 
+/**
+ * Edition-specific liturgical grade, mirroring divinum-officium's per-rubrica
+ * [Rank] sections in observance data files.
+ *
+ * `rubrics` is a divinum-officium version name ("Rubrics 1960", "Tridentine - 1570", ...)
+ * or "*" for the default. `precedence` uses DO's fine-grained numeric scale:
+ * Simplex ~1-2, Semiduplex ~2.5, Duplex ~3-4.x, II. classis ~5, Feria privilegiata ~7,
+ * I. classis ~6+.
+ */
+export const RankVariant = Schema.Struct({
+  rubrics: Schema.String,
+  name: Schema.String,
+  precedence: Schema.Number,
+});
+export type RankVariant = typeof RankVariant.Type;
+
 export const Mass = Schema.Struct({
   flexibility: Flexibility,
   id: Schema.String,
@@ -64,6 +81,16 @@ export const Mass = Schema.Struct({
   /** Used by flexibility "santos". */
   month: Schema.optional(Schema.Number),
   novena: Schema.optional(Schema.Boolean),
+  /** Per-edition grades; resolved through the calendar definition chain. */
+  rankVariants: Schema.optional(Schema.Array(RankVariant)),
+  /** Editions where this observance does not exist (e.g. vigils abolished in 1960). */
+  suppressedIn: Schema.optional(Schema.Array(CalendarEdition)),
+  /**
+   * Fine-grained DO-scale precedence stamped when the observance is placed
+   * on a date (see lib/calendars/precedence.ts). Static entries carry only
+   * the coarse `rank`; day copies carry both.
+   */
+  precedence: Schema.optional(Schema.Number),
 });
 export type Mass = typeof Mass.Type;
 

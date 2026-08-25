@@ -1,6 +1,6 @@
 import { Context, Layer, Schema } from "effect";
-import { Mass } from "./domain";
-import { OBSERVANCES } from "./observances";
+import { type CalendarEdition, Mass } from "./domain";
+import { computePrecedenceFor, computeRankFor, getCalendarDefinition } from "./calendars";
 
 /**
  * Validates the static observance data against the domain schema.
@@ -12,7 +12,10 @@ function parseObservances(observances: unknown[]): readonly Mass[] {
 }
 
 class MassManager {
+  private observances: Record<string, Mass>;
+  private edition: CalendarEdition;
   private masses: readonly Mass[];
+  private byId: Map<string, Mass>;
   private byFlexibility: Map<Mass["flexibility"], Mass[]>;
   private byType: Map<Mass["type"], Mass[]>;
   private santosByMonthDay: Map<string, Mass[]>; // key: "m-d"
@@ -27,8 +30,14 @@ class MassManager {
   private sanctiClass2: Mass[];
   private criteriaIdSetCache: WeakMap<(Mass | undefined)[], Set<string>>;
 
-  constructor() {
-    this.masses = parseObservances(Object.values(OBSERVANCES));
+  constructor(observances: Record<string, Mass>, edition: CalendarEdition) {
+    this.observances = observances;
+    this.edition = edition;
+    // Editions never see observances explicitly suppressed under them.
+    this.masses = parseObservances(
+      Object.values(observances).filter((mass) => !mass.suppressedIn?.includes(edition)),
+    );
+    this.byId = new Map(Object.entries(observances));
     this.byFlexibility = new Map();
     this.byType = new Map();
     this.santosByMonthDay = new Map();
@@ -109,27 +118,23 @@ class MassManager {
   }
 
   createMassWithDate(mass: Mass, date: string): Mass {
-    const updatedMass = { ...mass, date, rank: this.calcRank(mass, date) };
+    // rankVariants is static edition configuration, not day data.
+    const { rankVariants: _, ...dayMass } = mass;
+    const updatedMass = {
+      ...dayMass,
+      date,
+      precedence: computePrecedenceFor(this.edition, mass, date),
+      rank: computeRankFor(this.edition, mass, date),
+    };
     return updatedMass;
   }
 
-  private calcRank(mass: Mass, date: string): number {
-    if (mass.type !== "advent" || mass.weekday === 0 || !date) {
-      return mass.rank;
-    }
-
-    const month = Number.parseInt(date.slice(5, 7), 10) - 1;
-    const day = Number.parseInt(date.slice(8, 10), 10);
-
-    return month === 11 && day >= 17 && day <= 23 ? 2 : mass.rank;
-  }
-
   getById(id: string): Mass | undefined {
-    return OBSERVANCES[id];
+    return this.byId.get(id);
   }
 
   getByIds(ids: string[]): Mass[] {
-    return ids.map((id) => OBSERVANCES[id]).filter((m): m is Mass => Boolean(m));
+    return ids.map((id) => this.byId.get(id)).filter((m): m is Mass => Boolean(m));
   }
 
   getByTypeId(type: Mass["type"]): Mass[] {
@@ -218,14 +223,29 @@ class MassManager {
   }
 }
 
-const massManager = new MassManager();
+const managersByEdition = new Map<CalendarEdition, MassManager>();
+
+/**
+ * Returns (and caches) the observance index for a calendar edition.
+ */
+export function getMassIndex(edition: CalendarEdition): MassIndex {
+  const existing = managersByEdition.get(edition);
+  if (existing) return existing;
+
+  const definition = getCalendarDefinition(edition);
+  const manager = new MassManager(definition.observances, edition);
+  managersByEdition.set(edition, manager);
+  return manager;
+}
 
 /**
  * Effect service exposing the validated observance index.
- * The shape is the MassManager instance type; provide via `MassesLive`.
+ * Provides an edition -> MassIndex lookup; provide via `MassesLive`.
  */
 export type MassIndex = InstanceType<typeof MassManager>;
 
-export class Masses extends Context.Service<Masses, MassIndex>()("@tesourofieis/Masses") {}
+export class Masses extends Context.Service<Masses, (edition: CalendarEdition) => MassIndex>()(
+  "@tesourofieis/Masses",
+) {}
 
-export const MassesLive: Layer.Layer<Masses> = Layer.succeed(Masses, massManager);
+export const MassesLive: Layer.Layer<Masses> = Layer.succeed(Masses, getMassIndex);

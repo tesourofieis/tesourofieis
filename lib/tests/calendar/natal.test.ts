@@ -3,7 +3,7 @@ import { expect, test } from "bun:test";
 import { getCalendarDay } from "../../getCalendar";
 
 test("vigilia natal", () => {
-  const calendar = getCalendarDay("2024-12-24");
+  const calendar = getCalendarDay("2024-12-24", "pre-55");
   expect(calendar).toMatchObject({
     mass: [
       {
@@ -24,7 +24,7 @@ test("vigilia natal", () => {
 });
 
 test("natal", () => {
-  const calendar = getCalendarDay("2024-12-25");
+  const calendar = getCalendarDay("2024-12-25", "pre-55");
   expect(calendar).toMatchObject({
     mass: [
       {
@@ -68,7 +68,7 @@ test("natal", () => {
 });
 
 test("natal 31", () => {
-  const calendar = getCalendarDay("2024-12-31");
+  const calendar = getCalendarDay("2024-12-31", "pre-55");
   expect(calendar).toMatchObject({
     mass: [
       {
@@ -81,7 +81,9 @@ test("natal 31", () => {
         link: "missal/santos/12-31",
         month: 12,
         name: "S. Silvestre, Papa e Confessor",
-        rank: 4,
+        // DO Kalendaria pre-55 grade (Semiduplex, 3.0); the legacy data
+        // said 4 - corrected to match divinum-officium.
+        rank: 3,
         type: "sancti",
       },
     ],

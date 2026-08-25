@@ -1,10 +1,9 @@
 import { describe, expect, test } from "bun:test";
 import { getCalendar } from "../../getCalendar";
 
-describe("calendar 2026", () => {
-  test("should render the correct calendar", () => {
-    const calendar = getCalendar(2026);
-
-    expect(calendar).toMatchSnapshot();
+// No explicit edition: pins the app default (Rubrics 1960 / "62").
+describe("calendar 2026 (default edition)", () => {
+  test("renders entire calendar correctly", () => {
+    expect(getCalendar(2026)).toMatchSnapshot();
   });
 });

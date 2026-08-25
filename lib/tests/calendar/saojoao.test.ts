@@ -2,7 +2,7 @@ import { expect, test } from "bun:test";
 import { getCalendarDay } from "../../getCalendar";
 
 test("test dates all over the world", () => {
-  const calendar = getCalendarDay("2024-06-24");
+  const calendar = getCalendarDay("2024-06-24", "pre-55");
   expect(calendar).toMatchObject({
     date: "2024-06-24",
     mass: [

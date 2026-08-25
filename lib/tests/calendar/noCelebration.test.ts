@@ -2,7 +2,7 @@ import { expect, test } from "bun:test";
 import { getCalendarDay } from "../../getCalendar";
 
 test("no celebration when tempora 01-08 2024", () => {
-  const calendar = getCalendarDay("2024-01-08");
+  const calendar = getCalendarDay("2024-01-08", "pre-55");
   expect(calendar).toMatchObject({
     date: "2024-01-08",
     mass: [
@@ -20,7 +20,7 @@ test("no celebration when tempora 01-08 2024", () => {
 });
 
 test("no celebration when tempora 01-07 2024", () => {
-  const calendar = getCalendarDay("2024-01-07");
+  const calendar = getCalendarDay("2024-01-07", "pre-55");
   expect(calendar).toMatchObject({
     date: "2024-01-07",
     mass: [
@@ -38,7 +38,7 @@ test("no celebration when tempora 01-07 2024", () => {
 });
 
 test("no celebration when tempora 2025", () => {
-  const calendar = getCalendarDay("2025-01-07");
+  const calendar = getCalendarDay("2025-01-07", "pre-55");
   expect(calendar).toMatchObject({
     date: "2025-01-07",
     mass: [

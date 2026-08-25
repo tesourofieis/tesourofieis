@@ -3,7 +3,7 @@ import { expect, test } from "bun:test";
 import { getCalendarDay } from "../../getCalendar";
 
 test("sabado santo", () => {
-  const calendar = getCalendarDay("2024-03-30");
+  const calendar = getCalendarDay("2024-03-30", "pre-55");
   expect(calendar).toMatchObject({
     mass: [
       {
@@ -24,7 +24,7 @@ test("sabado santo", () => {
 });
 
 test("easter", () => {
-  const calendar = getCalendarDay("2024-03-31");
+  const calendar = getCalendarDay("2024-03-31", "pre-55");
   expect(calendar).toMatchObject({
     mass: [
       {
@@ -40,7 +40,7 @@ test("easter", () => {
 });
 
 test("segunda pascal", () => {
-  const calendar = getCalendarDay("2024-04-01");
+  const calendar = getCalendarDay("2024-04-01", "pre-55");
   expect(calendar).toMatchObject({
     mass: [
       {

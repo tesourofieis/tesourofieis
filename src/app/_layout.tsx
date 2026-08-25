@@ -18,6 +18,7 @@ import CustomDrawer from "~/components/Drawer";
 import { SearchModalProvider, useSearchModal } from "~/components/Search";
 import { COLORS } from "~/constants/Colors";
 import { CalendarProvider } from "~/providers/calendar";
+import { EditionProvider } from "~/providers/edition";
 import { FontProvider } from "~/providers/fonts";
 import { SettingsProvider } from "~/providers/settings";
 import { PostHogProvider } from "posthog-react-native";
@@ -80,15 +81,17 @@ export default function PageRootLayout() {
           <SafeAreaProvider>
             <GestureHandlerRootView style={{ flex: 1 }}>
               <BottomSheetModalProvider>
-                <CalendarProvider>
-                  <LanguageProvider>
-                    <SettingsProvider>
-                      <SearchModalProvider>
-                        <RootLayoutNav />
-                      </SearchModalProvider>
-                    </SettingsProvider>
-                  </LanguageProvider>
-                </CalendarProvider>
+                <EditionProvider>
+                  <CalendarProvider>
+                    <LanguageProvider>
+                      <SettingsProvider>
+                        <SearchModalProvider>
+                          <RootLayoutNav />
+                        </SearchModalProvider>
+                      </SettingsProvider>
+                    </LanguageProvider>
+                  </CalendarProvider>
+                </EditionProvider>
               </BottomSheetModalProvider>
             </GestureHandlerRootView>
           </SafeAreaProvider>

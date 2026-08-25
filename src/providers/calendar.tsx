@@ -1,5 +1,7 @@
 import type { Day } from "~/lib/calendar";
 import { getCalendar, getCalendarDay, getSeason } from "~/lib/getCalendar";
+import type { CalendarEdition } from "~/lib/domain";
+import { useCalendarEdition } from "~/providers/edition";
 import type { LiturgicalSeason, Mass } from "~/lib/domain";
 import { Season } from "~/lib/domain";
 import { yyyyMMDD } from "~/lib/utils";
@@ -30,6 +32,7 @@ const CalendarContext = createContext<
 >(undefined);
 
 export function CalendarProvider({ children }: PropsWithChildren) {
+  const { edition: selection, isLoading: editionLoading } = useCalendarEdition();
   const [autoDate, setAutoDate] = useState(new Date());
   const [userDate, setUserDate] = useState<Date | null>(null);
 
@@ -61,14 +64,17 @@ export function CalendarProvider({ children }: PropsWithChildren) {
 
   const calendar = useMemo(
     () => [
-      ...getCalendar(currentYear),
-      ...(currentMonth === 11 ? getCalendar(currentYear + 1) : []),
+      ...getCalendar(currentYear, selection),
+      ...(currentMonth === 11 ? getCalendar(currentYear + 1, selection) : []),
     ],
-    [currentYear, currentMonth],
+    [currentYear, currentMonth, selection],
   );
 
   const dateKey = yyyyMMDD(date);
-  const day = useMemo(() => getCalendarDay(dateKey), [dateKey]);
+  const day = useMemo(
+    () => (editionLoading ? undefined : getCalendarDay(dateKey, selection)),
+    [dateKey, selection, editionLoading],
+  );
   const mass = day?.mass || [];
 
   const novenas = useMemo(() => {
@@ -86,7 +92,10 @@ export function CalendarProvider({ children }: PropsWithChildren) {
     return novenaObservances;
   }, [calendar, date]);
 
-  const season = useMemo(() => getSeason(dateKey) || Season.ADVENT, [dateKey]);
+  const season = useMemo(
+    () => (editionLoading ? undefined : getSeason(dateKey, selection)) || Season.ADVENT,
+    [dateKey, selection, editionLoading],
+  );
 
   if (!calendar || !day) {
     return (

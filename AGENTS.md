@@ -20,7 +20,7 @@ Tesouro dos Fiéis is a universal Catholic liturgical application that provides:
 ### Core Development
 
 - `bun run check` - Type check entire project
-- `bun run lint` - Lint all code with Biome + ESLint
+- `bun run lint` - Lint all code with oxlint + oxfmt + Expo ESLint
 - `bun run test` - Run complete test suite
 - `bun run dev` - Start development server
 - `bun run prebuild` - Build search index
@@ -45,18 +45,21 @@ Tesouro dos Fiéis is a universal Catholic liturgical application that provides:
 
 ## Code Style Guidelines
 
-### Formatting (Biome)
+### Formatting (oxfmt)
 
-- 2-space indentation, 80 line width, LF line endings
-- Auto-organize imports enabled
-- JSON allows trailing commas
+- Prettier-compatible formatting via `.oxfmtrc.json` (2-space indent default)
+- `bun run fmt` to format, `bun run fmt:check` to verify
 
-### Linting (Biome + ESLint)
+### Linting (oxlint + ESLint)
 
-- TypeScript recommended rules
-- Expo config for React Native code
-- Prettier integration
-- Disabled: noUnusedVariables (warn), noForEach, noNonNullAssertion, noParameterAssign
+- oxlint with `eslint`, `oxc`, `react`, `unicorn`, `typescript` plugins
+- Categories: correctness/suspicious/perf at warn (`.oxlintrc.json`)
+- Custom **anti-slop** plugin (`tools/oxlint/anti-slop/`) enforces 10 rules as errors:
+  no-chained-type-assertions, no-conditional-empty-object-spread,
+  no-known-value-widening, no-object-parameters, no-runtime-typeof,
+  no-shape-in-symbol-names, no-unknown-parameters, no-unknown-type-aliases,
+  no-unsafe-dictionary-type, no-widen-then-assert
+- Expo ESLint config runs last via `expo lint` for React Native rules
 
 ### TypeScript
 
@@ -78,19 +81,19 @@ Tesouro dos Fiéis is a universal Catholic liturgical application that provides:
 
 ### Imports
 
-- Auto-organized by Biome
+- Match the import order used in neighboring files (no auto-organizer)
 - Use workspace:\* for internal packages
 
 ## Project Architecture
 
 ### Technology Stack
 
-- **Expo SDK 54** - Universal React Native platform
+- **Expo SDK 56** - Universal React Native platform
 - **React 19** - Latest React with concurrent features
-- **TypeScript 5** - Strict type safety
+- **TypeScript 6** - Strict type safety
 - **NativeWind 5** - Tailwind CSS for React Native
 - **Expo Router** - File-based routing
-- **Vitest** - Testing framework
+- **Bun test** - Testing framework
 
 ### Directory Structure
 
@@ -221,5 +224,19 @@ When working on this project, always remember:
 6. **TypeScript Strict**: Use proper typing and avoid any types
 7. **Cultural Sensitivity**: Understand the religious significance of the content
 
-Remember: This application preserves and shares sacred Catholic traditions. Every line of code should reflect the dignity and importance of this mission.</content>
-<parameter name="filePath">/home/ofrades/code/tesourofieis/tesourofieis/AGENTS.md
+Remember: This application preserves and shares sacred Catholic traditions. Every line of code should reflect the dignity and importance of this mission.
+
+
+## Commit Policy
+
+Commit proactively - do not wait to be asked:
+
+1. **Before running scripts** that mutate files (migrations, generators,
+   bulk edits), so a clean rollback point always exists.
+2. **When a stage/phase finishes** (e.g. after a refactor step is proven
+   by tests/snapshots).
+3. **Whenever results will need comparison** later (snapshots, hashes,
+   before/after benchmarks).
+
+Stage only files related to the work at hand; never commit unrelated
+dirty files.

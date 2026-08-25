@@ -3,7 +3,7 @@ import { expect, test } from "bun:test";
 import { getCalendarDay } from "../../getCalendar";
 
 test("todos os santos", () => {
-  const calendar = getCalendarDay("2025-11-01");
+  const calendar = getCalendarDay("2025-11-01", "pre-55");
   expect(calendar).toMatchObject({
     mass: [
       {
@@ -38,7 +38,7 @@ test("todos os santos", () => {
 });
 
 test("segundo dia após todos os santos", () => {
-  const calendar = getCalendarDay("2025-11-02");
+  const calendar = getCalendarDay("2025-11-02", "pre-55");
   expect(calendar).toMatchObject({
     mass: [
       {
@@ -58,7 +58,7 @@ test("segundo dia após todos os santos", () => {
 });
 
 test("terceiro dia após todos os santos", () => {
-  const calendar = getCalendarDay("2025-11-03");
+  const calendar = getCalendarDay("2025-11-03", "pre-55");
   expect(calendar).toMatchObject({
     mass: [
       {
