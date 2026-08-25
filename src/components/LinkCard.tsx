@@ -135,7 +135,7 @@ function Badge({
       }`}
     >
       <Typography
-        className={`${featured ? "text-[10px]" : "text-[9px]"} tracking-wider ${
+        className={`font-ui-medium ${featured ? "text-[10px]" : "text-[9px]"} tracking-wide ${
           important
             ? "text-burgundy-700 dark:text-burgundy-200"
             : "text-sepia-500 dark:text-sepia-400"
@@ -267,9 +267,9 @@ export default function PageLinkCard({
                     <View
                       className={`flex-row flex-wrap ${isFeatured ? "gap-2 mb-2" : "gap-1.5 mb-1.5"}`}
                     >
-                      <Badge featured={isFeatured}>{description?.toUpperCase() || "MISSA"}</Badge>
+                      <Badge featured={isFeatured}>{description || "Missa"}</Badge>
                       <Badge featured={isFeatured} important={mass.rank === 1}>
-                        {toRoman(mass.rank)} CLASSE
+                        {toRoman(mass.rank)} classe
                       </Badge>
                     </View>
 
@@ -290,8 +290,8 @@ export default function PageLinkCard({
                         {mass.local && (
                           <View className="flex-row items-center gap-1">
                             <MapPin size={12} color={colors.textSubtle} />
-                            <Typography className="text-xs text-sepia-500">
-                              {String(mass.local).toUpperCase()}
+                            <Typography className="font-ui-medium text-xs text-sepia-500">
+                              {String(mass.local)}
                             </Typography>
                           </View>
                         )}

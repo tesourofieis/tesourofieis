@@ -100,15 +100,15 @@ export default function CalendarMasterpiece() {
                   }}
                 >
                   <Typography
-                    className="font-reading"
+                    className="font-ui-medium"
                     style={{
                       fontSize: 10,
-                      letterSpacing: 3.2,
+                      letterSpacing: 0.8,
                       color: weekdayColor,
                       marginBottom: 6,
                     }}
                   >
-                    {format(dayDate, "EEEE", { locale: pt }).toUpperCase()}
+                    {format(dayDate, "EEEE", { locale: pt })}
                   </Typography>
 
                   <Typography

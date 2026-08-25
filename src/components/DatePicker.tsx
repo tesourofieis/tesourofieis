@@ -17,7 +17,7 @@ interface DatePickerProps {
 }
 
 // Stable formatting functions (must be outside component for referential equality)
-const formatWeekDay = (d: Date) => format(d, "EEEEEE", { locale: pt }).toUpperCase();
+const formatWeekDay = (d: Date) => format(d, "EEEEEE", { locale: pt });
 
 export function DatePicker({ date, onDateChange, children }: DatePickerProps) {
   const { isDark, colors } = useAppTheme();

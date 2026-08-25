@@ -106,7 +106,7 @@ export default function PageRender() {
             <H1 text="Tesouro dos Fiéis" />
           </View>
           <LiturgicalDateHeader
-            overline={format(date, "EEEE", { locale: pt }).toUpperCase()}
+            overline={format(date, "EEEE", { locale: pt })}
             paddingHorizontal={sectionInset}
             paddingTop={headerPaddingTop}
             paddingBottom={headerPaddingBottom}

@@ -52,10 +52,10 @@ export function LiturgicalDateHeader({
       }}
     >
       <Typography
-        className="font-reading"
+        className="font-ui-medium"
         style={{
           fontSize: 10,
-          letterSpacing: 3.2,
+          letterSpacing: 0.8,
           color: isDark ? burgundy[400] : burgundy[500],
           marginBottom: 6,
         }}
