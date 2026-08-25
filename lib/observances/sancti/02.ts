@@ -93,7 +93,8 @@ export const SANCTI_02: MassMap = {
     rank: 4,
     color: "r",
     link: "missal/santos/02-06-outro",
-    outro: true,
+    // Divino Afflatu-era observance; dropped by the 1960 reform.
+    suppressedIn: ["62"],
     type: "sancti",
     category: "santos",
     month: 2,
@@ -142,7 +143,8 @@ export const SANCTI_02: MassMap = {
     rank: 4,
     color: "r",
     link: "missal/santos/02-09-outro",
-    outro: true,
+    // Divino Afflatu-era observance; dropped by the 1960 reform.
+    suppressedIn: ["62"],
     type: "sancti",
     category: "santos",
     month: 2,

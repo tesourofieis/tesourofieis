@@ -303,23 +303,7 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
     "season": "Epifania",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-01-14",
-        "day": 14,
-        "flexibility": "santos",
-        "id": "SANCTI_01_14_OUTRO",
-        "link": "missal/santos/01-14-outro",
-        "month": 1,
-        "name": "S. Félix, Presb. e Márt.",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-01-14",
     "mass": [
       {
@@ -334,6 +318,23 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
         "name": "S. Hilário, Bispo Confessor e Doutor",
         "precedence": 3.5,
         "rank": 3,
+        "type": "sancti",
+      },
+      {
+        "category": "santos",
+        "color": "r",
+        "date": "2027-01-14",
+        "day": 14,
+        "flexibility": "santos",
+        "id": "SANCTI_01_14_OUTRO",
+        "link": "missal/santos/01-14-outro",
+        "month": 1,
+        "name": "S. Félix, Presb. e Márt.",
+        "precedence": 1.5,
+        "rank": 4,
+        "suppressedIn": [
+          "62",
+        ],
         "type": "sancti",
       },
       {
@@ -354,23 +355,7 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
     "season": "Epifania",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "w",
-        "date": "2027-01-15",
-        "day": 15,
-        "flexibility": "santos",
-        "id": "SANCTI_01_15_OUTRO",
-        "link": "missal/santos/01-15-outro",
-        "month": 1,
-        "name": "S. Amaro, Abade",
-        "outro": true,
-        "precedence": 3.5,
-        "rank": 3,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-01-15",
     "mass": [
       {
@@ -385,6 +370,23 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
         "name": "S. Paulo, 1.º Eremita, Confessor",
         "precedence": 3.5,
         "rank": 3,
+        "type": "sancti",
+      },
+      {
+        "category": "santos",
+        "color": "w",
+        "date": "2027-01-15",
+        "day": 15,
+        "flexibility": "santos",
+        "id": "SANCTI_01_15_OUTRO",
+        "link": "missal/santos/01-15-outro",
+        "month": 1,
+        "name": "S. Amaro, Abade",
+        "precedence": 1.5,
+        "rank": 4,
+        "suppressedIn": [
+          "62",
+        ],
         "type": "sancti",
       },
       {
@@ -491,23 +493,7 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
     "season": "Epifania",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-01-18",
-        "day": 18,
-        "flexibility": "santos",
-        "id": "SANCTI_01_18_OUTRO",
-        "link": "missal/santos/01-18-outro",
-        "month": 1,
-        "name": "Santa Prisca, Virgem e Mártir",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-01-18",
     "mass": [
       {
@@ -520,6 +506,23 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
         "link": "missal/santos/01-18",
         "month": 1,
         "name": "Cadeira de S. Pedro em Roma",
+        "precedence": 1.5,
+        "rank": 4,
+        "suppressedIn": [
+          "62",
+        ],
+        "type": "sancti",
+      },
+      {
+        "category": "santos",
+        "color": "r",
+        "date": "2027-01-18",
+        "day": 18,
+        "flexibility": "santos",
+        "id": "SANCTI_01_18_OUTRO",
+        "link": "missal/santos/01-18-outro",
+        "month": 1,
+        "name": "Santa Prisca, Virgem e Mártir",
         "precedence": 1.5,
         "rank": 4,
         "type": "sancti",
@@ -700,23 +703,7 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
     "season": "Epifania",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "w",
-        "date": "2027-01-23",
-        "day": 23,
-        "flexibility": "santos",
-        "id": "SANCTI_01_23_OUTRO",
-        "link": "missal/santos/01-23-outro",
-        "month": 1,
-        "name": "Santa Emerenciana, Virgem e Márt.",
-        "outro": true,
-        "precedence": 3.5,
-        "rank": 3,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-01-23",
     "mass": [
       {
@@ -731,6 +718,23 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
         "name": "S. Raimundo de Penhafort, Confessor",
         "precedence": 3.5,
         "rank": 3,
+        "type": "sancti",
+      },
+      {
+        "category": "santos",
+        "color": "w",
+        "date": "2027-01-23",
+        "day": 23,
+        "flexibility": "santos",
+        "id": "SANCTI_01_23_OUTRO",
+        "link": "missal/santos/01-23-outro",
+        "month": 1,
+        "name": "Santa Emerenciana, Virgem e Márt.",
+        "precedence": 1.5,
+        "rank": 4,
+        "suppressedIn": [
+          "62",
+        ],
         "type": "sancti",
       },
       {
@@ -1270,23 +1274,7 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
     "season": "Septuagésima",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-02-06",
-        "day": 6,
-        "flexibility": "santos",
-        "id": "SANCTI_02_06_OUTRO",
-        "link": "missal/santos/02-06-outro",
-        "month": 2,
-        "name": "Santa Dorotéia, V. e Márt.",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-02-06",
     "mass": [
       {
@@ -1301,6 +1289,23 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
         "name": "S. Tito, Bispo e Confessor",
         "precedence": 3.5,
         "rank": 3,
+        "type": "sancti",
+      },
+      {
+        "category": "santos",
+        "color": "r",
+        "date": "2027-02-06",
+        "day": 6,
+        "flexibility": "santos",
+        "id": "SANCTI_02_06_OUTRO",
+        "link": "missal/santos/02-06-outro",
+        "month": 2,
+        "name": "Santa Dorotéia, V. e Márt.",
+        "precedence": 1.5,
+        "rank": 4,
+        "suppressedIn": [
+          "62",
+        ],
         "type": "sancti",
       },
       {
@@ -1391,23 +1396,7 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
     "season": "Septuagésima",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-02-09",
-        "day": 9,
-        "flexibility": "santos",
-        "id": "SANCTI_02_09_OUTRO",
-        "link": "missal/santos/02-09-outro",
-        "month": 2,
-        "name": "Santa Apolónia, Virgem e Márt.",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-02-09",
     "mass": [
       {
@@ -1422,6 +1411,23 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
         "name": "S. Cirilo de Alexandria, Bispo, Confessor e Doutor da Igreja",
         "precedence": 3.5,
         "rank": 3,
+        "type": "sancti",
+      },
+      {
+        "category": "santos",
+        "color": "r",
+        "date": "2027-02-09",
+        "day": 9,
+        "flexibility": "santos",
+        "id": "SANCTI_02_09_OUTRO",
+        "link": "missal/santos/02-09-outro",
+        "month": 2,
+        "name": "Santa Apolónia, Virgem e Márt.",
+        "precedence": 1.5,
+        "rank": 4,
+        "suppressedIn": [
+          "62",
+        ],
         "type": "sancti",
       },
       {
@@ -2140,7 +2146,9 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
     "season": "Quaresma",
   },
   Day {
-    "alternatives": [
+    "alternatives": [],
+    "date": "2027-03-04",
+    "mass": [
       {
         "category": "santos",
         "color": "r",
@@ -2151,14 +2159,13 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
         "link": "missal/santos/03-04-outro",
         "month": 3,
         "name": "S. Lúcio I, Papa e Mártir",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
+        "precedence": 2.5,
+        "rank": 3,
+        "suppressedIn": [
+          "62",
+        ],
         "type": "sancti",
       },
-    ],
-    "date": "2027-03-04",
-    "mass": [
       {
         "category": "santos",
         "color": "w",
@@ -4897,7 +4904,9 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
+    "alternatives": [],
+    "date": "2027-05-26",
+    "mass": [
       {
         "category": "santos",
         "color": "r",
@@ -4908,14 +4917,13 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
         "link": "missal/santos/05-26-outro",
         "month": 5,
         "name": "S. Eleutério, Papa e Mártir",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
+        "precedence": 3,
+        "rank": 3,
+        "suppressedIn": [
+          "62",
+        ],
         "type": "sancti",
       },
-    ],
-    "date": "2027-05-26",
-    "mass": [
       {
         "category": "santos",
         "color": "w",
@@ -4948,23 +4956,7 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-05-27",
-        "day": 27,
-        "flexibility": "santos",
-        "id": "SANCTI_05_27_OUTRO",
-        "link": "missal/santos/05-27-outro",
-        "month": 5,
-        "name": "S. João, Papa e Mártir",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-05-27",
     "mass": [
       {
@@ -4981,6 +4973,23 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
         "type": "pre-lent-to-pentcost",
         "week": 1,
         "weekday": 4,
+      },
+      {
+        "category": "santos",
+        "color": "r",
+        "date": "2027-05-27",
+        "day": 27,
+        "flexibility": "santos",
+        "id": "SANCTI_05_27_OUTRO",
+        "link": "missal/santos/05-27-outro",
+        "month": 5,
+        "name": "S. João, Papa e Mártir",
+        "precedence": 3,
+        "rank": 3,
+        "suppressedIn": [
+          "62",
+        ],
+        "type": "sancti",
       },
       {
         "category": "santos",
@@ -6868,21 +6877,6 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
         "date": "2027-07-20",
         "day": 20,
         "flexibility": "santos",
-        "id": "SANCTI_07_20_OUTRO",
-        "link": "missal/santos/07-20-outro",
-        "month": 7,
-        "name": "Santa Margarida, Virgem e Mártir",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-07-20",
-        "day": 20,
-        "flexibility": "santos",
         "id": "SANCTI_07_20_COIMBRA",
         "link": "missal/santos/07-20-coimbra",
         "local": "coimbra",
@@ -6907,6 +6901,23 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
         "name": "S. Jerónimo Emiliano",
         "precedence": 3.5,
         "rank": 3,
+        "type": "sancti",
+      },
+      {
+        "category": "santos",
+        "color": "r",
+        "date": "2027-07-20",
+        "day": 20,
+        "flexibility": "santos",
+        "id": "SANCTI_07_20_OUTRO",
+        "link": "missal/santos/07-20-outro",
+        "month": 7,
+        "name": "Santa Margarida, Virgem e Mártir",
+        "precedence": 1.5,
+        "rank": 4,
+        "suppressedIn": [
+          "62",
+        ],
         "type": "sancti",
       },
       {
@@ -7036,21 +7047,6 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
         "date": "2027-07-23",
         "day": 23,
         "flexibility": "santos",
-        "id": "SANCTI_07_23_OUTRO",
-        "link": "missal/santos/07-23-outro",
-        "month": 7,
-        "name": "S. Libório, Bispo e Confessor",
-        "outro": true,
-        "precedence": 3.5,
-        "rank": 3,
-        "type": "sancti",
-      },
-      {
-        "category": "santos",
-        "color": "w",
-        "date": "2027-07-23",
-        "day": 23,
-        "flexibility": "santos",
         "id": "SANCTI_07_23_VISEU",
         "link": "missal/santos/07-23-viseu",
         "local": "viseu",
@@ -7078,6 +7074,23 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
         "type": "sancti",
       },
       {
+        "category": "santos",
+        "color": "w",
+        "date": "2027-07-23",
+        "day": 23,
+        "flexibility": "santos",
+        "id": "SANCTI_07_23_OUTRO",
+        "link": "missal/santos/07-23-outro",
+        "month": 7,
+        "name": "S. Libório, Bispo e Confessor",
+        "precedence": 1.5,
+        "rank": 4,
+        "suppressedIn": [
+          "62",
+        ],
+        "type": "sancti",
+      },
+      {
         "category": "pentecostes",
         "color": "g",
         "date": "2027-07-23",
@@ -7095,23 +7108,7 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-07-24",
-        "day": 24,
-        "flexibility": "santos",
-        "id": "SANCTI_07_24_OUTRO",
-        "link": "missal/santos/07-24-outro",
-        "month": 7,
-        "name": "Santa Cristina",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-07-24",
     "mass": [
       {
@@ -7126,6 +7123,23 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
         "name": "Vigília de S. Tiago, Apóstolo",
         "precedence": 3.5,
         "rank": 3,
+        "type": "sancti",
+      },
+      {
+        "category": "santos",
+        "color": "r",
+        "date": "2027-07-24",
+        "day": 24,
+        "flexibility": "santos",
+        "id": "SANCTI_07_24_OUTRO",
+        "link": "missal/santos/07-24-outro",
+        "month": 7,
+        "name": "Santa Cristina",
+        "precedence": 1.5,
+        "rank": 4,
+        "suppressedIn": [
+          "62",
+        ],
         "type": "sancti",
       },
       {
@@ -7146,23 +7160,7 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-07-25",
-        "day": 25,
-        "flexibility": "santos",
-        "id": "SANCTI_07_25_OUTRO",
-        "link": "missal/santos/07-25-outro",
-        "month": 7,
-        "name": "S. Cristovão, Mártir",
-        "outro": true,
-        "precedence": 3.5,
-        "rank": 3,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-07-25",
     "mass": [
       {
@@ -7192,6 +7190,23 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
         "type": "pre-lent-to-pentcost",
         "week": 10,
         "weekday": 0,
+      },
+      {
+        "category": "santos",
+        "color": "r",
+        "date": "2027-07-25",
+        "day": 25,
+        "flexibility": "santos",
+        "id": "SANCTI_07_25_OUTRO",
+        "link": "missal/santos/07-25-outro",
+        "month": 7,
+        "name": "S. Cristovão, Mártir",
+        "precedence": 1.5,
+        "rank": 4,
+        "suppressedIn": [
+          "62",
+        ],
+        "type": "sancti",
       },
     ],
     "season": "Pentecostes",
@@ -7283,38 +7298,7 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-07-28",
-        "day": 28,
-        "flexibility": "santos",
-        "id": "SANCTI_07_28_OUTRO",
-        "link": "missal/santos/07-28-outro",
-        "month": 7,
-        "name": "S. Vítor, Papa e Mártir",
-        "outro": true,
-        "precedence": 3.5,
-        "rank": 3,
-        "type": "sancti",
-      },
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-07-28",
-        "day": 28,
-        "flexibility": "santos",
-        "id": "SANCTI_07_28_OUTRO_2",
-        "link": "missal/santos/07-28-outro",
-        "month": 7,
-        "name": "S. Inocêncio, Papa e Confessor",
-        "outro": true,
-        "precedence": 3.5,
-        "rank": 3,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-07-28",
     "mass": [
       {
@@ -7329,6 +7313,40 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
         "name": "S.S. Nazário e Celso, Mártires",
         "precedence": 3.5,
         "rank": 3,
+        "type": "sancti",
+      },
+      {
+        "category": "santos",
+        "color": "r",
+        "date": "2027-07-28",
+        "day": 28,
+        "flexibility": "santos",
+        "id": "SANCTI_07_28_OUTRO",
+        "link": "missal/santos/07-28-outro",
+        "month": 7,
+        "name": "S. Vítor, Papa e Mártir",
+        "precedence": 1.5,
+        "rank": 4,
+        "suppressedIn": [
+          "62",
+        ],
+        "type": "sancti",
+      },
+      {
+        "category": "santos",
+        "color": "r",
+        "date": "2027-07-28",
+        "day": 28,
+        "flexibility": "santos",
+        "id": "SANCTI_07_28_OUTRO_2",
+        "link": "missal/santos/07-28-outro",
+        "month": 7,
+        "name": "S. Inocêncio, Papa e Confessor",
+        "precedence": 1.5,
+        "rank": 4,
+        "suppressedIn": [
+          "62",
+        ],
         "type": "sancti",
       },
       {
@@ -7349,7 +7367,9 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
+    "alternatives": [],
+    "date": "2027-07-29",
+    "mass": [
       {
         "category": "santos",
         "color": "r",
@@ -7360,14 +7380,13 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
         "link": "missal/santos/07-29-outro",
         "month": 7,
         "name": "S. Félix II, Papa e Mártir",
-        "outro": true,
-        "precedence": 3.5,
+        "precedence": 3,
         "rank": 3,
+        "suppressedIn": [
+          "62",
+        ],
         "type": "sancti",
       },
-    ],
-    "date": "2027-07-29",
-    "mass": [
       {
         "category": "santos",
         "color": "w",
@@ -7522,23 +7541,7 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-08-02",
-        "day": 2,
-        "flexibility": "santos",
-        "id": "SANCTI_08_02_OUTRO",
-        "link": "missal/santos/08-02-outro",
-        "month": 8,
-        "name": "S. Estêvão I, Papa e Mártir",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-08-02",
     "mass": [
       {
@@ -7553,6 +7556,23 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
         "name": "S. Afonso de Ligório, Bispo, Confessor e Doutor da Igreja",
         "precedence": 3.5,
         "rank": 3,
+        "type": "sancti",
+      },
+      {
+        "category": "santos",
+        "color": "r",
+        "date": "2027-08-02",
+        "day": 2,
+        "flexibility": "santos",
+        "id": "SANCTI_08_02_OUTRO",
+        "link": "missal/santos/08-02-outro",
+        "month": 8,
+        "name": "S. Estêvão I, Papa e Mártir",
+        "precedence": 1.5,
+        "rank": 4,
+        "suppressedIn": [
+          "62",
+        ],
         "type": "sancti",
       },
       {
@@ -7671,21 +7691,6 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
         "date": "2027-08-06",
         "day": 6,
         "flexibility": "santos",
-        "id": "SANCTI_08_06_OUTRO",
-        "link": "missal/santos/08-06-outro",
-        "month": 8,
-        "name": "S. S. Sixto, Papa, Felicíssimo e Agapito, Márts.",
-        "outro": true,
-        "precedence": 3.5,
-        "rank": 3,
-        "type": "sancti",
-      },
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-08-06",
-        "day": 6,
-        "flexibility": "santos",
         "id": "SANCTI_08_06_OUTRO_2",
         "link": "missal/santos/08-06-outro-2",
         "month": 8,
@@ -7710,6 +7715,23 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
         "name": "Transfiguração de Nosso Senhor Jesus Cristo",
         "precedence": 5,
         "rank": 2,
+        "type": "sancti",
+      },
+      {
+        "category": "santos",
+        "color": "r",
+        "date": "2027-08-06",
+        "day": 6,
+        "flexibility": "santos",
+        "id": "SANCTI_08_06_OUTRO",
+        "link": "missal/santos/08-06-outro",
+        "month": 8,
+        "name": "S. S. Sixto, Papa, Felicíssimo e Agapito, Márts.",
+        "precedence": 1.5,
+        "rank": 4,
+        "suppressedIn": [
+          "62",
+        ],
         "type": "sancti",
       },
       {
@@ -7800,23 +7822,7 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-08-09",
-        "day": 9,
-        "flexibility": "santos",
-        "id": "SANCTI_08_09_OUTRO_2",
-        "link": "missal/santos/08-09-outro-2",
-        "month": 8,
-        "name": "S. Romão, Mártir",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-08-09",
     "mass": [
       {
@@ -7831,6 +7837,23 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
         "name": "S. João Maria Vianney, Confessor",
         "precedence": 5,
         "rank": 2,
+        "type": "sancti",
+      },
+      {
+        "category": "santos",
+        "color": "r",
+        "date": "2027-08-09",
+        "day": 9,
+        "flexibility": "santos",
+        "id": "SANCTI_08_09_OUTRO_2",
+        "link": "missal/santos/08-09-outro-2",
+        "month": 8,
+        "name": "S. Romão, Mártir",
+        "precedence": 1.5,
+        "rank": 4,
+        "suppressedIn": [
+          "62",
+        ],
         "type": "sancti",
       },
       {
@@ -8305,23 +8328,7 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-08-22",
-        "day": 22,
-        "flexibility": "santos",
-        "id": "SANCTI_08_22_OUTRO",
-        "link": "missal/santos/08-22-outro",
-        "month": 8,
-        "name": "S. Timóteo e Outros, Mártires",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-08-22",
     "mass": [
       {
@@ -8351,6 +8358,23 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
         "type": "pre-lent-to-pentcost",
         "week": 14,
         "weekday": 0,
+      },
+      {
+        "category": "santos",
+        "color": "r",
+        "date": "2027-08-22",
+        "day": 22,
+        "flexibility": "santos",
+        "id": "SANCTI_08_22_OUTRO",
+        "link": "missal/santos/08-22-outro",
+        "month": 8,
+        "name": "S. Timóteo e Outros, Mártires",
+        "precedence": 1.5,
+        "rank": 4,
+        "suppressedIn": [
+          "62",
+        ],
+        "type": "sancti",
       },
     ],
     "season": "Pentecostes",
@@ -8531,23 +8555,7 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-08-28",
-        "day": 28,
-        "flexibility": "santos",
-        "id": "SANCTI_08_28_OUTRO",
-        "link": "missal/santos/08-28-outro",
-        "month": 8,
-        "name": "S. Hermes, Mártir",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-08-28",
     "mass": [
       {
@@ -8562,6 +8570,23 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
         "name": "S. Agostinho, Bispo, Confessor e Doutor da Igreja",
         "precedence": 3.5,
         "rank": 3,
+        "type": "sancti",
+      },
+      {
+        "category": "santos",
+        "color": "r",
+        "date": "2027-08-28",
+        "day": 28,
+        "flexibility": "santos",
+        "id": "SANCTI_08_28_OUTRO",
+        "link": "missal/santos/08-28-outro",
+        "month": 8,
+        "name": "S. Hermes, Mártir",
+        "precedence": 1.5,
+        "rank": 4,
+        "suppressedIn": [
+          "62",
+        ],
         "type": "sancti",
       },
       {
@@ -8687,23 +8712,7 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-09-01",
-        "day": 1,
-        "flexibility": "santos",
-        "id": "SANCTI_09_01_OUTRO",
-        "link": "missal/santos/09-01-outro",
-        "month": 9,
-        "name": "S. S. Doze Irmãos, Mártires",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-09-01",
     "mass": [
       {
@@ -8718,6 +8727,23 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
         "name": "S. Egídio, Abade",
         "precedence": 1.5,
         "rank": 4,
+        "type": "sancti",
+      },
+      {
+        "category": "santos",
+        "color": "r",
+        "date": "2027-09-01",
+        "day": 1,
+        "flexibility": "santos",
+        "id": "SANCTI_09_01_OUTRO",
+        "link": "missal/santos/09-01-outro",
+        "month": 9,
+        "name": "S. S. Doze Irmãos, Mártires",
+        "precedence": 1.5,
+        "rank": 4,
+        "suppressedIn": [
+          "62",
+        ],
         "type": "sancti",
       },
       {
@@ -9203,21 +9229,6 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
       },
       {
         "category": "santos",
-        "color": "r",
-        "date": "2027-09-16",
-        "day": 16,
-        "flexibility": "santos",
-        "id": "SANCTI_09_16_OUTRO_2",
-        "link": "missal/santos/09-16-outro-2",
-        "month": 9,
-        "name": "Santa Eufémia e Outros, Mártires",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-      {
-        "category": "santos",
         "color": "w",
         "date": "2027-09-16",
         "day": 16,
@@ -9246,6 +9257,23 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
         "name": "S. S. Cornélio e Cipriano, Mártires",
         "precedence": 3.5,
         "rank": 3,
+        "type": "sancti",
+      },
+      {
+        "category": "santos",
+        "color": "r",
+        "date": "2027-09-16",
+        "day": 16,
+        "flexibility": "santos",
+        "id": "SANCTI_09_16_OUTRO_2",
+        "link": "missal/santos/09-16-outro-2",
+        "month": 9,
+        "name": "Santa Eufémia e Outros, Mártires",
+        "precedence": 1.5,
+        "rank": 4,
+        "suppressedIn": [
+          "62",
+        ],
         "type": "sancti",
       },
       {
@@ -9371,23 +9399,7 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-09-20",
-        "day": 20,
-        "flexibility": "santos",
-        "id": "SANCTI_09_20_OUTRO",
-        "link": "missal/santos/09-20-outro",
-        "month": 9,
-        "name": "S. Eustáquio e Outros, Mártires",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-09-20",
     "mass": [
       {
@@ -9402,6 +9414,23 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
         "name": "Vigília de S. Mateus, Apóstolo e Evangelista",
         "precedence": 3.5,
         "rank": 3,
+        "type": "sancti",
+      },
+      {
+        "category": "santos",
+        "color": "r",
+        "date": "2027-09-20",
+        "day": 20,
+        "flexibility": "santos",
+        "id": "SANCTI_09_20_OUTRO",
+        "link": "missal/santos/09-20-outro",
+        "month": 9,
+        "name": "S. Eustáquio e Outros, Mártires",
+        "precedence": 1.5,
+        "rank": 4,
+        "suppressedIn": [
+          "62",
+        ],
         "type": "sancti",
       },
       {
@@ -9491,23 +9520,7 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-09-23",
-        "day": 23,
-        "flexibility": "santos",
-        "id": "SANCTI_09_23_OUTRO",
-        "link": "missal/santos/09-23-outro",
-        "month": 9,
-        "name": "Santa Tecla, Virgem e Mártir",
-        "outro": true,
-        "precedence": 3.5,
-        "rank": 3,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-09-23",
     "mass": [
       {
@@ -9522,6 +9535,23 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
         "name": "S. Lino, Papa e Mártir",
         "precedence": 3.5,
         "rank": 3,
+        "type": "sancti",
+      },
+      {
+        "category": "santos",
+        "color": "r",
+        "date": "2027-09-23",
+        "day": 23,
+        "flexibility": "santos",
+        "id": "SANCTI_09_23_OUTRO",
+        "link": "missal/santos/09-23-outro",
+        "month": 9,
+        "name": "Santa Tecla, Virgem e Mártir",
+        "precedence": 1.5,
+        "rank": 4,
+        "suppressedIn": [
+          "62",
+        ],
         "type": "sancti",
       },
       {
@@ -9998,38 +10028,7 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "w",
-        "date": "2027-10-07",
-        "day": 7,
-        "flexibility": "santos",
-        "id": "SANCTI_10_07_OUTRO",
-        "link": "missal/santos/10-07-outro",
-        "month": 10,
-        "name": "S. Marcos, Papa e Conf.",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-10-07",
-        "day": 7,
-        "flexibility": "santos",
-        "id": "SANCTI_10_07_OUTRO_2",
-        "link": "missal/santos/10-07-outro-2",
-        "month": 10,
-        "name": "S. S. Sérgio, Baco e Outros, Mártires",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-10-07",
     "mass": [
       {
@@ -10045,6 +10044,40 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
         "novena": true,
         "precedence": 5,
         "rank": 2,
+        "type": "sancti",
+      },
+      {
+        "category": "santos",
+        "color": "w",
+        "date": "2027-10-07",
+        "day": 7,
+        "flexibility": "santos",
+        "id": "SANCTI_10_07_OUTRO",
+        "link": "missal/santos/10-07-outro",
+        "month": 10,
+        "name": "S. Marcos, Papa e Conf.",
+        "precedence": 1.5,
+        "rank": 4,
+        "suppressedIn": [
+          "62",
+        ],
+        "type": "sancti",
+      },
+      {
+        "category": "santos",
+        "color": "r",
+        "date": "2027-10-07",
+        "day": 7,
+        "flexibility": "santos",
+        "id": "SANCTI_10_07_OUTRO_2",
+        "link": "missal/santos/10-07-outro-2",
+        "month": 10,
+        "name": "S. S. Sérgio, Baco e Outros, Mártires",
+        "precedence": 1.5,
+        "rank": 4,
+        "suppressedIn": [
+          "62",
+        ],
         "type": "sancti",
       },
       {
@@ -10103,21 +10136,6 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
     "alternatives": [
       {
         "category": "santos",
-        "color": "r",
-        "date": "2027-10-09",
-        "day": 9,
-        "flexibility": "santos",
-        "id": "SANCTI_10_09_OUTRO",
-        "link": "missal/santos/10-09-outro",
-        "month": 10,
-        "name": "S. Dionísio e Outros, Mártires",
-        "outro": true,
-        "precedence": 3.5,
-        "rank": 3,
-        "type": "sancti",
-      },
-      {
-        "category": "santos",
         "color": "w",
         "date": "2027-10-09",
         "day": 9,
@@ -10134,6 +10152,23 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
     ],
     "date": "2027-10-09",
     "mass": [
+      {
+        "category": "santos",
+        "color": "r",
+        "date": "2027-10-09",
+        "day": 9,
+        "flexibility": "santos",
+        "id": "SANCTI_10_09_OUTRO",
+        "link": "missal/santos/10-09-outro",
+        "month": 10,
+        "name": "S. Dionísio e Outros, Mártires",
+        "precedence": 3,
+        "rank": 3,
+        "suppressedIn": [
+          "62",
+        ],
+        "type": "sancti",
+      },
       {
         "category": "santos",
         "color": "w",
@@ -11704,23 +11739,7 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-11-19",
-        "day": 19,
-        "flexibility": "santos",
-        "id": "SANCTI_11_19_OUTRO",
-        "link": "missal/santos/11-19-outro",
-        "month": 11,
-        "name": "Comemoração de S. Ponciano, Papa e Mártir",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-11-19",
     "mass": [
       {
@@ -11735,6 +11754,23 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
         "name": "S. Isabel, Viúva",
         "precedence": 3.5,
         "rank": 3,
+        "type": "sancti",
+      },
+      {
+        "category": "santos",
+        "color": "r",
+        "date": "2027-11-19",
+        "day": 19,
+        "flexibility": "santos",
+        "id": "SANCTI_11_19_OUTRO",
+        "link": "missal/santos/11-19-outro",
+        "month": 11,
+        "name": "Comemoração de S. Ponciano, Papa e Mártir",
+        "precedence": 1.5,
+        "rank": 4,
+        "suppressedIn": [
+          "62",
+        ],
         "type": "sancti",
       },
       {
@@ -12013,23 +12049,7 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "w",
-        "date": "2027-11-26",
-        "day": 26,
-        "flexibility": "santos",
-        "id": "SANCTI_11_26_OUTRO",
-        "link": "missal/santos/11-26-outro",
-        "month": 11,
-        "name": "S. Pedro Alexandrino, B. e Mártir",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-11-26",
     "mass": [
       {
@@ -12044,6 +12064,23 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
         "name": "S. Silvestre, Abade",
         "precedence": 3.5,
         "rank": 3,
+        "type": "sancti",
+      },
+      {
+        "category": "santos",
+        "color": "w",
+        "date": "2027-11-26",
+        "day": 26,
+        "flexibility": "santos",
+        "id": "SANCTI_11_26_OUTRO",
+        "link": "missal/santos/11-26-outro",
+        "month": 11,
+        "name": "S. Pedro Alexandrino, B. e Mártir",
+        "precedence": 1.5,
+        "rank": 4,
+        "suppressedIn": [
+          "62",
+        ],
         "type": "sancti",
       },
       {
@@ -12330,23 +12367,7 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
     "season": "Advento",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-12-04",
-        "day": 4,
-        "flexibility": "santos",
-        "id": "SANCTI_12_04_OUTRO",
-        "link": "missal/santos/12-04-outro",
-        "month": 12,
-        "name": "Santa Bárbara, Virgem e Mártir",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-12-04",
     "mass": [
       {
@@ -12376,6 +12397,23 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
         "type": "advent",
         "week": 1,
         "weekday": 6,
+      },
+      {
+        "category": "santos",
+        "color": "r",
+        "date": "2027-12-04",
+        "day": 4,
+        "flexibility": "santos",
+        "id": "SANCTI_12_04_OUTRO",
+        "link": "missal/santos/12-04-outro",
+        "month": 12,
+        "name": "Santa Bárbara, Virgem e Mártir",
+        "precedence": 1.5,
+        "rank": 4,
+        "suppressedIn": [
+          "62",
+        ],
+        "type": "sancti",
       },
     ],
     "season": "Advento",
@@ -12467,7 +12505,9 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
     "season": "Advento",
   },
   Day {
-    "alternatives": [
+    "alternatives": [],
+    "date": "2027-12-07",
+    "mass": [
       {
         "category": "santos",
         "color": "v",
@@ -12478,14 +12518,10 @@ exports[`calendar pre-55 2027 renders the full year 1`] = `
         "link": "missal/santos/12-07-outro",
         "month": 12,
         "name": "Vigília Imaculada Conceição da SS. Virgem",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
+        "precedence": 3,
+        "rank": 3,
         "type": "sancti",
       },
-    ],
-    "date": "2027-12-07",
-    "mass": [
       {
         "category": "santos",
         "color": "w",
@@ -13540,23 +13576,7 @@ exports[`calendar 62 2027 renders the full year 1`] = `
     "season": "Epifania",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-01-14",
-        "day": 14,
-        "flexibility": "santos",
-        "id": "SANCTI_01_14_OUTRO",
-        "link": "missal/santos/01-14-outro",
-        "month": 1,
-        "name": "S. Félix, Presb. e Márt.",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-01-14",
     "mass": [
       {
@@ -13591,23 +13611,7 @@ exports[`calendar 62 2027 renders the full year 1`] = `
     "season": "Epifania",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "w",
-        "date": "2027-01-15",
-        "day": 15,
-        "flexibility": "santos",
-        "id": "SANCTI_01_15_OUTRO",
-        "link": "missal/santos/01-15-outro",
-        "month": 1,
-        "name": "S. Amaro, Abade",
-        "outro": true,
-        "precedence": 3.5,
-        "rank": 3,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-01-15",
     "mass": [
       {
@@ -13728,7 +13732,9 @@ exports[`calendar 62 2027 renders the full year 1`] = `
     "season": "Epifania",
   },
   Day {
-    "alternatives": [
+    "alternatives": [],
+    "date": "2027-01-18",
+    "mass": [
       {
         "category": "santos",
         "color": "r",
@@ -13739,24 +13745,6 @@ exports[`calendar 62 2027 renders the full year 1`] = `
         "link": "missal/santos/01-18-outro",
         "month": 1,
         "name": "Santa Prisca, Virgem e Mártir",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
-    "date": "2027-01-18",
-    "mass": [
-      {
-        "category": "santos",
-        "color": "w",
-        "date": "2027-01-18",
-        "day": 18,
-        "flexibility": "santos",
-        "id": "SANCTI_01_18",
-        "link": "missal/santos/01-18",
-        "month": 1,
-        "name": "Cadeira de S. Pedro em Roma",
         "precedence": 1.5,
         "rank": 4,
         "type": "sancti",
@@ -13937,23 +13925,7 @@ exports[`calendar 62 2027 renders the full year 1`] = `
     "season": "Epifania",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "w",
-        "date": "2027-01-23",
-        "day": 23,
-        "flexibility": "santos",
-        "id": "SANCTI_01_23_OUTRO",
-        "link": "missal/santos/01-23-outro",
-        "month": 1,
-        "name": "Santa Emerenciana, Virgem e Márt.",
-        "outro": true,
-        "precedence": 3.5,
-        "rank": 3,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-01-23",
     "mass": [
       {
@@ -14507,23 +14479,7 @@ exports[`calendar 62 2027 renders the full year 1`] = `
     "season": "Septuagésima",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-02-06",
-        "day": 6,
-        "flexibility": "santos",
-        "id": "SANCTI_02_06_OUTRO",
-        "link": "missal/santos/02-06-outro",
-        "month": 2,
-        "name": "Santa Dorotéia, V. e Márt.",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-02-06",
     "mass": [
       {
@@ -14628,23 +14584,7 @@ exports[`calendar 62 2027 renders the full year 1`] = `
     "season": "Septuagésima",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-02-09",
-        "day": 9,
-        "flexibility": "santos",
-        "id": "SANCTI_02_09_OUTRO",
-        "link": "missal/santos/02-09-outro",
-        "month": 2,
-        "name": "Santa Apolónia, Virgem e Márt.",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-02-09",
     "mass": [
       {
@@ -15377,23 +15317,7 @@ exports[`calendar 62 2027 renders the full year 1`] = `
     "season": "Quaresma",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-03-04",
-        "day": 4,
-        "flexibility": "santos",
-        "id": "SANCTI_03_04_OUTRO",
-        "link": "missal/santos/03-04-outro",
-        "month": 3,
-        "name": "S. Lúcio I, Papa e Mártir",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-03-04",
     "mass": [
       {
@@ -18156,23 +18080,7 @@ exports[`calendar 62 2027 renders the full year 1`] = `
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-05-26",
-        "day": 26,
-        "flexibility": "santos",
-        "id": "SANCTI_05_26_OUTRO",
-        "link": "missal/santos/05-26-outro",
-        "month": 5,
-        "name": "S. Eleutério, Papa e Mártir",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-05-26",
     "mass": [
       {
@@ -18207,23 +18115,7 @@ exports[`calendar 62 2027 renders the full year 1`] = `
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-05-27",
-        "day": 27,
-        "flexibility": "santos",
-        "id": "SANCTI_05_27_OUTRO",
-        "link": "missal/santos/05-27-outro",
-        "month": 5,
-        "name": "S. João, Papa e Mártir",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-05-27",
     "mass": [
       {
@@ -20128,21 +20020,6 @@ exports[`calendar 62 2027 renders the full year 1`] = `
         "date": "2027-07-20",
         "day": 20,
         "flexibility": "santos",
-        "id": "SANCTI_07_20_OUTRO",
-        "link": "missal/santos/07-20-outro",
-        "month": 7,
-        "name": "Santa Margarida, Virgem e Mártir",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-07-20",
-        "day": 20,
-        "flexibility": "santos",
         "id": "SANCTI_07_20_COIMBRA",
         "link": "missal/santos/07-20-coimbra",
         "local": "coimbra",
@@ -20296,21 +20173,6 @@ exports[`calendar 62 2027 renders the full year 1`] = `
         "date": "2027-07-23",
         "day": 23,
         "flexibility": "santos",
-        "id": "SANCTI_07_23_OUTRO",
-        "link": "missal/santos/07-23-outro",
-        "month": 7,
-        "name": "S. Libório, Bispo e Confessor",
-        "outro": true,
-        "precedence": 3.5,
-        "rank": 3,
-        "type": "sancti",
-      },
-      {
-        "category": "santos",
-        "color": "w",
-        "date": "2027-07-23",
-        "day": 23,
-        "flexibility": "santos",
         "id": "SANCTI_07_23_VISEU",
         "link": "missal/santos/07-23-viseu",
         "local": "viseu",
@@ -20355,23 +20217,7 @@ exports[`calendar 62 2027 renders the full year 1`] = `
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-07-24",
-        "day": 24,
-        "flexibility": "santos",
-        "id": "SANCTI_07_24_OUTRO",
-        "link": "missal/santos/07-24-outro",
-        "month": 7,
-        "name": "Santa Cristina",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-07-24",
     "mass": [
       {
@@ -20405,23 +20251,7 @@ exports[`calendar 62 2027 renders the full year 1`] = `
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-07-25",
-        "day": 25,
-        "flexibility": "santos",
-        "id": "SANCTI_07_25_OUTRO",
-        "link": "missal/santos/07-25-outro",
-        "month": 7,
-        "name": "S. Cristovão, Mártir",
-        "outro": true,
-        "precedence": 3.5,
-        "rank": 3,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-07-25",
     "mass": [
       {
@@ -20542,38 +20372,7 @@ exports[`calendar 62 2027 renders the full year 1`] = `
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-07-28",
-        "day": 28,
-        "flexibility": "santos",
-        "id": "SANCTI_07_28_OUTRO",
-        "link": "missal/santos/07-28-outro",
-        "month": 7,
-        "name": "S. Vítor, Papa e Mártir",
-        "outro": true,
-        "precedence": 3.5,
-        "rank": 3,
-        "type": "sancti",
-      },
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-07-28",
-        "day": 28,
-        "flexibility": "santos",
-        "id": "SANCTI_07_28_OUTRO_2",
-        "link": "missal/santos/07-28-outro",
-        "month": 7,
-        "name": "S. Inocêncio, Papa e Confessor",
-        "outro": true,
-        "precedence": 3.5,
-        "rank": 3,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-07-28",
     "mass": [
       {
@@ -20608,23 +20407,7 @@ exports[`calendar 62 2027 renders the full year 1`] = `
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-07-29",
-        "day": 29,
-        "flexibility": "santos",
-        "id": "SANCTI_07_29_OUTRO",
-        "link": "missal/santos/07-29-outro",
-        "month": 7,
-        "name": "S. Félix II, Papa e Mártir",
-        "outro": true,
-        "precedence": 3.5,
-        "rank": 3,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-07-29",
     "mass": [
       {
@@ -20764,23 +20547,7 @@ exports[`calendar 62 2027 renders the full year 1`] = `
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-08-02",
-        "day": 2,
-        "flexibility": "santos",
-        "id": "SANCTI_08_02_OUTRO",
-        "link": "missal/santos/08-02-outro",
-        "month": 8,
-        "name": "S. Estêvão I, Papa e Mártir",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-08-02",
     "mass": [
       {
@@ -20907,21 +20674,6 @@ exports[`calendar 62 2027 renders the full year 1`] = `
   },
   Day {
     "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-08-06",
-        "day": 6,
-        "flexibility": "santos",
-        "id": "SANCTI_08_06_OUTRO",
-        "link": "missal/santos/08-06-outro",
-        "month": 8,
-        "name": "S. S. Sixto, Papa, Felicíssimo e Agapito, Márts.",
-        "outro": true,
-        "precedence": 3.5,
-        "rank": 3,
-        "type": "sancti",
-      },
       {
         "category": "santos",
         "color": "r",
@@ -21058,23 +20810,7 @@ exports[`calendar 62 2027 renders the full year 1`] = `
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-08-09",
-        "day": 9,
-        "flexibility": "santos",
-        "id": "SANCTI_08_09_OUTRO_2",
-        "link": "missal/santos/08-09-outro-2",
-        "month": 8,
-        "name": "S. Romão, Mártir",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-08-09",
     "mass": [
       {
@@ -21564,23 +21300,7 @@ exports[`calendar 62 2027 renders the full year 1`] = `
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-08-22",
-        "day": 22,
-        "flexibility": "santos",
-        "id": "SANCTI_08_22_OUTRO",
-        "link": "missal/santos/08-22-outro",
-        "month": 8,
-        "name": "S. Timóteo e Outros, Mártires",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-08-22",
     "mass": [
       {
@@ -21790,23 +21510,7 @@ exports[`calendar 62 2027 renders the full year 1`] = `
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-08-28",
-        "day": 28,
-        "flexibility": "santos",
-        "id": "SANCTI_08_28_OUTRO",
-        "link": "missal/santos/08-28-outro",
-        "month": 8,
-        "name": "S. Hermes, Mártir",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-08-28",
     "mass": [
       {
@@ -21946,23 +21650,7 @@ exports[`calendar 62 2027 renders the full year 1`] = `
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-09-01",
-        "day": 1,
-        "flexibility": "santos",
-        "id": "SANCTI_09_01_OUTRO",
-        "link": "missal/santos/09-01-outro",
-        "month": 9,
-        "name": "S. S. Doze Irmãos, Mártires",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-09-01",
     "mass": [
       {
@@ -22462,21 +22150,6 @@ exports[`calendar 62 2027 renders the full year 1`] = `
       },
       {
         "category": "santos",
-        "color": "r",
-        "date": "2027-09-16",
-        "day": 16,
-        "flexibility": "santos",
-        "id": "SANCTI_09_16_OUTRO_2",
-        "link": "missal/santos/09-16-outro-2",
-        "month": 9,
-        "name": "Santa Eufémia e Outros, Mártires",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-      {
-        "category": "santos",
         "color": "w",
         "date": "2027-09-16",
         "day": 16,
@@ -22630,23 +22303,7 @@ exports[`calendar 62 2027 renders the full year 1`] = `
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-09-20",
-        "day": 20,
-        "flexibility": "santos",
-        "id": "SANCTI_09_20_OUTRO",
-        "link": "missal/santos/09-20-outro",
-        "month": 9,
-        "name": "S. Eustáquio e Outros, Mártires",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-09-20",
     "mass": [
       {
@@ -22750,23 +22407,7 @@ exports[`calendar 62 2027 renders the full year 1`] = `
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-09-23",
-        "day": 23,
-        "flexibility": "santos",
-        "id": "SANCTI_09_23_OUTRO",
-        "link": "missal/santos/09-23-outro",
-        "month": 9,
-        "name": "Santa Tecla, Virgem e Mártir",
-        "outro": true,
-        "precedence": 3.5,
-        "rank": 3,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-09-23",
     "mass": [
       {
@@ -23257,38 +22898,7 @@ exports[`calendar 62 2027 renders the full year 1`] = `
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "w",
-        "date": "2027-10-07",
-        "day": 7,
-        "flexibility": "santos",
-        "id": "SANCTI_10_07_OUTRO",
-        "link": "missal/santos/10-07-outro",
-        "month": 10,
-        "name": "S. Marcos, Papa e Conf.",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-10-07",
-        "day": 7,
-        "flexibility": "santos",
-        "id": "SANCTI_10_07_OUTRO_2",
-        "link": "missal/santos/10-07-outro-2",
-        "month": 10,
-        "name": "S. S. Sérgio, Baco e Outros, Mártires",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-10-07",
     "mass": [
       {
@@ -23376,21 +22986,6 @@ exports[`calendar 62 2027 renders the full year 1`] = `
   },
   Day {
     "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-10-09",
-        "day": 9,
-        "flexibility": "santos",
-        "id": "SANCTI_10_09_OUTRO",
-        "link": "missal/santos/10-09-outro",
-        "month": 10,
-        "name": "S. Dionísio e Outros, Mártires",
-        "outro": true,
-        "precedence": 3.5,
-        "rank": 3,
-        "type": "sancti",
-      },
       {
         "category": "santos",
         "color": "w",
@@ -24979,23 +24574,7 @@ exports[`calendar 62 2027 renders the full year 1`] = `
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-11-19",
-        "day": 19,
-        "flexibility": "santos",
-        "id": "SANCTI_11_19_OUTRO",
-        "link": "missal/santos/11-19-outro",
-        "month": 11,
-        "name": "Comemoração de S. Ponciano, Papa e Mártir",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-11-19",
     "mass": [
       {
@@ -25288,23 +24867,7 @@ exports[`calendar 62 2027 renders the full year 1`] = `
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "w",
-        "date": "2027-11-26",
-        "day": 26,
-        "flexibility": "santos",
-        "id": "SANCTI_11_26_OUTRO",
-        "link": "missal/santos/11-26-outro",
-        "month": 11,
-        "name": "S. Pedro Alexandrino, B. e Mártir",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-11-26",
     "mass": [
       {
@@ -25603,23 +25166,7 @@ exports[`calendar 62 2027 renders the full year 1`] = `
     "season": "Advento",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2027-12-04",
-        "day": 4,
-        "flexibility": "santos",
-        "id": "SANCTI_12_04_OUTRO",
-        "link": "missal/santos/12-04-outro",
-        "month": 12,
-        "name": "Santa Bárbara, Virgem e Mártir",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-12-04",
     "mass": [
       {
@@ -25740,23 +25287,7 @@ exports[`calendar 62 2027 renders the full year 1`] = `
     "season": "Advento",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "v",
-        "date": "2027-12-07",
-        "day": 7,
-        "flexibility": "santos",
-        "id": "SANCTI_12_07_OUTRO",
-        "link": "missal/santos/12-07-outro",
-        "month": 12,
-        "name": "Vigília Imaculada Conceição da SS. Virgem",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2027-12-07",
     "mass": [
       {
@@ -25786,6 +25317,20 @@ exports[`calendar 62 2027 renders the full year 1`] = `
         "type": "advent",
         "week": 2,
         "weekday": 2,
+      },
+      {
+        "category": "santos",
+        "color": "v",
+        "date": "2027-12-07",
+        "day": 7,
+        "flexibility": "santos",
+        "id": "SANCTI_12_07_OUTRO",
+        "link": "missal/santos/12-07-outro",
+        "month": 12,
+        "name": "Vigília Imaculada Conceição da SS. Virgem",
+        "precedence": 4,
+        "rank": 3,
+        "type": "sancti",
       },
     ],
     "season": "Advento",

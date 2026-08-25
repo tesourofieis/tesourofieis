@@ -291,23 +291,7 @@ exports[`calendar 2024 (default edition) renders entire calendar correctly 1`] =
     "season": "Epifania",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2024-01-14",
-        "day": 14,
-        "flexibility": "santos",
-        "id": "SANCTI_01_14_OUTRO",
-        "link": "missal/santos/01-14-outro",
-        "month": 1,
-        "name": "S. Félix, Presb. e Márt.",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2024-01-14",
     "mass": [
       {
@@ -342,23 +326,7 @@ exports[`calendar 2024 (default edition) renders entire calendar correctly 1`] =
     "season": "Epifania",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "w",
-        "date": "2024-01-15",
-        "day": 15,
-        "flexibility": "santos",
-        "id": "SANCTI_01_15_OUTRO",
-        "link": "missal/santos/01-15-outro",
-        "month": 1,
-        "name": "S. Amaro, Abade",
-        "outro": true,
-        "precedence": 3.5,
-        "rank": 3,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2024-01-15",
     "mass": [
       {
@@ -479,7 +447,9 @@ exports[`calendar 2024 (default edition) renders entire calendar correctly 1`] =
     "season": "Epifania",
   },
   Day {
-    "alternatives": [
+    "alternatives": [],
+    "date": "2024-01-18",
+    "mass": [
       {
         "category": "santos",
         "color": "r",
@@ -490,24 +460,6 @@ exports[`calendar 2024 (default edition) renders entire calendar correctly 1`] =
         "link": "missal/santos/01-18-outro",
         "month": 1,
         "name": "Santa Prisca, Virgem e Mártir",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
-    "date": "2024-01-18",
-    "mass": [
-      {
-        "category": "santos",
-        "color": "w",
-        "date": "2024-01-18",
-        "day": 18,
-        "flexibility": "santos",
-        "id": "SANCTI_01_18",
-        "link": "missal/santos/01-18",
-        "month": 1,
-        "name": "Cadeira de S. Pedro em Roma",
         "precedence": 1.5,
         "rank": 4,
         "type": "sancti",
@@ -688,23 +640,7 @@ exports[`calendar 2024 (default edition) renders entire calendar correctly 1`] =
     "season": "Epifania",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "w",
-        "date": "2024-01-23",
-        "day": 23,
-        "flexibility": "santos",
-        "id": "SANCTI_01_23_OUTRO",
-        "link": "missal/santos/01-23-outro",
-        "month": 1,
-        "name": "Santa Emerenciana, Virgem e Márt.",
-        "outro": true,
-        "precedence": 3.5,
-        "rank": 3,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2024-01-23",
     "mass": [
       {
@@ -1256,23 +1192,7 @@ exports[`calendar 2024 (default edition) renders entire calendar correctly 1`] =
     "season": "Septuagésima",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2024-02-06",
-        "day": 6,
-        "flexibility": "santos",
-        "id": "SANCTI_02_06_OUTRO",
-        "link": "missal/santos/02-06-outro",
-        "month": 2,
-        "name": "Santa Dorotéia, V. e Márt.",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2024-02-06",
     "mass": [
       {
@@ -1377,23 +1297,7 @@ exports[`calendar 2024 (default edition) renders entire calendar correctly 1`] =
     "season": "Septuagésima",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2024-02-09",
-        "day": 9,
-        "flexibility": "santos",
-        "id": "SANCTI_02_09_OUTRO",
-        "link": "missal/santos/02-09-outro",
-        "month": 2,
-        "name": "Santa Apolónia, Virgem e Márt.",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2024-02-09",
     "mass": [
       {
@@ -2143,23 +2047,7 @@ exports[`calendar 2024 (default edition) renders entire calendar correctly 1`] =
     "season": "Quaresma",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2024-03-04",
-        "day": 4,
-        "flexibility": "santos",
-        "id": "SANCTI_03_04_OUTRO",
-        "link": "missal/santos/03-04-outro",
-        "month": 3,
-        "name": "S. Lúcio I, Papa e Mártir",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2024-03-04",
     "mass": [
       {
@@ -4924,23 +4812,7 @@ exports[`calendar 2024 (default edition) renders entire calendar correctly 1`] =
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2024-05-26",
-        "day": 26,
-        "flexibility": "santos",
-        "id": "SANCTI_05_26_OUTRO",
-        "link": "missal/santos/05-26-outro",
-        "month": 5,
-        "name": "S. Eleutério, Papa e Mártir",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2024-05-26",
     "mass": [
       {
@@ -4975,23 +4847,7 @@ exports[`calendar 2024 (default edition) renders entire calendar correctly 1`] =
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2024-05-27",
-        "day": 27,
-        "flexibility": "santos",
-        "id": "SANCTI_05_27_OUTRO",
-        "link": "missal/santos/05-27-outro",
-        "month": 5,
-        "name": "S. João, Papa e Mártir",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2024-05-27",
     "mass": [
       {
@@ -6892,21 +6748,6 @@ exports[`calendar 2024 (default edition) renders entire calendar correctly 1`] =
         "date": "2024-07-20",
         "day": 20,
         "flexibility": "santos",
-        "id": "SANCTI_07_20_OUTRO",
-        "link": "missal/santos/07-20-outro",
-        "month": 7,
-        "name": "Santa Margarida, Virgem e Mártir",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2024-07-20",
-        "day": 20,
-        "flexibility": "santos",
         "id": "SANCTI_07_20_COIMBRA",
         "link": "missal/santos/07-20-coimbra",
         "local": "coimbra",
@@ -7060,21 +6901,6 @@ exports[`calendar 2024 (default edition) renders entire calendar correctly 1`] =
         "date": "2024-07-23",
         "day": 23,
         "flexibility": "santos",
-        "id": "SANCTI_07_23_OUTRO",
-        "link": "missal/santos/07-23-outro",
-        "month": 7,
-        "name": "S. Libório, Bispo e Confessor",
-        "outro": true,
-        "precedence": 3.5,
-        "rank": 3,
-        "type": "sancti",
-      },
-      {
-        "category": "santos",
-        "color": "w",
-        "date": "2024-07-23",
-        "day": 23,
-        "flexibility": "santos",
         "id": "SANCTI_07_23_VISEU",
         "link": "missal/santos/07-23-viseu",
         "local": "viseu",
@@ -7119,23 +6945,7 @@ exports[`calendar 2024 (default edition) renders entire calendar correctly 1`] =
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2024-07-24",
-        "day": 24,
-        "flexibility": "santos",
-        "id": "SANCTI_07_24_OUTRO",
-        "link": "missal/santos/07-24-outro",
-        "month": 7,
-        "name": "Santa Cristina",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2024-07-24",
     "mass": [
       {
@@ -7171,23 +6981,7 @@ exports[`calendar 2024 (default edition) renders entire calendar correctly 1`] =
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2024-07-25",
-        "day": 25,
-        "flexibility": "santos",
-        "id": "SANCTI_07_25_OUTRO",
-        "link": "missal/santos/07-25-outro",
-        "month": 7,
-        "name": "S. Cristovão, Mártir",
-        "outro": true,
-        "precedence": 3.5,
-        "rank": 3,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2024-07-25",
     "mass": [
       {
@@ -7306,38 +7100,7 @@ exports[`calendar 2024 (default edition) renders entire calendar correctly 1`] =
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2024-07-28",
-        "day": 28,
-        "flexibility": "santos",
-        "id": "SANCTI_07_28_OUTRO",
-        "link": "missal/santos/07-28-outro",
-        "month": 7,
-        "name": "S. Vítor, Papa e Mártir",
-        "outro": true,
-        "precedence": 3.5,
-        "rank": 3,
-        "type": "sancti",
-      },
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2024-07-28",
-        "day": 28,
-        "flexibility": "santos",
-        "id": "SANCTI_07_28_OUTRO_2",
-        "link": "missal/santos/07-28-outro",
-        "month": 7,
-        "name": "S. Inocêncio, Papa e Confessor",
-        "outro": true,
-        "precedence": 3.5,
-        "rank": 3,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2024-07-28",
     "mass": [
       {
@@ -7372,23 +7135,7 @@ exports[`calendar 2024 (default edition) renders entire calendar correctly 1`] =
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2024-07-29",
-        "day": 29,
-        "flexibility": "santos",
-        "id": "SANCTI_07_29_OUTRO",
-        "link": "missal/santos/07-29-outro",
-        "month": 7,
-        "name": "S. Félix II, Papa e Mártir",
-        "outro": true,
-        "precedence": 3.5,
-        "rank": 3,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2024-07-29",
     "mass": [
       {
@@ -7528,23 +7275,7 @@ exports[`calendar 2024 (default edition) renders entire calendar correctly 1`] =
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2024-08-02",
-        "day": 2,
-        "flexibility": "santos",
-        "id": "SANCTI_08_02_OUTRO",
-        "link": "missal/santos/08-02-outro",
-        "month": 8,
-        "name": "S. Estêvão I, Papa e Mártir",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2024-08-02",
     "mass": [
       {
@@ -7669,21 +7400,6 @@ exports[`calendar 2024 (default edition) renders entire calendar correctly 1`] =
   },
   Day {
     "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2024-08-06",
-        "day": 6,
-        "flexibility": "santos",
-        "id": "SANCTI_08_06_OUTRO",
-        "link": "missal/santos/08-06-outro",
-        "month": 8,
-        "name": "S. S. Sixto, Papa, Felicíssimo e Agapito, Márts.",
-        "outro": true,
-        "precedence": 3.5,
-        "rank": 3,
-        "type": "sancti",
-      },
       {
         "category": "santos",
         "color": "r",
@@ -7820,23 +7536,7 @@ exports[`calendar 2024 (default edition) renders entire calendar correctly 1`] =
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2024-08-09",
-        "day": 9,
-        "flexibility": "santos",
-        "id": "SANCTI_08_09_OUTRO_2",
-        "link": "missal/santos/08-09-outro-2",
-        "month": 8,
-        "name": "S. Romão, Mártir",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2024-08-09",
     "mass": [
       {
@@ -8326,23 +8026,7 @@ exports[`calendar 2024 (default edition) renders entire calendar correctly 1`] =
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2024-08-22",
-        "day": 22,
-        "flexibility": "santos",
-        "id": "SANCTI_08_22_OUTRO",
-        "link": "missal/santos/08-22-outro",
-        "month": 8,
-        "name": "S. Timóteo e Outros, Mártires",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2024-08-22",
     "mass": [
       {
@@ -8552,23 +8236,7 @@ exports[`calendar 2024 (default edition) renders entire calendar correctly 1`] =
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2024-08-28",
-        "day": 28,
-        "flexibility": "santos",
-        "id": "SANCTI_08_28_OUTRO",
-        "link": "missal/santos/08-28-outro",
-        "month": 8,
-        "name": "S. Hermes, Mártir",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2024-08-28",
     "mass": [
       {
@@ -8708,23 +8376,7 @@ exports[`calendar 2024 (default edition) renders entire calendar correctly 1`] =
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2024-09-01",
-        "day": 1,
-        "flexibility": "santos",
-        "id": "SANCTI_09_01_OUTRO",
-        "link": "missal/santos/09-01-outro",
-        "month": 9,
-        "name": "S. S. Doze Irmãos, Mártires",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2024-09-01",
     "mass": [
       {
@@ -9226,21 +8878,6 @@ exports[`calendar 2024 (default edition) renders entire calendar correctly 1`] =
       },
       {
         "category": "santos",
-        "color": "r",
-        "date": "2024-09-16",
-        "day": 16,
-        "flexibility": "santos",
-        "id": "SANCTI_09_16_OUTRO_2",
-        "link": "missal/santos/09-16-outro-2",
-        "month": 9,
-        "name": "Santa Eufémia e Outros, Mártires",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-      {
-        "category": "santos",
         "color": "w",
         "date": "2024-09-16",
         "day": 16,
@@ -9393,23 +9030,7 @@ exports[`calendar 2024 (default edition) renders entire calendar correctly 1`] =
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2024-09-20",
-        "day": 20,
-        "flexibility": "santos",
-        "id": "SANCTI_09_20_OUTRO",
-        "link": "missal/santos/09-20-outro",
-        "month": 9,
-        "name": "S. Eustáquio e Outros, Mártires",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2024-09-20",
     "mass": [
       {
@@ -9512,23 +9133,7 @@ exports[`calendar 2024 (default edition) renders entire calendar correctly 1`] =
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2024-09-23",
-        "day": 23,
-        "flexibility": "santos",
-        "id": "SANCTI_09_23_OUTRO",
-        "link": "missal/santos/09-23-outro",
-        "month": 9,
-        "name": "Santa Tecla, Virgem e Mártir",
-        "outro": true,
-        "precedence": 3.5,
-        "rank": 3,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2024-09-23",
     "mass": [
       {
@@ -10019,38 +9624,7 @@ exports[`calendar 2024 (default edition) renders entire calendar correctly 1`] =
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "w",
-        "date": "2024-10-07",
-        "day": 7,
-        "flexibility": "santos",
-        "id": "SANCTI_10_07_OUTRO",
-        "link": "missal/santos/10-07-outro",
-        "month": 10,
-        "name": "S. Marcos, Papa e Conf.",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2024-10-07",
-        "day": 7,
-        "flexibility": "santos",
-        "id": "SANCTI_10_07_OUTRO_2",
-        "link": "missal/santos/10-07-outro-2",
-        "month": 10,
-        "name": "S. S. Sérgio, Baco e Outros, Mártires",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2024-10-07",
     "mass": [
       {
@@ -10138,21 +9712,6 @@ exports[`calendar 2024 (default edition) renders entire calendar correctly 1`] =
   },
   Day {
     "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2024-10-09",
-        "day": 9,
-        "flexibility": "santos",
-        "id": "SANCTI_10_09_OUTRO",
-        "link": "missal/santos/10-09-outro",
-        "month": 10,
-        "name": "S. Dionísio e Outros, Mártires",
-        "outro": true,
-        "precedence": 3.5,
-        "rank": 3,
-        "type": "sancti",
-      },
       {
         "category": "santos",
         "color": "w",
@@ -11743,23 +11302,7 @@ exports[`calendar 2024 (default edition) renders entire calendar correctly 1`] =
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2024-11-19",
-        "day": 19,
-        "flexibility": "santos",
-        "id": "SANCTI_11_19_OUTRO",
-        "link": "missal/santos/11-19-outro",
-        "month": 11,
-        "name": "Comemoração de S. Ponciano, Papa e Mártir",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2024-11-19",
     "mass": [
       {
@@ -12052,23 +11595,7 @@ exports[`calendar 2024 (default edition) renders entire calendar correctly 1`] =
     "season": "Pentecostes",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "w",
-        "date": "2024-11-26",
-        "day": 26,
-        "flexibility": "santos",
-        "id": "SANCTI_11_26_OUTRO",
-        "link": "missal/santos/11-26-outro",
-        "month": 11,
-        "name": "S. Pedro Alexandrino, B. e Mártir",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2024-11-26",
     "mass": [
       {
@@ -12369,23 +11896,7 @@ exports[`calendar 2024 (default edition) renders entire calendar correctly 1`] =
     "season": "Advento",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "r",
-        "date": "2024-12-04",
-        "day": 4,
-        "flexibility": "santos",
-        "id": "SANCTI_12_04_OUTRO",
-        "link": "missal/santos/12-04-outro",
-        "month": 12,
-        "name": "Santa Bárbara, Virgem e Mártir",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2024-12-04",
     "mass": [
       {
@@ -12506,23 +12017,7 @@ exports[`calendar 2024 (default edition) renders entire calendar correctly 1`] =
     "season": "Advento",
   },
   Day {
-    "alternatives": [
-      {
-        "category": "santos",
-        "color": "v",
-        "date": "2024-12-07",
-        "day": 7,
-        "flexibility": "santos",
-        "id": "SANCTI_12_07_OUTRO",
-        "link": "missal/santos/12-07-outro",
-        "month": 12,
-        "name": "Vigília Imaculada Conceição da SS. Virgem",
-        "outro": true,
-        "precedence": 1.5,
-        "rank": 4,
-        "type": "sancti",
-      },
-    ],
+    "alternatives": [],
     "date": "2024-12-07",
     "mass": [
       {
@@ -12552,6 +12047,20 @@ exports[`calendar 2024 (default edition) renders entire calendar correctly 1`] =
         "type": "advent",
         "week": 1,
         "weekday": 6,
+      },
+      {
+        "category": "santos",
+        "color": "v",
+        "date": "2024-12-07",
+        "day": 7,
+        "flexibility": "santos",
+        "id": "SANCTI_12_07_OUTRO",
+        "link": "missal/santos/12-07-outro",
+        "month": 12,
+        "name": "Vigília Imaculada Conceição da SS. Virgem",
+        "precedence": 4,
+        "rank": 3,
+        "type": "sancti",
       },
     ],
     "season": "Advento",

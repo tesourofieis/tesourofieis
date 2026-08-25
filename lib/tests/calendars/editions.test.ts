@@ -152,3 +152,31 @@ describe("divergence-catalogue routing", () => {
     expect(vigil62?.rank).toBe(2);
   });
 });
+
+describe("Divino Afflatu commemoration stack", () => {
+  test("promoted simples are commemorated pre-55 and absent under '62", () => {
+    const dec4 = getCalendarDay("2026-12-04", "pre-55")?.mass.map((m) => m.id) ?? [];
+    expect(dec4).toContain("SANCTI_12_04_OUTRO"); // Santa Bárbara
+    const dec462 = getCalendarDay("2026-12-04", "62")?.mass.map((m) => m.id) ?? [];
+    expect(dec462).not.toContain("SANCTI_12_04_OUTRO");
+  });
+
+  test("the vigil of the Immaculate Conception serves both editions at grade", () => {
+    const v55 = getCalendarDay("2026-12-07", "pre-55")?.mass.find(
+      (m) => m.id === "SANCTI_12_07_OUTRO",
+    );
+    const v62 = getCalendarDay("2026-12-07", "62")?.mass.find(
+      (m) => m.id === "SANCTI_12_07_OUTRO",
+    );
+    expect(v55?.precedence).toBe(3);
+    expect(v62?.precedence).toBe(4); // Duplex majus under Rubrics 1960
+  });
+
+  test("Prisca replaces the Cathedra under '62 on Jan 18th", () => {
+    const ids62 = getCalendarDay("2026-01-18", "62")?.mass.map((m) => m.id) ?? [];
+    expect(ids62).toContain("SANCTI_01_18_OUTRO");
+    expect(ids62).not.toContain("SANCTI_01_18");
+    const ids55 = getCalendarDay("2026-01-18", "pre-55")?.mass.map((m) => m.id) ?? [];
+    expect(ids55).toContain("SANCTI_01_18");
+  });
+});

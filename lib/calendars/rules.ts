@@ -447,13 +447,18 @@ class AdventEmberDayRule implements ConcurrencyRule {
       return { stay: [advOrEmber!], shifts: [] };
     }
 
+    // Everyone else on the day is commemorated under the winners, never
+    // dropped - a missal lists the whole stack.
+    const rest = observances.filter(
+      (o) => o.id !== advOrEmber!.id && o.id !== sancti.id,
+    );
     const s = sancti as Mass;
     if (effectivePrecedence(advOrEmber!) === effectivePrecedence(s)) {
-      return { stay: [s, advOrEmber!], shifts: [] };
+      return { stay: [s, advOrEmber!, ...rest], shifts: [] };
     }
 
     if (effectivePrecedence(advOrEmber!) < effectivePrecedence(s)) {
-      return { stay: [advOrEmber!, s], shifts: [] };
+      return { stay: [advOrEmber!, s, ...rest], shifts: [] };
     }
 
     return { stay: observances, shifts: [] };

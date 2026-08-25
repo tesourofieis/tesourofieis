@@ -30,10 +30,14 @@ export const SANCTI_03: MassMap = {
     flexibility: "santos",
     id: "SANCTI_03_04_OUTRO",
     name: "S. Lúcio I, Papa e Mártir",
-    rank: 4,
+    rank: 3,
     color: "r",
     link: "missal/santos/03-04-outro",
-    outro: true,
+    // Divino Afflatu-era observance; dropped by the 1960 reform.
+    suppressedIn: ["62"],
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 2.5 },
+    ],
     type: "sancti",
     category: "santos",
     month: 3,

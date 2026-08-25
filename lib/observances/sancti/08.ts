@@ -47,7 +47,8 @@ export const SANCTI_08: MassMap = {
     rank: 4,
     color: "r",
     link: "missal/santos/08-02-outro",
-    outro: true,
+    // Divino Afflatu-era observance; dropped by the 1960 reform.
+    suppressedIn: ["62"],
     type: "sancti",
     category: "santos",
     month: 8,
@@ -93,10 +94,11 @@ export const SANCTI_08: MassMap = {
     flexibility: "santos",
     id: "SANCTI_08_06_OUTRO",
     name: "S. S. Sixto, Papa, Felicíssimo e Agapito, Márts.",
-    rank: 3,
+    rank: 4,
     color: "r",
     link: "missal/santos/08-06-outro",
-    outro: true,
+    // Divino Afflatu-era observance; dropped by the 1960 reform.
+    suppressedIn: ["62"],
     type: "sancti",
     category: "santos",
     month: 8,
@@ -158,7 +160,8 @@ export const SANCTI_08: MassMap = {
     rank: 4,
     color: "r",
     link: "missal/santos/08-09-outro-2",
-    outro: true,
+    // Divino Afflatu-era observance; dropped by the 1960 reform.
+    suppressedIn: ["62"],
     type: "sancti",
     category: "santos",
     month: 8,
@@ -355,7 +358,8 @@ export const SANCTI_08: MassMap = {
     rank: 4,
     color: "r",
     link: "missal/santos/08-22-outro",
-    outro: true,
+    // Divino Afflatu-era observance; dropped by the 1960 reform.
+    suppressedIn: ["62"],
     type: "sancti",
     category: "santos",
     month: 8,
@@ -440,7 +444,8 @@ export const SANCTI_08: MassMap = {
     rank: 4,
     color: "r",
     link: "missal/santos/08-28-outro",
-    outro: true,
+    // Divino Afflatu-era observance; dropped by the 1960 reform.
+    suppressedIn: ["62"],
     type: "sancti",
     category: "santos",
     month: 8,

@@ -20,7 +20,8 @@ export const SANCTI_09: MassMap = {
     rank: 4,
     color: "r",
     link: "missal/santos/09-01-outro",
-    outro: true,
+    // Divino Afflatu-era observance; dropped by the 1960 reform.
+    suppressedIn: ["62"],
     type: "sancti",
     category: "santos",
     month: 9,
@@ -197,7 +198,8 @@ export const SANCTI_09: MassMap = {
     rank: 4,
     color: "r",
     link: "missal/santos/09-16-outro-2",
-    outro: true,
+    // Divino Afflatu-era observance; dropped by the 1960 reform.
+    suppressedIn: ["62"],
     type: "sancti",
     category: "santos",
     month: 9,
@@ -271,7 +273,8 @@ export const SANCTI_09: MassMap = {
     rank: 4,
     color: "r",
     link: "missal/santos/09-20-outro",
-    outro: true,
+    // Divino Afflatu-era observance; dropped by the 1960 reform.
+    suppressedIn: ["62"],
     type: "sancti",
     category: "santos",
     month: 9,
@@ -317,10 +320,11 @@ export const SANCTI_09: MassMap = {
     flexibility: "santos",
     id: "SANCTI_09_23_OUTRO",
     name: "Santa Tecla, Virgem e Mártir",
-    rank: 3,
+    rank: 4,
     color: "r",
     link: "missal/santos/09-23-outro",
-    outro: true,
+    // Divino Afflatu-era observance; dropped by the 1960 reform.
+    suppressedIn: ["62"],
     type: "sancti",
     category: "santos",
     month: 9,

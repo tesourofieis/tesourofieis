@@ -400,10 +400,14 @@ export const SANCTI_05: MassMap = {
     flexibility: "santos",
     id: "SANCTI_05_26_OUTRO",
     name: "S. Eleutério, Papa e Mártir",
-    rank: 4,
+    rank: 3,
     color: "r",
     link: "missal/santos/05-26-outro",
-    outro: true,
+    // Divino Afflatu-era observance; dropped by the 1960 reform.
+    suppressedIn: ["62"],
+    rankVariants: [
+      { rubrics: "*", name: "Duplex", precedence: 3.0 },
+    ],
     type: "sancti",
     category: "santos",
     month: 5,
@@ -425,10 +429,14 @@ export const SANCTI_05: MassMap = {
     flexibility: "santos",
     id: "SANCTI_05_27_OUTRO",
     name: "S. João, Papa e Mártir",
-    rank: 4,
+    rank: 3,
     color: "r",
     link: "missal/santos/05-27-outro",
-    outro: true,
+    // Divino Afflatu-era observance; dropped by the 1960 reform.
+    suppressedIn: ["62"],
+    rankVariants: [
+      { rubrics: "*", name: "Duplex", precedence: 3.0 },
+    ],
     type: "sancti",
     category: "santos",
     month: 5,
