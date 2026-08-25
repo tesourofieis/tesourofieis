@@ -398,7 +398,7 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
           accessibilityLabel="Início"
         >
           <BookPlus size={20} color={burgundy[500]} />
-          <Text className="font-ui-bold text-base text-sepia-800 dark:text-sepia-200">
+          <Text className="font-display text-xl text-sepia-800 dark:text-sepia-200">
             Tesouro dos Fiéis
           </Text>
         </TouchableOpacity>

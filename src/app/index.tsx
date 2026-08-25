@@ -1,4 +1,4 @@
-import { BookPlus, ChevronLeft, ChevronRight } from "lucide-react-native";
+import { ChevronLeft, ChevronRight } from "lucide-react-native";
 import { burgundy } from "config";
 import { addDays, format, getYear, isWithinInterval } from "date-fns";
 import { pt } from "date-fns/locale";
@@ -6,7 +6,6 @@ import { Pressable, ScrollView, useWindowDimensions, View } from "react-native";
 import ExternalLinks from "~/components/External";
 import { DatePicker } from "~/components/DatePicker";
 import { EditionSummary } from "~/components/EditionSummary";
-import { H1 } from "~/components/Headings";
 import LinkCard from "~/components/LinkCard";
 import LiturgicalSeason from "~/components/LiturgicalSeason";
 import Novenas from "~/components/Novenas";
@@ -101,10 +100,6 @@ export default function PageRender() {
             backgroundColor: colors.screen,
           }}
         >
-          <View className="flex flex-row items-center justify-center gap-3 px-1 pb-3 pt-1">
-            <BookPlus strokeWidth={2} size={25} color={burgundy[500]} />
-            <H1 text="Tesouro dos Fiéis" />
-          </View>
           <LiturgicalDateHeader
             overline={format(date, "EEEE", { locale: pt })}
             paddingHorizontal={sectionInset}
