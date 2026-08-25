@@ -8215,9 +8215,6 @@ exports[`calendar 2026 under Rubrics 1960 renders the full year 1`] = `
         "name": "S. Agapito, Mártir",
         "precedence": 1.5,
         "rank": 4,
-        "suppressedIn": [
-          "pre-55",
-        ],
         "type": "sancti",
       },
       {
@@ -12695,9 +12692,6 @@ exports[`calendar 2026 under Rubrics 1960 renders the full year 1`] = `
         "name": "S. Melquíades, Papa e Mártir",
         "precedence": 1.5,
         "rank": 4,
-        "suppressedIn": [
-          "pre-55",
-        ],
         "type": "sancti",
       },
     ],

@@ -24,7 +24,6 @@ export const SANCTI_01: MassMap = {
     category: "santos",
     month: 1,
     day: 2,
-    suppressedIn: ["62"],
   },
   SANCTI_01_03: {
     flexibility: "santos",
@@ -37,7 +36,6 @@ export const SANCTI_01: MassMap = {
     category: "santos",
     month: 1,
     day: 3,
-    suppressedIn: ["62"],
   },
   SANCTI_01_04: {
     flexibility: "santos",
@@ -50,7 +48,6 @@ export const SANCTI_01: MassMap = {
     category: "santos",
     month: 1,
     day: 4,
-    suppressedIn: ["62"],
   },
   SANCTI_01_05: {
     flexibility: "santos",
@@ -63,7 +60,6 @@ export const SANCTI_01: MassMap = {
     category: "santos",
     month: 1,
     day: 5,
-    suppressedIn: ["62"],
   },
   SANCTI_01_06: {
     flexibility: "santos",

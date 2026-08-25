@@ -3,6 +3,7 @@ import { RANK_DIVERGENCES, SANCTORAL_DIVERGENCES } from "../../calendars/diverge
 import { computeRankFor } from "../../calendars";
 import { legacyToPrecedence, precedenceToLegacyRank } from "../../calendars/precedence";
 import { OBSERVANCES } from "../../observances";
+import { composeObservances1960 } from "../../calendars/overrides";
 
 describe("sanctoral divergence catalogue", () => {
   test("catalogue is loaded and non-trivial", () => {
@@ -40,11 +41,17 @@ describe("sanctoral divergence catalogue", () => {
 
   test("our observances cover both sides of every divergence date", () => {
     // The worklist test: any uncovered date means edition data still missing.
+    // Edition-proper entries live in the Rubrics 1960 override layer, so the
+    // scan covers the shared base plus the composed '62 map.
     const uncovered: string[] = [];
+    const universe = [
+      ...Object.values(OBSERVANCES),
+      ...Object.values(composeObservances1960()),
+    ];
 
     for (const d of SANCTORAL_DIVERGENCES) {
       const [month, day] = d.date.split("-").map(Number);
-      const entriesOnDate = Object.values(OBSERVANCES).filter(
+      const entriesOnDate = universe.filter(
         (m) => m.month === month && m.day === day && !m.local,
       );
 

@@ -7,19 +7,6 @@ import { RUBRICS_1954 } from "./rubrics";
 import type { CalendarDefinition } from "./types";
 
 /**
- * Observances exclusive to another edition are excluded here: under that
- * edition's selection they are absent, not alternatives.
- */
-function excludeEditionSpecific(
-  observances: Record<string, Mass>,
-  edition: Mass["calendar"],
-): Record<string, Mass> {
-  return Object.fromEntries(
-    Object.entries(observances).filter(([_, mass]) => mass.calendar !== edition),
-  );
-}
-
-/**
  * The pre-1955 rubrics calendar.
  *
  * doVersion maps to divinum-officium's "Divino Afflatu - 1954": the last
@@ -31,7 +18,7 @@ export const pre55Calendar: CalendarDefinition = {
   id: "pre-55",
   label: "Rubricas pré-55",
   doVersion: "Divino Afflatu - 1954",
-  observances: excludeEditionSpecific(OBSERVANCES, "62"),
+  observances: OBSERVANCES,
   rubrics: RUBRICS_1954,
   adjustRank(mass: Mass, date: string, precedence: number): number {
     const promotion = RUBRICS_1954.adventFeriasPromotionRank;

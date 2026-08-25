@@ -8216,9 +8216,6 @@ exports[`calendar 2025 (default edition) renders entire calendar correctly 1`] =
         "name": "S. Agapito, Mártir",
         "precedence": 1.5,
         "rank": 4,
-        "suppressedIn": [
-          "pre-55",
-        ],
         "type": "sancti",
       },
       {
@@ -12662,9 +12659,6 @@ exports[`calendar 2025 (default edition) renders entire calendar correctly 1`] =
         "name": "S. Melquíades, Papa e Mártir",
         "precedence": 1.5,
         "rank": 4,
-        "suppressedIn": [
-          "pre-55",
-        ],
         "type": "sancti",
       },
     ],

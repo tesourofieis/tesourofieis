@@ -39,9 +39,6 @@ exports[`calendar 2026 under pre-55 rubrics renders the full year 1`] = `
         "name": "Oitava de S. Estevão, Mártir",
         "precedence": 3.5,
         "rank": 3,
-        "suppressedIn": [
-          "62",
-        ],
         "type": "sancti",
       },
     ],
@@ -63,9 +60,6 @@ exports[`calendar 2026 under pre-55 rubrics renders the full year 1`] = `
         "name": "Oitava de S. João, Apóstolo e Evangelista",
         "precedence": 3.5,
         "rank": 3,
-        "suppressedIn": [
-          "62",
-        ],
         "type": "sancti",
       },
     ],
@@ -102,9 +96,6 @@ exports[`calendar 2026 under pre-55 rubrics renders the full year 1`] = `
         "name": "Oitava dos Santos Inocentes",
         "precedence": 3.5,
         "rank": 3,
-        "suppressedIn": [
-          "62",
-        ],
         "type": "sancti",
       },
     ],
@@ -126,9 +117,6 @@ exports[`calendar 2026 under pre-55 rubrics renders the full year 1`] = `
         "name": "Vigília Epifania",
         "precedence": 5,
         "rank": 2,
-        "suppressedIn": [
-          "62",
-        ],
         "type": "sancti",
       },
     ],
@@ -3047,9 +3035,6 @@ exports[`calendar 2026 under pre-55 rubrics renders the full year 1`] = `
         "name": "Quinta-feira Santa",
         "precedence": 6.5,
         "rank": 1,
-        "suppressedIn": [
-          "62",
-        ],
         "type": "pre-lent-to-pentcost",
         "week": 6,
         "weekday": 4,
@@ -3085,9 +3070,6 @@ exports[`calendar 2026 under pre-55 rubrics renders the full year 1`] = `
         "name": "Sexta-feira Santa",
         "precedence": 6.5,
         "rank": 1,
-        "suppressedIn": [
-          "62",
-        ],
         "type": "pre-lent-to-pentcost",
         "week": 6,
         "weekday": 5,
@@ -3109,9 +3091,6 @@ exports[`calendar 2026 under pre-55 rubrics renders the full year 1`] = `
         "name": "Sábado Santo",
         "precedence": 6.5,
         "rank": 1,
-        "suppressedIn": [
-          "62",
-        ],
         "type": "pre-lent-to-pentcost",
         "week": 6,
         "weekday": 6,
@@ -3968,9 +3947,6 @@ exports[`calendar 2026 under pre-55 rubrics renders the full year 1`] = `
         "name": "S. Filipe e S. Tiago, Apóstolos",
         "precedence": 5,
         "rank": 2,
-        "suppressedIn": [
-          "62",
-        ],
         "type": "sancti",
       },
       {
@@ -6341,9 +6317,6 @@ exports[`calendar 2026 under pre-55 rubrics renders the full year 1`] = `
         "name": "S. Leão II, Papa e Confessor da Igreja",
         "precedence": 3.5,
         "rank": 3,
-        "suppressedIn": [
-          "62",
-        ],
         "type": "sancti",
       },
       {
@@ -7163,9 +7136,6 @@ exports[`calendar 2026 under pre-55 rubrics renders the full year 1`] = `
         "name": "Vigília de S. Tiago, Apóstolo",
         "precedence": 3.5,
         "rank": 3,
-        "suppressedIn": [
-          "62",
-        ],
         "type": "sancti",
       },
       {
@@ -7865,9 +7835,6 @@ exports[`calendar 2026 under pre-55 rubrics renders the full year 1`] = `
         "name": "S. João Maria Vianney, Confessor",
         "precedence": 5,
         "rank": 2,
-        "suppressedIn": [
-          "62",
-        ],
         "type": "sancti",
       },
       {
@@ -8216,9 +8183,6 @@ exports[`calendar 2026 under pre-55 rubrics renders the full year 1`] = `
         "name": "Dentro da Oitava da Assunção de Nossa Senhora",
         "precedence": 5,
         "rank": 2,
-        "suppressedIn": [
-          "62",
-        ],
         "type": "sancti",
       },
       {
@@ -12666,9 +12630,6 @@ exports[`calendar 2026 under pre-55 rubrics renders the full year 1`] = `
         "name": "Dentro da Oitava da Imaculada Conceição",
         "precedence": 5,
         "rank": 2,
-        "suppressedIn": [
-          "62",
-        ],
         "type": "sancti",
       },
       {
@@ -13265,9 +13226,6 @@ exports[`calendar 2026 under pre-55 rubrics renders the full year 1`] = `
         "name": "S. Tomás de Cantuária, Bispo e Mártir",
         "precedence": 3.5,
         "rank": 3,
-        "suppressedIn": [
-          "62",
-        ],
         "type": "sancti",
       },
     ],
