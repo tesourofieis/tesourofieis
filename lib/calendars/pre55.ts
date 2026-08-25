@@ -21,6 +21,21 @@ export const pre55Calendar: CalendarDefinition = {
   observances: OBSERVANCES,
   rubrics: RUBRICS_1954,
   adjustRank(mass: Mass, date: string, precedence: number): number {
+    // The Semiduplex grades of the Epiphany-octave week hold only through
+    // Jan 12; from the Commemoration of the Baptism (Jan 13) the same
+    // tempora keys are plain ferias again.
+    if (
+      mass.id?.startsWith("TEMPORA_EPI1_") &&
+      mass.id !== "TEMPORA_EPI1_0A" &&
+      precedence >= 5.6 &&
+      date
+    ) {
+      const parsed = parseLocalDate(date);
+      if (parsed.getMonth() === 0 && parsed.getDate() >= 13) {
+        return legacyToPrecedence(mass.rank);
+      }
+    }
+
     const promotion = RUBRICS_1954.adventFeriasPromotionRank;
     if (promotion === null || mass.type !== "advent" || mass.weekday === 0 || !date) {
       return precedence;

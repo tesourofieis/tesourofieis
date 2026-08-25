@@ -140,20 +140,20 @@ describe("divergence-catalogue routing", () => {
       not62: ["SANCTI_08_09"],
     },
     {
-      // 2026-11-29 is a Sunday: the Andrew vigil is wholly omitted.
+      // The Andrew vigil keeps its historical date (Nov 28); on the
+      // Sunday itself it is wholly omitted.
+      date: "2026-11-28",
+      pre55: ["SANCTI_11_28_VIGILIA"],
+      m62: [],
+      notPre55: [],
+      not62: ["SANCTI_11_28_VIGILIA"],
+    },
+    {
       date: "2026-11-29",
       pre55: [],
       m62: ["SANCTI_11_29_1962"],
-      notPre55: ["SANCTI_11_29", "SANCTI_11_29_1962"],
-      not62: ["SANCTI_11_29"],
-    },
-    {
-      // 2027-11-29 is a Monday: the vigil is celebrated pre-55.
-      date: "2027-11-29",
-      pre55: ["SANCTI_11_29"],
-      m62: ["SANCTI_11_29_1962"],
-      notPre55: ["SANCTI_11_29_1962"],
-      not62: ["SANCTI_11_29"],
+      notPre55: ["SANCTI_11_28_VIGILIA"],
+      not62: ["SANCTI_11_28_VIGILIA"],
     },
   ];
 

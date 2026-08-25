@@ -569,4 +569,19 @@ export const SANCTI_10: MassMap = {
     month: 10,
     day: 31,
   },
+
+  SANCTI_10_27: {
+    flexibility: "santos",
+    id: "SANCTI_10_27",
+    name: "Vigília de S. S. Simão e Judá, Apóstolos",
+    // Abolished by the 1960 reform.
+    rank: 4,
+    color: "v",
+    link: "missal/santos/10-28",
+    suppressedIn: ["62"],
+    type: "sancti",
+    category: "santos",
+    month: 10,
+    day: 27,
+  },
 };

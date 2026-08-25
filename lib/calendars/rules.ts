@@ -295,12 +295,17 @@ class StMatthiasRule extends BaseConcurrencyRule {
     if (!stMatthias) return { stay: observances, shifts: [] };
 
     if (temp) {
+      // A transferred feast never lands on a Sunday - cascade past it.
+      const candidate = shiftLocalDate(date, 1);
+      const target = isSunday(parseLocalDate(candidate))
+        ? shiftLocalDate(date, 2)
+        : candidate;
       return {
         stay: [temp],
         shifts: [
           {
             observances: [stMatthias],
-            date: shiftLocalDate(date, 1),
+            date: target,
           },
         ],
       };
@@ -559,15 +564,23 @@ class SecondClassConflictRule extends BaseConcurrencyRule {
       return false;
     }
 
-    let hasFirstClass = false;
+    let firstClass: Mass | undefined;
     for (const observance of observances) {
       if (isFirstClass(observance)) {
-        hasFirstClass = true;
+        firstClass = observance;
         break;
       }
     }
 
-    if (!hasFirstClass) {
+    // A privileged Sunday (Advent/Lent-Quadragesima, 6.9) reduces a
+    // colliding feast to a commemoration (DO occurrence()); other
+    // I-class offices cause transfer.
+    if (!firstClass) return false;
+    if (
+      firstClass.flexibility === "tempora" &&
+      firstClass.weekday === 0 &&
+      effectivePrecedence(firstClass) >= PRECEDENCE.DUPLEX_I_CLASSIS + 0.4
+    ) {
       return false;
     }
 

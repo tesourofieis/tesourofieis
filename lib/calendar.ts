@@ -568,7 +568,14 @@ export class Calendar {
           // If the shift is moving a Mass TO the current date (date === shift.date),
           // we merge it into `finalObservances` so it's included in the final assignment.
           if (shift.date === date) {
-            finalObservances.push(...shift.observances);
+            // Shifted observances arrive as templates: restamp day data,
+            // preserving their original liturgical date label.
+            finalObservances.push(
+              ...shift.observances.map((m) => {
+                const stamped = this.masses!.createMassWithDate({ ...m }, date);
+                return m.date ? { ...stamped, date: m.date } : stamped;
+              }),
+            );
           } else {
             // Otherwise, update the target day in the container
             this.handleShiftedDay(shift);
@@ -628,7 +635,14 @@ export class Calendar {
     const shiftedDay =
       this.container.get(toShift.date) ||
       new Day(toShift.date, this.seasonManager.getSeasonForDate(parseLocalDate(toShift.date)));
-    shiftedDay.mass = this.removeDuplicates([...shiftedDay.mass, ...toShift.observances]);
+    shiftedDay.mass = this.removeDuplicates([
+      ...shiftedDay.mass,
+      // Restamp: shift payloads are templates without day data.
+      ...toShift.observances.map((m) => {
+        const stamped = this.masses!.createMassWithDate({ ...m }, toShift.date);
+        return m.date ? { ...stamped, date: m.date } : stamped;
+      })
+    ]);
     this.container.set(toShift.date, shiftedDay);
   }
 
@@ -651,6 +665,10 @@ export class Calendar {
       const pa = a.precedence ?? legacyToPrecedence(a.rank);
       const pb = b.precedence ?? legacyToPrecedence(b.rank);
       if (pa !== pb) return pb - pa;
+      // Parity favours the sanctoral office (DA): an equal-grade feast
+      // outranks a semiduplex Sunday pre-55. Under '62 Sundays sit above
+      // all II-class feasts numerically (5.1 vs 5), so no tie arises.
+      if (a.flexibility !== b.flexibility) return a.flexibility === "santos" ? -1 : 1;
       if (a.local || b.local) return a.local ? 1 : -1;
       return 0;
     });

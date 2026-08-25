@@ -426,7 +426,7 @@ export const SANCTI_11: MassMap = {
   },
   SANCTI_11_29: {
     flexibility: "santos",
-    id: "SANCTI_11_29",
+    id: "SANCTI_11_28_VIGILIA",
     name: "Vigília de S. André, Apóstolo",
     rank: 4,
     color: "r",
@@ -434,7 +434,7 @@ export const SANCTI_11: MassMap = {
     type: "sancti",
     category: "santos",
     month: 11,
-    day: 29,
+    day: 28,
       suppressedIn: ["62"],
 },
   SANCTI_11_30: {

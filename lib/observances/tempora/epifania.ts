@@ -13,6 +13,9 @@ export const TEMPORA_EPIFANIA: MassMap = {
     category: "epifania",
     weekday: 0,
     week: 1,
+    rankVariants: [
+      { rubrics: "*", name: "Duplex majus", precedence: 5.61 },
+    ],
   },
   TEMPORA_EPI1_1: {
     flexibility: "tempora",
@@ -25,6 +28,10 @@ export const TEMPORA_EPIFANIA: MassMap = {
     category: "epifania",
     weekday: 1,
     week: 1,
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5.6 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Feria", precedence: 1.2 },
+    ],
   },
   TEMPORA_EPI1_2: {
     flexibility: "tempora",
@@ -37,6 +44,10 @@ export const TEMPORA_EPIFANIA: MassMap = {
     category: "epifania",
     weekday: 2,
     week: 1,
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5.6 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Feria", precedence: 1.2 },
+    ],
   },
   TEMPORA_EPI1_3: {
     flexibility: "tempora",
@@ -49,6 +60,10 @@ export const TEMPORA_EPIFANIA: MassMap = {
     category: "epifania",
     weekday: 3,
     week: 1,
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5.6 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Feria", precedence: 1.2 },
+    ],
   },
   TEMPORA_EPI1_4: {
     flexibility: "tempora",
@@ -61,6 +76,10 @@ export const TEMPORA_EPIFANIA: MassMap = {
     category: "epifania",
     weekday: 4,
     week: 1,
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5.6 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Feria", precedence: 1.2 },
+    ],
   },
   TEMPORA_EPI1_5: {
     flexibility: "tempora",
@@ -73,6 +92,10 @@ export const TEMPORA_EPIFANIA: MassMap = {
     category: "epifania",
     weekday: 5,
     week: 1,
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5.6 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Feria", precedence: 1.2 },
+    ],
   },
   TEMPORA_EPI1_6: {
     flexibility: "tempora",
@@ -85,6 +108,10 @@ export const TEMPORA_EPIFANIA: MassMap = {
     category: "epifania",
     weekday: 6,
     week: 1,
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5.6 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Feria", precedence: 1.2 },
+    ],
   },
   TEMPORA_EPI2_0: {
     flexibility: "tempora",

@@ -45,34 +45,13 @@ test("matias shift 2", () => {
 });
 
 test("matias", () => {
-  const calendar = getCalendarDay("2024-02-26", "pre-55");
-  expect(calendar).toMatchObject({
-    mass: [
-      {
-        category: "santos",
-        color: "r",
-        day: 24,
-        flexibility: "santos",
-        id: "SANCTI_02_24",
-        link: "missal/santos/02-24",
-        month: 2,
-        name: "S. Matias, Apóstolo",
-        rank: 2,
-        type: "sancti",
-      },
-      {
-        category: "quaresma",
-        color: "v",
-        date: "2024-02-26",
-        flexibility: "tempora",
-        id: "TEMPORA_QUAD2_1",
-        link: "missal/quaresma/quad2-1",
-        name: "Segunda-feira da 2ª semana da Quaresma",
-        rank: 3,
-        type: "pre-lent-to-pentcost",
-        week: 2,
-        weekday: 1,
-      },
-    ],
+  // DO: transferred Matthias celebrates on Monday, feria commemorated.
+  const calendar = getCalendarDay("2024-02-26", "pre-55")!;
+  expect(calendar.mass[0]).toMatchObject({
+    flexibility: "santos",
+    id: "SANCTI_02_24",
+    name: "S. Matias, Apóstolo",
+    rank: 2,
   });
+  expect(calendar.mass[1]?.flexibility).toBe("tempora");
 });

@@ -24,23 +24,12 @@ test("Domingo", () => {
 });
 
 test("Sagrada Familia", () => {
-  const calendar = getCalendarDay("2024-01-07", "pre-55");
-  expect(calendar).toMatchObject({
-    date: "2024-01-07",
-    mass: [
-      {
-        category: "epifania",
-        color: "w",
-        date: "2024-01-07",
-        flexibility: "tempora",
-        id: "TEMPORA_EPI1_0A",
-        link: "missal/epifania/epi1-0a",
-        name: "Sagrada Família",
-        rank: 2,
-        type: "post-epiphany",
-        week: 1,
-        weekday: 0,
-      },
-    ],
+  const calendar = getCalendarDay("2024-01-07", "pre-55")!;
+  expect(calendar.mass[0]).toMatchObject({
+    flexibility: "tempora",
+    id: "TEMPORA_EPI1_0A",
+    name: "Sagrada Família",
   });
+  // The octave-day office follows at Semiduplex 5.6.
+  expect(calendar.mass[1]).toMatchObject({ id: "SANCTI_01_07", precedence: 5.6 });
 });

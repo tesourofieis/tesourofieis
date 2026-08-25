@@ -73,6 +73,114 @@ export const SANCTI_01: MassMap = {
     month: 1,
     day: 6,
   },
+  // Die Segundo infra Octavam Epiphaniae - Semiduplex 5.6 pre-55;
+  // Rubrics 1960 reduce them to ferias (our post-Epiphany tempora cover those).
+  SANCTI_01_07: {
+    flexibility: "santos",
+    id: "SANCTI_01_07",
+    name: "Segundo dia dentro da Oitava da Epifania",
+    rank: 2,
+    color: "w",
+    link: "missal/santos/01-06",
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5.6 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Feria", precedence: 1.2 },
+    ],
+    type: "sancti",
+    category: "santos",
+    month: 1,
+    day: 7,
+  },
+  // Die Terceiro infra Octavam Epiphaniae - Semiduplex 5.6 pre-55;
+  // Rubrics 1960 reduce them to ferias (our post-Epiphany tempora cover those).
+  SANCTI_01_08: {
+    flexibility: "santos",
+    id: "SANCTI_01_08",
+    name: "Terceiro dia dentro da Oitava da Epifania",
+    rank: 2,
+    color: "w",
+    link: "missal/santos/01-06",
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5.6 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Feria", precedence: 1.2 },
+    ],
+    type: "sancti",
+    category: "santos",
+    month: 1,
+    day: 8,
+  },
+  // Die Quarto infra Octavam Epiphaniae - Semiduplex 5.6 pre-55;
+  // Rubrics 1960 reduce them to ferias (our post-Epiphany tempora cover those).
+  SANCTI_01_09: {
+    flexibility: "santos",
+    id: "SANCTI_01_09",
+    name: "Quarto dia dentro da Oitava da Epifania",
+    rank: 2,
+    color: "w",
+    link: "missal/santos/01-06",
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5.6 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Feria", precedence: 1.2 },
+    ],
+    type: "sancti",
+    category: "santos",
+    month: 1,
+    day: 9,
+  },
+  // Die Quinto infra Octavam Epiphaniae - Semiduplex 5.6 pre-55;
+  // Rubrics 1960 reduce them to ferias (our post-Epiphany tempora cover those).
+  SANCTI_01_10: {
+    flexibility: "santos",
+    id: "SANCTI_01_10",
+    name: "Quinto dia dentro da Oitava da Epifania",
+    rank: 2,
+    color: "w",
+    link: "missal/santos/01-06",
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5.6 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Feria", precedence: 1.2 },
+    ],
+    type: "sancti",
+    category: "santos",
+    month: 1,
+    day: 10,
+  },
+  // Die Sexto infra Octavam Epiphaniae - Semiduplex 5.6 pre-55;
+  // Rubrics 1960 reduce them to ferias (our post-Epiphany tempora cover those).
+  SANCTI_01_11: {
+    flexibility: "santos",
+    id: "SANCTI_01_11",
+    name: "Sexto dia dentro da Oitava da Epifania",
+    rank: 2,
+    color: "w",
+    link: "missal/santos/01-06",
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5.6 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Feria", precedence: 1.2 },
+    ],
+    type: "sancti",
+    category: "santos",
+    month: 1,
+    day: 11,
+  },
+  // Die Sétimo infra Octavam Epiphaniae - Semiduplex 5.6 pre-55;
+  // Rubrics 1960 reduce them to ferias (our post-Epiphany tempora cover those).
+  SANCTI_01_12: {
+    flexibility: "santos",
+    id: "SANCTI_01_12",
+    name: "Sétimo dia dentro da Oitava da Epifania",
+    rank: 2,
+    color: "w",
+    link: "missal/santos/01-06",
+    rankVariants: [
+      { rubrics: "*", name: "Semiduplex", precedence: 5.6 },
+      { rubrics: "Rubrics 1960 - 1960", name: "Feria", precedence: 1.2 },
+    ],
+    type: "sancti",
+    category: "santos",
+    month: 1,
+    day: 12,
+  },
   SANCTI_01_13: {
     flexibility: "santos",
     id: "SANCTI_01_13",
