@@ -6,13 +6,13 @@ Tesouro dos Fiéis is a traditional Catholic liturgical application built with E
 
 ## Technical Stack
 
-- **Framework**: Expo SDK 54 with React Native
-- **Language**: TypeScript 5 (strict mode)
+- **Framework**: Expo SDK 56 with React Native
+- **Language**: TypeScript 6 (strict mode)
 - **Styling**: NativeWind 5 (Tailwind for React Native)
 - **Routing**: Expo Router (file-based)
 - **State**: React Context providers
-- **Testing**: Vitest
-- **Formatting**: Biome + ESLint
+- **Testing**: Bun test
+- **Lint/Format**: oxlint + oxfmt + ESLint (Expo config)
 
 ## Core Functionality
 
@@ -41,19 +41,19 @@ Tesouro dos Fiéis is a traditional Catholic liturgical application built with E
 
 ```bash
 # Core commands
-pnpm check       # TypeScript checking
-pnpm lint        # Code linting
-pnpm test        # Run test suite
-pnpm dev         # Development server
+bun run check    # TypeScript checking
+bun run lint     # Code linting
+bun run test     # Run test suite
+bun run dev      # Development server
 
 # Platform-specific
-pnpm run dev:android    # Android development
-pnpm run dev:ios        # iOS development
-pnpm run build:web      # Web build
+bun run dev:android    # Android development
+bun run dev:ios        # iOS development
+bun run build:web      # Web build
 
 # Deployment
-pnpm run deploy  # EAS build for all platforms
-pnpm run update  # OTA updates
+bun run deploy   # EAS build for all platforms
+bun run update   # OTA updates
 ```
 
 ## Key Files and Directories
@@ -146,7 +146,7 @@ pnpm run update  # OTA updates
 
 ### Test Patterns
 
-- Use Vitest for unit testing
+- Use bun test for unit testing
 - Mock external dependencies
 - Test edge cases for date calculations
 - Verify UI consistency across platforms

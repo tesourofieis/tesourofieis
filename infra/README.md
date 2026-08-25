@@ -17,14 +17,14 @@ unaffected (EAS / expo-updates).
 ## Commands
 
 ```bash
-npm run cf:dev            # local dev against real resources
-npm run cf:deploy         # default (dev) stage → *.workers.dev URL
-npm run cf:deploy:prod    # prod stage → tesourofieis.com
-npm run cf:destroy        # tear a stage down
+bun run cf:dev            # local dev against real resources
+bun run cf:deploy         # default (dev) stage → *.workers.dev URL
+bun run cf:deploy:prod    # prod stage → tesourofieis.com
+bun run cf:destroy        # tear a stage down
 ```
 
-First-time auth (interactive): `npx alchemy login`, then
-`npx alchemy cloudflare bootstrap` (one-time account-level state-store worker).
+First-time auth (interactive): `bunx alchemy login`, then
+`bunx alchemy cloudflare bootstrap` (one-time account-level state-store worker).
 
 ## Cutover from Cloudflare Pages (done 2026-08-22)
 

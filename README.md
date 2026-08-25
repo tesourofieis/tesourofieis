@@ -21,13 +21,13 @@ Tesouro dos Fiéis is a universal Catholic liturgical application that provides:
 
 ## Technology Stack
 
-- **Expo SDK 54** - Universal React Native platform
+- **Expo SDK 56** - Universal React Native platform
 - **React 19** - Latest React with concurrent features
-- **TypeScript 5** - Strict type safety
+- **TypeScript 6** - Strict type safety
 - **NativeWind 5** - Tailwind CSS for React Native
 - **Expo Router** - File-based routing
-- **Vitest** - Testing framework
-- **Biome + ESLint** - Code quality and formatting
+- **Bun test** - Testing framework
+- **oxlint + oxfmt + ESLint** - Code quality and formatting
 
 ## Getting Started
 
@@ -58,7 +58,7 @@ bun run build:web
 
 ```bash
 bun run check        # Type check entire project
-bun run lint         # Lint all code with Biome + ESLint
+bun run lint         # Lint all code with oxlint + oxfmt + Expo ESLint
 bun run test         # Run complete test suite
 bun run dev          # Start development server
 bun run prebuild # Build search index
@@ -92,18 +92,17 @@ bun run update
 
 ## Code Style Guidelines
 
-### Formatting (Biome)
+### Formatting (oxfmt)
 
-- 2-space indentation, 80 character line width, LF line endings
-- Auto-organize imports enabled
-- JSON allows trailing commas
+- Prettier-compatible formatting via `.oxfmtrc.json`
+- `bun run fmt` to format, `bun run fmt:check` to verify
 
-### Linting
+### Linting (oxlint + ESLint)
 
-- TypeScript recommended rules
-- Expo configuration for React Native code
-- Prettier integration
-- Disabled: noUnusedVariables (warn), noForEach, noNonNullAssertion, noParameterAssign
+- oxlint with `eslint`, `oxc`, `react`, `unicorn`, `typescript` plugins
+- correctness/suspicious/perf categories at warn (`.oxlintrc.json`)
+- Custom **anti-slop** plugin (`tools/oxlint/anti-slop/`) enforces 10 rules as errors
+- Expo ESLint config runs last via `expo lint` for React Native rules
 
 ### TypeScript
 
@@ -125,7 +124,7 @@ bun run update
 
 ### Imports
 
-- Auto-organized by Biome
+- Match the import order used in neighboring files (no auto-organizer)
 - Use `workspace:*` for internal packages
 
 ## Project Architecture
