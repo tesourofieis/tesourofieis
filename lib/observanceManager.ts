@@ -218,7 +218,7 @@ class MassManager {
   }
 }
 
-export const massManager = new MassManager();
+const massManager = new MassManager();
 
 /**
  * Effect service exposing the validated observance index.

@@ -14,7 +14,7 @@ import {
 } from "date-fns";
 import { Effect } from "effect";
 import { type LiturgicalSeason, type Mass, Season, UnsupportedYearError } from "./domain";
-import { type MassIndex, Masses, massManager } from "./observanceManager";
+import { type MassIndex, Masses } from "./observanceManager";
 import { parseLocalDate, shiftLocalDate, yyyyMMDD } from "./utils";
 
 /**
@@ -239,41 +239,42 @@ class MassInserter {
     private container: Map<string, Day>,
     private calculator: LiturgicalYearCalculator,
     private keyDates: KeyDates,
+    private masses: MassIndex,
   ) {}
 
   insertTemporaDays(): void {
-    this.insertBlock(this.calculator.holyFamily(), massManager.getByTypeId("post-epiphany"));
-    this.insertBlock(this.keyDates.septuagesima, massManager.getByTypeId("pre-lent-to-pentcost"));
+    this.insertBlock(this.calculator.holyFamily(), this.masses.getByTypeId("post-epiphany"));
+    this.insertBlock(this.keyDates.septuagesima, this.masses.getByTypeId("pre-lent-to-pentcost"));
     this.insertBlock(
       this.calculator.saturdayBefore24AfterPentecost(this.keyDates.adventStart),
-      massManager.getByTypeId("pentepi"),
+      this.masses.getByTypeId("pentepi"),
       true,
       false,
       this.keyDates.adventStart,
     );
     this.insertBlock(
       this.calculator.sundayBefore24AfterPentecost(this.keyDates.adventStart),
-      massManager.getByTypeId("week-24-after-pentcost"),
+      this.masses.getByTypeId("week-24-after-pentcost"),
     );
     this.insertBlock(
       this.keyDates.adventStart,
-      massManager.getByTypeId("advent"),
+      this.masses.getByTypeId("advent"),
       false,
       false,
       new Date(this.keyDates.adventStart.getFullYear(), 11, 23),
     );
 
     const w = this.calculator.emberWednesdaySeptember();
-    this.insertBlock(w, massManager.getByIds(["TEMPORA_PENT_3"]));
-    this.insertBlock(addDays(w, 2), massManager.getByIds(["TEMPORA_PENT_5"]));
-    this.insertBlock(addDays(w, 3), massManager.getByIds(["TEMPORA_PENT_6"]));
+    this.insertBlock(w, this.masses.getByIds(["TEMPORA_PENT_3"]));
+    this.insertBlock(addDays(w, 2), this.masses.getByIds(["TEMPORA_PENT_5"]));
+    this.insertBlock(addDays(w, 3), this.masses.getByIds(["TEMPORA_PENT_6"]));
 
-    this.insertBlock(this.calculator.holyName(), massManager.getByIds(["TEMPORA_NAT2_0"]));
-    this.insertBlock(this.calculator.christKing(), massManager.getByIds(["SANCTI_10_DUR"]));
+    this.insertBlock(this.calculator.holyName(), this.masses.getByIds(["TEMPORA_NAT2_0"]));
+    this.insertBlock(this.calculator.christKing(), this.masses.getByIds(["SANCTI_10_DUR"]));
 
     const christmasOctaveSunday = this.calculator.sundayInChristmasOctave();
     if (christmasOctaveSunday) {
-      this.insertBlock(christmasOctaveSunday, massManager.getByIds(["TEMPORA_NAT1_0"]));
+      this.insertBlock(christmasOctaveSunday, this.masses.getByIds(["TEMPORA_NAT1_0"]));
     }
   }
 
@@ -282,9 +283,9 @@ class MassInserter {
       const month = Number.parseInt(date.slice(5, 7), 10);
       const dayOfMonth = Number.parseInt(date.slice(8, 10), 10);
 
-      const allMasses = massManager
+      const allMasses = this.masses
         .getSanctiByMonthDay(month, dayOfMonth)
-        .map((mass) => massManager.createMassWithDate(mass, date));
+        .map((mass) => this.masses.createMassWithDate(mass, date));
 
       // Separate special masses (outro, local, calendar:62) from regular masses
       // Special masses don't participate in concurrency resolution - they're just appended
@@ -333,7 +334,7 @@ class MassInserter {
           const dateKey = yyyyMMDD(massDate);
           const day = this.container.get(dateKey);
           if (day) {
-            day.alternatives.push(massManager.createMassWithDate(mass, dateKey));
+            day.alternatives.push(this.masses.createMassWithDate(mass, dateKey));
           }
         }
       }
@@ -359,7 +360,7 @@ class MassInserter {
 
         if (stopDate && isSameDay(stopDate, subDays(currentDate, 1))) break;
 
-        day.mass.push(massManager.createMassWithDate(observance, dateKey));
+        day.mass.push(this.masses.createMassWithDate(observance, dateKey));
         currentDate.setDate(currentDate.getDate() - 1);
       }
       return;
@@ -380,7 +381,7 @@ class MassInserter {
 
       if (stopDate && isSameDay(stopDate, subDays(currentDate, 1))) break;
 
-      day.mass.push(massManager.createMassWithDate(observance, dateKey));
+      day.mass.push(this.masses.createMassWithDate(observance, dateKey));
       currentDate.setDate(currentDate.getDate() + 1);
     }
   }
@@ -502,12 +503,16 @@ abstract class BaseConcurrencyRule implements ConcurrencyRule {
  * (Kept original logic since it has no shifts and is simple)
  */
 class NativityMultipleMassesRule implements ConcurrencyRule {
-  private nativityMasses = massManager
-    .getSanctiClass1()
-    .filter((mass) => mass.month === 12 && mass.day === 25);
+  private nativityMasses: Mass[];
+
+  constructor(private masses: MassIndex) {
+    this.nativityMasses = masses
+      .getSanctiClass1()
+      .filter((mass) => mass.month === 12 && mass.day === 25);
+  }
 
   applies(observances: Mass[]): boolean {
-    return Boolean(massManager.match(observances, this.nativityMasses));
+    return Boolean(this.masses.match(observances, this.nativityMasses));
   }
 
   resolve(): RuleResolution {
@@ -520,16 +525,21 @@ class NativityMultipleMassesRule implements ConcurrencyRule {
  * (Kept original logic)
  */
 class SevenSorrowsRule implements ConcurrencyRule {
-  private sevenSorrowsTempora = massManager.getById("TEMPORA_QUAD5_5");
-  private sevenSorrowsSancti = massManager.getById("SANCTI_09_15");
+  private sevenSorrowsTempora: Mass | undefined;
+  private sevenSorrowsSancti: Mass | undefined;
+
+  constructor(private masses: MassIndex) {
+    this.sevenSorrowsTempora = masses.getById("TEMPORA_QUAD5_5");
+    this.sevenSorrowsSancti = masses.getById("SANCTI_09_15");
+  }
 
   applies(observances: Mass[]): boolean {
-    return Boolean(massManager.match(observances, this.sevenSorrowsTempora));
+    return Boolean(this.masses.match(observances, this.sevenSorrowsTempora));
   }
 
   resolve(observances: Mass[]): RuleResolution {
     if (!this.sevenSorrowsSancti) return { stay: observances, shifts: [] };
-    const sancti = massManager.match(observances, massManager.getSancti());
+    const sancti = this.masses.match(observances, this.masses.getSancti());
 
     if (sancti) {
       return { stay: [this.sevenSorrowsSancti, sancti], shifts: [] };
@@ -543,17 +553,22 @@ class SevenSorrowsRule implements ConcurrencyRule {
  * AllSoulsRule
  */
 class AllSoulsRule extends BaseConcurrencyRule {
-  private allSoulsMass = massManager.getById("SANCTI_11_02");
+  private allSoulsMass: Mass | undefined;
+
+  constructor(private masses: MassIndex) {
+    super();
+    this.allSoulsMass = masses.getById("SANCTI_11_02");
+  }
 
   applies(observances: Mass[]): boolean {
-    return Boolean(massManager.match(observances, this.allSoulsMass));
+    return Boolean(this.masses.match(observances, this.allSoulsMass));
   }
 
   protected getResolution(observances: Mass[], date: string): RuleResolution {
     const allSouls = observances.filter((ld) => ld.id.startsWith("SANCTI_11_02")).reverse();
 
     if (isSunday(parseLocalDate(date))) {
-      const sunday = massManager.match(observances, massManager.getTemporaSunday());
+      const sunday = this.masses.match(observances, this.masses.getTemporaSunday());
 
       if (sunday) {
         return {
@@ -576,15 +591,19 @@ class AllSoulsRule extends BaseConcurrencyRule {
  * (Kept original logic)
  */
 class NativityVigilRule implements ConcurrencyRule {
-  private nativityVigilMass = massManager.getById("SANCTI_12_24");
+  private nativityVigilMass: Mass | undefined;
+
+  constructor(private masses: MassIndex) {
+    this.nativityVigilMass = masses.getById("SANCTI_12_24");
+  }
 
   applies(observances: Mass[], date: string): boolean {
-    const nativityVigil = massManager.match(observances, this.nativityVigilMass);
+    const nativityVigil = this.masses.match(observances, this.nativityVigilMass);
     return Boolean(nativityVigil && isSunday(parseLocalDate(date)));
   }
 
   resolve(observances: Mass[]): RuleResolution {
-    const nativityVigil = massManager.match(observances, this.nativityVigilMass);
+    const nativityVigil = this.masses.match(observances, this.nativityVigilMass);
     if (!nativityVigil) return { stay: observances, shifts: [] };
     return { stay: [nativityVigil], shifts: [] };
   }
@@ -595,15 +614,19 @@ class NativityVigilRule implements ConcurrencyRule {
  * (Kept original logic)
  */
 class NativityOctaveFeriaRule implements ConcurrencyRule {
-  private nativityOctaveMass = massManager.getById("SANCTI_01_01");
+  private nativityOctaveMass: Mass | undefined;
+
+  constructor(private masses: MassIndex) {
+    this.nativityOctaveMass = masses.getById("SANCTI_01_01");
+  }
 
   applies(observances: Mass[], date: string): boolean {
-    const nativity = massManager.match(observances, this.nativityOctaveMass);
+    const nativity = this.masses.match(observances, this.nativityOctaveMass);
     return Boolean(nativity && isSunday(parseLocalDate(date)));
   }
 
   resolve(observances: Mass[]): RuleResolution {
-    const nativity = massManager.match(observances, this.nativityOctaveMass);
+    const nativity = this.masses.match(observances, this.nativityOctaveMass);
     if (!nativity) return { stay: observances, shifts: [] };
     return { stay: [nativity], shifts: [] };
   }
@@ -613,19 +636,24 @@ class NativityOctaveFeriaRule implements ConcurrencyRule {
  * StMatthiasRule
  */
 class StMatthiasRule extends BaseConcurrencyRule {
-  private stMatthias = massManager.getById("SANCTI_02_24");
+  private stMatthias: Mass | undefined;
+
+  constructor(private masses: MassIndex) {
+    super();
+    this.stMatthias = masses.getById("SANCTI_02_24");
+  }
 
   applies(observances: Mass[], date: string): boolean {
     const parsed = parseLocalDate(date);
     return Boolean(
-      massManager.match(observances, this.stMatthias) &&
+      this.masses.match(observances, this.stMatthias) &&
       isLeapYear(parsed) &&
       parsed.getDate() === 24,
     );
   }
 
   protected getResolution(observances: Mass[], date: string): RuleResolution {
-    const temp = massManager.match(observances, massManager.getTempora());
+    const temp = this.masses.match(observances, this.masses.getTempora());
     const stMatthias = this.stMatthias;
     if (!stMatthias) return { stay: observances, shifts: [] };
 
@@ -648,12 +676,17 @@ class StMatthiasRule extends BaseConcurrencyRule {
  * Feb27Rule
  */
 class Feb27Rule extends BaseConcurrencyRule {
-  private feb27Mass = massManager.getById("SANCTI_02_27");
+  private feb27Mass: Mass | undefined;
+
+  constructor(private masses: MassIndex) {
+    super();
+    this.feb27Mass = masses.getById("SANCTI_02_27");
+  }
 
   applies(observances: Mass[], date: string): boolean {
     const parsed = parseLocalDate(date);
     return Boolean(
-      massManager.match(observances, this.feb27Mass) &&
+      this.masses.match(observances, this.feb27Mass) &&
       parsed.getDate() === 27 &&
       isLeapYear(parsed),
     );
@@ -681,6 +714,8 @@ class Feb27Rule extends BaseConcurrencyRule {
 class BmvSaturdayRule implements ConcurrencyRule {
   private holyWeekWednesdayDate: string | null | undefined;
 
+  constructor(private masses: MassIndex) {}
+
   applies(observances: Mass[], date: string): boolean {
     if (!isSaturday(parseLocalDate(date))) return false;
 
@@ -694,7 +729,7 @@ class BmvSaturdayRule implements ConcurrencyRule {
     if (bmvOffice) {
       return {
         stay: [
-          massManager.createMassWithDate(bmvOffice, date),
+          this.masses.createMassWithDate(bmvOffice, date),
           ...observances.filter((i) => i.flexibility === "santos"),
         ],
         shifts: [],
@@ -712,15 +747,15 @@ class BmvSaturdayRule implements ConcurrencyRule {
     const parsed = parseLocalDate(date);
     const tempora = observances.filter((i) => i.flexibility === "tempora");
 
-    if (tempora && massManager.match(tempora, massManager.getByTypeId("advent"))) {
-      return massManager.getById("COMMUNE_C_10A");
+    if (tempora && this.masses.match(tempora, this.masses.getByTypeId("advent"))) {
+      return this.masses.getById("COMMUNE_C_10A");
     }
 
     if (
       isAfter(parsed, new Date(parsed.getFullYear(), 11, 25)) ||
       isBefore(parsed, new Date(parsed.getFullYear(), 1, 2))
     ) {
-      return massManager.getById("COMMUNE_C_10B");
+      return this.masses.getById("COMMUNE_C_10B");
     }
 
     const wednesdayInHolyWeek = this.getHolyWeekWednesdayDate(calendar);
@@ -730,14 +765,14 @@ class BmvSaturdayRule implements ConcurrencyRule {
       wednesdayInHolyWeek &&
       isBefore(parsed, parseLocalDate(wednesdayInHolyWeek))
     ) {
-      return massManager.getById("COMMUNE_C_10C");
+      return this.masses.getById("COMMUNE_C_10C");
     }
 
-    if (tempora && massManager.match(tempora, massManager.getEaster())) {
-      return massManager.getById("COMMUNE_C_10PASC");
+    if (tempora && this.masses.match(tempora, this.masses.getEaster())) {
+      return this.masses.getById("COMMUNE_C_10PASC");
     }
 
-    return massManager.getById("COMMUNE_C_10T");
+    return this.masses.getById("COMMUNE_C_10T");
   }
 
   private getHolyWeekWednesdayDate(calendar: Calendar): string | null {
@@ -746,7 +781,7 @@ class BmvSaturdayRule implements ConcurrencyRule {
     }
 
     this.holyWeekWednesdayDate =
-      calendar.findDay(massManager.getById("TEMPORA_QUAD6_3")?.id)?.[0] || null;
+      calendar.findDay(this.masses.getById("TEMPORA_QUAD6_3")?.id)?.[0] || null;
 
     return this.holyWeekWednesdayDate;
   }
@@ -756,16 +791,20 @@ class BmvSaturdayRule implements ConcurrencyRule {
  * AdventEmberDayRule
  */
 class AdventEmberDayRule implements ConcurrencyRule {
-  private adventAndEmberDays = massManager.getEmberDays().concat(massManager.getAdvent());
+  private adventAndEmberDays: Mass[];
+
+  constructor(private masses: MassIndex) {
+    this.adventAndEmberDays = masses.getEmberDays().concat(masses.getAdvent());
+  }
 
   applies(observances: Mass[], date: string): boolean {
-    const advOrEmber = massManager.match(observances, this.adventAndEmberDays);
+    const advOrEmber = this.masses.match(observances, this.adventAndEmberDays);
     return Boolean(!isSunday(parseLocalDate(date)) && advOrEmber);
   }
 
   resolve(observances: Mass[]): RuleResolution {
-    const advOrEmber = massManager.match(observances, this.adventAndEmberDays);
-    const sancti = massManager.match(observances, massManager.getSancti());
+    const advOrEmber = this.masses.match(observances, this.adventAndEmberDays);
+    const sancti = this.masses.match(observances, this.masses.getSancti());
 
     if (!sancti) {
       return { stay: [advOrEmber!], shifts: [] };
@@ -791,6 +830,10 @@ class AdventEmberDayRule implements ConcurrencyRule {
  * FirstClassConflictRule
  */
 class FirstClassConflictRule extends BaseConcurrencyRule {
+  constructor(private masses: MassIndex) {
+    super();
+  }
+
   applies(observances: Mass[], date: string): boolean {
     if (observances.length < 2) {
       return false;
@@ -811,8 +854,8 @@ class FirstClassConflictRule extends BaseConcurrencyRule {
     }
 
     const parsed = parseLocalDate(date);
-    const sancti = massManager.match(observances, massManager.getSancti());
-    const tempora = massManager.match(observances, massManager.getTempora());
+    const sancti = this.masses.match(observances, this.masses.getSancti());
+    const tempora = this.masses.match(observances, this.masses.getTempora());
 
     if (
       sancti &&
@@ -868,6 +911,10 @@ class FirstClassConflictRule extends BaseConcurrencyRule {
  * SecondClassConflictRule
  */
 class SecondClassConflictRule extends BaseConcurrencyRule {
+  constructor(private masses: MassIndex) {
+    super();
+  }
+
   applies(observances: Mass[]): boolean {
     if (observances.length < 2) {
       return false;
@@ -885,14 +932,14 @@ class SecondClassConflictRule extends BaseConcurrencyRule {
       return false;
     }
 
-    const secondClassFeasts = massManager.match(observances, massManager.getSanctiClass2());
+    const secondClassFeasts = this.masses.match(observances, this.masses.getSanctiClass2());
 
     return Boolean(secondClassFeasts?.rank === 2);
   }
 
   protected getResolution(observances: Mass[], date: string, calendar: Calendar): RuleResolution {
     const firstClassFeasts = observances.filter((ld) => ld.rank === 1);
-    const secondClassFeasts = massManager.match(observances, massManager.getSanctiClass2());
+    const secondClassFeasts = this.masses.match(observances, this.masses.getSanctiClass2());
     if (!secondClassFeasts) return { stay: observances, shifts: [] };
     const targetDate = this.findNextAvailableDate(date, calendar);
 
@@ -957,19 +1004,19 @@ class GeneralRankRule implements ConcurrencyRule {
 class ConcurrencyResolver {
   private rules: ConcurrencyRule[];
 
-  constructor() {
+  constructor(masses: MassIndex) {
     this.rules = [
-      new NativityMultipleMassesRule(),
-      new AllSoulsRule(),
-      new NativityVigilRule(),
-      new NativityOctaveFeriaRule(),
-      new StMatthiasRule(),
-      new Feb27Rule(),
-      new SevenSorrowsRule(),
-      new AdventEmberDayRule(),
-      new FirstClassConflictRule(),
-      new SecondClassConflictRule(),
-      new BmvSaturdayRule(),
+      new NativityMultipleMassesRule(masses),
+      new AllSoulsRule(masses),
+      new NativityVigilRule(masses),
+      new NativityOctaveFeriaRule(masses),
+      new StMatthiasRule(masses),
+      new Feb27Rule(masses),
+      new SevenSorrowsRule(masses),
+      new AdventEmberDayRule(masses),
+      new FirstClassConflictRule(masses),
+      new SecondClassConflictRule(masses),
+      new BmvSaturdayRule(masses),
       new GeneralRankRule(),
     ];
   }
@@ -1000,7 +1047,6 @@ export class Calendar {
   private keyDates: KeyDates;
   private calculator: LiturgicalYearCalculator;
   private seasonManager: SeasonManager;
-  private concurrencyResolver: ConcurrencyResolver;
   private masses: MassIndex | undefined;
 
   constructor(public year: number) {
@@ -1008,7 +1054,6 @@ export class Calendar {
     this.calculator = new LiturgicalYearCalculator(year);
     this.keyDates = this.calculator.calculateKeyDates();
     this.seasonManager = new SeasonManager(this.keyDates);
-    this.concurrencyResolver = new ConcurrencyResolver();
   }
 
   /**
@@ -1058,7 +1103,7 @@ export class Calendar {
   }
 
   private fillInMasses(): void {
-    const inserter = new MassInserter(this.container, this.calculator, this.keyDates);
+    const inserter = new MassInserter(this.container, this.calculator, this.keyDates, this.masses!);
     inserter.insertTemporaDays();
     inserter.insertSanctiDays();
   }
@@ -1067,6 +1112,7 @@ export class Calendar {
    * resolveConcurrency: Orchestrates conflict resolution and shift processing.
    */
   private resolveConcurrency(): void {
+    const resolver = new ConcurrencyResolver(this.masses!);
     let fallbackMass: Mass | undefined;
 
     for (const [date, day] of this.container) {
@@ -1076,7 +1122,7 @@ export class Calendar {
         (parsedDate.getMonth() === 0 && (parsedDate.getDate() === 1 || parsedDate.getDate() === 6));
 
       // 1. Get the resolution from the rules (BaseRule ensures 'stay' includes winners + survivors)
-      const result = this.concurrencyResolver.resolve(day.mass, date, this);
+      const result = resolver.resolve(day.mass, date, this);
 
       // If no rule applied or no conflict was found, result is undefined or only has original mass.
       if (!result) {
