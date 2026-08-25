@@ -3,9 +3,11 @@ import type { MassMap } from "../../domain";
 export const SANCTI_10: MassMap = {
   SANCTI_10_01: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "SANCTI_10_01",
     name: "S. Remigio",
-    rank: 4,
     color: "w",
     link: "missal/santos/10-01",
     type: "sancti",
@@ -15,9 +17,11 @@ export const SANCTI_10: MassMap = {
   },
   SANCTI_10_01_LISBOA: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "SANCTI_10_01_LISBOA",
     name: "S. Veríssimo e Outros, Mártires",
-    rank: 4,
     color: "w",
     link: "missal/santos/10-01-lisboa",
     type: "sancti",
@@ -28,9 +32,11 @@ export const SANCTI_10: MassMap = {
   },
   SANCTI_10_02: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_10_02",
     name: "Santos Anjos da Guarda",
-    rank: 3,
     color: "w",
     link: "missal/santos/10-02",
     type: "sancti",
@@ -40,9 +46,11 @@ export const SANCTI_10: MassMap = {
   },
   SANCTI_10_03: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_10_03",
     name: "Santa Teresa do Menino Jesus",
-    rank: 3,
     color: "w",
     link: "missal/santos/10-03",
     type: "sancti",
@@ -52,9 +60,11 @@ export const SANCTI_10: MassMap = {
   },
   SANCTI_10_04: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_10_04",
     name: "S. Francisco",
-    rank: 3,
     color: "w",
     link: "missal/santos/10-04",
     type: "sancti",
@@ -64,9 +74,11 @@ export const SANCTI_10: MassMap = {
   },
   SANCTI_10_05: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "SANCTI_10_05",
     name: "S. Plácido e Companheiros Mártires",
-    rank: 4,
     color: "r",
     link: "missal/santos/10-05",
     type: "sancti",
@@ -76,9 +88,11 @@ export const SANCTI_10: MassMap = {
   },
   SANCTI_10_06: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_10_06",
     name: "S. Bruno, Confessor",
-    rank: 3,
     color: "w",
     link: "missal/santos/10-06",
     type: "sancti",
@@ -88,9 +102,11 @@ export const SANCTI_10: MassMap = {
   },
   SANCTI_10_07: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex II classis", precedence: 5 },
+     ],
     id: "SANCTI_10_07",
     name: "SS. Rosário da B. V. Maria",
-    rank: 2,
     color: "w",
     link: "missal/santos/10-07",
     type: "sancti",
@@ -101,9 +117,11 @@ export const SANCTI_10: MassMap = {
   },
   SANCTI_10_07_OUTRO: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "SANCTI_10_07_OUTRO",
     name: "S. Marcos, Papa e Conf.",
-    rank: 4,
     color: "w",
     link: "missal/santos/10-07-outro",
     // Divino Afflatu-era observance; dropped by the 1960 reform.
@@ -115,9 +133,11 @@ export const SANCTI_10: MassMap = {
   },
   SANCTI_10_07_OUTRO_2: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "SANCTI_10_07_OUTRO_2",
     name: "S. S. Sérgio, Baco e Outros, Mártires",
-    rank: 4,
     color: "r",
     link: "missal/santos/10-07-outro-2",
     // Divino Afflatu-era observance; dropped by the 1960 reform.
@@ -129,9 +149,11 @@ export const SANCTI_10: MassMap = {
   },
   SANCTI_10_08: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_10_08",
     name: "Santa Brígida, Viúva",
-    rank: 3,
     color: "w",
     link: "missal/santos/10-08",
     type: "sancti",
@@ -141,9 +163,11 @@ export const SANCTI_10: MassMap = {
   },
   SANCTI_10_09: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_10_09",
     name: "S. João Leonardo, Confessor",
-    rank: 3,
     color: "w",
     link: "missal/santos/10-09",
     type: "sancti",
@@ -155,14 +179,13 @@ export const SANCTI_10: MassMap = {
     flexibility: "santos",
     id: "SANCTI_10_09_OUTRO",
     name: "S. Dionísio e Outros, Mártires",
-    rank: 3,
     color: "r",
     link: "missal/santos/10-09-outro",
     // Divino Afflatu-era observance; dropped by the 1960 reform.
     suppressedIn: ["62"],
     rankVariants: [
-      { rubrics: "*", name: "Duplex", precedence: 3.0 },
-    ],
+        { rubrics: "*", name: "Duplex", precedence: 3 },
+     ],
     type: "sancti",
     category: "santos",
     month: 10,
@@ -170,9 +193,11 @@ export const SANCTI_10: MassMap = {
   },
   SANCTI_10_09_FUNCHAL: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_10_09_FUNCHAL",
     name: "B. Virgem Maria do Monte",
-    rank: 3,
     color: "w",
     link: "missal/santos/10-09-funchal",
     type: "sancti",
@@ -183,9 +208,11 @@ export const SANCTI_10: MassMap = {
   },
   SANCTI_10_10: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_10_10",
     name: "S. Francisco de Bórgia",
-    rank: 3,
     color: "w",
     link: "missal/santos/10-10",
     type: "sancti",
@@ -195,9 +222,11 @@ export const SANCTI_10: MassMap = {
   },
   SANCTI_10_11: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex II classis", precedence: 5 },
+     ],
     id: "SANCTI_10_11",
     name: "Maternidade da B. V. Maria",
-    rank: 2,
     color: "w",
     link: "missal/santos/10-11",
     type: "sancti",
@@ -207,9 +236,11 @@ export const SANCTI_10: MassMap = {
   },
   SANCTI_10_13: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_10_13",
     name: "S. Eduardo, Confessor",
-    rank: 3,
     color: "w",
     link: "missal/santos/10-13",
     type: "sancti",
@@ -219,9 +250,11 @@ export const SANCTI_10: MassMap = {
   },
   SANCTI_10_14: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_10_14",
     name: "S. Calisto I, Papa e Mártir",
-    rank: 3,
     color: "r",
     link: "missal/santos/10-14",
     type: "sancti",
@@ -231,9 +264,11 @@ export const SANCTI_10: MassMap = {
   },
   SANCTI_10_15: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_10_15",
     name: "Santa Teresa, Virgem",
-    rank: 3,
     color: "w",
     link: "missal/santos/10-15",
     type: "sancti",
@@ -243,9 +278,11 @@ export const SANCTI_10: MassMap = {
   },
   SANCTI_10_16: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_10_16",
     name: "Santa Hedviges, Viúva",
-    rank: 3,
     color: "w",
     link: "missal/santos/10-16",
     type: "sancti",
@@ -255,9 +292,11 @@ export const SANCTI_10: MassMap = {
   },
   SANCTI_10_16_ANGRA: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_10_16_ANGRA",
     name: "Na Dedicação da Igreja Catedral de Angra",
-    rank: 3,
     color: "w",
     link: "missal/santos/10-16-angra",
     type: "sancti",
@@ -268,9 +307,11 @@ export const SANCTI_10: MassMap = {
   },
   SANCTI_10_17: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_10_17",
     name: "Santa Margarida Maria, Virgem",
-    rank: 3,
     color: "w",
     link: "missal/santos/10-17",
     type: "sancti",
@@ -280,9 +321,11 @@ export const SANCTI_10: MassMap = {
   },
   SANCTI_10_17_BRAGA: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_10_17_BRAGA",
     name: "Trasl. de S. Pedro de Rates",
-    rank: 3,
     color: "w",
     link: "missal/santos/10-17-braga",
     type: "sancti",
@@ -293,9 +336,11 @@ export const SANCTI_10: MassMap = {
   },
   SANCTI_10_18: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex II classis", precedence: 5 },
+     ],
     id: "SANCTI_10_18",
     name: "S. Lucas, Evangelista",
-    rank: 2,
     color: "r",
     link: "missal/santos/10-18",
     type: "sancti",
@@ -305,9 +350,11 @@ export const SANCTI_10: MassMap = {
   },
   SANCTI_10_19: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_10_19",
     name: "S. Pedro de Alcântara, Confessor",
-    rank: 3,
     color: "w",
     link: "missal/santos/10-19",
     type: "sancti",
@@ -317,9 +364,11 @@ export const SANCTI_10: MassMap = {
   },
   SANCTI_10_20: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_10_20",
     name: "S. João Câncio, Confessor",
-    rank: 3,
     color: "w",
     link: "missal/santos/10-20",
     type: "sancti",
@@ -329,9 +378,11 @@ export const SANCTI_10: MassMap = {
   },
   SANCTI_10_20_PORTUGAL: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_10_20_PORTUGAL",
     name: "Santa Iria, Virgem e Mártir",
-    rank: 3,
     color: "w",
     link: "missal/santos/10-20-portugal",
     type: "sancti",
@@ -342,9 +393,11 @@ export const SANCTI_10: MassMap = {
   },
   SANCTI_10_21: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "SANCTI_10_21",
     name: "S. Hilarião, Abade",
-    rank: 4,
     color: "w",
     link: "missal/santos/10-21",
     type: "sancti",
@@ -354,9 +407,11 @@ export const SANCTI_10: MassMap = {
   },
   SANCTI_10_21_VISEU_LISBOA: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "SANCTI_10_21_VISEU_LISBOA",
     name: "S. Úrsula e Outras, Virgens e Mártires",
-    rank: 4,
     color: "w",
     link: "missal/santos/10-21-viseu-lisboa",
     type: "sancti",
@@ -367,9 +422,11 @@ export const SANCTI_10: MassMap = {
   },
   SANCTI_10_22_GUARDA: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "SANCTI_10_22_GUARDA",
     name: "Na Dedicação da Igreja Catedral da Guarda",
-    rank: 4,
     color: "w",
     link: "missal/santos/10-22-guarda",
     type: "sancti",
@@ -380,9 +437,11 @@ export const SANCTI_10: MassMap = {
   },
   SANCTI_10_22_LISBOA_EVORA_BEJA: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "SANCTI_10_22_LISBOA_EVORA_BEJA",
     name: "Na Dedicação da Basílica de Mafra",
-    rank: 4,
     color: "w",
     link: "missal/santos/10-22-lisboa-evora-beja",
     type: "sancti",
@@ -393,9 +452,11 @@ export const SANCTI_10: MassMap = {
   },
   SANCTI_10_23: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_10_23",
     name: "S. António Maria Claret, Bispo e Confessor",
-    rank: 3,
     color: "w",
     link: "missal/santos/10-23",
     type: "sancti",
@@ -405,9 +466,11 @@ export const SANCTI_10: MassMap = {
   },
   SANCTI_10_23_ANGRA: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "SANCTI_10_23_ANGRA",
     name: "Na Oitava da Dedicação da Igreja Catedral de Angra",
-    rank: 4,
     color: "w",
     link: "missal/santos/10-23",
     type: "sancti",
@@ -417,9 +480,11 @@ export const SANCTI_10: MassMap = {
   },
   SANCTI_10_24: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_10_24",
     name: "S. Rafael, Arcanjo",
-    rank: 3,
     color: "w",
     link: "missal/santos/10-24",
     type: "sancti",
@@ -429,9 +494,11 @@ export const SANCTI_10: MassMap = {
   },
   SANCTI_10_25: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "SANCTI_10_25",
     name: "S.S. Crisanto e Daria, Mártires",
-    rank: 4,
     color: "r",
     link: "missal/santos/10-25",
     type: "sancti",
@@ -441,9 +508,11 @@ export const SANCTI_10: MassMap = {
   },
   SANCTI_10_25_BRAGA: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "SANCTI_10_25_BRAGA",
     name: "Trasl. de S. Martinho de Dume",
-    rank: 4,
     color: "w",
     link: "missal/santos/10-25-braga",
     type: "sancti",
@@ -454,9 +523,11 @@ export const SANCTI_10: MassMap = {
   },
   SANCTI_10_25_EVORA_BEJA: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "SANCTI_10_25_EVORA_BEJA",
     name: "S. S. Crispim e Crispiniano, Márts.",
-    rank: 4,
     color: "w",
     link: "missal/santos/10-25-evora-beja",
     type: "sancti",
@@ -467,9 +538,11 @@ export const SANCTI_10: MassMap = {
   },
   SANCTI_10_25_FUNCHAL: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "SANCTI_10_25_FUNCHAL",
     name: "Na Oitava da Dedicação da Igreja Catedral do Funchal",
-    rank: 4,
     color: "w",
     link: "missal/santos/10-25-funchal",
     type: "sancti",
@@ -480,9 +553,11 @@ export const SANCTI_10: MassMap = {
   },
   SANCTI_10_27_PORTUGAL: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "SANCTI_10_27_PORTUGAL",
     name: "S. Gonçalo de Lagos",
-    rank: 4,
     color: "w",
     link: "missal/santos/10-27-portugal",
     type: "sancti",
@@ -493,9 +568,11 @@ export const SANCTI_10: MassMap = {
   },
   SANCTI_10_27_EVORA: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "SANCTI_10_27_EVORA",
     name: "S. S. Vicente, Sabina e Cristeta",
-    rank: 4,
     color: "w",
     link: "missal/santos/10-27-evora",
     type: "sancti",
@@ -506,9 +583,11 @@ export const SANCTI_10: MassMap = {
   },
   SANCTI_10_28: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex II classis", precedence: 5 },
+     ],
     id: "SANCTI_10_28",
     name: "S.S. Simão e Judas, Apóstolos",
-    rank: 2,
     color: "r",
     link: "missal/santos/10-28",
     type: "sancti",
@@ -518,9 +597,11 @@ export const SANCTI_10: MassMap = {
   },
   SANCTI_10_29_GUARDA: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "SANCTI_10_29_GUARDA",
     name: "Na Oitava da Dedicação da Igreja Catedral da Guarda",
-    rank: 4,
     color: "w",
     link: "missal/santos/10-29-guarda",
     type: "sancti",
@@ -531,9 +612,11 @@ export const SANCTI_10: MassMap = {
   },
   SANCTI_10_29_PORTUGAL: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "SANCTI_10_29_PORTUGAL",
     name: "Trasl. de Santa Isabel, Rainha",
-    rank: 4,
     color: "w",
     link: "missal/santos/10-29-portugal",
     type: "sancti",
@@ -544,9 +627,11 @@ export const SANCTI_10: MassMap = {
   },
   SANCTI_10_30_PORTUGAL: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "SANCTI_10_30_PORTUGAL",
     name: "Vitória dos Cristãos",
-    rank: 4,
     color: "w",
     link: "missal/santos/10-30-portugal",
     type: "sancti",
@@ -558,10 +643,12 @@ export const SANCTI_10: MassMap = {
 
   SANCTI_10_31: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "SANCTI_10_31",
     name: "Vigília de Todos os Santos",
     // DO Sancti/10-31: single Vigilia grade serving both rubrica eras.
-    rank: 4,
     color: "v",
     link: "missal/santos/11-01",
     type: "sancti",
@@ -572,10 +659,12 @@ export const SANCTI_10: MassMap = {
 
   SANCTI_10_27: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "SANCTI_10_27",
     name: "Vigília de S. S. Simão e Judá, Apóstolos",
     // Abolished by the 1960 reform.
-    rank: 4,
     color: "v",
     link: "missal/santos/10-28",
     suppressedIn: ["62"],

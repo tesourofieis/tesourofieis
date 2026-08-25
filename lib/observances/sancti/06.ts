@@ -3,9 +3,11 @@ import type { MassMap } from "../../domain";
 export const SANCTI_06: MassMap = {
   SANCTI_06_01: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_06_01",
     name: "Santa Ângela Mericia, Virgem",
-    rank: 3,
     color: "w",
     link: "missal/santos/06-01",
     type: "sancti",
@@ -15,9 +17,11 @@ export const SANCTI_06: MassMap = {
   },
   SANCTI_06_02: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "SANCTI_06_02",
     name: "S.S. Marcelino e Pedro, Mártires e Erasmo, Bispo",
-    rank: 4,
     color: "r",
     link: "missal/santos/06-02",
     type: "sancti",
@@ -27,9 +31,11 @@ export const SANCTI_06: MassMap = {
   },
   SANCTI_06_03_ANGOLA: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "SANCTI_06_03_ANGOLA",
     name: "S. S. Carlos Lwanga e Outros, Mártires",
-    rank: 4,
     color: "r",
     link: "missal/santos/06-03-angola",
     type: "sancti",
@@ -40,9 +46,11 @@ export const SANCTI_06: MassMap = {
   },
   SANCTI_06_04: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_06_04",
     name: "S. Francisco Caraccíolo, Confessor",
-    rank: 3,
     color: "w",
     link: "missal/santos/06-04",
     type: "sancti",
@@ -52,9 +60,11 @@ export const SANCTI_06: MassMap = {
   },
   SANCTI_06_05: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_06_05",
     name: "S. Bonifácio, Bispo e Mártir",
-    rank: 3,
     color: "r",
     link: "missal/santos/06-05",
     type: "sancti",
@@ -64,9 +74,11 @@ export const SANCTI_06: MassMap = {
   },
   SANCTI_06_06: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_06_06",
     name: "S. Norberto, Bispo e Confessor",
-    rank: 3,
     color: "w",
     link: "missal/santos/06-06",
     type: "sancti",
@@ -76,9 +88,11 @@ export const SANCTI_06: MassMap = {
   },
   SANCTI_06_09: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "SANCTI_06_09",
     name: "S.S. Primo e Feliciano, Mártires",
-    rank: 4,
     color: "r",
     link: "missal/santos/06-09",
     type: "sancti",
@@ -88,9 +102,11 @@ export const SANCTI_06: MassMap = {
   },
   SANCTI_06_10: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_06_10",
     name: "Santa Margarida, Viúva",
-    rank: 3,
     color: "w",
     link: "missal/santos/06-10",
     type: "sancti",
@@ -100,9 +116,11 @@ export const SANCTI_06: MassMap = {
   },
   SANCTI_06_11: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_06_11",
     name: "S. Barnabé, Apóstolo",
-    rank: 3,
     color: "r",
     link: "missal/santos/06-11",
     type: "sancti",
@@ -112,9 +130,11 @@ export const SANCTI_06: MassMap = {
   },
   SANCTI_06_12: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_06_12",
     name: "S. João de Facundo, Confessor",
-    rank: 3,
     color: "r",
     link: "missal/santos/06-12",
     type: "sancti",
@@ -124,9 +144,11 @@ export const SANCTI_06: MassMap = {
   },
   SANCTI_06_13: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_06_13",
     name: "S. António de Lisboa, Confessor e Doutor da Igreja",
-    rank: 3,
     color: "w",
     link: "missal/santos/06-13",
     type: "sancti",
@@ -137,9 +159,11 @@ export const SANCTI_06: MassMap = {
   },
   SANCTI_06_14: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_06_14",
     name: "S. Basílio Magno, Confessor, Bispo e Doutor da Igreja",
-    rank: 3,
     color: "w",
     link: "missal/santos/06-14",
     type: "sancti",
@@ -149,9 +173,11 @@ export const SANCTI_06: MassMap = {
   },
   SANCTI_06_15: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_06_15",
     name: "S.S. Vito, Modesto e Crescência, Mártires",
-    rank: 3,
     color: "w",
     link: "missal/santos/06-15",
     type: "sancti",
@@ -161,9 +187,11 @@ export const SANCTI_06: MassMap = {
   },
   SANCTI_06_17_PORTUGAL: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_06_17_PORTUGAL",
     name: "Beata Teresa, Princesa de Portugal, Viúva",
-    rank: 3,
     color: "w",
     link: "missal/santos/06-17-portugal",
     type: "sancti",
@@ -174,9 +202,11 @@ export const SANCTI_06: MassMap = {
   },
   SANCTI_06_18: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_06_18",
     name: "S. Efrém, Diácono, Confessor e Doutor da Igreja",
-    rank: 3,
     color: "r",
     link: "missal/santos/06-18",
     type: "sancti",
@@ -186,9 +216,11 @@ export const SANCTI_06: MassMap = {
   },
   SANCTI_06_19: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_06_19",
     name: "S. Juliana Falconiéri, Virgem",
-    rank: 3,
     color: "r",
     link: "missal/santos/06-19",
     type: "sancti",
@@ -198,9 +230,11 @@ export const SANCTI_06: MassMap = {
   },
   SANCTI_06_20: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "SANCTI_06_20",
     name: "S. Silvestre, Papa e Mártir",
-    rank: 4,
     color: "r",
     link: "missal/santos/06-20",
     type: "sancti",
@@ -210,9 +244,11 @@ export const SANCTI_06: MassMap = {
   },
   SANCTI_06_20_PORTUGAL: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "SANCTI_06_20_PORTUGAL",
     name: "B. Francisco Pacheco e Outros, Márts.",
-    rank: 4,
     color: "r",
     link: "missal/santos/06-20-portugal",
     type: "sancti",
@@ -223,9 +259,11 @@ export const SANCTI_06: MassMap = {
   },
   SANCTI_06_21: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_06_21",
     name: "S. Luís Gonzaga, Confessor",
-    rank: 3,
     color: "w",
     link: "missal/santos/06-21",
     type: "sancti",
@@ -235,9 +273,11 @@ export const SANCTI_06: MassMap = {
   },
   SANCTI_06_22: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_06_22",
     name: "S. Paulino, Bispo e Confessor",
-    rank: 3,
     color: "w",
     link: "missal/santos/06-22",
     type: "sancti",
@@ -247,9 +287,11 @@ export const SANCTI_06: MassMap = {
   },
   SANCTI_06_23: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_06_23",
     name: "Vigília da Natividade de S. João Baptista",
-    rank: 3,
     color: "v",
     link: "missal/santos/06-23",
     type: "sancti",
@@ -259,9 +301,11 @@ export const SANCTI_06: MassMap = {
   },
   SANCTI_06_24: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex I classis", precedence: 6.5 },
+     ],
     id: "SANCTI_06_24",
     name: "Nascimento de S. João Baptista",
-    rank: 1,
     color: "w",
     link: "missal/santos/06-24",
     type: "sancti",
@@ -272,9 +316,11 @@ export const SANCTI_06: MassMap = {
   },
   SANCTI_06_25: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_06_25",
     name: "S. Guilherme, Abade",
-    rank: 3,
     color: "w",
     link: "missal/santos/06-25",
     type: "sancti",
@@ -284,9 +330,11 @@ export const SANCTI_06: MassMap = {
   },
   SANCTI_06_26: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_06_26",
     name: "S.S. João e Paulo, Mártires",
-    rank: 3,
     color: "r",
     link: "missal/santos/06-26",
     type: "sancti",
@@ -296,9 +344,11 @@ export const SANCTI_06: MassMap = {
   },
   SANCTI_06_27: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_06_27",
     name: "Terceiro dia na Oitava de São João",
-    rank: 3,
     color: "w",
     link: "missal/santos/06-27",
     type: "sancti",
@@ -308,9 +358,11 @@ export const SANCTI_06: MassMap = {
   },
   SANCTI_06_26_PORTUGAL: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_06_26_PORTUGAL",
     name: "S. Pelágio",
-    rank: 3,
     color: "r",
     link: "missal/santos/06-26-portugal",
     type: "sancti",
@@ -323,7 +375,6 @@ export const SANCTI_06: MassMap = {
     flexibility: "santos",
     id: "SANCTI_06_28",
     name: "Vigília de S. Pedro e S. Paulo, Apóstolos",
-    rank: 3,
     color: "r",
     link: "missal/santos/06-28",
     type: "sancti",
@@ -331,15 +382,17 @@ export const SANCTI_06: MassMap = {
     month: 6,
     day: 28,
     rankVariants: [
-      { rubrics: "*", name: "Duplex", precedence: 3.5 },
-      { rubrics: "Rubrics 1960 - 1960", name: "Duplex II classis", precedence: 5 },
-    ],
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+        { rubrics: "R1960", name: "Duplex II classis", precedence: 5 },
+     ],
   },
   SANCTI_06_28_OUTRO: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_06_28_OUTRO",
     name: "S. Ireneu, B. e Mártir",
-    rank: 3,
     color: "r",
     link: "missal/santos/06-28-outro",
     // Universal Roman calendar under Divino Afflatu; Rubrics 1960 move
@@ -352,9 +405,11 @@ export const SANCTI_06: MassMap = {
   },
   SANCTI_06_29: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex I classis", precedence: 6.5 },
+     ],
     id: "SANCTI_06_29",
     name: "S. Pedro e S. Paulo, Apóstolos",
-    rank: 1,
     color: "r",
     link: "missal/santos/06-29",
     type: "sancti",
@@ -365,9 +420,11 @@ export const SANCTI_06: MassMap = {
   },
   SANCTI_06_30: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_06_30",
     name: "Comemoração S. Paulo, Apóstolo",
-    rank: 3,
     color: "r",
     link: "missal/santos/06-30",
     type: "sancti",

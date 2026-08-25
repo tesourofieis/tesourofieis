@@ -97,13 +97,13 @@ describe("computeRankFor", () => {
 
     expect(computeRankFor("pre-55", adventFeria, "2024-12-20")).toBe(2);
     expect(computeRankFor("62", adventFeria, "2024-12-20")).toBe(2);
-    // Outside the promotion window the static rank applies.
-    expect(computeRankFor("pre-55", adventFeria, "2024-12-05")).toBe(adventFeria.rank);
+    // Outside the promotion window the DA grade applies (Duplex II classis).
+    expect(computeRankFor("pre-55", adventFeria, "2024-12-05")).toBe(2);
   });
 
   test("never promotes Advent Sundays", () => {
     const adventSunday = OBSERVANCES.TEMPORA_ADV3_0!;
     expect(adventSunday.weekday).toBe(0);
-    expect(computeRankFor("pre-55", adventSunday, "2024-12-22")).toBe(adventSunday.rank);
+    expect(computeRankFor("pre-55", adventSunday, "2024-12-22")).toBe(1); // Semiduplex privilegiatum
   });
 });

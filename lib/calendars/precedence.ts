@@ -1,4 +1,4 @@
-import type { Mass } from "../domain";
+import type { Mass, RubricVersion } from "../domain";
 import type { CalendarDefinition } from "./types";
 
 /**
@@ -37,8 +37,8 @@ export const PRECEDENCE = {
 } as const;
 
 /** Maps the legacy coarse rank (1-4) onto DO's precedence scale. */
-export function legacyToPrecedence(rank: number): number {
-  if (rank <= 0) return PRECEDENCE.SIMPLEX - 1;
+export function legacyToPrecedence(rank: number | undefined): number {
+  if (rank === undefined || rank <= 0) return PRECEDENCE.SIMPLEX - 1;
   switch (rank) {
     case 1:
       return PRECEDENCE.DUPLEX_I_CLASSIS + 0.5;
@@ -59,6 +59,34 @@ export function precedenceToLegacyRank(precedence: number): number {
   return 4;
 }
 
+/** Maps a definition's doVersion onto its rubric code in the data. */
+const RUBRIC_CODE: Record<string, RubricVersion | undefined> = {
+  "Rubrics 1960 - 1960": "R1960",
+  "Tridentine - 1570": "T1570",
+};
+
+/**
+ * Resolve the full variant (grade name + precedence) under an edition
+ * chain. "*" acts as DO's default (first) [Rank] section.
+ */
+export function resolveVariant(
+  chain: CalendarDefinition[],
+  mass: Mass,
+): { name: string; precedence: number } | undefined {
+  const variants = mass.rankVariants;
+  if (!variants?.length) return undefined;
+
+  for (const definition of chain) {
+    const code = RUBRIC_CODE[definition.doVersion];
+    if (!code) continue;
+    const match = variants.find((v) => v.rubrics === code);
+    if (match) return { name: match.name, precedence: match.precedence };
+  }
+
+  const fallback = variants.find((v) => v.rubrics === "*");
+  return fallback ? { name: fallback.name, precedence: fallback.precedence } : undefined;
+}
+
 /**
  * Resolve the grade of an observance under an edition chain: the nearest
  * definition (leaf first) whose doVersion has a matching variant wins;
@@ -66,16 +94,5 @@ export function precedenceToLegacyRank(precedence: number): number {
  * falls back to the entry's static rank via the legacy mapping.
  */
 export function resolvePrecedence(chain: CalendarDefinition[], mass: Mass): number {
-  const variants = mass.rankVariants;
-  if (!variants?.length) {
-    return legacyToPrecedence(mass.rank);
-  }
-
-  for (const definition of chain) {
-    const match = variants.find((v) => v.rubrics === definition.doVersion);
-    if (match) return match.precedence;
-  }
-
-  const fallback = variants.find((v) => v.rubrics === "*");
-  return fallback ? fallback.precedence : legacyToPrecedence(mass.rank);
+  return resolveVariant(chain, mass)?.precedence ?? legacyToPrecedence(mass.rank);
 }

@@ -45,14 +45,33 @@ const MassCategory = Schema.Literals([
  * Edition-specific liturgical grade, mirroring divinum-officium's per-rubrica
  * [Rank] sections in observance data files.
  *
- * `rubrics` is a divinum-officium version name ("Rubrics 1960", "Tridentine - 1570", ...)
- * or "*" for the default. `precedence` uses DO's fine-grained numeric scale:
- * Simplex ~1-2, Semiduplex ~2.5, Duplex ~3-4.x, II. classis ~5, Feria privilegiata ~7,
- * I. classis ~6+.
+ * `rubrics` is a closed code set: "*" is the default section (what DO
+ * prints first), "R1960" is Rubrics 1960, "T1570" Tridentine, "Cist"
+ * the Cistercian use. `name` is a canonical grade label; `precedence`
+ * uses DO's fine-grained numeric scale (Simplex 1.5, Semiduplex 2.5,
+ * Duplex 3.5, majus 4, II.cl 5, I.cl 6+).
  */
+export const RUBRIC_VERSIONS = ["*", "R1960", "T1570", "Cist"] as const;
+export type RubricVersion = (typeof RUBRIC_VERSIONS)[number];
+
+export const GRADE_NAMES = [
+  "Duplex I classis",
+  "Duplex II classis",
+  "Duplex majus",
+  "Duplex",
+  "Semiduplex privilegiatum",
+  "Semiduplex",
+  "Simplex",
+  "Vigilia",
+  "Feria",
+  "Dominica II classis",
+  "Votiva",
+] as const;
+export type GradeName = (typeof GRADE_NAMES)[number];
+
 export const RankVariant = Schema.Struct({
-  rubrics: Schema.String,
-  name: Schema.String,
+  rubrics: Schema.Literals(RUBRIC_VERSIONS),
+  name: Schema.Literals(GRADE_NAMES),
   precedence: Schema.Number,
 });
 export type RankVariant = typeof RankVariant.Type;
@@ -62,7 +81,10 @@ export const Mass = Schema.Struct({
   id: Schema.String,
   date: Schema.optional(Schema.String),
   name: Schema.String,
-  rank: Schema.Number,
+  /** Legacy coarse grade - derived at runtime from precedence; kept for
+   *  display/snapshot readability. Data files express grades via
+   *  rankVariants only. */
+  rank: Schema.optional(Schema.Number),
   color: LiturgicalColor,
   link: Schema.String,
   /** Only set for flexibility "santos", and only when true. */
@@ -86,9 +108,9 @@ export const Mass = Schema.Struct({
   /** Editions where this observance does not exist (e.g. vigils abolished in 1960). */
   suppressedIn: Schema.optional(Schema.Array(CalendarEdition)),
   /**
-   * Fine-grained DO-scale precedence stamped when the observance is placed
-   * on a date (see lib/calendars/precedence.ts). Static entries carry only
-   * the coarse `rank`; day copies carry both.
+   * Fine-grained DO-scale precedence: resolved per edition from
+   * rankVariants and stamped on every observance (see
+   * lib/calendars/precedence.ts).
    */
   precedence: Schema.optional(Schema.Number),
 });

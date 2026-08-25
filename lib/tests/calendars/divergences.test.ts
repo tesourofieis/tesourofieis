@@ -76,7 +76,7 @@ describe("rank divergence catalogue", () => {
         `${r.date} missing default`,
       ).toBe(true);
       expect(
-        r.variants.some((v) => v.rubrics === "Rubrics 1960 - 1960"),
+        r.variants.some((v) => v.rubrics === "R1960"),
         `${r.date} missing Rubrics 1960`,
       ).toBe(true);
       const precs = new Set(r.variants.map((v) => v.precedence));
@@ -97,7 +97,7 @@ describe("rank divergence catalogue", () => {
 
       for (const entry of entries) {
         const hasDefault = entry.rankVariants?.some((v) => v.rubrics === "*");
-        const has62 = entry.rankVariants?.some((v) => v.rubrics === "Rubrics 1960 - 1960");
+        const has62 = entry.rankVariants?.some((v) => v.rubrics === "R1960");
         if (!hasDefault || !has62) unported.push(entry.id);
       }
     }
@@ -111,7 +111,7 @@ describe("rank divergence catalogue", () => {
     // [Rank] says Duplex majus pre-55 - the port corrects that.
     expect(computeRankFor("pre-55", cross, "2025-09-14")).toBe(3);
     expect(computeRankFor("62", cross, "2025-09-14")).toBe(2);
-    expect(cross.rankVariants?.find((v) => v.rubrics === "Rubrics 1960 - 1960")?.precedence).toBe(
+    expect(cross.rankVariants?.find((v) => v.rubrics === "R1960")?.precedence).toBe(
       5.5,
     );
   });

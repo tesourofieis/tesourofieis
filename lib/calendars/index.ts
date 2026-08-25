@@ -38,8 +38,8 @@ export function computeRankFor(
   // Ranks outside the legacy 1-4 scale are meaningful data (e.g. 0);
   // pass them through untouched unless the entry declares variants.
   const hasVariants = Boolean(mass.rankVariants?.length);
-  if (!hasVariants && !(mass.rank >= 1 && mass.rank <= 4)) {
-    return mass.rank;
+  if (!hasVariants && !(mass.rank !== undefined && mass.rank >= 1 && mass.rank <= 4)) {
+    return mass.rank ?? 0;
   }
   return precedenceToLegacyRank(computePrecedenceFor(edition, mass, date));
 }

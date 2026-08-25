@@ -6,7 +6,6 @@ export const TEMPORA_EPIFANIA: MassMap = {
     flexibility: "tempora",
     id: "TEMPORA_EPI1_0A",
     name: "Sagrada Família",
-    rank: 2,
     color: "w",
     link: "missal/epifania/epi1-0a",
     type: "post-epiphany",
@@ -14,14 +13,13 @@ export const TEMPORA_EPIFANIA: MassMap = {
     weekday: 0,
     week: 1,
     rankVariants: [
-      { rubrics: "*", name: "Duplex majus", precedence: 5.61 },
-    ],
+        { rubrics: "*", name: "Duplex majus", precedence: 5.61 },
+     ],
   },
   TEMPORA_EPI1_1: {
     flexibility: "tempora",
     id: "TEMPORA_EPI1_1",
     name: "Segunda-feira da semana após a Epifania",
-    rank: 4,
     color: "w",
     link: "missal/epifania/epi1-0",
     type: "post-epiphany",
@@ -29,15 +27,14 @@ export const TEMPORA_EPIFANIA: MassMap = {
     weekday: 1,
     week: 1,
     rankVariants: [
-      { rubrics: "*", name: "Semiduplex", precedence: 5.6 },
-      { rubrics: "Rubrics 1960 - 1960", name: "Feria", precedence: 1.2 },
-    ],
+        { rubrics: "*", name: "Semiduplex", precedence: 5.6 },
+        { rubrics: "R1960", name: "Feria", precedence: 1.2 },
+     ],
   },
   TEMPORA_EPI1_2: {
     flexibility: "tempora",
     id: "TEMPORA_EPI1_2",
     name: "Terça-feira da semana após a Epifania",
-    rank: 4,
     color: "w",
     link: "missal/epifania/epi1-0",
     type: "post-epiphany",
@@ -45,15 +42,14 @@ export const TEMPORA_EPIFANIA: MassMap = {
     weekday: 2,
     week: 1,
     rankVariants: [
-      { rubrics: "*", name: "Semiduplex", precedence: 5.6 },
-      { rubrics: "Rubrics 1960 - 1960", name: "Feria", precedence: 1.2 },
-    ],
+        { rubrics: "*", name: "Semiduplex", precedence: 5.6 },
+        { rubrics: "R1960", name: "Feria", precedence: 1.2 },
+     ],
   },
   TEMPORA_EPI1_3: {
     flexibility: "tempora",
     id: "TEMPORA_EPI1_3",
     name: "Quarta-feira da semana após a Epifania",
-    rank: 4,
     color: "w",
     link: "missal/epifania/epi1-0",
     type: "post-epiphany",
@@ -61,15 +57,14 @@ export const TEMPORA_EPIFANIA: MassMap = {
     weekday: 3,
     week: 1,
     rankVariants: [
-      { rubrics: "*", name: "Semiduplex", precedence: 5.6 },
-      { rubrics: "Rubrics 1960 - 1960", name: "Feria", precedence: 1.2 },
-    ],
+        { rubrics: "*", name: "Semiduplex", precedence: 5.6 },
+        { rubrics: "R1960", name: "Feria", precedence: 1.2 },
+     ],
   },
   TEMPORA_EPI1_4: {
     flexibility: "tempora",
     id: "TEMPORA_EPI1_4",
     name: "Quinta-feira da semana após a Epifania",
-    rank: 4,
     color: "w",
     link: "missal/epifania/epi1-0",
     type: "post-epiphany",
@@ -77,15 +72,14 @@ export const TEMPORA_EPIFANIA: MassMap = {
     weekday: 4,
     week: 1,
     rankVariants: [
-      { rubrics: "*", name: "Semiduplex", precedence: 5.6 },
-      { rubrics: "Rubrics 1960 - 1960", name: "Feria", precedence: 1.2 },
-    ],
+        { rubrics: "*", name: "Semiduplex", precedence: 5.6 },
+        { rubrics: "R1960", name: "Feria", precedence: 1.2 },
+     ],
   },
   TEMPORA_EPI1_5: {
     flexibility: "tempora",
     id: "TEMPORA_EPI1_5",
     name: "Sexta-feira da semana após a Epifania",
-    rank: 4,
     color: "w",
     link: "missal/epifania/epi1-0",
     type: "post-epiphany",
@@ -93,15 +87,14 @@ export const TEMPORA_EPIFANIA: MassMap = {
     weekday: 5,
     week: 1,
     rankVariants: [
-      { rubrics: "*", name: "Semiduplex", precedence: 5.6 },
-      { rubrics: "Rubrics 1960 - 1960", name: "Feria", precedence: 1.2 },
-    ],
+        { rubrics: "*", name: "Semiduplex", precedence: 5.6 },
+        { rubrics: "R1960", name: "Feria", precedence: 1.2 },
+     ],
   },
   TEMPORA_EPI1_6: {
     flexibility: "tempora",
     id: "TEMPORA_EPI1_6",
     name: "Sábado da semana após a Epifania",
-    rank: 4,
     color: "w",
     link: "missal/epifania/epi1-0",
     type: "post-epiphany",
@@ -109,23 +102,22 @@ export const TEMPORA_EPIFANIA: MassMap = {
     weekday: 6,
     week: 1,
     rankVariants: [
-      { rubrics: "*", name: "Semiduplex", precedence: 5.6 },
-      { rubrics: "Rubrics 1960 - 1960", name: "Feria", precedence: 1.2 },
-    ],
+        { rubrics: "*", name: "Semiduplex", precedence: 5.6 },
+        { rubrics: "R1960", name: "Feria", precedence: 1.2 },
+     ],
   },
   TEMPORA_EPI2_0: {
     flexibility: "tempora",
     id: "TEMPORA_EPI2_0",
     name: "2º Domingo após a Epifania",
-    rank: 2,
     color: "g",
     link: "missal/epifania/epi2-0",
     // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
     // 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-      { rubrics: "*", name: "Semiduplex", precedence: 5 },
-      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
-    ],
+        { rubrics: "*", name: "Semiduplex", precedence: 5 },
+        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+     ],
     type: "post-epiphany",
     category: "epifania",
     weekday: 0,
@@ -133,9 +125,11 @@ export const TEMPORA_EPIFANIA: MassMap = {
   },
   TEMPORA_EPI2_1: {
     flexibility: "tempora",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "TEMPORA_EPI2_1",
     name: "Segunda-feira da 2ª semana após a Epifania",
-    rank: 4,
     color: "g",
     link: "missal/epifania/epi2-0",
     type: "post-epiphany",
@@ -145,9 +139,11 @@ export const TEMPORA_EPIFANIA: MassMap = {
   },
   TEMPORA_EPI2_2: {
     flexibility: "tempora",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "TEMPORA_EPI2_2",
     name: "Terça-feira da 2ª semana após a Epifania",
-    rank: 4,
     color: "g",
     link: "missal/epifania/epi2-0",
     type: "post-epiphany",
@@ -157,9 +153,11 @@ export const TEMPORA_EPIFANIA: MassMap = {
   },
   TEMPORA_EPI2_3: {
     flexibility: "tempora",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "TEMPORA_EPI2_3",
     name: "Quarta-feira da 2ª semana após a Epifania",
-    rank: 4,
     color: "g",
     link: "missal/epifania/epi2-0",
     type: "post-epiphany",
@@ -169,9 +167,11 @@ export const TEMPORA_EPIFANIA: MassMap = {
   },
   TEMPORA_EPI2_4: {
     flexibility: "tempora",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "TEMPORA_EPI2_4",
     name: "Quinta-feira da 2ª semana após a Epifania",
-    rank: 4,
     color: "g",
     link: "missal/epifania/epi2-0",
     type: "post-epiphany",
@@ -181,9 +181,11 @@ export const TEMPORA_EPIFANIA: MassMap = {
   },
   TEMPORA_EPI2_5: {
     flexibility: "tempora",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "TEMPORA_EPI2_5",
     name: "Sexta-feira da 2ª semana após a Epifania",
-    rank: 4,
     color: "g",
     link: "missal/epifania/epi2-0",
     type: "post-epiphany",
@@ -193,9 +195,11 @@ export const TEMPORA_EPIFANIA: MassMap = {
   },
   TEMPORA_EPI2_6: {
     flexibility: "tempora",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "TEMPORA_EPI2_6",
     name: "Sábado da 2ª semana após a Epifania",
-    rank: 4,
     color: "g",
     link: "missal/epifania/epi2-0",
     type: "post-epiphany",
@@ -207,15 +211,14 @@ export const TEMPORA_EPIFANIA: MassMap = {
     flexibility: "tempora",
     id: "TEMPORA_EPI3_0",
     name: "3º Domingo após a Epifania",
-    rank: 2,
     color: "g",
     link: "missal/epifania/epi3-0",
     // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
     // 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-      { rubrics: "*", name: "Semiduplex", precedence: 5 },
-      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
-    ],
+        { rubrics: "*", name: "Semiduplex", precedence: 5 },
+        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+     ],
     type: "post-epiphany",
     category: "epifania",
     weekday: 0,
@@ -223,9 +226,11 @@ export const TEMPORA_EPIFANIA: MassMap = {
   },
   TEMPORA_EPI3_1: {
     flexibility: "tempora",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "TEMPORA_EPI3_1",
     name: "Segunda-feira da 3ª semana após a Epifania",
-    rank: 4,
     color: "g",
     link: "missal/epifania/epi3-0",
     type: "post-epiphany",
@@ -235,9 +240,11 @@ export const TEMPORA_EPIFANIA: MassMap = {
   },
   TEMPORA_EPI3_2: {
     flexibility: "tempora",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "TEMPORA_EPI3_2",
     name: "Terça-feira da 3ª semana após a Epifania",
-    rank: 4,
     color: "g",
     link: "missal/epifania/epi3-0",
     type: "post-epiphany",
@@ -247,9 +254,11 @@ export const TEMPORA_EPIFANIA: MassMap = {
   },
   TEMPORA_EPI3_3: {
     flexibility: "tempora",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "TEMPORA_EPI3_3",
     name: "Quarta-feira da 3ª semana após a Epifania",
-    rank: 4,
     color: "g",
     link: "missal/epifania/epi3-0",
     type: "post-epiphany",
@@ -259,9 +268,11 @@ export const TEMPORA_EPIFANIA: MassMap = {
   },
   TEMPORA_EPI3_4: {
     flexibility: "tempora",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "TEMPORA_EPI3_4",
     name: "Quinta-feira da 3ª semana após a Epifania",
-    rank: 4,
     color: "g",
     link: "missal/epifania/epi3-0",
     type: "post-epiphany",
@@ -271,9 +282,11 @@ export const TEMPORA_EPIFANIA: MassMap = {
   },
   TEMPORA_EPI3_5: {
     flexibility: "tempora",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "TEMPORA_EPI3_5",
     name: "Sexta-feira da 3ª semana após a Epifania",
-    rank: 4,
     color: "g",
     link: "missal/epifania/epi3-0",
     type: "post-epiphany",
@@ -283,9 +296,11 @@ export const TEMPORA_EPIFANIA: MassMap = {
   },
   TEMPORA_EPI3_6: {
     flexibility: "tempora",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "TEMPORA_EPI3_6",
     name: "Sábado da 3ª semana após a Epifania",
-    rank: 4,
     color: "g",
     link: "missal/epifania/epi3-0",
     type: "post-epiphany",
@@ -297,15 +312,14 @@ export const TEMPORA_EPIFANIA: MassMap = {
     flexibility: "tempora",
     id: "TEMPORA_EPI4_0",
     name: "4º Domingo após a Epifania",
-    rank: 2,
     color: "g",
     link: "missal/epifania/epi4-0",
     // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
     // 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-      { rubrics: "*", name: "Semiduplex", precedence: 5 },
-      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
-    ],
+        { rubrics: "*", name: "Semiduplex", precedence: 5 },
+        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+     ],
     type: "post-epiphany",
     category: "epifania",
     weekday: 0,
@@ -313,9 +327,11 @@ export const TEMPORA_EPIFANIA: MassMap = {
   },
   TEMPORA_EPI4_1: {
     flexibility: "tempora",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "TEMPORA_EPI4_1",
     name: "Segunda-feira da 4ª semana após a Epifania",
-    rank: 4,
     color: "g",
     link: "missal/epifania/epi4-0",
     type: "post-epiphany",
@@ -325,9 +341,11 @@ export const TEMPORA_EPIFANIA: MassMap = {
   },
   TEMPORA_EPI4_2: {
     flexibility: "tempora",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "TEMPORA_EPI4_2",
     name: "Terça-feira da 4ª semana após a Epifania",
-    rank: 4,
     color: "g",
     link: "missal/epifania/epi4-0",
     type: "post-epiphany",
@@ -337,9 +355,11 @@ export const TEMPORA_EPIFANIA: MassMap = {
   },
   TEMPORA_EPI4_3: {
     flexibility: "tempora",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "TEMPORA_EPI4_3",
     name: "Quarta-feira da 4ª semana após a Epifania",
-    rank: 4,
     color: "g",
     link: "missal/epifania/epi4-0",
     type: "post-epiphany",
@@ -349,9 +369,11 @@ export const TEMPORA_EPIFANIA: MassMap = {
   },
   TEMPORA_EPI4_4: {
     flexibility: "tempora",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "TEMPORA_EPI4_4",
     name: "Quinta-feira da 4ª semana após a Epifania",
-    rank: 4,
     color: "g",
     link: "missal/epifania/epi4-0",
     type: "post-epiphany",
@@ -361,9 +383,11 @@ export const TEMPORA_EPIFANIA: MassMap = {
   },
   TEMPORA_EPI4_5: {
     flexibility: "tempora",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "TEMPORA_EPI4_5",
     name: "Sexta-feira da 4ª semana após a Epifania",
-    rank: 4,
     color: "g",
     link: "missal/epifania/epi4-0",
     type: "post-epiphany",
@@ -373,9 +397,11 @@ export const TEMPORA_EPIFANIA: MassMap = {
   },
   TEMPORA_EPI4_6: {
     flexibility: "tempora",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "TEMPORA_EPI4_6",
     name: "Sábado da 4ª semana após a Epifania",
-    rank: 4,
     color: "g",
     link: "missal/epifania/epi4-0",
     type: "post-epiphany",
@@ -387,15 +413,14 @@ export const TEMPORA_EPIFANIA: MassMap = {
     flexibility: "tempora",
     id: "TEMPORA_EPI5_0",
     name: "5º Domingo após a Epifania",
-    rank: 2,
     color: "g",
     link: "missal/epifania/epi5-0",
     // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
     // 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-      { rubrics: "*", name: "Semiduplex", precedence: 5 },
-      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
-    ],
+        { rubrics: "*", name: "Semiduplex", precedence: 5 },
+        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+     ],
     type: "post-epiphany",
     category: "epifania",
     weekday: 0,
@@ -403,9 +428,11 @@ export const TEMPORA_EPIFANIA: MassMap = {
   },
   TEMPORA_EPI5_1: {
     flexibility: "tempora",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "TEMPORA_EPI5_1",
     name: "Segunda-feira da 5ª semana após a Epifania",
-    rank: 4,
     color: "g",
     link: "missal/epifania/epi5-0",
     type: "post-epiphany",
@@ -415,9 +442,11 @@ export const TEMPORA_EPIFANIA: MassMap = {
   },
   TEMPORA_EPI5_2: {
     flexibility: "tempora",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "TEMPORA_EPI5_2",
     name: "Terça-feira da 5ª semana após a Epifania",
-    rank: 4,
     color: "g",
     link: "missal/epifania/epi5-0",
     type: "post-epiphany",
@@ -427,9 +456,11 @@ export const TEMPORA_EPIFANIA: MassMap = {
   },
   TEMPORA_EPI5_3: {
     flexibility: "tempora",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "TEMPORA_EPI5_3",
     name: "Quarta-feira da 5ª semana após a Epifania",
-    rank: 4,
     color: "g",
     link: "missal/epifania/epi5-0",
     type: "post-epiphany",
@@ -439,9 +470,11 @@ export const TEMPORA_EPIFANIA: MassMap = {
   },
   TEMPORA_EPI5_4: {
     flexibility: "tempora",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "TEMPORA_EPI5_4",
     name: "Quinta-feira da 5ª semana após a Epifania",
-    rank: 4,
     color: "g",
     link: "missal/epifania/epi5-0",
     type: "post-epiphany",
@@ -451,9 +484,11 @@ export const TEMPORA_EPIFANIA: MassMap = {
   },
   TEMPORA_EPI5_5: {
     flexibility: "tempora",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "TEMPORA_EPI5_5",
     name: "Sexta-feira da 5ª semana após a Epifania",
-    rank: 4,
     color: "g",
     link: "missal/epifania/epi5-0",
     type: "post-epiphany",
@@ -463,9 +498,11 @@ export const TEMPORA_EPIFANIA: MassMap = {
   },
   TEMPORA_EPI5_6: {
     flexibility: "tempora",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "TEMPORA_EPI5_6",
     name: "Sábado da 5ª semana após a Epifania",
-    rank: 4,
     color: "g",
     link: "missal/epifania/epi5-0",
     type: "post-epiphany",
@@ -477,15 +514,14 @@ export const TEMPORA_EPIFANIA: MassMap = {
     flexibility: "tempora",
     id: "TEMPORA_EPI6_0",
     name: "6º Domingo após a Epifania",
-    rank: 2,
     color: "g",
     link: "missal/epifania/epi6-0",
     // Semiduplex Sunday (DA); every Sunday is II class under Rubrics
     // 1960 - divinum-officium Tempora/[Rank], applied per era.
     rankVariants: [
-      { rubrics: "*", name: "Semiduplex", precedence: 5 },
-      { rubrics: "Rubrics 1960 - 1960", name: "Dominica II classis", precedence: 5.1 },
-    ],
+        { rubrics: "*", name: "Semiduplex", precedence: 5 },
+        { rubrics: "R1960", name: "Dominica II classis", precedence: 5.1 },
+     ],
     type: "post-epiphany",
     category: "epifania",
     weekday: 0,
@@ -493,9 +529,11 @@ export const TEMPORA_EPIFANIA: MassMap = {
   },
   TEMPORA_EPI6_1: {
     flexibility: "tempora",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "TEMPORA_EPI6_1",
     name: "Segunda-feira da 6ª semana após a Epifania",
-    rank: 4,
     color: "g",
     link: "missal/epifania/epi6-0",
     type: "post-epiphany",
@@ -505,9 +543,11 @@ export const TEMPORA_EPIFANIA: MassMap = {
   },
   TEMPORA_EPI6_2: {
     flexibility: "tempora",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "TEMPORA_EPI6_2",
     name: "Terça-feira da 6ª semana após a Epifania",
-    rank: 4,
     color: "g",
     link: "missal/epifania/epi6-0",
     type: "post-epiphany",
@@ -517,9 +557,11 @@ export const TEMPORA_EPIFANIA: MassMap = {
   },
   TEMPORA_EPI6_3: {
     flexibility: "tempora",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "TEMPORA_EPI6_3",
     name: "Quarta-feira da 6ª semana após a Epifania",
-    rank: 4,
     color: "g",
     link: "missal/epifania/epi6-0",
     type: "post-epiphany",
@@ -529,9 +571,11 @@ export const TEMPORA_EPIFANIA: MassMap = {
   },
   TEMPORA_EPI6_4: {
     flexibility: "tempora",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "TEMPORA_EPI6_4",
     name: "Quinta-feira da 6ª semana após a Epifania",
-    rank: 4,
     color: "g",
     link: "missal/epifania/epi6-0",
     type: "post-epiphany",
@@ -541,9 +585,11 @@ export const TEMPORA_EPIFANIA: MassMap = {
   },
   TEMPORA_EPI6_5: {
     flexibility: "tempora",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "TEMPORA_EPI6_5",
     name: "Sexta-feira da 6ª semana após a Epifania",
-    rank: 4,
     color: "g",
     link: "missal/epifania/epi6-0",
     type: "post-epiphany",
@@ -553,9 +599,11 @@ export const TEMPORA_EPIFANIA: MassMap = {
   },
   TEMPORA_EPI6_6: {
     flexibility: "tempora",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "TEMPORA_EPI6_6",
     name: "Sábado da 6ª semana após a Epifania",
-    rank: 4,
     color: "g",
     link: "missal/epifania/epi6-0",
     type: "post-epiphany",

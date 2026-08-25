@@ -164,7 +164,7 @@ export const RANK_DIVERGENCES: RankDivergence[] = [
     feast: "Semiduplex",
     variants: [
       { rubrics: "*", name: "Semiduplex", precedence: 5.6 },
-      { rubrics: "Rubrics 1960 - 1960", name: "Feria", precedence: 1.2 },
+      { rubrics: "R1960", name: "Feria", precedence: 1.2 },
     ],
   },
   {
@@ -172,7 +172,7 @@ export const RANK_DIVERGENCES: RankDivergence[] = [
     feast: "Semiduplex",
     variants: [
       { rubrics: "*", name: "Semiduplex", precedence: 5.6 },
-      { rubrics: "Rubrics 1960 - 1960", name: "Feria", precedence: 1.2 },
+      { rubrics: "R1960", name: "Feria", precedence: 1.2 },
     ],
   },
   {
@@ -180,7 +180,7 @@ export const RANK_DIVERGENCES: RankDivergence[] = [
     feast: "Semiduplex",
     variants: [
       { rubrics: "*", name: "Semiduplex", precedence: 5.6 },
-      { rubrics: "Rubrics 1960 - 1960", name: "Feria", precedence: 1.2 },
+      { rubrics: "R1960", name: "Feria", precedence: 1.2 },
     ],
   },
   {
@@ -188,7 +188,7 @@ export const RANK_DIVERGENCES: RankDivergence[] = [
     feast: "Semiduplex",
     variants: [
       { rubrics: "*", name: "Semiduplex", precedence: 5.6 },
-      { rubrics: "Rubrics 1960 - 1960", name: "Feria", precedence: 1.2 },
+      { rubrics: "R1960", name: "Feria", precedence: 1.2 },
     ],
   },
   {
@@ -196,7 +196,7 @@ export const RANK_DIVERGENCES: RankDivergence[] = [
     feast: "Semiduplex",
     variants: [
       { rubrics: "*", name: "Semiduplex", precedence: 5.6 },
-      { rubrics: "Rubrics 1960 - 1960", name: "Feria", precedence: 1.2 },
+      { rubrics: "R1960", name: "Feria", precedence: 1.2 },
     ],
   },
   {
@@ -204,7 +204,7 @@ export const RANK_DIVERGENCES: RankDivergence[] = [
     feast: "Semiduplex",
     variants: [
       { rubrics: "*", name: "Semiduplex", precedence: 5.6 },
-      { rubrics: "Rubrics 1960 - 1960", name: "Feria", precedence: 1.8 },
+      { rubrics: "R1960", name: "Feria", precedence: 1.8 },
     ],
   },
   {
@@ -212,7 +212,7 @@ export const RANK_DIVERGENCES: RankDivergence[] = [
     feast: "Duplex majus",
     variants: [
       { rubrics: "*", name: "Duplex majus", precedence: 4.0 },
-      { rubrics: "Rubrics 1960 - 1960", name: "Duplex II. classis", precedence: 5.0 },
+      { rubrics: "R1960", name: "Duplex II. classis", precedence: 5.0 },
     ],
   },
   {
@@ -220,7 +220,7 @@ export const RANK_DIVERGENCES: RankDivergence[] = [
     feast: "Duplex majus",
     variants: [
       { rubrics: "*", name: "Duplex majus", precedence: 4.0 },
-      { rubrics: "Rubrics 1960 - 1960", name: "Duplex", precedence: 2.1 },
+      { rubrics: "R1960", name: "Duplex", precedence: 2.1 },
     ],
   },
   {
@@ -228,7 +228,7 @@ export const RANK_DIVERGENCES: RankDivergence[] = [
     feast: "Duplex",
     variants: [
       { rubrics: "*", name: "Duplex", precedence: 3.0 },
-      { rubrics: "Rubrics 1960 - 1960", name: "Duplex", precedence: 2.0 },
+      { rubrics: "R1960", name: "Duplex", precedence: 2.0 },
     ],
   },
   {
@@ -236,7 +236,7 @@ export const RANK_DIVERGENCES: RankDivergence[] = [
     feast: "Duplex majus",
     variants: [
       { rubrics: "*", name: "Duplex majus", precedence: 4.0 },
-      { rubrics: "Rubrics 1960 - 1960", name: "Duplex II classis", precedence: 5.5 },
+      { rubrics: "R1960", name: "Duplex II classis", precedence: 5.5 },
       { rubrics: '"rubrica cisterciensis"', name: "Duplex II classis", precedence: 3.0 },
     ],
   },

@@ -3,9 +3,11 @@ import type { MassMap } from "../../domain";
 export const SANCTI_02: MassMap = {
   SANCTI_02_01: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_02_01",
     name: "S. Inácio, Bispo e Mártir",
-    rank: 3,
     color: "r",
     link: "missal/santos/02-01",
     type: "sancti",
@@ -15,9 +17,11 @@ export const SANCTI_02: MassMap = {
   },
   SANCTI_02_02: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex II classis", precedence: 5 },
+     ],
     id: "SANCTI_02_02",
     name: "Purificação da B. V. Maria",
-    rank: 2,
     color: "w",
     link: "missal/santos/02-02",
     type: "sancti",
@@ -27,9 +31,11 @@ export const SANCTI_02: MassMap = {
   },
   SANCTI_02_03: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "SANCTI_02_03",
     name: "S. Brás, Bispo e Mártir",
-    rank: 4,
     color: "r",
     link: "missal/santos/02-03",
     type: "sancti",
@@ -39,9 +45,11 @@ export const SANCTI_02: MassMap = {
   },
   SANCTI_02_04: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_02_04",
     name: "S. André Corsino, Bispo e Confessor",
-    rank: 3,
     color: "w",
     link: "missal/santos/02-04",
     type: "sancti",
@@ -51,9 +59,11 @@ export const SANCTI_02: MassMap = {
   },
   SANCTI_02_04_PORTUGAL: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_02_04_PORTUGAL",
     name: "Beato João de Brito, Mártir",
-    rank: 3,
     color: "r",
     link: "missal/santos/02-04-portugal",
     type: "sancti",
@@ -64,9 +74,11 @@ export const SANCTI_02: MassMap = {
   },
   SANCTI_02_05: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_02_05",
     name: "S. Águeda, Virgem e Mártir",
-    rank: 3,
     color: "r",
     link: "missal/santos/02-05",
     type: "sancti",
@@ -76,9 +88,11 @@ export const SANCTI_02: MassMap = {
   },
   SANCTI_02_06: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_02_06",
     name: "S. Tito, Bispo e Confessor",
-    rank: 3,
     color: "w",
     link: "missal/santos/02-06",
     type: "sancti",
@@ -88,9 +102,11 @@ export const SANCTI_02: MassMap = {
   },
   SANCTI_02_06_OUTRO: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "SANCTI_02_06_OUTRO",
     name: "Santa Dorotéia, V. e Márt.",
-    rank: 4,
     color: "r",
     link: "missal/santos/02-06-outro",
     // Divino Afflatu-era observance; dropped by the 1960 reform.
@@ -102,9 +118,11 @@ export const SANCTI_02: MassMap = {
   },
   SANCTI_02_07: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_02_07",
     name: "S. Romualdo, Abade",
-    rank: 3,
     color: "w",
     link: "missal/santos/02-07",
     type: "sancti",
@@ -114,9 +132,11 @@ export const SANCTI_02: MassMap = {
   },
   SANCTI_02_08: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_02_08",
     name: "S. João da Mata, Confessor",
-    rank: 3,
     color: "w",
     link: "missal/santos/02-08",
     type: "sancti",
@@ -126,9 +146,11 @@ export const SANCTI_02: MassMap = {
   },
   SANCTI_02_09: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_02_09",
     name: "S. Cirilo de Alexandria, Bispo, Confessor e Doutor da Igreja",
-    rank: 3,
     color: "w",
     link: "missal/santos/02-09",
     type: "sancti",
@@ -138,9 +160,11 @@ export const SANCTI_02: MassMap = {
   },
   SANCTI_02_09_OUTRO: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "SANCTI_02_09_OUTRO",
     name: "Santa Apolónia, Virgem e Márt.",
-    rank: 4,
     color: "r",
     link: "missal/santos/02-09-outro",
     // Divino Afflatu-era observance; dropped by the 1960 reform.
@@ -152,9 +176,11 @@ export const SANCTI_02: MassMap = {
   },
   SANCTI_02_10: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_02_10",
     name: "S. Escolástica",
-    rank: 3,
     color: "w",
     link: "missal/santos/02-10",
     type: "sancti",
@@ -166,7 +192,6 @@ export const SANCTI_02: MassMap = {
     flexibility: "santos",
     id: "SANCTI_02_11",
     name: "Aparição de Nossa Senhora, em Lourdes",
-    rank: 3,
     color: "w",
     link: "missal/santos/02-11",
     type: "sancti",
@@ -174,15 +199,17 @@ export const SANCTI_02: MassMap = {
     month: 2,
     day: 11,
     rankVariants: [
-      { rubrics: "*", name: "Duplex majus", precedence: 4 },
-      { rubrics: "Rubrics 1960 - 1960", name: "Duplex", precedence: 2.1 },
-    ],
+        { rubrics: "*", name: "Duplex majus", precedence: 4 },
+        { rubrics: "R1960", name: "Duplex", precedence: 2.1 },
+     ],
   },
   SANCTI_02_12: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_02_12",
     name: "Os VII Fundadores dos Servitas de B. V. Maria, Confessores",
-    rank: 3,
     color: "w",
     link: "missal/santos/02-12",
     type: "sancti",
@@ -192,9 +219,11 @@ export const SANCTI_02: MassMap = {
   },
   SANCTI_02_13_PORTUGAL: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_02_13_PORTUGAL",
     name: "As Cinco Chagas de N. S. Jesus Cristo",
-    rank: 3,
     color: "r",
     link: "missal/santos/02-13-portugal",
     type: "sancti",
@@ -205,9 +234,11 @@ export const SANCTI_02: MassMap = {
   },
   SANCTI_02_14: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "SANCTI_02_14",
     name: "S. Valentim, Presbítero e Mártir",
-    rank: 4,
     color: "r",
     link: "missal/santos/02-14",
     type: "sancti",
@@ -217,9 +248,11 @@ export const SANCTI_02: MassMap = {
   },
   SANCTI_02_15: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "SANCTI_02_15",
     name: "S.S. Faustino e Jovita, Mártires",
-    rank: 4,
     color: "r",
     link: "missal/santos/02-15",
     type: "sancti",
@@ -229,9 +262,11 @@ export const SANCTI_02: MassMap = {
   },
   SANCTI_02_15_PORTUGAL: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "SANCTI_02_15_PORTUGAL",
     name: "Trasladação de S. António de Lisboa",
-    rank: 4,
     color: "w",
     link: "missal/santos/02-15-portugal",
     type: "sancti",
@@ -242,9 +277,11 @@ export const SANCTI_02: MassMap = {
   },
   SANCTI_02_18: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "SANCTI_02_18",
     name: "S. Simeão, Bispo e Mártir",
-    rank: 4,
     color: "r",
     link: "missal/santos/02-18",
     type: "sancti",
@@ -254,9 +291,11 @@ export const SANCTI_02: MassMap = {
   },
   SANCTI_02_18_PORTUGAL: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "SANCTI_02_18_PORTUGAL",
     name: "S. Teotónio, Confessor",
-    rank: 4,
     color: "w",
     link: "missal/santos/02-18-portugal",
     type: "sancti",
@@ -267,9 +306,11 @@ export const SANCTI_02: MassMap = {
   },
   SANCTI_02_22: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex II classis", precedence: 5 },
+     ],
     id: "SANCTI_02_22",
     name: "Cadeira S. Pedro em Antióquia",
-    rank: 2,
     color: "w",
     link: "missal/santos/02-22",
     type: "sancti",
@@ -279,9 +320,11 @@ export const SANCTI_02: MassMap = {
   },
   SANCTI_02_23: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_02_23",
     name: "S. Pedro Damião, Bispo, Confessor e Doutor da Igreja",
-    rank: 3,
     color: "w",
     link: "missal/santos/02-23",
     type: "sancti",
@@ -291,9 +334,11 @@ export const SANCTI_02: MassMap = {
   },
   SANCTI_02_24: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex II classis", precedence: 5 },
+     ],
     id: "SANCTI_02_24",
     name: "S. Matias, Apóstolo",
-    rank: 2,
     color: "r",
     link: "missal/santos/02-24",
     type: "sancti",
@@ -303,9 +348,11 @@ export const SANCTI_02: MassMap = {
   },
   SANCTI_02_27: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_02_27",
     name: "S. Gabriel de Nossa Senhora das Dores",
-    rank: 3,
     color: "w",
     link: "missal/santos/02-27",
     type: "sancti",
@@ -315,9 +362,11 @@ export const SANCTI_02: MassMap = {
   },
   SANCTI_02_27_PORTUGAL: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_02_27_PORTUGAL",
     name: "S. Torquato, Bispo e Mártir",
-    rank: 3,
     color: "r",
     link: "missal/santos/02-27-portugal",
     type: "sancti",
@@ -328,9 +377,11 @@ export const SANCTI_02: MassMap = {
   },
   SANCTI_02_28_PORTUGAL: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_02_28_PORTUGAL",
     name: "Trasladação de S. Agostinho, Bispo, Confessor e Doutor",
-    rank: 3,
     color: "w",
     link: "missal/santos/02-28-coimbra-lamego-leiria",
     type: "sancti",

@@ -3,9 +3,11 @@ import type { MassMap } from "../../domain";
 export const SANCTI_12: MassMap = {
   SANCTI_12_01_VILA_REAL: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_12_01_VILA_REAL",
     name: "Na Oitava da Dedicação da Igreja Catedral de Vila Real",
-    rank: 3,
     color: "w",
     link: "missal/santos/12-01-vila-real",
     type: "sancti",
@@ -16,9 +18,11 @@ export const SANCTI_12: MassMap = {
   },
   SANCTI_12_02: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_12_02",
     name: "S. Bibiana, Virgem e Mártir",
-    rank: 3,
     color: "r",
     link: "missal/santos/12-02",
     type: "sancti",
@@ -28,9 +32,11 @@ export const SANCTI_12: MassMap = {
   },
   SANCTI_12_03: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_12_03",
     name: "S. Francisco Xavier, Confessor",
-    rank: 3,
     color: "w",
     link: "missal/santos/12-03",
     type: "sancti",
@@ -40,9 +46,11 @@ export const SANCTI_12: MassMap = {
   },
   SANCTI_12_04: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_12_04",
     name: "S. Pedro Chrysólogo, Bispo, Confessor e Doutor da Igreja",
-    rank: 3,
     color: "w",
     link: "missal/santos/12-04",
     type: "sancti",
@@ -52,9 +60,11 @@ export const SANCTI_12: MassMap = {
   },
   SANCTI_12_04_OUTRO: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "SANCTI_12_04_OUTRO",
     name: "Santa Bárbara, Virgem e Mártir",
-    rank: 4,
     color: "r",
     link: "missal/santos/12-04-outro",
     // Divino Afflatu-era observance; dropped by the 1960 reform.
@@ -66,9 +76,11 @@ export const SANCTI_12: MassMap = {
   },
   SANCTI_12_05: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "SANCTI_12_05",
     name: "S. Sabbas, Abade",
-    rank: 4,
     color: "w",
     link: "missal/santos/12-05",
     type: "sancti",
@@ -78,9 +90,11 @@ export const SANCTI_12: MassMap = {
   },
   SANCTI_12_05_BRAGA: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "SANCTI_12_05_BRAGA",
     name: "S. Geraldo, Bispo e Conf.",
-    rank: 4,
     color: "w",
     link: "missal/santos/12-05-braga",
     type: "sancti",
@@ -91,9 +105,11 @@ export const SANCTI_12: MassMap = {
   },
   SANCTI_12_06: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_12_06",
     name: "S. Nicolau, Bispo e Confessor",
-    rank: 3,
     color: "w",
     link: "missal/santos/12-06",
     type: "sancti",
@@ -103,9 +119,11 @@ export const SANCTI_12: MassMap = {
   },
   SANCTI_12_07: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_12_07",
     name: "S. Ambrósio, Bispo, Confessor e Doutor da Igreja",
-    rank: 3,
     color: "w",
     link: "missal/santos/12-07",
     type: "sancti",
@@ -117,13 +135,12 @@ export const SANCTI_12: MassMap = {
     flexibility: "santos",
     id: "SANCTI_12_07_OUTRO",
     name: "Vigília Imaculada Conceição da SS. Virgem",
-    rank: 3,
     color: "v",
     link: "missal/santos/12-07-outro",
     rankVariants: [
-      { rubrics: "*", name: "Duplex", precedence: 3.0 },
-      { rubrics: "Rubrics 1960 - 1960", name: "Duplex majus", precedence: 4.0 },
-    ],
+        { rubrics: "*", name: "Duplex", precedence: 3 },
+        { rubrics: "R1960", name: "Duplex majus", precedence: 4 },
+     ],
     type: "sancti",
     category: "santos",
     month: 12,
@@ -131,9 +148,11 @@ export const SANCTI_12: MassMap = {
   },
   SANCTI_12_08: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex I classis", precedence: 6.5 },
+     ],
     id: "SANCTI_12_08",
     name: "Imaculada Conceição da SS. Virgem",
-    rank: 1,
     color: "w",
     link: "missal/santos/12-08",
     type: "sancti",
@@ -144,9 +163,11 @@ export const SANCTI_12: MassMap = {
   },
   SANCTI_12_09: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_12_09",
     name: "Segundo Dia na Oitava",
-    rank: 3,
     color: "w",
     link: "missal/santos/12-09",
     type: "sancti",
@@ -157,9 +178,11 @@ export const SANCTI_12: MassMap = {
   },
   SANCTI_12_10_OITAVA_IMACULADA: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex II classis", precedence: 5 },
+     ],
     id: "SANCTI_12_10_OITAVA_IMACULADA",
     name: "Dentro da Oitava da Imaculada Conceição",
-    rank: 2,
     color: "w",
     link: "missal/santos/12-10",
     type: "sancti",
@@ -169,9 +192,11 @@ export const SANCTI_12: MassMap = {
   },
   SANCTI_12_11: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_12_11",
     name: "S. Dâmaso, Papa e Confessor",
-    rank: 3,
     color: "w",
     link: "missal/santos/12-11",
     type: "sancti",
@@ -181,9 +206,11 @@ export const SANCTI_12: MassMap = {
   },
   SANCTI_12_12: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_12_12",
     name: "Quinto Dia na Oitava",
-    rank: 3,
     color: "w",
     link: "missal/santos/12-12",
     type: "sancti",
@@ -194,9 +221,11 @@ export const SANCTI_12: MassMap = {
   },
   SANCTI_12_12_BRASIL: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_12_12_BRASIL",
     name: "Nossa Senhora de Guadalupe",
-    rank: 3,
     color: "w",
     link: "missal/santos/12-12-brasil",
     type: "sancti",
@@ -207,9 +236,11 @@ export const SANCTI_12: MassMap = {
   },
   SANCTI_12_12_PORTO: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_12_12_PORTO",
     name: "Trasladação de S. Pantaleão",
-    rank: 3,
     color: "w",
     link: "missal/santos/12-12-porto",
     type: "sancti",
@@ -220,9 +251,11 @@ export const SANCTI_12: MassMap = {
   },
   SANCTI_12_13: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_12_13",
     name: "S. Luzia, Virgem e Mártir",
-    rank: 3,
     color: "r",
     link: "missal/santos/12-13",
     type: "sancti",
@@ -232,9 +265,11 @@ export const SANCTI_12: MassMap = {
   },
   SANCTI_12_14: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_12_14",
     name: "Sétimo Dia na Oitava",
-    rank: 3,
     color: "w",
     link: "missal/santos/12-14",
     type: "sancti",
@@ -245,9 +280,11 @@ export const SANCTI_12: MassMap = {
   },
   SANCTI_12_16: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_12_16",
     name: "S. Eusébio, Bispo e Mártir",
-    rank: 3,
     color: "r",
     link: "missal/santos/12-16",
     type: "sancti",
@@ -257,9 +294,11 @@ export const SANCTI_12: MassMap = {
   },
   SANCTI_12_19_BRAGA: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Simplex", precedence: 1.5 },
+     ],
     id: "SANCTI_12_19_BRAGA",
     name: "Trasladação de S. Geraldo",
-    rank: 4,
     color: "w",
     link: "missal/santos/12-19-braga",
     type: "sancti",
@@ -270,9 +309,11 @@ export const SANCTI_12: MassMap = {
   },
   SANCTI_12_20: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_12_20",
     name: "Vigília S. Tomé, Apóstolo",
-    rank: 3,
     color: "r",
     link: "missal/santos/12-20",
     type: "sancti",
@@ -282,9 +323,11 @@ export const SANCTI_12: MassMap = {
   },
   SANCTI_12_21: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex II classis", precedence: 5 },
+     ],
     id: "SANCTI_12_21",
     name: "S. Tomé, Apóstolo",
-    rank: 2,
     color: "r",
     link: "missal/santos/12-21",
     type: "sancti",
@@ -294,9 +337,11 @@ export const SANCTI_12: MassMap = {
   },
   SANCTI_12_24: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex I classis", precedence: 6.5 },
+     ],
     id: "SANCTI_12_24",
     name: "Vigília Natal de N. S. Jesus Cristo",
-    rank: 1,
     color: "v",
     link: "missal/santos/12-24",
     type: "sancti",
@@ -306,9 +351,11 @@ export const SANCTI_12: MassMap = {
   },
   SANCTI_12_25_1: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex I classis", precedence: 6.5 },
+     ],
     id: "SANCTI_12_25_1",
     name: "Missa da Noite de Natal de N. S. Jesus Cristo",
-    rank: 1,
     color: "w",
     link: "missal/santos/12-25-0",
     type: "sancti",
@@ -318,9 +365,11 @@ export const SANCTI_12: MassMap = {
   },
   SANCTI_12_25_2: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex I classis", precedence: 6.5 },
+     ],
     id: "SANCTI_12_25_2",
     name: "Missa da Aurora de Natal de N. S. Jesus Cristo",
-    rank: 1,
     color: "w",
     link: "missal/santos/12-25-1",
     type: "sancti",
@@ -330,9 +379,11 @@ export const SANCTI_12: MassMap = {
   },
   SANCTI_12_25_3: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex I classis", precedence: 6.5 },
+     ],
     id: "SANCTI_12_25_3",
     name: "Missa do Dia de Natal de N. S. Jesus Cristo",
-    rank: 1,
     color: "w",
     link: "missal/santos/12-25-2",
     type: "sancti",
@@ -342,9 +393,11 @@ export const SANCTI_12: MassMap = {
   },
   SANCTI_12_26: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex II classis", precedence: 5 },
+     ],
     id: "SANCTI_12_26",
     name: "S. Estêvão, Primeiro Mártir",
-    rank: 2,
     color: "r",
     link: "missal/santos/12-26",
     type: "sancti",
@@ -354,9 +407,11 @@ export const SANCTI_12: MassMap = {
   },
   SANCTI_12_27: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex II classis", precedence: 5 },
+     ],
     id: "SANCTI_12_27",
     name: "S. João, Apóstolo e Evangelista",
-    rank: 2,
     color: "w",
     link: "missal/santos/12-27",
     type: "sancti",
@@ -366,9 +421,11 @@ export const SANCTI_12: MassMap = {
   },
   SANCTI_12_28: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex II classis", precedence: 5 },
+     ],
     id: "SANCTI_12_28",
     name: "Santos Inocentes",
-    rank: 2,
     color: "r",
     link: "missal/santos/12-28",
     type: "sancti",
@@ -378,9 +435,11 @@ export const SANCTI_12: MassMap = {
   },
   SANCTI_12_29: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex", precedence: 3.5 },
+     ],
     id: "SANCTI_12_29",
     name: "S. Tomás de Cantuária, Bispo e Mártir",
-    rank: 3,
     color: "r",
     link: "missal/santos/12-29",
     type: "sancti",
@@ -390,9 +449,11 @@ export const SANCTI_12: MassMap = {
   },
   SANCTI_12_30: {
     flexibility: "santos",
+    rankVariants: [
+        { rubrics: "*", name: "Duplex II classis", precedence: 5 },
+     ],
     id: "SANCTI_12_30",
     name: "Sexto dia da Oitava do Natal",
-    rank: 2,
     color: "w",
     link: "missal/santos/12-30",
     type: "sancti",
@@ -404,7 +465,6 @@ export const SANCTI_12: MassMap = {
     flexibility: "santos",
     id: "SANCTI_12_31",
     name: "S. Silvestre, Papa e Confessor",
-    rank: 4,
     color: "w",
     link: "missal/santos/12-31",
     type: "sancti",
@@ -412,8 +472,8 @@ export const SANCTI_12: MassMap = {
     month: 12,
     day: 31,
     rankVariants: [
-      { rubrics: "*", name: "Duplex", precedence: 3.0 },
-      { rubrics: "Rubrics 1960 - 1960", name: "Duplex II classis", precedence: 5.0 },
-    ],
+        { rubrics: "*", name: "Duplex", precedence: 3 },
+        { rubrics: "R1960", name: "Duplex II classis", precedence: 5 },
+     ],
   },
 };

@@ -4,9 +4,11 @@ import type { MassMap } from "../domain";
 export const VOTIVAS: MassMap = {
   VOTIVE_PENT01_0: {
     flexibility: "votivas",
+    rankVariants: [
+        { rubrics: "*", name: "Votiva", precedence: 0.5 },
+     ],
     id: "VOTIVE_PENT01_0",
     name: "Santíssima Trindade",
-    rank: 0,
     color: "w",
     link: "missal/votivas/santissimatrindade",
     type: "feria",
@@ -14,9 +16,11 @@ export const VOTIVAS: MassMap = {
   },
   VOTIVE_PENT02_5: {
     flexibility: "votivas",
+    rankVariants: [
+        { rubrics: "*", name: "Votiva", precedence: 0.5 },
+     ],
     id: "VOTIVE_PENT02_5",
     name: "Santíssimo Coração de Jesus",
-    rank: 0,
     color: "w",
     link: "missal/votivas/coracaojesus",
     type: "feria",
@@ -25,9 +29,11 @@ export const VOTIVAS: MassMap = {
   },
   VOTIVE_ANGELS: {
     flexibility: "votivas",
+    rankVariants: [
+        { rubrics: "*", name: "Votiva", precedence: 0.5 },
+     ],
     id: "VOTIVE_ANGELS",
     name: "Anjos",
-    rank: 0,
     color: "w",
     link: "missal/votivas/anjos",
     type: "feria",
@@ -35,9 +41,11 @@ export const VOTIVAS: MassMap = {
   },
   VOTIVE_JOSEPH: {
     flexibility: "votivas",
+    rankVariants: [
+        { rubrics: "*", name: "Votiva", precedence: 0.5 },
+     ],
     id: "VOTIVE_JOSEPH",
     name: "S. José",
-    rank: 0,
     color: "w",
     link: "missal/votivas/jose",
     type: "feria",
@@ -45,9 +53,11 @@ export const VOTIVAS: MassMap = {
   },
   VOTIVE_JESUSETERNALPRIEST: {
     flexibility: "votivas",
+    rankVariants: [
+        { rubrics: "*", name: "Votiva", precedence: 0.5 },
+     ],
     id: "VOTIVE_JESUSETERNALPRIEST",
     name: "N. S. Jesus Cristo Sumo e Eterno Sacerdote",
-    rank: 0,
     color: "w",
     link: "missal/votivas/jesuseternosacerdote",
     type: "feria",

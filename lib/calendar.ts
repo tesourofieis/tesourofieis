@@ -664,8 +664,9 @@ export class Calendar {
     // rules' intentional sequence (e.g. Sunday ahead of an equal-grade
     // feast under Rubrics 1960); locals sink below universal offices.
     masses.sort((a, b) => {
-      const pa = a.precedence ?? legacyToPrecedence(a.rank);
-      const pb = b.precedence ?? legacyToPrecedence(b.rank);
+      // Every observance carries edition-resolved precedence.
+      const pa = a.precedence ?? 0;
+      const pb = b.precedence ?? 0;
       if (pa !== pb) return pb - pa;
       // Parity favours the sanctoral office (DA): an equal-grade feast
       // outranks a semiduplex Sunday pre-55. Under '62 Sundays sit above

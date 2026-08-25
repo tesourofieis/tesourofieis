@@ -116,7 +116,7 @@ describe("edition differences match the DO divergence catalogue", () => {
 
       const date = `${YEAR}-${r.date}`;
       const v55 = entry.rankVariants.find((v) => v.rubrics === "*")?.precedence ?? 0;
-      const v62 = entry.rankVariants.find((v) => v.rubrics === "Rubrics 1960 - 1960")?.precedence;
+      const v62 = entry.rankVariants.find((v) => v.rubrics === "R1960")?.precedence;
 
       // Only assert when the DO precedences actually straddle a class
       // boundary; within-class changes (e.g. 4 -> 5.5) may map to the
