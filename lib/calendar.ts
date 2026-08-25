@@ -12,20 +12,10 @@ import {
   previousSunday,
   subDays,
 } from "date-fns";
-import { type Mass, massManager } from "./observanceManager";
+import { Effect } from "effect";
+import { type LiturgicalSeason, type Mass, Season, UnsupportedYearError } from "./domain";
+import { type MassIndex, Masses, massManager } from "./observanceManager";
 import { parseLocalDate, shiftLocalDate, yyyyMMDD } from "./utils";
-
-export enum LiturgicalSeason {
-  ADVENT = "Advento",
-  CHRISTMAS = "Natal",
-  EPIPHANY = "Epifania",
-  SEPTUAGESIMA = "Septuagésima",
-  LENT = "Quaresma",
-  PASSIONTIDE = "Paixão",
-  HOLY_WEEK = "Semana Santa",
-  EASTER = "Páscoa",
-  PENTECOST = "Pentecostes",
-}
 
 /**
  * Represents a single calendar day in the liturgical calendar.
@@ -33,9 +23,11 @@ export enum LiturgicalSeason {
 export class Day {
   mass: Mass[] = [];
   alternatives: Mass[] = []; // outro, local, calendar:62 masses - don't participate in concurrency
-  season: LiturgicalSeason = "" as LiturgicalSeason;
 
-  constructor(public date: string) {}
+  constructor(
+    public date: string,
+    public season: LiturgicalSeason,
+  ) {}
 
   get all() {
     return [...this.mass, ...this.alternatives];
@@ -204,15 +196,15 @@ class SeasonManager {
 
     const boundaries = new Map<LiturgicalSeason, [Date, Date]>();
 
-    boundaries.set(LiturgicalSeason.ADVENT, [adventStart, subDays(christmas, 1)]);
-    boundaries.set(LiturgicalSeason.CHRISTMAS, [christmas, yearEnd]);
-    boundaries.set(LiturgicalSeason.EPIPHANY, [epiphany, subDays(septuagesima, 1)]);
-    boundaries.set(LiturgicalSeason.SEPTUAGESIMA, [septuagesima, subDays(ashWednesday, 1)]);
-    boundaries.set(LiturgicalSeason.LENT, [ashWednesday, subDays(passionSunday, 1)]);
-    boundaries.set(LiturgicalSeason.PASSIONTIDE, [passionSunday, subDays(palmSunday, 1)]);
-    boundaries.set(LiturgicalSeason.HOLY_WEEK, [palmSunday, subDays(easterSunday, 1)]);
-    boundaries.set(LiturgicalSeason.EASTER, [easterSunday, subDays(pentecostSunday, 1)]);
-    boundaries.set(LiturgicalSeason.PENTECOST, [pentecostSunday, subDays(adventStart, 1)]);
+    boundaries.set(Season.ADVENT, [adventStart, subDays(christmas, 1)]);
+    boundaries.set(Season.CHRISTMAS, [christmas, yearEnd]);
+    boundaries.set(Season.EPIPHANY, [epiphany, subDays(septuagesima, 1)]);
+    boundaries.set(Season.SEPTUAGESIMA, [septuagesima, subDays(ashWednesday, 1)]);
+    boundaries.set(Season.LENT, [ashWednesday, subDays(passionSunday, 1)]);
+    boundaries.set(Season.PASSIONTIDE, [passionSunday, subDays(palmSunday, 1)]);
+    boundaries.set(Season.HOLY_WEEK, [palmSunday, subDays(easterSunday, 1)]);
+    boundaries.set(Season.EASTER, [easterSunday, subDays(pentecostSunday, 1)]);
+    boundaries.set(Season.PENTECOST, [pentecostSunday, subDays(adventStart, 1)]);
 
     return boundaries;
   }
@@ -222,11 +214,11 @@ class SeasonManager {
     const dayOfMonth = date.getDate();
 
     if (month === 11 && dayOfMonth >= 25 && dayOfMonth <= 31) {
-      return LiturgicalSeason.CHRISTMAS;
+      return Season.CHRISTMAS;
     }
 
     if (month === 0 && dayOfMonth <= 5) {
-      return LiturgicalSeason.CHRISTMAS;
+      return Season.CHRISTMAS;
     }
 
     for (const [season, [start, end]] of this.boundaries.entries()) {
@@ -235,7 +227,7 @@ class SeasonManager {
       }
     }
 
-    return LiturgicalSeason.PENTECOST;
+    return Season.PENTECOST;
   }
 }
 
@@ -999,12 +991,17 @@ class ConcurrencyResolver {
 // === CALENDAR CLASS ===
 // ======================================
 
+/** First full year of the Gregorian calendar; the missal model presumes it. */
+const MIN_SUPPORTED_YEAR = 1583;
+const MAX_SUPPORTED_YEAR = 2400;
+
 export class Calendar {
   private container: Map<string, Day>;
   private keyDates: KeyDates;
   private calculator: LiturgicalYearCalculator;
   private seasonManager: SeasonManager;
   private concurrencyResolver: ConcurrencyResolver;
+  private masses: MassIndex | undefined;
 
   constructor(public year: number) {
     this.container = new Map();
@@ -1012,13 +1009,41 @@ export class Calendar {
     this.keyDates = this.calculator.calculateKeyDates();
     this.seasonManager = new SeasonManager(this.keyDates);
     this.concurrencyResolver = new ConcurrencyResolver();
-    this.build();
   }
 
-  private build(): void {
-    this.buildEmptyCalendar();
-    this.fillInMasses();
-    this.resolveConcurrency();
+  /**
+   * The sequential build pipeline, expressed as a single Effect so each phase
+   * is traced as a span and failures surface through the error channel.
+   * Requires the `Masses` service; provide it via `MassesLive`.
+   */
+  build(): Effect.Effect<void, UnsupportedYearError, Masses> {
+    const self = this;
+
+    return Effect.gen(function* () {
+      if (
+        !Number.isInteger(self.year) ||
+        self.year < MIN_SUPPORTED_YEAR ||
+        self.year > MAX_SUPPORTED_YEAR
+      ) {
+        return yield* new UnsupportedYearError({ year: self.year });
+      }
+
+      self.masses = yield* Masses;
+
+      yield* Effect.logDebug(`Building liturgical calendar for ${self.year}`);
+
+      yield* Effect.sync(() => self.buildEmptyCalendar()).pipe(
+        Effect.withSpan("Calendar.buildEmptyCalendar", { attributes: { year: self.year } }),
+      );
+      yield* Effect.sync(() => self.fillInMasses()).pipe(
+        Effect.withSpan("Calendar.fillInMasses", { attributes: { year: self.year } }),
+      );
+      yield* Effect.sync(() => self.resolveConcurrency()).pipe(
+        Effect.withSpan("Calendar.resolveConcurrency", { attributes: { year: self.year } }),
+      );
+
+      yield* Effect.logDebug(`Built calendar for ${self.year}: ${self.container.size} days`);
+    }).pipe(Effect.withSpan("Calendar.build", { attributes: { year: self.year } }));
   }
 
   private buildEmptyCalendar(): void {
@@ -1026,8 +1051,7 @@ export class Calendar {
 
     while (date.getFullYear() === this.year) {
       const dateString = yyyyMMDD(date);
-      const day = new Day(dateString);
-      day.season = this.seasonManager.getSeasonForDate(date);
+      const day = new Day(dateString, this.seasonManager.getSeasonForDate(date));
       this.container.set(dateString, day);
       date.setDate(date.getDate() + 1);
     }
@@ -1061,7 +1085,7 @@ export class Calendar {
           day.mass = this.removeDuplicates(day.mass);
         } else if (fallbackMass) {
           this.updateDay(date, [
-            massManager.createMassWithDate({ ...fallbackMass, name: "Feria" }, date),
+            this.masses!.createMassWithDate({ ...fallbackMass, name: "Feria" }, date),
           ]);
         } else {
           this.handleEmptyDay(date);
@@ -1114,7 +1138,7 @@ export class Calendar {
         day.mass = this.removeDuplicates(finalObservances);
       } else if (fallbackMass) {
         this.updateDay(date, [
-          massManager.createMassWithDate({ ...fallbackMass, name: "Feria" }, date),
+          this.masses!.createMassWithDate({ ...fallbackMass, name: "Feria" }, date),
         ]);
       } else {
         this.handleEmptyDay(date);
@@ -1144,7 +1168,7 @@ export class Calendar {
     const previousDay = this.get(yyyyMMDD(currentDate));
     if (previousDay?.mass[0]) {
       this.updateDay(date, [
-        massManager.createMassWithDate({ ...previousDay.mass[0], name: "Feria" }, date),
+        this.masses!.createMassWithDate({ ...previousDay.mass[0], name: "Feria" }, date),
       ]);
     }
   }
@@ -1153,7 +1177,9 @@ export class Calendar {
    * handleShiftedDay: Applies a ShiftInstruction to a future date.
    */
   private handleShiftedDay(toShift: ShiftInstruction): void {
-    const shiftedDay = this.container.get(toShift.date) || new Day(toShift.date);
+    const shiftedDay =
+      this.container.get(toShift.date) ||
+      new Day(toShift.date, this.seasonManager.getSeasonForDate(parseLocalDate(toShift.date)));
     shiftedDay.mass = this.removeDuplicates([...shiftedDay.mass, ...toShift.observances]);
     this.container.set(toShift.date, shiftedDay);
   }

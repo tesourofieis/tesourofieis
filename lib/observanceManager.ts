@@ -1,51 +1,18 @@
+import { Context, Layer, Schema } from "effect";
+import { Mass } from "./domain";
 import { OBSERVANCES } from "./observances";
 
-export interface Mass {
-  flexibility: "santos" | "commune" | "tempora" | "votivas";
-  id: string;
-  date?: string;
-  name: string;
-  rank: number;
-  color: "w" | "r" | "v" | "b" | "g" | "vw";
-  link: string;
-  outro?: boolean; // to be used by flexibility santos (only set when true)
-  weekday?: number; // to be used by flexibility tempora
-  calendar?: "pre-55" | "62";
-  type:
-    | "feria"
-    | "advent"
-    | "sancti"
-    | "jesus"
-    | "post-epiphany"
-    | "epiphany"
-    | "pre-lent-to-pentcost"
-    | "ember-september"
-    | "pentepi"
-    | "week-24-after-pentcost";
-  local?: string; // to be used by flexibility santos
-  category:
-    | "epifania"
-    | "advento"
-    | "pre-quaresma"
-    | "quaresma"
-    | "pascoa"
-    | "comum"
-    | "natal"
-    | "votivas"
-    | "santos"
-    | "pentecostes";
-  week?: number; // to be used by flexibility tempora
-  day?: number; // to be used by flexibility santos
-  month?: number; // to be used by flexibility santos
-  novena?: boolean;
+/**
+ * Validates the static observance data against the domain schema.
+ * Throws at startup (a defect) if the data violates the model: bad data
+ * would silently corrupt every calendar calculation downstream.
+ */
+function parseObservances(observances: unknown[]): readonly Mass[] {
+  return Schema.decodeUnknownSync(Schema.Array(Mass))(observances);
 }
 
-export type MassMap = {
-  [key: string]: Mass;
-};
-
 class MassManager {
-  private masses: Mass[];
+  private masses: readonly Mass[];
   private byFlexibility: Map<Mass["flexibility"], Mass[]>;
   private byType: Map<Mass["type"], Mass[]>;
   private santosByMonthDay: Map<string, Mass[]>; // key: "m-d"
@@ -61,7 +28,7 @@ class MassManager {
   private criteriaIdSetCache: WeakMap<(Mass | undefined)[], Set<string>>;
 
   constructor() {
-    this.masses = Object.values(OBSERVANCES);
+    this.masses = parseObservances(Object.values(OBSERVANCES));
     this.byFlexibility = new Map();
     this.byType = new Map();
     this.santosByMonthDay = new Map();
@@ -252,3 +219,13 @@ class MassManager {
 }
 
 export const massManager = new MassManager();
+
+/**
+ * Effect service exposing the validated observance index.
+ * The shape is the MassManager instance type; provide via `MassesLive`.
+ */
+export type MassIndex = InstanceType<typeof MassManager>;
+
+export class Masses extends Context.Service<Masses, MassIndex>()("@tesourofieis/Masses") {}
+
+export const MassesLive: Layer.Layer<Masses> = Layer.succeed(Masses, massManager);

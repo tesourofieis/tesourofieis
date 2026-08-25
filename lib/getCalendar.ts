@@ -1,6 +1,11 @@
+import type { Mass } from "./domain";
+import { Effect, Layer } from "effect";
 import { Calendar } from "./calendar";
-import type { Mass } from "./observanceManager";
+import { MassesLive } from "./observanceManager";
+import { ObservabilityLive } from "./observability";
 import { shiftLocalDate } from "./utils";
+
+const calendarLayer = Layer.mergeAll(MassesLive, ObservabilityLive);
 
 const calendarByYear = new Map<number, Calendar>();
 
@@ -11,6 +16,8 @@ function getOrCreateCalendar(year: number): Calendar {
   }
 
   const calendar = new Calendar(year);
+  // Throws UnsupportedYearError for years outside the model (fail fast).
+  Effect.runSync(calendar.build().pipe(Effect.provide(calendarLayer)));
   calendarByYear.set(year, calendar);
   return calendar;
 }

@@ -1,7 +1,7 @@
 import { ChevronRight, ChevronDown, MapPin, Sparkles, Calendar, Users } from "lucide-react-native";
 import { burgundy } from "config";
 import type React from "react";
-import type { Mass } from "~/lib/observanceManager";
+import type { Mass } from "~/lib/domain";
 import { Link } from "expo-router";
 import { Pressable, View } from "react-native";
 import { useAppTheme } from "~/theme";

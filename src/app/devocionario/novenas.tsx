@@ -1,5 +1,4 @@
-import { Calendar } from "~/lib/calendar";
-import { getNovenas } from "~/lib/getCalendar";
+import { getCalendar, getNovenas } from "~/lib/getCalendar";
 import { yyyyMMDD } from "~/lib/utils";
 import { getYear } from "date-fns";
 import { Link } from "expo-router";
@@ -10,8 +9,7 @@ import PageWrapper from "~/components/Page";
 import { Typography } from "~/components/typography";
 
 function getAllNovenasForYear(year: number) {
-  const calendar = new Calendar(year);
-  const allDays = calendar.getAllDays();
+  const allDays = getCalendar(year);
   const novenaObservances = [];
 
   for (const day of allDays) {

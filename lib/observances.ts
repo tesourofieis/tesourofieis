@@ -1,4 +1,4 @@
-import type { MassMap } from "./observanceManager";
+import type { MassMap } from "./domain";
 
 export const OBSERVANCES: MassMap = {
   TEMPORA_EPI1_0A: {

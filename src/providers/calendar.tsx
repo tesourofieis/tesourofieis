@@ -1,7 +1,7 @@
-import { LiturgicalSeason } from "~/lib/calendar";
 import type { Day } from "~/lib/calendar";
 import { getCalendar, getCalendarDay, getSeason } from "~/lib/getCalendar";
-import type { Mass } from "~/lib/observanceManager";
+import type { LiturgicalSeason, Mass } from "~/lib/domain";
+import { Season } from "~/lib/domain";
 import { yyyyMMDD } from "~/lib/utils";
 import { addDays, getMonth, getYear, isWithinInterval, parseISO } from "date-fns";
 import {
@@ -86,7 +86,7 @@ export function CalendarProvider({ children }: PropsWithChildren) {
     return novenaObservances;
   }, [calendar, date]);
 
-  const season = useMemo(() => getSeason(dateKey) || LiturgicalSeason.ADVENT, [dateKey]);
+  const season = useMemo(() => getSeason(dateKey) || Season.ADVENT, [dateKey]);
 
   if (!calendar || !day) {
     return (
