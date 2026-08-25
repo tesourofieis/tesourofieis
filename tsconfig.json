@@ -1,5 +1,5 @@
 {
-  "$schema": "https://json.schemastore.org/tsconfig",
+  "$schema": "https://raw.githubusercontent.com/Effect-TS/language-service/refs/heads/main/schema.json",
   "compilerOptions": {
     "esModuleInterop": true,
     "skipLibCheck": true,
@@ -25,7 +25,8 @@
     "strictNullChecks": true,
     "module": "Preserve",
     "moduleResolution": "Bundler",
-    "noEmit": true
+    "noEmit": true,
+    "plugins": [{ "name": "@effect/language-service" }]
   },
   "include": ["src", "lib", "*.ts", "*.js", "nativewind-env.d.ts"],
   "exclude": ["node_modules", "build", "dist", ".expo"],

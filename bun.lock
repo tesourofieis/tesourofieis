@@ -11,6 +11,7 @@
         "@shopify/flash-list": "2.0.2",
         "@tailwindcss/postcss": "^4.1.16",
         "date-fns": "^3.6.0",
+        "effect": "^4.0.0-rc.111",
         "expo": "^56.0.12",
         "expo-application": "~56.0.3",
         "expo-asset": "~56.0.17",
@@ -54,6 +55,7 @@
         "react-native-worklets": "0.8.3",
       },
       "devDependencies": {
+        "@effect/language-service": "^0.87.2",
         "@effect/platform-bun": "^4.0.0-rc.111",
         "@effect/platform-node": "^4.0.0-rc.111",
         "@expo/metro-runtime": "~56.0.15",
@@ -64,7 +66,6 @@
         "@types/react": "~19.2.10",
         "@types/react-dom": "~19.2.0",
         "alchemy": "2.0.0-beta.74",
-        "effect": "^4.0.0-rc.111",
         "eslint": "^9.0.0",
         "eslint-config-expo": "~56.0.4",
         "expo-atlas": "^0.4.3",
@@ -313,6 +314,8 @@
     "@edge-runtime/primitives": ["@edge-runtime/primitives@6.0.0", "", {}, "sha512-FqoxaBT+prPBHBwE1WXS1ocnu/VLTQyZ6NMUBAdbP7N2hsFTTxMC/jMu2D/8GAlMQfxeuppcPuCUk/HO3fpIvA=="],
 
     "@edge-runtime/vm": ["@edge-runtime/vm@5.0.0", "", { "dependencies": { "@edge-runtime/primitives": "6.0.0" } }, "sha512-NKBGBSIKUG584qrS1tyxVpX/AKJKQw5HgjYEnPLC0QsTw79JrGn+qUr8CXFb955Iy7GUdiiUv1rJ6JBGvaKb6w=="],
+
+    "@effect/language-service": ["@effect/language-service@0.87.2", "", { "bin": { "effect-language-service": "cli.js" } }, "sha512-CfiSoaVQO8pZgaMZGw5VvMvRGybsJ2LaSDoLYaqiVGvo/YYPYVR2GzUKY0h1NtIweq/+SQ5XLrvtzPIttWQ0GQ=="],
 
     "@effect/platform-bun": ["@effect/platform-bun@4.0.0-rc.111", "", { "dependencies": { "@effect/platform-node-shared": "^4.0.0-rc.111" }, "peerDependencies": { "effect": "^4.0.0-rc.111" } }, "sha512-z6MF1ztw8oSvh4nlvI90wraB63ib5K67JPaSYtz5K9IIAgjXgXYC0hjbcqF+PlC9ytlQmu8tWzk2+yGePWWe5A=="],
 
