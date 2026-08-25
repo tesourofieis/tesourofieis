@@ -1,6 +1,5 @@
 import { describe, expect, test } from "bun:test";
 import { readFileSync, readdirSync, statSync } from "node:fs";
-import { missalSlugs } from "../content/missal/registry";
 import { join, relative } from "node:path";
 
 /**
@@ -35,8 +34,6 @@ function collectSlugs(dir: string, into: Set<string>): void {
 
 const slugs = new Set<string>();
 collectSlugs(join(APP, "missal"), slugs);
-// Registry-backed pages are valid slugs even without a .tsx file.
-for (const key of missalSlugs()) slugs.add(`missal/${key}`);
 
 function collectLinks(): { link: string; source: string }[] {
   const out: { link: string; source: string }[] = [];
