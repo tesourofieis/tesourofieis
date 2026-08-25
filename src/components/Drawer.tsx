@@ -12,6 +12,7 @@ import React, { useCallback, useEffect, useMemo, useState } from "react";
 import { ActivityIndicator, FlatList, Text, TouchableOpacity, View } from "react-native";
 import { getAllTopLevelDocs, getChildren } from "~/services/search";
 import { useSearchModal } from "~/components/Search";
+import { useFontContext } from "~/providers/fonts";
 
 interface CustomDrawerContentProps {
   navigation: {
@@ -47,6 +48,24 @@ export interface Docs {
 function normalizePathForMatching(path: string): string {
   return path.replace(/\/\([^)]+\)/g, "");
 }
+
+const TOP_LEVEL_TEXT = {
+  small: "font-ui-bold text-sm",
+  medium: "font-ui-bold text-base",
+  large: "font-ui-bold text-lg",
+} as const;
+
+const CHILD_TEXT = {
+  small: "font-ui text-xs",
+  medium: "font-ui text-sm",
+  large: "font-ui text-base",
+} as const;
+
+const ACTION_TEXT = {
+  small: "font-ui-medium text-xs",
+  medium: "font-ui-medium text-sm",
+  large: "font-ui-medium text-base",
+} as const;
 
 function pathsMatch(pathname: string, docUrl: string): boolean {
   const normalizedPathname = normalizePathForMatching(pathname);
@@ -103,10 +122,12 @@ const TreeItem = React.memo(
     const indent = level * chevronWidth;
 
     const isTopLevel = level === 0;
-    const itemText = isTopLevel
-      ? "text-sepia-700 dark:text-sepia-300 font-ui-bold text-[15px] flex-1"
-      : "text-sepia-700 dark:text-sepia-300 font-ui text-[14px] flex-1";
-    const activeText = "text-burgundy-600 dark:text-burgundy-300 font-ui-bold";
+    // UI chrome follows the user's font-size setting, one notch below the
+    // reading scale (see Typography's PAGE_FONT_SIZE_CLASS).
+    const { fontSize } = useFontContext();
+    const uiTextClass = isTopLevel ? TOP_LEVEL_TEXT[fontSize] : CHILD_TEXT[fontSize];
+    const itemText = `text-sepia-700 dark:text-sepia-300 ${uiTextClass} flex-1`;
+    const activeText = `${uiTextClass} text-burgundy-600 dark:text-burgundy-300 font-ui-bold`;
 
     return (
       <TouchableOpacity
@@ -165,6 +186,7 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
   const router = useRouter();
   const pathname = usePathname();
   const { toggleSearch } = useSearchModal();
+  const actionText = ACTION_TEXT[useFontContext().fontSize];
 
   const [expanded, setExpanded] = useState<Record<string, boolean>>({});
   const [allDocs, setAllDocs] = useState<Docs[]>([]);
@@ -432,7 +454,7 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
             <View style={{ width: 20, alignItems: "center" }}>
               <Search size={14} className="text-sepia-700 dark:text-sepia-300" />
             </View>
-            <Text className="font-ui-medium text-sm text-sepia-700 dark:text-sepia-300">
+            <Text className={`${actionText} text-sepia-700 dark:text-sepia-300`}>
               Pesquisar
             </Text>
           </TouchableOpacity>
@@ -471,7 +493,7 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
               />
             </View>
             <Text
-              className={`font-ui-medium text-sm ${
+              className={`${actionText} ${
                 pathname === "/calendario"
                   ? "text-burgundy-600 dark:text-burgundy-300 font-ui-bold"
                   : "text-sepia-700 dark:text-sepia-300"
@@ -486,7 +508,7 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
         {isLoadingInitialDocs ? (
           <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
             <ActivityIndicator size="large" />
-            <Text className="font-ui text-sm text-sepia-500 mt-2">A carregar...</Text>
+            <Text className={`${actionText} text-sepia-500 mt-2`}>A carregar...</Text>
           </View>
         ) : (
           <FlatList
@@ -539,7 +561,7 @@ export default function CustomDrawerContent({ navigation }: CustomDrawerContentP
           <View style={{ width: 20, alignItems: "center" }}>
             <Settings size={14} className="text-sepia-700 dark:text-sepia-300" />
           </View>
-          <Text className="font-ui-medium text-sm text-sepia-700 dark:text-sepia-300">
+          <Text className={`${actionText} text-sepia-700 dark:text-sepia-300`}>
             Configurações
           </Text>
         </TouchableOpacity>
