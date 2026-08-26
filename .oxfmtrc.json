@@ -11,7 +11,8 @@
     "assets/docs.json",
     "assets/search-index.json",
     "public",
-    "coverage"
+    "coverage",
+    ".agents"
   ],
   "sortPackageJson": {}
 }
