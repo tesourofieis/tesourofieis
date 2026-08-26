@@ -27,7 +27,7 @@ Tesouro dos Fiéis is a universal Catholic liturgical application that provides:
 - **NativeWind 5** - Tailwind CSS for React Native
 - **Expo Router** - File-based routing
 - **Bun test** - Testing framework
-- **oxlint + oxfmt + ESLint** - Code quality and formatting
+- **oxlint + oxfmt** - Code quality and formatting
 
 ## Getting Started
 
@@ -58,7 +58,7 @@ bun run build:web
 
 ```bash
 bun run check        # Type check entire project
-bun run lint         # Lint all code with oxlint + oxfmt + Expo ESLint
+bun run lint         # Lint all code with oxlint + oxfmt
 bun run test         # Run complete test suite
 bun run dev          # Start development server
 bun run prebuild # Build search index
@@ -97,12 +97,13 @@ bun run update
 - Prettier-compatible formatting via `.oxfmtrc.json`
 - `bun run fmt` to format, `bun run fmt:check` to verify
 
-### Linting (oxlint + ESLint)
+### Linting (oxlint)
 
-- oxlint with `eslint`, `oxc`, `react`, `unicorn`, `typescript` plugins
+- oxlint with `eslint`, `oxc`, `react` (incl. react-hooks), `unicorn`, `typescript`, `import` plugins
 - correctness/suspicious/perf categories at warn (`.oxlintrc.json`)
 - Custom **anti-slop** plugin (`tools/oxlint/anti-slop/`) enforces 10 rules as errors
-- Expo ESLint config runs last via `expo lint` for React Native rules
+- Expo-specific rules ported to the local **expo** plugin (`tools/oxlint/expo/`) as errors:
+  no-env-var-destructuring, no-dynamic-env-var, use-dom-exports
 
 ### TypeScript
 

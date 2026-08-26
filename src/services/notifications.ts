@@ -56,6 +56,7 @@ let notificationsModule: NotificationsContract = fallbackNotifications;
 let nativeNotificationsAvailable = false;
 
 try {
+  // oxlint-disable-next-line typescript/no-require-imports -- optional native module, must not throw at import time
   notificationsModule = require("expo-notifications") as NotificationsContract;
   nativeNotificationsAvailable = true;
 } catch (error) {

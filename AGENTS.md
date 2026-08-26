@@ -20,7 +20,7 @@ Tesouro dos Fiéis is a universal Catholic liturgical application that provides:
 ### Core Development
 
 - `bun run check` - Type check entire project
-- `bun run lint` - Lint all code with oxlint + oxfmt + Expo ESLint
+- `bun run lint` - Lint all code with oxlint + oxfmt
 - `bun run test` - Run complete test suite
 - `bun run dev` - Start development server
 - `bun run prebuild` - Build search index
@@ -50,16 +50,17 @@ Tesouro dos Fiéis is a universal Catholic liturgical application that provides:
 - Prettier-compatible formatting via `.oxfmtrc.json` (2-space indent default)
 - `bun run fmt` to format, `bun run fmt:check` to verify
 
-### Linting (oxlint + ESLint)
+### Linting (oxlint)
 
-- oxlint with `eslint`, `oxc`, `react`, `unicorn`, `typescript` plugins
+- oxlint with `eslint`, `oxc`, `react` (incl. react-hooks), `unicorn`, `typescript`, `import` plugins
 - Categories: correctness/suspicious/perf at warn (`.oxlintrc.json`)
 - Custom **anti-slop** plugin (`tools/oxlint/anti-slop/`) enforces 10 rules as errors:
   no-chained-type-assertions, no-conditional-empty-object-spread,
   no-known-value-widening, no-object-parameters, no-runtime-typeof,
   no-shape-in-symbol-names, no-unknown-parameters, no-unknown-type-aliases,
   no-unsafe-dictionary-type, no-widen-then-assert
-- Expo ESLint config runs last via `expo lint` for React Native rules
+- Expo-specific rules ported to the local **expo** plugin (`tools/oxlint/expo/`) as errors:
+  no-env-var-destructuring, no-dynamic-env-var, use-dom-exports
 
 ### TypeScript
 

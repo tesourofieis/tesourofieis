@@ -12,10 +12,14 @@
     "assets/search-index.json",
     "public",
     "coverage",
-    "tools/oxlint/anti-slop/**"
+    "tools/oxlint/anti-slop/**",
+    "tools/oxlint/expo/**"
   ],
-  "jsPlugins": [{ "name": "anti-slop", "specifier": "./tools/oxlint/anti-slop/index.ts" }],
-  "plugins": ["eslint", "oxc", "react", "unicorn", "typescript"],
+  "jsPlugins": [
+    { "name": "anti-slop", "specifier": "./tools/oxlint/anti-slop/index.ts" },
+    { "name": "expo", "specifier": "./tools/oxlint/expo/index.ts" }
+  ],
+  "plugins": ["eslint", "oxc", "react", "unicorn", "typescript", "import"],
   "categories": {
     "correctness": "warn",
     "suspicious": "warn",
@@ -26,6 +30,46 @@
     "eslint/no-shadow": "off",
     "eslint/no-await-in-loop": "off",
     "unicorn/no-array-sort": "off",
+
+    "eqeqeq": ["warn", "smart"],
+    "no-var": "error",
+    "no-unused-expressions": ["warn", { "allowShortCircuit": true, "enforceForJSX": true }],
+
+    "import/first": "warn",
+    "import/no-duplicates": "warn",
+    "import/no-unassigned-import": "off",
+
+    "no-useless-constructor": "warn",
+    "no-dupe-class-members": "error",
+    "typescript/array-type": ["warn", { "default": "array" }],
+    "typescript/consistent-type-assertions": [
+      "warn",
+      { "assertionStyle": "as", "objectLiteralTypeAssertions": "allow" }
+    ],
+    "typescript/no-empty-object-type": "warn",
+    "typescript/no-wrapper-object-types": "warn",
+    "typescript/no-extra-non-null-assertion": "warn",
+    "typescript/no-require-imports": [
+      "warn",
+      {
+        "allow": [
+          "\\.(aac|aiff|avif|bmp|caf|db|gif|heic|html|jpeg|jpg|json|m4a|m4v|mov|mp3|mp4|mpeg|mpg|otf|pdf|png|psd|svg|ttf|wav|webm|webp|xml|yaml|yml|zip)$"
+        ]
+      }
+    ],
+
+    "react/rules-of-hooks": "error",
+    "react/exhaustive-deps": "warn",
+    "react/no-unknown-property": "warn",
+    "react/no-this-in-sfc": "warn",
+    "react/display-name": "off",
+    "react/no-unescaped-entities": "off",
+    "react/jsx-no-target-blank": "off",
+
+    "expo/no-env-var-destructuring": "error",
+    "expo/no-dynamic-env-var": "error",
+    "expo/use-dom-exports": "error",
+
     "anti-slop/no-chained-type-assertions": "error",
     "anti-slop/no-conditional-empty-object-spread": "error",
     "anti-slop/no-known-value-widening": "error",
@@ -36,5 +80,11 @@
     "anti-slop/no-unknown-type-aliases": "error",
     "anti-slop/no-unsafe-dictionary-type": "error",
     "anti-slop/no-widen-then-assert": "error"
-  }
+  },
+  "overrides": [
+    {
+      "files": ["metro.config.js"],
+      "rules": { "typescript/no-require-imports": "off" }
+    }
+  ]
 }

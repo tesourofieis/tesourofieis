@@ -65,6 +65,7 @@ describe("rule composition pinning", () => {
   });
 
   test("each edition's definition carries its DO-sourced rubrics", () => {
+    // oxlint-disable-next-line typescript/no-require-imports -- lazy load avoids test-env cycles
     const { CALENDARS } = require("../../calendars") as typeof import("../../calendars");
 
     expect(CALENDARS["pre-55"].doVersion).toBe("Divino Afflatu - 1954");
@@ -80,6 +81,7 @@ describe("rule composition pinning", () => {
   });
 
   test("definitions resolve rules through their own rubrics", () => {
+    // oxlint-disable-next-line typescript/no-require-imports -- lazy load avoids test-env cycles
     const { CALENDARS } = require("../../calendars") as typeof import("../../calendars");
     for (const definition of Object.values(CALENDARS)) {
       const rules = definition.rules(getMassIndex(definition.id), definition.rubrics);
