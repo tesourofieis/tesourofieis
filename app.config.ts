@@ -1,8 +1,10 @@
 import type { ConfigContext, ExpoConfig } from "expo/config";
 
+const isDevelopment = process.env.APP_VARIANT === "development";
+
 export default ({ config }: ConfigContext): ExpoConfig => ({
   ...config,
-  name: "Tesouro dos Fiéis",
+  name: isDevelopment ? "Tesouro dos Fiéis (Dev)" : "Tesouro dos Fiéis",
   description: "Espaço dedicado à oração, exposição e preservação das santas tradições da Igreja.",
   slug: "tesourofieis",
   scheme: "com.tesourofieis.app",
@@ -24,7 +26,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   assetBundlePatterns: ["**/*"],
   android: {
     versionCode: 23,
-    package: "com.tesourofieis.app",
+    package: isDevelopment ? "com.tesourofieis.app.dev" : "com.tesourofieis.app",
     adaptiveIcon: {
       foregroundImage: "./assets/images/adaptive-icon.png",
       backgroundColor: "#1d2021",
@@ -101,7 +103,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     [
       "expo-navigation-bar",
       {
-        visibility: "immersive",
+        hidden: true,
       },
     ],
     [

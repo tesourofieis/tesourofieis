@@ -14,6 +14,8 @@ coverage
 # expo
 .expo/
 expo-env.d.ts
+/android
+/ios
 apps/expo/.gitignore
 apps/expo/ios
 apps/expo/android
