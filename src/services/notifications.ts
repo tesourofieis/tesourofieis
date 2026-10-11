@@ -8,6 +8,7 @@ type NotificationPermissionsResponse = {
 
 /** The subset of the expo-notifications API this app consumes. */
 type NotificationsContract = {
+  DEFAULT_ACTION_IDENTIFIER: typeof ExpoNotifications.DEFAULT_ACTION_IDENTIFIER;
   PermissionStatus: typeof ExpoNotifications.PermissionStatus;
   SchedulableTriggerInputTypes: typeof ExpoNotifications.SchedulableTriggerInputTypes;
   setNotificationHandler(
@@ -20,6 +21,8 @@ type NotificationsContract = {
   ): Promise<string>;
   cancelAllScheduledNotificationsAsync(): Promise<void>;
   getAllScheduledNotificationsAsync(): Promise<ExpoNotifications.NotificationRequest[]>;
+  getLastNotificationResponse(): ExpoNotifications.NotificationResponse | null;
+  clearLastNotificationResponse(): void;
   addNotificationResponseReceivedListener(
     listener: Parameters<typeof ExpoNotifications.addNotificationResponseReceivedListener>[0],
   ): NotificationListenerSubscription;
@@ -28,6 +31,7 @@ type NotificationsContract = {
 // The fallback shim decodes its plain-string members into the real enum
 // shapes at this boundary; each assertion is single and targeted.
 const fallbackNotifications: NotificationsContract = {
+  DEFAULT_ACTION_IDENTIFIER: "expo.modules.notifications.actions.DEFAULT",
   PermissionStatus: {
     GRANTED: "granted",
     DENIED: "denied",
@@ -47,6 +51,8 @@ const fallbackNotifications: NotificationsContract = {
   scheduleNotificationAsync: async () => "",
   cancelAllScheduledNotificationsAsync: async () => {},
   getAllScheduledNotificationsAsync: async () => [],
+  getLastNotificationResponse: () => null,
+  clearLastNotificationResponse: () => {},
   addNotificationResponseReceivedListener: () => ({
     remove: () => {},
   }),

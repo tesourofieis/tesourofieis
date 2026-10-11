@@ -6,12 +6,13 @@ import * as Application from "expo-application";
 import * as IntentLauncher from "expo-intent-launcher";
 import * as Linking from "expo-linking";
 import type * as ExpoNotifications from "expo-notifications";
-import { useRouter } from "expo-router";
+import { useRootNavigationState, useRouter } from "expo-router";
 import type React from "react";
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
 import { Alert, Platform } from "react-native";
 import { useCalendar } from "./calendar";
 import { Notifications, nativeNotificationsAvailable } from "~/services/notifications";
+import { startNotificationNavigation } from "~/services/notification-navigation";
 import { FIXED_INDULGENCES, getMovableIndulgence } from "~/lib/indulgences";
 
 export type Settings = {
@@ -134,6 +135,7 @@ const SettingsContext = createContext<SettingsContextType | undefined>(undefined
 
 export function SettingsProvider({ children }: React.PropsWithChildren) {
   const router = useRouter();
+  const navigationState = useRootNavigationState();
   const { calendar } = useCalendar();
 
   // Always use real clock for notification scheduling — never the user-selected display date.
@@ -695,16 +697,10 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
   }, [syncNotifications, isLoading]);
 
   useEffect(() => {
-    if (isWeb || !nativeNotificationsAvailable) return;
+    if (isWeb || !nativeNotificationsAvailable || !navigationState?.key) return;
 
-    const subscription = Notifications.addNotificationResponseReceivedListener((response) => {
-      const url = response.notification.request.content.data?.url;
-      if (url) {
-        router.navigate(url as string);
-      }
-    });
-    return () => subscription.remove();
-  }, [isWeb, router]);
+    return startNotificationNavigation(Notifications, (path) => router.navigate(path));
+  }, [isWeb, router, navigationState?.key]);
 
   const setNotificationPref = useCallback(
     async (key: keyof typeof prefKeyMap, enabled: boolean) => {
